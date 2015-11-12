@@ -64,6 +64,7 @@ To install this interceptor (assuming you have Flume installed and running):
  3. Build it: `mvn clean package`
  4. Copy the jar generated in the `target` directory into `<flume-home>/lib`
  5. `vim <flume-home>/conf/flume.conf` (or whatever the config file is):
+ 
 ```
 a1.sources.r1.interceptors = i1
 a1.sources.r1.interceptors.i1.type = uk.co.hadoopathome.flume.timestampbodyinterceptor.TimestampBodyInterceptor$Builder

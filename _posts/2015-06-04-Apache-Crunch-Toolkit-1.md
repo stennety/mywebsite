@@ -1,3 +1,8 @@
+---
+layout: post
+title: 'Apache Crunch Toolkit #1: Easily Run Jobs in Apache Crunch'
+---
+
 ## Introduction to Apache Crunch
 
 [Apache Crunch] is an incredibly useful Hadoop tool for extracting away the boilerplace produced by Java MapReduce jobs. Instead of clunky `map()` and `reduce()` methods, jobs are created as pipelines, similarly to Cascading. I've written a summary of Cascading vs Java MapReduce [here], and the majority of the discussion also applies to Crunch. There's also a great discussion of Cascading vs Crunch over at [Quora] - basically Cascading is good for jobs using basic data types with straightforward functionality, whereas Crunch is useful for more complex data types and algorithms.

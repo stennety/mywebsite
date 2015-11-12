@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Using MultipleOutputs with ORC in MapReduce'
+title: 'Scalding vs Java MapReduce'
 ---
 
 ## Introduction

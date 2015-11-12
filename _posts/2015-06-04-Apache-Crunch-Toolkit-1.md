@@ -24,7 +24,7 @@ To then run the pipeline (assuming `/tmp/crunch-demo/output/` is a directory tha
 
 And you've run a Crunch job! Alternately you can import the job into your favourite IDE and run the `WordCountTest.java` unit test. It's that simple! Let's look at how this works.
 
-```java WordCount.java
+```java
 	public static void main(String[] args) throws Exception {
 		Main(args, new Configuration());
 	}
@@ -40,7 +40,7 @@ And you've run a Crunch job! Alternately you can import the job into your favour
 
 Here my only changes are to modify the `main()` method and create a `Main()` method. The `Main()` method returns an integer based on the success of the job and so by extracting it from the `main()` method we're able to grab these integers.
 
-```java WordCountTest.java
+```java
 package com.example;
 
 import static org.junit.Assert.assertEquals;

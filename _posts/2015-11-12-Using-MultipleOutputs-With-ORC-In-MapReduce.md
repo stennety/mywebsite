@@ -21,7 +21,8 @@ I've been using it with a client as a potential [Apache Avro] replacement, and I
 Let's assume that we want to output two different datasets - one representing a cat and the other representing a person. The relevant parts of the Reducer class would look something like:
 
 ```java
-public class MultipleORCReducer extends Reducer<Text, NullWritable, NullWritable, Writable> {
+public class MultipleORCReducer extends
+    Reducer<Text, NullWritable, NullWritable, Writable> {
 private static final String PERSON_OUTPUT_NAME = "personOut";
 private static final String CAT_OUTPUT_NAME = "catOut";
 

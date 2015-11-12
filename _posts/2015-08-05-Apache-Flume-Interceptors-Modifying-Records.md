@@ -58,6 +58,7 @@ public void configure(Context context) {
 ## Installing
 
 To install this interceptor (assuming you have Flume installed and running):
+
  1. Check out this code: `git clone https://github.com/benwatson528/flume-timestamp-body-interceptor.git`
  2. Modify the `<flume.version>` property in `pom.xml` to correspond to your version of Flume
  3. Build it: `mvn clean package`
@@ -68,9 +69,8 @@ a1.sources.r1.interceptors = i1
 a1.sources.r1.interceptors.i1.type = uk.co.hadoopathome.flume.timestampbodyinterceptor.TimestampBodyInterceptor$Builder
 a1.sources.r1.interceptors.i1.separator = ,
 ```
- 6. Restart Flume
 
-Your data should now be appearing in the sink location with the timestamp appended to each record.
+Restart Flume and your data should now be appearing in the sink location with the timestamp appended to each record.
 
 [official Flume documentation]:https://flume.apache.org/FlumeUserGuide.html#flume-interceptors
 [GitHub repository]:https://github.com/benwatson528/flume-timestamp-body-interceptor

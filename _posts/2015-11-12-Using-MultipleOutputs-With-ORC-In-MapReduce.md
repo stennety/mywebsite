@@ -77,10 +77,10 @@ The elements of the driver class related to outputs are:
 private void prepareJob(Configuration conf, Job job) {
   //...
   conf.set("orc.create.index","true");
-  OrcNewOutputFormat.setCompressOutput(job,true);
-  OrcNewOutputFormat.setOutputPath(job,"<hdfs-output-location>");
-  MultipleOutputs.addNamedOutput(job,PERSON_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
-  MultipleOutputs.addNamedOutput(job,CAT_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
+  OrcNewOutputFormat.setCompressOutput(job, true);
+  OrcNewOutputFormat.setOutputPath(job, "<hdfs-output-location>");
+  MultipleOutputs.addNamedOutput(job, PERSON_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
+  MultipleOutputs.addNamedOutput(job,C AT_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
 }
 ```
 Again there's nothing crazy going on here, just three lines which should be included in any ORC MapReduce job, and then the usual `MultipleOutputs` commands.

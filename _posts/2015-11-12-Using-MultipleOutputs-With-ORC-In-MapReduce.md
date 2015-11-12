@@ -33,13 +33,17 @@ private Writable row;
 
 //ORC variables for the person
 private final String personStruct = "struct<name:string,age:int>";
-private final TypeInfo personTypeInfo = TypeInfoUtils.getTypeInfoFromTypeString(personStruct);
-private final ObjectInspector personOip = TypeInfoUtils.getStandardJavaObjectInspectorFromTypeInfo(personTypeInfo);
+private final TypeInfo personTypeInfo =
+    TypeInfoUtils.getTypeInfoFromTypeString(personStruct);
+private final ObjectInspector personOip =
+    TypeInfoUtils.getStandardJavaObjectInspectorFromTypeInfo(personTypeInfo);
 
 //ORC variables for the cat
 private final String catStruct = "struct<breed:string,colour:string>";
-private final TypeInfo catTypeInfo = TypeInfoUtils.getTypeInfoFromTypeString(catStruct);
-private final ObjectInspector catOip = TypeInfoUtils.getStandardJavaObjectInspectorFromTypeInfo(catTypeInfo);
+private final TypeInfo catTypeInfo =
+    TypeInfoUtils.getTypeInfoFromTypeString(catStruct);
+private final ObjectInspector catOip =
+    TypeInfoUtils.getStandardJavaObjectInspectorFromTypeInfo(catTypeInfo);
 
 @Override
 protected void reduce(Text key Iterable values, Context context) {
@@ -79,8 +83,10 @@ private void prepareJob(Configuration conf, Job job) {
   conf.set("orc.create.index","true");
   OrcNewOutputFormat.setCompressOutput(job, true);
   OrcNewOutputFormat.setOutputPath(job, "<hdfs-output-location>");
-  MultipleOutputs.addNamedOutput(job, PERSON_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
-  MultipleOutputs.addNamedOutput(job,C AT_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
+  MultipleOutputs.addNamedOutput(
+      job, PERSON_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
+  MultipleOutputs.addNamedOutput(
+      job, CAT_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
 }
 ```
 Again there's nothing crazy going on here, just three lines which should be included in any ORC MapReduce job, and then the usual `MultipleOutputs` commands.

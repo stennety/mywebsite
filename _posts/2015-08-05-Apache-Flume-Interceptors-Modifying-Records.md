@@ -29,6 +29,7 @@ This code is an adapted version of `[org.apache.flume.interceptor.TimestampInter
  - Appending the timestamp to the event body rather than adding it to the header.
 
 The key method here is:
+
 ```java
 public Event intercept(Event event) {
    byte[] eventBody = event.getBody();

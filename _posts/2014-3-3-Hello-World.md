@@ -2,7 +2,7 @@
 layout: post
 title: 'Using MultipleOutputs with ORC in MapReduce'
 ---
-# MapReduce MultipleOutputs with ORC Files: ORC Introduction
+## Introduction to ORC
 
 ORC (Optimised Row Columnar) is a relatively new format being heavily pushed by the Hadoop community. It offers many useful optimisations and features for storing columnar data. Some of its key features include:
  - Predicate pushdown - only the columns you need are read into Hive queries, as opposed to the entire row,
@@ -14,7 +14,7 @@ For more information on ORC, see [Owen O'Malley's Slideshare] or [Christian Prok
 
 I've been using it with a client as a potential [Apache Avro] replacement, and I've been very impressed so far. However, it is still quite young - even by Hadoop terms - and so there isn't a lot of content online for people wanting to use it. As such, I'll be posting tutorials for new uses.
 
-# MapReduce MultipleOutputs with ORC Files
+## MapReduce MultipleOutputs with ORC Files
 
 [HadoopCraft] has a great tutorial on using ORC as a MapReduce output. Outputting ORC files with more than one struct from a single MapReduce job is fairly straightforward, but requires some understanding of the ORC code.
 

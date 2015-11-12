@@ -54,7 +54,7 @@ protected void reduce(Text key Iterable values, Context context) {
 	this.orcRecord = new ArrayList();
 	this.orcRecord.add("Tabby");
 	this.orcRecord.add("ginger");
-	this.row = orcSerde.serialize(this.orcRecord, atOip);
+	this.row = orcSerde.serialize(this.orcRecord, catOip);
 	this.mOutputs.write(CAT_OUTPUT_NAME, NullWritable.get(), this.row);
 }
 
@@ -78,7 +78,7 @@ private void prepareJob(Configuration conf, Job job) {
   //...
   conf.set("orc.create.index","true");
   OrcNewOutputFormat.setCompressOutput(job,true);
-  OrcNewOutputFormat.setOutputPath(job,"<hdfs-output-location");
+  OrcNewOutputFormat.setOutputPath(job,"<hdfs-output-location>");
   MultipleOutputs.addNamedOutput(job,PERSON_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
   MultipleOutputs.addNamedOutput(job,CAT_OUTPUT_NAME, OrcNewOutputFormat.class, NullWritable.class, Writable.class);
 }

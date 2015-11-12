@@ -33,7 +33,7 @@ To calculate the number of distinct domains visited we now just need to simply s
 
 My complete code for secondary sort can be found on my [GitHub page]. Let's start by discussing the main `SecondarySortRunner` class and the outline of the code.
 
-```java SecondarySortRunner.java
+```java
 Pipeline pipeline = new MRPipeline(SecondarySortRunner.class, getConf());
 PCollection<String> lines = pipeline.readTextFile(inputPath);
 		
@@ -50,7 +50,7 @@ pipeline.writeTextFile(output, outputPath);
 ```
 There are two key parts to the secondary sort operation: that which creates `parsedLogTable` and that which creates `output`. Basically, `parsedLogTable` is created by the `HttpLogProcessor` method, which parses our raw input data into the format which is accepted by Crunch's secondary sort calculator. We then call the Crunch library method `SecondarySort.sortAndApply()` to perform the secondary sort.
 
-```java HttpLogProcessor.java
+```java
 public void process(String line,
 		Emitter<Pair<String, Pair<String, String>>> emitter) {
 	splitString = line.split(TAB_SEPARATOR);
@@ -65,7 +65,7 @@ This class is responsible for parsing our raw input data. Crunch requires that d
 
 As a disclaimer, this code has no error handling and should not be used in any kind of production environment. I just prefer to keep it short to aid in understanding.
 
-```java CountUniqueDomains.java
+```java
 public void process(Pair<String, Iterable<Pair<String, String>>> input,
 		Emitter<String> emitter) {
 	this.domainsVisited = 0L;

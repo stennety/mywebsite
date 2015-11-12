@@ -13,9 +13,9 @@ Apache Crunch has in-built support for creating `dot` files which visually show 
 Crunch can sometimes provide several different ways to solve a problem, and it can be difficult to know which solution is best without delving into source code. Viewing a graph representation of the execution plan allows you to ensure that the job is being processed in the way you expect. In future blogs on Crunch I'll be looking at different ways in which problems can be solved and using these graphs often.
 
 ## How do I create a pipeline execution plan visualisation?
-Simply add an output directory for the file to be stored in into the `Configuration()` object - this currently only works with the `MRPipeline`. I am using Crunch POM version 0.11.0-hadoop2:
+Simply add an output directory for the file to be stored in into the `Configuration()` object - this currently only works with the `MRPipeline`. I am using Crunch version `0.11.0-hadoop2`:
 
-```java VisualisationRunner.java
+```java
 ...
 public int run(String[] args) throws Exception {
     Configuration conf = getConf();

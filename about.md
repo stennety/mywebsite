@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Ben Watson, and I work in London for Big Data Partnership as a big data consultant (my views are representative of myself and not my company). I spend most of my time applying object-oriented design to data processing issues, using tools and languages such as MapReduce, Crunch, Avro, ORC, Pig, Hive and whatever other new big data tools look interesting.
+My name is Ben Watson, and I work in London for Big Data Partnership as a Senior Big Data Consultant (my views are representative of myself and not my company). I spend most of my time applying object-oriented design to data processing issues, using tools and languages such as MapReduce, HBase, Crunch, Avro, ORC, Pig, Hive and whatever other new big data tools look interesting.
 
 In my spare time I enjoy gradually getting worse at basketball and the guitar.
 

@@ -24,7 +24,7 @@ The application I have built uses a Kafka Streams pipeline to read data from a K
 The application itself can be run by following the [Confluent Quickstart guide](http://docs.confluent.io/3.0.0/streams/quickstart.html), with the following amendments:
 
  1. Create the topics `inputTopic` and `outputTopic` (or change `config.properties` within the project before building it).
- 2. Build the `kafka-streams-drools` project with `mvn clean install`, move the resulting far JAR onto the cluster, and then run it with `java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar uk.co.hadoopathome.kafkastreams.KafkaStreamsDroolsMain`. Do this step instead of executing the `./bin/kafka-run-class` command.
+ 2. Build the `kafka-streams-drools` project with `mvn clean install`, move the resulting fat JAR onto the cluster, and then run it with `java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar uk.co.hadoopathome.kafkastreams.KafkaStreamsDroolsMain`. Do this step instead of executing the `./bin/kafka-run-class` command.
 
 If a Kafka environment is already present, only follow step 2.
 

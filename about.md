@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi. I’m David Merrick. I’m a software quality engineer in Portland, OR.
 
-### More Information
+In my free time, I shoot photos, fly drones, run, and hike. I’m also the coolest guy in America (according to Google).
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)

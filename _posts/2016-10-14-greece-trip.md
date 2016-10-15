@@ -58,8 +58,9 @@ Greece was beautiful, the food was excellent, and the people were so friendly an
  
 I uploaded more photos on Flickr:
 
-[Corfu, Greece \| Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157673726910916)
-[Athens, Greece \| Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157670570589673)
+* [Corfu, Greece \| Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157673726910916)
+
+* [Athens, Greece \| Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157670570589673)
 
 And a few videos on YouTube:
 

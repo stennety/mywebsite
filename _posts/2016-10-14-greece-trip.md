@@ -57,10 +57,10 @@ We flew back to Corfu for a day to find that the sun had returned, and enjoyed a
 Greece was beautiful, the food was excellent, and the people were so friendly and welcoming. We hope to go back soon.
  
 I uploaded more photos on Flickr:
-* [Corfu, Greece | Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157673726910916)
-* [Athens, Greece | Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157670570589673)
+-[Corfu, Greece | Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157673726910916)
+-[Athens, Greece | Flickr](https://www.flickr.com/photos/42873456@N02/sets/72157670570589673)
 
 And a few videos on YouTube:
-* [Exploring the Acropolis - YouTube](https://www.youtube.com/watch?v=2XQPdn6O-r0)
-* [Exploring Athens - YouTube](https://www.youtube.com/watch?v=ihD3J6w-U9k)
-* [Agios Gordios, Corfu - YouTube](https://www.youtube.com/watch?v=1ObrWxzxZ6k)
+-[Exploring the Acropolis - YouTube](https://www.youtube.com/watch?v=2XQPdn6O-r0)
+-[Exploring Athens - YouTube](https://www.youtube.com/watch?v=ihD3J6w-U9k)
+-[Agios Gordios, Corfu - YouTube](https://www.youtube.com/watch?v=1ObrWxzxZ6k)

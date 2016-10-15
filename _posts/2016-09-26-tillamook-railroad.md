@@ -1,9 +1,9 @@
 ---
 layout: blog
+title: Exploring the Abandoned Tillamook Railroad
 published: false
 tags: ''
 ---
-Exploring the Abandoned Tillamook Railroad
 
 On Saturday, a group of friends and I went on a 9-mile trek along the abandoned Tillamook Railroad about 35 miles west of Portland. This railroad was originally constructed in 1906, but was damaged by storms in 1996 and subsequently fell into disrepair. It made for a nice, easy fall hike because of the fall colors, sun, and minimal elevation gain.
  

@@ -1,11 +1,16 @@
 ---
 layout: post
 title: Greece Trip
+published: true
 ---
 
 My girlfriend and I recently spent a week in Greece. Our *original* plan was to spend a week on the island of Corfu, part of the Ionian Islands off the Western coast.
 
+![Screenshot+2016-09-23+11.47.33.png]({{site.baseurl}}/media/Screenshot+2016-09-23+11.47.33.png)
+
 We enjoyed a couple of relaxing beach days after we arrived:
+
+![IMG_1294-Pano.jpg]({{site.baseurl}}/media/IMG_1294-Pano.jpg)
 
 And had some excellent food and Greek wine:
 
@@ -29,4 +34,4 @@ We flew back to Corfu for a day to find that the sun had returned, and enjoyed a
 Greece was beautiful, the food was excellent, and the people were so friendly and welcoming. We hope to go back soon.
  
 I uploaded more photos on Flickr:
-* 
+*

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Exploring the Abandoned Tillamook Railroad
-published: false
+published: true
 tags: ''
 ---
 

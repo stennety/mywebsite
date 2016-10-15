@@ -17,20 +17,15 @@ avatar: https://avatars1.githubusercontent.com/u/1791182?v=3&s=466
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email:
-  facebook:
   flickr: photos/42873456@N02/
   github: davidmerrick
   instagram: dmerica
   linkedin: davidemerrick
-  pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: mavidderrick
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: channel/UCkH0bhU7_RvRbe2uqyFjAcg
   googleplus: # anything in your profile username that comes after plus.google.com/
-
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -48,7 +43,6 @@ url: https://davidmerrick.github.io
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
 #
 # !! You don't need to change any of the configuration flags below !!
 #

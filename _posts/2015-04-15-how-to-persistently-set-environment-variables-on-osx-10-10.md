@@ -37,7 +37,7 @@ $ touch ~/Library/LaunchAgents/environment.plist
 
 Where "FOO" is the variable to set and "bar" is the value to set it to.
 
-3. Activate the plist file, either by restarting or by executing
+3\. Activate the plist file, either by restarting or by executing
 
 {% highlight shell %}
 $ launchctl load ~/Library/LaunchAgents/environment.plist

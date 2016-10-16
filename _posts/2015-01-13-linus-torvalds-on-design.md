@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Linus Torvalds on Design
 ---
 "Don’t ever make the mistake [of thinking] that you can design something better than what you get from ruthless massively parallel trial-and-error with a feedback cycle. That’s giving your intelligence much too much credit." --Linus Torvalds

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Using Imagemagick to remove GoPro fisheye distortion
 ---
 One of my coworkers recently discovered a trick to remove fisheye distortion on GoPro images using ImageMagick. This command does the trick:

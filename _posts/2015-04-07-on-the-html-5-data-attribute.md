@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: On the HTML 5 "data" attribute
 ---
 

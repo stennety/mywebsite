@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Reification vs. Erasure in Java Collections
 ---
 This is another concept I came across in Joshua Bloch's "Effective Java." According to [Wikipedia](https://en.wikipedia.org/wiki/Reification_(computer_science)),  "Reification is the process by which an abstract idea about a computer program is turned into an explicit data model or other object created in a programming language."

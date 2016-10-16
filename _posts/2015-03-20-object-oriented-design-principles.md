@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Object-oriented design principles
 ---
 I recently read [Head First Design Patterns](http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124/ref=sr_1_1?ie=UTF8&qid=1426828085&sr=8-1&keywords=head+first+design+patterns), and they had a handy set of Object-Oriented design principles that were repeated throughout the book that I wanted to document for reference.

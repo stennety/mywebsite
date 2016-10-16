@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to persistently set environment variables on OSX 10.10
 ---
 In OSX Yosemite, for security reasons, Apple disabled the ability to set environment variables from the /etc/launchd.conf file. But never fear, you can still set them with a LaunchAgent.
@@ -44,4 +44,3 @@ $ launchctl load ~/Library/LaunchAgents/environment.plist
 {% endhighlight %}
 
 Reference: [Setting environment variables via launchd.conf no longer works in OS X Yosemite? – Stack Overflow](Setting environment variables via launchd.conf no longer works in OS X Yosemite? – Stack Overflow)
-

@@ -7,7 +7,7 @@ On Friday, I hiked from Todd Lake to Broken Top with my sister. We'd read about 
 
 ![1.jpg]({{site.cdn_path}}/2014/08/31/1.jpg)
 _View of Mt. Bachelor from the Broken Top Crater trail._
-![2.jpg]({{site.cdn_path}}/2014/08/22/2.jpg)
+![2.jpg]({{site.cdn_path}}/2014/08/31/2.jpg)
 _Cloud formations en route to the lake._
-![3.jpg]({{site.cdn_path}}/2014/08/22/3.jpg)
+![3.jpg]({{site.cdn_path}}/2014/08/31/3.jpg)
 _Glacial lake at the turnaround point._

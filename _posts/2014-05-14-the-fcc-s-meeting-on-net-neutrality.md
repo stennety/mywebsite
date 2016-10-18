@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: The FCC's meeting on net neutrality
 ---
 The FCC is meeting tomorrow to discuss the new rules on Net neutrality. Here’s a brief explanation of the debate. Please take a few minutes to get familiar with the issue and make your voice heard; as a citizen of the Internet, this affects you.

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to add tab-completion to git commands and branches
 ---
 

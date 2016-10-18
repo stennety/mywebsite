@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 'VoIP hacks: how to spoof your caller ID as the White House''s phone number'
 ---
-A fun prank is to call friends, family, or strangers from the White House's phone number (202-456-2121). The reason that this is possible is that Vonage, Skype, and other VoIP providers fundamentally must be able to fake caller ID in order to route calls from the internet onto public phone networks (so presumably they’ve been doing some lobbying over the years).
+A fun prank is to call friends, family, or strangers from the White House's phone number (202-456-2121). The reason that this is possible is that Vonage, Skype, and other VoIP providers fundamentally must be able to fake caller ID in order to route calls from the Internet onto public phone networks.
 
 A Brief Technical Overview of Caller ID Spoofing:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to grayscale an image with CSS
 ---
 [CSS3 filters](http://www.html5rocks.com/en/tutorials/filters/understanding-css/) work in most browsers and allow web developers to add interesting effects to photos, including converting them to grayscale.

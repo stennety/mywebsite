@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: OSX terminal tricks
 ---
 1\. Pop up a message in the Finder

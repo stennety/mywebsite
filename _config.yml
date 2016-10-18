@@ -48,6 +48,7 @@ baseurl: ""
 #
 
 permalink: /:title/
+cdn_path: https://dl.dropboxusercontent.com/u/1649586/david-merrick.com
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

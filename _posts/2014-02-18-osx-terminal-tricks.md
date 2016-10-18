@@ -3,6 +3,7 @@ layout: post
 published: true
 title: OSX terminal tricks
 ---
+
 1\. Pop up a message in the Finder
 {% highlight shell %}
 osascript -e ‘tell app “Finder” to display dialog “Hello World”‘

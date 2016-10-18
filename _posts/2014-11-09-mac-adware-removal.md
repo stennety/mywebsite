@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Mac Adware removal
 ---
 I had to clean up a Mac with some browser hijacker malware recently. This tool proved to be the most effective.

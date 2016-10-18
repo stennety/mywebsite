@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Controlling iTunes from the OSX terminal
 ---
 There are several things you can do with iTunes in the OSX terminal.
@@ -58,4 +58,3 @@ Quit iTunes:
 {% highlight shell %}
 osascript -e 'tell application "iTunes" to quit'
 {% endhighlight %}
-

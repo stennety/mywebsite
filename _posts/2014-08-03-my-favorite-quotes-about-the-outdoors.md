@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: My favorite quotes about the outdoors
 ---
 The following is a collection of my favorite quotes related to the outdoors.

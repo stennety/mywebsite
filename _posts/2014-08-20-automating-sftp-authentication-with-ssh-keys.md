@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Automating SFTP authentication with SSH keys
 ---
 I spun up a VPS recently and needed to pull files down via SFTP. I automated this process by using SSH keys and a BASH script.

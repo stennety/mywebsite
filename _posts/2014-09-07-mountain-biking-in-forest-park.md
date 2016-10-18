@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Mountain biking in Forest Park
 ---
 Portland's Forest Park has some excellent mountain biking trails that I’m just starting to explore. Most of the park, including the Wildwood Trail, restricts access to hikers only. However, there are several fire lane entrances and trails that permit bikes. These include:

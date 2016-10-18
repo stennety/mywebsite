@@ -23,7 +23,7 @@ defaults write com.apple.screencapture location /new_location_here
 defaults write com.apple.finder AppleShowAllFiles true
 killall Dock
 
-\# And hide them again with
+# And hide them again with
 defaults write com.apple.finder AppleShowAllFiles false
 killall Dock
 {% endhighlight %}
@@ -57,7 +57,7 @@ sudo nvram SystemAudioVolume=%80
 {% highlight shell %}
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -clientopts -setvnclegacy -vnclegacy yes -clientopts -setvncpw -vncpw mypasswd -restart -agent -privs -all
 
-\# Disable remote desktop
+# Disable remote desktop
 
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -deactivate -configure -access -off
 {% endhighlight %}

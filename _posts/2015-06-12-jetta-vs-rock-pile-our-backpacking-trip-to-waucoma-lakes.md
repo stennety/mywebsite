@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Jetta vs. Rock Pile: our backpacking trip to Waucoma Lakes'
 ---
 (spoiler alert: the rock pile won)
@@ -53,10 +53,3 @@ The owner of the shop was kind enough to give us a ride to Double Mountain brewe
 Lesson learned: clearance is your friend on forest service roads. We were told that if we hadn’t made it to the pavement, the company wouldn’t have been able to tow it. In which case, we’d have had to leave it overnight. Which would’ve been okay except for the fact that abandoned cars tend to be popular targets for shooters in the area. So we got very lucky.
 
 All in all, we’re grateful we made it back to the pavement, grateful to have had so many kind strangers who helped us out, and grateful that we got to enjoy that backpacking trip. If you’re thinking of going yourself, I’d start at the Wahtum lake trailhead instead. The roads are much better there, and you could hike to Rainy Lake or use it as a base camp to explore the PCT.
-
-
-
-
-
-
-

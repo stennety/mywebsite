@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Working with thread events in Python
 ---
 I recently wrote a multithreaded download queue manager in Python. I had the actual file downloads running in its own thread. I only wanted the program to download during certain times of day, and decided to implement this functionality using thread events. I set up my threaded class method for downloading to accept a "stop\_event" parameter.
@@ -30,5 +30,3 @@ elif int(current_hour) == self.__dl_end_hour:
     # Unset stop event
     dl_stop.clear()
 {% endhighlight %}
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Java trick: Use an implicit "finally" block to automatically close a stream'
 ---
 In Java 7, an implicit _finally_ block will automatically close an output stream. Meaning that, instead of all this:

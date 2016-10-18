@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Daemonizing a Python script
 ---
 It's pretty straightforward to daemonize and communicate with a Python script using the PYRO (Python Remoting Objects) library. I found this example on StackOverflow recently and it worked for my purposes.

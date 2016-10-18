@@ -6,7 +6,7 @@ published: true
 
 My girlfriend and I recently spent a week in Greece. Our *original* plan was to spend a week on the island of Corfu, part of the Ionian Islands off the Western coast.
 
-![Screenshot+2016-09-23+11.47.33.png]({{site.baseurl}}/media/Screenshot+2016-09-23+11.47.33.png)
+![Screenshot+2016-09-23+11.47.33.png]({{site.cdn_path}}/2016/10/14/Screenshot+2016-09-23+11.47.33.png)
 
 We enjoyed a couple of relaxing beach days after we arrived:
 

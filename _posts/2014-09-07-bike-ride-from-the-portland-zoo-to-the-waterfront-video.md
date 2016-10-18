@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Bike ride from the Portland Zoo to the Waterfront [video]'
 ---
 I went on a ride last night with my uncle and his friend from the Portland Zoo to the waterfront, passing through Washington Park and the Pearl District on the way. It’s a fun route, and I’m looking forward to biking more in that area. (Disclaimer: Watch this video on small–I stabilized it but it’s still a little nauseating full screen.)

@@ -5,11 +5,11 @@ title: 'VoIP hacks: how to spoof your caller ID as the White House''s phone numb
 ---
 A fun prank is to call friends, family, or strangers from the White House's phone number (202-456-2121). The reason that this is possible is that Vonage, Skype, and other VoIP providers fundamentally must be able to fake caller ID in order to route calls from the Internet onto public phone networks.
 
-A Brief Technical Overview of Caller ID Spoofing:
+## A Brief Technical Overview of Caller ID Spoofing:
 
 What we'll do is register a free account at an ITSP, or Internet Telephony Service Provider, which acts as the bridge between the internet and the public American (or otherwise) analog telephony networks. We'll then configure the ITSP to use the White House’s phone number as our outbound caller ID. Finally, we'll connect to the ITSP using a free VoIP client, or softphone, to make our call using a PC.
 
-The 10-Minute Step-by-Step Process:
+## The 10-Minute Step-by-Step Process:
 
 1. Register a free account on [SIPGate.com](http://www.sipgate.com/).
 2. Download [X-Lite](http://www.counterpath.com/x-lite.html), a free VoIP client.

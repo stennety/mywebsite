@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to build a standing desk on the cheap with galvanized pipe
 ---
 I recently converted my old desk into a standing desk. I did this because of back pain from sitting for long hours studying, because I felt that it would make me more productive, and because recent studies have shown the harmful effects of sitting for extended periods of time.

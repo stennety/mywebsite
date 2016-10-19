@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 8 essential (and free) "cloud" apps for small businesses
 ---
 1. Documents/Calendar/E-mail: [Google Apps Standard Edition](http://www.google.com/apps/intl/en/group/index.html). Google Apps provides Gmail, Calendar, and Google Docs by default and hundreds of optional applications in their [Apps Marketplace](http://www.google.com/enterprise/marketplace/). I recently moved my e-mail accounts to Google (though this site is still hosted with HostGator) and it was a relatively painless process. Google provides 7GB of storage space shared between Gmail, Calendar, and Docs as well as an Exchange Server for syncing with your iPhone or Blackberry. In a later post, I’ll talk about setting up a VPN for securely sharing files and more using Google Apps.

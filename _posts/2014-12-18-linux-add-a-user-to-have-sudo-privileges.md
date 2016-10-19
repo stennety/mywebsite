@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Linux: Add a user to have sudo privileges'
 ---
 If there is no sudo group on your system, add one.

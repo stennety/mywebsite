@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to resize VirtualBox virtual machine storage on OSX
 ---
 I ran out of space on a VirtualBox Windows VM recently and needed to resize the virtual hard disk. I searched around and these are the steps that ultimately worked for me.

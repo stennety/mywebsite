@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: On Runtime Exceptions in Java
 ---
 From the [Java API Docs](http://docs.oracle.com/javase/7/docs/api/java/lang/RuntimeException.html):

@@ -17,3 +17,4 @@ And whatever length of pipe necessary for the desk you are working with. The mos
 
 I was able to build this standing desk for under $80 (monitors and monitor stand not included, obviously). Keep in mind that I did reuse the top of my old desk. In any case, this was much more cost-effective than any other standing desk setup I have seen, and it has worked very well!
 
+![standingdesk-942x1024.jpg]({{site.cdn_path}}/2012/12/30/standingdesk-942x1024.jpg)

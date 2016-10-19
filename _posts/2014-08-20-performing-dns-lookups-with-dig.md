@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Performing DNS lookups with Dig
 ---
 My coworker was configuring a Windows Update server recently, and the domain was being blocked. We realized that there was a DNS entry that redirected Windows Update traffic to a local server. The way that we discovered this was with the Unix "dig" command.
@@ -28,7 +28,3 @@ nslookup windowsupdate.com
 {% endhighlight %}
 
 NSLookup also works on Unix, but dig provides more information about a given domain.
-
-
-
-

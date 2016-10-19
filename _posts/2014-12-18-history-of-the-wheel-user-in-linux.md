@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: History of the wheel user in Linux
 ---
 Found this on Wikipedia today. Pretty interesting.

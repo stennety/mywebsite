@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Remixing the web, part 1: Pulling RSS feeds from static pages'
 ---
 Real-time data is the future of the web. Unfortunately, this future is far from evenly-distributed, and many times you’re not able to make use of information because of this. Consider the following scenarios:

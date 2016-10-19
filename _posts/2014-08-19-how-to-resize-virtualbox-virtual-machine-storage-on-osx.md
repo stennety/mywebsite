@@ -11,8 +11,8 @@ I ran out of space on a VirtualBox Windows VM recently and needed to resize the 
 4. Power up the VM.
 5. Right click on “Computer” and choose “Manage.” Go to “Storage,” right click on the volume, and choose “Extend Volume.”  Follow the prompts to expand the partition to fill the newly-allocated space.
 
-![1.jpg]({{site.cdn_path}}/2014/08/19/1.jpg)
-![2.jpg]({{site.cdn_path}}/2014/08/19/2.jpg)
+![1.png]({{site.cdn_path}}/2014/08/19/1.png)
+![2.png]({{site.cdn_path}}/2014/08/19/2.png)
 
 Troubleshooting:
 

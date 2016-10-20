@@ -18,14 +18,20 @@ title: 'Ales on trails: Eleven epic hikes I did this summer'
 
 ![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer7.jpg)
 ![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer8.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer21.jpg)
 
 3\. Cape Horn (7 mi): There are only a couple of viewpoints and most of the hike is in the forest. The viewpoints are worth it, though. One of them overlooks Cigar Rock. The trail is still being developed and not well marked. You’ll come across a bunch of identical and useless signs saying “Horses <-, viewpoint ->.” Just take the paths toward the viewpoints and you’ll find your way.
 
 ![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer11.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer22.jpg)
 
 4\. Beacon Rock (1.9 mi): Short, sweet, steep, with some great views the entire way. Cons: lots of tourists.
 
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer9.jpg)
+
 5\. Hamilton Mountain (7.5 mi): Right next to Beacon Rock and Dog Mountain. Went with Henry Olson. Lots of switchbacks but a great view of Hood and Adams at the top. There’s also a geocache. Your mission, should you choose to accept it, is to find it. Oh, and watch out for cougars.
+
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer10.jpg)
 
 6\. Munra Point (5 mi): The scariest, most vertigo-inducing-est hike I’ve ever done. More of a scramble than a hike, and there are some sections where you literally have to boulder up on jagged rocks. The climb eventually culminates in the “Death Ridge” at the top. If you walk to the end of this ridge, you’ll be rewarded with an incredible view of the Gorge near the Bonneville Dam. A few words of advice: 1. As you go up, don’t think about how you’re going to get down. You’ll figure it out out of necessity. 2. Plan on getting cut up. 3. Bring Tecnu if you’re allergic to Poison Oak because there’s a ton of it up there.
 

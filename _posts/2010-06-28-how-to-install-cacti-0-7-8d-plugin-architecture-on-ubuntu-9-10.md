@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to install Cacti 0.7.8D plugin architecture on Ubuntu 9.10
 ---
 Original Problem: My ISP is fast but they limit my monthly bandwidth.
@@ -68,5 +68,3 @@ include_once($config["include_path"] . "/global_form.php");
 And you should be good to go! I hope it helps, and if not, please post a comment and I’ll see what I can do!
 
 PS: If you are still having problems with your install, try [this older (but still relevant) guide](http://www.askaboutphp.com/42/cacti-ubuntu-cacti-plugin-invalid-php_self-path.html).
-
-

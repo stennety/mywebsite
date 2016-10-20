@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 2 simple ways to get a real person on the phone
 ---
 As we’re all painfully aware, IVR (Interactive Voice Response) systems are overused as a bad substitute for real customer service. Here are two simple ways to get around most of the ones you’ll ever encounter:

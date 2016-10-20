@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Ales on trails: Eleven epic hikes I did this summer'
 ---
  spent most of my weekends this summer exploring the Columbia River Gorge. Here are some of my favorite places I visited.

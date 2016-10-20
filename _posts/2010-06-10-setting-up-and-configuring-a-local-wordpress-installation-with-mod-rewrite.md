@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Setting up and configuring a local Wordpress installation with mod_rewrite
 ---
 I recommend setting up a local WordPress installation to test any new plugins before you install them on your live site because I’m a firm believer in Murphy’s law. I can’t say how many times I’ve run into embarrassing, unexpected compatibility issues with older WordPress versions or other plugins that took my site offline. It’s easy to repair a damaged local site, but not so easy to repair a bigger site with more traffic while it’s live. You would think that this would be a straightforward process given the millions of blogs on the internet there using WordPress, but I’ve found that most of the time it’s a pain.
@@ -52,7 +52,3 @@ $ sudo /etc/init.d/apache2 restart
 {% endhighlight %}
 
 After that, download your site’s files into your local directory, export your database from your site (follow [this guide](http://stereointeractive.com/blog/2010/04/19/moving-wordpress-site-to-another-server/)), and import it locally and you shouldn’t have any problems. Enjoy!
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Remixing the Web, part 2: Using Yahoo Pipes'
 ---
 Yahoo Pipes is the Swiss-army chainsaw of remixing the web. It pulls in data from any web pages, spreadsheets, or RSS feeds that you choose and can filter, extract information (like prices or e-mail addresses),  overlay it on a map, and much more. I’ve used it to:

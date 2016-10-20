@@ -7,9 +7,21 @@ title: 'Ales on trails: Eleven epic hikes I did this summer'
 
 1\. Silver Star Mountain (8 mi): Not technically in the Gorge but within a couple hours of Portland. Assuming you don’t get lost en route and that your car survives the 10-mile drive on pothole-ridden forest service roads (my car broke down a week later. Coincidence?), this trail involves just 1240 feet of elevation gain and you feel like you’re hiking in the Alps. Win-win.
 
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer1.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer2.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer3.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer4.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer5.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer6.jpg)
+
 2\. Dog Mountain (7 mi): One of my first and favorite hikes I did in the Gorge. It’s a bit of a climb but the view is amazing for the last mile or so of the ascent. And, conveniently (as with all hikes in the Gorge), McMenamins Edgefield Pub is on the way back.
 
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer7.jpg)
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer8.jpg)
+
 3\. Cape Horn (7 mi): There are only a couple of viewpoints and most of the hike is in the forest. The viewpoints are worth it, though. One of them overlooks Cigar Rock. The trail is still being developed and not well marked. You’ll come across a bunch of identical and useless signs saying “Horses <-, viewpoint ->.” Just take the paths toward the viewpoints and you’ll find your way.
+
+![]({{site.cdn_path}}/2013/09/26/some-epic-hikes-i-did-this-summer11.jpg)
 
 4\. Beacon Rock (1.9 mi): Short, sweet, steep, with some great views the entire way. Cons: lots of tourists.
 

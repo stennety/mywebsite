@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Chrome plugins for automated web browser testing
 ---
 Here’s a list of plugins I’ve found useful in writing automated Selenium tests for Chrome:

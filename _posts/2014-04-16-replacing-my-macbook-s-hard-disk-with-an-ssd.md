@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Replacing my MacBook's hard disk with an SSD
 ---
 After using my roommate’s new late 2013 MacBook Pro and seeing the performance he was getting with his SSD, I decided to upgrade mine. I own a mid-2012 13″ model, but this upgrade should be compatible with most unibody MacBook Pros from the past few years.

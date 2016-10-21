@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to return an array to a Robot variable
 ---
 (And by "Robot," I mean the Robot Framework)

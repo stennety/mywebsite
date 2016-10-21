@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Software engineering abbreviations
 ---
 We use a lot of abbreviations in this field. I’ve started this post as a way of keeping track of all of them.

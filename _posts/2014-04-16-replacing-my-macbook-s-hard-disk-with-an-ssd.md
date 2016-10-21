@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Replacing my MacBook's hard disk with an SSD
 ---
 After using my roommate’s new late 2013 MacBook Pro and seeing the performance he was getting with his SSD, I decided to upgrade mine. I own a mid-2012 13″ model, but this upgrade should be compatible with most unibody MacBook Pros from the past few years.
@@ -26,7 +26,9 @@ Keep these things in mind:
 * Since a discharge of static electricity can damage your laptop, it’s recommended to use an anti-static bracelet like this one. I didn’t think to buy one of these before I went through the process, but I was very careful. I changed into some tighter clothing before starting, and made sure to touch metal every so often to discharge any accumulated static.
 * Use shot glasses or egg cartons to hold the screws, and make sure to keep these containers in order of recency. This will make it much easier to put your laptop back together afterwards.
 
-
+![]({{site.cdn_path}}/2014/04/16/2.jpg)
+![]({{site.cdn_path}}/2014/04/16/4.jpg)
+![]({{site.cdn_path}}/2014/04/16/3.jpg)
 
 Next steps:
 

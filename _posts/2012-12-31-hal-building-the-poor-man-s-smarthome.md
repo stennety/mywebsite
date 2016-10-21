@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'HAL: Building the poor man''s smarthome'
 ---
 As a kid, I thought it would be awesome to own a smart home. In 2009, I decided to make that dream a reality and started on the project. For the past three years, I have built on it and I now present a comprehensive guide to automating your home on the cheap. I call my system HAL, after the evil computer from "[2001: A Space Odyssey](http://www.imdb.com/title/tt0062622/)," and as an abbreviation for Home Automation with Linux.

@@ -23,13 +23,19 @@ Some future ideas:
 * A CCTV system.
 * An aquarium filled with sharks that have lasers.
 
+![]({{site.cdn_path}}/2012/12/31/Dr_Evil.jpg)
+
 ## 1\. Choosing the computer
 
 To meet the requirements of being Linux-based and using a minimum amount of power, I knew I would need a plug computer that used a low-power ARM processor. After some research, I found the perfect one.
 
+![]({{site.cdn_path}}/2012/12/31/DreamPlug.jpg)
+
 The [DreamPlug](http://www.globalscaletechnologies.com/t-dreamplugdetails.aspx) ($160) is a tiny, embedded ARM plug computer that sips power at 5W, has 2 USB ports, 2 Ethernet ports, 4GB of Flash-based storage space, and runs a Debian OS (the new one runs Ubuntu).
 
 ## 2\. Choosing the hardware
+
+![]({{site.cdn_path}}/2012/12/31/UPS.jpg)
 
 Solving the problem of having the computer stay online during a power outage was a simple matter of buying a Uninterruptible Power Supply (UPS). I bought an [APC BE350G](http://www.amazon.com/gp/product/B001985SWW/ref=wms_ohs_product) that suited my needs on Amazon for $50.
 
@@ -43,7 +49,11 @@ To receive messages from the door and window sensors, I picked up a W800RS32A re
 
 The lightswitches were a little tricky to install but eventually I was able to connect the correct wires. I am no electrician by any stretch of the imagination so this took a lot of trial-and-error the first time. Definitely take precautions before you do this. **Make sure the power is shut off to the lights you are working on.** Remember that the white wire is for ground. It may be helpful to mark the cables with colored tape, like I did.
 
+![]({{site.cdn_path}}/2012/12/31/LightSwitch.jpg)
+
 To get the doorbell to transmit signals when rung, I added an extra circuit and connected it to an X10 Powerflash module. This module transmits a signal when the contact is closed. It’s not the most elegant solution to monitoring a doorbell, because it needs to be plugged in to an outlet in order to work. This was, however, the most reliable solution to the problem. I tried using a DS10A and getting the solenoid on the doorbell to close the magnetic switch to trigger a signal, but had limited success. I will post an update if I get it working.
+
+![]({{site.cdn_path}}/2012/12/31/Doorbell.jpg)
 
 ## 4\. The software
 
@@ -52,6 +62,8 @@ With the hardware installed, it’s now time for the fun part.
 To communicate with and monitor the W800RS32A and the CM11A, I used [heyu](http://www.heyu.org/). There is extensive documentation on their website, and it is incredibly easy to write scripts that are triggered by input from the X10 sensors.
 
 ### Controlling the lights from a phone
+
+![]({{site.cdn_path}}/2012/12/31/X10Commander.jpg)
 
 X10 Commander ($10, [iPhone](https://itunes.apple.com/us/app/x10-commander/id293175400?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.melloware.x10.android&hl=en)) is the perfect way to control your smarthome from your phone for the same price as an X10 module. A how-to guide to setting up the server shell script for the app to communicate with can be found [here](https://www.assembla.com/wiki/show/melloware/Linux_HEYU_Guide). To be able to control your lights from anywhere in the world, use [DynDNS](http://dyn.com/dns/) on your router and forward port 3003 to the address of your DreamPlug.
 
@@ -62,6 +74,8 @@ One of my requirements was that the smarthome must know if I am home or not. To 
 ### Sending text messages
 
 I looked into various options for sending text messages, all of which charged money per text. To avoid the possibility that a software error might result in thousands of texts being sent out, I knew I needed a free alternative. So I used Twitter.
+
+![]({{site.cdn_path}}/2012/12/31/TwitterSMS.png)
 
 I created a private Twitter account for my apartment, registered an app with an API key, and used a Python script I found on Google to communicate with Twitter’s API using that key. I then followed my apartment’s Twitter account and chose the “Get updates by SMS” option. Done.
 

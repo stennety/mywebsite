@@ -9,3 +9,6 @@ Go to Settings -> Search -> Manage Search Engines
 
 Add your search engine at the bottom.
 
+
+
+Then, type your keyword in the address bar to activate it.

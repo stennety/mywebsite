@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Modifying the X10 DS10A sensor
 ---
 Sure, more and more WiFi-connected home automation gadgets are being released on the market. But most of them are prohibitively expensive, and it’s still very early in the Internet of Things era. Who knows how the market will shape up in the next decade; New protocols will be developed, better products will be released, prices will drop. Why waste hundreds of dollars speculating on the technology of tomorrow when the technology of yesterday works just as well, and is cheaper?

@@ -9,6 +9,11 @@ Last semester, I had the incredible opportunity to meet Alexis Ohanian, the co-f
 
 He gave one of the most entertaining and inspiring talks I’ve ever attended, and his Powerpoint slides were hilarious.
 
+![]({{site.cdn_path}}/2014/04/15/2.jpg)
+![]({{site.cdn_path}}/2014/04/15/3.jpg)
+![]({{site.cdn_path}}/2014/04/15/4.jpg)
+![]({{site.cdn_path}}/2014/04/15/5.jpg)
+![]({{site.cdn_path}}/2014/04/15/6.jpg)
 ![]({{site.cdn_path}}/2014/04/15/7.jpg)
 
 After the talk, I purchased a copy of his book and got it signed. He told me he had a friend who looked just like me, so this is what he wrote.

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Useful Intellij HotKeys and tricks in OSX
 ---
 Search everywhere: Shift + Shift

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Installing FreeNAS 9.2.1 on a USB drive using the ISO
 ---
 I’m on a budget, and needed a NAS for Time Machine backups. I happened to have 8GB of RAM, an old AMD Athlon X2 machine, and 7 Western Digital Caviar Green 1 TB drives to spare. I did not, however, have a CD drive, so I was stuck installing purely using the ISO and USB drives. After I assembled the machine, I ran into many headaches getting FreeNAS to actually install.

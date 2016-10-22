@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Image Lake Hike
 ---
 ![]({{site.cdn_path}}/2014/08/19/3.jpg)

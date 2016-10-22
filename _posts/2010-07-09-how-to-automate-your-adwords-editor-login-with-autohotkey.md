@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to automate your Adwords Editor login with AutoHotkey
 ---
 I love Adwords Editor, but I hate logging in every time I use it because my password is so long that I have to open a browser, log in to Lastpass, copy my password, and then paste it into the login box. I can understand the security considerations by Google, but still prefer to avoid tediousness and repetition when I’m trying to get work done. Here’s my solution:

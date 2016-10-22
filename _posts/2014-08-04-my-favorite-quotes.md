@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: My favorite quotes
 ---
 The following is a collection of some of my favorite quotes. I’m working on getting accurate citations for some of them.
@@ -56,4 +56,4 @@ The following is a collection of some of my favorite quotes. I’m working on ge
 “Live as if you were to die tomorrow. Learn as if you were to live forever.”
 Mahatma Gandhi
 
-“The bull is stronger, but the matador is smarter.” –Muhammad Ali 
+“The bull is stronger, but the matador is smarter.” –Muhammad Ali

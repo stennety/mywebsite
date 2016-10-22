@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to change the default screenshot directory on OSX
 ---
 {% highlight shell %}

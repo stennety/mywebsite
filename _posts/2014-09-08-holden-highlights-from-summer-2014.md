@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Holden highlights from Summer 2014
 ---
 This summer was a very unique time to be in Holden Village. Rio Tinto’s $200+ million mine remediation project was running full-throttle and extensive infrastructure projects were undertaken in the absence of guests. The following is a list of some of the major happenings of the summer.
@@ -86,4 +86,3 @@ On the day the new pastor arrived, we all raided the costume shop and then made 
 ![]({{site.cdn_path}}/2014/09/08/pastor_4.jpg)
 ![]({{site.cdn_path}}/2014/09/08/pastor_5.jpg)
 ![]({{site.cdn_path}}/2014/09/08/pastor_6.jpg)
-

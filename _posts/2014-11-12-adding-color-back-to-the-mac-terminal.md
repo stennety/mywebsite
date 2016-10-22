@@ -15,3 +15,5 @@ Remember to reload it when you’re done editing with
 {% highlight shell %}
 source ~/.bash_profile
 {% endhighlight %}
+
+![]({{site.cdn_path}}/2014/11/12/1.jpg)

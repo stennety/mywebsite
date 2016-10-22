@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to secure a Linux server from unauthorized SSH access
 ---
 I’ve been doing a lot with [reverse SSH tunnels](https://www.david-merrick.com/2014/10/19/creating-an-ad-hoc-vpn-on-osx-using-reverse-ssh-tunnels-and-launch-daemons/) for remote support lately, and wanted to make sure that my VPS was locked down. Here are the steps I took to make that happen.

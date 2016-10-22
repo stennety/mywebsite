@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: My summer in the mountains
 ---
 ![]({{site.cdn_path}}/2014/10/22/1.jpg)

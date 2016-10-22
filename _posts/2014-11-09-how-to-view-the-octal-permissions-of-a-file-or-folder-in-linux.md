@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to view the octal permissions of a file or folder in Linux
 ---
 {% highlight shell %}

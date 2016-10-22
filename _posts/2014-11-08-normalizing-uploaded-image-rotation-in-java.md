@@ -9,8 +9,7 @@ We had a bug recently in a software project I was working with in which uploaded
 
 This flag is an integer, and there are 8 different ways it can be set. These values corresponding to 90-degree increments of rotation for the image and 90-degree increments of rotation for the flipped image.
 
-
-
+![]({{site.cdn_path}}/2014/11/08/EXIF_Orientations-1.gif)
 
 It turns out that the way devices handle image rotation and the way browsers render it is not standardized. At all.  Most browsers ignore this flag entirely. And image capture devices handle it in widely-varying ways. After taking a photo, some devices rotate the image, save it, and don’t set the flag. Some of them just save the image as-is and set the flag. And some of them don’t set the flag at all.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'TIL: Browsers do not pass the referer string when on an HTTPS page'
 ---
 The HTTP Referer (originally a misspelling of “referrer”) header field identifies the address of a web page that linked to the resource being requested. It is a widely-used feature around the Web that is often used for analytics (in particular, identifying where a website’s traffic has come from).

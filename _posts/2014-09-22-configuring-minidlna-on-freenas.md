@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Configuring MiniDLNA on FreeNAS
 ---
 I was looking for a guide on how to do this, and the one that finally worked for me was found [here](http://www.overclock.net/t/1424351/freenas-9-1-setup-guide). I copied it for reference and made a few minor corrections.

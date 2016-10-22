@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to use Google as your own free content distribution network
 ---
 With prices falling on hosting costs and Google placing more SEO value on  site load speed, Content Distribution Networks (CDNs) are rapidly becoming more relevant and practical. In this article, I’ll show you how to leverage Google’s App Engine servers into **your own free CDN!**

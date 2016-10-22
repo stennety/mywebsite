@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Using meta classes in Python to create a Constants class
 ---
 I was writing some Python code for a project and needed a class to hold constants. Unfortunately, Python doesn’t natively support constants or static classes. After trying several different methods of implementing a constants class in this language, I decided to use a meta class. The code looks like this:

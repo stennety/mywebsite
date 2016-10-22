@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to setup SSH key-based authentication
 ---
 Want to log in to your Linux server without using your password AND be more secure? You can do this with SSH keys.

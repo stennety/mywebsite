@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Adding color back to the Mac terminal
 ---
 Did your terminal lose color after changing the color scheme? Add it back with these two lines in ~/.bash\_profile.

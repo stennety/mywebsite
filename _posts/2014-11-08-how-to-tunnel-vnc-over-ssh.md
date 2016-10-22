@@ -3,6 +3,8 @@ layout: post
 published: false
 title: How to tunnel VNC over SSH
 ---
+![]({{site.cdn_path}}/2014/11/08/vnc.jpg)
+
 My sister teaches in Qatar and got some browser-hijacker malware on her MacBook. I was happy to help her fix it, but I was unfortunately not able to travel the 7,500 miles to take care of the problem in person. I sent her some terminal commands over iMessage which she executed to set up a reverse SSH tunnel to my VPS. I used this to give me shell access to the machine. But I still needed to see the screen. Fortunately, OSX provides access to a ton of functionality through the terminal.
 
 VNC stands for “Virtual Network Computing,” and is the protocol that OSX uses for remote desktop connections.
@@ -31,7 +33,7 @@ ssh -v -L9000:localhost:9000 user1@machine1 -t ssh -v -L9000:localhost:5900 user
 Now, you should be able to connect over VNC to the remote Mac. OSX has a remote desktop client built in. Simply open Safari and visit this URL to launch it.
 {% endhighlight %}
 
-
+![]({{site.cdn_path}}/2014/11/08/vnc2.jpg)
 
 Finally, disable remote desktop for security purposes.
 

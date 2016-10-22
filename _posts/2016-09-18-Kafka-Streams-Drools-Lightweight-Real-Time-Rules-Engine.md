@@ -21,11 +21,34 @@ Clearly then Kafka Streams can provide a solution for allowing Drools to be appl
 
 The application I have built uses a Kafka Streams pipeline to read data from a Kafka topic, apply a simple rule (if the input String contains an `e` it prepends the message with `0`), and write it to an output topic. The code for this application can be found [on my GitHub](https://github.com/benwatson528/kafka-streams-drools). It contains an integration test which sets up a local Kafka and Zookeeper environment (this won't work on Windows), which is probably the best starting point for investigating.
 
+The central method of the code is:
+
+
+```java
+public static KafkaStreams runKafkaStream(PropertiesConfiguration properties) {
+    String droolsRuleName = properties.getString("droolsRuleName");
+    DroolsRulesApplier rulesApplier = new DroolsRulesApplier(droolsRuleName);
+    KStreamBuilder builder = new KStreamBuilder();
+
+    String inputTopic = properties.getString("inputTopic");
+    String outputTopic = properties.getString("outputTopic");
+    KStream<byte[], String> inputData = builder.stream(inputTopic);
+    KStream<byte[], String> outputData = inputData.mapValues(rulesApplier::applyRule);
+    outputData.to(outputTopic);
+
+    Properties streamsConfig = createStreamConfig(properties);
+    KafkaStreams streams = new KafkaStreams(builder, streamsConfig);
+    streams.start();
+
+    Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
+
+    return streams;
+}
+```
+
 The application itself can be run by following the [Confluent Quickstart guide](http://docs.confluent.io/3.0.0/streams/quickstart.html), with the following amendments:
 
  1. Create the topics `inputTopic` and `outputTopic` (or change `config.properties` within the project before building it).
- 2. Build the `kafka-streams-drools` project with `mvn clean install`, move the resulting fat JAR onto the cluster, and then run it with `java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar uk.co.hadoopathome.kafkastreams.KafkaStreamsDroolsMain`. Do this step instead of executing the `./bin/kafka-run-class` command.
+ 2. Build the `kafka-streams-drools` project with `mvn clean install`, move the resulting fat JAR onto a node within the cluster, and then run it with `java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar uk.co.hadoopathome.kafkastreams.KafkaStreamsDroolsMain`. Do this step instead of executing the `./bin/kafka-run-class` command.
 
 If a Kafka environment is already present, only follow step 2.
-
-Part two of this blog post will look at using Docker to automate the Confluent Quickstart guide and automatically prepare the application.

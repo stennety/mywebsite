@@ -9,6 +9,8 @@ Go to Settings -> Search -> Manage Search Engines
 
 Add your search engine at the bottom.
 
-
+![]({{site.cdn_path}}/2014/11/13/1.jpg)
 
 Then, type your keyword in the address bar to activate it.
+
+![]({{site.cdn_path}}/2014/11/13/2.jpg)

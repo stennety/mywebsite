@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to edit a public Google map
 ---
 I was looking for a new apartment for when I go back to school, and wanted a listing of all apartments in the area. Thankfully, someone had already mapped out every apartment complex in a Google Map. Unfortunately, however, I also wanted the prices associated with those, but was not able to edit the listings to include them. I worked around this by downloading the map data and uploading it into my account, essentially making a copy of the public map that I could edit. Here’s how to do this:

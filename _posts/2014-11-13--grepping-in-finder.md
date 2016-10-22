@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: '"Grepping" in Finder'
 ---
 You can search by parameter in the OSX Finder's Spotlight Search.

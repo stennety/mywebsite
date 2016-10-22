@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Functional programming in Java: using Predicates'
 ---
 ## Functional Programming
@@ -113,4 +113,3 @@ Sure, if you know you’re ultimately only going to need to match a couple of co
 References:
 
 [A touch of functional style in plain Java with predicates](http://cyrille.martraire.com/2010/11/a-touch-of-functional-style-in-plain-java-with-predicates-part-1/)
-

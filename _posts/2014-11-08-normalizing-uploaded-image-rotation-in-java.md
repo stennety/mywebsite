@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Normalizing uploaded image rotation in Java
 ---
 EXIF (Exchangeable image file format) is a standard that specifies metadata for images. This allows digital cameras and phones to embed GPS coordinates, camera type, resolution, timestamps, and much more into the image file.

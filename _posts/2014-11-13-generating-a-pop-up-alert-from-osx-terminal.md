@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Generating a pop-up alert from OSX terminal
 ---
 You can use the terminal on OSX to generate a pop-up alert. Simply enter:

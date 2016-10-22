@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Essential gear for the technologically-inclined backpacker
 ---
 I’ve spent this summer working as an IT systems administrator Holden Village in the North Cascades. The following is a list of gear I picked up to prepare for my mountain adventures, as well as a few items that are on my wish list.

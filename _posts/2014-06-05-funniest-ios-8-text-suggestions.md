@@ -7,4 +7,14 @@ I’ve been using the iOS 8 beta for the past few days. Here’s a compilation o
 
 “Good luck on your face!”
 
+![]({{site.cdn_path}}/2014/06/05/1.jpg)
 
+“It brings a tear to my mom.”
+
+![]({{site.cdn_path}}/2014/06/05/2.jpg)
+
+“I know what to do with the Chive” (this one was made entirely of the top suggestions)
+
+![]({{site.cdn_path}}/2014/06/05/3.jpg)
+![]({{site.cdn_path}}/2014/06/05/4.jpg)
+![]({{site.cdn_path}}/2014/06/05/5.jpg)

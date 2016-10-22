@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Creating an ad hoc VPN on OSX using reverse SSH tunneling and a launch daemon
 ---
 Are you annoyed by setting up VPNs?

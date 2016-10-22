@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Experimenting with static methods in Python
 ---
 I was writing a class to construct CURL requests in Python. I decided to experiment with making one of the methods static. To do this, simply place a “@staticmethod” decorator before the method declaration.

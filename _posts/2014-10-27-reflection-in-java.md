@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Reflection in Java
 ---
 Code Introspection is the ability to inspect the code in a system and to see object types. Reflection is the ability to make use of code introspection to modify classes at runtime.

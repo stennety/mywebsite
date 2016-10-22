@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Removing a file from staging in git
 ---
 If you have an unwanted file that is staged for commit, but you want to preserve your changes to it for committing later, execute this command:

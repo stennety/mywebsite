@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to tunnel VNC over SSH
 ---
 ![]({{site.cdn_path}}/2014/11/08/vnc.jpg)

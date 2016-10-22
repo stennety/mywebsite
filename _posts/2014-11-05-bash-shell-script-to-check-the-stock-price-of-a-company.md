@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Bash shell script to check the stock price of a company
 ---
 I wrote a quick little shell script this morning using the YAHOO Finance API to show the stock price of my company in the terminal. This works for any company that’s publicly traded. Just change “JIVE” to your desired company’s stock ticker code.

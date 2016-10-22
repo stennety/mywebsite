@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: The Singleton design pattern in Java
 ---
 In Java, sometimes it can be useful to have exactly one instance of a class. This is known as a Singleton pattern. A logger, print spooler, or window manager would be potential uses for this.

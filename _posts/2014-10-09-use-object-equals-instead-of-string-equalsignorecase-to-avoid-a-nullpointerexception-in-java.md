@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: >-
   Use Object.equals() instead of String.equalsIgnoreCase() to avoid a
   NullPointerException in Java

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'This Saturday, I tried Google Glass'
 ---
 ![]({{site.cdn_path}}/2014/05/13/7.jpg)

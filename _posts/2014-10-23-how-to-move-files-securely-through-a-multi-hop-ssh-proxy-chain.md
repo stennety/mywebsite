@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to move files securely through a multi-hop SSH proxy chain
 ---
 Sometimes, you may find yourself in a position where you need to securely copy some files through an SSH tunnel that spans multiple hops. Never fear, because it’s just as easy as a couple of terminal commands.

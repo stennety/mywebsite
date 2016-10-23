@@ -9,7 +9,7 @@ A reified collection in Java is one that enforces its element types at runtime. 
 
 This is especially apparent when it comes to arrays and lists. Arrays are reified, while lists that use generics use erasure.
 
-For example, this won’t compile, because generics enforce their type at compile time (erasure):
+For example, this won't compile, because generics enforce their type at compile time (erasure):
 
 {% highlight java %}
 List<Object> ol = new ArrayList<Long>()

@@ -4,7 +4,7 @@ published: true
 title: Implementing a sleep() function in JavaScript
 ---
 
-Note: usually, it’s better to use an asynchronous function, like setTimeout(), because this function blocks execution until it’s finished. That being said, sometimes you need to add a busy wait loop into your scripts. And this is how:
+Note: usually, it's better to use an asynchronous function, like setTimeout(), because this function blocks execution until it's finished. That being said, sometimes you need to add a busy wait loop into your scripts. And this is how:
 
 {% highlight javascript %}
 function sleep(milliseconds) {

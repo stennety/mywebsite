@@ -5,9 +5,9 @@ title: Configuring MiniDLNA on FreeNAS
 ---
 I was looking for a guide on how to do this, and the one that finally worked for me was found [here](http://www.overclock.net/t/1424351/freenas-9-1-setup-guide). I copied it for reference and made a few minor corrections.
 
-1. Click on the “Plugins” tab on the top of screen.
-2. Click on “DLNA/UPnP.”
-3. Click “Install”.
+1. Click on the "Plugins" tab on the top of screen.
+2. Click on "DLNA/UPnP."
+3. Click "Install".
 4. A box should pop up and then click OK.
 5. After done installing, click on Jails on top of screen.
 6. Click on Jails on top of screen next to Plugin.

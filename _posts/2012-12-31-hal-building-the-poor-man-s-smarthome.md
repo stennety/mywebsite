@@ -51,13 +51,13 @@ The lightswitches were a little tricky to install but eventually I was able to c
 
 ![]({{site.cdn_path}}/2012/12/31/LightSwitch.jpg)
 
-To get the doorbell to transmit signals when rung, I added an extra circuit and connected it to an X10 Powerflash module. This module transmits a signal when the contact is closed. It’s not the most elegant solution to monitoring a doorbell, because it needs to be plugged in to an outlet in order to work. This was, however, the most reliable solution to the problem. I tried using a DS10A and getting the solenoid on the doorbell to close the magnetic switch to trigger a signal, but had limited success. I will post an update if I get it working.
+To get the doorbell to transmit signals when rung, I added an extra circuit and connected it to an X10 Powerflash module. This module transmits a signal when the contact is closed. It's not the most elegant solution to monitoring a doorbell, because it needs to be plugged in to an outlet in order to work. This was, however, the most reliable solution to the problem. I tried using a DS10A and getting the solenoid on the doorbell to close the magnetic switch to trigger a signal, but had limited success. I will post an update if I get it working.
 
 ![]({{site.cdn_path}}/2012/12/31/Doorbell.jpg)
 
 ## 4\. The software
 
-With the hardware installed, it’s now time for the fun part.
+With the hardware installed, it's now time for the fun part.
 
 To communicate with and monitor the W800RS32A and the CM11A, I used [heyu](http://www.heyu.org/). There is extensive documentation on their website, and it is incredibly easy to write scripts that are triggered by input from the X10 sensors.
 
@@ -77,7 +77,7 @@ I looked into various options for sending text messages, all of which charged mo
 
 ![]({{site.cdn_path}}/2012/12/31/TwitterSMS.png)
 
-I created a private Twitter account for my apartment, registered an app with an API key, and used a Python script I found on Google to communicate with Twitter’s API using that key. I then followed my apartment’s Twitter account and chose the “Get updates by SMS” option. Done.
+I created a private Twitter account for my apartment, registered an app with an API key, and used a Python script I found on Google to communicate with Twitter's API using that key. I then followed my apartment's Twitter account and chose the "Get updates by SMS" option. Done.
 
 ## 5\. In conclusion
 

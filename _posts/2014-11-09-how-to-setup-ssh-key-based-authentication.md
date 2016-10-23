@@ -5,9 +5,9 @@ title: How to setup SSH key-based authentication
 ---
 Want to log in to your Linux server without using your password AND be more secure? You can do this with SSH keys.
 
-SSH Keys consist of a public and private keypair, generated with a cryptographic algorithm. These keys serve as a means of authenticating to a server using public key cryptography and challenge response authentication. Using SSH keys has two advantages over password authentication. First, convenience–you can authenticate using the key and no longer need to use a password. Second, (assuming you’ve disabled password authentication on your server) you protect yourself from brute-force password attacks.
+SSH Keys consist of a public and private keypair, generated with a cryptographic algorithm. These keys serve as a means of authenticating to a server using public key cryptography and challenge response authentication. Using SSH keys has two advantages over password authentication. First, convenience–you can authenticate using the key and no longer need to use a password. Second, (assuming you've disabled password authentication on your server) you protect yourself from brute-force password attacks.
 
-Let’s get started.
+Let's get started.
 
 On your client, generate a public and private keypair using the terminal.
 

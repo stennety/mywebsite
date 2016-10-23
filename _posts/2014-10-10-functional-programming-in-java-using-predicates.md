@@ -5,7 +5,7 @@ title: 'Functional programming in Java: using Predicates'
 ---
 ## Functional Programming
 
-First, a quick introduction to functional programming. According to Wikipedia, [functional programming](http://en.wikipedia.org/wiki/Functional_programming) is a paradigm of structuring your programs that treats computation as the evaluation of mathematical functions, instead of procedures and mutable data. I took a class on functional programming in college, and the professor summed it up succinctly: “Procedural programming describes elements of a program in terms of what they do, while functional programming describes elements of a program in terms of what they are.” For this reason, functional programs tend to be much shorter than ones that are written procedurally.
+First, a quick introduction to functional programming. According to Wikipedia, [functional programming](http://en.wikipedia.org/wiki/Functional_programming) is a paradigm of structuring your programs that treats computation as the evaluation of mathematical functions, instead of procedures and mutable data. I took a class on functional programming in college, and the professor summed it up succinctly: "Procedural programming describes elements of a program in terms of what they do, while functional programming describes elements of a program in terms of what they are." For this reason, functional programs tend to be much shorter than ones that are written procedurally.
 
 ## Google Guava
 
@@ -15,7 +15,7 @@ Note: Google added a caveat on their wiki about using these.
 
 > As of Java 7, functional programming in Java can only be approximated through awkward and verbose use of anonymous classes. This is expected to change in Java 8, but Guava is currently aimed at users of Java 5 and above.
 
-> Excessive use of Guava’s functional programming idioms can lead to verbose, confusing, unreadable, and inefficient code. These are by far the most easily (and most commonly) abused parts of Guava, and when you go to preposterous lengths to make your code “a one-liner,” the Guava team weeps.
+> Excessive use of Guava's functional programming idioms can lead to verbose, confusing, unreadable, and inefficient code. These are by far the most easily (and most commonly) abused parts of Guava, and when you go to preposterous lengths to make your code "a one-liner," the Guava team weeps.
 
 ## Using Predicates
 
@@ -40,7 +40,7 @@ public PhoneBookEntry personsNameIs(String name, ArrayList<PhoneBookEntry> entri
 }
 {% endhighlight %}
 
-(I realize this is a really inefficient way to search a phone book and we’d be better off with a binary search algorithm, but bear with me for the sake of example)
+(I realize this is a really inefficient way to search a phone book and we'd be better off with a binary search algorithm, but bear with me for the sake of example)
 
 {% highlight java %}
 public PhoneBookEntry phoneNumberIs(String phoneNumber, ArrayList<PhoneBookEntry> entries) {
@@ -53,7 +53,7 @@ public PhoneBookEntry phoneNumberIs(String phoneNumber, ArrayList<PhoneBookEntry
 }
 {% endhighlight %}
 
-As you can see, we’re re-using a lot of code between these two methods. The only thing that’s really changing is the conditional logic within the if statement.
+As you can see, we're re-using a lot of code between these two methods. The only thing that's really changing is the conditional logic within the if statement.
 
 A better (or, at least, more functional programmy) way to do this would be to have a single method that loops through the phone book and applies the predicate at each iteration…
 
@@ -108,7 +108,7 @@ public PhoneBookEntry phoneNumberIs (String phoneNumber, ArrayList<PhoneBookEntr
 }
 {% endhighlight %}
 
-Sure, if you know you’re ultimately only going to need to match a couple of conditions, you’re probably better off going  with the procedural option. The advantage of using predicates is that they’re extremely flexible, reusable, and it’s very easy to define new ones.
+Sure, if you know you're ultimately only going to need to match a couple of conditions, you're probably better off going  with the procedural option. The advantage of using predicates is that they're extremely flexible, reusable, and it's very easy to define new ones.
 
 References:
 

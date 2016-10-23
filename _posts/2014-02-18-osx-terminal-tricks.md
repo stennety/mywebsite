@@ -6,7 +6,7 @@ title: OSX terminal tricks
 
 1\. Pop up a message in the Finder
 {% highlight shell %}
-osascript -e ‘tell app “Finder” to display dialog “Hello World”‘
+osascript -e ‘tell app "Finder" to display dialog "Hello World"‘
 {% endhighlight %}
 
 2\. Make your computer talk
@@ -41,7 +41,7 @@ sudo defaults write /System/Library/Launch Daemons/com.apple.backupd-auto StartI
 
 7\. Add a login greeting banner (displayed to all users on the lock screen)
 {% highlight shell %}
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Good Morning, Dave”
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Good Morning, Dave"
 {% endhighlight %}
 
 8\. Make the icons on the dock massive

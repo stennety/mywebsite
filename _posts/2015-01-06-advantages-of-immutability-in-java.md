@@ -17,14 +17,14 @@ Making use of immutable objects provides several advantages, including:
 
 When should immutability be used in your classes?
 
-"Classes should be immutable unless there’s a very good reason to make them mutable….If a class cannot be made immutable, limit its mutability as much as possible." --Joshua Bloch, author of Effective Java.
+"Classes should be immutable unless there's a very good reason to make them mutable….If a class cannot be made immutable, limit its mutability as much as possible." --Joshua Bloch, author of Effective Java.
 
 That being said, here are some guidelines for making a class as immutable as possible:
 
 * Ensure that the class cannot be overridden by making it final, using static factories, or keeping constructors private.
-* Make the class’s fields private and final.
+* Make the class's fields private and final.
 * Force callers to construct an object completely in a single step. As opposed to a zero-argument constructor and later calls to setter methods.
-* Do not provide any methods which can change the state of the object. This extends beyond setter methods to any method that can change the object’s state.
+* Do not provide any methods which can change the state of the object. This extends beyond setter methods to any method that can change the object's state.
 * If the class has any mutable object fields, they must be defensively copied when passed between the class and its caller.
 
 References:

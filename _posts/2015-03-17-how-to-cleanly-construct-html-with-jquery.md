@@ -3,7 +3,7 @@ layout: post
 published: true
 title: How to cleanly construct HTML with jQuery
 ---
-If you’re in a position where you need to construct HTML entities using jQuery, and you want it to be readable, you can make use of arrays to do this. For example:
+If you're in a position where you need to construct HTML entities using jQuery, and you want it to be readable, you can make use of arrays to do this. For example:
 
 {% highlight javascript %}
 this.$fixture = $([

@@ -5,9 +5,9 @@ title: 'Jetta vs. Rock Pile: our backpacking trip to Waucoma Lakes'
 ---
 (spoiler alert: the rock pile won)
 
-My friends and I backpacked the [Waucoma Lakes Loop](http://www.oregonhikers.org/field_guide/Waucoma_Lakes_Loop_Hike) on Saturday and Sunday. It’s in the Hatfield Wilderness, and PCT trail \#2000 runs tangent to one of the trails we hiked.
+My friends and I backpacked the [Waucoma Lakes Loop](http://www.oregonhikers.org/field_guide/Waucoma_Lakes_Loop_Hike) on Saturday and Sunday. It's in the Hatfield Wilderness, and PCT trail \#2000 runs tangent to one of the trails we hiked.
 
-The route we took would’ve been about 12 miles, but we made it much longer by…uh…getting really lost.
+The route we took would've been about 12 miles, but we made it much longer by…uh…getting really lost.
 
 ![11392842_1025820057429308_595110519570104678_n.jpg]({{site.cdn_path}}/2015/06/12/11392842_1025820057429308_595110519570104678_n.jpg)
 ![11425107_1025819994095981_4506426398335327030_n.jpg]({{site.cdn_path}}/2015/06/12/11425107_1025819994095981_4506426398335327030_n.jpg)
@@ -40,7 +40,7 @@ We were JUST celebrating our return to the pavement when the oil light came on a
 
 We had just enough cell service to call for help. My girlfriend had roadside assistance insurance, and they sent a tow truck. Unfortunately, we were told that the truck would only hold two, and there were four of us.
 
-So my friend Ed and I hitchhiked back with someone who turned out to be kind of a crazy driver. As we veered around narrow curves with steep dropoffs and no guardrails at high speeds, I wondered if we’d have been better off just walking the 9 miles back into town. The driver seemed to notice our tension, and slowed down a little. We arrived safely at the auto shop, and the tow truck soon arrived.
+So my friend Ed and I hitchhiked back with someone who turned out to be kind of a crazy driver. As we veered around narrow curves with steep dropoffs and no guardrails at high speeds, I wondered if we'd have been better off just walking the 9 miles back into town. The driver seemed to notice our tension, and slowed down a little. We arrived safely at the auto shop, and the tow truck soon arrived.
 
 Upon closer inspection, we saw the huge puncture in the oil reservoir:
 
@@ -50,6 +50,6 @@ Upon closer inspection, we saw the huge puncture in the oil reservoir:
 
 The owner of the shop was kind enough to give us a ride to Double Mountain brewery, where we waited for our ride back to Portland.
 
-Lesson learned: clearance is your friend on forest service roads. We were told that if we hadn’t made it to the pavement, the company wouldn’t have been able to tow it. In which case, we’d have had to leave it overnight. Which would’ve been okay except for the fact that abandoned cars tend to be popular targets for shooters in the area. So we got very lucky.
+Lesson learned: clearance is your friend on forest service roads. We were told that if we hadn't made it to the pavement, the company wouldn't have been able to tow it. In which case, we'd have had to leave it overnight. Which would've been okay except for the fact that abandoned cars tend to be popular targets for shooters in the area. So we got very lucky.
 
-All in all, we’re grateful we made it back to the pavement, grateful to have had so many kind strangers who helped us out, and grateful that we got to enjoy that backpacking trip. If you’re thinking of going yourself, I’d start at the Wahtum lake trailhead instead. The roads are much better there, and you could hike to Rainy Lake or use it as a base camp to explore the PCT.
+All in all, we're grateful we made it back to the pavement, grateful to have had so many kind strangers who helped us out, and grateful that we got to enjoy that backpacking trip. If you're thinking of going yourself, I'd start at the Wahtum lake trailhead instead. The roads are much better there, and you could hike to Rainy Lake or use it as a base camp to explore the PCT.

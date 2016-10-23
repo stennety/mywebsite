@@ -12,5 +12,5 @@ I recently read [Head First Design Patterns](http://www.amazon.com/Head-First-De
 * Classes should be open for extension but closed for modification.
 * Depend on abstractions. Do not depend on concrete classes.
 * "Only talk to your friends."
-* "Don’t call us, we’ll call you."
+* "Don't call us, we'll call you."
 * A class should only have one reason to change.

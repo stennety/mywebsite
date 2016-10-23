@@ -10,7 +10,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 {% endhighlight %}
 
-Remember to reload it when you’re done editing with
+Remember to reload it when you're done editing with
 
 {% highlight shell %}
 source ~/.bash_profile

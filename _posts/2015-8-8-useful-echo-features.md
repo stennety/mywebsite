@@ -3,10 +3,10 @@ layout: post
 title: Useful Amazon Echo features
 ---
 
-1. I purchased an Amazon Echo recently and am writing this post to catalog useful features I’ve discovered with it.
+1. I purchased an Amazon Echo recently and am writing this post to catalog useful features I've discovered with it.
 
 Use it as a Bluetooth speaker.
-Say “Alexa, pair bluetooth device” to put the Echo in pairing mode. On your device, find the Echo and pair with it. Play music, profit.
+Say "Alexa, pair bluetooth device" to put the Echo in pairing mode. On your device, find the Echo and pair with it. Play music, profit.
 
 2. Set the volume.
 
@@ -20,4 +20,4 @@ Simply say, "Alexa, volume [number between 1 and 10]" to change the volume.
 
 4. Flip a coin
 
-“Alexa, flip a coin”
+"Alexa, flip a coin"

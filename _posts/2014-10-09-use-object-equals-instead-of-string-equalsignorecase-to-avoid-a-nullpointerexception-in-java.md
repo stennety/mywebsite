@@ -22,7 +22,7 @@ String stringTwo = "Bar";
 boolean areTheyEqual = stringOne.equalsIgnoreCase(stringTwo);
 {% endhighlight %}
 
-This code serves the same function and doesn’t throw the exception.
+This code serves the same function and doesn't throw the exception.
 
 {% highlight java %}
 String stringOne = "Foo"

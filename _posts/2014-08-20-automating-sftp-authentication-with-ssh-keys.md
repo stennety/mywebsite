@@ -5,7 +5,7 @@ title: Automating SFTP authentication with SSH keys
 ---
 I spun up a VPS recently and needed to pull files down via SFTP. I automated this process by using SSH keys and a BASH script.
 
-First, if you haven’t already, generate a public and private SSH key pair.
+First, if you haven't already, generate a public and private SSH key pair.
 
 {% highlight shell %}
 $ sudo mkdir ~/.ssh
@@ -18,7 +18,7 @@ Next, dump the contents of the ~/.ssh/id_rsa.pub file and copy them.
 cat ~/.ssh/id_rsa.pub
 {% endhighlight %}
 
-Or, if you’re on OSX, you can dump the contents directly into the clipboard.
+Or, if you're on OSX, you can dump the contents directly into the clipboard.
 
 {% highlight shell %}
 cat ~/.ssh/id_rsa.pub | pbcopy

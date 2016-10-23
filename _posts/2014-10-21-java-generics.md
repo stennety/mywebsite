@@ -10,7 +10,7 @@ Generics are a Java programming construct that allow you to use types as paramet
 There are several benefits to using generics:
 
 * **Catching errors at compile time instead of runtime:** The Java compiler applies strong type checking to generics and will throw errors if there are any type safety violations. It is much easier to fix compile-time errors than runtime errors.
-* To quote the book, [Head First Java](http://www.amazon.com/Head-First-Java-2nd-Edition/dp/0596009208), “With generics, you can create type-safe collections where more problems are caught at compile-time. Without generics, the compiler would happily let you put a Pumpkin into an ArrayList that was supposed to hold only Cat objects.”
+* To quote the book, [Head First Java](http://www.amazon.com/Head-First-Java-2nd-Edition/dp/0596009208), "With generics, you can create type-safe collections where more problems are caught at compile-time. Without generics, the compiler would happily let you put a Pumpkin into an ArrayList that was supposed to hold only Cat objects."
 * **Generic Algorithms:** Using generics, you can create algorithms that operate on collections that contain different types. This provides the benefits of code re-use and readability.
 * **Elimination of Casts:** Prior to the implementation of generics in Java, classes placed in arrays would be stored and retrieved as Objects. This would mean that you could, for example, place a Dog instance into an array, but you would have to typecast it back from Object to Dog. As mentioned earlier, this created the potential for runtime errors, because the array would not be type-checking for Cat instances being stored.
 
@@ -60,7 +60,7 @@ x.foo(dogList); // Invoking the method
 
 ## Understanding the Documentation
 
-The Java convention is to use “E” (for “element”) as the stand-in for the type of element a collection class should accept.
+The Java convention is to use "E" (for "element") as the stand-in for the type of element a collection class should accept.
 
 For example:
 
@@ -70,15 +70,15 @@ public class ArrayList<E> extends AbstractList<E> implements List<E>
 
 So, when implementing ArrayList<Dog>, E becomes a Dog object.
 
-In generics, “extends” means “extends” OR “implements.”
+In generics, "extends" means "extends" OR "implements."
 
 {% highlight java %}
 public static <T extends Comparable> void sort<List<T> list>
 {% endhighlight %}
 
-Normally, in Java, “extends” refers to class inheritance, where “implements” refers to interfaces. When dealing with generics, however, “extends” refers to both of these. Interfaces and classes are treated the same way.
+Normally, in Java, "extends" refers to class inheritance, where "implements" refers to interfaces. When dealing with generics, however, "extends" refers to both of these. Interfaces and classes are treated the same way.
 
-Sure, the Java engineers probably could have used a new keyword, like “is,” or something. But generally, whenever there is a chance to re-use an existing keyword, it is best to do that in order to lessen the risk of breaking existing code.
+Sure, the Java engineers probably could have used a new keyword, like "is," or something. But generally, whenever there is a chance to re-use an existing keyword, it is best to do that in order to lessen the risk of breaking existing code.
 
 ## References:
 

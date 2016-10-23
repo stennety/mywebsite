@@ -9,7 +9,7 @@ Here's how to return an Array from a Java function to a Robot variable. Simply u
 
 In Robot:
 
-{% highlight %}
+{% highlight python %}
 @{robotArray} =    My Robot Keyword
 {% endhighlight %}
 

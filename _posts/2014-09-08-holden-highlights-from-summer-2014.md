@@ -63,7 +63,7 @@ The Carlton Complex Fire was the most massive blaze in the nation this summer an
 
 ## 8\. One of the miners got a little artistic with a bulldozer.
 
-And the result was amazing, viewed from Martin Ridge at 6000′.
+And the result was amazing, viewed from Martin Ridge at 6000'.
 
 ![]({{site.cdn_path}}/2014/09/08/dozer_art.jpg)
 

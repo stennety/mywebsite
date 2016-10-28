@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Wine Tasting in the Columbia Gorge
 ---
 My girlfriend and a couple friends of ours went wine tasting this weekend. And, naturally, I brought a drone. 

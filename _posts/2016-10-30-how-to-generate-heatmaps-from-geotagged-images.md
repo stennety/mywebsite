@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to generate heatmaps from geotagged images
 ---
 I wrote some scripts to streamline the process of creating heatmaps from geotagged photos. All you need to run it is Docker, a Google Maps JS API key, and some images.

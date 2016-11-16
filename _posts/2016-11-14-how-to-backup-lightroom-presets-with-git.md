@@ -11,7 +11,7 @@ I set mine up to be stored in a single git repo on [BitBucket](https://bitbucket
 
 To find your presets in Lightroom, go to Develop. Right-click one of your presets, and choose "show in Finder."
 
-![]({{site.cdn_path}}/2016/11/15/1.jpg)
+![]({{site.cdn_path}}/2016/11/15/1.png)
 
 Move up two directories, open a terminal, and initialize your git repo here.
 

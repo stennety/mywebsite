@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: How to back up custom Lightroom presets with git
+title: How to back up your custom Lightroom presets with git
 ---
 _(These instructions presume you're using macOS)_
 
@@ -11,8 +11,8 @@ I set mine up to be stored in a single git repo on [BitBucket](https://bitbucket
 
 To find your presets in Lightroom, go to Develop. Right-click one of your presets, and choose "show in Finder."
 
+![]({{site.cdn_path}}/2016/11/15/1.jpg)
 
-
-Move up two directories, and initialize your git repo here.
+Move up two directories, open a terminal, and initialize your git repo here.
 
 Stage, commit, and push your custom preset files, and you're done!

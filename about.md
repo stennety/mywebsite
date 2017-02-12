@@ -7,6 +7,9 @@ permalink: /about/
 Hi there! I'm Helder S. Viana and I work as developer and DBA for the last years.
 Right now my main tecnhical skills are development in .net (C# and VB.net), T-SQL, C/AL (Dynamics NAV), PHP and some other stuff. 
 
+### Early days
+
+It all started during my childhood in the afternoons spent playing Pac-Man in my father's work. This was my first contact with computers. The game was very lively and fast, I remember myself, and the OS I'm sure it was DOS... years later here I am on the other side of the barricade developing software as if there was no tomorrow.
 
 ### Experience
 
@@ -19,4 +22,4 @@ At this point I am trying to terminate MCSA in SQL Server and I am delving more 
 
 ### Contact me
 
-[helder [at] visualshotmachine.net](mailto:helder@visualshotmachine.net)
+[helder [at] helderviana.pt](mailto:me@myowndomain.tld)

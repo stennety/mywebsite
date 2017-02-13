@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+tags: about
 ---
 
 Hi there! I'm Helder S. Viana and I work as developer and DBA for the last years.

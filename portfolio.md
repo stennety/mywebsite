@@ -13,7 +13,7 @@ Here it is possible to share access to my new Bot chat, can add it to Skype, at 
 <br />
 <a href='https://join.skype.com/bot/ee70be70-8a69-47d6-8cc9-c02287387f38'><img src='https://dev.botframework.com/Client/Images/Add-To-Skype-Buttons.png'/></a>
 <br />
-This was build using C# and [botframework from Microsoft](https://dev.botframework.com/) in this project I also used my favorite IDE a.k.a. Visual Studio and I published it [Azure App Services](https://azure.microsoft.com/en/services/app-service/web/).
+This was build using C# and [botframework from Microsoft](https://dev.botframework.com/) in this project I also used my favorite IDE a.k.a. Visual Studio and I published it using [Azure App Services](https://azure.microsoft.com/en/services/app-service/web/).
 
 ### Project Codename Two
 

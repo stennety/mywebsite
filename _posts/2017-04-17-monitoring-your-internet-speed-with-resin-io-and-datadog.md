@@ -37,4 +37,4 @@ I used [node-inspector](https://github.com/node-inspector/node-inspector) to do 
 
 ![]({{site.cdn_path}}/2017/04/17/screenShot2.png)
 
-Be careful about setting the interval to anything more frequent than 20 minutes, as that interval alone could use almost 50 GB per month (24.7 MB * (60/20) times per hour * 24 hrs per day * 28 days per month).
+Be careful about setting the interval to anything more frequent than 20 minutes, as that interval alone could use almost 50 GB of bandwidth per month (24.7 MB * (60/20) times per hour * 24 hrs per day * 28 days per month).

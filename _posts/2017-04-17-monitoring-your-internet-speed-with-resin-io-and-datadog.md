@@ -5,7 +5,7 @@ title: Monitoring your Internet speed with Resin.io and DataDog
 ---
 Occasionally, my home Internet speed slows to a crawl, and I was curious to get some more insight into it to see if I could find a pattern, and to have data to show my ISP if needed.
 
-![]({{site.cdn_path}}/2017/04/17/Screen+Shot+2017-04-17+at+3.06.19+PM.png)
+![]({{site.cdn_path}}/2017/04/17/screenShot1.png)
 
 Some background on [Resin.io](https://resin.io/), in case you're not familiar. I've been using it lately for all my Raspberry Pi projects and am a huge fan. It's a service that makes it incredibly painless to deploy apps to Raspberry Pi (and a bunch of other embedded devices). You don't have to worry about configuring Linux, installing all the prerequisite libraries, getting your app to re-run on restart, etc. Just throw together a Docker container with your app, install ResinOS on your SD card, plug in the Pi, and deploy. 
 

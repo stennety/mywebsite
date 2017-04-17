@@ -29,6 +29,10 @@ I wrote a NodeJS app that I deployed via Resin, which runs a speed test and uplo
 
 ## IMPORTANT
 
+The interval for running the speed test is governed by the "SPEED_TEST_INTERVAL_MIN" environment variable
+
+**BUT** be careful:
+
 I used [node-inspector](https://github.com/node-inspector/node-inspector) to do a little digging into the amount of bandwidth used up by the speed test itself, and it's actually quite substantial. 
 
 ![]({{site.cdn_path}}/2017/04/17/screenShot2.png)

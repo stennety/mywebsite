@@ -25,7 +25,7 @@ I wrote a NodeJS app that I deployed via Resin, which runs a speed test and uplo
 {% gist davidmerrick/3c5a499c26daa9b29264896af658bcd3 %}
 3. cd into this repo, add a remote for your Resin.io project, and push to it:
 {% gist davidmerrick/42b88791faa4966731f1532d862bb3c5 %}
-4. Your app will deploy, your Raspberry Pi will download it from Resin, and very soon you'll have data flowing into your DataDog dashboard for monitoring your Internet speeds.
+4. Your app will deploy, your Raspberry Pi will download it from Resin, and very soon you'll have data flowing into your DataDog dashboard for monitoring your Internet speeds. Knowledge is power!
 
 ## IMPORTANT
 

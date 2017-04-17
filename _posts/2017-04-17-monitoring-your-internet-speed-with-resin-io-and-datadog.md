@@ -31,6 +31,6 @@ I wrote a NodeJS app that I deployed via Resin, which runs a speed test and uplo
 
 I used [node-inspector](https://github.com/node-inspector/node-inspector) to do a little digging into the amount of bandwidth used up by the speed test itself, and it's actually quite substantial. 
 
-![]({{site.cdn_path}}/2017/04/17/screenShot1.png)
+![]({{site.cdn_path}}/2017/04/17/screenShot2.png)
 
 Be careful about setting the interval to anything more frequent than 20 minutes, as that interval alone could use almost 50 GB per month (24.7 MB * (60/20) times per hour * 24 hrs per day * 28 days per month).

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Monitoring your Internet speed with Resin.io and DataDog
 ---
 Occasionally, my home Internet speed slows to a crawl, and I was curious to get some more insight into it to see if I could find a pattern, and to have data to show my ISP if needed.
@@ -33,4 +33,4 @@ I used [node-inspector](https://github.com/node-inspector/node-inspector) to do 
 
 
 
-Be careful about setting the interval to anything more frequent than 20 minutes. 
+Be careful about setting the interval to anything more frequent than 20 minutes.

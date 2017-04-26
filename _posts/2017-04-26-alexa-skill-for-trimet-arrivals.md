@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Alexa Skill for TriMet Arrivals
 ---
 I recently created an Alexa skill for TriMet arrival times at stops in the city. 

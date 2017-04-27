@@ -1,1 +1,3 @@
-My personal website, based on Jekyll
+My personal website, built with Jekyll.
+
+https://www.david-merrick.com

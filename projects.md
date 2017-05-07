@@ -19,6 +19,19 @@ Alexa skill, written in NodeJS, that fetches the latest arrivals for TriMet buse
 
 Alexa skill, written in NodeJS, that records my backpack weight to a Google Spreadsheet.
 
+[AWS IoT button control of Sonos Speakers](https://youtu.be/xUQ8kxjlXlA)
+
+I wired up an AWS IoT button to a Lambda function that plays/pauses Sonos speakers.
+This required a Raspberry Pi running on my local network to control the speakers.
+To deploy the app and add a public URL, I used Resin.io.
+
+{% youtube xUQ8kxjlXlA %}
+
+[Resin.io Sonos API](https://github.com/davidmerrick/rpi-node-sonos-http-api)
+
+This is a fork of a Sonos API app written in NodeJS. I enabled HTTP auth by default, and 
+added a Dockerfile so that it could be deployed to a Raspberry Pi via Resin.io.
+
 [Trump Survey Spammer](https://github.com/davidmerrick/trump-survey-spammer)
 
 Essentially, a Chrome extension designed to repeatedly spam Trump's "media accountability survey"

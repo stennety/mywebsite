@@ -55,3 +55,9 @@ in order to create my own YouTube video from it:
 
 In 2009, I wanted to see if I could get a website to rank for the first Google search result for
 "Coolest Guy in America." So I learned about SEO and was able to get the site ranked in a couple weeks.
+
+[SocialCollage iOS app](https://www.youtube.com/watch?v=9Or90Z4X0Xk)
+
+A demo of an iOS app I wrote for my CS 496 mobile development class that automatically renders a collage 
+from Facebook photos.
+{% youtube 9Or90Z4X0Xk %}

@@ -5,6 +5,8 @@ permalink: /projects/
 published: true
 ---
 
+## 2017
+
 [Naive Bayes Trainer](https://github.com/davidmerrick/Naive-Bayes-Trainer)
 
 NodeJS app that provides a UI for training a Naive Bayes classifier.
@@ -42,6 +44,8 @@ with randomized data. Used Google Analytics to track the number of survey submis
 NodeJS app designed for deployment on a Raspberry Pi running Resin.io. 
 It periodically records upload and download speeds and records the metrics to DataDog.
 
+## 2016
+
 [GeoTagged images Heatmap generator](https://www.david-merrick.com/2016/10/30/how-to-generate-heatmaps-from-geotagged-images/)
 
 Dockerized NodeJS app which generates a heatmap given a set of geotagged images.
@@ -57,6 +61,8 @@ I used the Twilio API and Heroku to build an automated phone number that would p
 monkey sounds and then send the DTMF code to let guests in to my building:
 {% youtube AVWJAWrHDKI %}
 
+## 2015 
+
 [Google Street View Hyperlapse](https://github.com/davidmerrick/Street-View-Hyperlapse)
 
 I forked a really cool project I'd found that renders hyperlapses from Google Street View imagery.
@@ -64,13 +70,18 @@ I added the ability to export the images from the canvas element the hyperlapse 
 in order to create my own YouTube video from it:
 {% youtube 7uVDquyZRxM %}
 
-[Coolest Guy in America](https://coolestguyinamerica.com/)
-
-In 2009, I wanted to see if I could get a website to rank for the first Google search result for
-"Coolest Guy in America." So I learned about SEO and was able to get the site ranked in a couple weeks.
+## 2014
 
 [SocialCollage iOS app](https://www.youtube.com/watch?v=9Or90Z4X0Xk)
 
 A demo of an iOS app I wrote for my CS 496 mobile development class that automatically renders a collage 
 from Facebook photos.
 {% youtube 9Or90Z4X0Xk %}
+
+## Previous
+
+[Coolest Guy in America](https://coolestguyinamerica.com/)
+
+In 2009, I wanted to see if I could get a website to rank for the first Google search result for
+"Coolest Guy in America." So I learned about SEO and was able to get the site ranked in a couple weeks.
+

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Personal Projects
 permalink: /projects/
 published: true
 ---
@@ -9,17 +9,21 @@ published: true
 
 [Naive Bayes Trainer](https://github.com/davidmerrick/Naive-Bayes-Trainer)
 
-NodeJS app that provides a UI for training a Naive Bayes classifier.
-Also provides UI for testing the classifier.
-Built with ReactJS, Socket.io, Express, and Redux.
+Webapp that provides a UI for training and testing a Naive Bayes classifier on a set of text.
+
+> Tech Used: ReactJS, Gulp, Socket.io, Express, and Redux.
 
 [Alexa-TriMet](https://www.david-merrick.com/2017/04/26/alexa-skill-for-trimet-arrivals/)
 
-Alexa skill, written in NodeJS, that fetches the latest arrivals for TriMet buses and trains in Portland.
+Alexa skill that fetches the latest arrivals for TriMet buses and trains in Portland.
+
+> Tech Used: AWS Lambda, NodeJS, Gulp, TriMet API.
 
 [Alexa-PackWeight](https://github.com/davidmerrick/alexa-pack-weight)
 
-Alexa skill, written in NodeJS, that records my backpack weight to a Google Spreadsheet.
+Alexa skill that records my backpack weight to a Google Spreadsheet.
+
+> Tech Used: AWS Lambda, NodeJS, Gulp, Google Spreadsheets API.
 
 [AWS IoT button control of Sonos Speakers](https://youtu.be/xUQ8kxjlXlA)
 
@@ -29,20 +33,28 @@ To deploy the app and add a public URL, I used Resin.io.
 
 {% youtube xUQ8kxjlXlA %}
 
+> Tech Used: AWS Lambda, Docker, NodeJS, Resin.io, Raspberry Pi.
+
 [Resin.io Sonos API](https://github.com/davidmerrick/rpi-node-sonos-http-api)
 
 This is a fork of a Sonos API app written in NodeJS. I enabled HTTP auth by default, and 
 added a Dockerfile so that it could be deployed to a Raspberry Pi via Resin.io.
+
+> Tech Used: AWS Lambda, Docker, NodeJS, Raspberry Pi.
 
 [Trump Survey Spammer](https://github.com/davidmerrick/trump-survey-spammer)
 
 Essentially, a Chrome extension designed to repeatedly spam Trump's "media accountability survey"
 with randomized data. Used Google Analytics to track the number of survey submissions.
 
+> Tech Used: NodeJS, Chrome extension API.
+
 [Resin.io bandwidth monitor](https://github.com/davidmerrick/alexa-pack-weight)
 
 NodeJS app designed for deployment on a Raspberry Pi running Resin.io. 
 It periodically records upload and download speeds and records the metrics to DataDog.
+
+> Tech Used: Docker, Resin.io.
 
 ## 2016
 

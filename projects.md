@@ -66,6 +66,12 @@ Uses the Google Maps API.
 
 Prank Chrome extension that flips web pages upside down.
 
+[Raspberry Pi Kubernetes Cluster](https://www.david-merrick.com/2016/02/16/building-a-raspberry-pi-powered-kubernetes-cluster/)
+
+I built a Raspberry Pi-powered Kubernetes cluster based on HypriotOS. 
+
+> Tech Used: Raspberry Pi, Docker, Kubernetes. 
+
 ## 2015 
 
 [Monkeys to let guests in](https://www.youtube.com/watch?v=AVWJAWrHDKI)

@@ -9,7 +9,7 @@ published: true
 
 [Naive Bayes Trainer](https://github.com/davidmerrick/Naive-Bayes-Trainer)
 
-Webapp that provides a UI for training and testing a Naive Bayes classifier on a set of text.
+Webapp for training and testing a Naive Bayes classifier on a set of text.
 
 > Tech Used: ReactJS, Gulp, Socket.io, Express, and Redux.
 

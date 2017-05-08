@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Building a Raspberry Pi-Powered Kubernetes Cluster
 ---
 Kubernetes was being used more and more at my office, so I wanted to dive in myself and figure out how this thing worked. I'd seen a few posts about building a cluster out of Raspberry Pis online, and decided to try it myself. I picked up 5 Pis, rack-mounted them on a set of tiny Pi racks I found on Amazon, hooked them up to a switch, and got HypriotOS running on them. Soon after, I was able to deploy Docker containers to the cluster.

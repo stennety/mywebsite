@@ -51,10 +51,9 @@ with randomized data. Used Google Analytics to track the number of survey submis
 
 [Resin.io bandwidth monitor](https://github.com/davidmerrick/alexa-pack-weight)
 
-NodeJS app designed for deployment on a Raspberry Pi running Resin.io. 
-It periodically records upload and download speeds and records the metrics to DataDog.
+App that periodically records home Internet upload and download speeds and records the metrics to DataDog.
 
-> Tech Used: Docker, Resin.io.
+> Tech Used: NodeJS, Docker, Resin.io, DataDog API.
 
 ## 2016
 

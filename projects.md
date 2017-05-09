@@ -49,7 +49,7 @@ with randomized data. Used Google Analytics to track the number of survey submis
 
 > Tech Used: NodeJS, Chrome extension API.
 
-[Resin.io bandwidth monitor](https://github.com/davidmerrick/alexa-pack-weight)
+[Resin.io bandwidth monitor](https://www.david-merrick.com/2017/04/17/monitoring-your-internet-speed-with-resin-io-and-datadog/)
 
 App that periodically records home Internet upload and download speeds and records the metrics to DataDog.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Using an AWS IoT button to control Sonos speakers
 ---
 This is a placeholder post (will add more later on the implementation) for a recent weekend project. Essentially, this AWS IoT button triggers a Lambda which toggles the play/pause state on my Sonos speakers.

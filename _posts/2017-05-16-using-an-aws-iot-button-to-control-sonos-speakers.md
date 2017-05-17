@@ -9,11 +9,16 @@ to trigger a Lambda which toggles the play/pause state on my Sonos speakers.
 Demo:
 {% youtube xUQ8kxjlXlA %}
 
-To control the Sonos speakers, I used a Raspberry Pi running [Sonos HTTP API](https://github.com/davidmerrick/rpi-node-sonos-http-api). 
-I deployed this with [Resin.io](https://resin.io/) so that I could give it a public web address.
+
+Here's how this works:
+
+![lambda_sonos_diagram.png]({{site.cdn_path}}/2017/05/16/lambda_sonos_diagram.png)
+
+The AWS IoT button triggers a Lambda function, which talks to a [Sonos API server](https://github.com/davidmerrick/rpi-node-sonos-http-api)
+running on a Raspberry Pi. This server is deployed with [Resin.io](https://resin.io/) so that I could give it a public web address
+without having to deal with NAT traversal/port forwarding.
 
 If you'd like to do this project yourself, follow these steps:
-
 
 ## 1. Deploy Sonos Node API 
 
@@ -23,11 +28,11 @@ If you haven't already, deploy an instance of the Node Sonos API using my instru
 
 AWS has instructions [here](http://docs.aws.amazon.com/iot/latest/developerguide/configure-iot.html) for how to do this.
 
-For me, these didn't work and I had to set up the button manually. I did this by: 
-1. Creating device certs with instructions [here](http://docs.aws.amazon.com/iot/latest/developerguide/create-device-certificate.html) 
-2. Connecting to the wifi network on the button
-3. Visiting http://192.168.0.1/
-4. Filling out fields on the form, adding the cerds generated in step 1, then submitting the form.
+For me, these didn't work and I had to set up the button manually. How I managed to get it set up: 
+1. Create device certs with instructions [here](http://docs.aws.amazon.com/iot/latest/developerguide/create-device-certificate.html). 
+2. Connect to the wifi network on the button.
+3. Visit [http://192.168.0.1/](http://192.168.0.1/).
+4. Fill out fields on the form, add the cerds generated in step 1, then submit the form.
   
 ![aws_iot_certs.png]({{site.cdn_path}}/2017/05/16/aws_iot_certs.png)
 

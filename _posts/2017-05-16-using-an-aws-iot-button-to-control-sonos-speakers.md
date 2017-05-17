@@ -34,8 +34,9 @@ For me, these didn't work and I had to set up the button manually. I did this by
 ## 3. Create a Lambda function
 
 The IoT button triggers a Lambda function, which I configured to talk to my Sonos endpoint. 
- 
-*WIP: I'm in the process of making this open-source. Will update this post in the next day. Stay tuned*
+
+In AWS, create a Lambda function based on Node.js 6.10.
+Use this code to run it: [https://github.com/davidmerrick/lambda-sonos-toggle](https://github.com/davidmerrick/lambda-sonos-toggle).
  
 ## 4. Configure the Lambda function
 

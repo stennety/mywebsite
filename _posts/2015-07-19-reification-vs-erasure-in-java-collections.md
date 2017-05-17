@@ -3,7 +3,9 @@ layout: post
 published: true
 title: Reification vs. Erasure in Java Collections
 ---
-This is another concept I came across in Joshua Bloch's "Effective Java." According to [Wikipedia](https://en.wikipedia.org/wiki/Reification_(computer_science)),  "Reification is the process by which an abstract idea about a computer program is turned into an explicit data model or other object created in a programming language."
+This is another concept I came across in Joshua Bloch's "Effective Java." According to [Wikipedia](https://en.wikipedia.org/wiki/Reification_(computer_science)),  
+
+> Reification is the process by which an abstract idea about a computer program is turned into an explicit data model or other object created in a programming language.
 
 A reified collection in Java is one that enforces its element types at runtime. A collection that is implemented using erasure enforces its types at compile time (and "erase" their element type information at runtime).
 

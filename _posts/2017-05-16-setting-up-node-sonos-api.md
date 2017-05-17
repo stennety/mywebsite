@@ -13,29 +13,40 @@ to your Pi without having to deal with NAT traversal.
 
 So, let's get started.
 
-1. Set up your Resin project and install ResinOS to your Pi by following the instructions [here](https://docs.resin.io/examples/projects/).
-2. Clone [my repo](https://github.com/davidmerrick/rpi-node-sonos-http-api), add your Resin remote, then push to there ([instructions](https://docs.resin.io/deployment/deployment/)).
+## 1. Set up your Resin project and install ResinOS
+ 
+Instructions for this can be found [here](https://docs.resin.io/examples/projects/).
+
+## 2. Push to Resin remote
+
+Clone [my repo](https://github.com/davidmerrick/rpi-node-sonos-http-api), add your Resin remote, then push to there ([instructions](https://docs.resin.io/deployment/deployment/)).
 
 ![resin_git_remote.png]({{site.cdn_path}}/2017/05/16/resin_git_remote.png)
 
 It'll take a few minutes to build and deploy to your device. Grab yourself a coffee (or a beer).
 
-3. In the Resin dashboard, set the following environment variables:
+## 3. Set environment variables 
 
-![env_vars.png]({{site.cdn_path}}/2017/05/16/env_vars.png)
+In the Resin dashboard, set the following environment variables:
 
-*AUTH* enables HTTP basic auth. This is essential if you're forwarding a public URL to your device.
-*AUTH_USERNAME* Pick a random username for this one.
-*AUTH_PASSWORD* Pick a random password for this one.
+* *AUTH* enables HTTP basic auth. This is essential if you're forwarding a public URL to your device.
+* *AUTH_USERNAME* Pick a random username for this one.
+* *AUTH_PASSWORD* Pick a random password for this one.
 
 Optionally, set the *PRESET_DIR* directory to "/data/presets" if you'd like to have Sonos presets persist through app updates.
 (The /data directory on Resin is persistent).
 
-4. Enable a public URL to your device by visiting Actions -> Public URL.
+![env_vars.png]({{site.cdn_path}}/2017/05/16/env_vars.png)
+
+## 4. Enable public URL
+
+Enable a public URL to your device by visiting Actions -> Public URL.
 
 ![public_url.png]({{site.cdn_path}}/2017/05/16/public_url.png)
 
-5. And you're done! Visit the public URL to see your Sonos API server. The main page should render, but you'll need to
+## 5. Enjoy!
+
+And you're done! Visit the public URL to see your Sonos API server. The main page should render, but you'll need to
 authenticate with the credentials you'd set in the environment variables to hit any other endpoints.
 
 ![sonos_api.png]({{site.cdn_path}}/2017/05/16/sonos_api.png)

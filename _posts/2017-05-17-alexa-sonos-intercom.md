@@ -1,9 +1,11 @@
 ---
 layout: post
 published: true
-title: Alexa Sonos intercom
+title: Alexa Sonos Intercom
 ---
-This is a recent weekend project I built. I had a Sonos system, and thought I'd turn it into an intercom using Alexa as the input. Here's a demo:
+This is a recent weekend project I built. 
+I had a Sonos system, and thought I'd turn it into an intercom using Alexa as the input. 
+Here's a demo:
 
 {% youtube 476RDRVSzSI %}
 
@@ -26,7 +28,8 @@ Set the following environment variables:
 
 Set up a basic Alexa skill using the [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit).
 
-For the intent schema and example utterances, use the configuration in the [repo](https://github.com/davidmerrick/alexa-sonos-intercom/tree/master/speechAssets) from step 2.
+For the intent schema and example utterances, use the configuration 
+in the [repo](https://github.com/davidmerrick/alexa-sonos-intercom/tree/master/speechAssets) from step 2.
 
 ## 4. Done!
 

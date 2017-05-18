@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Alexa Sonos intercom
 ---
 This is a recent weekend project I built. I had a Sonos system, and thought I'd turn it into an intercom using Alexa as the input. Here's a demo:

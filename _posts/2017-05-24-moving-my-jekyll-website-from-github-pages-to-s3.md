@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Moving my Jekyll website from GitHub Pages to S3
 ---
 A couple months ago, I decided to take the leap and migrate this website from GitHub Pages to S3.
@@ -35,4 +35,3 @@ I've been using CloudFlare for a free HTTPS cert, and thought it would be intere
 {% gist b520e4e9a94a857e7f8e054ac2e1d2b5 %}
 
 With "bucket-name" being, of course, the name of the bucket.
-

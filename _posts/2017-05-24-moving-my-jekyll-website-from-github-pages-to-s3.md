@@ -9,7 +9,7 @@ I did this partially to get more exposure to working with AWS, and partially to 
 
 My requirements for the migration were: 
 * Custom Jekyll plugins
-* Maintaining the convenience of the git-push-to-deploy my site that GitHub pages does so well
+* Maintaining the convenience of the git-push-to-deploy functionality that GitHub Pages does so well
 * Restricting access to the S3 bucket to my [CloudFlare CDN](https://www.cloudflare.com/) to save bandwidth
 
 ## Custom Jekyll plugins
@@ -26,7 +26,7 @@ Next, I configured an IAM role to allow access to this bucket. Just create a use
 
 Next, I built out a [Travis CI](https://travis-ci.org/) pipeline to deploy my site on commits. Here is my [Travis YML file](https://github.com/davidmerrick/david-merrick.com/blob/master/.travis.yml) for that. Travis CI securely injects the S3 credentials and bucket name during builds. I added Slack notifications for failed builds as well.
 
-## Restricting access to bucket
+## Restricting access to the bucket
 
 This was more of an experiment/learning opportunity; AWS already provides pretty good [DDoS protection](https://aws.amazon.com/shield/) on apps running on their infrastructure, and in any case S3 bandwidth is [incredibly cheap](https://aws.amazon.com/s3/pricing/).
 

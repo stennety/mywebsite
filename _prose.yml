@@ -1,7 +1,7 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'http://davidmerrick.github.io'
-  relativeLinks: 'http://davidmerrick.github.io/links.jsonp'
+  siteurl: 'https://www.david-merrick.com'
+  relativeLinks: 'https://www.david-merrick.com/links.jsonp'
   media: 'media'
   ignore:
     - index.md
@@ -19,16 +19,6 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
     _posts/static:
       - name: "layout"
         field:

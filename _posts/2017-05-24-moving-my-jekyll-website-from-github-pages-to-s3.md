@@ -32,3 +32,7 @@ This was more of an experiment/learning opportunity; AWS already provides pretty
 
 I've been using CloudFlare for a free HTTPS cert, and thought it would be interesting to see if I could restrict access to my S3 bucket to just the CloudFlare IPs. I did this with this bit of configuration:
 
+{% gist b520e4e9a94a857e7f8e054ac2e1d2b5 %}
+
+With "bucket-name" being, of course, the name of the bucket.
+

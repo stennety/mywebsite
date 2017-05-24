@@ -15,9 +15,9 @@ Here's how I put this together:
 
 I wrote up a separate post on how to do this [here](https://www.david-merrick.com/2017/05/16/setting-up-node-sonos-api/).
 
-## 2. Create a Lambda function
+## 2. Create an AWS Lambda function
 
-Create a Lambda function using the code [here](https://github.com/davidmerrick/alexa-sonos-intercom).
+Create an AWS Lambda function using the code [here](https://github.com/davidmerrick/alexa-sonos-intercom). This function will be the brains of the Alexa skill.
 
 Set the following environment variables:
 
@@ -26,7 +26,7 @@ Set the following environment variables:
 
 ## 3. Create an Alexa skill
 
-Set up a basic Alexa skill using the [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit).
+Set up a basic Alexa skill using the [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit). Point the skill at the Lambda function you set up in step 2.
 
 For the intent schema and example utterances, use the configuration 
 in the [repo](https://github.com/davidmerrick/alexa-sonos-intercom/tree/master/speechAssets) from step 2.

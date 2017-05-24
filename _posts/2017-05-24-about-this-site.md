@@ -12,6 +12,8 @@ Advantages of using a static site generator:
 * Much better security by not having a database behind the scenes
 * Much better performance from the pages being pre-rendered
 * Simpler scalability
+* Similar git workflow to what I do for my daily work
+* I can have all my posts in version control
 * I can host it for free on GitHub pages or for very cheap on S3
 
 I have it hosted in [GitHub](https://github.com/davidmerrick/david-merrick.com), with a [Travis CI pipeline](https://travis-ci.org/davidmerrick/david-merrick.com) that deploys the latest version to an S3 bucket. The assets for the site (images, etc) are hosted outside version control, in a separate S3 bucket. 

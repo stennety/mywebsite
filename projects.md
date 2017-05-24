@@ -89,6 +89,14 @@ I added the ability to export the images from the canvas element the hyperlapse 
 in order to create my own YouTube video from it:
 {% youtube 7uVDquyZRxM %}
 
+[BugID](https://github.com/davidmerrick/BugID)
+
+My senior capstone project, a webapp that assisted in the classification of various insects. 
+It interfaced with an artificial intelligence classification algorithm developed by a graduate student, 
+and used a MariaDB database to store previous classifications.
+
+> Tech Used: PHP, CakePHP framework, MariaDB
+
 [SocialCollage iOS app](https://www.youtube.com/watch?v=9Or90Z4X0Xk)
 
 A demo of an iOS app I wrote for my CS 496 mobile development class that automatically renders a collage 

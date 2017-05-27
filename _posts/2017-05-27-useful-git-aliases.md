@@ -1,0 +1,17 @@
+---
+layout: post
+published: false
+title: Useful git aliases
+---
+After watching [this talk](https://www.youtube.com/watch?v=3IIaOj1Lhb0) at the 2017 Git Merge conference, I got inspired to start integrating more git aliases into my workflow. Here are a couple handy ones I've been using.
+
+"gpa" alias to push to all git remotes:
+
+{% gist 60fd789af0615a86dd454305ef24d8e8 %}
+
+"gitignore $1" to generate a gitignore file from [gitignore.io](https://www.gitignore.io).
+
+{% gist cdf7e116043de411ec35a98c4606782f %}
+
+
+A collection of more handy aliases referenced in the aforementioned talk: [https://bitbucket.org/tpettersen/git-aliases/src/master/.gitaliases?fileviewer=file-view-default](https://bitbucket.org/tpettersen/git-aliases/src/master/.gitaliases?fileviewer=file-view-default)

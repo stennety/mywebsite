@@ -13,9 +13,15 @@ Here are a couple of handy ones I've been using.
 
 {% gist 60fd789af0615a86dd454305ef24d8e8 %}
 
-"gitignore $1" to generate a gitignore file from [gitignore.io](https://www.gitignore.io).
+
+"gitignore $1" to generate a gitignore file from [gitignore.io](https://www.gitignore.io):
 
 {% gist cdf7e116043de411ec35a98c4606782f %}
+
+
+"gso" alias to switch remote origin:
+
+{% gist efbde973625d132e9e13ce915efc2432 %}
 
 
 A collection of more handy aliases referenced in the aforementioned talk: [https://bitbucket.org/tpettersen/git-aliases/src/master/.gitaliases?fileviewer=file-view-default](https://bitbucket.org/tpettersen/git-aliases/src/master/.gitaliases?fileviewer=file-view-default)

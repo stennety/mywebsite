@@ -3,7 +3,11 @@ layout: post
 published: true
 title: Useful git aliases
 ---
-After watching [this talk](https://www.youtube.com/watch?v=3IIaOj1Lhb0) at the 2017 Git Merge conference, I got inspired to start integrating more git aliases into my workflow. Here are a couple handy ones I've been using.
+After watching this talk from the 2017 Git Merge conference, I got inspired to start integrating more git aliases into my workflow. 
+
+{% youtube https://www.youtube.com/watch?v=3IIaOj1Lhb0 %}
+
+Here are a couple of handy ones I've been using.
 
 "gpa" alias to push to all git remotes:
 

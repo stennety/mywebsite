@@ -7,7 +7,7 @@ After watching this talk from the 2017 Git Merge conference, I got inspired to s
 
 {% youtube 3IIaOj1Lhb0 %}
 
-Here are a couple of handy ones I've been using.
+Here are a few handy ones I've been using.
 
 "gpa" alias to push to all git remotes:
 

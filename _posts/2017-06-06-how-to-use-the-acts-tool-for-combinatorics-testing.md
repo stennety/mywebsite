@@ -51,12 +51,12 @@ To add it, select Enum for the parameter type, and name the parameter "ContentTy
 
 Now, add the possible values for the parameter.
 
-![]({{site.cdn_path}}/2017/06/06/6.jpg)
+![]({{site.cdn_path}}/2017/06/06/5.jpg)
 
 Click "Add to Table" to add them to your system.
 You'll now see them in the table on the right.
 
-![]({{site.cdn_path}}/2017/06/06/7.jpg)
+![]({{site.cdn_path}}/2017/06/06/6.jpg)
 
 Add the other parameters for operating system and browser type.
  
@@ -64,21 +64,23 @@ Add the other parameters for operating system and browser type.
 For our hypothetical test case, we need a constraint around the browser, since IE is only available on Windows.
 To add this constraint, click "Constraints."
 
-![]({{site.cdn_path}}/2017/06/06/8.jpg)
+![]({{site.cdn_path}}/2017/06/06/7.jpg)
 
 The constraint, in this case, will look like:
 
-![]({{site.cdn_path}}/2017/06/06/9.jpg)
+![]({{site.cdn_path}}/2017/06/06/8.jpg)
 
 Once you've added it, click the "Add System" button at the bottom of the window. You'll be taken back to the main screen, with your parameters and constraints in the left column.
 
-![]({{site.cdn_path}}/2017/06/06/10.jpg)
+![]({{site.cdn_path}}/2017/06/06/9.jpg)
 
 7\. Now for the fun part. Generating test cases!
 Click Operations -> Build. Use the default settings:
 
-![]({{site.cdn_path}}/2017/06/06/11.jpg)
+![]({{site.cdn_path}}/2017/06/06/10.jpg)
 
 After you click "Build," your test cases will appear in the main window.
+
+![]({{site.cdn_path}}/2017/06/06/11.jpg)
 
 If you like, you can export them to CSV using Operations -> Export.

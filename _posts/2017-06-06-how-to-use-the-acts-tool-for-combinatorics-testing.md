@@ -1,7 +1,7 @@
 ---
 layout: post
-published: false
-title: How to use the ACTS tool for Combinatorics testing
+published: true
+title: How to use NIST's ACTS tool for Combinatorics testing
 ---
 ## Background
  
@@ -82,4 +82,3 @@ Click Operations -> Build. Use the default settings:
 After you click "Build," your test cases will appear in the main window.
 
 If you like, you can export them to CSV using Operations -> Export.
-

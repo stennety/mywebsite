@@ -6,12 +6,14 @@ title: How to use NIST's ACTS tool for Combinatorics testing
 ## Background
  
 ACTS is a tool developed by NIST for generating combinatorial test cases using parameters and constraints. To get a copy for yourself, and to read more about the benefits of combinatorial testing, please visit [this page](http://csrc.nist.gov/groups/SNS/acts/index.html).
+
+I also have a copy of the tool which you can download from [here]({{site.cdn_path}}/2017/06/06/ACTS2.93.zip).
  
 ## Usage
  
 Let's run through a basic example of using it in order to understand how it works.
  
-In our hypothetical scenario, say we're testing posting a blog post and a discussion. We need to test in IE and Chrome on Windows and OSX.
+In our hypothetical scenario, say we're testing a webapp in which a user can create various types of content, including blog posts and discussions. We need to test the app in IE and Chrome, on Windows and macOS.
  
 So, our parameters will be:
  
@@ -30,6 +32,7 @@ Browser
 We'll need a constraint around IE, because IE is not available on macOS.
  
 1\. Download the attached zip file and extract it.
+
 2\. Open the "acts_2.93.jar" file. You should see a window that looks like this:
 
 ![]({{site.cdn_path}}/2017/06/06/1.jpg)
@@ -44,6 +47,7 @@ Click System -> New.
 ![]({{site.cdn_path}}/2017/06/06/3.jpg)
 
 5\. Add parameters
+
 Our first parameter is the ContentType. This will be an enum that can be a discussion or a blog post.
 To add it, select Enum for the parameter type, and name the parameter "ContentType" (Note that parameters are not allowed to have spaces).
 

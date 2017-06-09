@@ -8,3 +8,5 @@ This past weekend, some friends and I backpacked along the beaches of the Olympi
 The first day was sunny, and I shot a bunch of photos of the scenery which I uploaded [here](https://www.flickr.com/photos/42873456@N02/albums/72157683025429495).
 
 Garmin tracks [here](https://connect.garmin.com/modern/activity/1697884006).
+
+![Sunset at Olympic Beaches]({{site.cdn_path}}/2017/04/24/1.jpg)

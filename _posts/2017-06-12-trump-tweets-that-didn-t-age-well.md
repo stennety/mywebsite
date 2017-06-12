@@ -12,3 +12,11 @@ I've been building a neural net to generate Trump Tweets as part of my [Trump Re
 {% twitter https://twitter.com/realdonaldtrump/status/278967557334134784 %}
 
 {% twitter https://twitter.com/realdonaldtrump/status/149589104168939520 %}
+
+{% twitter https://twitter.com/realdonaldtrump/status/328912090314182657 %}
+
+{% twitter https://twitter.com/realdonaldtrump/status/325999319515791360 %}
+
+{% twitter https://twitter.com/realdonaldtrump/status/332308211321425920 %}
+
+

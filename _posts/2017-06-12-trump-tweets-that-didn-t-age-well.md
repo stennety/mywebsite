@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Trump Tweets that didn't age well
 ---
 I've been building a neural net to generate Trump Tweets as part of my [Trump Report](https://tr.david-merrick.com/) app, and have consequentially been going through a bunch of Trump Tweets to filter out irrelevant ones. During this filtering, I stumbled upon several that definitely didn't age well. Enjoy!

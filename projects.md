@@ -7,6 +7,12 @@ published: true
 
 ## 2017
 
+[Trump Report](https://tr.david-merrick.com/)
+
+Performs sentiment analysis and classification of Trump Tweets using IBM Watson APIs.
+
+> Tech Used: ReactJS, Redux, IBM Watson, AWS Lambda, AWS S3, AWS API Gateway, Gulp.
+
 [Naive Bayes Trainer](https://github.com/davidmerrick/Naive-Bayes-Trainer)
 
 Webapp for training and testing a Naive Bayes classifier on a set of text.

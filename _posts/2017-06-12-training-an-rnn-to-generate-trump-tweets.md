@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Training an RNN to generate Trump Tweets
 ---
-Recurrent Neural Networks, or RNNs, are well-suited for generating text. Essentially, after training, they predict the next character given a sequence of previous characters.
+[Recurrent Neural Networks](https://en.wikipedia.org/wiki/Recurrent_neural_network), or RNNs, are well-suited for generating text. Essentially, after training, they predict the next character given a sequence of previous characters.
 
 For fun (and learning), I wanted to train an RNN to generate Trump Tweets. 
 

@@ -9,6 +9,8 @@ Mikey Dickerson is a former Site Reliability Manager at Google who helped with t
 
 ![]({{site.cdn_path}}/2017/06/26/dickersons_hierarchy.jpg)
 
+Note that monitoring is the foundation of this hierarchy. Many organizations make the mistake of implementing monitoring as an afterthought.
+
 References:
 
 * http://money.cnn.com/2017/01/17/technology/us-digital-service-mikey-dickerson/index.html

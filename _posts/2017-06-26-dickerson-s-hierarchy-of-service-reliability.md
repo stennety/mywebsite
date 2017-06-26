@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Dickerson's Hierarchy of Service Reliability
 ---
 Was watching a [talk](https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/video290645.html?autoStart=True) from the 2016 O'Reilly Velocity Conference and stumbled across this. 

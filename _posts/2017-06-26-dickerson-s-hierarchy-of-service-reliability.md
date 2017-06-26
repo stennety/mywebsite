@@ -13,5 +13,5 @@ Note that monitoring is the foundation of this hierarchy. Many organizations mak
 
 References:
 
-* http://money.cnn.com/2017/01/17/technology/us-digital-service-mikey-dickerson/index.html
-* https://www.infoq.com/news/2015/06/too-big-to-fail
+* [http://money.cnn.com/2017/01/17/technology/us-digital-service-mikey-dickerson/index.html](http://money.cnn.com/2017/01/17/technology/us-digital-service-mikey-dickerson/index.html)
+* [https://www.infoq.com/news/2015/06/too-big-to-fail](https://www.infoq.com/news/2015/06/too-big-to-fail)

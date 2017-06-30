@@ -3,7 +3,7 @@ layout: post
 title: 'Testing HBase Applications with BDD Integration Tests'
 ---
 
-In this blog post, we'll look at how it's possible to easily test HBase applications using business-driven development (BDD) and integration tests. The accompanying code for this tutorial can be [found on my GitHub].
+In this blog post, we'll look at how it's possible to easily test HBase applications using business-driven development (BDD) and integration tests. The accompanying code for this tutorial can be found [on my GitHub].
 
 
 ## Why?

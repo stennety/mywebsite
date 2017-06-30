@@ -34,7 +34,7 @@ If we can write Cucumber tests that run as integration tests - over an actual in
 HBase has an easy-to-use integration framework called the `HBaseTestingUtility`. It quickly (~10s) spawns up a single-node HBase instance within the JVM in two lines of code:
 
 ```java
-hbaseUtility = new HBaseTestingUtility();
+HBaseTestingUtility hbaseUtility = new HBaseTestingUtility();
 hbaseUtility.startMiniCluster();
 ```
 

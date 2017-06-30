@@ -8,7 +8,9 @@ In this blog post, we'll look at how it's possible to easily test HBase applicat
 
 ## Why?
 
-Applications that rely on big data technologies are often challenging to test. They can require lots of confusing mocking and complex test frameworks, making it difficult to write useful tests. Far too often I've seen tests that, when painfully unravelled, are just mocks testing other mocks, while the business logic (the thing you actually want to test!) goes untested. Wouldn't it be great if you were able to easily test business logic against an locally-running instance of the big data technology you're running, with minimal configuration or boilerplate? That's where this tutorial comes in. We'll combine the popular BDD tool [Cucumber] with HBase's own integration testing tools to enable an HBase application to be easily and fully tested.
+Applications that rely on big data technologies are often challenging to test. They can require lots of confusing mocking and complex test frameworks, making it difficult to write useful tests. Far too often I've seen tests that, when painfully unravelled, are just mocks testing other mocks, while the business logic (the thing you actually want to test!) goes untested.
+
+Wouldn't it be great if you were able to easily test business logic against an locally-running instance of the big data technology you're running, with minimal configuration or boilerplate? That's where this tutorial comes in. We'll combine the popular BDD tool [Cucumber] with HBase's own integration testing tools to enable an HBase application to be easily and fully tested.
 
 
 ## Cucumber in <100 words

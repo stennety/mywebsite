@@ -9,3 +9,6 @@ We started at [this trailhead](https://www.oregonhikers.org/field_guide/Shellroc
 
 Here's some drone footage that I shot from the ridge above the lake: 
 {%youtube https://www.youtube.com/watch?v=5idr-hT2olw %}
+
+Here are some of the photos shot during the trip:
+[https://www.flickr.com/photos/42873456@N02/albums/72157685794241885](https://www.flickr.com/photos/42873456@N02/albums/72157685794241885)

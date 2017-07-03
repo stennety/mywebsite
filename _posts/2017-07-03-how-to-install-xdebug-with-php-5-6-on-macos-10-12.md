@@ -19,7 +19,7 @@ brew install php56-xdebug
 
 Optionally, install xdebug-osx to enable toggling of XDebug:
 ```
-brew install php56-xdebug
+brew install xdebug-osx
 ```
 
 Next, update your php.ini file with these lines:

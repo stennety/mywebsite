@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Lolo Pass to Bald Mountain Hike
 ---
 This past weekend, a few friends and I hiked [Lolo Pass to Bald Mountain](http://www.oregonhikers.org/field_guide/Bald_Mountain_from_Lolo_Pass_Hike), near Mt. Hood. The views of the mountain itself were breathtaking. Highly recommend this hike, and you can extend it by going to McNeil Point, which also has some excellent views.

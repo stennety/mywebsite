@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Zig Zag Mountain Hike
 ---
 Hiked Zig Zag Mountain this weekend with a few friends. It was a hot, 11-mile hike with some brutal elevation at the end, but it did have the option of cooling off at Burnt Lake along the route.

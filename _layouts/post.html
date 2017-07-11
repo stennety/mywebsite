@@ -12,6 +12,17 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
+  <---Staticman comments https://staticman.net/docs/ --->
+  <form method="POST" action="https://api.staticman.net/v2/entry/benjamin-hering/benjamin-hering.github.io/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://benjamin-hering.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><input name="fields[url]" type="url">Website (optional)</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  
+  <button type="submit">Go!</button>
+</form>  
   {% include disqus.html %}
 </article>

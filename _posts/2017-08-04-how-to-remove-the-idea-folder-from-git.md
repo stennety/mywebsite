@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to remove the .idea folder from git
 ---
 Did you, by chance, happen to commit your .idea folder to version control in the hopes of sharing PHPStorm configs, and then totally inadvertently break all of your coworkers' IDEs? (Asking for a friend). Never fear. It's an easy change to revert. 

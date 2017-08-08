@@ -26,3 +26,7 @@ The Lady of the Lake II departing Field's Point.
 ## Image Lake
 
 {% youtube eaRqjDdeAu0 %}
+
+## Holden Village
+
+{% youtube BnYTccwERjU %}

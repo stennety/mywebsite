@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Holden Village 2017 Photos
 ---
 Here are the Flickr albums from my family's summer 2017 trip to [Holden Village](http://www.holdenvillage.org/):
@@ -9,4 +9,3 @@ Here are the Flickr albums from my family's summer 2017 trip to [Holden Village]
 [Holden Lake](https://flic.kr/s/aHsm1xHfME)
 [Image Lake Backpacking](https://flic.kr/s/aHskZEjurq)
 [Marmots at Cloudy Pass](https://flic.kr/s/aHsm6WJQPR)
-

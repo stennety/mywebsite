@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Software Engineering Interviewee Questions
 ---
 I've been putting together a list of good questions to ask as an interviewee for a software engineering role, and thought I'd put them in a blog post instead.

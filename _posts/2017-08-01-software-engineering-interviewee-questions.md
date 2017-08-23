@@ -31,6 +31,7 @@ I've been putting together a list of good questions to ask as an interviewee for
 - How good is the CI feedback loop? How quickly does it catch bugs after they're committed?
 - How diverse are the engineering teams? 
 - How big is the company? How big is the engineering department?
+- What opportunities are there for continuing education? Do you have hack days or lunch and learns? Is there tuition reimbursement?
 
 ## References
 

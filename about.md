@@ -15,3 +15,7 @@ I’m also the [coolest guy in America](https://www.google.com/webhp?hl=en&sa=X&
 You can find some of my photography here: [https://www.flickr.com/photos/42873456@N02/](https://www.flickr.com/photos/42873456@N02/).
 
 And my drone videos/projects/etc on my [YouTube channel](https://www.youtube.com/channel/UCkH0bhU7_RvRbe2uqyFjAcg).
+
+## About this site
+
+I put a lot of thought into the architecture of this site to maximize security, minimize cost, and minimize page load times. If you're curious about how I went about this, I wrote [this post](/2017/05/24/about-this-site/) on the architecture.

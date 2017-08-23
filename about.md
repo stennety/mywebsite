@@ -18,4 +18,4 @@ And my drone videos/projects/etc on my [YouTube channel](https://www.youtube.com
 
 ## About this site
 
-I put a lot of thought into the architecture of this site to maximize security, minimize cost, and minimize page load times. If you're curious about how I went about this, I wrote [this post](/2017/05/24/about-this-site/) on the architecture.
+I put a lot of thought into the architecture of this site. If you're curious about how I built it, please read [this post](/2017/05/24/about-this-site/).

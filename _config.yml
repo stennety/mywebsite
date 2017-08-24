@@ -11,6 +11,8 @@ footer-links:
   twitter: _davidmerrick
   youtube: channel/UCkH0bhU7_RvRbe2uqyFjAcg
 
+paginate: 10
+
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: davidmerrickshomepage
@@ -57,6 +59,7 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-gist
   - jekyll-twitter-plugin
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:

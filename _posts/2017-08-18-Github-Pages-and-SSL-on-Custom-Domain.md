@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Using SSL on GitHub Pages with a custom domain
+category: blog
+tags: ssl https http cloudflare letsencrypt githubpages hosting secure certificate
 ---
 
 ### The road to SSL

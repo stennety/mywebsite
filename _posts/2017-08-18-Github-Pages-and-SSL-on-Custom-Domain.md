@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Using SSL on GitHub Pages with a custom domain
+title: The road to SSL
 category: blog
 tags: ssl https http cloudflare letsencrypt githubpages hosting secure certificate
 ---
-
-### The road to SSL
 
 One of these days I started the long road to the SSL migration in my personal blog (yes, this one). 
 I have read quite a few articles (blog posts) on this subject (especially some articles that describe the stackoverflow.com migration). I started to investigate what I could do in a scenario like mine (Github Pages) and then I did some case work, first I was seeing the certificate providers, in my case the budget is not so much, not to say that there is no budget available for this little project. So only 2 alternatives have remained: [Cloudflare](https://www.cloudflare.com/) and [letsencrypt.org](https://letsencrypt.org/). In my case, this page is available by github pages, so I chose to use the cloudflare service to enforce the ssl certificate and since I use the service, I also created a Cloudflare certificate and applied it to this web page.

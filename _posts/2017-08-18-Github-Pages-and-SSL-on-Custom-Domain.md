@@ -3,7 +3,7 @@ layout: post
 title: The road to SSL
 category: blog
 tags: ssl https http cloudflare letsencrypt githubpages hosting secure certificate
-excerpt: ssl, https, http, cloudflare, letsencrypt, githubpages, hosting, secure certificate, certificate
+excerpt: Migrate my personal blog pages, hosted on GitHub Pages, to https using ssl certificate
 ---
 
 One of these days I started the long road to the SSL migration in my personal blog (yes, this one). 

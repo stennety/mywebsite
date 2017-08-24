@@ -3,8 +3,6 @@ layout: post
 published: true
 title: How to install XDebug with PHP 5.6 on MacOS 10.12
 ---
-Mostly writing this up for my own reference (because I'll undoubtedly have to do this again at some point), but hope it might be helpful to others out there.
-
 First, install HomeBrew:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

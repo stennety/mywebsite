@@ -13,14 +13,14 @@ I have read quite a few articles (blog posts) on this subject (especially some a
 I have found these [instructions](https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337b) from [cvan](https://github.com/cvan/) on how to achieve this.
 
 
-# <strike>Register a domain name.</strike>
-# I Signed up for CloudFlare and I created an account for my domain and followed the steps in the wizard.
-# In my domain admin page I pointed the namservers to CloudFlare.
-# As I don't have one certificate, I created a Shared Certificate (from CloudFlare) and I used it in my CloudFlare account.
-# From the CloudFlare settings for that domain, enable HTTPS/SSL and set up a Page Rule to force HTTPS redirects.
-# <strike>Create a new repository on GitHub to store your site's contents.</strike>
-# <strike>Create a CNAME record to point domain.tld to user.github.io.</strike>
-# <strike>In your Github repo, create a file at the root called CNAME containing the domain name.</strike>
+##### 1.<strike>Register a domain name.</strike>
+##### 2.I Signed up for CloudFlare and I created an account for my domain and followed the steps in the wizard.
+##### 3.In my domain admin page I pointed the namservers to CloudFlare.
+##### 4.As I don't have one certificate, I created a Shared Certificate (from CloudFlare) and I used it in my CloudFlare account.
+##### 5.From the CloudFlare settings for that domain, enable HTTPS/SSL and set up a Page Rule to force HTTPS redirects.
+##### 6.<strike>Create a new repository on GitHub to store your site's contents.</strike>
+##### 7.<strike>Create a CNAME record to point domain.tld to user.github.io.</strike>
+##### 8.<strike>In your Github repo, create a file at the root called CNAME containing the domain name.</strike>
 
 
 ### Configurations

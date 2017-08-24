@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using SSL on GitHub Pages with a custom domain
-excerpt: One of these days I started the long road to the SSL migration in my personal blog (yes, this one). I have read quite a few articles...
 ---
 
 ### The road to SSL
@@ -20,7 +19,7 @@ I have found these [instructions](https://gist.github.com/cvan/8630f847f579f90e0
 	<ul>As I don't have one certificate, I created a Shared Certificate (from CloudFlare) and I used it in my CloudFlare account.</ul>
 	<ul>From the CloudFlare settings for that domain, enable HTTPS/SSL and set up a Page Rule to force HTTPS redirects.</ul>	
 	<ul><strike>Create a new repository on GitHub to store your site's contents.</strike></ul>
-	<ul><strike>Create a CNAME record to point <domain>.<tld> to <user>.github.io.</strike></ul>
+	<ul><strike>Create a CNAME record to point domain.tld to user.github.io.</strike></ul>
 	<ul><strike>In your Github repo, create a file at the root called CNAME containing the domain name.</strike></ul>	
 </li>
 

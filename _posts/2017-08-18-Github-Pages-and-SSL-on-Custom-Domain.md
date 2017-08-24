@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Using SSL on GitHub Pages with a custom domain
-excerpt: SSL,Road to SSL, ssl, certificates, https, migration to ssl
+excerpt: One of these days I started the long road to the SSL migration in my personal blog (yes, this one). 
+I have read quite a few articles (blog posts) on this subject (especially some articles that describe the stackoverflow.com migration). I started to investigate what I could do in a scenario like mine (Github Pages) and then I did some case work...
 ---
 
 ### The road to SSL

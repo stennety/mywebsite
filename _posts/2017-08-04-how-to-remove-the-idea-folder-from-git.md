@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: How to remove the .idea folder from git
+tags: git
 ---
 If you've inadvertently committed the .idea folder to your git repo, and don't want it in there, it's an easy change to revert. 
 

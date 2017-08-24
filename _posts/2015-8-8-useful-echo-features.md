@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Useful Amazon Echo features
+tags: alexa
 ---
 
-1. I purchased an Amazon Echo recently and am writing this post to catalog useful features I've discovered with it.
+I purchased an Amazon Echo recently and am writing this post to catalog useful features I've discovered with it.
 
-Use it as a Bluetooth speaker.
+1. Use it as a Bluetooth speaker.
+
 Say "Alexa, pair bluetooth device" to put the Echo in pairing mode. On your device, find the Echo and pair with it. Play music, profit.
 
 2. Set the volume.

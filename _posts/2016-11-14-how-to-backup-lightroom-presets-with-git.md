@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: How to back up your custom Lightroom presets with git
+tags: photography
 ---
 _(These instructions presume you're using macOS)_
 

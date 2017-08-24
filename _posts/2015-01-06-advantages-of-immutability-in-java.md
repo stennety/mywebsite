@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Advantages of Immutability in Java
+tags: java
 ---
 An immutable object is one whose state or data cannot change after construction. Common immutable objects from the JDK include Strings and Integers.
 

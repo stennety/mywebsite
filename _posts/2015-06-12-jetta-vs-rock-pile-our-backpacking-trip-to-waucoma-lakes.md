@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: 'Jetta vs. Rock Pile: our backpacking trip to Waucoma Lakes'
+tags: hikes
 ---
 (spoiler alert: the rock pile won)
 

@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Python class for TriMet train arrivals
+tags: python
 ---
 I wanted a Bash alias that would output the time remaining until the next Eastbound train at the stop near my apartment. I created a Python class to get this data that I could implement in a script. This class takes as parameters your TriMet API key and the ID of the stop. To obtain a TriMet API key, visit [http://developer.trimet.org/](http://developer.trimet.org/).
 

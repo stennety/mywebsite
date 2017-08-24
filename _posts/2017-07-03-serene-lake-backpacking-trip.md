@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Serene Lake Backpacking Trip
+tags: hikes
 ---
 This past weekend, my friends and I did a 16-ish mile backpacking trip to Serene Lake, in the Mt. Hood Wilderness. It was beautiful there, and there were plenty of camping spots. The bugs were pretty bad, so I'd recommend definitely bringing bug spray.
 

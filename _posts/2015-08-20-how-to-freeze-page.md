@@ -2,6 +2,7 @@
 layout: post
 title: How to freeze page Javascript execution in Chrome
 published: true
+tags: javascript
 ---
 
 As a QA engineer, there are often times when I'll be working with dynamic elements on a page that disappear on mouse out. 

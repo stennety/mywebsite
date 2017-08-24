@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Holden Village 2017 Photos
+tags: hikes
 ---
 ![]({{site.cdn_path}}/2017/08/23/image_lake.jpg)
 

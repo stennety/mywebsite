@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 tags: about
+excerpt: about me, helder viana, viana, helder, developer, pt, sql, csharp
 ---
 
 Hi there! I'm Helder S. Viana and I'm a typeof(developer) and a typeof(DBA) for the last years.

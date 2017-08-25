@@ -11,8 +11,9 @@ comments:
     shortname: "davidmerrickshomepage"
 
 analytics:
+  provider: "google"
   google:
-    tracking_id: UA-8004148-3
+    tracking_id: "UA-8004148-3"
 
 defaults:
   - scope:

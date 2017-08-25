@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Handy GitHub Workflow Tricks
 ---
 I went through [this course](https://www.safaribooksonline.com/library/view/mastering-github/9781771376082/) recently and learned some handy GitHub workflow tricks. Here are the most useful ones I found.

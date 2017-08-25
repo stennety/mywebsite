@@ -1,24 +1,33 @@
-name: David Merrick
-description: Portland, OR
-avatar: https://assets.david-merrick.com/img/avatar.jpeg
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  flickr: photos/42873456@N02/
-  github: davidmerrick
-  instagram: _davidmerrick
-  linkedin: davidemerrick
-  twitter: _davidmerrick
-  youtube: channel/UCkH0bhU7_RvRbe2uqyFjAcg
+author:
+  name   : "David Merrick"
+  avatar : "https://assets.david-merrick.com/img/avatar.jpeg"
+  bio    : "Software Engineer, Portland, OR"
 
 paginate: 10
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: davidmerrickshomepage
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "davidmerrickshomepage"
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-8004148-3
+analytics:
+  google:
+    tracking_id: UA-8004148-3
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+title: David Merrick
+description: Portland, OR
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -54,7 +63,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-gist

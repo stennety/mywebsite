@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Personal Projects
 permalink: /projects/
 published: true

@@ -1,3 +1,5 @@
+theme: minimal-mistakes-jekyll
+
 author:
   name   : "David Merrick"
   avatar : "https://assets.david-merrick.com/img/avatar.jpeg"
@@ -53,6 +55,7 @@ plugins:
   - jekyll-gist
   - jekyll-twitter-plugin
   - jekyll-paginate
+  - jemoji
 
 # Exclude these files from your production _site
 exclude:

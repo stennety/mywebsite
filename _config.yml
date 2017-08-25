@@ -1,45 +1,38 @@
-name: David Merrick
-description: Portland, OR
-avatar: https://assets.david-merrick.com/img/avatar.jpeg
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  flickr: photos/42873456@N02/
-  github: davidmerrick
-  instagram: _davidmerrick
-  linkedin: davidemerrick
-  twitter: _davidmerrick
-  youtube: channel/UCkH0bhU7_RvRbe2uqyFjAcg
+author:
+  name   : "David Merrick"
+  avatar : "https://assets.david-merrick.com/img/avatar.jpeg"
+  bio    : "Software Engineer, Portland, OR"
 
 paginate: 10
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: davidmerrickshomepage
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "davidmerrickshomepage"
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-8004148-3
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-8004148-3"
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+title: David Merrick
+description: Portland, OR
 url: https://www.david-merrick.com
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
 permalink: /:year/:month/:day/:title/
 cdn_path: https://assets.david-merrick.com
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
@@ -54,7 +47,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-gist

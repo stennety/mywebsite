@@ -13,13 +13,13 @@ GitHub URLs are very flexible for visualizing diffs in your projects. Below are 
 
 This URL shows how to compare the diff between two git tags: [https://github.com/sinatra/sinatra/compare/0.9.4...1.0.a](https://github.com/sinatra/sinatra/compare/0.9.4...1.0.a)
 
-![]({{site.cdn_path}}/2017/08/25/diff_tags.jpg)
+![]({{site.cdn_path}}/2017/08/25/diff_tags.png)
 
 ### Diffs between dates
 
 This URL shows how to compare the master branch to how it looked 1 month ago: [https://github.com/sinatra/sinatra/compare/master@%7B1month%7D...master](https://github.com/sinatra/sinatra/compare/master@{1month}...master)
 
-![]({{site.cdn_path}}/2017/08/25/diff_dates.jpg)
+![]({{site.cdn_path}}/2017/08/25/diff_dates.png)
 
 ### Exclude whitespace
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 published: true
 title: Working with Stacks in Java
 ---

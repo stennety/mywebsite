@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Working with Stacks in Java
 ---
 There is a native [Stack data structure](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html) in java.utils that comes in very handy. It's implemented as a last-in-first-out (LIFO) stack, as you'd expect, and has push() and pop() methods to add and remove objects, respectively.

@@ -1,5 +1,4 @@
 ---
-layout: post
 published: true
 title: Git alias to generate .gitignore file
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to escape digits in CSS selectors
 ---

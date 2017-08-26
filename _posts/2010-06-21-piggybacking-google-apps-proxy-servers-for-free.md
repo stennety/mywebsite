@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Piggybacking Google Apps proxy servers for free
 ---

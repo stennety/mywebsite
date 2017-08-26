@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Linus Torvalds on Design
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Dickerson's Hierarchy of Service Reliability
 ---

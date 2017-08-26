@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Trump Tweets that didn't age well
 ---

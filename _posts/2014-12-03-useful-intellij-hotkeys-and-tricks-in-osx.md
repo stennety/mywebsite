@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Useful Intellij HotKeys and tricks in OSX
 ---

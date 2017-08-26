@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Serene Lake Backpacking Trip
 tags: hikes

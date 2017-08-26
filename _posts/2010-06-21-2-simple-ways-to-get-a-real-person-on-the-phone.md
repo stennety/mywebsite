@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 2 simple ways to get a real person on the phone
 ---

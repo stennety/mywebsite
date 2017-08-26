@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to use a camcorder battery to triple your DSLR's battery life
 ---

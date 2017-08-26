@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'HAL: Building the poor man''s smarthome'
 ---

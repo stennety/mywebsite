@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to cleanly merge panorama photos in Photoshop
 ---

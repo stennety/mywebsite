@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Exploring the Abandoned Tillamook Railroad
 published: true
 tags: hikes

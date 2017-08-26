@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Monitoring your Internet speed with Resin.io and DataDog
 ---

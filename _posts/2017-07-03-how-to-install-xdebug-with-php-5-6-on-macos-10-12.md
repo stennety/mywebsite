@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to install XDebug with PHP 5.6 on MacOS 10.12
 ---

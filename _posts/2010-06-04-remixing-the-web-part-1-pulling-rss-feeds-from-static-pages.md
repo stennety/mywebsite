@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Remixing the web, part 1: Pulling RSS feeds from static pages'
 ---

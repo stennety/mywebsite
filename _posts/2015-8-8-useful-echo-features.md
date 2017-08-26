@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Useful Amazon Echo features
 tags: alexa
 ---

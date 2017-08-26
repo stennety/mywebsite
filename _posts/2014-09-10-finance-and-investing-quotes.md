@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: false
 title: Finance and investing quotes
 ---

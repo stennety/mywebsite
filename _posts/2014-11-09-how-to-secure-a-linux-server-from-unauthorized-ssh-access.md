@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to secure a Linux server from unauthorized SSH access
 ---

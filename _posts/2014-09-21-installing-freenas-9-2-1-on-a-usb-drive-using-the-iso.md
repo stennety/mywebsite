@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Installing FreeNAS 9.2.1 on a USB drive using the ISO
 ---

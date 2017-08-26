@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Fetching fresh image preview data from Facebook
 ---

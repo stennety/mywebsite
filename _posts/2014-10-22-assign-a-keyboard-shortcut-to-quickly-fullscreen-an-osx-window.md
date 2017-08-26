@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Assign a keyboard shortcut to quickly fullscreen an OSX window
 ---

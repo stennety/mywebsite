@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Florida man drives around with cell phone signal jammer for 2 years
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Essential gear for the technologically-inclined backpacker
 ---

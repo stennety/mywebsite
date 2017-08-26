@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Why is Nagios called Nagios?
 ---

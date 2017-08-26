@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Greece Trip
 published: true
 ---

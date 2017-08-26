@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Wine Tasting in the Columbia Gorge
 ---

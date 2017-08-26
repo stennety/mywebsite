@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to setup SSH key-based authentication
 ---

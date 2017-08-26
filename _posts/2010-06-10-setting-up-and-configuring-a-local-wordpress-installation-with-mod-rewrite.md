@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Setting up and configuring a local Wordpress installation with mod\_rewrite
 ---

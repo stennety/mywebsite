@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Remixing the Web, part 2: Using Yahoo Pipes'
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Using meta classes in Python to create a Constants class
 ---

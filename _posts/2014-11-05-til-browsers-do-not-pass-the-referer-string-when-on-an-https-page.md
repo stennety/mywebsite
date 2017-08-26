@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'TIL: Browsers do not pass the referer string when on an HTTPS page'
 ---

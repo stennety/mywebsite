@@ -1,5 +1,4 @@
 ---
-layout: post
 published: true
 title: 8 essential (and free) "cloud" apps for small businesses
 ---

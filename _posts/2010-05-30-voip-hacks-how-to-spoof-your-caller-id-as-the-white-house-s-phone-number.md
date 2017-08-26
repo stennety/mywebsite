@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'VoIP hacks: how to spoof your caller ID as the White House''s phone number'
 ---

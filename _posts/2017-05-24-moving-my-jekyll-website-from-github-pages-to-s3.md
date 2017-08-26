@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Moving my Jekyll website from GitHub Pages to S3
 ---

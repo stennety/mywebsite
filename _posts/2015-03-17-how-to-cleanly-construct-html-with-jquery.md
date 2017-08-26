@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to cleanly construct HTML with jQuery
 ---

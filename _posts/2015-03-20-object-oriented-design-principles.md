@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Object-oriented design principles
 ---

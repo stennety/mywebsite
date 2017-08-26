@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Daemonizing a Python script
 ---

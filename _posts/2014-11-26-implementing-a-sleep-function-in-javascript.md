@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Implementing a sleep() function in JavaScript
 ---

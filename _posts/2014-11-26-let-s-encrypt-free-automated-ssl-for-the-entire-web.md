@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Let''s Encrypt: Free, automated SSL for the entire Web'
 ---

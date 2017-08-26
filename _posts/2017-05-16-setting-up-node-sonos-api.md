@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Setting up a Node Sonos API using Resin.io
 ---

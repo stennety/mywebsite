@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Using Imagemagick to remove GoPro fisheye distortion
 ---

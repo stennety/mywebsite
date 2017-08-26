@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Performing DNS lookups with Dig
 ---

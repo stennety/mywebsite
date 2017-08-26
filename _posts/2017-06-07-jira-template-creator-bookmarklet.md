@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: JIRA template creator bookmarklet
 ---

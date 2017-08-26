@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to build a standing desk on the cheap with galvanized pipe
 ---

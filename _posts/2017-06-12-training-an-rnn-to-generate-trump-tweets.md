@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Training an RNN to generate Trump Tweets
 ---

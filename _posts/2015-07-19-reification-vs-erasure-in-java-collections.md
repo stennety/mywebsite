@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Reification vs. Erasure in Java Collections
 ---

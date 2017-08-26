@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Bash shell script to check the stock price of a company
 ---

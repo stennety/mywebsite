@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Hummingbird shot at 1/4000"
 ---

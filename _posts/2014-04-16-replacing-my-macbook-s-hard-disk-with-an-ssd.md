@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Replacing my MacBook's hard disk with an SSD
 ---

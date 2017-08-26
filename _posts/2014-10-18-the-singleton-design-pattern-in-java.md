@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: The Singleton design pattern in Java
 ---

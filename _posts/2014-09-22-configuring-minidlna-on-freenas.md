@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Configuring MiniDLNA on FreeNAS
 ---

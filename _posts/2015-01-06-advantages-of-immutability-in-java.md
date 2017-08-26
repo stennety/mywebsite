@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Advantages of Immutability in Java
 tags: java

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Ales on trails: Eleven epic hikes I did this summer'
 ---

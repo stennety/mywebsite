@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Hillsboro Airplane home drone flight
 ---

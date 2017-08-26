@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Normalizing uploaded image rotation in Java
 ---

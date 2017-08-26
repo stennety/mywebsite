@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Zig Zag Mountain Hike
 tags: hikes

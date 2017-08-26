@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to edit a public Google map
 ---

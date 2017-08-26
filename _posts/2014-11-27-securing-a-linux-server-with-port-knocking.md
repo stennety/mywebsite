@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Securing a Linux server with port knocking
 ---

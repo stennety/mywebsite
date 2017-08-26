@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to remove the .idea folder from git
 tags: git

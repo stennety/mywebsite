@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'This Saturday, I tried Google Glass'
 ---

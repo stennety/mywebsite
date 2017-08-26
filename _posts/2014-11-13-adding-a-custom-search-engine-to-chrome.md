@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Adding a custom search engine to Chrome
 ---

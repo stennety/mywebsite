@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to import GPX data from a legacy Garmin 60CSX
 ---

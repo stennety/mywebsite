@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to back up your custom Lightroom presets with git
 tags: photography

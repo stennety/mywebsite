@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: History of the wheel user in Linux
 ---

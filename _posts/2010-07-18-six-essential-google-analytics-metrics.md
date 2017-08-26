@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Six essential Google Analytics metrics
 ---

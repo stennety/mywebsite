@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Handy GitHub Workflow Tricks
 ---

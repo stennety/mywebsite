@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to use a keyboard shortcut to switch keyboard layouts in OSX
 ---

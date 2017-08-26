@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Linux: Add a user to have sudo privileges'
 ---

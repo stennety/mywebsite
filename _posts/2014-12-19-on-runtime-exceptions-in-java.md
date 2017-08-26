@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: On Runtime Exceptions in Java
 ---

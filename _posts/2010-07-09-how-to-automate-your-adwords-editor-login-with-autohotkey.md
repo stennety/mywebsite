@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to automate your Adwords Editor login with AutoHotkey
 ---

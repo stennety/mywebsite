@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to freeze page Javascript execution in Chrome
 published: true
 tags: javascript

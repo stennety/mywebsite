@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Adding color back to the Mac terminal
 ---

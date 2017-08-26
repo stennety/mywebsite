@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Olympic Beach Backpacking
 tags: hikes

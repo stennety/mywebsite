@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Funniest iOS 8 text suggestions
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Controlling iTunes from the OSX terminal
 ---

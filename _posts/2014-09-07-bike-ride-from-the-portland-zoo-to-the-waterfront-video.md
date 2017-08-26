@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Bike ride from the Portland Zoo to the Waterfront [video]'
 ---

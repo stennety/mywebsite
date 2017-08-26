@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Referencing Chrome Extension resources in CSS
 ---

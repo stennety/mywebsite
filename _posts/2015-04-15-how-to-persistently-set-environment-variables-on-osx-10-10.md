@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to persistently set environment variables on OSX 10.10
 ---

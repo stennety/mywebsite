@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Find files modified recently in Linux and OSX
 ---

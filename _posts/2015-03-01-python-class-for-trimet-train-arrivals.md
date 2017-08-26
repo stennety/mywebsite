@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Python class for TriMet train arrivals
 tags: python

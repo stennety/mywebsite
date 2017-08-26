@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Automating SFTP authentication with SSH keys
 ---

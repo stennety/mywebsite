@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: false
 title: Ignoring annoying files in Git (without removing them from the index)
 ---

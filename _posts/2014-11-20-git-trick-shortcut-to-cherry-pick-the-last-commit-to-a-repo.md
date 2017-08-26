@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Git trick: shortcut to cherry-pick the last commit to a repo'
 ---

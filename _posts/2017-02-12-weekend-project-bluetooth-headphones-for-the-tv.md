@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Weekend Project: Bluetooth headphones for the TV'
 ---

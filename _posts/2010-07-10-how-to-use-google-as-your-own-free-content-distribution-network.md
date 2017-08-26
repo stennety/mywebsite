@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to use Google as your own free content distribution network
 ---

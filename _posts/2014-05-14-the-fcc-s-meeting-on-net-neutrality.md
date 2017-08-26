@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: The FCC's meeting on net neutrality
 ---

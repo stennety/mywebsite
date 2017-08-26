@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Functional programming in Java: using Predicates'
 ---

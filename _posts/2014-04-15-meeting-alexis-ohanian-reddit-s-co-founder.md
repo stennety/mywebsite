@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Meeting Alexis Ohanian, Reddit''s co-founder'
 ---

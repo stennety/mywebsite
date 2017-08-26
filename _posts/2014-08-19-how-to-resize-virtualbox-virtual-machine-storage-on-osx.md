@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to resize VirtualBox virtual machine storage on OSX
 ---

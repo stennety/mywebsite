@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Creating an ad hoc VPN on OSX using reverse SSH tunneling and a launch daemon
 ---

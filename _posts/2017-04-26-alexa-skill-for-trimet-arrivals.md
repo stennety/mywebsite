@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Alexa Skill for TriMet Arrivals
 tags: alexa

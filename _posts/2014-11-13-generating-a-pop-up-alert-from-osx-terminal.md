@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Generating a pop-up alert from OSX terminal
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to return an array to a Robot variable
 ---

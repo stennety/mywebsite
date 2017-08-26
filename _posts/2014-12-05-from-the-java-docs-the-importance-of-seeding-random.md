@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: false
 title: 'From the Java Docs: The importance of seeding Random'
 ---

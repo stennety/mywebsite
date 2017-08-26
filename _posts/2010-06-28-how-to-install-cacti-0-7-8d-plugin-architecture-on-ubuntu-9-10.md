@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to install Cacti 0.7.8D plugin architecture on Ubuntu 9.10
 ---

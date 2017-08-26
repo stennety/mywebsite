@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Testing xpath selectors with FireFinder
 ---

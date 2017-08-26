@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Chrome plugins for automated web browser testing
 ---

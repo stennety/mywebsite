@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'jQuery: make selection from sub-tree'
 tags: javascript

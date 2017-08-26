@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to generate heatmaps from geotagged images
 ---

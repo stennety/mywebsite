@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Generic method for filtering lists with Google Guava
 ---

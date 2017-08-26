@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: High-speed dog photography
 ---

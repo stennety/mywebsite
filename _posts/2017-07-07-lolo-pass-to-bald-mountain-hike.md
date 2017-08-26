@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Lolo Pass to Bald Mountain Hike
 tags: hikes

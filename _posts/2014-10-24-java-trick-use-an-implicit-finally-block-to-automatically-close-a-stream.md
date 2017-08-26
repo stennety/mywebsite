@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: 'Java trick: Use an implicit "finally" block to automatically close a stream'
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Holden highlights from Summer 2014
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Modifying the X10 DS10A sensor
 ---

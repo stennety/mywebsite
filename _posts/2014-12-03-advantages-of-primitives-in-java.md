@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Advantages of Primitives in Java
 ---

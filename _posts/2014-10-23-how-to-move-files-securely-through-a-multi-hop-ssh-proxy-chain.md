@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to move files securely through a multi-hop SSH proxy chain
 ---

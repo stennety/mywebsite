@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Removing a file from staging in git
 ---

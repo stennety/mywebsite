@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: How to use NIST's ACTS tool for Combinatorics testing
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 published: true
 title: Origin of the command key symbol in OSX
 ---

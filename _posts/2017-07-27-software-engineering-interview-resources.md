@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Software Engineering Interview Resources
 ---
 The following are resources I've found useful for preparing for software engineering interviews.

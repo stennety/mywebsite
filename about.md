@@ -24,4 +24,4 @@ At this point I am trying to terminate MCSA in SQL Server and I am delving more 
 
 ### Contact me
 
-[helder [at] helderviana.pt](mailto:me@myowndomain.tld)
+[helderviana [at] outlook.pt](mailto:helderviana@outlook.pt)

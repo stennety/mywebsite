@@ -3,6 +3,7 @@ layout: post
 title: Build a Bot with .Net
 category: blog
 tags: .net dotnet c# csharp development bot machine api rest
+comments: true
 ---
 
 This is my first experience building a bot and it happened by chance and as proof of concept for future applications.

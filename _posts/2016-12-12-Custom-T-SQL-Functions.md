@@ -2,6 +2,7 @@
 layout: post
 title: Custom T-SQL Functions
 tags: sql, t-sql, MSSQL, DBA, Development, Transact
+comments: true
 ---
 
 The purpose of this post is to make known some functions, which do not exist natively in SQL Server and which I usually use in SQL Server.

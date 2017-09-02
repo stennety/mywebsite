@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My fresh new SSIS Lab
+comments: true
 ---
 
 I just finished installing my new SQL Server Integration Services (SSIS) lab. The aim of this new laboratory is to provide all the necessary tools for the exercises and tests for my next exam 70-463 for the SQL Server MSCA certification.

@@ -1,5 +1,4 @@
 ---
-
 published: true
 title: Handy GitHub Workflow Tricks
 ---
@@ -31,6 +30,10 @@ Before "w" option:
 after "w" option:
 ![]({{site.cdn_path}}/2017/08/25/after_-w.png)
 
+## Sharing specific lines in files
+
+Use shift + click to select lines in files. This will append a parameter to the URL, which allows for easy bookmarking or sharing. [https://blog.mariusschulz.com/2015/07/25/sharing-line-highlights-in-github-files](https://blog.mariusschulz.com/2015/07/25/sharing-line-highlights-in-github-files)
+
 ## Direct URLs for forking repos
 
 Appending "/fork" onto the repo URL for any repo will take you to the "fork repo" dialog page. It's a little thing, but can speed up workflow or instructions that involve having others fork a repo.
@@ -42,6 +45,10 @@ Example: [https://github.com/sindresorhus/refined-github/fork](https://github.co
 Instantly view the public keys a user has uploaded by appending ".keys" to their profile URL. One use case for this would be for DevOps to automate provisioning of SSH access to systems.
 
 Example: [https://github.com/davidmerrick.keys](https://github.com/davidmerrick.keys)
+
+## Trending repositories and developers
+
+GitHub has pages dedicated to trending [repositories](https://github.com/trending) and [developers](https://github.com/trending/developers). This is a great way to discover useful repositories and people to follow.
 
 ## Reference
 

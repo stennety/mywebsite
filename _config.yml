@@ -4,3 +4,5 @@ author: Sharaal
 email: eMail@sharaal.de
 github_username: sharaal
 theme: minima
+gems:
+- jekyll-feed

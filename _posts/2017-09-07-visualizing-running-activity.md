@@ -16,7 +16,7 @@ First, I looked into doing this with [Processing](https://processing.org/), a po
 
 After following the steps, I ended up with this in a few minutes.
 
-![]({{site.cdn_path}}/2017/09/07/heatmap.jpg)
+![]({{site.cdn_path}}/2017/09/07/heatmap.png)
 
 Nice.
 

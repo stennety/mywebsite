@@ -28,3 +28,8 @@ I learned to recognize that my main purpose in my profession is not just to writ
 ### Contact me
 
 [helderviana [at] outlook.pt](mailto:helderviana@outlook.pt)
+
+### MVA Certification
+Here you can find some courses that I completed in [Microsoft Virtual Academy](https://mva.microsoft.com/) (MVA) in the last years. My learning plan has a lot more, but it  has been complicated to finish them.
+
+![_config.yml]({{ site.baseurl }}/content/Transcript.pdf)

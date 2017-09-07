@@ -2,7 +2,7 @@
 published: true
 title: Visualizing Running Activity
 ---
-I've been on a data visualization kick lately and decided to make some visualizations of runs I've done this year. My inspiration for this came primarily from seeing [Aaron Koblin](http://www.aaronkoblin.com/)'s [Flight Patterns map](http://www.aaronkoblin.com/project/flight-patterns/) and [this map](http://flowingdata.com/2011/07/12/flickr-and-twitter-mapped-together-see-something-or-say-something/) by Eric Fisher plotting Flickr/Twitter metadata in major cities.  I typically run the Wildwood Trail (in Portland, OR). I wear a Garmin watch that uploads data to Garmin Connect, which I can then export in GPX format.
+I've been on a data visualization kick lately and decided to make some visualizations of runs I've done this year. My inspiration for this project came primarily from seeing [Aaron Koblin](http://www.aaronkoblin.com/)'s [Flight Patterns map](http://www.aaronkoblin.com/project/flight-patterns/) and [this map](http://flowingdata.com/2011/07/12/flickr-and-twitter-mapped-together-see-something-or-say-something/) by Eric Fisher plotting Flickr/Twitter metadata in major cities.  I typically run the Wildwood Trail (in Portland, OR). I wear a Garmin watch that uploads data to Garmin Connect, which I can then export in GPX format.
 
 I hunted around for tools to use for doing the mapping. I stumbled across a GitHub repo called [GpxTrackPoster](https://github.com/davidmerrick/GpxTrackPoster), which I forked so I could add Dockerfiles for running the code. After dumping a handful of runs from Garmin Connect, I ended up with this:
 

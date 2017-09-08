@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Favorite programmers and designers
 ---
 Here's a list of programmers/designers/data scientists I look up to.

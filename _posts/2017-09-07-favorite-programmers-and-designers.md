@@ -6,7 +6,7 @@ Here's a list of programmers/designers/data scientists I look up to.
 
 ## John Resig
 
-[John Resig](https://johnresig.com/) created the [jQuery library](https://jquery.com/) while still in college at the Rochester Institute of Technology. He currently works as a Staff Engineer at [Khan Academy](https://www.khanacademy.org/).
+[John Resig](https://johnresig.com/) created the [jQuery library](https://jquery.com/) while still working on his undergraduate degree at the Rochester Institute of Technology. He currently works as a Staff Engineer at [Khan Academy](https://www.khanacademy.org/).
 
 ## Nicholas Felton
 

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to blend action shots in Photoshop
 ---
 My friends and I camped at Crater Lake in July. During that trip, I got a bunch of burst photo sessions of people jumping in. I wanted to blend them like this:

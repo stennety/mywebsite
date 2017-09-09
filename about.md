@@ -30,4 +30,4 @@ I learned to recognize that my main purpose in my profession is not just to writ
 [helderviana [at] outlook.pt](mailto:helderviana@outlook.pt)
 
 ### MVA Certification
-Here you can find some [courses](https://meocloud.pt/link/c5bb721e-57a0-4fdf-8246-73a6f60655fb/Transcript.pdf/) that I completed in [Microsoft Virtual Academy](https://mva.microsoft.com/) (MVA) in the last years. My learning plan has a lot more, but it  has been complicated to finish them.
+Here you can find some [courses](https://meocloud.pt/link/e5287e4b-0fe9-45f8-879a-0fa504239752/Transcript.pdf/) that I completed in [Microsoft Virtual Academy](https://mva.microsoft.com/) (MVA) in the last years. My learning plan has a lot more, but it  has been complicated to finish them.

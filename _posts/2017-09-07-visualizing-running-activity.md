@@ -18,7 +18,7 @@ After following the steps, I ended up with this in a few minutes.
 
 ![]({{site.cdn_path}}/2017/09/07/heatmap.png)
 
-Nice.
+Nice :+1:.
 
 Other cool stuff you can do with MapBox:
 - [Make a 3d Minecraft map](https://blog.mapbox.com/how-to-design-a-minecraft-inspired-world-with-mapbox-and-unity-92afd924879c)

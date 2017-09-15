@@ -9,3 +9,6 @@ Single Responsibility Principle
 Principle of Least Privilege
 DRY (Don't Repeat Yourself)
 YAGNI (You Ain't Gonna Need It)
+
+## References:
+http://www.sw-engineering-candies.com/blog-1/rules-of-thumb-in-software-engineering

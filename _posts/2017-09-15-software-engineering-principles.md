@@ -2,7 +2,7 @@
 published: false
 title: Software Engineering Principles
 ---
-The following are a few principles of software engineering that I've learned in my career.
+The following are a few principles of good software engineering that I've learned in my career.
 
 **Dependency Inversion Principle (aka Inversion of Control)**
 **Single Responsibility Principle:** Every class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by that class.

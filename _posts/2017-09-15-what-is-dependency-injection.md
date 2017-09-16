@@ -11,7 +11,7 @@ What are the advantages of doing this?
 - Improves reusability, modularity, flexibility.
 - Makes code cleaner and easier to modify.
 
-## How inject dependencies
+## How to inject dependencies
 
 Usually, you want to use interfaces to pass in your dependencies. This makes for much better flexibility if dependency implementations need to change. There's a great (and slightly silly) example of a dad object and a dependency on kitchen appliances demonstrated [here](http://brandonclapp.com/what-is-dependency-injection-and-why-is-it-useful/). Using interfaces for the Microwave and Refrigerator allows the flexibility to change types of appliances on the fly without having to rewrite code in the Dad class.
 

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Python quirk with negative list indices
 ---
 A friend recently pointed out a quirk in Python with negative indices in lists.

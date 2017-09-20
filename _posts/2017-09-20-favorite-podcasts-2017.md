@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Favorite Podcasts 2017
 ---
 I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. Even swimming (seriously, I bought a waterproof MP3 player just so I could listen to more podcasts). Here are a few of my favorites.
@@ -15,4 +15,3 @@ I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. E
 -[Make Me Smart](https://www.marketplace.org/topics/make-me-smart)
 -[Codebreaker](https://www.marketplace.org/topics/tech/codebreaker-podcast)
 -[Invisibilia](http://www.npr.org/podcasts/510307/invisibilia)
-

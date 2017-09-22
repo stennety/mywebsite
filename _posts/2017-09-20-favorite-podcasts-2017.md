@@ -7,7 +7,7 @@ I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. E
 - [Skeptics' Guide to the Universe](http://www.theskepticsguide.org/)
 - [Risky Business](https://risky.biz/netcasts/risky-business/)
 - [Security Now](https://www.grc.com/securitynow.htm)
--[Rachel Maddow](https://www.stitcher.com/podcast/msnbc-rachel-maddow-audio)
+- [Rachel Maddow](https://www.stitcher.com/podcast/msnbc-rachel-maddow-audio)
 - [Fareed Zackaria GPS](http://podcast.cnn.com/fareed-zakaria-gps/episode/all/yRC6kPtDrhY5RR/79ywg0.1-1.html)
 - [Pod Save America](https://getcrookedmedia.com/here-have-a-podcast-78ee56b5a323)
 - [Stack Overflow Podcast](https://stackoverflow.blog/podcasts/)

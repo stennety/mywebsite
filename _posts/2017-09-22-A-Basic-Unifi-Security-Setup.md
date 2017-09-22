@@ -12,7 +12,7 @@ And, *oh man* is it fantastic. The first time that sat down and did a speed test
 
 That said, the Unifi setup is not exactly plug and play. While the defaults are good (and waaaay better than a random D-Link router pulled off the shelf) there was more than a few things that I had to hammer out to get exactly the behavior I was hoping from hit.
 
-##UniFi Setup
+## UniFi Setup
 
 For starters, here's my purchase list:
 

@@ -6,10 +6,10 @@ title: A Basic Unifi Security Setup
 It was death by papercuts, but my old AirPlay Express router finally bit the dust. With the addition of [Pi-Hole](https://benjamin-hering.com/Pi-hole-saves-my-router/), it was *fine*. Not great, but with 30 minutes of fiddling with it every week and setting it on a timer to reboot regularly it was *marginally acceptable*. With so much of my life and work being tied pretty directly to the internet, I ended up making the same calculations that [Troy Hunt did](https://www.troyhunt.com/ubiquiti-all-the-things-how-i-finally-fixed-my-dodgy-wifi/) that paying for quality networking gear will pay off in the long run, and bit the bullet to buy a full Unifi setup.
 
 And, *oh man* is it fantastic. The first time that sat down and did a speed test I discovered  only to discover that the AirPort Express' ethernet link maxes out at 100 Mbps and there was an entire world worth of burst bandwidth from my ISP I hadn't seen. It was enough to get me hooked.
-<p style="text-align: center;">
+
 ![Speedtest](https://benjamin-hering.com/images/unifi-setup/unifi-speedtest.png)
-*oh man, I've been missing out on so much internet! And this is a Wi-Fi speedtest!*
-</p>
+*(oh man, I've been missing out on so much internet! And this is just a Wi-Fi speedtest!)*
+
 That said, the Unifi setup is not exactly plug and play. While the defaults are good (and waaaay better than a random D-Link router pulled off the shelf) there was more than a few things that I had to hammer out to get exactly the behavior I was hoping from hit.
 
 ##UniFi Setup

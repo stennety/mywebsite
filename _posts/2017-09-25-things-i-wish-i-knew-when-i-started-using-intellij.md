@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Things I wish I knew when I started using IntelliJ
 ---
 Starting this post to catalog some useful features of IntelliJ.

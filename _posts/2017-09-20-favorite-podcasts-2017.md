@@ -10,6 +10,7 @@ I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. E
 - [Rachel Maddow](https://www.stitcher.com/podcast/msnbc-rachel-maddow-audio)
 - [Fareed Zackaria GPS](http://podcast.cnn.com/fareed-zakaria-gps/episode/all/yRC6kPtDrhY5RR/79ywg0.1-1.html)
 - [Pod Save America](https://getcrookedmedia.com/here-have-a-podcast-78ee56b5a323)
+- [Decrypted](https://www.bloomberg.com/podcasts/decrypted)
 - [Stack Overflow Podcast](https://stackoverflow.blog/podcasts/)
 - [Planet Money](http://www.npr.org/podcasts/510289/planet-money)
 - [Make Me Smart](https://www.marketplace.org/topics/make-me-smart)

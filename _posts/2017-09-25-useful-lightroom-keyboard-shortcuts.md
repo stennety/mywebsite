@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful Lightroom keyboard shortcuts
 ---
 Here are the keyboard shortcuts I use most frequently in my Lightroom workflow.

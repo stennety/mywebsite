@@ -15,3 +15,4 @@ Here are the keyboard shortcuts I use most frequently in my Lightroom workflow.
 | W  | Open white balance tool  |
 | Q  | Open spot removal tool  |
 | Cmd +/-  | Zoom in/out  |
+| \  | Toggle view of original photo/photo with edits  |

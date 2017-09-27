@@ -9,4 +9,4 @@ The following is a list of random but entertaining facts.
 - Elon Musk owns a website called [x.com](https://www.x.com/). When you visit the home page, it simply displays "x". If you visit any other page, it displays "y".
 - OreIda, the American potato-based frozen foods company, is named because it was established on the border between Oregon and Idaho ([source](https://en.wikipedia.org/wiki/Ore-Ida)). 
 - Warren Buffett owns a 2001 Lincoln Town Car with the license plate, "THRIFTY" ([source](https://www.fool.com/investing/general/2006/12/05/top-10-vanity-license-plates.aspx)).
-- The word "lens" comes from the word "lentil." 
+- The word "lens" comes from the word "lentil" because of their similarity in shape ([source](https://petapixel.com/2011/10/03/did-you-know-the-word-lens-came-from-the-word-lentil/)).

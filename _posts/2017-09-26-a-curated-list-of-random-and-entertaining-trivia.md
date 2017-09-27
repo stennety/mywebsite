@@ -1,6 +1,6 @@
 ---
 published: false
-title: A curated list of random and entertaining trivia
+title: A curated list of random and mildly entertaining trivia
 ---
 The following is a list of random but entertaining facts that I've come across.
 

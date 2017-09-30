@@ -20,6 +20,10 @@ Here's a list of engineers, designers, and data scientists I look up to.
 
 [Simone Giertz](https://twitter.com/SimoneGiertz) is the self-styled "Queen of Shitty Robots." She's a Swedish inventor, robotics enthusiast, and YouTuber. She builds Rube Goldberg-esque robots to automate everyday tasks that often break down in comical ways. Check out her [YouTube channel](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ).
 
+## Bret Victor
+
+[Bret Victor](http://worrydream.com/) is an interface designer, computer scientist, and electrical engineer who has worked as a human interface designer for Apple. He was one of a small group of people who worked on the initial design for the iPad. He believes strongly in the principle that creators need an immediate connection to what they're making. He gave an excellent talk at CUSEC in 2012 about this idea called [Inventing on Principle](https://vimeo.com/36579366).
+
 ## David Neevel
 
 [David Neevel](http://davidneevel.com/) is an inventor who lives in the Netherlands. He also builds some hilarious Rube Goldberg-esque machines, including [one that prints out and burns Trump's Tweets](https://twitter.com/burnedyourtweet) and [one that separates the frosting from Oreos](https://vimeo.com/60588571). He's got several more of his inventions featured on [his website](http://davidneevel.com/).

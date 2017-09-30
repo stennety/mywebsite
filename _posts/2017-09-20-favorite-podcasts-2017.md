@@ -17,3 +17,4 @@ I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. E
 - [Codebreaker](https://www.marketplace.org/topics/tech/codebreaker-podcast)
 - [Invisibilia](http://www.npr.org/podcasts/510307/invisibilia)
 - [NY Times: The Daily](https://www.stitcher.com/podcast/the-new-york-times/the-daily-10?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news)
+- [Marketplace](http://www.npr.org/podcasts/381444600/marketplace)

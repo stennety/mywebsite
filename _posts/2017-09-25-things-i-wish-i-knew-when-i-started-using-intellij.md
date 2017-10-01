@@ -10,6 +10,32 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 
 ![]({{site.cdn_path}}/2017/09/25/actionMenu.gif)
 
+# Useful keyboard shortcuts
+
+| Command | Function |
+|---|---|
+| ⌘ + B | Jump to source (this can also be done by ⌘ + clicking on the code) |
+| ⌘ + N | Go to class (On some keyboard layouts this is ⌘ + O) |
+| ⌘ + ⇧ + N | Go to file (On some keyboard layouts this is ⌘ + ⇧ + O) |
+| ⌘ + ⌥ + ⇧ + N | Go to symbol or method (On some keyboard layouts this is ⌘ + ⌥ + ⇧ + O) |
+| ⌥ + F7 | Find usages of code at cursor |
+| ⌃ + ⌥ + O | Optimize imports. This removes any unused imports and consolidates multiple imports from the same packages based on a threshold (default 5, iirc). |
+| ⌃ + ⇧ + F | Find in path |
+| ⌘ + J | [Live Templates](https://www.jetbrains.com/help/idea/live-templates.html). Basically code completion. Really handy for generating boilerplate. |
+| ⌘ + E | Go to recent files |
+| ⌘ + ⇧ + E | Go to recently edited files |
+| ⇧ + ⌘ + V | Show clipboard stack |
+| ⇧ + F4 | Externalize editor |
+| ⇧ + F12 | Show overview of current file, methods, etc. |
+| ⇧ + ⇧ | Search everywhere |
+| ⌘ + G | Go to line number |
+| ⌘ + X | Cut line |
+| ⌘ + D | Duplicate line |
+
+# Local history
+
+Delete something on accident? Inadvertently get yourself into a pickle with git? Never fear, local history is your best friend. Get to it by going to VCS -> Local History -> Show History. It will show all changes made to all your files in chronological order, and you can revert back to any of them. You can also view local history for a file. Simply right-click the file in the editor window, then select Local History -> Show History.
+
 # Show/hide the items along the edges of the IDE
 
 Click the icon in the bottom left-hand corner of the window to toggle the visibility of the edge items, like projects, Maven, etc. I usually prefer these to be shown.
@@ -32,6 +58,7 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 |---|---|
 | ⌘ + 1 | Open Project Tab |
 | ⌘ + 2 | Open Favorites Tab |
+| ⌘ + 3 | Find |
 | ⌘ + 4 | Open Run Tab |
 | ⌘ + 5 | Open Debugger |
 | ⌘ + 6 | Open Project ToDos |
@@ -39,4 +66,4 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 | ⌘ + 9 | Open Version Control Tab |
 | ⌥ + F12 | Open Terminal |
 
-(I'm not sure why ⌘ + 3/8 don't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)
+(I'm not sure why ⌘ + 8 doesn't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)

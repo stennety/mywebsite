@@ -20,6 +20,8 @@ The following are a few principles of good software engineering that I've learne
 
 **[Design Margin:](https://en.wikipedia.org/wiki/Factor_of_safety)** The safety factor of a system. i.e. if a system is designed to withstand 50 units of force but it can actually withstand 70, the design margin is 20 units. 
 
+**The Boy Scout Rule**: Always leave things cleaner than you found them. [Source](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
+
 **DRY (Don't Repeat Yourself)**
 
 **YAGNI (You Ain't Gonna Need It)**

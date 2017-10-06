@@ -18,7 +18,7 @@ So if it's so simple, why don't more big name domains have all three setup? Many
 
 So why doesn't the official White House website take advantage of these additional protections against people impersonating them in emails? Well for starters, the have the full weight of the FBI to come slamming down on anyone pretending to be the President. (Seriously, don't send fake White House emails. It's a bad idea.) But my hunch is that the real reason that they - and everyone else that doesn't have the full might of three letter agencies to throw around - don't have DMARC setup everywhere is people.
 
-[![The two hardest things in Computer Science are: People, and convincing others that "People" is the hardest thing in Computer Science.](https://benjamin-hering.com/images/hardest-thing-is-people.png)](https://twitter.com/listrophy/status/876129823130869760)
+[![The two hardest things in Computer Science are: People, and convincing others that "People" is the hardest thing in Computer Science.](https://blog.benjamin-hering.com/images/hardest-thing-is-people.png)](https://twitter.com/listrophy/status/876129823130869760)
 
 Setting up a DNS record? Super easy. But can you figure out all of the random places that send email on your behalf on a large organization so you don't break Marketing's email list through MailChimp or Customer Support's communication in Zendesk, and oh by the way the scanner in the copier has it's own mail server to send scanned images and once a year our System Administrators might get a super important alert that's sent Amazon's Simple Email Service that's essential that it gets through.
 

@@ -3,11 +3,11 @@ layout: post
 title: A Basic Unifi Security Setup
 ---
 
-It was death by papercuts, but my old AirPlay Express router finally bit the dust. With the addition of [Pi-Hole](https://benjamin-hering.com/Pi-hole-saves-my-router/), it was *fine*. Not great, but with 30 minutes of fiddling with it every week and setting it on a timer to reboot regularly it was *marginally acceptable*. With so much of my life and work being tied pretty directly to the internet, I ended up making the same calculations that [Troy Hunt did](https://www.troyhunt.com/ubiquiti-all-the-things-how-i-finally-fixed-my-dodgy-wifi/) that paying for quality networking gear will pay off in the long run, and bit the bullet to buy a full Unifi setup.
+It was death by papercuts, but my old AirPlay Express router finally bit the dust. With the addition of [Pi-Hole](https://blog.benjamin-hering.com/Pi-hole-saves-my-router/), it was *fine*. Not great, but with 30 minutes of fiddling with it every week and setting it on a timer to reboot regularly it was *marginally acceptable*. With so much of my life and work being tied pretty directly to the internet, I ended up making the same calculations that [Troy Hunt did](https://www.troyhunt.com/ubiquiti-all-the-things-how-i-finally-fixed-my-dodgy-wifi/) that paying for quality networking gear will pay off in the long run, and bit the bullet to buy a full Unifi setup.
 
 And, *oh man* is it fantastic. The first time that sat down and did a speed test I discovered  only to discover that the AirPort Express' ethernet link maxes out at 100 Mbps and there was an entire world worth of burst bandwidth from my ISP I hadn't seen. It was enough to get me hooked.
 
-![Speedtest](https://benjamin-hering.com/images/unifi-setup/unifi-speedtest.png)
+![Speedtest](https://blog.benjamin-hering.com/images/unifi-setup/unifi-speedtest.png)
 *(oh man, I've been missing out on so much internet! And this is just a Wi-Fi speedtest!)*
 
 That said, the Unifi setup is not exactly plug and play. While the defaults are good (and waaaay better than a random D-Link router pulled off the shelf) there was more than a few things that I had to hammer out to get exactly the behavior I was hoping from hit.
@@ -45,28 +45,28 @@ I discovered that outside of a few pre-built rules (like dropping anything on th
 
 First, I setup some local groups to define management ip addresses from everything else.
 
-![Management IPs](https://benjamin-hering.com/images/unifi-setup/management-ip-group.png) 
+![Management IPs](https://blog.benjamin-hering.com/images/unifi-setup/management-ip-group.png) 
 
 And then setup a local group to define all local ip addresses
 
-![Local IPs](https://benjamin-hering.com/images/unifi-setup/local-ip-group.png) 
+![Local IPs](https://blog.benjamin-hering.com/images/unifi-setup/local-ip-group.png) 
 
 With these groups, I can define two simple firewall rules (done on the "LAN IN" interface of the security gateway):
 1. Management IPs can talk to other Management IPs, otherwise
 2. Local IPs can't talk to other Local IPs.
 
-![Firewall rules](https://benjamin-hering.com/images/unifi-setup/firewall-rules.png) 
+![Firewall rules](https://blog.benjamin-hering.com/images/unifi-setup/firewall-rules.png) 
 
 And the specifics of the deny that does the heavy lifting of the VLAN isolation.
 
-![VLAN isolation rule](https://benjamin-hering.com/images/unifi-setup/vlan-isolation-1.png) 
-![VLAN isolation rule](https://benjamin-hering.com/images/unifi-setup/vlan-isolation-2.png) 
+![VLAN isolation rule](https://blog.benjamin-hering.com/images/unifi-setup/vlan-isolation-1.png) 
+![VLAN isolation rule](https://blog.benjamin-hering.com/images/unifi-setup/vlan-isolation-2.png) 
 
 With this, my home network VLAN (or any new network I make) can talk happily among itself, but once it hits the security gateway to get routed to another network it gets stopped. And now I have my VLAN isolation.
 
 Curious side note, when I run an nmap scan from one VLAN to another I do get one reply back. The Unifi Security Gateway has an IP in all of the VLANs as a default gateway, and so will respond to scans from other networks but non-gateway IPs on those networks are still isolated.
 
 ### And I still get Pi-Hole DNS
-Now with a Raspberry Pi running all the time for a Unifi controller, I wanted to use the same hardware to keep running [Pi-Hole](https://benjamin-hering.com/Pi-hole-saves-my-router/). Ideally, I wanted to keep Pi-Hole DNS without unwinding any part of the firewall rules I had just figured out for VLAN isolation. 
+Now with a Raspberry Pi running all the time for a Unifi controller, I wanted to use the same hardware to keep running [Pi-Hole](https://blog.benjamin-hering.com/Pi-hole-saves-my-router/). Ideally, I wanted to keep Pi-Hole DNS without unwinding any part of the firewall rules I had just figured out for VLAN isolation. 
 
 Fortunately, the default behavior of the Unifi Security Gateway is to set itself as the main resolver for all clients and then pass on the DNS requests to the resolvers you specify, and is perfectly happy to have a local DNS resolver. All of the Pi-Hole logs show the requests coming from the security gateway instead of the actual end clients, but I'll take that over having to punch holes in the firewall rules directly and keep the ad-blocking DNS resolution in place.

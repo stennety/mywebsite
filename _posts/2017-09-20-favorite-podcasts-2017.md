@@ -2,8 +2,6 @@
 published: true
 title: Favorite Podcasts 2017
 ---
-I'm an avid consumer of podcasts, whether I'm on a run, at home, or commuting. Even swimming (seriously, I bought a waterproof MP3 player just so I could listen to more podcasts). Here are a few of my favorites.
-
 - [Skeptics' Guide to the Universe](http://www.theskepticsguide.org/)
 - [Risky Business](https://risky.biz/netcasts/risky-business/)
 - [Security Now](https://www.grc.com/securitynow.htm)

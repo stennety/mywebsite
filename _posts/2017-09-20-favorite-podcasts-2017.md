@@ -7,7 +7,7 @@ title: Favorite Podcasts 2017
 - [Security Now](https://www.grc.com/securitynow.htm)
 - [Rachel Maddow](https://www.stitcher.com/podcast/msnbc-rachel-maddow-audio)
 - [Fareed Zackaria GPS](http://podcast.cnn.com/fareed-zakaria-gps/episode/all/yRC6kPtDrhY5RR/79ywg0.1-1.html)
-- [Pod Save America](https://getcrookedmedia.com/here-have-a-podcast-78ee56b5a323)
+- [Pod Save America](https://crooked.com/podcast-series/pod-save-america/)
 - [Decrypted](https://www.bloomberg.com/podcasts/decrypted)
 - [Stack Overflow Podcast](https://stackoverflow.blog/podcasts/)
 - [Planet Money](http://www.npr.org/podcasts/510289/planet-money)

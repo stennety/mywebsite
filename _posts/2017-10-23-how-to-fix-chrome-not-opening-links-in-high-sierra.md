@@ -11,3 +11,7 @@ So, if you're running into the same thing:
 3. Drag the beta into your Applications folder.
 4. Open Chrome again.
 5. Check that links open correctly.
+
+And it should be working again:
+
+![]({{site.cdn_path}}/2017/10/23/working-again.gif)

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Fluent Interfaces and the Builder Pattern
 ---
 I'd been using [fluent interfaces](https://en.wikipedia.org/wiki/Fluent_interface) for a long time without realizing that there was a distinction between some implementations of them and the [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern).

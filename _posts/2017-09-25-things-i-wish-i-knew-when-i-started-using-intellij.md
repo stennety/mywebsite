@@ -31,6 +31,7 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + G | Go to line number |
 | ⌘ + X | Cut line |
 | ⌘ + D | Duplicate line |
+| ⌘ + ⇧ + T | Generate a test |
 
 # Local history
 

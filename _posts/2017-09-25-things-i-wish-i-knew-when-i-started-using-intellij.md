@@ -32,6 +32,7 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + X | Cut line |
 | ⌘ + D | Duplicate line |
 | ⌘ + ⇧ + T | Generate a test |
+| ⌘ + F4 | Close current file in editor |
 
 # Local history
 

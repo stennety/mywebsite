@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: My macOS workflows
 ---
 The following is a list of workflows I use on macOS to boost my productivity. 

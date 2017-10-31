@@ -24,3 +24,8 @@ Alfred [snippets](https://www.alfredapp.com/help/features/snippets/) are basical
 * [Ascii Art](https://www.alfredapp.com/media/snippets/Ascii%20Art.alfredsnippets)
 * [Emojis](http://joelcalifa.com/blog/alfred-emoji-snippet-pack/)
 
+### Workflows
+
+Alfred has a feature called [Workflows](https://www.alfredapp.com/workflows/). These are essentially plugins that extend Alfred to be able to interact with other apps and services.
+
+Currently, I just use the [Venmo workflow](https://www.alfredapp.com/workflows/), but there are several other ones that look useful, including flows for [Spotify](http://alfred-spotify-mini-player.com/) and [LastPass](http://www.packal.org/workflow/lastpass-cli-workflow-alfred).

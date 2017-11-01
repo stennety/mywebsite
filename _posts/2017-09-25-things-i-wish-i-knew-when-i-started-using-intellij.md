@@ -33,7 +33,7 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + G | Go to line number |
 | ⌘ + X | Cut line |
 | ⌘ + D | Duplicate line |
-| ⌘ + ⇧ + T | Generate a test |
+| ⌘ + ⇧ + T | Generate a test/in a test class, go to class under test |
 | ⌘ + F4 | Close current file in editor |
 
 ## Cycle through open files and tool windows

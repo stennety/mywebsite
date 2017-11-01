@@ -18,18 +18,18 @@ The following are a few principles of good software engineering that I've learne
 
 **Postel's Law (aka the Robustness Principle):** Be conservative in what you do, be liberal in what you accept from others. This was coined by Internet pioneer John Postel, who wrote in an early implementation of the TCP spec that "TCP implementations should follow a general principle of robustness: be conservative in what you do, be liberal in what you accept from others.
 
-**[Design Margin:](https://en.wikipedia.org/wiki/Factor_of_safety)** The safety factor of a system. i.e. if a system is designed to withstand 50 units of force but it can actually withstand 70, the design margin is 20 units. 
+**Design Margin:** The safety factor of a system. i.e. if a system is designed to withstand 50 units of force but it can actually withstand 70, the design margin is 20 units. [Source](https://en.wikipedia.org/wiki/Factor_of_safety)
 
-**The Boy Scout Rule**: Always leave things cleaner than you found them. [Source](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
+**The Boy Scout Rule (aka Kaizen)**: Always leave things cleaner than you found them. [Source](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
 
 **DRY (Don't Repeat Yourself)**
 
-**YAGNI (You Ain't Gonna Need It)**
+**YAGNI (You Ain't Gonna Need It):** A principle of extreme programming (XP) that favors not adding functionality until deemed necessary. Rephrased by XP co-founder Ron Jeffries, "Always implement things when you actually need them, never when you just foresee that you need them." [Source](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 **Where to catch errors:** In general, it's best to catch errors and exceptions at the highest level possible.
 
-**Kaizen:** Leave things better than how you found them.
+**Optimization Adages:** "the fastest code is the code that doesn’t run," "premature optimization is the root of all evil."
 
-## References:
+## Reference
 
 http://www.sw-engineering-candies.com/blog-1/rules-of-thumb-in-software-engineering

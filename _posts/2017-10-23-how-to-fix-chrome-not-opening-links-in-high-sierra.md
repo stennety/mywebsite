@@ -17,3 +17,5 @@ And it should be working again:
 ![]({{site.cdn_path}}/2017/10/23/working-again.gif)
 
 _Update, November 2: After using my browser for a bit, this broke again. Haven't had a chance to look into a new fix yet. Will update this when I find one._
+
+_Update to the update, November 2: It's working again in beta version 63.0.3239.30, released [yesterday](https://chromereleases.googleblog.com/2017/11/beta-channel-update-for-desktop.html)._

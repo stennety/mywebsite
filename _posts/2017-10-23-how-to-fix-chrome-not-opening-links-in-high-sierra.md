@@ -15,3 +15,5 @@ So, if you're running into the same thing:
 And it should be working again:
 
 ![]({{site.cdn_path}}/2017/10/23/working-again.gif)
+
+_Update, November 2: After using my browser for a bit, this broke again. Haven't had a chance to look into a new fix yet. Will update this when I find one._

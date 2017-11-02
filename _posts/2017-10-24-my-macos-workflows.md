@@ -30,11 +30,33 @@ Alfred has a feature called [Workflows](https://www.alfredapp.com/workflows/). T
 
 Currently, I just use the [Venmo workflow](https://www.alfredapp.com/workflows/), but there are several other ones that look useful, including flows for [Spotify](http://alfred-spotify-mini-player.com/) and [LastPass](http://www.packal.org/workflow/lastpass-cli-workflow-alfred).
 
-## iTerm
+## iTerm 2
+
+[iTerm 2](https://www.iterm2.com/) is a more full-featured upgrade from macOS's built-in Terminal app.
+
+### Useful bash hotkeys and commands
+
+For navigating the terminal:
+
+| Hotkey | Function |
+|---|---|
+| ⌃A | Go to beginning of input |
+| ⌃E | Go to end of input |
+| ⌥B | Jump to previous word |
+| ⌥F | Jump to next word |
+| ⌃U | Delete to beginning of input |
+| ⌃K | Delete to end of input |
+| ⌥D | Delete to end of word |
+
+Useful commands:
+
+| Command | Function |
+|---|---|
+| open . | Open a Finder window of current directory |
 
 ### Jumping between words
 
-By default, iTerm doesn't have a way of jumping between words. However, it's easy to set that up by using a Profile. [This](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) is a good guide on how to do that.
+In addition to the standard bash commands, alt + B and alt + f, you can configure iTerm to jump between words using alt + ← and alt + → using a Profile. [This](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) is a good guide on how to do that.
 
 ### ZSH
 
@@ -53,3 +75,4 @@ chmod +x ~/bin/imgcat
 ```
 
 And then make sure `~/bin` is in your $PATH.
+

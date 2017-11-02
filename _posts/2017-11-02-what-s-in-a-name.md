@@ -15,6 +15,7 @@ A list of companies and places with interesting name origins.
 - [Nagios](https://www.david-merrick.com/2017/07/07/why-is-nagios-called-nagios/) is a recursive acronym for "Nagios Ain't Gonna Insist On Sainthood."
 - [Pepsi](https://en.wikipedia.org/wiki/Pepsi) was originally introduced in 1893 as "Brad's Drink." It was later renamed Pepsi Cola in 1898 after the Greek root word, "[pepsin](https://en.wiktionary.org/wiki/pepsin#English)," which refers to digestion.
 - [Venmo](https://www.quora.com/What-does-the-name-Venmo-mean) is a portmanteau of "vendor" and "mobile."
+- [Vevo](https://en.wikipedia.org/wiki/Vevo) is a portmanteau of "video" and "evolution."
 - [Volkswagen](https://en.wikipedia.org/wiki/Volkswagen) is German for, "people's car."
 
 # Places

@@ -29,3 +29,27 @@ Alfred [snippets](https://www.alfredapp.com/help/features/snippets/) are basical
 Alfred has a feature called [Workflows](https://www.alfredapp.com/workflows/). These are essentially plugins that extend Alfred to be able to interact with other apps and services.
 
 Currently, I just use the [Venmo workflow](https://www.alfredapp.com/workflows/), but there are several other ones that look useful, including flows for [Spotify](http://alfred-spotify-mini-player.com/) and [LastPass](http://www.packal.org/workflow/lastpass-cli-workflow-alfred).
+
+## iTerm
+
+### Jumping between words
+
+By default, iTerm doesn't have a way of jumping between words. However, it's easy to set that up by using a Profile. [This](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) is a good guide on how to do that.
+
+### ZSH
+
+I switched to ZSH about a year ago and am a huge fan. It's got tons of useful plugins, aliases for frequently-used git commands, etc. Get it at [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
+
+### imgcat
+
+It's like the `cat` command, but for images. 
+
+![]({{site.cdn_path}}/2017/10/24/imgcat.png)
+
+Install the script by running
+```
+curl https://www.iterm2.com/utilities/imgcat > ~/bin/imgcat
+chmod +x ~/bin/imgcat
+```
+
+And then make sure `~/bin` is in your $PATH.

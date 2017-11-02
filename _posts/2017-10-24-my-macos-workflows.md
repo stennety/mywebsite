@@ -4,7 +4,13 @@ title: My macOS workflows
 ---
 The following is a list of workflows I use on macOS to boost my productivity. 
 
-_Note: This post is a work-in-progress; will be adding more to it soon._
+## macOS itself
+
+## Toggle Do Not Disturb
+
+⌥ + clicking on the upper right-hand corner of the screen toggles Do Not Disturb mode.
+
+![]({{site.cdn_path}}/2017/10/24/toggle_dnd.gif)
 
 ## Alfred
 
@@ -75,4 +81,3 @@ chmod +x ~/bin/imgcat
 ```
 
 And then make sure `~/bin` is in your $PATH.
-

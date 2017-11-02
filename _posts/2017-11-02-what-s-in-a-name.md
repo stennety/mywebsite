@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: What's in a name?
 ---
 A list of companies and places with interesting name origins.

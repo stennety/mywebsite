@@ -7,6 +7,7 @@ A list of companies and places with interesting name origins.
 # Companies
 
 - [Adidas](https://en.wikipedia.org/wiki/Adolf_Dassler) is a portmanteau of its founder's name,  Adi Dassler.
+- [Akamai](https://en.wikipedia.org/wiki/Akamai_Technologies) is a Hawaiian word meaning "intelligent" or "clever."
 - [Coca Cola](https://en.wikipedia.org/wiki/Coca-Cola)'s name refers to it's original ingredients, kola nuts (a source of caffeine) and coca leaves.
 - [LEGO](https://en.wikipedia.org/wiki/Lego)'s name is derived from the Danish phrase, "leg godt," which means "play well."
 - [Mozilla](https://en.wikipedia.org/wiki/Mozilla) is a portmanteau of "Mosaic" and "killer" (Mosaic referring to the Mosaic web browser). 

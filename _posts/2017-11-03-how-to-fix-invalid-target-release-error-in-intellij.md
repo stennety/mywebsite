@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to fix "invalid target release" error in IntelliJ
 ---
 Sometimes, after changing your project's JDK, you may run into an "invalid target release" error during compilation.

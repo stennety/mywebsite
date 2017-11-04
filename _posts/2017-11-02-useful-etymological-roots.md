@@ -49,6 +49,12 @@ List of useful etymological roots and their meanings.
 | vita, vivere | life | vital, vivid |
 | xeno | foreign | xenophobia |
 
+# Interesting word origins
+
+## Serendipity
+
+[Serendipity](https://blog.oxforddictionaries.com/2012/03/what-is-the-origin-of-serendipity/) was invented by writer and politician Horace Walpole in 1754. The word _Serendip_ is an old name for Sri Lanka. Walpole wrote a fairy tale called _The Three Princes of Serendip_, in which the protagonists "were always making discoveries, by accidents and sagacity, of things they were not in quest of."
+
 ## Reference
 
 - [https://www.learnthat.org/pages/view/roots.html](https://www.learnthat.org/pages/view/roots.html)

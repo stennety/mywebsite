@@ -17,3 +17,10 @@ title: Favorite Podcasts 2017
 - [Invisibilia](http://www.npr.org/podcasts/510307/invisibilia)
 - [NY Times: The Daily](https://www.stitcher.com/podcast/the-new-york-times/the-daily-10?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news)
 - [Marketplace](http://www.npr.org/podcasts/381444600/marketplace)
+
+# Recommended
+
+A few that were recommended to me but that I haven't had a chance to check out yet.
+
+- [Freak Out and Carry On](http://www.wbur.org/freakout)
+- [The British History Podcast - A Chronological History of Britain](https://www.thebritishhistorypodcast.com/)

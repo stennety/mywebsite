@@ -14,6 +14,7 @@ List of useful etymological roots and their meanings.
 | bio | life | biosphere, biology |
 | chrono | time | chronology, chronic |
 | cide | kill | homicide |
+| cred | believe | credence, incredible, credulous |
 | dem | people | epidemic, democracy, demagogue |
 | dys | bad, ill, abnormal | dystopia |
 | fid | faith | fidelity, fiduciary, infidel |
@@ -46,6 +47,9 @@ List of useful etymological roots and their meanings.
 | syn, sym | together, with | synthesis, symbiosis, synonym, syntax |
 | tele | far | telephone, telekinesis |
 | [utopia](https://www.etymonline.com/search?q=dystopia) | good | utopia, dystopia |
+| ver, veri | truth | verify, veracity |
+| vid | see | evident, video |
+| vince, vic | conquer | convince, invincible |
 | vita, vivere | life | vital, vivid |
 | xeno | foreign | xenophobia |
 
@@ -58,3 +62,4 @@ List of useful etymological roots and their meanings.
 ## Reference
 
 - [https://www.learnthat.org/pages/view/roots.html](https://www.learnthat.org/pages/view/roots.html)
+- [OxfordWords Blog](https://blog.oxforddictionaries.com/)

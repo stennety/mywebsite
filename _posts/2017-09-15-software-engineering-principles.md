@@ -30,6 +30,8 @@ The following are a few principles of good software engineering that I've learne
 
 **Optimization Adages:** "the fastest code is the code that doesn’t run," "premature optimization is the root of all evil."
 
+**Amara's Law:** The adage, coined by American futurist Roy Amara, that "we tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run." [source](https://en.wikipedia.org/wiki/Roy_Amara)
+
 ## Reference
 
 http://www.sw-engineering-candies.com/blog-1/rules-of-thumb-in-software-engineering

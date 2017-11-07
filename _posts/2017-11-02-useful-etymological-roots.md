@@ -59,7 +59,15 @@ List of useful etymological roots and their meanings.
 
 [Serendipity](https://blog.oxforddictionaries.com/2012/03/what-is-the-origin-of-serendipity/) was invented by writer and politician Horace Walpole in 1754. The word _Serendip_ is an old name for Sri Lanka. Walpole wrote a fairy tale called _The Three Princes of Serendip_, in which the protagonists "were always making discoveries, by accidents and sagacity, of things they were not in quest of."
 
-## Reference
+## Bootleg
+
+The term, [bootleg](https://english.stackexchange.com/questions/13406/what-is-the-origin-of-bootleg), originally referred to the practice of selling illicit liquor from a flask concealed in a boot leg. It came into much wider usage during Prohibition.
+
+## Luddite
+
+The [Luddites](https://en.wikipedia.org/wiki/Luddite) were a group of textile workers in the 19th century, led by Ned Ludd. They destroyed weaving machinery as a form of protest, fearing that the time spent learning the skills of their craft would go to waste as machines replaced their role in the industry. Although it's a misconception that they were protesting the machinery itself, the term "Luddite" came to refer to the opposition to technology in general.
+
+# Reference
 
 - [https://www.learnthat.org/pages/view/roots.html](https://www.learnthat.org/pages/view/roots.html)
 - [OxfordWords Blog](https://blog.oxforddictionaries.com/)

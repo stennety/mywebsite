@@ -36,6 +36,16 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + ⇧ + T | Generate a test/in a test class, go to class under test |
 | ⌘ + F4 | Close current file in editor |
 
+## Version control keyboard shortcuts
+
+| Command | Function |
+|---|---|
+| ⌘ + 9 | Open Version Control tab |
+| ⌘ + ⌥ + A | Add file to version control. Can be used from within a file or in the Version Control pane. |
+| ⌘ + K | Commit selected file(s). |
+| ⌘ + ⌥ + Z | Revert selected file(s). |
+| ⌘ + D | Show diff. |
+
 ## Cycle through open files and tool windows
 
 Ctrl + Tab lets you cycle through any processes you have open in the current session.
@@ -50,14 +60,14 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 
 | Command | IDE component |
 |---|---|
-| ⌘ + 1 | Open Project Tab |
-| ⌘ + 2 | Open Favorites Tab |
+| ⌘ + 1 | Open Project tab |
+| ⌘ + 2 | Open Favorites tab |
 | ⌘ + 3 | Find |
-| ⌘ + 4 | Open Run Tab |
+| ⌘ + 4 | Open Run tab |
 | ⌘ + 5 | Open Debugger |
 | ⌘ + 6 | Open Project ToDos |
-| ⌘ + 7 | Open Project Structure Tab |
-| ⌘ + 9 | Open Version Control Tab |
+| ⌘ + 7 | Open Project Structure tab |
+| ⌘ + 9 | Open Version Control tab |
 | ⌥ + F12 | Open Terminal |
 
 (I'm not sure why ⌘ + 8 doesn't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)

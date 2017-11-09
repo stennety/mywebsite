@@ -18,4 +18,8 @@ And it should be working again:
 
 _Update, November 2: After using my browser for a bit, this broke again. Haven't had a chance to look into a new fix yet. Will update this when I find one._
 
-_Update to the update, November 2: It's working again in beta version 63.0.3239.30, released [yesterday](https://chromereleases.googleblog.com/2017/11/beta-channel-update-for-desktop.html)._
+_Another update, November 2: It's working again in beta version 63.0.3239.30, released [yesterday](https://chromereleases.googleblog.com/2017/11/beta-channel-update-for-desktop.html)._
+
+_Update, November 9: As someone noted in the comments, there's a bug open in the Chromium project for this: [https://bugs.chromium.org/p/chromium/issues/detail?id=777863](https://bugs.chromium.org/p/chromium/issues/detail?id=777863). One workaround that users have reported is quitting Chrome and starting it up again._
+
+

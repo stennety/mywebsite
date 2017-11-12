@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to securely share AWS keys
 ---
 Need to share AWS keys securely with a coworker? Don't want to just paste them in Slack? [OneTimeSecret](https://onetimesecret.com/) is the way to go.

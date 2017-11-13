@@ -22,5 +22,6 @@ title: Favorite Podcasts 2017
 
 A few that were recommended to me but that I haven't had a chance to check out yet.
 
+- [More Perfect](http://www.wnyc.org/shows/radiolabmoreperfect/)
 - [Freak Out and Carry On](http://www.wbur.org/freakout)
 - [The British History Podcast - A Chronological History of Britain](https://www.thebritishhistorypodcast.com/)

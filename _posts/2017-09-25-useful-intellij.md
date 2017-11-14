@@ -21,7 +21,7 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + ⇧ + N | Go to file (On some keyboard layouts this is ⌘ + ⇧ + O) |
 | ⌘ + ⌥ + ⇧ + N | Go to symbol or method (On some keyboard layouts this is ⌘ + ⌥ + ⇧ + O) |
 | ⌥ + F7 | Find usages of code at cursor |
-| ⌃ + ⌥ + O | Optimize imports. This removes any unused imports and consolidates multiple imports from the same packages based on a threshold (default 5, iirc). |
+| ⌃ + ⌥ + O | Optimize imports. This removes any unused imports and consolidates multiple imports from the same packages based on a threshold (default 5, iirc) |
 | ⌃ + ⇧ + F | Find in path |
 | ⌘ + J | [Live Templates](https://www.jetbrains.com/help/idea/live-templates.html). Basically code completion. Really handy for generating boilerplate. |
 | ⌘ + E | Go to recent files |
@@ -41,10 +41,11 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | Command | Function |
 |---|---|
 | ⌘ + 9 | Open Version Control tab |
-| ⌘ + ⌥ + A | Add file to version control. Can be used from within a file or in the Version Control pane. |
-| ⌘ + K | Commit selected file(s). |
-| ⌘ + ⌥ + Z | Revert selected file(s). |
-| ⌘ + D | Show diff. |
+| ⌘ + ⌥ + A | Add file to version control. Can be used from within a file or in the Version Control pane |
+| ⌘ + K | Commit selected file(s) |
+| ⌘ + ⌥ + Z | Revert selected file(s) |
+| ⌘ + D | Show diff |
+| ⌘ + ⇧ + U | Unshelve changes |
 
 ## Cycle through open files and tool windows
 

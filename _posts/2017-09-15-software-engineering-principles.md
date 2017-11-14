@@ -8,6 +8,8 @@ The following are a few principles of good software engineering that I've learne
 
 **Single Responsibility Principle:** Every class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by that class.
 
+**SOLID:** Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion. [source](http://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
+
 **Dependency Inversion Principle (aka Inversion of Control)**
 
 **Principle of Least Privilege:** Software shouldn't be executed with more authority than it needs to get its job done.

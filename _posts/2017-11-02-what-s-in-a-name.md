@@ -21,6 +21,6 @@ A list of companies and places with interesting name origins.
 
 # Places
 
-- [Armageddon](https://en.wikipedia.org/wiki/Tel_Megiddo) is an actual place, about an hour's drive from Tel Aviv, Israel.
+- [Armageddon](https://en.wikipedia.org/wiki/Tel_Megiddo) is an actual place, about an hour's drive from Tel Aviv, Israel. The word comes from the Hebrew "Har Megiddo," meaning "Mount of Megiddo".
 - [Las Vegas](https://en.wikipedia.org/wiki/History_of_Las_Vegas) means "the meadows" in Spanish.
 - [Los Angeles](https://en.wikipedia.org/wiki/Los_Angeles) means "the angels" in Spanish.

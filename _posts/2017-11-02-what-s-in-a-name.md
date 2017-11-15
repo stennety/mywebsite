@@ -16,6 +16,7 @@ A list of companies and places with interesting name origins.
 - [Pepsi](https://en.wikipedia.org/wiki/Pepsi) was originally introduced in 1893 as "Brad's Drink." It was later renamed Pepsi Cola in 1898 after the Greek root word, "[pepsin](https://en.wiktionary.org/wiki/pepsin#English)," which refers to digestion.
 - [Venmo](https://www.quora.com/What-does-the-name-Venmo-mean) is a portmanteau of "vendor" and "mobile."
 - [Vevo](https://en.wikipedia.org/wiki/Vevo) is a portmanteau of "video" and "evolution."
+- [Verizon](http://knowledge.wharton.upenn.edu/article/whats-in-a-name-not-much-without-a-branding-strategy/) is a portmanteau of "veritas" (Latin for "truth") and "horizon."
 - [Volkswagen](https://en.wikipedia.org/wiki/Volkswagen) is German for, "people's car."
 
 # Places

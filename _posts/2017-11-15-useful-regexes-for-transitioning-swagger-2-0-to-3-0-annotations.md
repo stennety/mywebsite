@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful Regexes for transitioning Swagger 2.0 to 3.0 annotations
 ---
 The following are some useful regexes for transitioning Swagger 2.0 annotations to version 3.0 in Java.

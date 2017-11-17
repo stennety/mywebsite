@@ -4,6 +4,12 @@ title: Handy GitHub Workflow Tricks
 ---
 I went through [this course](https://www.safaribooksonline.com/library/view/mastering-github/9781771376082/) recently and learned some handy GitHub workflow tricks. Here are the most useful ones I found.
 
+## Hotkeys
+
+Pressing "t" in a repository opens up the [File Finder](https://github.com/blog/793-introducing-the-file-finder). You can then type the name of any file in the repo for quick access.
+
+![]({{site.cdn_path}}/2017/08/25/fileFinder.gif)
+
 ## Visualizing diffs
 
 GitHub URLs are very flexible for visualizing diffs in your projects. Below are a few ways to do this.

@@ -36,6 +36,7 @@ defaults:
       related: true
 
 title: David Merrick
+title_separator: \|
 description: Portland, OR
 url: https://www.david-merrick.com
 permalink: /:year/:month/:day/:title/

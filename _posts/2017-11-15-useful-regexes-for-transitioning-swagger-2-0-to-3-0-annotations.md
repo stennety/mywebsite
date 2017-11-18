@@ -45,3 +45,9 @@ Then, run the following search-and-replace RegExes:
 | Search        | Replace |
 | ------------- |-------------|
 | `(@Parameter\([\s\S]*?)\bvalue\b` | `$1description` |
+
+
+# Reference
+- [Annotations-2.0.x](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X)
+- [Annotations-1.5.x](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x)
+- [https://www.jetbrains.com/help/idea/regular-expression-syntax-reference.html](https://www.jetbrains.com/help/idea/regular-expression-syntax-reference.html)

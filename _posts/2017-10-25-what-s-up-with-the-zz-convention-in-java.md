@@ -1,6 +1,6 @@
 ---
 published: true
-title: What's up with the "zz" convention in Java?
+title: What's up with the "clazz" convention in Java?
 ---
 Sometimes you'll come across a `clazz` variable in Java code. I got curious and dug into where this originated from. I found [this answer](https://stackoverflow.com/questions/2529974/why-do-java-programmers-like-to-name-a-variable-clazz) on StackOverflow:
 

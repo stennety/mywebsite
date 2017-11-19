@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to defensively code Optional parameters in Java
 ---
 Let's start with the assumption that [null is evil](https://sidburn.github.io/blog/2016/03/20/null-is-evil). There are a million posts out there on this topic, so I won't beat a dead horse on that. 

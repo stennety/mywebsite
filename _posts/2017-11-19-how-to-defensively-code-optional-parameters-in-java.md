@@ -79,10 +79,8 @@ public class Cat {
 
     private Optional<LaserVision> laserVisionOptional = Optional.empty();
 
-    public void setLaserVisionOptional(Optional<LaserVision> laserVisionOptional) {
-        if(laserVisionOptional == null){
-            this.laserVisionOptional = Optional.empty();
-        } else {
+	public void setLaserVisionOptional(Optional<LaserVision> laserVisionOptional) {
+        if(laserVisionOptional != null){
             this.laserVisionOptional = laserVisionOptional;
         }
     }
@@ -94,6 +92,16 @@ public class Cat {
 {% endhighlight %}
 
 Now, even if someone tries to set that parameter to _null_, it will instead be set to `Optional.empty()`.
+
+For extra convenience, we can add an overloaded setter that allows us to just pass in a LaserVision object directly.
+
+{% highlight java %}
+public void setLaserVisionOptional(LaserVision laserVision) {
+	this.laserVisionOptional = Optional.ofNullable(laserVision);
+}
+{% endhighlight %}
+
+Notice that this code is also written defensively by using `Optional.ofNullable()`.
 
 ## tl;dr
 

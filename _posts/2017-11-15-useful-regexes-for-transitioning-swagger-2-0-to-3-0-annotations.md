@@ -4,11 +4,11 @@ title: Transitioning Swagger 1.5 to 2.0 annotations
 ---
 Transitioning Swagger annotations from version 1.5 to 2.0 can be a chore, as a lot changed with Swagger falling under the banner of the [Open API Initiative](https://www.openapis.org/). I wrote some RegExes that I found helpful for transitioning the annotations, and I hope they're useful for you as well.
 
-## Remove [@Api](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#api)
+# Remove [@Api](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#api)
 
 In annotations 1.5, the `@Api` annotation was used at the class level to apply Swagger definitions to the operations. This is no longer the case. So, to update to annotations 2.0, remove all instances of `@Api`.
 
-## Transition [@ApiOperation](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apioperation) to [@Operation](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#operation)
+# Transition [@ApiOperation](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apioperation) to [@Operation](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#operation)
 
 First, replace all instances of `@ApiOperation` with `@Operation`. Additionally, remove `@ApiResponses` annotations, as these are no longer used.
 
@@ -42,7 +42,7 @@ For reference, here's an example of the `@Operation` annotation in action.
 )
 ```
 
-## Transition [@ApiParam](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apiparam) to [@Parameter](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#parameter)
+# Transition [@ApiParam](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apiparam) to [@Parameter](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#parameter)
 
 First, replace all instances of `@ApiParam` with `@Parameter`. 
 
@@ -53,6 +53,16 @@ Then, run the following search-and-replace RegExes:
 | `(@Parameter\([\s\S]*?)\bvalue\b` | `$1description` |
 
 One caveat to this: `@Parameter` is not applicable for use in a non-resource class (e.g. a data model). In cases like this, use [@Schema](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#schema) instead.
+
+# Transition [@ApiModelProperty](https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X#apimodelproperty) to [@Schema](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#schema)
+
+First, replace all instances of `@ApiModelProperty` and `@ApiModel` with `@Schema`. 
+
+Then, run the following search-and-replace RegExes:
+
+| Search        | Replace |
+| ------------- |-------------|
+| `(@Schema\([\s\S]*?)\bvalue\b` | `$1description` |
 
 # Reference
 - [Annotations-2.0.x](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X)

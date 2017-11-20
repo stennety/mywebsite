@@ -10,7 +10,7 @@ In annotations 1.5, the `@Api` annotation was used at the class level to apply S
 
 ## Transition [@ApiOperation](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apioperation) to [@Operation](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#operation)
 
-First, replace all instances of `@ApiOperation` with `@Operation`.
+First, replace all instances of `@ApiOperation` with `@Operation`. Additionally, remove `@ApiResponses` annotations.
 
 Then, run the following search-and-replace RegExes:
 
@@ -18,7 +18,7 @@ Then, run the following search-and-replace RegExes:
 | ------------- |-------------|
 | `(@Operation\([\s\S]*?)\bvalue\b` | `$1summary` |
 | `(@Operation\([\s\S]*?)\bnotes\b` | `$1description` |
-| `(@Operation\([\s\S]*?)\bresponse\b[\s]*?\=[\s]*?(\w+.class)` | `$1responses = {@ApiResponse(content = @Content(schema = @Schema(implementation = $2.class)))}` |
+| `(@Operation\([\s\S]*?)\bresponse\b[\s]*?\=[\s]*?(\w+.class)` | `$1responses = {@ApiResponse(content = @Content(schema = @Schema(implementation = $2)))}` |
 
 For reference, here's an example of the `@Operation` annotation in action.
 

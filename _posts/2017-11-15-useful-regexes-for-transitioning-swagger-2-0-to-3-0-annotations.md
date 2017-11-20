@@ -18,7 +18,13 @@ Then, run the following search-and-replace RegExes:
 | ------------- |-------------|
 | `(@Operation\([\s\S]*?)\bvalue\b` | `$1summary` |
 | `(@Operation\([\s\S]*?)\bnotes\b` | `$1description` |
-| `(@Operation\([\s\S]*?)\bresponse\b[\s]*?\=[\s]*?(\w+.class)` | `$1responses = {@ApiResponse(content = @Content(schema = @Schema(implementation = $2)))}` |
+| `(@Operation\([\s\S]*?)\bresponse\b[\s]*?\=[\s]*?(\b[a-zA-Z.]+.class)` | `$1responses = {@ApiResponse(content = @Content(schema = @Schema(implementation = $2)))}` |
+
+Optionally, tag your operations with:
+
+| Search        | Replace |
+| ------------- |-------------|
+| `(@Operation\()` | `$1tags = { "Your" "tags" "here" }` |
 
 For reference, here's an example of the `@Operation` annotation in action.
 

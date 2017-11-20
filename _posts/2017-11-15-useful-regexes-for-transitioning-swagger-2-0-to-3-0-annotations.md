@@ -10,7 +10,7 @@ In annotations 1.5, the `@Api` annotation was used at the class level to apply S
 
 ## Transition [@ApiOperation](https://github.com/swagger-api/swagger-core/wiki/annotations-1.5.x#apioperation) to [@Operation](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#operation)
 
-First, replace all instances of `@ApiOperation` with `@Operation`. Additionally, remove `@ApiResponses` annotations.
+First, replace all instances of `@ApiOperation` with `@Operation`. Additionally, remove `@ApiResponses` annotations, as these are no longer used.
 
 Then, run the following search-and-replace RegExes:
 
@@ -46,6 +46,7 @@ Then, run the following search-and-replace RegExes:
 | ------------- |-------------|
 | `(@Parameter\([\s\S]*?)\bvalue\b` | `$1description` |
 
+One caveat to this: `@Parameter` is not applicable for use in a non-resource class (e.g. a data model). In cases like this, use [@Schema](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X#schema) instead.
 
 # Reference
 - [Annotations-2.0.x](https://github.com/swagger-api/swagger-core/wiki/Annotations-2.X)

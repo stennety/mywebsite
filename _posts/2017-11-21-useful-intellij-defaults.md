@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful IntelliJ Defaults
 ---
 The following are some global IntelliJ defaults that I use. Hope they're helpful to you as well.

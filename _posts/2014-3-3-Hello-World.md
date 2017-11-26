@@ -1,8 +1,0 @@
----
-layout: post
-title: Hello!
-published: true
----
-Welcome to my travel blog!
-
-![]({{site.baseurl}}/https://openclipart.org/image/2400px/svg_to_png/170987/travel-map.png)

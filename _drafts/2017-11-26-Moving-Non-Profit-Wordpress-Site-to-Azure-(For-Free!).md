@@ -198,7 +198,7 @@ $table_prefix  = 'wp_iuyyenw_';
 
 If your table prefix is set to 'wp_' on your original website, you're fine. If not, you'll need to download the Azure wp-config.php file and modify it so the table prefix is set to be the same as your old site. 
 
-## Uploading your database
+## Installing phpMyAdmin
 
 Alright, with that file upload chugging away in the background, let's take a look at uploading the MySQL database. Fortunately, using the Web App extensions we can make this pretty painless.
 
@@ -217,3 +217,11 @@ You'll need to click OK on the legal terms.
 And then Azure will install the extension onto your web application. Once installed, click on the phpMyAdmin extension and hit "Browse" to access it.
 
 ![phpMyAdmin access](https://blog.benjamin-hering.com/images/azure-wordpress/azure-access-phpmyadmin.png)
+
+## Uploading your database 
+
+Once you're logged in to phpMyAdmin, select your database name you chose on the left hand side (it should be the only item besides information_schema), click on the import tab, and select the sql database dump file from your backwpup backup. You can only upload 8MB, so if you sql file is larger than that, you can compress it into a zip file or tar.gz file and upload the compressed file. You can keep the defaults for everything else and just hit "go"
+
+![phpMyAdmin access](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-import-tab.png)
+
+## 

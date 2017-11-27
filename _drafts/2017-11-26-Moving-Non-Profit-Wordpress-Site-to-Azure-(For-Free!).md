@@ -59,8 +59,31 @@ Azure is going to ask you for a bunch of parameters. It looks more complicated t
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-wordpress-creation-parameters.png)
 
-For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but you can certainly experiment with smaller app sizes if you wish. Note that the Premium V2 service plans (with SSD) are only available in certain regions. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much.
+For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but you can certainly experiment with smaller app sizes if you wish. Note that the Premium V2 service plans (with SSD) are only available in certain regions. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much. Pricing is slightly different in different places, but it's all with 5% or so of each other. Again, the naming of the service plan isn't too important, but remember what region you placed it in.
+
+Note that if you have multiple websites, you can put them all in the same service plan so long as there's enough free CPU and memory to cover them all.
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-app-service-plan.png)
 
+![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-premium-v2.png)
+
+When you click on the database, and hit "create new" you'll get a bunch of settings for your new MySQL database. Again, it looks more complicated than it is.
+
+* Database Name - Doesn't really matter. Call it whatever you want.
+* Location - **Make sure this is the same region as the app service plan!** If your app service plan is South Central US, put this to South Central US. If you're in West US 2, but the database in West US 2. If they aren't in the same geographic location, every call to the database will have an additional amount of delay as the call goes to a different datacenter. You want it close and fast
+
 ![ClearDB Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-creation.png)
+
+* Pricing Tier - **Don't choose Mercury!** Yes it's free, but notice the lack of "Production Ready" fine print. Even for my development sites, I got database connection errors in Mercury just when I was the only one playing around with it. Titan level database is probably okay for most sites and what I chose for my own. Don't worry, you can always bump it up to something more powerful if you need to.
+
+![ClearDB Pricing](https://blog.benjamin-hering.com/images/azure-wordpress/azure-clear-db-pricing.png)
+
+* Legal Terms - You'll just have to click on them to accept them.
+
+Once all these parameters are in place, you can hit the "create" button for the database and the "create" button for the Wordpress app itself. Go get a cup of coffee and come back in a little bit.
+
+## We got WordPress, now what?
+
+So once Azure is done spinning up all the building blocks
+
+![WordPress Install](https://blog.benjamin-hering.com/images/azure-wordpress/wordpress-install-language.png)

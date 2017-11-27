@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving a Non-Profit Wordpress Site to Azure (For Free!)
+title: Moving a Non-Profit Wordpress Site to Free Hosting on Azure
 ---
 
 So let's start with the easy and fun stuff first: the **for free** part! Microsoft has a fantastic donation program setup for most non-profits to get $5000 per year in free Azure computing. It's pretty fantastic. If you have 501(c)3 status (or the equivalent in your country) pop over to the [Azure donation website](https://www.microsoft.com/en-us/nonprofits), double check that you meet the [eligibility requirements](https://www.microsoft.com/en-us/nonprofits/eligibility) (no political orgs, no government orgs, stuff like that) and start the application process. It costs you nothing to apply and even if you aren't planning to use it to host your website like I outline here, $5000 in free compute is never a liability. Spin up a massive GPU instance and mine bitcoin or something at the least!
@@ -224,4 +224,14 @@ Once you're logged in to phpMyAdmin, select your database name you chose on the 
 
 ![phpMyAdmin access](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-import-tab.png)
 
-## 
+## Setting the PHP Version
+
+Now after all that, you still may not be done. If with your files uploaded and your database restored you still don't see your site, your may be dealing with a conflict in the PHP version of your old site and your new Azure webapp. To change the PHP version go to your App Service and select "Application Settings" in the left hand side menu.
+ 
+![PHP version](https://blog.benjamin-hering.com/images/azure-wordpress/azure-php-version.png)
+
+Azure defaults to the latest PHP 7, while my org's site (and a bunch of other existing WordPress installs) were build on top of PHP 5.6. If your site gets a blank page (but you can hit the back end administration), try rolling the PHP version back to 5.6
+
+## Coming Soon - Part 2
+
+At this point you should have a 100% fully functional copy of your previous WordPress installation running at app-name.azurewebsites.net. In part 2, I'll cover making that cover your own custom domain name, adding automated Azure backups, and some of the specific ways I found to speed up Wordpress sites specifically running on Azure.

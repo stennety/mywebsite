@@ -84,6 +84,136 @@ Once all these parameters are in place, you can hit the "create" button for the 
 
 ## We got WordPress, now what?
 
-So once Azure is done spinning up all the building blocks
+So once Azure is done spinning up all the building blocks, you can visit your app-name.azurewebsites.net URL, and you should see the initial WordPress installation screen where it asks you to choose the language for the install.
 
 ![WordPress Install](https://blog.benjamin-hering.com/images/azure-wordpress/wordpress-install-language.png)
+
+If your site isn't all that complicated, you certainly can run through the install process and just re-install everything manually and copy over the things by hand. For my orgs site, though, there's multiple years worth of blog posts so any sort of manual one-by-one copying was strictly out of the question.
+
+## Starting with file uploads
+
+We'll use FTP to push a copy of the files we're going to upload. To get your app's FTP credentials, click on your App Service that was just created, and from the overview tab click the "Get Publish Profile"
+
+![Deployment Credentials](https://blog.benjamin-hering.com/images/azure-wordpress/azure-get-publish-profile.png)
+
+When you do, you're going to get a gross looking XML file that when you open it up in a text editor is going to look something like this:
+
+```
+<publishData><publishProfile profileName="junk-creds - Web Deploy" publishMethod="MSDeploy" publishUrl="junk-creds.scm.azurewebsites.net:443" msdeploySite="junk-creds" userName="$junk-creds" userPWD="JLgYaqoMit6JzXlumPsKLkR2zGCHLE5rgRpf02E9bARozPNC75FhnRarH4GC" destinationAppUrl="http://junk-creds.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites"><databases /></publishProfile><publishProfile profileName="junk-creds - FTP" publishMethod="FTP" publishUrl="ftp://waws-prod-sn1-141.ftp.azurewebsites.windows.net/site/wwwroot" ftpPassiveMode="True" userName="junk-creds\$junk-creds" userPWD="JLgYaqoMit6JzXlumPsKLkR2zGCHLE5rgRpf02E9bARozPNC75FhnRarH4GC" destinationAppUrl="http://junk-creds.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites"><databases /></publishProfile></publishData>
+```
+
+(If you can't open it, try renaming the extension to .txt)
+
+Now search that file for the string *publishMethod="FTP"* and you should find a stanza that looks something like this when you throw in a few line breaks. 
+
+```
+...
+<publishProfile profileName="junk-creds - FTP" 
+publishMethod="FTP" 
+publishUrl="ftp://waws-prod-sn1-141.ftp.azurewebsites.windows.net/site/wwwroot" 
+ftpPassiveMode="True" 
+userName="junk-creds\$junk-creds" 
+userPWD="JLgYaqoMit6JzXlumPsKLkR2zGCHLE5rgRpf02E9bARozPNC75FhnRarH4GC" 
+destinationAppUrl="http://junk-creds.azurewebsites.net" 
+...
+```
+This will give you all the credentials that you need to access your site via FTP. I'll be using screenshots from [FileZilla](https://filezilla-project.org/) - an open-source, cross platform FTP client - but any FTP client that you're comfortable with should be just fine.
+
+In Filezilla, open up the site manager (File > Site Manager) and fill in the information from the publish profile.
+
+For these junk creds that I spun up, the site configuration would look like this:
+
+* Host - waws-prod-sn1-141.ftp.azurewebsites.windows.net
+* Port - Can be left blank
+* Protocol - FTP
+* Encryption - Use explicit FTP over TLS if available
+* Login Type - Normal
+* User - junk-creds\$junk-creds
+* Password - JLgYaqoMit6JzXlumPsKLkR2zGCHLE5rgRpf02E9bARozPNC75FhnRarH4GC
+
+![FTP Settings](https://blog.benjamin-hering.com/images/azure-wordpress/filezilla-site-manager.png)
+
+And hit "Connect"
+
+When you connect for the first time, you'll be prompted to accept the certificate. Accept it, and you'll get to your more traditional FTP upload. You'll want to upload everything from inside your backwpup zip backup file **except the .sql file for the database and your old site's wp-config.php**
+
+![FTP Upload](https://blog.benjamin-hering.com/images/azure-wordpress/filezilla-upload-everything-but-wp-config.png)
+
+And you'll be prompted with file conflicts. Go ahead and select to overwrite everything on Azure with what's in your backup file.
+
+![FTP Overwrite](https://blog.benjamin-hering.com/images/azure-wordpress/filezilla-overwrite-everything.png)
+
+Now let that rip in the background. It may take a while.
+
+## Wait, isn't the wp-config.php file important?
+
+It is, but Microsoft has added in a couple of nice security features and automation around it to automatically tie it in to the ClearDB database that you made in the first part. With most normal WordPress installs, if someone can get a copy of your wp-config.php file, it's game over. It has your database credentials, and once someone can access your database they can add a new admin, delete all your site configuration or all sorts of nasty things. With Azure, however, their database section of the wp-config.php file looks like this:
+
+```
+
+$connectstr_dbhost = '';
+$connectstr_dbname = '';
+$connectstr_dbusername = '';
+$connectstr_dbpassword = '';
+
+foreach ($_SERVER as $key => $value) {
+    if (strpos($key, "MYSQLCONNSTR_") !== 0) {
+        continue;
+    }
+    
+    $connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
+}
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', $connectstr_dbname);
+
+/** MySQL database username */
+define('DB_USER', $connectstr_dbusername);
+
+/** MySQL database password */
+define('DB_PASSWORD', $connectstr_dbpassword);
+
+/** MySQL hostname */
+define('DB_HOST', $connectstr_dbhost);
+
+```
+
+In short, rather than storing the values straight in the PHP file as plaintext, it's pulling the variables from the Web Application's local key value store. Unless you have access to that as well, this wp-config.php file doesn't do you any good to try to access the database.
+
+Most of the time, you should be able to get this to work without any modifications. One important exception is if you're using a randomize table prefix. Open up your previous wp-config.php file and search for *$table_prefix*. You should see something like this
+
+```
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix  = 'wp_iuyyenw_';
+```
+
+If your table prefix is set to 'wp_' on your original website, you're fine. If not, you'll need to download the Azure wp-config.php file and modify it so the table prefix is set to be the same as your old site. 
+
+## Uploading your database
+
+Alright, with that file upload chugging away in the background, let's take a look at uploading the MySQL database. Fortunately, using the Web App extensions we can make this pretty painless.
+
+Go back to your App Service in the Azure console, scroll down the left hand side menu until you reach "Extensions" and hit the "+ Add" button at the top of the page
+
+![Add extensions](https://blog.benjamin-hering.com/images/azure-wordpress/azure-add-extensions.png)
+
+You'll then be given a massive list of possible extensions to add. Search for "phpMyAdmin" and click on it.
+
+![phpMyAdmin extension](https://blog.benjamin-hering.com/images/azure-wordpress/azure-phpmyadmin-extension.png)
+
+You'll need to click OK on the legal terms.
+
+![phpMyAdmin legal](https://blog.benjamin-hering.com/images/azure-wordpress/azure-phpmyadmin-legal-terms.png)
+
+And then Azure will install the extension onto your web application. Once installed, click on the phpMyAdmin extension and hit "Browse" to access it.
+
+![phpMyAdmin access](https://blog.benjamin-hering.com/images/azure-wordpress/azure-access-phpmyadmin.png)

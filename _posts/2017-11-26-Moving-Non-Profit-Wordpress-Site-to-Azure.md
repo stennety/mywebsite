@@ -3,20 +3,20 @@ layout: post
 title: Moving a Non-Profit Wordpress Site to Free Hosting on Azure
 ---
 
-So let's start with the easy and fun stuff first: the **for free** part! Microsoft has a fantastic donation program setup for most non-profits to get $5000 per year in free Azure computing. It's pretty fantastic. If you have 501(c)3 status (or the equivalent in your country) pop over to the [Azure donation website](https://www.microsoft.com/en-us/nonprofits), double check that you meet the [eligibility requirements](https://www.microsoft.com/en-us/nonprofits/eligibility) (no political orgs, no government orgs, stuff like that) and start the application process. It costs you nothing to apply and even if you aren't planning to use it to host your website like I outline here, $5000 in free compute is never a liability. Spin up a massive GPU instance and mine bitcoin or something at the least!
+So let's start with the easy and fun stuff first: the **for free** part! Microsoft has a fantastic donation program setup for most non-profits to get $5000 per year in free Azure computing. It's pretty fantastic. If you have 501(c)3 status (or the equivalent in your country) pop over to the [Azure donation website](https://www.microsoft.com/en-us/nonprofits), double check that you meet the [eligibility requirements](https://www.microsoft.com/en-us/nonprofits/eligibility) (no political orgs, no government orgs, stuff like that) and start the application process. It costs you nothing to apply and even if you aren't planning to use it to host your website like I outline here, $5000 in free compute is hardly a liability. Spin up a massive GPU instance and mine bitcoin at the least!
 
-I'm a board member for a [small Christian non-profit](https://ctimusic.org) that does leadership and character development in young musicians. I figured after getting my hands on this free Azure compute, that it made sense to move the organization's website to there. Azure has their versions of containers called "Azure Web Apps" that make it pretty brain dead simple to manage web applications. You just worry about keeping Wordpress up to date, and Azure handles all the security updates, redundancy and maintenance of the underlying infrastructure. Much faster than your standard $10 a month shared webhosting without too much more pain. 
+I'm long-time volunteer for a [small Christian non-profit](https://ctimusic.org) that does leadership and character development in young musicians. I figured after getting my hands on this free Azure compute, it made sense to move the organization's website to there. Azure has their versions of containers called "Azure Web Apps" that make it pretty brain dead simple to manage web applications. You just worry about keeping Wordpress up to date, and Azure handles all the security updates, redundancy and maintenance of the underlying infrastructure. Much faster than your standard $10 a month shared webhosting without too much more pain. 
 
-## General Caveats and Liability Disclaimer
-Hey, does regular shared webhosting actually meet your needs? You should probably checkout [Dreamhost's 100% free shared webhost plan](https://help.dreamhost.com/hc/en-us/arti,cles/215769478-Non-profit-discount) for 501(c)3 non-profits instead. They're fantastic, and you can get your website up and going faster, 24/7 support and the whole nine yards. They weren't enough for the level of traffic my org starting to get, but they were a great home for us for the first few years we were expanding our web presence.
+## General Caveats and Disclaimers
+Real quick though, does regular shared webhosting actually meet your needs? If so, you should probably checkout [Dreamhost's 100% free shared webhost plan](https://help.dreamhost.com/hc/en-us/arti,cles/215769478-Non-profit-discount) for 501(c)3 non-profits instead. They're fantastic, and you can get your website up and going quicker, 24/7 support and the whole nine yards. They're even [carbon neutral](https://www.thegreenoffice.com/cnr/47kgqr3/) for crying out loud! They weren't enough for the level of traffic my org started to get, but they were a great home for us for the first few years we were expanding our web presence.
 
-Second, if you're mucking around with your non-profit's wordpress website **take backups.** Take a bunch of them. Have two copies of the files in different places, and don't forget backing up the database as well. If you screw up your website, make sure you can go back and restore to a copy that you know works.
+Second, if you're mucking around with your non-profit's WordPress website **take backups.** Take a bunch of them. Have two copies of the files in different places, and don't forget backing up the database as well. If you screw up your website, make sure you can go back and restore to a copy that you know works.
 
-Third, I'll try to outline this as simple and straightforwardly as I can, but even with my own technical background I found migrating these sites to be not particularly straightforward, and if you have some requirement for your site that wasn't part of mine, you may need to get your hands dirty troubleshooting on your own. At a minimum, you should be okay using an FTP client to upload and download files to follow these steps, and a tiny bit of experience with clicking around phpMyAdmin would probably be helpful, but not entirely required.
+Third, I'll try to outline this as simple and straightforwardly as I can, but even with my own technical background I found migrating these sites to be not particularly straightforward. Hopefully this blog post can let you cut out the few days of troubleshooting it took for me to put all the pieces together, but if you have some requirement for your site that wasn't part of mine you may need to get your hands dirty troubleshooting on your own. At a minimum, you should be okay using an FTP client to upload and download files to follow these steps, and a tiny bit of experience with clicking around phpMyAdmin wouldn't hurt, but is not entirely required.
 
-**If you break your website, it's not my fault. I'm not going to fix your website just because you read my blog post, okay?**
+**If you break your website, it's not my fault. I'm not going to fix your website just because you read my blog post, cool? Cool.**
 
-## Okay I get the warning. I made my backups and redundant backups of the backups. Now how do I do this?
+## Okay, I get the warning! I made my backups and redundant backups of the backups. Now how do I do this?
 
 You still with me? Cool. Let's go about setting up a copy of your org's Wordpress site on Azure. First, we need to download a copy of the files and a database dump to play around with. If your own WordPress backup solution let's you grab a copy of those, that's great! Jump ahead to the next section.
 
@@ -34,13 +34,13 @@ And then when you hit the save button, hit the link that pops up at the top of t
 
 ## Spinning up a blank Wordpress instance in Azure
 
-Now that we have a backup copy of your site, let's spin up where it is that you want your site to go.
+Now that we have a backup copy of your site, let's spin up a skeleton WordPress instance to as a framework to restore your website on top of.
 
 Log into your nifty free Azure portal you got donated to you, and the left side menu hit "All Resources" and then the "+ Add" button at the top of the page.
 
 ![Add resource](https://blog.benjamin-hering.com/images/azure-wordpress/azure-add-resource.png)
 
-Azure has their own blank WordPress web app configuration published directly from the WordPress maintainers all set to go. We'll use that as our original baseline. Search "WordPress" in the resource menu.
+Azure has their own blank WordPress web app configuration published directly from the WordPress maintainers all set to go. We'll use that as our skeleton framework. Search "WordPress" in the resource menu.
 
 ![Search Wordpress](https://blog.benjamin-hering.com/images/azure-wordpress/azure-search-wordpress.png)
 
@@ -54,14 +54,16 @@ Azure is going to ask you for a bunch of parameters. It looks more complicated t
 
 * App Name - A nice friendly name for the site. This is going to become part of the name for the website that we'll hit during development of the site; App-Name.azurewebsites.net. We'll be able to change it later to respond to your supercoolorgname.com domain, but it's still a good idea to make it simple and easy for your to remember.
 * Subscription - You should just have the one for the sponsorship. Make sure that's what's selected.
-* Resource Group - This isn't really important for our needs, but you'll have to make one. Name it whatever you want.
-* Database Provider - Select the ClearDB
+* Resource Group - This isn't really important for our needs, but you'll have to make one. It's useful when you are dealing with thousands of resources and want to set policy for them all together. Since we'll be basically dealing with just 3 resources for this, we won't be doing much with Resource Groups. It's required though, so just name it whatever you want.
+* Database Provider - Select ClearDB
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-wordpress-creation-parameters.png)
 
-For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but you can certainly experiment with smaller app sizes if you wish. Note that the Premium V2 service plans (with SSD) are only available in certain regions. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much. Pricing is slightly different in different places, but it's all with 5% or so of each other. Again, the naming of the service plan isn't too important, but remember what region you placed it in.
+For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but since website hosting was all that we were hoping to get out of this Sponsorship it was worth it for the preformance. You can certainly experiment with smaller app sizes if you have other shiny things you want to do with your sponsorship. You can always upgrade your service plan later if it isn't beefy enough. 
 
-Note that if you have multiple websites, you can put them all in the same service plan so long as there's enough free CPU and memory to cover them all.
+Note that the Premium V2 service plans (with SSD) are only available in certain regions as of this writing. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much. Pricing is slightly different in different places, but it's all with 5% or so of each other. Again, the naming of the service plan isn't too important, but _remember what region you placed it in_.
+
+Note that if you have multiple websites, you can put them all in the same service plan so long as there's enough free CPU and memory to cover them all. You don't need to have one app per app service plan.
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-app-service-plan.png)
 
@@ -70,7 +72,7 @@ Note that if you have multiple websites, you can put them all in the same servic
 When you click on the database, and hit "create new" you'll get a bunch of settings for your new MySQL database. Again, it looks more complicated than it is.
 
 * Database Name - Doesn't really matter. Call it whatever you want.
-* Location - **Make sure this is the same region as the app service plan!** If your app service plan is South Central US, put this to South Central US. If you're in West US 2, but the database in West US 2. If they aren't in the same geographic location, every call to the database will have an additional amount of delay as the call goes to a different datacenter. You want it close and fast
+* Location - **Make sure this is the same region as the app service plan!** If your app service plan is South Central US, put this to South Central US. If you're in West US 2, but the database in West US 2. If they aren't in the same geographic location, every call to the database will have an additional amount of delay as the call goes to a different datacenter. You want the database as close to the app as physically possible.
 
 ![ClearDB Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-creation.png)
 
@@ -182,9 +184,9 @@ define('DB_HOST', $connectstr_dbhost);
 
 ```
 
-In short, rather than storing the values straight in the PHP file as plaintext, it's pulling the variables from the Web Application's local key value store. Unless you have access to that as well, this wp-config.php file doesn't do you any good to try to access the database.
+In short, rather than storing the values straight in the PHP file as plaintext, it's pulling the variables from the Web Application's local key value store. Unless you have access to that as well, this wp-config.php file by itself doesn't do an attacker any good to try to access the database.
 
-Most of the time, you should be able to get this to work without any modifications. One important exception is if you're using a randomize table prefix. Open up your previous wp-config.php file and search for *$table_prefix*. You should see something like this
+Most of the time, you should be able to get this to work without any modifications. One important exception is if you're using a randomized table prefix. Open up your previous wp-config.php file and search for *$table_prefix*. You should see something like this
 
 ```
 /**
@@ -234,4 +236,4 @@ Azure defaults to the latest PHP 7, while my org's site (and a bunch of other ex
 
 ## Coming Soon - Part 2
 
-At this point you should have a 100% fully functional copy of your previous WordPress installation running at app-name.azurewebsites.net. In part 2, I'll cover making that cover your own custom domain name, adding automated Azure backups, and some of the specific ways I found to speed up Wordpress sites specifically running on Azure.
+Once everything is finished uploading, you should have a 100% fully functional copy of your previous WordPress installation running at app-name.azurewebsites.net. In part 2, I'll cover making that cover your own custom domain name, adding automated Azure backups, and some of the specific ways I found to speed up Wordpress sites specifically running on Azure.

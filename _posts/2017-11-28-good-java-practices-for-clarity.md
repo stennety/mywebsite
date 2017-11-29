@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Good Java practices for clarity
 ---
 # Enums instead of booleans

@@ -10,6 +10,8 @@ The following are a few principles of good software engineering that I've learne
 
 **SOLID:** Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion. [source](http://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
 
+**ACID:** Atomicity, Consistency, Isolation, Durability. A set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc. [source](https://en.wikipedia.org/wiki/ACID).
+
 **Dependency Inversion Principle (aka Inversion of Control)**
 
 **Principle of Least Privilege:** Software shouldn't be executed with more authority than it needs to get its job done.

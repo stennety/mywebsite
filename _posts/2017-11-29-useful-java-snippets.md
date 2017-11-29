@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful Java snippets
 ---
 Starting this post to keep track of some useful Java snippets I come across.

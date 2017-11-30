@@ -66,3 +66,31 @@ specify the units, such as
 {% highlight java %}
 int TIME_ELAPSED_MILLIS = 10;
 {% endhighlight %}
+
+# Never rely on enum ordinal values
+
+When working with enums, be very explicit about their values. Never rely on their order to derive meaning. 
+
+For example, instead of using
+{% highlight java %}
+public enum CompassPoint {
+    North,
+    East,
+    South,
+    West;
+}
+{% endhighlight %}
+
+and relying on the order of those enums to derive their values, be explicit about their values, like this
+{% highlight java %}
+public enum CompassDirection {
+    NORTH(0),
+    EAST(90),
+    SOUTH(180),
+    WEST(270);
+}
+{% endhighlight %}
+
+This reduces brittleness. Code that relies on the order of the enums won't break if they are reordered. Additionally, more enums can be added with out worrying about their order.
+
+For more, see this discussion on StackOverflow: [Is enum order sensitivity an antipattern?](https://softwareengineering.stackexchange.com/questions/290842/is-enum-order-sensitivity-an-antipattern).

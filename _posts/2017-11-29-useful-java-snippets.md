@@ -38,3 +38,11 @@ RandomStringGenerator randomStringGenerator =
                 .build();
 randomStringGenerator.generate(12);
 {% endhighlight %}
+
+# Convert between time units
+
+You can use Java's [TimeUnit](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html) class to easily convert between time units. For example, convert 15 seconds to milliseconds with:
+
+{% highlight java %}
+TimeUnit.SECONDS.toMillis(15)
+{% endhighlight %}

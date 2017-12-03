@@ -6,7 +6,7 @@ title: Favorite Podcasts 2017
 - [Risky Business](https://risky.biz/netcasts/risky-business/)
 - [Security Now](https://www.grc.com/securitynow.htm)
 - [Rachel Maddow](https://www.stitcher.com/podcast/msnbc-rachel-maddow-audio)
-- [Fareed Zackaria GPS](http://podcast.cnn.com/fareed-zakaria-gps/episode/all/yRC6kPtDrhY5RR/79ywg0.1-1.html)
+- [Fareed Zakaria GPS](http://podcast.cnn.com/fareed-zakaria-gps/episode/all/yRC6kPtDrhY5RR/79ywg0.1-1.html)
 - [Pod Save America](https://crooked.com/podcast-series/pod-save-america/)
 - [Decrypted](https://www.bloomberg.com/podcasts/decrypted)
 - [Revisionist History](http://revisionisthistory.com/)

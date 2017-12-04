@@ -5,4 +5,3 @@ Create a feature branch off of master. Then, in master, change file A. In the fe
 No, they are different. After the merge, the master branch will have the changes to both files A and B. The feature branch will only have the changes to file B.
 
 ![]({{site.cdn_path}}/2017/12/04/branches.png)
-

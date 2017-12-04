@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Branch parity after a git merge
 ---
 Say you have a master branch, with file A and file B in it.

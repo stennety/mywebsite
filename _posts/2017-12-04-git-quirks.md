@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Git Quirks
 ---
 A list of git/GitHub quirks and edge cases I've come across.

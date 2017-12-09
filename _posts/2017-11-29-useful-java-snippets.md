@@ -39,6 +39,18 @@ RandomStringGenerator randomStringGenerator =
 randomStringGenerator.generate(12);
 {% endhighlight %}
 
+# Comma-separate a Collection of Strings with a StringJoiner
+
+Say you have this List of Strings: `["Alice", "Bob", "Carol"]`, and you want to concatenate them into one String that's comma-separated.
+Simply use a StringJoiner.
+
+```
+String commaSeparatedNames = names.stream()
+     .collect(Collectors.joining(", "));
+```
+
+Reference: [Class StringJoiner](https://docs.oracle.com/javase/8/docs/api/java/util/StringJoiner.html)
+
 # Convert between time units
 
 You can use Java's [TimeUnit](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html) class to easily convert between time units. For example, convert 15 seconds to milliseconds with:
@@ -46,3 +58,13 @@ You can use Java's [TimeUnit](https://docs.oracle.com/javase/7/docs/api/java/uti
 {% highlight java %}
 TimeUnit.SECONDS.toMillis(15)
 {% endhighlight %}
+
+# Catch multiple exceptions
+
+Java 7 syntax lets you catch multiple exceptions at once:
+
+```
+catch(RuntimeException | IOException | SQLException e)
+```
+
+Reference: [Java Catch Multiple Exceptions, Rethrow Exception](https://www.journaldev.com/629/java-catch-multiple-exceptions-rethrow-exception)

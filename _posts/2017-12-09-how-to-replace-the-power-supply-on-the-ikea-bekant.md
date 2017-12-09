@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to Replace the Power Supply on the IKEA Bekant
 ---
 # tl;dr
@@ -25,6 +25,3 @@ Finally, I stumbled across a Facebook comment which advised me to go to Rol Ergo
 I contacted them at their website and sure enough, they responded right away! They were very helpful, and shipped out a new power supply in a couple weeks. My desk is back in working order again. 
 
 If you're shopping around for a standing desk, I would just avoid the Bekant. There are much better options now in that price range. At work, we all have the [Jarvis](https://www.fully.com/jarvis-standing-desk.html) and I've been very happy with it. I like the option of saving height presets.
-
-
-

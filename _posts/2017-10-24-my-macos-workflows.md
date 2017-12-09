@@ -47,26 +47,6 @@ There are several other ones that look useful, including flows for [Spotify](htt
 
 [iTerm 2](https://www.iterm2.com/) is a more full-featured upgrade from macOS's built-in Terminal app.
 
-### Useful bash hotkeys and commands
-
-For navigating the terminal:
-
-| Hotkey | Function |
-|---|---|
-| ⌃A | Go to beginning of input |
-| ⌃E | Go to end of input |
-| ⌥B | Jump to previous word |
-| ⌥F | Jump to next word |
-| ⌃U | Delete to beginning of input |
-| ⌃K | Delete to end of input |
-| ⌥D | Delete to end of word |
-
-Useful commands:
-
-| Command | Function |
-|---|---|
-| open . | Open a Finder window of current directory |
-
 ### Jumping between words
 
 In addition to the standard bash commands, alt + B and alt + f, you can configure iTerm to jump between words using alt + ← and alt + → using a Profile. [This](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) is a good guide on how to do that.

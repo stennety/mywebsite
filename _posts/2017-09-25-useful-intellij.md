@@ -12,6 +12,24 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 
 ![]({{site.cdn_path}}/2017/09/25/actionMenu.gif)
 
+## Navigate to IDE components
+
+IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here's a list of them:
+
+| Command | IDE component |
+|---|---|
+| ⌘ + 1 | Open Project tab |
+| ⌘ + 2 | Open Favorites tab |
+| ⌘ + 3 | Find |
+| ⌘ + 4 | Open Run tab |
+| ⌘ + 5 | Open Debugger |
+| ⌘ + 6 | Open Project ToDos |
+| ⌘ + 7 | Open Project Structure tab |
+| ⌘ + 9 | Open Version Control tab |
+| ⌥ + F12 | Open Terminal |
+
+(I'm not sure why ⌘ + 8 doesn't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)
+
 ## Miscellaneous useful keyboard shortcuts
 
 | Command | Function |
@@ -36,6 +54,19 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + ⇧ + T | Generate a test/in a test class, go to class under test |
 | ⌘ + F4 | Close current file in editor |
 
+## Debugger keyboard shortcuts
+
+| Command | Function |
+|---|---|
+| ⌘ + 5 | Open Debugger |
+| ⇧ + F10 | Run code without debugger |
+| ⇧ + F9 | Run code with debugger |
+| ⌘ + F8 | Set a breakpoint |
+| F9 | Continue from breakpoint |
+| F8 | Step over |
+| ⇧ + F8 | Step out of |
+| F7 | Step into |
+
 ## Version control keyboard shortcuts
 
 | Command | Function |
@@ -47,6 +78,12 @@ I do all of my development work in IntelliJ on Mac, and this is a collection of 
 | ⌘ + D | Show diff |
 | ⌘ + ⇧ + U | Unshelve changes |
 
+## Navigating the Project view
+
+You can use the `←` and `→` keys to expand and collapse folders in the tree in the Project view.
+
+![]({{site.cdn_path}}/2017/09/25/expandFiles.gif)
+
 ## Cycle through open files and tool windows
 
 Ctrl + Tab lets you cycle through any processes you have open in the current session.
@@ -54,24 +91,6 @@ Ctrl + Tab lets you cycle through any processes you have open in the current ses
 ![]({{site.cdn_path}}/2017/09/25/tabCycle.gif)
 
 IntelliJ refers to this as the "Switcher" and it's documented [here](https://www.jetbrains.com/help/idea/navigating-between-open-files-and-tool-windows.html).
-
-## Navigate to IDE components
-
-IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here's a list of them:
-
-| Command | IDE component |
-|---|---|
-| ⌘ + 1 | Open Project tab |
-| ⌘ + 2 | Open Favorites tab |
-| ⌘ + 3 | Find |
-| ⌘ + 4 | Open Run tab |
-| ⌘ + 5 | Open Debugger |
-| ⌘ + 6 | Open Project ToDos |
-| ⌘ + 7 | Open Project Structure tab |
-| ⌘ + 9 | Open Version Control tab |
-| ⌥ + F12 | Open Terminal |
-
-(I'm not sure why ⌘ + 8 doesn't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)
 
 # Local history
 

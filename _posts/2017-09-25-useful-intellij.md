@@ -38,6 +38,7 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 | ⌘ + N | Go to class (On some keyboard layouts this is ⌘ + O) |
 | ⌘ + ⇧ + N | Go to file (On some keyboard layouts this is ⌘ + ⇧ + O) |
 | ⌘ + ⌥ + ⇧ + N | Go to symbol or method (On some keyboard layouts this is ⌘ + ⌥ + ⇧ + O) |
+| ⌘ + ⇧ + ↵ | [Complete statement](https://www.jetbrains.com/help/resharper/Coding_Assistance__Complete_Statement.html). In Java, for example, this automatically adds semicolons on lines. |
 | ⌥ + F7 | Find usages of code at cursor |
 | ⌃ + ⌥ + O | Optimize imports. This removes any unused imports and consolidates multiple imports from the same packages based on a threshold (default 5, iirc) |
 | ⌃ + ⇧ + F | Find in path |

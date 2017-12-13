@@ -6,14 +6,15 @@ title: Useful Bash commands
 
 | Hotkey | Function |
 |---|---|
-| ⌃A | Go to beginning of input |
-| ⌃E | Go to end of input |
-| ⌥B | Jump to previous word |
-| ⌥F | Jump to next word |
-| ⌃U | Delete to beginning of input |
-| ⌃K | Delete to end of input |
-| ⌥D | Delete to end of word |
-| ⌥W | Delete to beginning of word |
+| ⌃ + A | Go to beginning of input |
+| ⌃ + E | Go to end of input |
+| ⌥ + B | Jump to previous word |
+| ⌥ + F | Jump to next word |
+| ⌃ + U | Delete to beginning of input |
+| ⌃ + K | Delete to end of input |
+| ⌥ + D | Delete to end of word |
+| ⌥ + W | Delete to beginning of word |
+| ⌥ + ⌫ | Delete a word |
 
 Useful commands:
 

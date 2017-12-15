@@ -17,3 +17,5 @@ title: Useful Paw commands
 | ⌘ + 1 | View request |
 | ⌘ + 2 | View response |
 | ⌘ + 3 | Split view |
+| ⌘ + ⌥ + G | Set request to GET |
+| ⌘ + ⌥ + P | Set request to POST |

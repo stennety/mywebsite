@@ -2,7 +2,7 @@
 published: true
 title: Useful Paw commands
 ---
-Paw is an excellent REST client. Here are some commands and tips to make the most your workflow.
+[Paw](https://paw.cloud) is an excellent REST client. Here are some commands and tips to make the most your workflow.
 
 | Hotkey | Function |
 |---|---|

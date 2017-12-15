@@ -7,6 +7,7 @@ title: Useful Slack commands
 | ⌘ + T | Quick switcher. Jump through recent conversations or jump to a message thread. |
 | ↑ | In message window, edit your last message. |
 | : | In message window, starts searching for emojis. |
+| ⌥ + ↵ | In message window, create a newline. |
 
 # Reference:
 - [https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts](https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts)

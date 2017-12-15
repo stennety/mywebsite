@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful Paw commands
 ---
 Paw is an excellent REST client. Here are some commands and tips to make the most your workflow.
@@ -17,5 +17,3 @@ Paw is an excellent REST client. Here are some commands and tips to make the mos
 | ⌘ + 1 | View request |
 | ⌘ + 2 | View response |
 | ⌘ + 3 | Split view |
-
-

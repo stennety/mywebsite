@@ -47,6 +47,10 @@ There are several other ones that look useful, including flows for [Spotify](htt
 
 [iTerm 2](https://www.iterm2.com/) is a more full-featured upgrade from macOS's built-in Terminal app.
 
+### Global hotkey
+
+Register a global hotkey to bring iTerm 2 to the front of your screen with a keypress. [http://www.iterm2.com/features.html#hotkey-window](http://www.iterm2.com/features.html#hotkey-window).
+
 ### Jumping between words
 
 In addition to the standard bash commands, alt + B and alt + f, you can configure iTerm to jump between words using alt + ← and alt + → using a Profile. [This](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) is a good guide on how to do that.

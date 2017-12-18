@@ -30,7 +30,7 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 
 (I'm not sure why ⌘ + 8 doesn't seem to activate anything, at least on my machine as I'm writing this. It may be that I don't have the feature activated that those correspond to.)
 
-## Miscellaneous useful keyboard shortcuts
+## Navigate code
 
 | Command | Function |
 |---|---|
@@ -38,22 +38,37 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 | ⌘ + N | Go to class (On some keyboard layouts this is ⌘ + O) |
 | ⌘ + ⇧ + N | Go to file (On some keyboard layouts this is ⌘ + ⇧ + O) |
 | ⌘ + ⌥ + ⇧ + N | Go to symbol or method (On some keyboard layouts this is ⌘ + ⌥ + ⇧ + O) |
-| ⌘ + ⇧ + ↵ | [Complete statement](https://www.jetbrains.com/help/resharper/Coding_Assistance__Complete_Statement.html). In Java, for example, this automatically adds semicolons on lines. |
 | ⌥ + F7 | Find usages of code at cursor |
 | ⌃ + ⌥ + O | Optimize imports. This removes any unused imports and consolidates multiple imports from the same packages based on a threshold (default 5, iirc) |
 | ⌃ + ⇧ + F | Find in path |
-| ⌘ + J | [Live Templates](https://www.jetbrains.com/help/idea/live-templates.html). Basically code completion. Really handy for generating boilerplate. |
-| ⌘ + E | Go to recent files |
-| ⌘ + ⇧ + E | Go to recently edited files |
 | ⇧ + ⌘ + V | Show clipboard stack |
-| ⇧ + F4 | Externalize editor |
 | ⇧ + F12 | Show overview of current file, methods, etc. |
 | ⇧ + ⇧ | Search everywhere |
 | ⌘ + G | Go to line number |
+| ⌘ + F1 | View description of error or warning, if there is one present |
+
+## Navigate windows
+
+| Command | Function |
+|---|---|
+| ⌘ + E | Go to recent files |
+| ⌘ + ⇧ + E | Go to recently edited files |
+| ⇧ + F4 | Externalize editor |
+| ⌘ + F4 | Close current file in editor |
+| ⌘ + ⇧ + F12 | Hide all windows and maximize current window |
+
+## Editor keyboard shortcuts
+
+| Command | Function |
+|---|---|
+| ⌘ + ⇧ + ↵ | [Complete statement](https://www.jetbrains.com/help/resharper/Coding_Assistance__Complete_Statement.html). In Java, for example, this automatically adds semicolons on lines. |
+| ⌘ + J | [Live Templates](https://www.jetbrains.com/help/idea/live-templates.html). Basically code completion. Really handy for generating boilerplate. |
 | ⌘ + X | Cut line |
 | ⌘ + D | Duplicate line |
 | ⌘ + ⇧ + T | Generate a test/in a test class, go to class under test |
-| ⌘ + F4 | Close current file in editor |
+| ⌘ + ⌥ + Z | Revert changes |
+| ⌘ + ⇧ + ⌫ | Go to last edited location |
+| ⌘ + ⇧ + U | Toggle between upper and lower case |
 
 ## Debugger keyboard shortcuts
 
@@ -74,8 +89,8 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 |---|---|
 | ⌘ + 9 | Open Version Control tab |
 | ⌘ + ⌥ + A | Add file to version control. Can be used from within a file or in the Version Control pane |
-| ⌘ + K | Commit selected file(s) |
-| ⌘ + ⌥ + Z | Revert selected file(s) |
+| ⌘ + K | Commit selected files |
+| ⌘ + ⌥ + Z | Revert changes |
 | ⌘ + D | Show diff |
 | ⌘ + ⇧ + U | Unshelve changes |
 

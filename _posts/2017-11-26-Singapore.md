@@ -2,7 +2,12 @@
 layout: post
 title: 4 Months in Singapore
 published: true
-image: http://andybaek.com/images/Singapore/cover.jpg
+image: 'http://andybaek.com/images/Singapore/cover.jpg'
 ---
 
 Hello!
+
+
+![](https://lh3.googleusercontent.com/phzajvSh45Dxz3xqmWw0avRg01FRZPIoF2F_KfB-bSLexVblWj5stszPm0TwrncrQlaSQoRSs6dZcOTyzbvNbqoTmTMZifv-nEgf9A5-yoYXNN_wfy4Y6P53bbODCWk3cVS7lxmAjODo2jiRhdAnR34Z4gzNJQiIg_a8uP_SYR3OMZRk6jHgnNz646C-KyAS93UXo4ooPNnOOjqqJ0VtYhuKjlKGpz5ZxOmFNbQxGTez7fdcPqd0uSt5_j97Z2cZ4I6BevmeNc9QBZN9b8VtaP1_fmeVLa3KTUaiDWgaLZh0HhGZq6ZIi7mtu_a2KCTZxlAVtUC7ebNn6-5YwbYfAI5wSV4yxYD5F8PPW_uVWLYnXmuhUERXylwUiL0rsqkV2OzVkI7Sd-mjOPXYGHShBJSRpB4vGVPOFrfo_LvLzRDnq-iEC-qSUe1g4WGx4gh7WXEVmJ0kOJQPGJnEWd_pJn5Is_RBEv10W7A8J0uDVHZ42QJNiYJ8TwGZOUJAUw312XC8EyRlMwlU8UuINF0kMMxmjQG5g6d1rMnYgsSdd0o5TQgBe0EDU0aUPyHF4fytuI5duA3I3rCg8Xcxfba1DZ7K6UU2Ot1dU8Wfntrj1Rw=w1035-h776-no)
+
+

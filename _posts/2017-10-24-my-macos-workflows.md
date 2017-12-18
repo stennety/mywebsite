@@ -8,6 +8,23 @@ The following is a list of workflows I use on macOS to boost my productivity.
 
 Here are some tips for getting the most out of macOS itself.
 
+## Useful hotkeys
+
+### Finder
+
+| Hotkey        | Function           |
+|-------------|-------------|
+| ⌘ + ⇧ + D | Open Desktop folder |
+| ⌘ + ⇧ + H | Open home folder |
+| ⌥ + ⌘ + L | Open Downloads folder |
+| ⇧ + ⌘ + R | Open AirDrop window |
+| ⇧ + ⌘ + U | Open Utilities folder |
+| ⌘ + ⇧ + ⌫ | Empty the trash |
+
+### Reference
+
+[Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+
 ## Toggle Do Not Disturb
 
 ⌥ + clicking on the upper right-hand corner of the screen toggles Do Not Disturb mode.

@@ -46,6 +46,7 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 | ⇧ + ⇧ | Search everywhere |
 | ⌘ + G | Go to line number |
 | ⌘ + F1 | View description of error or warning, if there is one present |
+| ⌘ + F12 | Find members in current file. Lets you quickly jump to methods. |
 
 ## Navigate windows
 
@@ -64,7 +65,9 @@ IntelliJ has a convention of ⌘ plus a number to pull up various IDE tabs. Here
 | ⌘ + ⇧ + ↵ | [Complete statement](https://www.jetbrains.com/help/resharper/Coding_Assistance__Complete_Statement.html). In Java, for example, this automatically adds semicolons on lines. |
 | ⌘ + J | [Live Templates](https://www.jetbrains.com/help/idea/live-templates.html). Basically code completion. Really handy for generating boilerplate. |
 | ⌘ + X | Cut line |
+| ⌘ + Y | Delete line |
 | ⌘ + D | Duplicate line |
+| ⌘ + W | Incremental selection. Expands the selection around the cursor. |
 | ⌘ + ⇧ + T | Generate a test/in a test class, go to class under test |
 | ⌘ + ⌥ + Z | Revert changes |
 | ⌘ + ⇧ + ⌫ | Go to last edited location |

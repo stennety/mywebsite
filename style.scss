@@ -270,11 +270,8 @@ nav {
     font-size: 15px;
   }
 
-  .image {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  .image:hover {
+    opacity: 0.9;
   }
 }
 

@@ -4,7 +4,6 @@ title: Singapore Recommendations
 published: true
 image: 'http://andybaek.com/images/Singapore/cover.jpg'
 ---
-
 Earlier this year I went on exchange for four months at the National University of Singapore. Here are my top recommendations:
 
 ## Sightseeing

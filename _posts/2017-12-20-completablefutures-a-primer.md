@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'CompletableFutures: A Primer '
 ---
 [CompletableFutures](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html) are constructs in Java that are very useful for writing clean, concurrent code. Most of the methods around CompletableFutures return stages, which represent asynchronous tasks that can trigger other stages, or return values in the future.
@@ -10,9 +10,3 @@ Three of the most useful methods in CompletableFutures are:
 - [thenCompose](https://docs.oracle.com/javase/9/docs/api/java/util/concurrent/CompletableFuture.html#thenCompose-java.util.function.Function-): Takes the result of a previous CompletionStage and asynchronously applies a function to it. This method behaves analogously to a flatmap operation.
 
 It's easy to mix up thenCompose and thenApply. [This thread](https://stackoverflow.com/questions/43019126/completablefuture-thenapply-vs-thencompose) on StackOverflow helps to shed some light on the differences.
-
-
-
-
-
-

@@ -52,7 +52,7 @@ And select the one that just says "Wordpress" When you do, you'll get a short bl
 
 Azure is going to ask you for a bunch of parameters. It looks more complicated than it actually is.
 
-* App Name - A nice friendly name for the site. This is going to become part of the name for the website that we'll hit during development of the site; App-Name.azurewebsites.net. We'll be able to change it later to respond to your supercoolorgname.com domain, but it's still a good idea to make it simple and easy for your to remember.
+* App Name - A nice friendly name for the site. This is going to become part of the name for the website that we'll hit during development of the site; App-Name.azurewebsites.net. We'll be able to change it later to respond to your supercoolname.com domain, but it's still a good idea to make it simple and easy for your to remember.
 * Subscription - You should just have the one for the sponsorship. Make sure that's what's selected.
 * Resource Group - This isn't really important for our needs, but you'll have to make one. It's useful when you are dealing with thousands of resources and want to set policy for them all together. Since we'll be basically dealing with just 3 resources for this, we won't be doing much with Resource Groups. It's required though, so just name it whatever you want.
 * Database Provider - Select Azure Database for MySQL
@@ -75,9 +75,12 @@ When you click on the database, and hit "create new" you'll get a bunch of setti
 * Server Admin Login Name - Doesn't really matter. Call it whatever you want.
 * Password - Make this long and strong, and save it somewhere just in case you need it. 30 some odd random characters.
 * Version - Unless you know specifically that you need MySQL 5.6, default to 5.7
+
+![Satabase Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-db-for-mysql-parameters.png)
+
 * Pricing Tier - Stick to the defaults, 100 standard units with the 125 GB of storage. That's waaay more storage than most Wordpress sites need, but it's free. If you find that you are running out of connection or database slowing, you can always add more compute units later.
 
-![ClearDB Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-pricing.png)
+![Database pricing](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-pricing.png)
 
 Once all these parameters are in place, you can hit the "create" button for the database and the "create" button for the Wordpress app itself. Go get a cup of coffee and come back in a little bit.
 

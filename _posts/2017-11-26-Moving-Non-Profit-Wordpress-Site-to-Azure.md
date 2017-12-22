@@ -76,7 +76,7 @@ When you click on the database, and hit "create new" you'll get a bunch of setti
 * Password - Make this long and strong, and save it somewhere just in case you need it. 30 some odd random characters.
 * Version - Unless you know specifically that you need MySQL 5.6, default to 5.7
 
-![Satabase Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-db-for-mysql-parameters.png)
+![Database Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-db-for-mysql-parameters.png)
 
 * Pricing Tier - Stick to the defaults, 100 standard units with the 125 GB of storage. That's waaay more storage than most Wordpress sites need, but it's free. If you find that you are running out of connection or database slowing, you can always add more compute units later.
 

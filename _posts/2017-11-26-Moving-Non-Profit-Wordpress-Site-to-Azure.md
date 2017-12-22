@@ -55,15 +55,15 @@ Azure is going to ask you for a bunch of parameters. It looks more complicated t
 * App Name - A nice friendly name for the site. This is going to become part of the name for the website that we'll hit during development of the site; App-Name.azurewebsites.net. We'll be able to change it later to respond to your supercoolorgname.com domain, but it's still a good idea to make it simple and easy for your to remember.
 * Subscription - You should just have the one for the sponsorship. Make sure that's what's selected.
 * Resource Group - This isn't really important for our needs, but you'll have to make one. It's useful when you are dealing with thousands of resources and want to set policy for them all together. Since we'll be basically dealing with just 3 resources for this, we won't be doing much with Resource Groups. It's required though, so just name it whatever you want.
-* Database Provider - Select ClearDB
+* Database Provider - Select Azure Database for MySQL
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-wordpress-creation-parameters.png)
 
-For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but since website hosting was all that we were hoping to get out of this Sponsorship it was worth it for the preformance. You can certainly experiment with smaller app sizes if you have other shiny things you want to do with your sponsorship. You can always upgrade your service plan later if it isn't beefy enough. 
+For App Service plan / Location you'll be choosing what raw hardware in what location you want behind your application. For my site, I chose the P1V2 service plan as it was the cheapest with solid state drives for the storage. ~$205 per month is certainly pricy if we were paying out of pocket, and will eat up about half of our sponsorship, but since website hosting was all that we were hoping to get out of this Sponsorship it was worth it for the performance. You can certainly experiment with smaller app sizes if you have other shiny things you want to do with your sponsorship. You can always upgrade your service plan later if it isn't beefy enough. 
 
-Note that the Premium V2 service plans (with SSD) are only available in certain regions as of this writing. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much. Pricing is slightly different in different places, but it's all with 5% or so of each other. Again, the naming of the service plan isn't too important, but _remember what region you placed it in_.
+The Premium V2 service plans (with SSD) are only available in certain regions as of this writing. South Central US is one, and is closer to our main office than the coasts, but the specific US region doesn't matter too much. Pricing is slightly different in different places, but it's all with 5% or so of each other. Again, the naming of the service plan isn't too important, but you should keep in mind what Location you put it in. Any other resources that you create for this website you'll want to place in the same Location so you aren't slowed down by a website running in New York making calls out to California.
 
-Note that if you have multiple websites, you can put them all in the same service plan so long as there's enough free CPU and memory to cover them all. You don't need to have one app per app service plan.
+If you have multiple websites, you can put them all in the same service plan so long as there's enough free CPU and memory to cover them all. You don't need to have one app per app service plan.
 
 ![Wordpress Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-app-service-plan.png)
 
@@ -71,16 +71,13 @@ Note that if you have multiple websites, you can put them all in the same servic
 
 When you click on the database, and hit "create new" you'll get a bunch of settings for your new MySQL database. Again, it looks more complicated than it is.
 
-* Database Name - Doesn't really matter. Call it whatever you want.
-* Location - **Make sure this is the same region as the app service plan!** If your app service plan is South Central US, put this to South Central US. If you're in West US 2, but the database in West US 2. If they aren't in the same geographic location, every call to the database will have an additional amount of delay as the call goes to a different datacenter. You want the database as close to the app as physically possible.
+* Server Name - Doesn't really matter. Call it whatever you want.
+* Server Admin Login Name - Doesn't really matter. Call it whatever you want.
+* Password - Make this long and strong, and save it somewhere just in case you need it. 30 some odd random characters.
+* Version - Unless you know specifically that you need MySQL 5.6, default to 5.7
+* Pricing Tier - Stick to the defaults, 100 standard units with the 125 GB of storage. That's waaay more storage than most Wordpress sites need, but it's free. If you find that you are running out of connection or database slowing, you can always add more compute units later.
 
-![ClearDB Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-creation.png)
-
-* Pricing Tier - **Don't choose Mercury!** Yes it's free, but notice the lack of "Production Ready" fine print. Even for my development sites, I got database connection errors in Mercury just when I was the only one playing around with it. Titan level database is probably okay for most sites and what I chose for my own. Don't worry, you can always bump it up to something more powerful if you need to.
-
-![ClearDB Pricing](https://blog.benjamin-hering.com/images/azure-wordpress/azure-clear-db-pricing.png)
-
-* Legal Terms - You'll just have to click on them to accept them.
+![ClearDB Settings](https://blog.benjamin-hering.com/images/azure-wordpress/azure-mysql-database-pricing.png)
 
 Once all these parameters are in place, you can hit the "create" button for the database and the "create" button for the Wordpress app itself. Go get a cup of coffee and come back in a little bit.
 
@@ -226,6 +223,33 @@ Once you're logged in to phpMyAdmin, select your database name you chose on the 
 
 ![phpMyAdmin access](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-import-tab.png)
 
+## Some common database import errors
+
+Did everything work out 100% awesome above? Good for you! Skip this section
+
+
+#### #1030 Got error 1 from storage engine
+
+Did you get an error that looks like this?
+
+![Error 1 from storage engine](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-error-1-from-storage-engine.png)
+
+Turns out, that in making a managed MySQL service, the Azure DB for MySQL team make some technological choices to increase stability. One of those was to not support the [MYISAM storage engine](https://stackoverflow.com/questions/43973881/creating-myisam-table-in-azure-database-for-mysql-is-enable). If you try to import a MYISAM storage engine table into an Azure MySQL database, you'll get this slightly cryptic and not entirely intuitive error.
+
+To solve this, we need to change the storage engine for any table in your database that uses MYISAM to InnoDB, the default for Azure. If you're able to import your database into a different phpMyAdmin instance, (perhaps back on your original webhost) changing the storage engine is pretty simple. Click on the specific table, go to the "Operations" tab and there's a drop down menu in the "Table options" section where you can select InnoDB as the new storage engine and hit the "Go" button underneath to convert it.
+
+![Error 1 from storage engine](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-convert-storage-engine.png)
+
+#### #1118 Row size too large
+
+Another issue you may run into is a "row size too large" which looks something like this.
+
+![Row size too large](https://blog.benjamin-hering.com/images/azure-wordpress/phpmyadmin-error-row-size-too-large.png)
+
+For us, it turned out that table was actually, just a really, really long table (like hundreds and hundreds of columns) that was installed by an old plugin we tried out and wasn't cleared out when we uninstalled so we could just delete this table. Ironically, if it was actually installed a later version of the plugin it would have been fixed in a later patch. You shouldn't see this from a a well authored plugin, and is not going to come from a core Wordpress table. 
+
+You might try troubleshooting this from the table name to see what plugin created it and see if it's actually still one you use on your site, updating your plugins, and if one of your plugins still comes with a row size to large you might want to try reaching out to the plugin developer. Unfortunately, it's not an option to increase the row size of the Azure MySQL database.
+
 ## Setting the PHP Version
 
 Now after all that, you still may not be done. If with your files uploaded and your database restored you still don't see your site, your may be dealing with a conflict in the PHP version of your old site and your new Azure webapp. To change the PHP version go to your App Service and select "Application Settings" in the left hand side menu.
@@ -237,3 +261,6 @@ Azure defaults to the latest PHP 7, while my org's site (and a bunch of other ex
 ## Coming Soon - Part 2
 
 Once everything is finished uploading, you should have a 100% fully functional copy of your previous WordPress installation running at app-name.azurewebsites.net. In part 2, I'll cover making that cover your own custom domain name, adding automated Azure backups, and some of the specific ways I found to speed up Wordpress sites specifically running on Azure.
+
+### Edits
+*2017-10-22 - Updated the database section to move from ClearDB to Azure Databse for MySQL*

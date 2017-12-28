@@ -31,9 +31,9 @@ Once you've added those two DNS records, hit the "Add Hostname" button at the bo
 
 ## Have it over HTTPS
 
-You want your website to HTTPS. Even if you aren't dealing with any credit cards, or personal information you want to secure your website using HTTPS. HTTPS is [faster](https://www.httpvshttps.com/), [gives you higher SEO rankings in search engines](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html), and stops silly things like (Comcast injecting browser pop-up adds when people visit your site)[https://gizmodo.com/comcast-appears-to-be-injecting-browser-pop-ups-to-upse-1752633484].
+You want your website to HTTPS. Even if you aren't dealing with any credit cards, or personal information you want to secure your website using HTTPS. HTTPS is [faster](https://www.httpvshttps.com/), [gives you higher SEO rankings in search engines](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html), and stops silly things like [Comcast injecting browser pop-up adds when people visit your site](https://gizmodo.com/comcast-appears-to-be-injecting-browser-pop-ups-to-upse-1752633484).
 
-Now if you're not using CloudFlare, there are (instructions)[https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-ssl] in Azure to add and manage your own SSL certificates if you really want to, but its long, boring and a pain to make sure to manage your renewals. CloudFlare gives you a one click option for HTTPS where they manage everything.
+Now if you're not using CloudFlare, there are [instructions](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-ssl) in Azure to add and manage your own SSL certificates if you really want to, but its long, boring and a pain to make sure to manage your renewals. CloudFlare gives you a one click option for HTTPS where they manage everything.
 
 First, you'll need to turn CloudFlare's acceleration back on to have CloudFlare manage stuff. Go back to your DNS tab, find the A record you added above, and click the grey cloud icon to turn it to the CloudFlare orange cloud.
 
@@ -107,5 +107,23 @@ You can also download a copy locally from this page when you need to restore, or
 
 ## Have it load faster
  
+### W3 Total Cache
 
+[W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) looks super complex with bunch of knobs and dials to it, but it's not as bad as it might first seem. Rather than copy/paste everything, I'd recommend [this walkthrough](https://bloggingwizard.com/w3-total-cache-cloudflare/) that I used for setting up W3 Total Cache with CloudFlare. Short version in case that link ever goes down:
 
+* Caching is awesome and saves work on your website than having it computer every page every time it loads (and Azure Wordpress comes with WinCache pre configured to store cache in RAM rather than disk to make the cache even faster)
+* On the general settings page enable Page Cache, Object Cache, and Browser Cache from the main page. Set them all to "Opcode: WinCache" That walkthrough says set to disk, as not everyone has WinCache. WinCache is faster.
+
+![Opcode WinCache](https://blog.benjamin-hering.com/images/azure-wordpress-part-2/w3-total-cache-general-page-cache.png)
+
+### Lazy Load Images
+
+Lazy loading images stops images loading outside of the visible screen from holding up the page from fully rendering. It makes the initial load faster, and it helps save data for any folks viewing your site from mobile phones. I used [BJ Lazy Load](https://wordpress.org/plugins/bj-lazy-load/) and it just works out of the box with the defaults.
+
+![BJ Lazy Load](https://blog.benjamin-hering.com/images/azure-wordpress-part-2/bj-lazy-load.png)
+
+### Optimize Images
+
+[WP Smush](https://wordpress.org/plugins/wp-smushit/) optimizes your existing uploaded images, compressing them for the web. Install it. Hit the "Smush" button. Enjoy faster loading of the compressed images. 
+
+And that's it. Enjoy your free, faster, auto-backed up and HTTPS Wordpress website!

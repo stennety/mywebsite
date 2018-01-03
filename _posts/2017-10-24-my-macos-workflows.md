@@ -10,6 +10,12 @@ Here are some tips for getting the most out of macOS itself.
 
 ## Useful hotkeys
 
+### iMessage
+
+![]({{site.cdn_path}}/2017/10/24/poster.jpg)
+
+A shortcut for accessing emojis is ⌘ + ⌃ + space. This will bring the focus to the search bar, so you can easily search for the emoji you're wanting to use.
+
 ### Finder
 
 | Hotkey        | Function           |

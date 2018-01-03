@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Steve Jobs on Object-Oriented Programming
 ---
 Here's a really concise analogy of Object-Oriented Programming that Steve Jobs gave during a 1994 Rolling Stone interview.

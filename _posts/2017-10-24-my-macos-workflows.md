@@ -37,6 +37,10 @@ A shortcut for accessing emojis is ⌘ + ⌃ + space. This will bring the focus 
 
 ![]({{site.cdn_path}}/2017/10/24/toggle_dnd.gif)
 
+## Disable Caps Lock
+
+Caps Lock is annoying. You should disable it. To do this, go to Preferences -> Keyboard -> Modifier Keys, and set "Caps Lock" to "No Action."
+
 ## Alfred
 
 [Alfred](https://www.alfredapp.com/) is an excellent app switcher, clipboard manager, and all-around Swiss Army Knife for macOS. I recommend picking up the [Powerpack](https://www.alfredapp.com/powerpack/buy/). It's abous $22 as of the time of this writing and opens up tons of functionality.

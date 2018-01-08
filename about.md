@@ -8,13 +8,6 @@ I am an engineer mostly focused on personalization, recommender systems, and dat
 
 When I do write about some specific technology, my goal is to explain things simply and without any pretense that you or I are an expert on the subject.  
 
-My belief that motivates this approach, presented as a very rough and 'under construction' summary of many rambling thoughts: 
-
-As we launch ourselves toward even more complexity and constant change, software engineers are needing less and less to become specialized experts in any one thing, and needing more to become constant learners, pattern recognizers, and analogy generators.  I think we'll need to get more comfortable with borrowing and modifying tools and ideas, versus trying to be totally original or disruptive or building from the ground up.
-
-I also think it's helpful to think more abstractly and broadly about technology, rather than restricting it to our own area of expertise, and our narrow slice of history: thinking of what we do as science, as art, and as something that has existed as long as humans have been solving their problems with sharp sticks and rocks.  Today, our sticks and rocks are questions, evidence, and critical thinking.  Our creativity and human nature is our fire - both barely containable, yet powerful forces for both good and bad, depending on their application.  These things are unchanging, and never obsolete.
-
-So while I do enjoy going deep on some juicy subjects, I don't think that it's necessary or wise to try to be an expert on everything I touch.  But I do think it's necessary to challenge myself often, and to constantly push the limits of my knowledge + expertise.
 
 
 ### More things about me

@@ -45,6 +45,12 @@ Caps Lock is annoying. You should disable it. To do this, go to Preferences -> K
 
 [Alfred](https://www.alfredapp.com/) is an excellent app switcher, clipboard manager, and all-around Swiss Army Knife for macOS. I recommend picking up the [Powerpack](https://www.alfredapp.com/powerpack/buy/). It's abous $22 as of the time of this writing and opens up tons of functionality.
 
+### Calculator
+
+Alfred has a built-in calculator. Just enter in the operation and it will display the result. Hit `return` to copy the result to your clipboard.
+
+![]({{site.cdn_path}}/2017/10/24/alfred_calc.gif)
+
 ### Launching URLs
 
 I add URLs to Alfred for dashboards and things at work that I access frequently. That way I can launch them directly in the event that my browser isn't open or is hidden.

@@ -38,6 +38,16 @@ The following are a few principles of good software engineering that I've learne
 
 **Zebras:** "When you hear hoofbeats, think of horses not zebras"." A "Zebra" is the American medical slang for arriving at an exotic diagnosis when a more commonplace explanation is more likely. [source](https://en.wikipedia.org/wiki/Zebra_(medicine))
 
+**Deploying on Fridays**
+
+Just don't do it.
+
+![]({{site.cdn_path}}/2017/09/15/fridayDeployPumpkin.jpg)
+
+Speaking of scary pumpkins and things not to do, don't do this either:
+
+![]({{site.cdn_path}}/2017/09/15/gitPushFPumpkin.jpg)
+
 ## Reference
 
 http://www.sw-engineering-candies.com/blog-1/rules-of-thumb-in-software-engineering

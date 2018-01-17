@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am an engineer mostly focused on personalization, recommender systems, and data engineering.
+I am an engineer mostly focused on personalization, recommender systems, DevOps, and data engineering.
 
 When I do write about some specific technology, my goal is to explain things simply and without any pretense that you or I are an expert on the subject.  
 

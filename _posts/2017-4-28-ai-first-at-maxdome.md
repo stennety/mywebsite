@@ -76,7 +76,7 @@ Also [ai-flashbriefing-maxdome](https://github.com/maxdome/ai-flashbriefing-maxd
 
 ## Summary
  
-AI first is a very wide topic. But with a small managable effort we got a lot of insights to decide if, when and with which scope we want to dive deeper. And in addition the first AI product of us can go live: The "Tägliche Zusammenfassung" for Alexa.
+AI first is a very wide topic. But with a small managable effort we got a lot of insights to decide if, when and with which scope we want to jump deeper. And in addition the first AI product of us can go live: The "Tägliche Zusammenfassung" for Alexa.
 
 ## FAQ
 

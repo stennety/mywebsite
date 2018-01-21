@@ -12,7 +12,6 @@ A list of companies and places with interesting name origins.
 - [LEGO](https://en.wikipedia.org/wiki/Lego)'s name is derived from the Danish phrase, "leg godt," which means "play well."
 - [Mozilla](https://en.wikipedia.org/wiki/Mozilla) is a portmanteau of "Mosaic" and "killer" (Mosaic referring to the Mosaic web browser). 
 - [Mt. Gox](https://en.wikipedia.org/wiki/Mt._Gox) the now-defunct BitCoin exchange, was named as such because its founder had reused the domain name _mtgox.com_. He'd originally purchased this domain to build a website for Magic: The Gathering cards. This name is an abbreviation for "Magic: The Gathering Online eXchange."
-- [Nagios](https://www.david-merrick.com/2017/07/07/why-is-nagios-called-nagios/) is a recursive acronym for "Nagios Ain't Gonna Insist On Sainthood."
 - [Pepsi](https://en.wikipedia.org/wiki/Pepsi) was originally introduced in 1893 as "Brad's Drink." It was later renamed Pepsi Cola in 1898 after the Greek root word, "[pepsin](https://en.wiktionary.org/wiki/pepsin#English)," which refers to digestion.
 - [Venmo](https://www.quora.com/What-does-the-name-Venmo-mean) is a portmanteau of "vendor" and "mobile."
 - [Vevo](https://en.wikipedia.org/wiki/Vevo) is a portmanteau of "video" and "evolution."
@@ -24,3 +23,9 @@ A list of companies and places with interesting name origins.
 - [Armageddon](https://en.wikipedia.org/wiki/Tel_Megiddo) is an actual place, about an hour's drive from Tel Aviv, Israel. The word comes from the Hebrew "Har Megiddo," meaning "Mount of Megiddo".
 - [Las Vegas](https://en.wikipedia.org/wiki/History_of_Las_Vegas) means "the meadows" in Spanish.
 - [Los Angeles](https://en.wikipedia.org/wiki/Los_Angeles) means "the angels" in Spanish.
+
+# Software
+
+- [Nagios](https://www.david-merrick.com/2017/07/07/why-is-nagios-called-nagios/) is a recursive acronym for "Nagios Ain't Gonna Insist On Sainthood."
+- [Hamcrest](https://en.wikipedia.org/wiki/Hamcrest) is a Java testing library the name of which is an anagram of "matchers."
+

@@ -22,6 +22,8 @@ The following are a few principles of good software engineering that I've learne
 
 **Postel's Law (aka the Robustness Principle):** Be conservative in what you do, be liberal in what you accept from others. This was coined by Internet pioneer John Postel, who wrote in an early implementation of the TCP spec that "TCP implementations should follow a general principle of robustness: be conservative in what you do, be liberal in what you accept from others.
 
+**[Convention over Configuration](https://en.wikipedia.org/wiki/Convention_over_configuration)**: Also known as "coding by convention." This is a paradigm in software design that employs "sensible defaults," so that developers can minimize the number of decisions needed to use a framework. Only when deviating from these defaults is it necessary to add explicit configuration. Ruby on Rails is one example of a framework that employs this convention.
+
 **Design Margin:** The safety factor of a system. i.e. if a system is designed to withstand 50 units of force but it can actually withstand 70, the design margin is 20 units. [Source](https://en.wikipedia.org/wiki/Factor_of_safety)
 
 **The Boy Scout Rule (aka Kaizen)**: Always leave things cleaner than you found them. [Source](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)

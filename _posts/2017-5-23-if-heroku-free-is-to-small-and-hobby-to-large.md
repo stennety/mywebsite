@@ -66,8 +66,9 @@ Why not add the CNAME entry to the domain? Because all traffic will be redirecte
 
 If we done all right we have now different still standalone runnable and located apps, combined to a single heroku app (which gets the hobby upgrade) and requestable by own domains:
 
-* <a href="http://sharaal.de">sharaal.de</a> (<a href="http://github.com/sharaal/sharaal">http://github.com/sharaal/sharaal</a>)
-* <a href="http://maxdome-rssfeeds.de">maxdome-rssfeeds.de</a> (<a href="http://github.com/sharaal/maxdome-rssfeeds">http://github.com/sharaal/maxdome-rssfeeds</a>)
+
+* [sharaal.de](http://sharaal.de) - [http://github.com/sharaal/sharaal](http://github.com/sharaal/sharaal)
+* [maxdome-rssfeeds.de](http://maxdome-rssfeeds.de) - [http://github.com/sharaal/maxdome-rssfeeds](http://github.com/sharaal/maxdome-rssfeeds)
 
 The complete workflow in a diagramm:
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTbUMukW4NAvqk_2PjZ4tf5IR9qGODYdRrEdMJs-DQv8PGepb3xoq3bDi5n71f57Ew2WYJGgXSZMAC6/pub?w=960&h=720)

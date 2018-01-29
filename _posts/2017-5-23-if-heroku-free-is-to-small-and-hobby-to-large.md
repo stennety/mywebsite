@@ -52,7 +52,7 @@ proxy.use(require('vhost')('www.sharaal.de', sharaal));
 
 We create a new app in Heroku and deploy the proxy.
 
-If we don't have own domains for the apps, we are finished now, we can request the app by "/sharaal". 
+If we don't have own domains for the apps, we are finished now, we can request the app by "/sharaal".
 
 Otherwise we add the domain "www.sharaal.de" in the settings:
 ![](http://dragonprojects.de/wp-content/uploads/2017/05/app-domain-setting.png)
@@ -69,5 +69,5 @@ If we done all right we have now different still standalone runnable and located
 * <a href="http://sharaal.de">sharaal.de</a> (<a href="http://github.com/sharaal/sharaal">http://github.com/sharaal/sharaal</a>)
 * <a href="http://maxdome-rssfeeds.de">maxdome-rssfeeds.de</a> (<a href="http://github.com/sharaal/maxdome-rssfeeds">http://github.com/sharaal/maxdome-rssfeeds</a>)
 
-The complete workflow in a diagramm: 
-<a href="https://docs.google.com/drawings/d/1fuTjpEPjvS7RkUz6BdbGpXKMcoVCDO68f8kYL9LiLJ0/edit?usp=sharing">https://docs.google.com/drawings/d/1fuTjpEPjvS7RkUz6BdbGpXKMcoVCDO68f8kYL9LiLJ0/edit?usp=sharing</a>
+The complete workflow in a diagramm:
+![](https://docs.google.com/drawings/d/e/2PACX-1vTbUMukW4NAvqk_2PjZ4tf5IR9qGODYdRrEdMJs-DQv8PGepb3xoq3bDi5n71f57Ew2WYJGgXSZMAC6/pub?w=960&h=720)

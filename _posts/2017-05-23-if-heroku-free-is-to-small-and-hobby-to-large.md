@@ -75,4 +75,4 @@ If we done all right we have now different still standalone runnable and located
 * [maxdome-rssfeeds.de](http://maxdome-rssfeeds.de) - [http://github.com/sharaal/maxdome-rssfeeds](http://github.com/sharaal/maxdome-rssfeeds)
 
 The complete workflow in a diagramm:
-![Complete Workflow](https://docs.google.com/drawings/d/e/2PACX-1vTbUMukW4NAvqk_2PjZ4tf5IR9qGODYdRrEdMJs-DQv8PGepb3xoq3bDi5n71f57Ew2WYJGgXSZMAC6/pub?w=960&h=720)
+![Complete Workflow](/images/2017-05-23-if-heroku-free-is-to-small-and-hobby-to-large/complete-workflow.png)

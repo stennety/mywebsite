@@ -37,5 +37,5 @@ and every function call results in the same behavior.
 
 ## Summary
 
-Closures are usefull and flexible. But care about using them with mutable
-context variables.
+Closures are useful and flexible. But care about using them with mutable context
+variables.

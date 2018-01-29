@@ -31,7 +31,7 @@ $(function () {
 </script>
 ```
 
-Interesting information in this scenario: `<object>` requests will be blocked by the `X-Frame-Optio` header set to `DENY`. The server delivers the assets must not set this header.
+Interesting information in this scenario: `<object>` requests will be blocked by the `X-Frame-Option` header set to `DENY`. The server delivers the assets must not set this header.
 
 ## Summary
 

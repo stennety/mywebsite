@@ -4,6 +4,7 @@ title: If Heroku free is to small and hobby to large
 ---
 
 Sometimes apps should neither sleep nor use free dyno hours. Sometimes apps doesn't get many requests to need the performance of a hobby dyno.
+
 What if it would be possible many of these apps could combined run on a single hobby dyno?
 
 Besides that we also want to let the apps located in their own GitHub repos and standalone runnable. The first requirement is easy solvable, we publish them as NPM packages. For the second we use a small trick, we will see later.
@@ -11,6 +12,7 @@ Besides that we also want to let the apps located in their own GitHub repos and 
 ## Prepare the apps
 
 We want to reuse the app variable in another app. So the app must not listen on the port on their own, but get exported. To determine if the app is running standalone or required by another app we can use `module.parent`:
+
 ```javascript
 if (module.parent) {
   module.exports = app;
@@ -20,6 +22,7 @@ if (module.parent) {
 ```
 
 Additionally we must ensure the apps are runnable in another app or more specific, runnable if the working directory is not the app directory, because the app will be located under `node_modules` if using as NPM dependency. To solve this we use `__dirname` if we reference the filesystem:
+
 ```javascript
 app.set('views', path.join(__dirname, '../views'));
 app.use(express.static(path.join(__dirname, '../www')));
@@ -35,6 +38,7 @@ If we are finished, we publish the app by NPM.
 ## Setting up the proxy app
 
 The proxy is an own app, reference all apps we want to run as dependency:
+
 ```json
   "dependencies": {
     "@dragonprojects/sharaal": "^1.0.0"
@@ -42,6 +46,7 @@ The proxy is an own app, reference all apps we want to run as dependency:
 ```
 
 Now the trick, we distribute the incoming requests to the apps by a path or optionally by the host which is requested:
+
 ```javascript
 const sharaal = require('@dragonprojects/sharaal');
 proxy.use('/sharaal', sharaal);
@@ -65,7 +70,6 @@ Why not add the CNAME entry to the domain? Because all traffic will be redirecte
 ## Summary
 
 If we done all right we have now different still standalone runnable and located apps, combined to a single heroku app (which gets the hobby upgrade) and requestable by own domains:
-
 
 * [sharaal.de](http://sharaal.de) - [http://github.com/sharaal/sharaal](http://github.com/sharaal/sharaal)
 * [maxdome-rssfeeds.de](http://maxdome-rssfeeds.de) - [http://github.com/sharaal/maxdome-rssfeeds](http://github.com/sharaal/maxdome-rssfeeds)

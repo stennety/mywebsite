@@ -4,20 +4,20 @@ title: AI first @ maxdome
 ---
 
 Google ushered a new era with AI first last year. So we started preparing us for this future with a lot of PoC's (= proof of concepts).
-I will describe a few of them to give you an overview about AI in general, Alexa and Google Assistent in particular. 
+
+I will describe a few of them to give you an overview about AI in general, Alexa and Google Assistent in particular.
 
 ## What's AI?
 
-Because AI is a very wide topic let's specify first a bit. AI here means **the way an user interact with a service**: Not with a mobile app or a website, but **with its own natural written or spoken language**.
-Understanding natural language is an own and very complex topic, so it's good Alexa and Google Assistent do this for us and we focus on linking our business logic to that platforms.
+Because AI is a very wide topic let's specify first a bit. AI here means **the way an user interact with a service**: Not with a mobile app or a website, but **with its own natural written or spoken language**. Understanding natural language is an own and very complex topic, so it's good Alexa and Google Assistent do this for us and we focus on linking our business logic to that platforms.
 
 ## General Workflow
 
 ![AI first @ maxdome - General Workflow](https://docs.google.com/drawings/d/1aSgl48jaTnTsftuBmv_W8W12A1KRYpfZvbbY_ITgw_Q/pub?w=760&h=168)
 
 1. An user write/say something
-2. The platform (Alexa or Google Assistent) interpret it with the help of some sample utterances to an intent 
-3. Our business service gets a request with the intent and response with an answer 
+2. The platform (Alexa or Google Assistent) interpret it with the help of some sample utterances to an intent
+3. Our business service gets a request with the intent and response with an answer
 
 So what's our part in this workflow? a) Providing the names of the intents together with sample utterances we want to support and b) an API for the request response.
 
@@ -25,7 +25,7 @@ So what's our part in this workflow? a) Providing the names of the intents toget
 
 ### a) Prepare the platform
 
-I don't give this part to much focus in this post, because its already well documented for both platforms [Alexa (ignore Step#2)](https://developer.amazon.com/blogs/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template:-Build-a-Trivia-Skill-in-under-an-Hour) and [Google Assistent](https://console.api.ai/api-client/#/getStarted). 
+I don't give this part to much focus in this post, because its already well documented for both platforms [Alexa (ignore Step#2)](https://developer.amazon.com/blogs/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template:-Build-a-Trivia-Skill-in-under-an-Hour) and [Google Assistent](https://console.api.ai/api-client/#/getStarted).
 
 ### b) API for the business service
 
@@ -41,7 +41,7 @@ Our learnings:
 * A "Show a comedy" and the TV starts would be nice, but need a lot more effort than we wanted to spend for a PoC
 * All of the things worked without changing existing services, new microservice(s) for new features rocks
 * The most difficult part was "what's the minimum information does an user need for an asset to know if its interesting". Only the title is not enough, if it's not a well known blockbuster and the description is most times to long. Later in the week, this becomes an own NPM package (see [ai-renderer-maxdome](https://github.com/dragonprojects/ai-renderer-maxdome))
- 
+
 #### Step 2: Think about abstraction
 
 A bit later a Google Home stand on our desktop and of course we wanted to play with it and try out our PoC on that device too.
@@ -57,7 +57,7 @@ Our learnings:
 * It worked!
 * New features can independently built in the "webhook" and later supported by the "connectors"
 * New "connectors" allow to adopt new platforms very fast and easy
-* All the services are very small and easy to test 
+* All the services are very small and easy to test
 
 ## Our next steps?
 
@@ -75,7 +75,7 @@ Later in the week: The PoC grew up and ["maxdome - Tipp des Tages"](https://www.
 Also [ai-flashbriefing-maxdome](https://github.com/maxdome/ai-flashbriefing-maxdome) and the [deployed service](http://ai-flashbriefing-maxdome-prod.a4z2vg6thb.eu-central-1.elasticbeanstalk.com/) moved to the company.
 
 ## Summary
- 
+
 AI first is a very wide topic. But with a small managable effort we got a lot of insights to decide if, when and with which scope we want to jump deeper. And in addition the first AI product of us can go live: The "Tägliche Zusammenfassung" for Alexa.
 
 ## FAQ

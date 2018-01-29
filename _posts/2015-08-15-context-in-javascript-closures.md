@@ -29,7 +29,7 @@ var closure = function (context) {
 }(context);
 closure(); // console.log: a
 context = 'b';
-closure(); // console.log: a</pre>
+closure(); // console.log: a
 ```
 
 The value of the argument get copied into the parameter which no longer changes

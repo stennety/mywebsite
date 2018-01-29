@@ -57,7 +57,7 @@ getenv() in PHP
 
 They are a common way to give an application variables from the environment. In Node.js they can be set by the CLI command starting the application. In PHP they can be set by `php.ini`, vhost or `.htaccess`.
 
-The large pros comes with the support by the hosting service. Heroku offers a web UI to set/modifiy the environment variables, show a history of all changes and allow to revert them.
+The large pros comes with the support by the hosting service. Heroku offers a web UI to set/modify the environment variables, show a history of all changes and allow to revert them.
 
 Pros:
 

@@ -4,6 +4,7 @@ title: Autopublish WordPress posts after an interval of silence
 ---
 
 Having periodically posts without much effort is easy to reach with the WordPress API. I will describe here what's the use case and which solution I use.
+<!--more-->
 
 ## The problem of scheduled publishing
 

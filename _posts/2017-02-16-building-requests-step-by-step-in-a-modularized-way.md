@@ -3,7 +3,10 @@ layout: post
 title: Building requests step by step in a modularized way
 ---
 
-Requests to APIs can be very complex and need a lot of options: hostname, API keys, session tokens and at the end the HTTP method, route to the resource, parameters and so on. I thought about how to solve this requirement in a flexible and modular way, because the complexity in the connector to make Heimdall requests exploded by adding more and more.
+Requests to APIs can be very complex and need a lot of options: hostname, API keys, session tokens and at the end the HTTP method, route to the resource, parameters and so on.
+<!--more-->
+
+I thought about how to solve this requirement in a flexible and modular way, because the complexity in the connector to make Heimdall requests exploded by adding more and more.
 
 ## Request options
 

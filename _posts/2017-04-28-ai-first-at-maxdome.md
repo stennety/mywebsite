@@ -3,9 +3,8 @@ layout: post
 title: AI first @ maxdome
 ---
 
-Google ushered a new era with AI first last year. So we started preparing us for this future with a lot of PoC's (= proof of concepts).
-
-I will describe a few of them to give you an overview about AI in general, Alexa and Google Assistent in particular.
+Google ushered a new era with AI first last year. So we started preparing us for this future with a lot of PoC's (= proof of concepts). I will describe a few of them to give you an overview about AI in general, Alexa and Google Assistent in particular.
+<!--more-->
 
 ## What's AI?
 

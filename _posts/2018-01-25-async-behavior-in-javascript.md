@@ -4,6 +4,7 @@ title: async behavior in JavaScript
 ---
 
 Understanding the async behavior is one of the largest milestone in learning JavaScript. I will give you a very first overview what it is.
+<!--more-->
 
 ## Procedural code
 

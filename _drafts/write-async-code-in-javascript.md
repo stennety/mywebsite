@@ -3,15 +3,15 @@ layout: post
 title: Write async code in JavaScript
 ---
 
-... 
+...
 
 ## Callbacks
 
-Callbacks are functions which we hand over to another functions which calls them after an event is triggered (async) or 
+Callbacks are functions which we hand over to another functions which calls them after an event is triggered (async) or
 immediately after some blocking operations (sync).
 
-In JavaScript its a common behavior a callback gets called not only if something is finished successfully, also if some 
-error happens to give the possibility to handle that error. Because of this its common a callback function gets the 
+In JavaScript its a common behavior a callback gets called not only if something is finished successfully, also if some
+error happens to give the possibility to handle that error. Because of this its common a callback function gets the
 error as first parameter, which needs to be checked.
 
 ```javascript
@@ -31,7 +31,8 @@ Pros:
 Cons:
 
 * Errors must be handled in every callback function
-* Gets really fast unreadable in nested scenarios (naming "callback hell"): 
+* The parameters of a callback are only by convention error and data, not all callbacks rely on that
+* Gets really fast unreadable in nested scenarios (naming "callback hell"):
 
 ```javascript
 doSomething((err, data) => {
@@ -50,7 +51,7 @@ doSomething((err, data) => {
 });
 ```
 
-* Gets even more complicated if things should run in parallel and things should run after that: 
+* Gets even more complicated if things should run in parallel and things should run after that:
 
 ```javascript
 const results = [];
@@ -80,13 +81,13 @@ doSomething((err, data) => {
 });
 ```
 
-## async package
+## "async" package
 
-...
+The "async" package solves the most problematical aspects of writing async code only with callbacks. Especially a sequence of depending async functions or parallel execution of async functions is a lot easier with it. But as it is only a wrapper around callbacks, it can not fix all the problems.
 
 Pros:
 
-* ...
+* Sequence and parallel executions is a lot easier
 
 Cons:
 
@@ -127,7 +128,14 @@ Cons:
 
 ## async/await keywords
 
-...
+```javascript
+try {
+  const data = await doSomething();
+  console.log('doSomething is successfully finished');
+} catch (e) {
+  console.log('doSomething finished with an error');
+}
+```
 
 Pros:
 

@@ -3,7 +3,10 @@ layout: post
 title: Write async code in JavaScript
 ---
 
-...
+There are a lot of different options to write async code in JavaScript and every few months it switches to another. That results in every new project use another, or even worse every part of one project.
+<!--more-->
+
+So I give here a small overview over the different options with their pros and cons.
 
 ## Callbacks
 
@@ -85,17 +88,26 @@ doSomething((err, data) => {
 
 The "async" package solves the most problematical aspects of writing async code only with callbacks. Especially a sequence of depending async functions or parallel execution of async functions is a lot easier with it. But as it is only a wrapper around callbacks, it can not fix all the problems.
 
+```javascript
+async.parallel([
+    doSomething,
+    doSomething,
+], function(err, results) {
+    if (err) {
+      console.log('One doSomething finished with an error');
+    } else {
+      console.log('Both doSomething are finished');
+    }
+});
+```
+
 Pros:
 
 * Sequence and parallel executions is a lot easier
 
-Cons:
-
-* ...
-
 ## Promises
 
-...
+Promises are a new standard to write async code. They standardize the success and failure scenario, allow easily chaining and parallelism and become better and better supported.
 
 Pros:
 
@@ -112,19 +124,21 @@ doSomething(data)
 Cons:
 
 * Errors must be handled in every chain
-* A lot of callbacks are still in use
+* A lot of callbacks are still in use which makes them very verbose
 
-## co package
+## "co" package
 
-...
+The "co" package fits in the time niche between callbacks, promises and async/await. It wraps all async code and allows to write it in a sync way by using generator functions and `yield`. But with the support of async/await it is not anymore needed.
 
 Pros:
 
-* ...
+* Write async code like it would be sync code
+* Throw errors and let us use try/catch for error handling
 
 Cons:
 
-* ...
+* It is need to wrap a lot of code
+* Not needed anymore, use async/await
 
 ## async/await keywords
 

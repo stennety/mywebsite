@@ -10,8 +10,7 @@ So I give here a small overview over the different options with their pros and c
 
 ## Callbacks
 
-Callbacks are functions which we hand over to another functions which calls them after an event is triggered (async) or
-immediately after some blocking operations (sync).
+Callbacks are functions which we hand over to another functions which calls them immediately after some blocking operations (sync) or at the end of the event loop, maybe not until an event is triggered (async).
 
 In JavaScript its a common behavior a callback gets called not only if something is finished successfully, also if some
 error happens to give the possibility to handle that error. Because of this its common a callback function gets the
@@ -90,14 +89,14 @@ The ["async" package](https://www.npmjs.com/package/async) solves the most probl
 
 ```javascript
 async.parallel([
-    doSomething,
-    doSomething,
+  doSomething,
+  doSomething,
 ], function(err, results) {
-    if (err) {
-      console.log('One doSomething finished with an error');
-      return;
-    }
-    console.log('Both doSomething are successfully finished');
+  if (err) {
+    console.log('One doSomething finished with an error');
+    return;
+  }
+  console.log('Both doSomething are successfully finished');
 });
 ```
 
@@ -121,10 +120,21 @@ doSomething(data)
   .catch(err => { console.log('One doSomething finished with an error'); });
 ```
 
+* Also parallelism are easier
+
+```javascript
+Promise.all([
+  doSomething,
+  doSomething,
+])
+  .then(data => { console.log('Both doSomething are successfully finished'); })
+  .catch(err => { console.log('One doSomething finished with an error'); });
+```
+
 Cons:
 
 * Errors must be handled in every chain
-* A lot of callbacks are still in use which makes them very verbose
+* A lot of callbacks are still in use which makes promises very verbose
 
 ## "co" package
 

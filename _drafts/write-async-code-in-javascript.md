@@ -86,7 +86,7 @@ doSomething((err, data) => {
 
 ## "async" package
 
-The "async" package solves the most problematical aspects of writing async code only with callbacks. Especially a sequence of depending async functions or parallel execution of async functions is a lot easier with it. But as it is only a wrapper around callbacks, it can not fix all the problems.
+The ["async" package](https://www.npmjs.com/package/async) solves the most problematical aspects of writing async code only with callbacks. Especially a sequence of depending async functions or parallel execution of async functions is a lot easier with it. But as it is only a wrapper around callbacks, it can not fix all the problems.
 
 ```javascript
 async.parallel([
@@ -95,9 +95,9 @@ async.parallel([
 ], function(err, results) {
     if (err) {
       console.log('One doSomething finished with an error');
-    } else {
-      console.log('Both doSomething are finished');
+      return;
     }
+    console.log('Both doSomething are successfully finished');
 });
 ```
 
@@ -128,7 +128,7 @@ Cons:
 
 ## "co" package
 
-The "co" package fits in the time niche between callbacks, promises and async/await. It wraps all async code and allows to write it in a sync way by using generator functions and `yield`. But with the support of async/await it is not anymore needed.
+The ["co" package](https://www.npmjs.com/package/co) fits in the time niche between callbacks, promises and async/await. It wraps all async code and allows to write it in a sync way by using generator functions and `yield`. But with the support of async/await it is not anymore needed.
 
 Pros:
 

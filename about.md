@@ -17,11 +17,11 @@ Ola is an accomplished vocalist, songwriter, studio co-founder and occasional PR
 
 
 
-[^1] She actually spends a lot of time thinking about shoes, because Nordstrom sells a lot of shoes.  In fact, when Ola walks around town her eye is often drawn to people’s shoes more than anything else.  She only owns about five pairs of shoes.
+[^1]: She actually spends a lot of time thinking about shoes, because Nordstrom sells a lot of shoes.  In fact, when Ola walks around town her eye is often drawn to people’s shoes more than anything else.  She only owns about five pairs of shoes.
 
-[^2] Technically her first job at Nordstrom.
+[^2]: Technically her first job at Nordstrom.
 
-[^3] Sometimes she still misses being the Nesquik bunny, even if it was only for a day at a Wal-Mart.
+[^3]: Sometimes she still misses being the Nesquik bunny, even if it was only for a day at a Wal-Mart.
 
 ### Contact me
 

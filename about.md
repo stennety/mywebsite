@@ -16,8 +16,11 @@ Ola comes from a diverse technical background spanning over a decade, including 
 Ola is an accomplished vocalist, songwriter, studio co-founder and occasional PR/marketing agent for various music projects.  She has performed at all sizes of venues and events including KEXP, Bumbershoot and Decibel Festival.  She continues to spend time in the studio collaborating with her husband and creative partner, composer/producer/audio engineer Johnny Dexter Goss.
 
 
+
 [^1] She actually spends a lot of time thinking about shoes, because Nordstrom sells a lot of shoes.  In fact, when Ola walks around town her eye is often drawn to people’s shoes more than anything else.  She only owns about five pairs of shoes.
+
 [^2] Technically her first job at Nordstrom.
+
 [^3] Sometimes she still misses being the Nesquik bunny, even if it was only for a day at a Wal-Mart.
 
 ### Contact me

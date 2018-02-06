@@ -1,0 +1,343 @@
+body {
+background:#222222;
+background-image:url("http://olahungerford.com/_sites/pi/pi_body_bg.png");
+color:#000000;
+font-family:Arial, sans-serif;
+font-size:12px;
+margin:0;
+text-align:center;
+}
+
+/*LINKS*/
+a:link {
+color:#a55a3b;
+text-decoration:none;
+}
+a:visited {
+color:#a55a3b;
+text-decoration:none;
+}
+a:hover {
+color:#dc575c;
+text-decoration:underline;
+}
+
+#header a {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+a img {
+border-width:0;
+}
+
+#page-wrapper{
+margin-top:-5px;
+margin:0 auto;
+width:970px;
+}
+
+.jump-link{
+font-size:18px;
+}
+
+/*HEADER*/
+
+h1.title{
+visibility:hidden;
+display:none;
+}
+
+#header .description{
+visibility:hidden;
+display:none;
+}
+
+#header-wrapper {
+margin:0 auto;
+width:968px;
+height:206px;
+border-left:1px #fff solid;
+border-right:1px #fff solid;
+background:#000;
+/*background-image:url("http://studentfolders.student.cascadia.edu/bit297/bpdfoundation/temp/pi/pi_banner.jpg");*/
+}
+
+#header {
+color:#FFFFFF;
+text-align:left;
+margin-left:auto;
+margin-right:auto;
+}
+
+/*this will change when title is moved*/
+#header h1 {
+font-size:24px;
+margin:5px 5px 0;
+padding:25px 20px 2px 0;
+}
+/*this will change when description is moved*/
+#header .description {
+font-size:16px;
+margin:0 5px 5px;
+max-width:700px;
+padding:0 20px 15px 5px;
+float:right;
+}
+
+#header img {
+margin-left:auto;
+margin-right:auto;
+}
+
+/*TITLE BAR*/
+#title{
+color:#fff;
+font-size:28px;
+margin:0 auto;
+width:968px;
+height:60px;
+border-left:1px #fff solid;
+border-right:1px #fff solid;
+background:#000000;
+background-image:url("http://olahungerford.com/_sites/pi/pi_title-bg.jpg");
+text-align:left;
+margin-top:0px;
+margin-bottom:0px;
+clear:both;
+}
+
+#title p{
+margin:0px;
+}
+
+.inside{
+padding:5px;
+}
+
+/*NAVIGATION AND LISTS*/
+
+#menu-wrapper{
+width:968px;
+/*height:206px;*/ changed for blogger header widget compatibility
+background:transparent;
+margin:0px;
+position:relative;
+}
+
+ul#menu li a:hover {
+color:#dc575c;
+}
+ul#menu li {
+float:right;
+display:inline;
+padding-right:5px;
+}
+ul#menu {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+font-family:arial;
+font-size:18px;
+text-transform:uppercase;
+text-align:center;
+padding:0px;
+width:968px;
+margin:0px;
+position:absolute;
+bottom:5px;
+}
+
+#menu-module {
+}
+
+ol, ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+ul#menu li a {
+color:#f2f2f2;
+background-image:url("http://olahungerford.com/_sites/pi/pi_nav-bg.gif");
+padding:5px 10px 5px 10px;
+text-decoration:none;
+/*border-left:1px #e1e1e1 solid;
+border-top:1px #e1e1e1 solid;
+border-right:1px #e1e1e1 solid;*/
+}
+
+/*CONTENT SECTIONS*/
+
+#outer-wrapper {
+background:#fff;
+font-family:arial;
+font-size:100%;
+margin:0 auto;
+padding:0px;
+text-align:left;
+width:970px;
+}
+
+#main-wrapper {
+float:left;
+font-size:14px;
+margin-left:15px;
+overflow:hidden;
+width:660px;
+word-wrap:break-word;
+}
+
+#sidebar-wrapper {
+float:right;
+margin-right:1px;
+margin-top:10px;
+overflow:hidden;
+width:260px;
+word-wrap:break-word;
+}
+
+/*SIDEBAR WIDGETS*/
+
+.sidebar {
+color:#000;
+font-size:13px;
+line-height:1.5em;
+}
+
+.sidebar h2{
+font-size:16px;
+width:260px;
+padding:5px;
+color:#f2f2f2;
+background:#000000;
+background-image:url("http://olahungerford.com/_sites/pi/widget_bg.jpg");
+text-transform:lowercase;
+}
+
+.sidebar ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.sidebar li {
+background:#fff;
+line-height:1.5em;
+margin:0;
+padding:0 0 0.25em 5px;
+}
+.sidebar .widget, .main .widget {
+margin:0 0 10px;
+padding:0 0 10px;
+}
+#CustomSearch1{
+margin-top:10px;
+}
+/*this is to hide the google logo under the search box*/
+.gsc-branding{
+visibility:hidden;
+display:none;
+}
+
+.cloud-label-widget-content a{
+color:#6d9887;
+}
+
+.widget-content {
+margin-right:10px;
+}
+
+/*FOOTER*/
+div#footer-wrapper p {
+display:block;
+margin:0;
+padding:0;
+}
+div#footer-wrapper {
+margin:0 auto;
+padding:5px 0;
+width:968px;
+height:auto;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+div#footer {
+width:968px;
+border-left:1px #fff solid;
+border-right:1px #fff solid;
+background:#fff;
+color:#7e8584;
+font-family:arial;
+font-size:11px;
+margin-left:auto;
+margin-right:auto;
+}
+div#footer a {
+color:#7e8584;
+}
+div#footer a:hover {
+text-decoration:underline;
+}
+
+/*BLOG POSTS*/
+
+.date-header{
+font-size:16px;
+color:#242424;
+margin:20px 0 -8px 2px;
+}
+
+.post-title {
+width:90%;
+border-bottom:1px #a7a7a7 solid;
+font-size: 24px;
+color:#181715;
+font-weight:bold;
+margin:0 0 5px 0px;
+margin-top:5px;
+}
+
+.post-title a {
+color:#181715;
+}
+
+.post-title a:visited {
+color:#181715;
+}
+
+h3.post-title a:hover{
+text-decoration:none;
+}
+
+.post-body{
+margin:10px 5px 0 2px;
+}
+
+.post-footer{
+margin:5px 5px 0 5px;
+font-size:12px;
+color:#7e8584;
+}
+
+.post-comment-link{
+font-weight:bold;
+}
+
+.post-timestamp{
+border:0px;
+}
+
+#comments{
+margin:5px 5px 0 2px;
+}
+
+#blog-pager{
+margin:5px 5px 0 2px;
+}
+
+#blog-pager-older-link{
+font-size:16px;
+}
+

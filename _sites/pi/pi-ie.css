@@ -1,0 +1,52 @@
+#main-wrapper {
+float:left;
+font-size:14px;
+margin-left:8px;
+overflow:hidden;
+width:660px;
+word-wrap:break-word;
+}
+
+#menu-wrapper{
+width:968px;
+/*height:206px;*/
+background:transparent;
+margin:0px;
+position:relative;
+/*top:87%;*/
+top:-38px;
+}
+ul#menu li {
+float:right;
+display:inline;
+padding-right:5px;
+}
+ul#menu {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+font-family:arial;
+font-size:18px;
+text-transform:uppercase;
+text-align:center;
+padding:0px;
+width:968px;
+margin:0px;
+position:static;
+}
+
+ul#menu li a {
+color:#f2f2f2;
+display: block;
+background-image:url("http://olahungerford.com/_sites/pi/pi_nav-bg.gif");
+padding:5px 10px 5px 10px;
+text-decoration:none;
+margin-top:5px;
+/*border-left:1px #e1e1e1 solid;
+border-top:1px #e1e1e1 solid;
+border-right:1px #e1e1e1 solid;*/
+}
+
+.sidebar h2{
+margin-bottom:6px;
+}

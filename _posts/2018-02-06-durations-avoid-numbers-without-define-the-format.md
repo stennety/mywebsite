@@ -27,7 +27,7 @@ function expire(expire) {
 
 ## Readability
 
-The duration should be constructable by a string (to be defined by a environment variable) and easy to read by a human. So I came up with this:
+The duration should be define by a string (to be defined by a environment variable) and easy to read by a human. So I came up with this:
 
 ```javascript
 // instead of

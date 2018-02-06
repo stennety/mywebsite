@@ -31,6 +31,9 @@ The duration should be constructable by a string (to be defined by a environment
 
 ```javascript
 // instead of
+const expire = 259200000;
+
+// or
 const expire = 3 * 24 * 60 * 60 * 1000;
 
 // and never with a comment which can be wrong someday

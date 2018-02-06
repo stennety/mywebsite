@@ -14,7 +14,7 @@ Because of this I avoid to use variables of `number`, hand over durations always
 
 ```javascript
 function expire(expire) {
-  // JavaScript needs milliseconds with e.g. setTimeout
+  // JavaScript needs milliseconds
   setTimeout(
     () => console.log('expired'),
     expire.millisecond()

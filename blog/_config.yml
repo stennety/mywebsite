@@ -43,8 +43,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: http://www.olahungerford.com
 
-#baseurl: "/blog"
-#source: .
+baseurl: "/blog"
 
 #
 # !! You don't need to change any of the configuration flags below !!

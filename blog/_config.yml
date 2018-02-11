@@ -48,7 +48,7 @@ url:
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/blog"
-production_url : http://olaservo.github.io.com/blog
+production_url : http://olahungerford.com/blog
 BASE_PATH : http://olahungerford.com/blog
 
 #

@@ -26,7 +26,7 @@ If you want to contact me, please use LinkedIn.
 
 ### NOTE:
 
-The views expressed on this site are mine and not those of my employer.
+The views expressed on this site are Ola's and not those of her employer.
 
 
 

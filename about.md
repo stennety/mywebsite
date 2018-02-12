@@ -24,6 +24,9 @@ Ola is an accomplished vocalist, songwriter, studio co-founder and occasional PR
 
 If you want to contact me, please use LinkedIn.
 
+### NOTE:
+
+The views expressed on these pages are mine alone and not those of my employer.
 
 
 

@@ -17,11 +17,11 @@ function expire(expire) {
   // JavaScript needs milliseconds
   setTimeout(
     () => console.log('expired'),
-    expire.millisecond()
+    expire.milliseconds()
   );
 
   // Redis needs seconds
-  redis.expire('key', expire.second());
+  redis.expire('key', expire.seconds());
 }
 ```
 
@@ -47,4 +47,4 @@ const expire = duration('3 day');
 
 Handle numbers without a definition for what they stand for can be error-prone, not only for durations. So always define the format to avoid confusions and convert it into the right format depending on the context.
 
-For durations feel free to have a look at [@dnode/duration](https://www.npmjs.com/package/@dnode/duration).
+For durations feel free to have a look at [@dnode/duration](https://www.npmjs.com/package/@dnode/duration) or [moment.duration](http://momentjs.com/docs/#/durations/).

@@ -40,7 +40,7 @@ const expire = 3 * 24 * 60 * 60 * 1000;
 const expire = 3 * 24 * 60 * 60 * 1000; // 1 day
 
 // define it with the format
-const expire = duration('3 day');
+const expire = duration('3 days');
 ```
 
 ## Summary

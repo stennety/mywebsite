@@ -17,11 +17,11 @@ function expire(expire) {
   // JavaScript needs milliseconds
   setTimeout(
     () => console.log('expired'),
-    expire.milliseconds()
+    expire.asMilliseconds()
   );
 
   // Redis needs seconds
-  redis.expire('key', expire.seconds());
+  redis.expire('key', expire.asSeconds());
 }
 ```
 

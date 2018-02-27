@@ -40,11 +40,11 @@ const expire = 3 * 24 * 60 * 60 * 1000;
 const expire = 3 * 24 * 60 * 60 * 1000; // 1 day
 
 // define it with the format
-const expire = moment.duration(3, 'days');
+const expire = duration('3 days');
 ```
 
 ## Summary
 
 Handle numbers without a definition for what they stand for can be error-prone, not only for durations. So always define the format to avoid confusions and convert it into the right format depending on the context.
 
-For durations there is e.g. [moment.duration](http://momentjs.com/docs/#/durations/).
+For durations feel free to have a look at [@dnode/duration](https://www.npmjs.com/package/@dnode/duration) or [moment.duration](http://momentjs.com/docs/#/durations/).

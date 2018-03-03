@@ -153,6 +153,6 @@ Good! SSH keys are way better for authentication than passwords. SSH private/pub
 
 Additionally, Duo's PAM module has the ability to combine SSH keys with multifactor push. Change the following settings in your /etc/ssh/sshd_config
 
-`PubkeyAuthentication yes
-PasswordAuthentication no
-AuthenticationMethods publickey,keyboard-interactive`
+	PubkeyAuthentication yes
+	PasswordAuthentication no
+	AuthenticationMethods publickey,keyboard-interactive

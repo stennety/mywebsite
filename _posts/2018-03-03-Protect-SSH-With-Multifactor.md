@@ -133,17 +133,17 @@ Similar to Google TOTP script, if you run this just by itself, you're going to b
 
 Leave open your primary SSH session and test this with a new terminal. If everything is setup correctly, you should get something when you login that looks like this.
 
-`$ ssh pi@192.168.1.133
-Password:
-Duo two-factor login for bhering
-
-Enter a passcode or select one of the following options:
-
- 1. Duo Push to XXX-XXX-XXXX
- 2. Phone call to XXX-XXX-XXXX
- 3. SMS passcodes to XXX-XXX-XXXX
-
-Passcode or option (1-3):`
+	$ ssh pi@192.168.1.133
+	Password:
+	Duo two-factor login for bhering
+	
+	Enter a passcode or select one of the following options:
+	
+	 1. Duo Push to XXX-XXX-XXXX
+	 2. Phone call to XXX-XXX-XXXX
+	 3. SMS passcodes to XXX-XXX-XXXX
+	
+	Passcode or option (1-3):
 
 In that passcode option, you can either enter the 6 digit TOTP available on the Duo app or select one of the three options to verify. **NOTE - Duo Pushes are free, phone and SMS codes cost "telephony credits" that cost money to renew.**
 

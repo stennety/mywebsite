@@ -119,15 +119,17 @@ You can find more details [here](https://duo.com/docs/duounix), but most of what
 
 <script src="https://gist.github.com/benjamin-hering/2a970f33ba20dfcb3c16efdf71e89efd.js"></script>
 
+### Follow on steps for the Duo script
+
 Similar to Google TOTP script, if you run this just by itself, you're going to break stuff. You need to add to it the integration key, secret key and API hostname. Spin up your favorite command line text editor, and add those values to /etc/duo/pam_duo.conf
 
-`[duo]
-; Duo integration key
-ikey = INTEGRATION_KEY
-; Duo secret key
-skey = SECRET_KEY
-; Duo API hostname
-host = API_HOSTNAME`
+	[duo]
+	; Duo integration key
+	ikey = INTEGRATION KEY
+	; Duo secret key
+	skey = SECRET KEY
+	; Duo API host
+	host = API HOSTNAME
 
 Leave open your primary SSH session and test this with a new terminal. If everything is setup correctly, you should get something when you login that looks like this.
 
@@ -143,7 +145,7 @@ Enter a passcode or select one of the following options:
 
 Passcode or option (1-3):`
 
-	In that passcode option, you can either enter the 6 digit TOTP available on the Duo app or select one of the three options to verify. **NOTE - Duo Pushes are free, phone and SMS codes cost "telephony credits" that cost money to renew.**
+In that passcode option, you can either enter the 6 digit TOTP available on the Duo app or select one of the three options to verify. **NOTE - Duo Pushes are free, phone and SMS codes cost "telephony credits" that cost money to renew.**
 
 ## But what if I use SSH keys? I don't use passwords for SSH!
 

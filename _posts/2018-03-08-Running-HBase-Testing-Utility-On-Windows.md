@@ -3,7 +3,7 @@ The [HBase Testing Utility] is a vital tool for anyone writing HBase application
 In this blog post, I'll show how to get the HBase Testing Utility running on Windows machines, no admin access required. There's no accompanying GitHub project for this post, as it's fairly short and generic. I'll assume you already have a working HBase Testing Utility test that runs on Unix, and you want to port it to Windows.
 
 1. Download/clone [Winutils]. This contains several Hadoop versions compiled for Windows.
-2. Go to `Control Panel`, and find `Edit environment variables for your account` in `System`.
+2. Go to *Control Panel*, and find *Edit environment variables for your account* in *System*.
 3. Add the following user variables:
    - `hadoop.home.dir=<PATH_TO_DESIRED_HADOOP_VERSION>` (in my case `C:\Users\bwatson\apps\hadoop-2.8.3`)
    - `HADOOP_HOME=<PATH_TO_DESIRED_HADOOP_VERSION>` (as above)

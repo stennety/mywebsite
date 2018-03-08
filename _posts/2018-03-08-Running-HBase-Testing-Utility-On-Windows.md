@@ -15,7 +15,7 @@ In this blog post, I'll show how to get the HBase Testing Utility running on Win
     com.google.common.hash.HashFunction.hashString(Ljava/lang/CharSequence;)Lcom/google/common/hash/HashCode;*
     ```
     This is caused by different versions of Guava being pulled in by various dependencies. I resolved this by excluding Guava from my Hadoop dependencies, and forcing version `15.0` to be used. My Gradle `dependencies` sections looks like:
-    ```
+    ```groovy
     dependencies {
         compile group: 'com.google.guava', name: 'guava', version: '15.0'
         compile(group: 'org.apache.hbase', name: 'hbase-client', version: '1.4.2') {

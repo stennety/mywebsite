@@ -66,4 +66,4 @@ In the last example we got in touch with another concept named event driven. The
 
 It's a very important step to understand async and start to think about which functions runs async and which code runs in which order.
 
-Read more about how to [Write async code in JavaScript](/2018/02/02/write-async-code-in-javascript.html).
+Read more about how to [write async code in JavaScript](/2018/02/02/write-async-code-in-javascript.html).

@@ -6,7 +6,7 @@ tags: .net dotnet history Richard Campbell Visual Studio C# VisualStudio Windows
 comments: true
 ---
 
-### The History of .Net
+# The History of .Net
 ## by Richard Campbell
 One of this days, one of my collegues in a .net team in the company I work, shared in Yammer the video about the History of .Net by Richard Campbell (yes  [Richard Campbell from .Net Rocks](https://dotnetrocks.com/) podcast).
 It is one video with almost one hour all about the Microsoft ecosystem and how the .Net stack began. The [video](https://vimeo.com/254635703) is hosted on Vimeo and I share it below.

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Jumping head first, with the Dell Visor!"
-date: 2018-03-29 18:30:00 +0000
+date: 2018-03-29 19:27:00 +0000
 categories: hardware reviews
 ---
 ![Dell Visor image](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6084/6084412_rd.jpg)
 
-Motivated by a desire to explore VR content from home, I set out on this quest with the following requirements in mind:-
+Motivated by a desire to explore VR content from home, I set out with the following requirements in mind:-
 
 &nbsp;&nbsp;**Budget:** < £350.  
 &nbsp;&nbsp;**Space:** modest sized bedroom.  

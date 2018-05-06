@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jumping head first, with the Dell Visor!"
+title: "Jumping head first into VR, with the Dell Visor!"
 date: 2018-05-01 19:27:00 +0000
 categories: hardware reviews
 ---

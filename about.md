@@ -10,7 +10,7 @@ Architecture + Open Source + VR = Me.
 
 Originally trained in the field of Architecture, I've dabbled in e-commerce and now VR.
 
-Currently working as a QA Tester at a leading VR/AR training solution providers.
+Currently working as a QA Tester at a leading VR/AR training solution provider.
 
 ### Contact me
 

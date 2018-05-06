@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Architecture + Open Source + VR = Me.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Originally trained in the field of Architecture, I've dabbled in e-commerce and now VR.
+
+Currently working as a QA Tester at a leading VR/AR training solution providers.
 
 ### Contact me
 

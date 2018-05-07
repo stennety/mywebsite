@@ -49,7 +49,7 @@ But we decided to spend a bit more time and build an abstraction layer to make t
 
 ![Abstracted Workflow](/images/2017-04-28-ai-first-at-maxdome/abstracted-workflow.png)
 
-Like you can see in the diagram, we built "connectors" (see [ai-connector-alexa](https://github.com/dragonprojects/ai-connector-alexa) and [ai-connector-apiai](https://github.com/dragonprojects/ai-connector-apiai)) which transforms the platform specific JSON formats to an internal used format for the business logic named "webhook" (see [ai-webhook-maxdome](https://github.com/dragonprojects/ai-webhook-maxdome)). And also the OAuth 2.0 integration got an own service named "oauth" (see [ai-oauth-maxdome](https://github.com/dragonprojects/ai-oauth-maxdome) or [directly test the deployed service](http://ai-oauth-maxdome.herokuapp.com/)), luckily both platforms supporting the same account linking concept.
+Like you can see in the diagram, we built "connectors" (see [ai-connector-alexa](https://github.com/dragonprojects/ai-connector-alexa) and [ai-connector-apiai](https://github.com/dragonprojects/ai-connector-apiai)) which transforms the platform specific JSON formats to an internal used format for the business logic named "webhook" (see [ai-webhook-maxdome](https://github.com/dragonprojects/ai-webhook-maxdome)). And also the OAuth 2.0 integration got an own service named "oauth" (see [ai-oauth-maxdome](https://github.com/dragonprojects/ai-oauth-maxdome)), luckily both platforms supporting the same account linking concept.
 
 Our learnings:
 
@@ -67,7 +67,7 @@ Our learnings:
 
 In Alexa it's possible to choose services which you think are interesting for a daily summary. Then you can just say "Alexa, was gibt es neues" and get for all choosen services the news.
 This feature is not like a custom skill where we get a JSON request, it's simply a RSS or JSON feed.
-Also for this we made a PoC for maxdome (see [ai-flashbriefing-maxdome](https://github.com/dragonprojects/ai-flashbriefing-maxdome) or [directly test the deployed service](http://ai-flashbriefing-maxdome.herokuapp.com/)).
+Also for this we made a PoC for maxdome (see [ai-flashbriefing-maxdome](https://github.com/dragonprojects/ai-flashbriefing-maxdome)).
 
 Later in the week: The PoC grew up and ["maxdome - Tipp des Tages"](https://www.amazon.de/maxdome-GmbH-Tipp-des-Tages/dp/B06ZYMH963/) is the first published skill in the "Film & Fernsehen" section with the "Tägliche Zusammenfassung" feature, yeah. :)
 

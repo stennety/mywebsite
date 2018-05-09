@@ -61,7 +61,7 @@ Here's the raw baseline before doing anything with the MoCA adapters, just simpl
 
 So that's 10 seconds, hitting a pretty consistent ~940 Mbits/sec. It's not at exactly 1000 Mbits/sec, but for the purposes of my home network I'll call that full "gigabit" bandwidth. If my MoCA adapters can similarly hit ~940 Mbits/sec I'll give them full marks. At the least, they wouldn't be the slowest link in my network.
 
-##Initial Benchmarking
+## Initial Benchmarking
 
 For my first test, I wanted to get the cleanest reading of the maximum bandwidth of these devices with the smallest amount of confounding variables as possible, so I just connected the two devices directly to each other with the coax cable that came in the box with them.
 
@@ -102,7 +102,7 @@ Overall, it seems to be able to burst to near gigabit speeds, but there's a lot 
 	
 Still, even at the worst test it was beating my current wifi speed in the crappy corner by a factor of 10, so even if I wasn't getting the full speeds listed on the box, it was still an improvement.
 
-##So let's make it (more) secure
+## So let's make it (more) secure
 
 So bonus points to Motorola, they have [an entire page](http://www.motorolacable.com/mocasecurity/) dedicated to speaking about the security best practices for this device in a way that an average consumer can understand.
 
@@ -119,7 +119,7 @@ Regardless, www.motorolacable.com is *probably* the right domain for this, if on
 
 Like any good security focused tinkerer, when offered an either/or choice between two different security controls, my answer is "why not both?"
 
-##Let's start with encryption.
+## Let's start with encryption.
 
 So on the security page, they outline that you need to be running the 1.0.0.8 version of the firmware or later. Out of the box, mine are only running 1.0.0.6.
 
@@ -149,7 +149,7 @@ Only after updating the second one and getting ready to do an updated bandwidth 
 
 That could have been perhaps added to instructions in the admin page, but whatever, we're on the latest firmware now. Let's test it again and see if they snuck any speed improvements in with the encryption settings.
 
-##Benchmarking the 1.0.0.8 Firmware
+## Benchmarking the 1.0.0.8 Firmware
 
 First tests looked much better! The best test I had seen yet!
 
@@ -208,7 +208,7 @@ Subsequent retests showed the same wide swings of second to second variability (
 	[  4]   0.00-10.00  sec   775 MBytes   650 Mbits/sec                  sender
 	[  4]   0.00-10.00  sec   775 MBytes   650 Mbits/sec                  receiver
 
-##Turning on encryption
+## Turning on encryption
 
 If you're on the 1.0.0.8 firmware version, adding encryption is pretty simple. In fact, the "Security" tab is the new landing page of the admin interface. 
 
@@ -219,7 +219,7 @@ If you're on the 1.0.0.8 firmware version, adding encryption is pretty simple. I
 
 ![setting the encryption key](https://blog.benjamin-hering.com/images/moca/mm1000-reboot-encryption.png)
 
-##Does encryption slow things down?
+## Does encryption slow things down?
 
 I'd initially thought it would slow down. If these tiny devices are CPU bound I'd expect the work to encrypt and decrypt could hit some resource constraints but with all the variability it's hard to tell. I ran a couple of tests back to back to check:
 
@@ -240,13 +240,13 @@ I'd initially thought it would slow down. If these tiny devices are CPU bound I'
 
 Still a wide variance, but all still in the range of previous tests. 
 
-##Is this encryption any good?
+## Is this encryption any good?
 
 It's better than absolutely nothing, but not by a whole lot. Don't bet your life on it. I'm sure that setting the encryption key to be numbers only was a performance tradeoff somewhere in the engineering, but it dramatically lowers the size of the possible character set. An average desktop computer can brute force a 16 number password in about 3 hours. A 17 number password might take around 3 weeks. If your attacker has even minimal experience brute forcing encryption and a tiny bit of patience, it's a matter of **when** not **if** your encryption would be broken. 
 
 As a general rule, anything important or valuable you do over your MoCA adapters or any other network should have it's own strong protocol level encryption regardless; use HTTPS for web traffic, SSH for command line integration, enable TLS for SMTP traffic and so forth. When your super-weak MoCA encryption is brute-forced, they decrypt to data that's has another level of encryption.
 
-##Actually installing the adapters
+## Actually installing the adapters
 
 Theorectical best possible bandwidth is fascinating and all, but the actual test of performance is whether or not these devices can deliver that bandwidth to my wifi starved corner of the house. I dropped the MoCA adapters in line with my cable modem and at the termination of coax on the other side of the house and re-ran the 10 second default tests.
 
@@ -344,7 +344,7 @@ Here's my minute-aggregated bandwidth test after installing the POE filter.
 
 We jumped from 693 to 895 Mbits/sec, getting me now around 95% of what my network maximum. An obvious question is to ask why? If my two MoCA devices are sitting on opposite **output** ends of my splitter, why would adding a POE filter on the **input** end of my splitter have any impact? The short answer is I have no idea, I'm a mere amateur in MoCA & coax network particulars. I think it's likely that other people nearby to me are also using MoCA devices and their transmissions were bleeding into my house's coax. Because MoCA devices operate at frequencies with higher attenuation than the DOCSIS or cable TV frequencies, a MoCA devices can compensate by sending a much stronger signal. It's not straightforward for me to analyize my neighborhood coax network, but I'll take the speed increase regardless. 
 
-##What about the splitter itself?
+## What about the splitter itself?
 
 So I knew that MoCA operates primarily at frequencies above 1000 MHz, so I took a quick look at my old, inherited splitter installed God-knows how long ago. It's got more output taps than I need, and the frequency range it's rated for only goes up to 1002 Mhz.
 

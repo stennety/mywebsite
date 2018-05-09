@@ -9,7 +9,7 @@ My wife (who is generally speaking, wiser, kinder and an all around better perso
 
 ## The Options
 
-My first option was to grab [UniFi's Mesh Router](https://unifi-mesh.ubnt.com/#products). I decided to leave that as a last resort. Chaining together a bunch of WiFi radios together is not the first choice for low latency connections. And while Ubiquiti advertises it as "Gigabit" they get that number by summing the maximum physically possible bandwidth of both 2.4 GHz and 5 GHz radios together. With no one device (at least that I own) would be spanning across both frequency spectrums at the same time and wanting to stay as close to gigabit line speeds as I could it wasn't particularly appealing.
+My first thought was to grab [UniFi's Mesh Router](https://unifi-mesh.ubnt.com/#products). I decided to leave that as a last resort. Chaining together a bunch of WiFi radios together is not the first choice for low latency connections. And while Ubiquiti advertises it as "Gigabit" they get that number by summing the maximum physically possible bandwidth of both 2.4 GHz and 5 GHz radios together. With no one device (at least that I own) would be spanning across both frequency spectrums at the same time and wanting to stay as close to gigabit line speeds as I could adding mesh routers wasn't particularly appealing.
 
 The next attempt was using [powerline adapters](https://www.tp-link.com/us/products/details/cat-5509_TL-PA7010-KIT.html). These take the existing AC power wiring that's already run throughout your house and add a data signal on top. While they worked fine for me if both adapters were on the same power circuit, jumping the signal through the circuitbreaker box dropped the bandwidth significantly. In my case, I was getting 2% of the promised "gigabit" bandwidth and they were actually slower than the wifi issue I was trying to fix.
 
@@ -35,7 +35,7 @@ There's more flags with more options to fiddle with the defaults, but the comman
 
 * A Unifi US-8-60W gigabit switch
 * Two Macs with Thunderbolt gigabit ethernet adapters
-* Cat 5E or Cat 6 cable for all the interconnects
+* Cat 5E or Cat 6 cable for all the interconnects. (Both Cat 5E and Cat6 standards are rated for gigabit ethernet for the short cable runs I'm dealing with)
 
 Here's the raw baseline before doing anything with the MoCA adapters, just simple Cat 5E cables running throught the gigabit switch.
 
@@ -112,7 +112,7 @@ And then minus points that it doesn't work over HTTPS.
 
 And the whois information for the domain doesn't really tie back directly to Motorola, and clicking the 'home' logo for the page takes you to a completely different with a different DNS nameservers, and boy would it be easy to register motorolacable.net and make sweet authentic looking phishing page to host infected firmware updates for these things given that there's no real way to verify that the motorolacable.com site is *actually* run by Motorola.
 
-Regardless, www.motorolacable.com is *probably* the right domain for this, if only because the links in the paper quickstart guide they ship with this device all get redirected back to this domain. Regardless, they have 2 suggestions for increasing the security of your MoCA device.
+Regardless, www.motorolacable.com is *probably* the right domain for this, if only because the links in the paper quickstart guide they ship with this device all get redirected back to this domain. In any case, they have 2 suggestions for increasing the security of your MoCA device.
 
 1. Install a Point-of-Entry (POE) filter on your device where your coax cable first comes into your house.
 2. Set an encryption key on all of your MoCA devices.
@@ -125,7 +125,7 @@ So on the security page, they outline that you need to be running the 1.0.0.8 ve
 
 ![Config page showing the devices running 1.0.0.6](https://blog.benjamin-hering.com/images/moca/mm1000-setup-page.png)
 
-Latest version of firmware is downloadable [http://www.motorolacable.com/support/MM1000/firmware/](http://www.motorolacable.com/support/MM1000/firmware/). Again the site is HTTP only, and there's no checksums to validate, so your options to validate that the firmware is correct is mostly just thinking happy, optimistic thoughts.
+Latest version of firmware is downloadable [http://www.motorolacable.com/support/MM1000/firmware/](http://www.motorolacable.com/support/MM1000/firmware/). Again the site is HTTP only, and there's no checksums to validate, so your options to validate that the firmware is correct and hasn't been tampered in transport is mostly just thinking happy, optimistic thoughts.
 
 To access the admin page for the MoCA adapter, connect your laptop to the ethernet port on it and manually set your IP to something in 192.168.0.0/24 range (Motorola recommends .5) and hit the admin page straight at 192.168.0.2.
 
@@ -210,7 +210,7 @@ Subsequent retests showed the same wide swings of second to second variability (
 
 ##Turning on encryption
 
-If you're on the 1.0.0.8 firmware version, adding ecryption is pretty simple. In fact, the "Security" tab is the new landing page of the admin interface. 
+If you're on the 1.0.0.8 firmware version, adding encryption is pretty simple. In fact, the "Security" tab is the new landing page of the admin interface. 
 
 1. Set encryption to "on" 
 2. Drop in a 12 to 17 character encryption key. **Numbers only!**
@@ -240,7 +240,7 @@ I'd initially thought it would slow down. If these tiny devices are CPU bound I'
 
 Still a wide variance, but all still in the range of previous tests. 
 
-##Is this enryption any good?
+##Is this encryption any good?
 
 It's better than absolutely nothing, but not by a whole lot. Don't bet your life on it. I'm sure that setting the encryption key to be numbers only was a performance tradeoff somewhere in the engineering, but it dramatically lowers the size of the possible character set. An average desktop computer can brute force a 16 number password in about 3 hours. A 17 number password might take around 3 weeks. If your attacker has even minimal experience brute forcing encryption and a tiny bit of patience, it's a matter of **when** not **if** your encryption would be broken. 
 
@@ -418,7 +418,9 @@ I'm guessing those coax screw connections hadn't been touched in years, and tigh
 
 ## Can MoCA handle VLANS?
 
-Yup! All these tests were done on my general purpose VLAN, which is a tagged VLAN in my network.
+Even with all of the craziness of encryption and firmware updates, all MoCA is doing is playing the same role as dumb copper network cable, just with more blinking lights. It's a layer 1 (physical) connection that doesn't know or care about what higher layer protocols you're doing on top of it. 
+
+As long as the equipment you have on either side of your blinking light MoCA cable can handle it, MoCA can handle it. I have a UniFi Access point at the end of mine handling tagged traffic from 3 VLANs. No complaints.
 
 ## To Conclude
 

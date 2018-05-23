@@ -29,9 +29,9 @@ It was the Dell Visor that 'won' me over, and here's why:-
 ### So, am I pleased with the purchase?  
 With over three months of usage, I've certainly had a lot of fun and recommend WMR as an entry into VR; it's a decent stop-gap solution while waiting for the next generation of headsets to come along.
 
-There are some niggles; how minor or major these are perceived to be, will vary between individuals. The inside-out tracking of hand controllers, for example, while generally working well, might momentarily glitch if hands are kept outside of the front cameras' field of view for too long or when batteries are nearly out of charge. Bringing your hands back into view soon sets things right and the severity of tracking loss differed between applications: in some it's hardly ever noticeable, but in others it's a more of a nuisance. 
+There are some niggles; how minor or major these are perceived to be, will vary between individuals. The inside-out tracking of hand controllers, for example, while generally working well, might momentarily glitch if hands are kept outside of the front cameras' field of view for too long or when batteries are nearly out of charge. Bringing your hands back into view soon sets things right and the severity of tracking loss varied between applications: in some it's hardly ever noticeable, but in others it's a more of an issue. 
 
-There's no problem whatsoever with head tracking though and once games are 'optimised' for inside-out tracking in the way many Oculus Rift games are optimised for front-facing scenarios, the experience should be even smoother. The early access Windows 10 preview builds have already improved things.
+There's no problem whatsoever where head tracking is concerned though and once games are 'optimised' for inside-out tracking in the way PSVR games are optimised for front-facing scenarios, the experience should be even smoother. The early access Windows 10 preview builds have already improved things.
 
 Overall: I'm pleased, but curious to see how this technology progresses over the next couple of years!
 

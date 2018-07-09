@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Trying out embedding stuff...
+title: Trying out embedding stuff
 ---
+
+Is this thing on?
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSg-GvFIP4YldQVowZes7uIndxVFZyjoKpX1DFqLDuvjUeE0YWTfrVfSDJM_jB3B-XfGm6Ih7pK8997/embed?start=false&loop=false&delayms=10000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

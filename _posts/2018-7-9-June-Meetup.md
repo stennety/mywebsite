@@ -5,6 +5,6 @@ title: June meetup
 
 On a cold Wednesday in June, Matt shared some MicroPython news and Damien gave a live coding demo on how to wrap a C module so that it can be used from MicroPython. Slides and video below.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSg-GvFIP4YldQVowZes7uIndxVFZyjoKpX1DFqLDuvjUeE0YWTfrVfSDJM_jB3B-XfGm6Ih7pK8997/embed?start=false&loop=false&delayms=10000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSg-GvFIP4YldQVowZes7uIndxVFZyjoKpX1DFqLDuvjUeE0YWTfrVfSDJM_jB3B-XfGm6Ih7pK8997/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tqvn_JFdLDY?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="960" src="https://www.youtube.com/embed/tqvn_JFdLDY?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

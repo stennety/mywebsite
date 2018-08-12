@@ -13,5 +13,4 @@ Just how pedantic designers will need to go with all this is hard to guage, but 
 Without meaning to thrust architectural theory upon VR space design, there are some important elements often absent from end products that really should be given greater credence; I'll discuss some of these below.
 
 ### Walls:
-![‘Wall Cloud’, by Sasaki Architects, Tokyo](https://static.dezeen.com/uploads/2015/04/Wall-Cloud-by-Sasaki-Architecture_dezeen_784_6.jpg)
-
+![Wall Cloud’ by Sasaki Architects](https://static.dezeen.com/uploads/2015/04/Wall-Cloud-by-Sasaki-Architecture_dezeen_784_6.jpg)

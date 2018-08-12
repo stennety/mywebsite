@@ -2,6 +2,7 @@
 layout: post
 title: "Jumping head first into VR, with the Dell Visor!"
 date: 2018-05-01 19:27:00 +0000
+comments: true
 categories: hardware reviews
 ---
 ![Dell Visor image](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6084/6084412_rd.jpg)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Realism in Virtual Environments"
-date: 2018-06-04 11:00:00 +0000
+date: 2018-08-12 11:00:00 +0000
 categories: Culture
 ---
 ![The gothic architectural remix of 'In Death'](https://pbs.twimg.com/media/DadHRYlUMAAd251.jpg)

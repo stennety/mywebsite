@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Believable simulated spaces"
+title: "The problem with walls"
 date: 2018-08-12 11:00:00 +0000
 categories: Culture
 ---

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Architecture + Open Source + VR = Me.
+Architecture + Open Source + VR + Futurist = Me.
 
 ### More Information
 

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Java convention of naming things after islands
 ---
 I'm currently reading [Kotlin in Action](https://www.amazon.com/gp/product/1617293296/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), and stumbled across a passage that I found interesting:
@@ -13,5 +13,3 @@ I hadn't previously been aware of this precedent. I hunted around, and wasn't ab
 - [Komodo](https://www.activestate.com/komodo-ide): An IDE named after the Indonesian island of [Komodo](https://en.wikipedia.org/wiki/Komodo_(island).
 
 I'll add more as I find them, and let me know in the comments if you're aware of any others.
-
-

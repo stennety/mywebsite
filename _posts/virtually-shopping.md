@@ -5,6 +5,15 @@ date: 2018-07-05 11:00:00 +0000
 comments: true
 categories: E-commerce 
 ---
-![Simulated antiques shop](https://www.wallpaperup.com/uploads/wallpapers/2014/08/13/421660/d7a5de450636491819a5f33d17f16287.jpg)
+![19th Century Catalogue](https://i.pinimg.com/originals/4a/1e/7a/4a1e7a9f83be13d470cf8ebf5b854e35.jpg)
 
-Mail order and other forms of remote retail marketing have a long history: some estimates stretch as far back the 15th century Venice, when the first catalogue is said to have been published. 
+Mail order and other forms of remote retail marketing have a long history: some estimates stretch as far back the 15th century Venice, when, what's often considered, the first ever ’catalogue’ is said to have been published by a Aldus Puis Manutius.
+
+Shopping in this remote way, has it really changed all that much over the years: it’s still people essentially staring at images, reading bits of text and then having stuff either collected or delivered. That’s pretty much what the 1.7 billion odd 
+
+
+
+
+
+
+

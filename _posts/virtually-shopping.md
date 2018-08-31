@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The problem with walls"
-date: 2018-07-05 11:00:00 +0000
+date: 2018-09-01 11:00:00 +0000
 comments: true
 categories: E-commerce 
 ---
@@ -9,5 +9,5 @@ categories: E-commerce
 
 Mail order and other forms of remote retail marketing have a long history: some estimates stretch as far back the 15th century Venice, when, what's often considered, the first ever ’catalogue’ is said to have been published by a Aldus Puis Manutius.
 
-Shopping in this remote way, has it really changed all that much over the years: it’s still people essentially staring at images, reading bits of text and then having stuff either collected or delivered. That’s pretty much what the currently estimated 1.7 billion shoppers engage in when they’re buying from the many e-commerce websites out there.
+Shopping in this remote way, has it really changed all that much over the years: it’s still people essentially staring at images, reading bits of text and then having stuff either collected or delivered. That’s pretty much what the currently estimated 1.7 billion consumers engage in when they’re shopping on the many e-commerce websites out there.
 

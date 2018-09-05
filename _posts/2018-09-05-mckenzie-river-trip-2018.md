@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: McKenzie River Trip 2018
 ---
 I spent Labor Day weekend through Wednesday at a cabin on the McKenzie River with my dad. We’d been planning a father-son trip for a few months, and settled on the McKenzie because it was a relatively short drive away from Bend and had a ton of options for hiking and kayaking.

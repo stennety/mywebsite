@@ -12,4 +12,4 @@ Este es un lugar donde podrás encontrar mayor información sobre mi persona.
 
 ### Contáctame
 
-[email@domain.com](mailto:ccarbajal@educagis.com)
+[ccarbajal@educagis.com](mailto:ccarbajal@educagis.com)

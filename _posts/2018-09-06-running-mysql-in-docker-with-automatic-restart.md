@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Running MySQL in Docker with automatic restart
 ---
 It's trivial to do all of the MySQL work you need to do via Docker. Simply run:

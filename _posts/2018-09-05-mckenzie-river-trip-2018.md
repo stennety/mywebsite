@@ -41,6 +41,7 @@ As we pulled up to the dock, we were greeted by a friendly cat. She must live at
 ![]({{site.cdn_path}}/2018/09/05/clearLakeCat.jpg)
 
 ## Tuesday, Day 3
+
 We spent the day at [Clear Lake](https://www.recreation.gov/camping/clear-lake-or/r/campgroundDetails.do?contractCode=NRSO&parkId=71633). In the morning, we hiked the loop. We grabbed lunch at the lodge, and then got our kayaks out on the water again for a few hours. The tourists from Labor Day weekend had mostly departed, so we had the lake largely to ourselves. The water was even clearer than it had been the previous evening and it was cool to see the ancient trees poking up here and there. 
 
 ![]({{site.cdn_path}}/2018/09/05/clearLakeDay.jpg)

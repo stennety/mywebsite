@@ -34,6 +34,8 @@ By the time we finished hiking, Obsidian Grill had power restored and we grabbed
 
 We spent the evening kayaking at Clear Lake. There’s a $5 fee to load your boat from the dock at the lodge, but it’s totally worth it for the convenience. The other dock is steep and difficult to get to, plus this fee allows you parking at the lodge. We got on the lake around 6, so the sun was setting and most of the crowds had left. It was a very peaceful evening, and the lake was placid and mirrorlike. Osprey circled overhead and occasionally swooped down to catch fish.
 
+![]({{site.cdn_path}}/2018/09/05/clearLakeNight.jpg)
+
 Clear Lake has an interesting history. 3,000 years ago, a volcano erupted and the lava petrified a forest. The area then filled with water to form Clear Lake. To this day, ancient trees are visible jutting just beneath the surface.
 
 As we pulled up to the dock, we were greeted by a friendly cat. She must live at the lodge.

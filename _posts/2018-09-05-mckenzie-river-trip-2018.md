@@ -14,7 +14,11 @@ The air was smokey from the [Terwilliger Fire](https://inciweb.nwcg.gov/incident
 
 We grabbed a late lunch at [Obsidian Grill](https://www.tripadvisor.com/Restaurant_Review-g51962-d10480165-Reviews-Obsidian_Grill_and_Courtyard-McKenzie_Bridge_Oregon.html), located about 10 minutes up the road from our place. I’d picked it because Yelpers liked it, and it lived up to its reputation. There were a bunch of menu items available, pre-made sandwiches you could grab to go for a day on the trails, a huge selection of beers and wines, and some great outdoor seating (on days when the air is breathable, that is). They even have live music on Tuesdays and Thursdays, apparently. I ended up sampling several of the items on the menu over the course of our stay, and my favorites were the burrito and the club sandwich.
 
-Around 4, we headed up the road to [Sahalie and Koosah Falls](https://www.fs.usda.gov/recarea/willamette/recarea/?recid=4404). The smoke was clearer there both due to the wind shift and putting more miles between ourselves and the fire. The falls are beautiful. We hiked the 5-mile loop from Sahalie to Koosah, then back up on the other side of the river. It was starting to get dark by the time we got back to the car, so we headed back to the cabin and read for awhile. Always good to be on a trip with someone who reads as much as I do, haha. On this trip, I read a mix of:
+Around 4, we headed up the road to [Sahalie and Koosah Falls](https://www.fs.usda.gov/recarea/willamette/recarea/?recid=4404). The smoke was clearer there both due to the wind shift and putting more miles between ourselves and the fire. The falls are beautiful. We hiked the 5-mile loop from Sahalie to Koosah, then back up on the other side of the river. 
+
+![]({{site.cdn_path}}/2018/09/05/sahalieFalls.jpg)
+
+It was starting to get dark by the time we got back to the car, so we headed back to the cabin and read for awhile. Always good to be on a trip with someone who reads as much as I do, haha. On this trip, I read a mix of:
 
 * [The Checklist Manifesto](https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000/ref=sr_1_1?ie=UTF8&qid=1536191363&sr=8-1&keywords=checklist+manifesto) by Atul Gawande
 * [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Daniel-Kahneman-2011-10-25/dp/B01FIYNOKU/ref=sr_1_5?s=books&ie=UTF8&qid=1536191399&sr=1-5&keywords=thinking+fast+and+slow&dpID=41N2HuG68UL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch) by Daniel Kahneman
@@ -29,6 +33,8 @@ Around 4, we headed up the road to [Sahalie and Koosah Falls](https://www.fs.usd
 Upon waking, we realized that the power was out. We hung out until around 8:30 to see if it would come back so we could make oatmeal, but no such luck. We drove to the Obsidian Grill only to discover that their power was out, too. Someone mentioned that the power was out as far away as Thurston, which was a ways away, near Eugene. It was unclear what caused the outage, but someone else mentioned that it had started around 2 am. I grabbed a breakfast burrito out of the fridge that was still semi-cold, and paid cash for it, silently praying to the food-poisoning gods to spare me on this one. We drove to another store to get bananas for my dad, but alas, they couldn’t sell us bananas because the scale required power. We’d fortunately stocked up on some produce and snacks before the trip, so we made a quick trip back to the cabin before departing for the day’s adventures.
 
 We spent the rest of the morning hiking to the famous Blue Pool. Out and back, the hike is about 6 miles. It’s pretty heavily trafficked with both hikers and mountain bikers, but wide enough that there’s always room to let people pass. The pool is astonishingly blue, and astonishingly cold to those who jump in. I made the jump once, from down below, the previous time I’d been here in 2012. It was like jumping into a bucket of ice. This time, I was content to take pictures.
+
+![]({{site.cdn_path}}/2018/09/05/bluePool.jpg)
 
 By the time we finished hiking, Obsidian Grill had power restored and we grabbed a couple burritos.
 

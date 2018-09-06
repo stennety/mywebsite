@@ -6,6 +6,8 @@ I spent Labor Day weekend through Wednesday at a cabin on the McKenzie River wit
 
 ## Sunday, Day 1
 
+![]({{site.cdn_path}}/2018/09/05/leaving.jpg)
+
 We loaded up the kayaks and left Bend around 11 am, arriving at the cabin just after 12:30 pm. We’d rented an AirBnB owned by [McKenzie River Mountain Resort](http://www.mckenzierivermountainresort.com/), located in the small town of Vida. We were very impressed with the cabin. It was spacious (we could’ve easily fit at least four additional people there comfortably), had a fridge, stove, dishwasher, dishes, laundry machines, garage, fireplace, comfortable couches for reading, and even an outdoor fire pit. The resort itself is a former Forest Service site. 
 
 The air was smokey from the [Terwilliger Fire](https://inciweb.nwcg.gov/incident/6160/) which was burning about 5 miles away on the other side of the ridge. We were told by one of the workers at the resort that it the smoke would likely clear out in the afternoon as the wind made its usual shift east, and this proved correct. 
@@ -36,7 +38,11 @@ Clear Lake has an interesting history. 3,000 years ago, a volcano erupted and th
 
 As we pulled up to the dock, we were greeted by a friendly cat. She must live at the lodge.
 
+![]({{site.cdn_path}}/2018/09/05/clearLakeCat.jpg)
+
 ## Tuesday, Day 3
 We spent the day at [Clear Lake](https://www.recreation.gov/camping/clear-lake-or/r/campgroundDetails.do?contractCode=NRSO&parkId=71633). In the morning, we hiked the loop. We grabbed lunch at the lodge, and then got our kayaks out on the water again for a few hours. The tourists from Labor Day weekend had mostly departed, so we had the lake largely to ourselves. The water was even clearer than it had been the previous evening and it was cool to see the ancient trees poking up here and there. 
+
+![]({{site.cdn_path}}/2018/09/05/clearLakeDay.jpg)
 
 All in all, it was an excellent trip. It was great to spend some quality time with my dad, explore more parts of the McKenzie that I hadn’t previously seen, and to get a lot of good reading done. I hope to be back here again soon.

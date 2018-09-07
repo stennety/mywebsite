@@ -42,15 +42,15 @@ We spent the evening kayaking at Clear Lake. There’s a $5 fee to load your boa
 
 ![]({{site.cdn_path}}/2018/09/05/clearLakeNight.jpg)
 
-Clear Lake has an interesting history. 3,000 years ago, a volcano erupted and the lava petrified a forest. The area then filled with water to form Clear Lake. To this day, ancient trees are visible jutting just beneath the surface.
+Clear Lake has an [interesting history](http://www.oregonwild.org/clear-lake). 3,000 years ago, lava flows from the High Cascades dammed the McKenzie River, and the ensuant flooding formed the lake. This also petrified a number of trees. To this day, ancient trees are visible jutting just beneath the surface.
 
-As we pulled up to the dock, we were greeted by a friendly cat. She must live at the lodge.
+As we pulled up to the dock, we were greeted by a friendly cat, presumably a resident of the lodge. 
 
 ![]({{site.cdn_path}}/2018/09/05/clearLakeCat.jpg)
 
 ## Tuesday, Day 3
 
-We spent the day at [Clear Lake](https://www.recreation.gov/camping/clear-lake-or/r/campgroundDetails.do?contractCode=NRSO&parkId=71633). In the morning, we hiked the loop. We grabbed lunch at the lodge, and then got our kayaks out on the water again for a few hours. The tourists from Labor Day weekend had mostly departed, so we had the lake largely to ourselves. The water was even clearer than it had been the previous evening and it was cool to see the ancient trees poking up here and there. 
+We spent the day at [Clear Lake](https://www.recreation.gov/camping/clear-lake-or/r/campgroundDetails.do?contractCode=NRSO&parkId=71633). In the morning, we hiked the [loop](https://www.alltrails.com/trail/us/oregon/clear-lake-trail--2). We grabbed lunch at the lodge, and then got our kayaks out on the water again for a few hours. The tourists from Labor Day weekend had mostly departed, so we had the lake largely to ourselves. The water was even clearer than it had been the previous evening and it was cool to see the ancient trees poking up here and there. 
 
 ![]({{site.cdn_path}}/2018/09/05/clearLakeDay.jpg)
 

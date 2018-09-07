@@ -30,6 +30,6 @@ In short: what traditional e-commerce does badly is conveying product scale, pro
 
 VR and AR technologies have the potential to ameliorate most of these issues, whilst still maintaining much of the convenience that traditional e-commerce offers. Moreover, reducing uncertainties from the shopping process is a win-win for both consumer and vendor. Having people wandering around bricks and mortar stores is costly for retailers to execute: think of all costs associated with real estate, shop assistants and their managers!
 
-It's little wonder, therfore, that the world's largest retailer. Walmart, has recently filed patents relating to VR shopping.
+It's little wonder, therfore, that the world's largest retailer. Walmart, has recently filed patents that allow for a VR shopping experience.
 
 Watch this space...

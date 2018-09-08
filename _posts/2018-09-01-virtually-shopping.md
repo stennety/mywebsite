@@ -13,18 +13,18 @@ Shopping in this remote manner, hasn't really changed all that much over the yea
 
 ![The online share of retail trade](http://www.retailresearch.org/images/pagepics/onlineretail8.jpg)
 
-Despite the convenience of e-commerce, the vast majority of retail sales happen in traditional bricks and mortar stores. Indeed, even a significant chunk of e-commerce sales still rely on physical stores, to great extent:-
+Despite the convenience of e-commerce, the vast majority of retail sales happen in traditional bricks and mortar stores. Indeed, even a significant chunk of e-commerce sales still rely, to a great extent, on physical stores:-
 - For initial reconnaissance activities: product research, getting a feel for the range available and comparing goods side-by-side.
-- Returning stuff purchased online that didn't meet the buyer’s expectations (i.e. too big, small, wrong colour etc).
-- Shopping as an entertaining, social activity: meeting family or friends, mooching around for curiosities and bargains, soliciting opinions and general chit-chat.
+- For returning stuff purchased online that didn't meet the buyer’s expectations (i.e. too big, small, wrong colour etc).
+- When shopping as an entertaining, social activity: meeting family or friends, mooching around for curiosities and bargains, soliciting opinions and general chit-chat.
 
 ![Choosing products](https://ecommerceguider.com/wp-content/uploads/2017/10/Product-demand.png)
 
 There are numerous reasons why e-commerce has generally failed to unseat these traditional retail activities, but amongst the reasons include:-
 - The fact that human beings are 'spatial' creatures and much prefer ‘comparing’ by actually grabbing hold of goods and having them within close vicinity. This allows their scale, in relation to each other and our own bodies, to be easily ascertained.
 - We like seeing things displayed in context; this is the reason why furniture showrooms usually display their goods in, what are essentially, 'stagesets' with accessories, furnishings, appropriate lighting, fake props etc.
-- We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods because we happened to get the sizing wrong! 
-- We're often impulsive and don't always plan what we want to buy.
+- We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods just because we happened to get the sizing wrong!
+- We're often impulsive and don't always plan what we want to purchase. In fact impulse buys are a major component of successful retail strategy.
 - Face to face interaction is always going to be more exciting than bland and dumb screen interactions. People don't call their mates over so that they can all shop together on Amazon!
 
 In short: what traditional e-commerce does badly is conveying product scale, proportion and putting stuff in physical context. And what it also lacks is a real-time social component.

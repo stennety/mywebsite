@@ -20,9 +20,9 @@ Despite the convenience of e-commerce, the vast majority of retail sales happen 
 
 ![Choosing products](https://ecommerceguider.com/wp-content/uploads/2017/10/Product-demand.png)
 
-There are numerous reasons why e-commerce has generally failed to unseat these traditional retail activities, but amongst the reasons include:-
-- The fact that human beings are 'spatial' creatures and much prefer ‘comparing’ by actually grabbing hold of goods and having them within close vicinity. This allows their scale, in relation to each other and our own bodies, to be easily ascertained.
-- We like seeing things displayed in context; this is the reason why furniture showrooms usually display their goods in, what are essentially, 'stagesets' with accessories, furnishings, appropriate lighting, fake props etc.
+There are numerous reasons why e-commerce has generally failed to unsurp these traditional retail activities, but amongst which include:-
+- That human beings are 'spatial' creatures and much prefer ‘comparing’ by actually grabbing hold of goods and having them within close vicinity. This allows their scale, in relation to each other and our own bodies, to be easily ascertained.
+- We like seeing things displayed in context; this is the reason why furniture showrooms usually display goods in, what are essentially, 'stagesets' made up with accessories, furnishings, appropriate lighting, fake props etc.
 - We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods just because we happened to get the sizing wrong!
 - We're often impulsive and don't always plan what we want to purchase. In fact impulse buys are a major component of successful retail strategy.
 - Face to face interaction is always going to be more exciting than bland and dumb screen interactions. People don't call their mates over so that they can all shop together on Amazon!

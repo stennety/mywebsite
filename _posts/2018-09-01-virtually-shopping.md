@@ -17,7 +17,7 @@ Despite the convenience of e-commerce, the vast majority of retail sales happen 
 - For initial reconnaissance activities: product research, getting a feel for the range available and comparing goods side-by-side.
 - For returning stuff purchased online that didn't meet the buyer’s expectations (i.e. too big, small, wrong colour etc).
 - For collecting goods from a local store, after having placed an online 'reservation.'
-- When shopping as a social, entertainment activity: meeting family or friends, mooching around for curiosities and bargains, soliciting opinions and general chit-chat.
+- When shopping as a social, entertainment activity: meeting family or friends, looking around for curiosities and bargains, soliciting opinions and general chit-chat.
 
 ![Choosing products](https://ecommerceguider.com/wp-content/uploads/2017/10/Product-demand.png)
 
@@ -25,7 +25,7 @@ There are numerous reasons why e-commerce hasn't managed to grab a much larger c
 - That human beings are 'spatial' creatures and much prefer ‘comparing’ by actually grabbing hold of goods and having them within close vicinity. This allows their scale, in relation to each other and our own bodies, to be easily ascertained and also enables viewer to observe greater detail.
 - We like seeing things displayed in context; this is the reason why furniture showrooms usually display goods in, what are essentially, 'stagesets' made up with accessories, furnishings, appropriate lighting, fake props etc.
 - We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods just because we happened to get the sizing wrong!
-- We're often impulsive, don't always plan what we want to purchase. In fact encouraging impulse buys can be a major component of a successful retail strategy.
+- We're often impulsive, don't always plan what we want to purchase: we like to have a good 'mooch.' In fact encouraging impulse buys can be a major component of a successful retail strategy.
 - Face to face interaction is always going to be more exciting than bland, 'dumb screen' interactions. People don't call their mates over so that they can all shop together on Amazon!
 
 In short: what traditional e-commerce does badly is conveying product scale, proportion and putting stuff in physical context. What it also lacks is a real-time social component and ways to satiate our need for instant gratification.
@@ -34,7 +34,7 @@ In short: what traditional e-commerce does badly is conveying product scale, pro
 
 VR and AR technologies have the potential to ameliorate a lot of these issues, whilst still maintaining much of the convenience that traditional e-commerce offers. 
 
-Regardless of how detailed the product description might be, on a typical retail website, it's no match for having the products displayed in full glorious 3D and being able to interact with them. Getting a better handle on product sizing in relation to our bodies and the environment should also help better meet customer expectations, thus reducing the returns ratio.
+Regardless of how detailed the product description might be, on a typical retail website, it's no match for having the products displayed in full glorious 3D and being able to interact with them. Getting a better handle on product sizing should also help better meet customer expectations, thus improving the returns ratio.
 
 Decreasing uncertainties from the shopping process is a win-win for both consumer and vendor. Having people wandering around bricks and mortar stores is costly for retailers to execute: think of all costs associated with real estate, shop assistants and their managers!
 

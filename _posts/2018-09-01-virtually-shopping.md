@@ -37,7 +37,7 @@ Regardless of how detailed the product description might be, on a typical retail
 
 Decreasing uncertainties from the shopping process is a win-win for both consumer and vendor. Having people wandering around bricks and mortar stores is costly for retailers to execute: think of all costs associated with real estate, shop assistants and their managers!
 
-So, given the upsides, I imagine that it will be in the best interests of product manufacturers to engage in this early by providing detailed and optimised 3D models of their products, complete with interactions, audio and haptic feedback. However, before any of this happens, 'V-Commerce' platforms need to be created and industry standards conceived.
+So, given the upsides, it will be in the best interests of product manufacturers to engage in this early by providing detailed and optimised 3D models of their products, complete with interactions, audio and haptic feedback. Before any of this happens, howeve, 'V-Commerce' platforms need to be created and industry standards developed.
 
 ![Walmart employees getting an introduction to VR](https://cdn.corporate.walmart.com/dims4/WMT/4cb00e6/2147483647/crop/2400x1041%2B0%2B168/resize/1300x564%3E/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fc9%2Ff6%2F33450e144329b0127c08dafdbe89%2Fimg-9558.jpg)
 

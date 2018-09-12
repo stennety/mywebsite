@@ -25,7 +25,7 @@ There are numerous reasons why e-commerce has basically failed to grab a larger 
 - We like seeing things displayed in context; this is the reason why furniture showrooms usually display goods in, what are essentially, 'stagesets' made up with accessories, furnishings, appropriate lighting, fake props etc.
 - We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods just because we happened to get the sizing wrong!
 - We're often impulsive and don't always plan what we want to purchase. In fact encouraging impulse buys can be a major component of a successful retail strategy.
-- Face to face interaction is always going to be more exciting than bland and dumb screen interactions. People don't call their mates over so that they can all shop together on Amazon!
+- Face to face interaction is always going to be more exciting than bland, 'dumb screen' interactions. People don't call their mates over so that they can all shop together on Amazon!
 
 In short: what traditional e-commerce does badly is conveying product scale, proportion and putting stuff in physical context. And what it also lacks is a real-time social component.
 

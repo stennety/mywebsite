@@ -20,7 +20,7 @@ Despite the convenience of e-commerce, the vast majority of retail sales happen 
 
 ![Choosing products](https://ecommerceguider.com/wp-content/uploads/2017/10/Product-demand.png)
 
-There are numerous reasons why e-commerce has somewhat failed to grab a larger chunk of traditional retail sales, amongst which include:-
+There are numerous reasons why e-commerce has basically failed to grab a larger chunk of traditional retail sales, amongst which include:-
 - That human beings are 'spatial' creatures and much prefer ‘comparing’ by actually grabbing hold of goods and having them within close vicinity. This allows their scale, in relation to each other and our own bodies, to be easily ascertained.
 - We like seeing things displayed in context; this is the reason why furniture showrooms usually display goods in, what are essentially, 'stagesets' made up with accessories, furnishings, appropriate lighting, fake props etc.
 - We hate waiting around for too long: in a world of instant coffee and on demand television, we don't want to waste time returning or exchanging goods just because we happened to get the sizing wrong!

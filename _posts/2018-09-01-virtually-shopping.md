@@ -31,7 +31,7 @@ In short: what traditional e-commerce does badly is conveying product scale, pro
 
 ![Virtual shopping](http://www.goblenstudio.com/wp-content/uploads/2014/10/Comercial_retail_interior_design_11.jpg)
 
-VR and AR technologies have the potential to ameliorate a lot these issues, whilst still maintaining much of the convenience that traditional e-commerce offers. 
+VR and AR technologies have the potential to ameliorate a lot of these issues, whilst still maintaining much of the convenience that traditional e-commerce offers. 
 
 Regardless of how detailed the product description might be on a typical retail website, it's no match for having the products displayed full glorious 3D and being able to interact with them. Being able to get a better handle of product sizing in relation to our bodies and the environment should also help better meet customer expectations and thus reduce the returns ratio.
 

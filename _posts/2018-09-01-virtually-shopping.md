@@ -33,9 +33,9 @@ In short: what traditional e-commerce does badly is conveying product scale, pro
 
 VR and AR technologies have the potential to ameliorate a lot of these issues, whilst still maintaining much of the convenience that traditional e-commerce offers. 
 
-Regardless of how detailed the product description might be, on a typical retail website, it's no match for having the products displayed in full glorious 3D and being able to interact with them. Getting a better handle on product sizing should also help better meet customer expectations, thus improving the returns ratio.
+On a typical retail website, regardless of how detailed the product description might be, it's no match for having goods displayed in full glorious 3D and being able to interact with objects. Getting a better handle on product sizing should also help meet customer expectations, thus improving the returns ratio.
 
-Decreasing uncertainties from the shopping process is a win-win for both consumer and vendor. Having people wandering around bricks and mortar stores is costly for retailers to execute: think of all costs associated with real estate, shop assistants and their managers!
+Decreasing any uncertainties from the shopping process is a win-win for both consumer and vendor. Having people wandering around bricks and mortar stores is costly for retailers to execute: think of all costs associated with real estate, shop assistants and their managers!
 
 So, given the upsides, it will be in the best interests of product manufacturers to engage in this early by providing detailed and optimised 3D models of their products, complete with interactions, audio and haptic feedback. Before any of this happens, howeve, 'V-Commerce' platforms need to be created and industry standards developed.
 

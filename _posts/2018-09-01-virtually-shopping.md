@@ -9,7 +9,7 @@ categories: e-commerce
 
 Mail order and other forms of remote retail marketing have a long history: some estimates stretch it as far back as 15th century Venice, when, what's considered, the first ever ’catalogue’ is said to have been published by a certain Aldus Puis Manutius.
 
-Shopping in this remote manner, hasn't really changed all that much over the years; it’s still essentially about people staring at images of products, reading bits of text and then having stuff either collected or delivered. Indeed, that’s pretty much what the currently estimated 1.7 billion people engage in when they’re shopping on the many e-commerce websites out there.
+Shopping, in this remote manner, hasn't really changed all that much over the years; it’s still essentially about people staring at images of products, reading bits of text and then having stuff either collected or delivered. Indeed, that’s pretty much what the currently estimated 1.7 billion people engage in when they’re shopping on the many e-commerce websites out there.
 
 ![The online share of retail trade](http://www.retailresearch.org/images/pagepics/onlineretail8.jpg)
 

@@ -39,7 +39,7 @@ Moreover, decreasing any uncertainties from the shopping process is a win-win fo
 
 So, given the upsides, it will be in the best interests of product manufacturers to engage in this early by providing detailed and optimised 3D models of their products, complete with interactions, audio and haptic feedback guidance. 
 
-Before any of this happens, though, 'V-Commerce' friendly platforms need to be created and industry standards developed. There are signs that this is already happening. Shopify this year announced 3D model storage on its platform as a first step towards a broader VR/AR strategy:- [Introducing New Ways to Work with AR/VR](https://www.shopify.co.uk/partners/blog/ar-vr)
+But, before any of this happens,'V-Commerce' friendly platforms need to be created and industry standards developed. There are signs that this is already happening. Shopify this year announced 3D model storage on its platform as a first step towards a broader VR/AR strategy:- [Introducing New Ways to Work with AR/VR](https://www.shopify.co.uk/partners/blog/ar-vr)
 
 ![Walmart employees getting an introduction to VR](https://cdn.corporate.walmart.com/dims4/WMT/4cb00e6/2147483647/crop/2400x1041%2B0%2B168/resize/1300x564%3E/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fc9%2Ff6%2F33450e144329b0127c08dafdbe89%2Fimg-9558.jpg)
 

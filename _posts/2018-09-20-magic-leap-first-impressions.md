@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Magic Leap: A giant leap in comfort, a small step in visual quality"
+title: "A giant leap in comfort, a small step in visual quality"
 date: 2018-09-20 18:00:00 +0000
 comments: true
 categories: Mixed Reality

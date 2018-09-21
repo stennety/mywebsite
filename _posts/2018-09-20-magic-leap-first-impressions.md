@@ -7,7 +7,7 @@ categories: Mixed Reality
 ---
 ![Magic Leap](https://www.magicleap.com/_next/images/6bb6a7f36d800beb41f6fd7edea6e21f.jpg)
 
-I got a chance to play around with a Magic Leap Mixed Reality device today. So, here are my quick first impressions.
+I got a chance to play around with a Magic Leap device today. So, here are my quick first impressions.
 
 ### Pros: 
 - Really light weight and comfortable to wear: game changingly so! The fact is that when I'm in the Hololens, I can't wait to get out and even after 5-10 mins, I've had enough. Not so with the Magic Leap (ML), which just feels so right. 

@@ -11,9 +11,9 @@ I got a chance to play around with a Magic Leap device today. So, here are my qu
 
 ### Pros: 
 - Really light weight and comfortable to wear: game changingly so! The fact is that when I'm in the Hololens, I can't wait to get out and even after 5-10 mins, I've had enough. Not so with the Magic Leap (ML), which just feels so right. 
-- The potential for cooler, more exciting apps: whenever I see the Unreal Engine logo appear on a splash screen, I know that I'm in for something punchy; in fact, the hairs on the back of my neck will prick up! And the fact that there is UE4 support for ML is  another game-changing development .
-- The operating system is Linux based and the world's most efficient devices generally tend to run on some or the other variant Linux.
-- Wearing a ML device makes you look cool, while the Hololens 'helmet' makes anyone wearing it look a bit 'sad.'
+- The potential for cooler, more exciting apps: whenever I see the Unreal Engine logo appear on a splash screen, I know that I'm in for something punchy; in fact, the hairs on the back of my neck will prick up! And the fact that there is UE4 support for ML is  another game-changing development.
+- The operating system is Linux based and the world's most efficient devices tend to run on Linux or some similar Unix variant.
+- Donning a ML device makes you look cool, while the Hololens 'helmet' will make anyone wearing it look a bit 'sad.'
 
 ### Cons:
 - The visual quality doesn't feel ground breaking; the experience is very Hololens-esque, with a restrictive field of view and weak ghosty visuals. It's still a strong step forwards, but not a huge one.

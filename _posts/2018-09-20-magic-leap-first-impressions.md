@@ -16,7 +16,7 @@ I got a chance to play around with a Magic Leap device today. So, here are my qu
 - Donning a ML device makes you look cool, while the Hololens 'helmet' will make anyone wearing it look a bit 'sad.'
 
 ### Cons:
-- The visual quality doesn't feel ground breaking; the experience is very Hololens-esque, with a restrictive field of view and weak ghosty visuals. It's still a strong step forwards, but not a huge one.
+- The visual quality doesn't feel ground breaking; the experience is very Hololens-esque, with a restrictive field of view and weak ghosty visuals. It's still a step forwards, but not a huge one.
 - I didn't find the hand controller intuitive and they seemed buggy, but this will likely be cleared with future updates.
 
 These are only my initial impressions. I'll reserve full judgement until a more comprehensive trial.

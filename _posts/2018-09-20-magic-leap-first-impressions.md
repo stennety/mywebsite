@@ -15,7 +15,7 @@ I finally got a chance to play around with a Magic Leap 'mixed reality' device r
 - The operating system is Linux based and the world's most efficient devices tend to run on Linux or some similar Unix variant.
 - Donning a ML device makes you look cool, while the Hololens will make anyone wearing it look a bit 'sad.'
 
-![Field of View Comparison](/images/fov-diagram2.png)
+![Field of View Comparison](/images/fov-diagram3.png)
 
 ### Cons:
 - The visual quality doesn't feel ground breaking; although more fluid, the experience is still somewhat Hololens-esque, with a restrictive field of view and ghosty visuals. It's still a step forwards, but not a huge one.

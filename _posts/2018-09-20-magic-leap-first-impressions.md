@@ -20,7 +20,7 @@ I finally got a chance to play around with a Magic Leap 'mixed reality' device r
 - I didn't find the hand controller intuitive and it seemed rather buggy, but this will likely be sorted with future updates.
 - I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than industrial or otherwise corporate, usage.
 
-These are only my initial impressions. I'll reserve full judgement until a more comprehensive trial.
+These are only my initial impressions after a very brief introduction to this device. I'll reserve full judgement until a more comprehensive trial.
 
 ![Sony's original walkman headphones](https://d3ecqbn6etsqar.cloudfront.net/YJkSqQ7k7h_OsOjQfGEZ34Pxo98=/1440x720/smart/487683.jpg)
 Ultimately, in their focus towards style and comfort, I believe that Magic Leap are probably on to something. The first step towards engaging users is to ensure that they'll actually want to wear the damn things.  Sony's first Walkman, for example, was lightweight and the headphones sat comfortably on the head: it wasn't an audiophile's dream, but it was convenient and usable; sound quality came later.

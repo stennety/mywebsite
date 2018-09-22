@@ -22,10 +22,10 @@ I finally got a chance to play around with a Magic Leap 'mixed reality' device r
 
 These are only my initial impressions, after a very brief introduction. I'll reserve full judgement until a more comprehensive trial.
 
-![Sony's original walkman headphones](https://d3ecqbn6etsqar.cloudfront.net/YJkSqQ7k7h_OsOjQfGEZ34Pxo98=/1440x720/smart/487683.jpg)
+![Sony Walkman](https://cdn.vox-cdn.com/thumbor/lE1uEtleItdBXlgS8OU9ulMEC68=/0x0:1600x1255/1200x675/filters:focal(672x499:928x755)/cdn.vox-cdn.com/uploads/chorus_image/image/61437017/sony-original-walkman-tps-l2.0.1406747932.0.jpg)
 Ultimately, in their focus towards style and comfort, I believe that Magic Leap are probably on to something. The first step towards engaging users is to ensure that they'll actually want to wear the damn things.  Sony's first Walkman, for example, was lightweight and the headphones sat comfortably on the head: it wasn't an audiophile's dream, but it was convenient and usable; sound quality came later.
 
 Now, to compare the Magic Leap with Sony's Walkman would be too much of an endorsement for a product that has no well established use case or clarity of purpose. Listening to music, on the other hand, is a simple pleasure that was enjoyed long before the invention of the Walkman! There is, however, something to be said for usability and comfort.
 
-![Michael Jackson in the Thriller video](https://cdn4.i-scmp.com/sites/default/files/styles/landscape/public/images/methode/2017/09/05/24411e2a-91eb-11e7-b116-f4507ff9df92_1280x720_120643.jpg?itok=n_iA4vM9)
+![Magic Leap 'Belt-Pack'](https://cdn.vox-cdn.com/thumbor/rVXz1wHkuFEUcC7hMIzECMwUD9Q=/0x0:2040x1360/1200x0/filters:focal(0x0:2040x1360):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/11939705/jbareham_180717_2744_0493.jpg)
 I'm starting to believe that a couple of further iterations and we could, in the Magic Leap, have something that's market ready: even the seperation between HMD and belt-pack appears inspired by Sony's product! It just needs a major bump in visual quality and the app equivelent of Michael Jackson's Thriller, to truely set the wheels in motion.

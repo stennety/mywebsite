@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A small step in visual quality, but a giant leap in comfort and design"
+title: "Only a small step in visual quality, but a giant leap in comfort and design"
 date: 2018-09-21 18:00:00 +0000
 comments: true
 categories: Mixed Reality

@@ -19,7 +19,9 @@ I got a chance to play around with a Magic Leap device today. So, here are my qu
 - The visual quality doesn't feel ground breaking; the experience is very Hololens-esque, with a restrictive field of view and weak ghosty visuals. It's still a strong step forwards, but not a huge one.
 - I didn't find the hand controller intuitive and they seemed buggy, but this will likely be cleared with future updates.
 
-Well, these really are my initial impressions. I'll reserve full judgement until a more comprehensive trial.
+These are only my initial impressions. I'll reserve full judgement until a more comprehensive trial.
 
 ![Sony's original walkman headphones](https://d3ecqbn6etsqar.cloudfront.net/YJkSqQ7k7h_OsOjQfGEZ34Pxo98=/1440x720/smart/487683.jpg)
-Ultimately, I believe that Magic Leap were correct to focus on comfort and style over much improved visual quality. The first step to engaging with users is to ensure that they'll actually want to wear the damn things.  Sony's first Walkman, for example, was lightweight and the headphones sat pretty comfortably on the head: it wasn't an audiophile's dream, but it was convenient and usable; sound quality came later.
+Ultimately, I believe that Magic Leap were probably correct to focus on comfort and style over much improved visual quality. The first step towards engaging users is to ensure that they'll actually want to wear the damn things.  Sony's first Walkman, for example, was lightweight and the headphones sat comfortably on the head: it wasn't an audiophile's dream, but it was convenient and usable; sound quality came later.
+
+Now, to compare the Magic Leap with Sony's Walkman would be too much of an endorsement of a product that has no well established use case; listening to music, on the other hand, is a simple pleasure that was enjoyed long before the invention of the Walkman! There is, however, something to be said for convenience and comfort.

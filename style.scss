@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.4; margin: 1em 0;
   }
 }
 
@@ -48,6 +48,9 @@ h1 {
   font-size: 50px;
   a {
     color: inherit;
+  }
+	@include mobile {
+    font-size: 30px;
   }
 }
 
@@ -80,6 +83,9 @@ a {
 ul, ol {
   margin: 15px 45px;
   padding-left: 30px;
+	@include mobile {
+    margin: 15px 0;
+  }
 }
 
 ul {

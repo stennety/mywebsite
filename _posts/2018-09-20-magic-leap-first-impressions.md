@@ -5,7 +5,7 @@ date: 2018-09-21 18:00:00 +0000
 comments: true
 categories: Mixed Reality
 ---
-![Magic Leap](https://www.magicleap.com/_next/images/6bb6a7f36d800beb41f6fd7edea6e21f.jpg)
+![Magic Leap One](https://static.cwi.it/wp-content/uploads/2017/12/mll1-f242e63c-4f8f-4d54-aa32-90cd8105437a.jpg)
 
 I finally got a chance to play around with a Magic Leap 'mixed reality' device recently. Here are my quick first impressions.
 

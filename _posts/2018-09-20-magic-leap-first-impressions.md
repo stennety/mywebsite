@@ -26,4 +26,4 @@ Ultimately, I believe that Magic Leap were probably correct to focus on comfort 
 
 Now, to compare the Magic Leap with Sony's Walkman would be too much of an endorsement of a product that has no well established use case; listening to music, on the other hand, is a simple pleasure that was enjoyed long before the invention of the Walkman! There is, however, something to be said for convenience and comfort. 
 
-I'm starting to believe: even the seperation between HMD and belt-pack appears inspired by Sony's product. It just needs the app equivelent of MJ's Thriller, to truely set the wheels in motion.
+I'm starting to believe that a couple of further iterations and we could, in Magic Leap, have something that's market ready: even the seperation between HMD and belt-pack appears inspired by Sony's product! It just needs the app equivelent of MJ's Thriller, to truely set the wheels in motion.

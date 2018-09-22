@@ -7,7 +7,9 @@ categories: Mixed Reality
 ---
 ![Magic Leap One](https://static.cwi.it/wp-content/uploads/2017/12/mll1-f242e63c-4f8f-4d54-aa32-90cd8105437a.jpg)
 
-I finally got a chance to play around with a Magic Leap one 'mixed reality' device recently. Here are my quick first impressions.
+I finally got a chance to play around with the much anticipated Magic Leap one 'Mixed Reality' device recently. 
+
+Here are my quick first impressions:-
 
 ### Pros: 
 - Really light weight and comfortable to wear: game changingly so! The fact is that when I'm in the Hololens, I can't wait to get out and even after 5-10 mins, I've had enough. Not so with the Magic Leap (ML), which just feels so right. 

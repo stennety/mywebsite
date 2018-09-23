@@ -7,7 +7,7 @@ categories: Mixed Reality
 ---
 ![Magic Leap One](https://static.cwi.it/wp-content/uploads/2017/12/mll1-f242e63c-4f8f-4d54-aa32-90cd8105437a.jpg)
 
-I finally got a chance to play around with the much anticipated Magic Leap One 'Mixed Reality' device recently. 
+I finally got a chance to play around with the much anticipated Magic Leap One 'Mixed Reality' device. 
 
 Here are my quick first impressions:-
 
@@ -22,9 +22,9 @@ Here are my quick first impressions:-
 ### Cons:
 - The visual quality doesn't feel ground breaking; although more fluid, the experience is still somewhat Hololens-esque, with a restrictive field of view and ghosty visuals. It's still a step forwards, but not a huge one.
 - I didn't find the hand controller intuitive and it seemed rather buggy, but this will likely be sorted with future updates.
-- I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than industry  usage.
+- I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than business usage and even then at over $2000 that's a substantial investment.
 
-These are only my initial impressions, after a very brief introduction. I'll reserve full judgement until a more comprehensive trial.
+These are only my initial impressions, after a very brief introduction. It's possible that there are other hidden benefits or flaws that I hadn't come across in the short time I spent with the device.
 
 ![Sony Walkman](https://cdn.vox-cdn.com/thumbor/lE1uEtleItdBXlgS8OU9ulMEC68=/0x0:1600x1255/1200x675/filters:focal(672x499:928x755)/cdn.vox-cdn.com/uploads/chorus_image/image/61437017/sony-original-walkman-tps-l2.0.1406747932.0.jpg)
 Ultimately, in their focus towards style and comfort, I believe that Magic Leap are on to something. The first step towards engaging users is to ensure that they'll actually want to wear the damn things.  Sony's first Walkman, for example, was lightweight and the headphones sat comfortably on the head: it wasn't an audiophile's dream, but it was convenient and usable; sound quality came later.

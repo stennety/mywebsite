@@ -10,7 +10,7 @@ Art + Architecture + Open Source + VR + Economics + Futurism = Me.
 
 Originally trained in the field of Architecture, I've dabbled in e-commerce and now VR.
 
-Currently working as a QA Tester at a leading VR/AR training solution provider.
+Currently working as a QA Tester at a leading VR/AR solutions provider.
 
 ### Contact me
 If you'd like to contact me: <script type="text/javascript">

@@ -22,7 +22,7 @@ Here are my quick first impressions:-
 ### Cons:
 - The visual quality doesn't feel ground breaking; although more fluid, the experience is still somewhat Hololens-esque, with a restrictive field of view and ghosty visuals. It's still a step forwards, but not a huge one.
 - I didn't find the hand controller intuitive and it seemed rather buggy, but this will likely be sorted with future updates.
-- I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than business usage and even then at over $2000 that's a substantial outlay.
+- I'm more impressed by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than business usage and even then at over $2000 that's a substantial outlay.
 
 These are only my initial impressions, after a very brief introduction. It's possible that there are other hidden benefits or flaws that I hadn't come across in the short time I spent with the device.
 

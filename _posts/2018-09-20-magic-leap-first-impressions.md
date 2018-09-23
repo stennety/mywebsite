@@ -22,7 +22,7 @@ Here are my quick first impressions:-
 ### Cons:
 - The visual quality doesn't feel ground breaking; although more fluid, the experience is still somewhat Hololens-esque, with a restrictive field of view and ghosty visuals. It's still a step forwards, but not a huge one.
 - I didn't find the hand controller intuitive and it seemed rather buggy, but this will likely be sorted with future updates.
-- I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than business usage and even then at over $2000 that's a substantial investment.
+- I'm much more blown away by the capabilities of my £250 Windows VR headset than this Magic Leap, which costs 10 times more. This may not seem a fair judgement, but if users aren't blown away by the experience then they're not going to open their wallets: it's too expensive for anything other than business usage and even then at over $2000 that's a substantial outlay.
 
 These are only my initial impressions, after a very brief introduction. It's possible that there are other hidden benefits or flaws that I hadn't come across in the short time I spent with the device.
 
@@ -34,4 +34,4 @@ Now, to compare the Magic Leap with Sony's Walkman would be too much of an endor
 ![Magic Leap 'Belt-Pack'](https://cdn.vox-cdn.com/thumbor/rVXz1wHkuFEUcC7hMIzECMwUD9Q=/0x0:2040x1360/1200x0/filters:focal(0x0:2040x1360):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/11939705/jbareham_180717_2744_0493.jpg)
 So, while I'm not overly sold on this product, I am starting to believe that it may have a chance, eventually: a couple of further iterations down the line, we could, in the Magic Leap, have something that's ready for consumers. It will need a significant bump in visual quality, a more expansive field of view, a much lower cost and killer apps that will do for ML what Michael Jackson's Thriller and pop music in general, did for Sony's Walkman.
 
-With the brief introduction I've had, I'd say that Magic Leap One, by virtue of its well balanced design and comfort is likely the best Mixed Reality device available right now and unless Microsoft drastically resigns Hololens II, it'll remain that way for a while.
+With the brief introduction I've had, I'd say that Magic Leap One, by virtue of its well balanced design and comfort is likely the best Mixed Reality device available right now and unless Microsoft drastically redesigns the Hololens, it'll remain that way for a while.

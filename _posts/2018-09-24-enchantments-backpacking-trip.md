@@ -16,6 +16,10 @@ The next morning, after fueling up on continental breakfast, we hit the road. We
 
 We arrived at the Colchuck Lake trailhead at around 10 am. The first part of the hike was fairly forested, with some occasional views. The elevation was a struggle. It definitely seemed longer than 4.6 miles. As usual, hiking with these guys, we naturally segregated into fast and slow groups. Perhaps more accurately: groups of less and more enthusiastic photographers, respectively.
 
+![]({{site.cdn_path}}/2018/09/24/chipmunk.jpg)
+
+The slow group may or may not have spent about 20 minutes seeing how close we could get to this extremely tame chipmunk to take photos.
+
 When we got to Colchuck Lake, we weren’t sure where the fast group was, so we started traversing the lake counterclockwise. We figured they would’ve likely camped as close to Aasgard Pass as possible to minimize our hiking distance the next day. We soon ran into them setting up camp at a spot on the edge of the lake just across from the pass. The spot was relatively small for setting up the 5 tents we needed, so Dugan, Matt, George, and I found a beach nearby and set up camp there.
 
 ![]({{site.cdn_path}}/2018/09/24/colchuck.jpg)
@@ -41,6 +45,8 @@ As we started the climb, the wind and rain picked up again. It was a cold, slow 
 Just pass the middle section, we heard several people yell, “rock!” We looked up to see a boulder bigger than a beach ball tumbling swiftly down the avalanche chute. We yelled out to warn the hikers below us. There was a couple directly in the path of the boulder. The woman scrambled to get out of its way, but she tripped. The boulder bounced...and flew just over her head. Extremely close call. We stood by for a few minutes to see if they needed assistance, but they were fine, just very shaken.
 
 The rest of the climb was full of false summits. It was like an Apple product announcement of a climb; just when you think it’s over, there’s “one more thing.” It was a relief being at the top. We broke out the Sour Patch Kids (rock solid from the cold) as our reward. 
+
+![]({{site.cdn_path}}/2018/09/24/aasgard_climb.jpg)
 
 Judging the inclement weather, we came to a group consensus that we should position ourselves to be able to hike out on day 3 if necessary. We decided to hike about 5 more miles to Lake Viviane and camp there, which would leave us a 9 or 10 mile hike out on Sunday, or a couple of short days if the weather improved.
 

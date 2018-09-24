@@ -52,9 +52,13 @@ We were pretty beat as we approached Lake Viviane, and decided to just set up ca
 
 It was a cold night, probably in the mid-teens. I found myself shivering at several points even in a 20-degree mummy bag in full layers on top of my R-value 5 sleeping pad. I emerged from my tent to find it covered in ice. Michael’s jacket was literally frozen solid. 
 
+{% youtube SRqUsb6TL4k %}
+
+But alas, there was sun, glorious sun! We hung out at camp until around 10 am to dry some of our wet gear off. 
+
 ![]({{site.cdn_path}}/2018/09/24/leprechaun_camp.jpg)
 
-But alas, there was sun, glorious sun! We hung out at camp until around 10 am to dry some of our wet gear off. After one night of heavy wind, and another of freezing temperatures, we were all a little burned out and decided to cut the trip to three days instead of the four we’d originally planned. We formed into two groups, a fast group with car keys who would retrieve the vehicles at the Colchuck Lake Trailhead, and the usual slow photographer group, and hit the trails.
+After one night of heavy wind, and another of freezing temperatures, we were all a little burned out and decided to cut the trip to three days instead of the four we’d originally planned. We formed into two groups, a fast group with car keys who would retrieve the vehicles at the Colchuck Lake Trailhead, and the usual slow photographer group, and hit the trails.
 
 ![]({{site.cdn_path}}/2018/09/24/snow_lakes_overlook.jpg)
 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: August 2018 meetup
+title: A Taste of MicroPython
 ---
 
 == A Taste of MicroPython
-Presented by Damien George, Matt Trentini and Nick Moore at MPUG 6 August 2018
+Damien George, Matt Trentini and Nick Moore presented _A Taste of MicroPython_ at [MPUG](https://wiki.python.org/moin/MelbournePUG) on the 6 August 2018. 
+
+Seemed to be well received by the Melbourne Pythonistas! Plenty of interest and questions as well as much poking and prodding of hardware after the talk. 
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/eIo5OLSGESo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

@@ -6,6 +6,8 @@ title: Enchantments Backpacking Trip
 
 After 3 years of applying, my friends and I lucked out this year and got permits to backpack the Enchantments Core Zone. We’d originally planned a four-day trip, but cut it to three due to inclement weather. This was one of the more challenging treks I’ve done, with 4,500 ft of elevation gain followed by 6,500 ft of descent over 18 miles of rough terrain, trails that were sometimes not well-marked, in a mix of wind, rain, and snow. Beautiful area, though, and hope to come back sometime. Preferably earlier in the summer 😎.
 
+![]({{site.cdn_path}}/2018/09/24/enchantments.jpg)
+
 ## Thursday-Friday, September 20-21
 
 After work on Thursday, 8 of us in 4 cars made the 5-hour drive up from Portland to Leavenworth, the Bohemian-themed town nearest to the trails. We’d reserved two hotel rooms and stayed there for the night.
@@ -15,6 +17,8 @@ The next morning, after fueling up on continental breakfast, we hit the road. We
 We arrived at the Colchuck Lake trailhead at around 10 am. The first part of the hike was fairly forested, with some occasional views. The elevation was a struggle. It definitely seemed longer than 4.6 miles. As usual, hiking with these guys, we naturally segregated into fast and slow groups. Perhaps more accurately: groups of less and more enthusiastic photographers, respectively.
 
 When we got to Colchuck Lake, we weren’t sure where the fast group was, so we started traversing the lake counterclockwise. We figured they would’ve likely camped as close to Aasgard Pass as possible to minimize our hiking distance the next day. We soon ran into them setting up camp at a spot on the edge of the lake just across from the pass. The spot was relatively small for setting up the 5 tents we needed, so Dugan, Matt, George, and I found a beach nearby and set up camp there.
+
+![]({{site.cdn_path}}/2018/09/24/colchuck.jpg)
 
 I set up my hammock between two trees with a stunning view of the lake and the peaks, and spent a couple relaxing hours reading on my phone (todo: bring Kindle next time). 
 
@@ -26,7 +30,13 @@ I reluctantly dragged myself out into the tempest. I discovered that George was 
 
 Today was the day we all knew would be the most challenging. The ascent up [Aasgard Pass](https://www.wta.org/go-hiking/hikes/aasgard-pass) climbs 2,000 feet in just three-quarters of a mile. As we ate breakfast, we watched other hikers start their ascent from across the lake, and noticed how small they looked. 
 
-We packed up camp and hit the trails. Getting to Aasgard required crossing a field of boulders. We passed a man who had injured himself and was being assisted by several fellow hikers, his leg wrapped in a makeshift splint. As we started the climb, the wind and rain picked up again. It was a cold, slow slog up the first half of the pass. Silver lining: We turned around at one point and noticed a rainbow over the lake.
+We packed up camp and hit the trails. Getting to Aasgard required crossing a field of boulders. We passed a man who had injured himself and was being assisted by several fellow hikers, his leg wrapped in a makeshift splint. 
+
+![]({{site.cdn_path}}/2018/09/24/aasgard.jpg)
+
+As we started the climb, the wind and rain picked up again. It was a cold, slow slog up the first half of the pass. Silver lining: We turned around at one point and noticed a rainbow over the lake.
+
+![]({{site.cdn_path}}/2018/09/24/aasgard_rainbow.jpg)
 
 Just pass the middle section, we heard several people yell, “rock!” We looked up to see a boulder bigger than a beach ball tumbling swiftly down the avalanche chute. We yelled out to warn the hikers below us. There was a couple directly in the path of the boulder. The woman scrambled to get out of its way, but she tripped. The boulder bounced...and flew just over her head. Extremely close call. We stood by for a few minutes to see if they needed assistance, but they were fine, just very shaken.
 
@@ -40,6 +50,16 @@ We were pretty beat as we approached Lake Viviane, and decided to just set up ca
 
 ## Sunday, September 23
 
-It was a cold night, probably in the mid-teens. I found myself shivering at several points even in a 20-degree mummy bag in full layers on top of my R-value 5 sleeping pad. I emerged from my tent to find it covered in ice. Michael’s jacket was literally frozen solid. But alas, there was sun, glorious sun! We hung out at camp until around 10 am to dry some of our wet gear off. After one night of heavy wind, and another of freezing temperatures, we were all a little burned out and decided to cut the trip to three days instead of the four we’d originally planned. We formed into two groups, a fast group with car keys who would retrieve the vehicles at the Colchuck Lake Trailhead, and the usual slow photographer group, and hit the trails.
+It was a cold night, probably in the mid-teens. I found myself shivering at several points even in a 20-degree mummy bag in full layers on top of my R-value 5 sleeping pad. I emerged from my tent to find it covered in ice. Michael’s jacket was literally frozen solid. 
+
+![]({{site.cdn_path}}/2018/09/24/leprechaun_camp.jpg)
+
+But alas, there was sun, glorious sun! We hung out at camp until around 10 am to dry some of our wet gear off. After one night of heavy wind, and another of freezing temperatures, we were all a little burned out and decided to cut the trip to three days instead of the four we’d originally planned. We formed into two groups, a fast group with car keys who would retrieve the vehicles at the Colchuck Lake Trailhead, and the usual slow photographer group, and hit the trails.
+
+![]({{site.cdn_path}}/2018/09/24/snow_lakes_overlook.jpg)
 
 The hike was all downhill, which I was grateful for. But we did lose about 6,500 feet of elevation over the course of it, which was hard on our knees. In many places, the trail wasn’t very well-marked, and we ended up making a couple guesses before ultimately figuring out the next steps. There were a couple of sketchy, slight vertigo-inducing sections where we had to do some light bouldering to get down, but for the most part, the way back consisted of many, many switchbacks. My slow group reached the Snow Lakes trailhead about 40 minutes after the fast group had retrieved the cars, and we headed to Munchen Haus Grill (not, as Brandon pointed out, to be confused with Munchausen syndrome) for beer and bratwurst. The food was excellent and they served it quickly, allowing us to hit the road around 8 pm for a late drive back to Portland.
+
+![]({{site.cdn_path}}/2018/09/24/munchen_haus.jpg)
+
+Full album: [https://photos.app.goo.gl/AGqdDaRgEFY5eyKF8](https://photos.app.goo.gl/AGqdDaRgEFY5eyKF8)

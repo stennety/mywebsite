@@ -22,7 +22,8 @@ A looong meetup! Matt presented news, a [PyCon AU](https://2018.pycon-au.org/) r
 * Matt Trentini: [Asyncio in (Micro)Python](https://www.youtube.com/watch?v=tIgu7q38bUw&t=351s)
 * Stacey Morse: [Lighting Macro Photographs with CircuitPython](https://www.youtube.com/watch?v=tIgu7q38bUw&t=351s)
 * Brian Daniliko: [Demystifying LoRaWAN with Python](https://www.youtube.com/watch?v=L-fh7PSpPMc)
-Lightning talks
+
+#### Lightning talks
 * Tim ‘Mithro’ Ansell: [FuPy: FPGAs with MicroPython](https://www.youtube.com/watch?v=BmWLhVMWC9I&t=7m53s)
 * Nick Moore: [Rocket Surgery](https://www.youtube.com/watch?v=BmWLhVMWC9I&t=38m28s)
 * Andrew Leech: [How to do embedded Device Development better with MicroPython and Jupyter, it’s ready for professional use soooo good pretty please I have lights and live demos so it’ll be a good laugh](https://www.youtube.com/watch?v=rNkbmu4e3MA&t=50m41s)

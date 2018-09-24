@@ -4,7 +4,7 @@ title: Enchantments Backpacking Trip
 ---
 ## tl;dr
 
-After 3 years of applying, my friends and I lucked out this year and got permits to backpack the Enchantments Core Zone. We’d originally planned a four-day trip, but cut it to three due to inclement weather. This was one of the more challenging treks I’ve done, with 4,500 ft of elevation gain followed by 6,500 ft of descent over 18 miles of rough terrain, trails that were sometimes not well-marked, in a mix of wind, rain, and snow. Beautiful area, though, and hope to come back sometime. Preferably earlier in the summer 😎.
+After 3 years of applying to the lottery, my friends and I lucked out this year and got permits to backpack the Enchantments Core Zone. We’d originally planned a four-day trip, but cut it to three due to inclement weather. This was one of the more challenging treks I’ve done, with 4,500 ft of elevation gain followed by 6,500 ft of descent over 18 miles of rough terrain, trails that were sometimes not well-marked, in a mix of wind, rain, and snow. Beautiful area, though, and hope to come back sometime. Preferably earlier in the summer 😎.
 
 ![]({{site.cdn_path}}/2018/09/24/enchantments.jpg)
 

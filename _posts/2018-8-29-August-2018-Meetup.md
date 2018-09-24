@@ -31,6 +31,18 @@ Lightning talks
 
 See the slides or video, below, for more detail!
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSg-GvFIP4YldQVowZes7uIndxVFZyjoKpX1DFqLDuvjUeE0YWTfrVfSDJM_jB3B-XfGm6Ih7pK8997/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAzCVh6wT-ulbNx5m4R5RKTie3h90mt4EosZ2LL6jJuujvSgXCDQmdAWBSQvvjr11tAKUk36zqzs0i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe width="960" height="569" src="https://www.youtube.com/embed/tqvn_JFdLDY?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/PsFBEUHGRyU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## 3D printing electronics enclosures
+Oliver Robson
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT6sznJhfz4VX56UwoLtTRS5cwcwxC0e0aAiQzSQhTXotSe4DiuBa1oakXHzvyiskXUl-JoO3yHU26G/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<iframe width="960" height="569" src="https://www.youtube.com/embed/shjmML6QYAY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## LoRaWAN, an introduction
+Peter Stone
+
+<iframe width="960" height="569" src="https://www.youtube.com/embed/y7Zqcp0t1IM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

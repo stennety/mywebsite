@@ -42,9 +42,9 @@ As we started the climb, the wind and rain picked up again. It was a cold, slow 
 
 ![]({{site.cdn_path}}/2018/09/24/aasgard_rainbow.jpg)
 
-Just pass the middle section, we heard several people yell, “rock!” We looked up to see a boulder bigger than a beach ball tumbling swiftly down the avalanche chute. We yelled out to warn the hikers below us. There was a couple directly in the path of the boulder. The woman scrambled to get out of its way, but she tripped. The boulder bounced...and flew just over her head. Extremely close call. We stood by for a few minutes to see if they needed assistance, but they were fine, just very shaken.
+Just pass the middle section, we heard several people yell, “rock!” We looked up to see a boulder bigger than a beach ball tumbling swiftly down a nearby avalanche chute. We yelled out to warn the hikers below us. There was a couple directly in the path of the boulder. The woman scrambled to get out of its way, but she tripped. The boulder bounced...and flew just over her head. Extremely close call. We stood by for a few minutes to see if they needed assistance, but they were fine, just very shaken.
 
-The rest of the climb was full of false summits. It was like an Apple product announcement of a climb; just when you think it’s over, there’s “one more thing.” It was a relief being at the top. We broke out the Sour Patch Kids (rock solid from the cold) as our reward. 
+The rest of the climb was full of false summits. It was like an Apple product announcement of a climb; just when you think it’s over, there’s “one more thing.” It was a relief being at the top. We broke out a bag of celebratory Sour Patch Kids, which were rock-solid from the cold. 
 
 ![]({{site.cdn_path}}/2018/09/24/aasgard_climb.jpg)
 

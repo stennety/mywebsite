@@ -3,8 +3,6 @@ layout: post
 title: August 2018 meetup
 ---
 
-(This post is a work in progress!) 
-
 A looong meetup! Matt presented news, a [PyCon AU](https://2018.pycon-au.org/) retrospective. Seon (the [Unexpected Maker](https://unexpectedmaker.com/)) popped in and talked about his Reflow Master amongst other projects. Nick talked about [FuPy](http://fupy.github.io/). Oliver presented about the [wonders of 3D printing](https://docs.google.com/presentation/d/1gJ5BRpnjbcieiIRSvwRsWJeCu8ooFZ09l7NLJGP0GOg), particularly for electronics projects cases. Peter wrapped up with an informative discussion on LoRaWAN.
 
 ## News

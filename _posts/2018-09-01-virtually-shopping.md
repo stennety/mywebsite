@@ -29,7 +29,7 @@ There are numerous reasons why e-commerce hasn't managed to grab a much larger s
 
 In short: what traditional e-commerce does badly is conveying product scale, proportion and putting stuff in physical context. What it also lacks is a real-time social component and ways to satiate our need for instant gratification.
 
-![Virtual shopping](http://www.goblenstudio.com/wp-content/uploads/2014/10/Comercial_retail_interior_design_11.jpg)
+![Job Simulator: VR Store](https://media.playstation.com/is/image/SCEA/job-simulator-screen-03-ps4-us-11nov16?$MediaCarousel_Original$)
 
 VR and AR technologies have the potential to ameliorate a lot of these issues, whilst still maintaining much of the convenience of traditional e-commerce. 
 

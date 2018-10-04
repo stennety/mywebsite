@@ -28,4 +28,4 @@ fields:
     date_format: DD/MM/YYY
     required: true
 pages:
-- _posts/my-first-post-using-forestry.md
+- _posts/2018-10-04-my-first-post-using-forestry.md

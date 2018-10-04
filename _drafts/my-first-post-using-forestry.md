@@ -9,3 +9,4 @@ body: |-
   [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/ "https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/")
 
 ---
+What is here, compared to my template body field?

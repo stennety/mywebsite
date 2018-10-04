@@ -27,3 +27,5 @@ fields:
   config:
     date_format: DD/MM/YYY
     required: true
+pages:
+- _posts/my-first-post-using-forestry.md

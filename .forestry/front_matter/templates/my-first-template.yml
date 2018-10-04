@@ -11,15 +11,6 @@ fields:
   config:
     required: true
   default: New Post
-- type: textarea
-  label: body
-  name: body
-  description: Body of post
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: datetime
   name: date
   label: date

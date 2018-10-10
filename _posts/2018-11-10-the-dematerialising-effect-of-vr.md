@@ -7,7 +7,7 @@ categories: Environment
 ---
 ![Forging Iron during the industrial revolution](http://industrialrevolution.org.uk/wp-content/uploads/2014/07/iron-steel-industrial-revolution.jpg)
 
-Coalbrookdale in Shropshire is often noted as the birthplace of Britain's industrial revolution. More specifically, it was innovations in the iron ore smelting process and the consequent cast iron manufacturing processes that---quite literally---created the building blocks for 18th & 19th century industrialisation in Western Europe. This is the period that witnessed construction of great bridges and viaducts, imposing factories, domineering steamships and other important endeavours. 
+Coalbrookdale in Shropshire is often noted as the birthplace of Britain's industrial revolution. More specifically, it was innovations in the iron ore smelting process and the consequent cast iron manufacturing that---quite literally---created the building blocks for 18th & 19th century industrialisation in Western Europe. This is the period that witnessed construction of great bridges and viaducts, imposing factories, domineering steamships and other important endeavours. 
 
 Heavy industry, as it's now known, is still largely associated with these activities. Steel has replaced Iron as the primary industrial material, allowing for longer spanned bridges, taller buildings and faster transport, but there is still substantial 'weight' attached to the products of this process. And along with weight follows environmental costs in terms of carbon emissions and habitat loss -- ultimately this leads to further climate change related wreckage and the reduction of 'real' wilderness.
 

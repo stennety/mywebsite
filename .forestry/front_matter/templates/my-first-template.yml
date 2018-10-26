@@ -19,4 +19,5 @@ fields:
     date_format: DD/MM/YYY
     required: true
 pages:
+- _posts/it-works-on-my-machine.md
 - _posts/2018-10-04-my-first-post-using-forestry.md

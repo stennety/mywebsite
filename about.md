@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
+published: false
 
 ---
 I recently got more involved in the testing community, signing up to the Ministry of Test and getting on the Slack Channels. From this I learned two things:

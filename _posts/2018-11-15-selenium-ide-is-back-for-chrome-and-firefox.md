@@ -3,8 +3,6 @@ title: " Selenium IDE is back for Chrome and Firefox!"
 date: 2018-11-15 01:09
 
 ---
-## Selenium's official IDE is back
-
 Selenium's official IDE is back! with a "Record/Playback session overhaul". The old Selenium IDE Firefox plugin version from "back in the day", before it became unusable in 2017, with version 55 of Firefox ([https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/](https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/ "https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/")).
 
 Selenium IDE "Next Generation", has current Chrome and Firefox plugins, that work with the latest versions of the browsers.
@@ -23,11 +21,11 @@ I really need to spend some more time with the IDE to do it justice. My initial 
 
 ### Should you care?
 
-First off, I didn't spend much time in the "old" IDE, and I've only had a very short look at the new. So I'm not yet very well placed to judge.  
+First off, I didn't spend much time in the "old" IDE, and I've only had a very short look at the new. So I'm not yet very well placed to judge.
 
 What I do know, is that in the absence of the Official IDE, alternatives have been created. For example if you want a Chrome plugin for Capture and Playback, you may already be using Katalon Recorder ([https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid "https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid")).
 
-One of the nice things about Katalon Recorder, is that unlike SIDE, you can export into a number of useful formats. In fact you can match up Katalon Recorder and then convert these for using in SeleniumBase. [https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide](https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide "https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide"). This approach gives you flexibility to do capture and record, and then make more maintainable tests, using patterns such as the Page Object Model. 
+One of the nice things about Katalon Recorder, is that unlike SIDE, you can export into a number of useful formats. In fact you can match up Katalon Recorder and then convert these for using in SeleniumBase. [https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide](https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide "https://github.com/seleniumbase/SeleniumBase/tree/master/seleniumbase/utilities/selenium_ide"). This approach gives you flexibility to do capture and record, and then make more maintainable tests, using patterns such as the Page Object Model.
 
 ### Give it ago, and make up your own mind
 

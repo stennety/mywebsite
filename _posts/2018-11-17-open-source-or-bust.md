@@ -33,6 +33,7 @@ So, what actually motivates volunteers and how are these loyal communities built
 - Once your have all of the above then it's just the case of putting some marketing bucks behind the project: social media campaigns, [workshops and seminars](https://2018.pyconuk.org/), competitions etc.
 - Once a community for your project comes into being, it's important that it is nurtured. Volunteers want to feel loved and appreciated.
 
+
 ![Antique cash register](https://cf.ltkcdn.net/antiques/images/std/226165-675x450-Antique-cash-register.jpg){: .center-image }
 But how do companies afford this sort of investment; how is it profitable? Well, a complete lack of investment in community building could easily render your product irrelevant and, therefore, the question rather becomes: can companies actually afford not to engage in this way?  Users are no longer tolerating vendor lock-in and want to be promiscuous with technology: your product will only be used for as long as it continues to add value and if something else comes along, better fitting their requirements, they'll move on. 
 

@@ -89,6 +89,7 @@ ul, ol {
   padding-left: 30px;
 	@include mobile {
     margin: 15px 0;
+    line-height: 175%;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open source or bust!"
-date: 2018-11-01 22:00:00 +0000
+date: 2018-11-11 12:00:00 +0000
 comments: true
 categories: Open Source
 ---

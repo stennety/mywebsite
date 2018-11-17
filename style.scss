@@ -20,8 +20,10 @@ html {
 body {
 	background: $white;
   font: 20px/1.4 'Ubuntu', sans-serif;
-;
   color: $darkGray;
+	@include mobile {
+    font: 18px/1.4 'Ubuntu', sans-serif;
+  }
 }
 
 .container {

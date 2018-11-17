@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.4;
+  line-height: 1.0;
   margin: 0.2em 5px;
   padding: 0;
 
   @include mobile {
-    line-height: 200%; margin: 1em 0;
+    line-height: 1.2; margin: 1em 0;
   }
 }
 
@@ -71,6 +71,7 @@ p {
   margin: 15px 45px;
 	@include mobile {
     margin: 15px 0;
+    line-height: 200%;
   }
 }
 

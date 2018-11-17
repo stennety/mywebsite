@@ -68,7 +68,8 @@ h4 {
 }
 
 p {
-  margin: 15px 45px;
+  margin: 0.5em 0 2em 0;
+    line-height: 200%;
 	@include mobile {
     margin: 0.5em 0 2em 0;
     line-height: 175%;
@@ -85,8 +86,9 @@ a {
 }
 
 ul, ol {
-  margin: 15px 45px;
+  margin: -25px 0 5px 0;
   padding-left: 30px;
+	line-height: 200%;
 	@include mobile {
     margin: 5px 0 5px 0;
     line-height: 175%;

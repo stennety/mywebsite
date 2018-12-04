@@ -6,8 +6,8 @@ tags: about
 excerpt: about me, helder viana, viana, helder, developer, pt, sql, csharp
 ---
 
-Hi there! I'm Helder S. Viana and I'm a typeof(developer) and a typeof(DBA) for the last years.
-Right now my main tecnhical skills are development in .net (C# and VB.net), T-SQL, C/AL (Dynamics NAV), PHP and some other stuff. 
+Hi there! I'm Helder Viana and I'm a typeof(developer). I have worked as a developer and a DBA for the last years, mostly focused on .net development (C# and vb.net [yes, I'm Ok working with vb.net]) and T-SQL.
+Right now my main tecnhical skills are related to Microsoft ecosystem and the development in .net and T-SQL.
 
 ### Early days
 
@@ -31,3 +31,6 @@ I learned to recognize that my main purpose in my profession is not just to writ
 
 ### MVA Certification
 Here you can find some [courses](https://meocloud.pt/link/e5287e4b-0fe9-45f8-879a-0fa504239752/Transcript.pdf/) that I completed in [Microsoft Virtual Academy](https://mva.microsoft.com/) (MVA) in the last years. My learning plan has a lot more, but it  has been complicated to finish them.
+
+### Professional Path
+My professional path is (kind of) up to date, so you can follow the linkdin link at the footer of the page.

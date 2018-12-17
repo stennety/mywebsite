@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Chaitanya, [Software Engineer@IBM Research](https://www.linkedin.com/in/chaitanyakr/)
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[chaitanya@sg.ibm.com](mailto:chaitanya@sg.ibm.com)

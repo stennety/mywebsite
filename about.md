@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
 ---
 
 Chaitanya, [Software Engineer@IBM Research](https://www.linkedin.com/in/chaitanyakr/)

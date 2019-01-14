@@ -78,6 +78,10 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag # Standard SEO stuff
 
+# Include the .well-known directory for verifications
+include:
+  - .well-known
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile

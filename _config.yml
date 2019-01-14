@@ -79,8 +79,7 @@ gems:
   - jekyll-seo-tag # Standard SEO stuff
 
 # Include the .well-known directory for verifications
-include:
-  - .well-known
+include: [".well-known"]
   
 # Exclude these files from your production _site
 exclude:

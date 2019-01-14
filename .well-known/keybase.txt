@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/benjaminhering
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.benjamin-hering.com
+  * I am benjaminhering (https://keybase.io/benjaminhering) on keybase.
+  * I have a public key ASCCG2Ykeq1ASJnMj6SQ2zzROWw97OzOXCn6jsCPJRC7ego
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120821b66247aad404899cc8fa490db3cd1396c3dececce5c29fa8ec08f2510bb7a0a",
+      "host": "keybase.io",
+      "kid": "0120821b66247aad404899cc8fa490db3cd1396c3dececce5c29fa8ec08f2510bb7a0a",
+      "uid": "48854897f8e6493deb44dabb0d306b19",
+      "username": "benjaminhering"
+    },
+    "merkle_root": {
+      "ctime": 1547433147,
+      "hash": "dd8cbf8732f630f0ad1cf76f19944de36b32af396251194205b8674a46be2b1454a5f214ba3e0f01f203b933838fde7c6f32cd8e34b1cf26ab134a0e335b9162",
+      "hash_meta": "1eda4582c6f02d928e7beb8c0b352668867199c1ba827d167e54494018ef09e1",
+      "seqno": 4374109
+    },
+    "service": {
+      "entropy": "4TPPyM2LVuIMr/fjC+0DtubI",
+      "hostname": "blog.benjamin-hering.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.6"
+  },
+  "ctime": 1547433171,
+  "expire_in": 504576000,
+  "prev": "1467cd93dafb9fc5b94cb0f13580baf2d0be239335ba6a689d181336bfdb4f51",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgghtmJHqtQEiZzI+kkNs80TlsPezszlwp+o7AjyUQu3oKp3BheWxvYWTESpcCC8QgFGfNk9r7n8W5TLDxNYC68tC+I5M1umponRgTNr/bT1HEIIAmJSSZktYUmATpGocBdU0dS0B6jOypoTZnU+4xqJPhAgHCo3NpZ8RAfpPYD606M5KhgwqfzDMxp9TlbTl4yNpGGfFtfyT+lmefWvfae97snl9xq1B/bRTtDoSAnd579t5B/xpyMe1fD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMtr0OWPGhVFLH3TxLEzaAbwWk1ToyQnaSJnqge4tR7So3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/benjaminhering
+
+==================================================================

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Favorite Podcasts 2019
 ---
 # Science/Technology

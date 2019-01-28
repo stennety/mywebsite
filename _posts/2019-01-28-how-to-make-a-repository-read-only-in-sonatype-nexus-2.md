@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to make a repository read-only in Sonatype Nexus 2
 ---
 I'm posting this because it wasn't immediately obvious in a Google search how to do this, so I thought it might be helpful for others.

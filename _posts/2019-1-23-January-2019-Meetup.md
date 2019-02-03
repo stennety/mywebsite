@@ -105,11 +105,11 @@ Apologies to Sean for the lack of a video; my phone ran out of batteries! We'll 
 
 Rafal has been working on a new controller for his quadcopter. The project, dubbed _Raven_ came about because Raf wanted to see if it was possible to make a small, robust R/C controller. Most current models don't survive well when 'thrown into a bag' and it would be better if they were more portable. 
 
-With Raven, gone are the accurate analog joysticks, replaced with circular touchpads and some smart software to make up for the lack of accuracy. An M5Stack sits in the middle of the handset communicating with the standard R/C transmitter using the RMT module of the ESP32 to handle the tight timing constraints of the one-wire protocol. 
+With Raven, gone are the accurate analog joysticks, replaced with circular touchpads and some smart software to make up for the lack of accuracy. An M5Stack sits in the middle of the controller communicating with the standard R/C transmitter using the RMT module of the ESP32 to handle the tight timing constraints of the one-wire protocol. 
 
-A neat 3D printed handset and a custom PCB to connect all the electronics round out the package. MicroPython orchestrates everything.
+A neat 3D printed controller and a custom PCB to connect all the electronics round out the package. MicroPython orchestrates everything.
 
-Raf continues to refine the software and the handset is responding better in the simulator every day - he's even flown his quadcopter outdoors! 
+Raf continues to refine the software and the controller is responding better in the simulator every day - he's even flown his quadcopter outdoors! 
 
 Take a look at this ambitious project!
 

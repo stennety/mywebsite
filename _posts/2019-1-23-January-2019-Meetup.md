@@ -4,9 +4,9 @@ title: January 2019 meetup
 ---
 
 **Matt** presented the news roundup and **Damien** explained some highlights of the (any day now!) v1.10 release of MicroPython.
-We then had presentations about a few members' projects; **Rafal** talked about _Raven_ his MicroPython-powered R/C handset, **Sean** discussed his WiLED project and **Seon** covered the TinyPICO Tester**
+We then had presentations from a few members about their projects; **Rafal** talked about _Raven_ his MicroPython-powered R/C handset, **Sean** discussed his WiLED project and **Seon** covered the TinyPICO Tester.
 
-Apologies to Sean for the lack of a video; ran out of batteries! We'll get Sean to do a follow-up when the project is complete.
+Apologies to Sean for the lack of a video; my phone ran out of batteries! We'll get Sean to do a follow-up when the project is complete.
 
 ## News: Matt Trentini and Damien George
 * There's a new eBook: [MicroPython Programming with the ESP32 and ESP8266](https://randomnerdtutorials.com/micropython-programming-with-esp32-and-esp8266/)

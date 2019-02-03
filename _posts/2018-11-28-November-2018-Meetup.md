@@ -6,7 +6,7 @@ title: November 2018 meetup
 **Matt** presented the usual news roundup.
 **Lachlan** and **Brian** discussed the _Parallax Propeller 2_, a powerful microcontroller with some unique characteristics particularly well suited to concurrent solutions. 
 It doesn't - yet - run MicroPython but it could be a good fit for a port. We were fortunate enough to see a demo on one of the first 10 'glob top' chips.
-**Damien** explained how to use the `_thread`module, recently overhauled on the ESP32 port.
+**Damien** explained how to use the `_thread` module, recently overhauled on the ESP32 port.
 
 ## News: Matt Trentini
 * The [OHS Badge](https://oshwabadge2018.github.io/) is an interesting, MicroPython-driven badge with E-ink developed for the [OHS conference](https://2018.oshwa.org/) attendees

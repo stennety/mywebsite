@@ -11,7 +11,7 @@ Apologies to Sean for the lack of a video; my phone ran out of batteries! We'll 
 ## News: Matt Trentini and Damien George
 * There's a new eBook: [MicroPython Programming with the ESP32 and ESP8266](https://randomnerdtutorials.com/micropython-programming-with-esp32-and-esp8266/)
     * US$18
-    * Same folks also have useful [MicroPython tutorials online](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
+    * The same folks - Rui and Sara Santos - also have useful [MicroPython tutorials online](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
 * [Sony Sprysense](https://developer.sony.com/develop/spresense/) is now available
     * No MicroPython port yet
     * Interesting specs: CXD5602 Processor, ARM M4F **6 core** 156MHz, 8MB flash, built-in GPS, serious audio support, dedicated camera connector

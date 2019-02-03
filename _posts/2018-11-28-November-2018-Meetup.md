@@ -9,8 +9,6 @@ It doesn't - yet - run MicroPython but it could be a good fit for a port. We wer
 **Damien** explained how to use the `_thread` module, recently overhauled on the ESP32 port.
 
 ## News: Matt Trentini
-* The [OHS Badge](https://oshwabadge2018.github.io/) is an interesting, MicroPython-driven badge with E-ink developed for the [OHS conference](https://2018.oshwa.org/) attendees
-    * Now available on [Tindie](https://www.tindie.com/products/pdp7/open-hardware-summit-2018-badge/)
 * Congrats to Damien
     * Recently a father for the second time!
 * [Time to Say Goodbye to Arduino and Go On to Micropython/Adafruit Circuitpython?](https://www.youtube.com/watch?v=m1miwCJtxeM&t=3s)

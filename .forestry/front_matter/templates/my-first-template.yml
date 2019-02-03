@@ -20,3 +20,6 @@ fields:
     required: true
 pages:
 - _posts/2018-10-04-my-first-post-using-forestry.md
+- _posts/web-automation-with-katalon-and-seleniumbase.md
+- _posts/2018-11-15-selenium-ide-is-back-for-chrome-and-firefox.md
+- _posts/2018-10-26-it-works-on-my-machine.md

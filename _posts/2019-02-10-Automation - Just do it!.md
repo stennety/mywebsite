@@ -1,5 +1,5 @@
 ---
-title: Automation - Just do it!
+title: New Post
 date: 2019-02-10 10:00:00 +0000
 
 ---

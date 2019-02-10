@@ -3,8 +3,6 @@ title: New Post
 date: 2019-02-10 10:00:00 +0000
 
 ---
-## Excellent strategy vs Just do it
-
 It can be a daunting task to create an automation strategy, get resources signed off, heir or train automation engineers.
 
 But what is the alternative, and is it a good idea?
@@ -57,5 +55,3 @@ Or at least, that has been my strategy:
 ### Is this working out for me?
 
 Yes, in that I am having a lot of fun developing my automation skills. Is it contributing significantly to the success of projects I am working on? I will have to get back to you on that, it's early days!
-
- 

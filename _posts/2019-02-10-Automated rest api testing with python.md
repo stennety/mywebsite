@@ -32,19 +32,11 @@ This pattern of abstraction is great and we can use it along side an assertion f
 
 You can take a closer look at my API Library for Restful Booker, and my rest code on the [Pybooker](https://github.com/dowenb/pybooker "Example of making using and testing an API in python") GitHub Repository.
 
-<iframe
-  src="https://carbon.now.sh/embed/?bg=rgba(255%2C255%2C255%2C1)&t=seti&wt=none&l=python&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&code=%2523%2520basic_example.py%250Aimport%2520requests%250A%250Adef%2520describe_booking(booking_id)%253A%250A%2520%2520%2520%2520return%2520requests.get('https%253A%252F%252Frestful-booker.herokuapp.com%252Fbooking%252F%257B%253Ad%257D%252F'.format(booking_id))%250A%250Aprint(describe_booking(1).json())&es=2x&wm=false"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+![basic example](../images/basic&#32;example&#32;py.png)
 
 This basic example makes a GET request to the URL https://restful-booker.herokuapp.com/booking/1/, and prints the resulting JSON response body into the Python console. Running it gives us:
 
-<iframe
-  src="https://carbon.now.sh/embed/?bg=rgba(255%2C255%2C255%2C1)&t=seti&wt=none&l=powershell&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&code=C%253A%255Cgit%255Cpybooker%253E%2520python.exe%2520.%255Cbasic_example.py%250A%257B'firstname'%253A%2520'Sally'%252C%2520'lastname'%253A%2520'Smith'%252C%2520'totalprice'%253A%2520886%252C%2520'depositpaid'%253A%2520True%252C%2520'bookingdates'%253A%2520%257B'checkin'%253A%2520'2016-04-24'%252C%2520'checkout'%253A%2520'2018-08-23'%257D%252C%2520'additionalneeds'%253A%2520'Breakfast'%257D&es=2x&wm=false"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+![example output](../images/basic&#32;exaple&#32;output.png)
 
 Because the method returns the response object, we can not only get the JSON body, but also useful information like the HTTP Status code.
 
@@ -56,11 +48,7 @@ OK so now we can make Requests, and access the returned response in an object. W
 
 To do this, I have made use of the module [pyassert](https://pypi.org/project/pyassert/ "pyassert is an assertion library for the Python programming language."), you could also use other assertion libraries such as [fluentcheck](https://github.com/csparpa/fluentcheck "Fluent assertions for Python"). I am using Pytest to run my tests.
 
-<iframe
-  src="https://carbon.now.sh/embed/?bg=rgba(255%2C255%2C255%2C1)&t=seti&wt=none&l=python&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&code=%2523%2520test_restfull_bookings.py%250Aimport%2520restfullbooker%250Afrom%2520assertpy%2520import%2520assert_that%250A%250Adef%2520test_bookings_for_mark()%253A%250A%2520%2520%2520%2520resp%2520%253D%2520restfullbooker.get_bookings('Mark')%250A%2520%2520%2520%2520assert_that(resp.ok%252C%2520'HTTP%2520Request%2520OK').is_true()&es=2x&wm=false"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+![Teest Restful Booker](../images/test&#32;restful&#32;booker.png)
 
 While you can assert on almost every aspect of the response, the most basic check is the response returned 'OK'. This means we made a valid request, and the service didn't throw an internal server error.
 

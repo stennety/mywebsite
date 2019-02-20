@@ -48,7 +48,7 @@ OK so now we can make Requests, and access the returned response in an object. W
 
 To do this, I have made use of the module [pyassert](https://pypi.org/project/pyassert/ "pyassert is an assertion library for the Python programming language."), you could also use other assertion libraries such as [fluentcheck](https://github.com/csparpa/fluentcheck "Fluent assertions for Python"). I am using Pytest to run my tests.
 
-![Teest Restful Booker](../images/test&#32;restful&#32;booker.png)
+![Test Restful Booker](../images/test&#32;restful&#32;booker.png)
 
 While you can assert on almost every aspect of the response, the most basic check is the response returned 'OK'. This means we made a valid request, and the service didn't throw an internal server error.
 

@@ -7,6 +7,10 @@ title: February 2019 meetup
 
 ## News roundup - Matt Trentini
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2x8N3p9-BEGe_GWrqX6eziiAhQz8Zj3XRD2-T9ZZQObTdTTN2bN0SRYaSml7Xow1Iljptjx10K61B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<iframe width="960" height="569" src="https://www.youtube.com/embed/DGm4cWChT2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Matt's New Hardware
 What arrived in Matt's letterbox this month?
 
@@ -261,10 +265,6 @@ The PyBoard D made an appearance at FOSDEM!
 ### Wrap up
 
 [ARM Cortex-M0 is 10 years old](https://twitter.com/DominicPajak/status/1099377967120240642) (that model doesn't run MicroPython...yet!)
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2x8N3p9-BEGe_GWrqX6eziiAhQz8Zj3XRD2-T9ZZQObTdTTN2bN0SRYaSml7Xow1Iljptjx10K61B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<iframe width="960" height="569" src="https://www.youtube.com/embed/DGm4cWChT2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Preview: Native Modules in MicroPython - Damien George

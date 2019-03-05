@@ -267,6 +267,7 @@ The PyBoard D made an appearance at FOSDEM!
 [ARM Cortex-M0 is 10 years old](https://twitter.com/DominicPajak/status/1099377967120240642) (that model doesn't run MicroPython...yet!)
 
 
+<a href="Native-Modules-in-MicroPython"></a>
 ## Native Modules in MicroPython
 Damien George presented his work-in-progress solution to loading native code from MicroPython modules. Currently all native code has to be compiled in to the MicroPython firmware binary which can make it harder to integrate high-performance code. This solution will allow modules containing native code and/or MicroPython code (and Viper, Thumb and XTensa code...) to be compiled into mpy files that can be loaded at *runtime*. 
 

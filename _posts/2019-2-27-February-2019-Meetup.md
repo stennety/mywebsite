@@ -5,9 +5,9 @@ title: February 2019 meetup
 
 **Matt** Trentini presented the news roundup, **Damien** George presented his latest work-in-progress feature: native modules in MicroPython. **Peter** van den Berg discussed two of his projects: indicators for real-world data and a power meter.
 
-## News roundup: Matt Trentini
+## News roundup - Matt Trentini
 
-### Matts New Hardware
+### Matt's New Hardware
 What arrived in Matt's letterbox this month?
 
 #### Sipeed MAIX
@@ -267,7 +267,7 @@ The PyBoard D made an appearance at FOSDEM!
 <iframe width="960" height="569" src="https://www.youtube.com/embed/DGm4cWChT2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Preview: Native Modules in MicroPython
+## Preview: Native Modules in MicroPython - Damien George
 Damien George presented his work-in-progress solution to loading native code from MicroPython modules. Currently all native code has to be compiled in to the MicroPython firmware binary which can make it harder to integrate high-performance code. This solution will allow modules containing native code and/or MicroPython code (and Viper, Thumb and XTensa code...) to be compiled into mpy files that can be loaded at *runtime*. 
 
 Potentially this is a *huge* feature that would mean modules can be built and packaged with native and Python components! Even MicroPython itself could possibly be trimmed down since modules can now be efficiently packaged outside of the firmware binary. 
@@ -280,7 +280,7 @@ Take a look at [PR 4535](https://github.com/micropython/micropython/pull/4535) f
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/GDXsK1bkSdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Two Projects by Peter
+## Two Projects by Peter - Peter van den Berg
 Peter van den Berg presented two of his MicroPython-powered projects: 1) Illuminating RGB lights to indicate the status of various real-world data and services (including the weather, the train line and the temperature of a fridge) and 2) Monitoring power usage with some carefully designed electronics. 
 
 It was a really interesting talk covering MicroPython on the ESP8266, querying data from the real world, heaters in fridges, electronic design with sensitive op-amps and how family life can be streamlined with some pragmatic solutions!

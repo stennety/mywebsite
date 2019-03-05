@@ -41,7 +41,6 @@ What arrived in Matt's letterbox this month?
 #### M5Stack Peripherals
 
 - Needed just two...but they’re so cheap and cool!
-
   - Joystick
   - Fingerprint sensor
   - Color Sensor
@@ -58,9 +57,7 @@ The PyBoard D made an appearance at FOSDEM!
 
 * Potential features
   * I2S Implementation by Mike Teachman
-
     * [Forum](https://forum.micropython.org/viewtopic.php?f=18&t=5900&p=33757), github - [micropython-esp32-i2s-examples](https://github.com/miketeachman/micropython-esp32-i2s-examples), [PR 4471](https://github.com/micropython/micropython/pull/4471)
-
   * WPS implementation - [PR4464](https://github.com/micropython/micropython/pull/4464)
     - How WPS works
       - Press a button on a router to allow it to respond to a single scan
@@ -68,24 +65,15 @@ The PyBoard D made an appearance at FOSDEM!
       - Wifi details are sent to the (one) scanning device
       - Connection is established
       - Router stops 
-
   * RMT
-
     * Matt has started an implementation
-
   * Pulse counting
-
     * [Requested](https://forum.micropython.org/viewtopic.php?f=18&t=5997), not for the first time
-
-      Anyone interested in implementing it? Good first module!
-
+    * Anyone interested in implementing it? Good first module!
   * ESP NOW
-
     * [PR4115](https://github.com/micropython/micropython/pull/4115)
     * Seems to have stalled but it’s so close!
-
   * BLE
-
 * Mike Rankin released a new ESP32-PICO-D4 board powered by a coin cell 
   * ESP32-PICO-D4, battery charger, accelerometer, 0.96" 96x16 OLED
   * [Open hardware designs available](https://github.com/mike-rankin/ESP32_CoinCell)
@@ -147,76 +135,51 @@ The PyBoard D made an appearance at FOSDEM!
   * Lightweight driver for Microchip Crypto Authentication
   * Supports [ATECC508A](https://www.microchip.com/wwwproducts/en/ATECC508A) and [ATECC608A](https://www.microchip.com/wwwproducts/en/ATECC608A)
   * ECDH support (Elliptic Curve Diffie-Hellman)
-
 * [Async IO in Python](https://realpython.com/async-io-python/)
   * In depth article about [Asyncio in Python](https://realpython.com/async-io-python/)
-
   * By the [Real Python](https://realpython.com/) folks who have a ton of great content
-
   * - In general, they have excellent Python articles
-
   * Although written for Python it provides a solid basis for MicroPython
-
     * And much of it is directly usable
-
 * More W600 Cortex M3+ wifi boards announced
   * The [Air602](https://www.seeedstudio.com/Air602-WiFi-Module-p-3139.html) (powered by the W600) was covered in previous meetups
-
   * - Cheap, certified ARM Cortex M3 + Wifi
-
   * Module announced, plus two dev boards
-
   * [Seeed Studio announcement](https://www.seeedstudio.com/w600.html), [Hackster.io follow-up](https://blog.hackster.io/three-new-seeedstudio-w600-based-wireless-boards-347c8ec21d47)
-
   * Arduino and **MicroPython support** announced for later this year
-
 * [MicroPython on Sonoff](https://medium.com/cloud4rpi/getting-micropython-on-a-sonoff-smart-switch-1df6c071720a)
-
   * There have been a few guides but this is an excellent addition
-
 * Ivy5661: Potential new target for MicroPython?
   * [Forum post](https://forum.micropython.org/viewtopic.php?f=12&t=5972&p=34348)
   * ARM Cortex M4 @ 416MHz, 802.11**ac**, Bluetooth **5**, 963KB RAM (400KB available)
   * Linaro 96boards format - expansion socket with UART, I2C, SPI, I2S, GPIO
   * But **limited documentation**
   * Seeed Studio are [selling the Ivy5661 for US$35](https://www.seeedstudio.com/Ivy5661-Wi-Fi-and-Bluetooth-IoT-Solution-SoC-SPRD-UWP5661-Cortex-M4-p-2867.html)
-
 * [Calliope](https://calliope.cc)
   * Board designed for education ('improved micro:bit')
   * NRF51822 (Cortex M0, 6KB RAM, 256KB flash)
   * Speakers & Mic, motor controller, USB, compass, motion, acceleration, temperature and brightness sensor, LED array
   * Most examples use [Open Roberta](https://lab.open-roberta.org/), a block-based programming language
     * But a [MicroPython port](https://github.com/calliope-mini/calliope-mini-micropython) is also supported
-
 * [trigBoard - Ultra Low Power ESP8266 IoT Platform](https://www.tindie.com/products/kdcircuits/trigboard-ultra-low-power-esp8266-iot-platform/)
   * Triggers on a GPIO change, pushes a notification over wifi
   * 1uA quiescent
   * [Documentation](https://www.kevindarrah.com/wiki/index.php?title=TrigBoard)
   * US$20
-
 * [micropython-iot](https://github.com/peterhinch/micropython-iot)
   * New [MicroPython library](https://github.com/peterhinch/micropython-iot) by [Peter Hinch](https://github.com/peterhinch) and Kevin Köck
-
   * Full-duplex communication link between wifi boards and a server
-
-  * - Temporary wifi or server outages are tolerated without message loss
-    - Tested with ESP8266 and Pyboard D
-
-* Electronut pre-released [Papyr](https://docs.electronut.in/papyr/)
-  * Electronut released [Papyr](https://docs.electronut.in/papyr/) an nRF52840 board with e-paper
-
-  * - Raytac MDBT50 module
-    - 1.54” 200x200 e-paper
-    - Runs on a coin cell
-    - Application to ‘draw’ on epaper from mobile app
-    - ~US\$40 (US\$62 with case and programmer)
-
+  * Temporary wifi or server outages are tolerated without message loss
+  * Tested with ESP8266 and Pyboard D
+* Electronut released [Papyr](https://docs.electronut.in/papyr/) an nRF52840 board with e-paper
+  * Raytac MDBT50 module
+  * 1.54” 200x200 e-paper
+  * Runs on a coin cell
+  * Application to ‘draw’ on epaper from mobile app
+  * ~US\$40 (US\$62 with case and programmer)
 * [Mu Editor now supports MicroPython](https://github.com/mu-editor/mu/pull/676)
-
   - On at least the ESP32/ESP8266
-
 * Display library news
-
   * [HyperDisplay announced](https://www.sparkfun.com/news/2875?utm_content=85459512&utm_medium=social&utm_source=twitter&hss_channel=tw-17877351) by Sparkfun
     * C-library providing graphics primitives, basic window management, buffering, some drivers
   * [GuiLite](https://github.com/idea4good/GuiLite)
@@ -252,12 +215,10 @@ The PyBoard D made an appearance at FOSDEM!
     * Neat 3D print
   * ESP8266, MicroPython, ATTiny85 to keep power down in sleep
 * [ESP32 WiPhone](https://hackaday.io/project/159811-esp32-wiphone)
-
   * Still in development
   * Calls using wifi/SIP
   * Even designing molds themselves and documenting how to do so 
 * [Custom firmware for cheap fitness trackers](https://hackaday.com/2019/02/20/custom-firmware-for-cheap-fitness-trackers/)
-
   * Aaron Christophel gives you all the tools to repurpose that $30 nRF52 fitness tracker
     * 512KB flash, 64KB RAM, 0.96" IPS SPI display, motion sensor, pulse sensor, battery charger, touch integrated
     * MicroPython will happily run on this device...

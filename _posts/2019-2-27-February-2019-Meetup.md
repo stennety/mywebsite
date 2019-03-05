@@ -244,9 +244,11 @@ Take a look at [PR 4535](https://github.com/micropython/micropython/pull/4535) f
 
 <a name="two-projects"></a>
 ## Two Projects by Peter
-Peter van den Berg presented two of his MicroPython-powered projects: 1) Illuminating RGB lights to indicate the status of various real-world data and services (including the weather, the train line and the temperature of a fridge) and 2) Monitoring power usage with some carefully designed electronics. 
+Peter van den Berg presented two of his MicroPython-powered projects: 1) a Home Status Monitor and 2) a Power Meter. 
 
-It was a really interesting talk covering MicroPython on the ESP8266, querying data from the real world, heaters in fridges, electronic design with sensitive op-amps and how family life can be streamlined with some pragmatic solutions!
+It was a really interesting talk covering MicroPython on the ESP8266, querying data from the real world, heaters in fridges, electronic design with sensitive comparators and how family life can be streamlined with some pragmatic solutions!
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJ8S7UEYC2B0WtKHyvfDyhWj0xNw366hf1vilk2OvtwUQlOOus02ZyCHIDvC37XU9HkGftZejA9yVe/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/0q9YMevZjrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

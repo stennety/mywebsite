@@ -3,7 +3,7 @@ layout: post
 title: February 2019 meetup
 ---
 
-**Matt** Trentini presented the news roundup, **Damien** George presented his latest work-in-progress feature: native modules in MicroPython. **Peter** van den Berg discussed two of his projects: indicators for real-world data and a power meter.
+**Matt** Trentini presented the [news roundup](#News-roundup---Matt-Trentini), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython---Damien-George). **Peter** van den Berg discussed two of his projects: indicators for real-world data and a power meter.
 
 ## News roundup - Matt Trentini
 
@@ -267,7 +267,7 @@ The PyBoard D made an appearance at FOSDEM!
 [ARM Cortex-M0 is 10 years old](https://twitter.com/DominicPajak/status/1099377967120240642) (that model doesn't run MicroPython...yet!)
 
 
-## Preview: Native Modules in MicroPython - Damien George
+## Native Modules in MicroPython - Damien George
 Damien George presented his work-in-progress solution to loading native code from MicroPython modules. Currently all native code has to be compiled in to the MicroPython firmware binary which can make it harder to integrate high-performance code. This solution will allow modules containing native code and/or MicroPython code (and Viper, Thumb and XTensa code...) to be compiled into mpy files that can be loaded at *runtime*. 
 
 Potentially this is a *huge* feature that would mean modules can be built and packaged with native and Python components! Even MicroPython itself could possibly be trimmed down since modules can now be efficiently packaged outside of the firmware binary. 

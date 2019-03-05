@@ -3,7 +3,7 @@ layout: post
 title: February 2019 meetup
 ---
 
-**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython). **Peter** van den Berg discussed [two of his projects](#two-projects): indicators for real-world data and a power meter.
+**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython). **Peter** van den Berg discussed [two of his projects](#two-projects): his Home Status Monitor and an accurate power meter.
 
 ## News roundup
 <a name="News-roundup"></a>
@@ -19,9 +19,8 @@ What arrived in Matt's letterbox this month?
 * One of the first affordable RISC-V solutions
   * And it’s a cracker: 2x 400MHz, plenty of RAM and flash, AI module, camera
   * See last month for details
-* MaixPy
+* [MaixPy](https://github.com/sipeed/MaixPy)
   * MicroPython port for this chipset
-
 - Excellent [build instructions](https://robotzero.one/sipeed-maix-micropython/) from the Robot Zero One blog
 - [MickMake published a video](https://www.youtube.com/watch?v=YdshSwDrKgw) that gives a good introduction to the hardware
 - MaixPy [v0.1 released last week](https://bbs.sipeed.com/t/topic/486?r=slt-eml-bck-a2e0&utm_source=sailthru&utm_medium=email&utm_campaign=bck-02172019update&utm_term=) with GPIO, UART, SPI, PWM, Timer, LCD, Camera, MiscoSD (FAT32), Flash (SPIFFS), ESP8285 for wifi. Image convolution acceleration, basic OpenMV support (QRCodes, bar codes, find blobs)
@@ -34,9 +33,9 @@ What arrived in Matt's letterbox this month?
 - ESP32 + POE Ethernet
 - Separate programmer
 - Header to breakout GPIO
-- Have a decent [web site](https://wesp32.com/) now
+- Have created a good [web site](https://wesp32.com/) with excellent information
 - **MicroPython is the default software stack!**
-- Thanks [Patrick](https://twitter.com/xorbit1)
+- Thanks [Patrick](https://twitter.com/xorbit1)!
 
 #### M5Stack Peripherals
 

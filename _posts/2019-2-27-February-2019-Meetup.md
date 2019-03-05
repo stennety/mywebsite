@@ -285,7 +285,7 @@ Peter van den Berg presented two of his MicroPython-powered projects: 1) Illumin
 
 It was a really interesting talk covering MicroPython on the ESP8266, querying data from the real world, heaters in fridges, electronic design with sensitive op-amps and how family life can be streamlined with some pragmatic solutions!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0q9YMevZjrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/0q9YMevZjrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

@@ -3,7 +3,7 @@ layout: post
 title: February 2019 meetup
 ---
 
-**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython). **Peter** van den Berg discussed [two of his projects](#two-projects): his Home Status Monitor and an accurate power meter.
+**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython). **Peter** van der Burg discussed [two of his projects](#two-projects): his Home Status Monitor and an accurate power meter.
 
 ## News roundup
 <a name="News-roundup"></a>
@@ -243,7 +243,7 @@ Take a look at [PR 4535](https://github.com/micropython/micropython/pull/4535) f
 
 <a name="two-projects"></a>
 ## Two Projects by Peter
-Peter van den Berg presented two of his MicroPython-powered projects: 1) a Home Status Monitor and 2) a Power Meter. 
+Peter van der Burg presented two of his MicroPython-powered projects: 1) a Home Status Monitor and 2) a Power Meter. 
 
 It was a really interesting talk covering MicroPython on the ESP8266, querying data from the real world, heaters in fridges, electronic design with sensitive comparators and how family life can be streamlined with some pragmatic solutions!
 

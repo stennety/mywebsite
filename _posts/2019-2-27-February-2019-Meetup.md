@@ -3,9 +3,9 @@ layout: post
 title: February 2019 meetup
 ---
 
-**Matt** Trentini presented the [news roundup](#News-roundup---Matt-Trentini), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython---Damien-George). **Peter** van den Berg discussed two of his projects: indicators for real-world data and a power meter.
+**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George presented his latest work-in-progress feature: [native modules in MicroPython](#Native-Modules-in-MicroPython---Damien-George). **Peter** van den Berg discussed two of his projects: indicators for real-world data and a power meter.
 
-## News roundup - Matt Trentini
+## News roundup
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2x8N3p9-BEGe_GWrqX6eziiAhQz8Zj3XRD2-T9ZZQObTdTTN2bN0SRYaSml7Xow1Iljptjx10K61B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

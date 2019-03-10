@@ -13,7 +13,7 @@ Collection of recent MicroPython links
   * _Very_ affordable at US$30, [available now from Seeed](https://www.seeedstudio.com/Arch-Mix-p-2901.html)
 * M5Stack M5StickC
   * 'Limited trial' release of the new [M5StickC](https://www.aliexpress.com/store/product/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/3226069_32985247364.html?spm=2114.12010615.8148356.1.64815d5dJ8YRzN)
-    * *US$1!* The catch: Use any existing M5Stack product to make an application and take some photos/video to be eligible to purchase
+    * **US$1!** The catch: Use any existing M5Stack product to make an application and take some photos/video to be eligible to purchase
     * Still runs MicroPython
     * Small; 48x21x14mm, same size as current models
     * But _more hardware_: Colour 80x160 LCD, 6-axis IMU, microphone, 2x buttons, Grove port, 80mAH battery and 8-pin external header

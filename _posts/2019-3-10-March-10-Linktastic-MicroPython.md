@@ -7,7 +7,7 @@ Collection of recent MicroPython links
 
 ## Hardware
 * Arch Mix
-  * A new _powerful_ board based on the NXP i.MX RT1052 (Cortex M7, 600MHz!) has been [announced](https://www.seeedstudio.com/blog/2019/03/07/all-new-arch-mix-development-board-on-newproductstuesday-seeed/)
+  * A new **powerful** board based on the NXP i.MX RT1052 (Cortex M7, 600MHz!) has been [announced](https://www.seeedstudio.com/blog/2019/03/07/all-new-arch-mix-development-board-on-newproductstuesday-seeed/)
   * Rich set of peripherals, relatively small (67mm x 39 mm)
   * MicroPython apparently available already 
   * _Very_ affordable at US$30, [available now from Seeed](https://www.seeedstudio.com/Arch-Mix-p-2901.html)
@@ -18,7 +18,7 @@ Collection of recent MicroPython links
     * Small; 48x21x14mm, same size as current models
     * But _more hardware_: Colour 80x160 LCD, 6-axis IMU, microphone, 2x buttons, Grove port, 80mAH battery and 8-pin external header
 * [SparkFun ESP32 Thing Plus](https://www.sparkfun.com/products/14689)
-  * A new ESP32 board from Sparkfun in the *Adafruit Feather form-factor*
+  * A new ESP32 board from Sparkfun in the **Adafruit Feather form-factor**
     * Builds on Sparkfun's older ESP32 Thing
   * Qwiic connecter, 16MB flash, battery charge circuit
   * US$21

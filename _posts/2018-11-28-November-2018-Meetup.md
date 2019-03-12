@@ -81,6 +81,6 @@ It doesn't - yet - run MicroPython but it could be a good fit for a port. We wer
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/Xcm6kVhIrJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Damien Geroge on Threads in MicroPython
+## Damien George on Threads in MicroPython
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/aDXgX0rGVDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

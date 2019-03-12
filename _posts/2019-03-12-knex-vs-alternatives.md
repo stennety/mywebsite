@@ -113,8 +113,35 @@ assert(client.query.calledWith([
 assert.equal(id, '5')
 ```
 
+## Alternative: SQL tagged template literal
+
+Coming with ES6 the tagged template literals are a powerful new feature to define strings with values needs to be processed which perfectly fits into the requirements of a query builder.
+
+The example by using SQL tag:
+```javascript
+const url = 'url'
+const id = (await client.query(
+  sql`INSERT INTO urls (url) VALUES (${url}) RETURNING ('id')`
+)).rows[0].id
+```
+
+The pros of this approach:
+* The automatic tests are as simple as using directly SQL queries
+* It's not needed to care about the positioning of the values in the statements
+* Syntax highlighting for SQL inside the string is possible
+* With additional tags it's really powerful also for complex value types and nested queries
+
+It's also very easy to build smart helpers on top of the SQL tag:
+
+```javascript
+const url = 'url'
+const id = await client.insert('urls', { url })
+```
+
+So this really helps if a service use complex or often SQL queries without loosing the full control over the database driver (it's still `pg`'s native `client.query`) and without an oversized library.
+
 ## Recommendation
 
 * `knex.js` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
-* If there is advanced / heavy usage of SQL in a service needed, have a look at SQL tagged template literals (for an example see https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5 or [slonik](https://www.npmjs.com/package/slonik)
+* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5 or [slonik](https://www.npmjs.com/package/slonik)

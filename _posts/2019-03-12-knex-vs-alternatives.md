@@ -42,7 +42,7 @@ For more commands and their descriptions see: [https://knexjs.org/#Migrations-CL
 
 ## Query builder
 
-That’s the part where the discussions and the cons of `knex.js` start. As base for discussions it’s good to have a look at this article https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c (thx for [gajus](https://github.com/gajus) for the article and his library [slonik](https://www.npmjs.com/package/slonik) which inspired me to spend time into this topic).
+That’s the part where the discussions and the cons of `knex.js` start. As base for discussions it’s good to have a look at this article [https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c](https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c) (thx for [gajus](https://github.com/gajus) for the article and his library [slonik](https://www.npmjs.com/package/slonik) which inspired me to spend time into this topic).
 
 The cons which are well described:
 * SQL is a well known language, the syntax of `knex.js` needs to be learned on top of that. That makes it hard to think / prototype in plain SQL and then switch to the `knex.js` query building syntax. Also it makes it hard to read later on

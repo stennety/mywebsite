@@ -46,7 +46,7 @@ That’s the part where the discussions and the cons of `knex.js` start. As base
 
 The cons which are well described:
 * SQL is a well known language, the syntax of `knex.js` needs to be learned on top of that. That makes it hard to think / prototype in plain SQL and then switch to the `knex.js` query building syntax. Also it makes it hard to read later on
-* `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different (e.g. the definition of an insert statement if need the increment ID a `.returning('id')` is needed for `pg` and the result object structure is different because it's the native structure of the database driver)
+* `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different (e.g. insert statement returning the incremental via `.returning('id')` in `pg`. Also the result object structure is different because it's the native structure of the database driver)
 * On top of that the heavy use of the fluent interface makes it really hard to write mocks for automatic tests
 
 An example use case inserting a row and give the insert ID back:
@@ -143,4 +143,4 @@ So this really helps if a service use complex or often SQL queries without loosi
 
 * `knex.js` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
-* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5](https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5) or [slonik](https://www.npmjs.com/package/slonik)
+* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5](https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5) or [slonik](https://www.npmjs.com/package/slonik))

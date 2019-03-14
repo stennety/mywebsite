@@ -46,7 +46,9 @@ That’s the part where the discussions and the cons of `knex.js` start. As base
 
 The cons which are well described:
 * SQL is a well known language, the syntax of `knex.js` needs to be learned on top of that. That makes it hard to think / prototype in plain SQL and then switch to the `knex.js` query building syntax. Also it makes it hard to read later on
-* `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different (e.g. insert statement returning the incremental via `.returning('id')` in `pg`. Also the result object structure is different because it's the native structure of the database driver)
+* `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different, e.g.:
+  * Insert statement returning the incremental via `.returning('id')` in `pg`
+  * The result object structure is different because it's the native structure of the database driver
 * On top of that the heavy use of the fluent interface makes it really hard to write mocks for automatic tests
 
 An example use case inserting a row and give the insert ID back:

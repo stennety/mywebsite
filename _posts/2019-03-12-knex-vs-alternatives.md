@@ -15,7 +15,6 @@ Here `knex.js` really shines. The setup with the `knexfile.js` and the commands 
 
 An example `knexfile.js`:
 ```javascript
-require('@7tv-packages/env')
 module.exports = {
   client: 'pg',
   connection: process.env.DATABASE_URL
@@ -24,7 +23,7 @@ module.exports = {
 
 The commands used via `npx`:
 * Create a new migration file: `npx knex migrate:make migration_name`
-  Example migration (for more schema documentation see https://knexjs.org/#Schema):
+  Example migration (for more schema documentation see [https://knexjs.org/#Schema](https://knexjs.org/#Schema)):
   ```javascript
   module.exports.up = knex => knex.schema.createTable('users', table => {
     table.increments()
@@ -39,7 +38,7 @@ The commands used via `npx`:
   ```
 * Migrate to the latest schema: `npx knex migrate:latest`
 
-For more commands and their descriptions see: https://knexjs.org/#Migrations-CLI
+For more commands and their descriptions see: [https://knexjs.org/#Migrations-CLI](https://knexjs.org/#Migrations-CLI)
 
 ## Query builder
 
@@ -144,4 +143,4 @@ So this really helps if a service use complex or often SQL queries without loosi
 
 * `knex.js` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
-* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5 or [slonik](https://www.npmjs.com/package/slonik)
+* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5](https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5) or [slonik](https://www.npmjs.com/package/slonik)

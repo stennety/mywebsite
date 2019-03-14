@@ -49,7 +49,8 @@ The cons which are well described:
 * `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different, e.g.:
   * Insert statement returning the incremental via `.returning('id')` in `pg`
   * The result object structure is different because it's the native structure of the database driver
-* On top of that the heavy use of the fluent interface makes it really hard to write mocks for automatic tests
+
+On top of that the heavy use of the fluent interface makes it really hard to write mocks for automatic tests.
 
 An example use case inserting a row and give the insert ID back:
 ```javascript

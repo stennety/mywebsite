@@ -10,7 +10,7 @@ Collection of recent MicroPython links
 * [TinyPICO Coming Soon page](https://www.crowdsupply.com/unexpected-maker/tinypico) now online!
   * Seon and Matt expect the campaign to go live soon...
 * Cross-platform Bluetooth support [PR #4589](https://github.com/micropython/micropython/pull/4589)
-  * Long awaied support for Bluetooth finally starting to appear - still early days
+  * Long awaited support for Bluetooth finally starting to appear - still early days
   * Basic advertising support working on ESP32, nRF5x, micro:bit ports - with PyBoard D coming soon
 
 ## Hardware
@@ -27,11 +27,11 @@ Collection of recent MicroPython links
 * Sipeed MAIX
   * [MNIST demo](https://www.youtube.com/watch?v=WhJuCODEfpQ&feature=youtu.be)
     * The classic neural net - detect numbers from handwriting. FAST.
-  * NES demo
+  * Spectacular NES emulator (in MicroPython) demo
     * Tutorial at [RobotZeroOne](https://robotzero.one/micropython-nes-emulator-on-a-risc-v-64-processor/)
     * Awesome [video](https://www.youtube.com/watch?v=el6CB-h9Lo0)
 
 ## Misc
 * [Deshipu](https://twitter.com/deshipu) [announced](https://twitter.com/deshipu/status/1107361785068306432) that he's created a [mailing list for Pew Pew users](https://mail.python.org/mailman3/lists/pewpew.python.org/)
 * Ray Ozzie is [using Python on embedded devices](https://twitter.com/rozzie/status/1106531501317992448)!
-  * And immediately laments that the libraries alread differ between CircuitPython, MicroPython and Linux... :(
+  * And immediately laments that the libraries already differ between CircuitPython, MicroPython and Linux... :(

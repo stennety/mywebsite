@@ -34,4 +34,4 @@ Collection of recent MicroPython links
 ## Misc
 * [Deshipu](https://twitter.com/deshipu) [announced](https://twitter.com/deshipu/status/1107361785068306432) that he's created a [mailing list for Pew Pew users](https://mail.python.org/mailman3/lists/pewpew.python.org/)
 * Ray Ozzie is [using Python on embedded devices](https://twitter.com/rozzie/status/1106531501317992448)!
-  * And instantly laments that the libraries alread differ between CircuitPython, MicroPython and Linux... :(
+  * And immediately laments that the libraries alread differ between CircuitPython, MicroPython and Linux... :(

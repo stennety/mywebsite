@@ -146,4 +146,4 @@ So this really helps if a service use complex or often SQL queries without loosi
 
 * `knex.js` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
-* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [sql-pg](https://www.npmjs.com/package/sql-pg) or [slonik](https://www.npmjs.com/package/slonik))
+* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [sql-pg](https://www.npmjs.com/package/sql-pg) with [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper) or [slonik](https://www.npmjs.com/package/slonik))

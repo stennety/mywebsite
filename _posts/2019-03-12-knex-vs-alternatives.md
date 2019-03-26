@@ -119,7 +119,7 @@ assert.equal(id, '5')
 
 Coming with ES6 the tagged template literals are a powerful new feature to define strings with values needs to be processed which perfectly fits into the requirements of a query builder.
 
-The example by using SQL tag (supported by [sql-pg](https://www.npmjs.com/package/sql-pg)):
+The example by using SQL tag, supported by [sql-pg](https://www.npmjs.com/package/sql-pg):
 ```javascript
 const url = 'url'
 const id = (await client.query(
@@ -133,7 +133,7 @@ The pros of this approach:
 * Syntax highlighting for SQL inside the string is possible
 * With additional tags it's really powerful also for complex value types and nested queries
 
-It's also very easy to build smart helpers on top of the SQL tag (supported by [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper)):
+It's also very easy to build smart helpers on top of the SQL tag, supported by [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper):
 
 ```javascript
 const url = 'url'
@@ -146,4 +146,4 @@ So this really helps if a service use complex or often SQL queries without loosi
 
 * `knex.js` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
-* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals (e.g. [sql-pg](https://www.npmjs.com/package/sql-pg) with [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper) or [slonik](https://www.npmjs.com/package/slonik))
+* If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals, e.g. [sql-pg](https://www.npmjs.com/package/sql-pg) (with [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper)) or [slonik](https://www.npmjs.com/package/slonik)

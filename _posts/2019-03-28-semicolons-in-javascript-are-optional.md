@@ -50,15 +50,13 @@ In both error scenarios the [automatically insertion of the semicolons](http://i
 
 So let's have a look at the two error scenarios which works with a manually added semicolon.
 
-### Immediately executing anonymous function
-
+Immediately executing anonymous function:
 ```javascript
 console.log('example')
 ;(async () => {})()
 ```
 
-### Destructioning
-
+Destructioning:
 ```javascript
 let a, b
 const c = [1, 2]

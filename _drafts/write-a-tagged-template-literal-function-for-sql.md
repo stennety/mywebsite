@@ -39,26 +39,23 @@ client.query(sql`
 // parameters: [5, 'new name']
 ```
 
-But after that I started to think about some extensions...
+But after that I started to think about some requirements which are also needed...
 
 ## Tag helpers
 
-Not all dynamic parts of a SQL query are variables. Especially table and column names, limits and offsets needs to be supported. And also more complex structures like lists of variables or table and column names.
+Not all dynamic parts of a SQL query are variables. Especially table and column names, limits and offsets needs to be supported. And also more complex structures like lists of variables, pairs of column names and values and so on.
 
-So we need a convention how to support that parts. So in the tag function I assume objects are complex parts which has already `text` and `parameters` to take over:
-...
+So we need a convention how to support that parts. So in the tag function I assume objects are complex parts which has already `text` and `parameters` to take over and tag helpers producing them:
+```javascript
+  // TODO
+```
 
 ### Table and column names
 
 [`pg`](https://www.npmjs.com/package/pg) doesn't have a function to escape table and column names. But fortunately it's not that complicated, we only need to care about `"`:
-
 ```javascript
-function escapeKey (key) {
-  return `"${key.replace(/"/g, '""')}"`
-}
-
 sql.key = key => ({
-  text: escapeKey(key),
+  text: key.replace(/"/g, '""'),
   parameters: []
 })
 

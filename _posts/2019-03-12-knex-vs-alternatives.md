@@ -6,12 +6,12 @@ title: Knex vs alternatives
 Working in code with a relational database can be done in different abstraction forms from writing SQL queries over using a query builder to completely abstract the type of the database by using an ORM.
 But it's not only querying a database, also migration scripts needs to be defined and managed.
 
-So let's have a critical look at [knex.js](https://knexjs.org/), where is it worth to use, where not and what are the alternatives.
+So let's have a critical look at [knex](https://knexjs.org/), where is it worth to use, where not and what are the alternatives.
 <!--more-->
 
 ## Migrations
 
-Here `knex.js` really shines. The setup with the `knexfile.js` and the commands are easy and the migrations with the definition of the schema table and their changes are readable and works smoothly. So there is no reason not to use it.
+Here `knex` really shines. The setup with the `knexfile.js` and the commands are easy and the migrations with the definition of the schema table and their changes are readable and works smoothly. So there is no reason not to use it.
 
 An example `knexfile.js`:
 ```javascript
@@ -42,11 +42,11 @@ For more commands and their descriptions see: [https://knexjs.org/#Migrations-CL
 
 ## Query builder
 
-That’s the part where the discussions and the cons of `knex.js` start. As base for discussions it’s good to have a look at this article [https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c](https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c) (thx for [gajus](https://github.com/gajus) for the article and his library [slonik](https://www.npmjs.com/package/slonik) which inspired me to spend time into this topic).
+That’s the part where the discussions and the cons of `knex` start. As base for discussions it’s good to have a look at this article [https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c](https://medium.com/@gajus/stop-using-knex-js-and-earn-30-bf410349856c) (thx for [gajus](https://github.com/gajus) for the article and his library [slonik](https://www.npmjs.com/package/slonik) which inspired me to spend time into this topic).
 
 The cons which are well described:
-* SQL is a well known language, the syntax of `knex.js` needs to be learned on top of that. That makes it hard to think / prototype in plain SQL and then switch to the `knex.js` query building syntax. Also it makes it hard to read later on
-* `knex.js` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex.js` is different, e.g.:
+* SQL is a well known language, the syntax of `knex` needs to be learned on top of that. That makes it hard to think / prototype in plain SQL and then switch to the `knex` query building syntax. Also it makes it hard to read later on
+* `knex` is NOT an abstraction layer. It’s not easily possible to move from e.g. `sqlite` to `pg` because the API of `knex` is different, e.g.:
   * Insert statement returning the incremental via `.returning('id')` in `pg`
   * The result object structure is different because it's the native structure of the database driver
 
@@ -144,6 +144,6 @@ So this really helps if a service use complex or often SQL queries without loosi
 
 ## Recommendation
 
-* `knex.js` for migration scripts
+* `knex` for migration scripts
 * `pg` for writing SQL and testing the `client.query` calls
 * If there are complex / often use of SQL queries in a service, have a look at SQL tagged template literals, e.g. [sql-pg](https://www.npmjs.com/package/sql-pg) (with [sql-pg-helper](https://www.npmjs.com/package/sql-pg-helper)) or [slonik](https://www.npmjs.com/package/slonik)

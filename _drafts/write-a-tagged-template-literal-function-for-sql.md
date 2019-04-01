@@ -5,7 +5,7 @@ layout: post
 title: Write a tagged template literal function for SQL
 ---
 
-After I searched for alternatives to [knex.js](https://knexjs.org/) and discover the new feature of the [tagged template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates) and an example usage of them for sql queries in [slonik](https://www.npmjs.com/package/slonik), I wanted to understand the usability of them by writing an own tagged template literal function.
+After I searched for alternatives to [knex](https://knexjs.org/) and discover the new feature of the [tagged template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates) and an example usage of them for sql queries in [slonik](https://www.npmjs.com/package/slonik), I wanted to understand the usability of them by writing an own tagged template literal function.
 
 This came with a few unexpected stumbling blocks but at the end it resulted in the [sql-pg](https://www.npmjs.com/package/sql-pg) library only for this responsibility which also solves problems [slonik](https://www.npmjs.com/package/slonik) has and can be used together with [`pg`](https://www.npmjs.com/package/pg).
 <!--more-->
@@ -36,14 +36,10 @@ client.query(sql`
 `)
 
 // text: 'UPDATE users SET name = $1 WHERE id = $2'
-// parameters: [ 5, 'new name' ]
+// parameters: [5, 'new name']
 ```
 
-But after that I started to think about some extensions.
-
-## Nested queries
-
-...
+But after that I started to think about some extensions...
 
 ## Tag helpers
 
@@ -56,7 +52,7 @@ So we need a convention how to support that parts. So in the tag function I assu
 
 [`pg`](https://www.npmjs.com/package/pg) doesn't have a function to escape table and column names. But fortunately it's not that complicated, we only need to care about `"`:
 
-```
+```javascript
 function escapeKey (key) {
   return `"${key.replace(/"/g, '""')}"`
 }
@@ -65,6 +61,19 @@ sql.key = key => ({
   text: escapeKey(key),
   parameters: []
 })
+
+const table = 'users'
+
+client.query(sql`
+  SELECT * FROM ${sql.key(table)}
+`)
+
+// text: 'SELECT * FROM "users"'
+// parameters: []
 ```
+
+## Nested queries
+
+...
 
 ## Summary

@@ -46,6 +46,8 @@ title: Favorite Podcasts 2019
 
 A few that were recommended to me but that I haven't had a chance to check out yet.
 
+- [In the Dark](https://www.apmreports.org/in-the-dark)
+- [Blackout](https://itunes.apple.com/us/podcast/blackout/id1447513097?mt=2&uo=4&at=10lwHC&app=music)
 - [Soonish](https://www.soonishpodcast.org/)
 - [Freak Out and Carry On](http://www.wbur.org/freakout)
 - [The British History Podcast - A Chronological History of Britain](https://www.thebritishhistorypodcast.com/)

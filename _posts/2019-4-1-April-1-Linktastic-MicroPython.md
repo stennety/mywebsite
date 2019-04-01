@@ -37,9 +37,9 @@ Collection of recent MicroPython links
   * Designed for exploring music hardware
   * Doesn't yet run Python on the micro but it's only a matter of time...
   
-** M5Stick
+## M5Stick
 ![M5StickC](https://ae01.alicdn.com/kf/HTB1gnOlOW6qK1RjSZFmq6x0PFXao/New-Arrival-2019-M5StickC-ESP32-PICO-Mini-IoT-Development-Board-Finger-Computer-with-Color-LCD.jpg_640x640.jpg)
-* The recently announced [M5StickC](https://www.aliexpress.com/store/product/New-Arrival-2019-M5StickC-ESP32-PICO-Mini-IoT-Development-Board-Finger-Computer-with-Color-LCD/3226069_32985247364.html?spm=a2g1y.12024536.productList_5885013.pic_1) has a reviewby [Sachin Soni](https://twitter.com/IMtechiesms/status/1112181935038578688): [A Finger Computer](https://www.youtube.com/watch?v=0cn1dcygGRY&feature=youtu.be)
+* The recently announced [M5StickC](https://www.aliexpress.com/store/product/New-Arrival-2019-M5StickC-ESP32-PICO-Mini-IoT-Development-Board-Finger-Computer-with-Color-LCD/3226069_32985247364.html?spm=a2g1y.12024536.productList_5885013.pic_1) has a review by [Sachin Soni](https://twitter.com/IMtechiesms/status/1112181935038578688): [A Finger Computer](https://www.youtube.com/watch?v=0cn1dcygGRY&feature=youtu.be)
 * M5Stack also published a massive video with dozens (hundreds?) of [projects built with their devices](https://twitter.com/M5Stack/status/1112359128020733952)
   * Hopefully links to at least some of the projects will appear at some point!
   

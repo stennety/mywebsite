@@ -25,7 +25,7 @@ Collection of recent MicroPython links
 ## Sipeed MAIX news
 ![SipeedMaixMmu](https://img.youtube.com/vi/kPpH_cA83-I/0.jpg)
 ![SipeedGroveHat](https://github.com/SeeedDocument/Seeed_Blog/raw/master/Grove%20AI%20HAT%20for%20Edge%20Computing%20and%20Raspberry%20Pi/1.jpg)
-* The [SiPeed MAIX MMU is now working}(https://twitter.com/SipeedIO/status/1112336713584660480)
+* The [SiPeed MAIX MMU is now working](https://twitter.com/SipeedIO/status/1112336713584660480)
   * It allows the new dual-core RISC-V microcontroller to access large memory banks, treating secondary storage as RAM
   * Makes it even possible to run Linux on the device...
 * Sipeed also released a couple of MicroPython MaixPy demos - [face detection](https://twitter.com/SipeedIO/status/1109508131812343808) and [MNIST number detection](https://twitter.com/SipeedIO/status/1109411295890030592)  

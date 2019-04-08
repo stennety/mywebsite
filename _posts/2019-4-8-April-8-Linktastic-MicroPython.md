@@ -26,3 +26,10 @@ Collection of recent MicroPython links
 * [Miguel Grinberb](https://twitter.com/miguelgrinberg) tweeted that [MicroPython is so fun!](https://twitter.com/miguelgrinberg/status/1113874947255021571)
 * Miguel is a [prolific author of many excellent Python tutorials](https://blog.miguelgrinberg.com/), particularly using Flask
 * We can fully expect _dozens_ of MicroPython tutorials to appear ;)
+
+## PyCon AU 2019
+![PyConPython](https://2019.pycon-au.org/static/img/header-rainbow.png)
+* PyCon AU has recently announced their [Call for Proposals](https://2019.pycon-au.org/speak/)
+  * If you'd like to talk at PyCon AU - and I recommend it! - go register to give a talk
+  * If you're keen to talk about MicroPython let me know and I'll help out :)
+  * I'm considering register for a [Deep Dive](https://2019.pycon-au.org/news/deep-dive-talks/)...

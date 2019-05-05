@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Event Listener using the Java SDK
+tags: hyperledger fabric v1.0 events listener
 ---
 
 In this post, we'll walk through an event listener within the Java SDK paradigm.
 
-This post is an extension to the [previous](https://chaitanyakr.github.io/JavaSDK/) one, whereby I had walked through what APIs could be used to connect the Java SDK to an existing Fabric network. For this post, I'll be creating an event listener and tying it up with an existing network. (which can be brought up, using intsructions  from the previous post)
+This post is an extension to the [previous]({{ site.baseurl }}{% link _posts/2017-9-5-JavaSDK.md %}) one, whereby I had walked through what APIs could be used to connect the Java SDK to an existing Fabric network. For this post, I'll be creating an event listener and tying it up with an existing network. (which can be brought up, using intsructions  from the previous post)
 
 ### Types of events:
 For the purpose of this post, we're only concerned with channel-based events. There exist three types of such events:

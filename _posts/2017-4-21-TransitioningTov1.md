@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hyperledger Fabric transitions to version 1.0
+tags: hyperledger fabric v1.0 smartcontracts chaincode
 ---
 
 This piece addresses those of you out there, who've been swept off by the Blockchain buzz; particularly those who got their hands dirty with everything pivoted around the words- consensus, distributed ledger, smart contracts and so on.

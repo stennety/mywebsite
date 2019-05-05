@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Hyperledger Fabric and the JavaSDK
+tags: hyperledger fabric v1.0 JavaSDK 
 ---
 
-In this post, I shall shed some light on the Java SDK for Hyperledger Fabric. We'll begin with a brief mention of the `v0.6` SDK (for consistency with my [previous post](https://chaitanyakr.github.io/TransitioningTov1/)) and then we'll dive into `v1.0`.
+In this post, I shall shed some light on the Java SDK for Hyperledger Fabric. We'll begin with a brief mention of the `v0.6` SDK (for consistency with my [previous post]({{ site.baseurl }}{% link _posts/2017-4-21-TransitioningTov1.md %})) and then we'll dive into `v1.0`.
 
 One of the easy ways to get a platform easily adopted and developed is to keep the learning curve associated with it simple. One way to do so, is by providing support for existing popular languages. Hyperledger Fabric offers a number of SDKs for a wide variety of programming languages. There exist SDKs in [Java](https://github.com/hyperledger/fabric-sdk-java), [Node](https://github.com/hyperledger/fabric-sdk-node), [Python](https://github.com/hyperledger/fabric-sdk-py) and [Golang](https://github.com/hyperledger/fabric-sdk-go) so far.
 

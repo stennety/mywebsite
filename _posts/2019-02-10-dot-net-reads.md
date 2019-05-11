@@ -6,7 +6,7 @@ tags: .net dotnet Visual Studio C# VisualStudio Open Source
 comments: true
 ---
 # .net reads
-## What's .net reads?
+## What is .net reads?
 .net (dotnet) reads is some kind of monthly writting topic that I would to like to do on my personal web page. I'll try to write a few more times to share with you something about the .net ecossystem that I might find interesting and that some other people that I know/follow may be also writing about.
 
 ## .NET Core 3.0 Preview

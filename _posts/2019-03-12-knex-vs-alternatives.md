@@ -133,6 +133,17 @@ The pros of this approach:
 * Syntax highlighting for SQL inside the string is possible
 * With additional tags it's really powerful also for complex value types and nested queries
 
+But wait, is it not highly vulnerable for SQL injection if forgetting the tag?
+Yes. That's the reason a SQL tag should provide an own `.query()` function to check these before give `pg`'s native `client.query` the query:
+```javascript
+const url = 'url'
+const id = (await sql.query(
+  sql`INSERT INTO urls (url) VALUES (${url}) RETURNING ('id')`
+)).rows[0].id
+```
+
+By using the combination of SQL tag and own `.query()` function it's basically not possible to have SQL injections.
+
 It's also very easy to build smart helpers on top of the SQL tag:
 
 ```javascript

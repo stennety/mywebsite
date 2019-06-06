@@ -47,7 +47,7 @@ And if the user with the ID 1 is an admin, the attacker can to a password forget
 ### Parameters
 
 To solve that kind of security issues all values which are not hardcoded in the SQL query needs to be escaped. DB drivers should provide own solution for that, so it's recommended to use that and never building an own solution.
-For PostgreSQL parameters are the way to go: using placeholders in the SQL query, send the values separately and the database will care about the escaping.
+For PostgreSQL parameters are the way to go: using placeholders in the SQL query, send the values separately and the database will handle them securely.
 
 e.g. Update email of an user:
 ```javascript

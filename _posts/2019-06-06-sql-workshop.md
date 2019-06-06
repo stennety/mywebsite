@@ -157,19 +157,17 @@ SELECT * FROM "Users"
 
 -- good
 SELECT * FROM users
-
--- not recommended, but if the identifiers are lowercased and "" aren't used, casing doesn't matter
-SELECT * FROM UsErS
 ```
 
 ### Never INSERT INTO without columns
 
 ```sql
 -- bad
-INSERT INTO users VALUES (null, 'sharaal@example.com', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+INSERT INTO users VALUES
+  (null, 'sharaal@example.com', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
 
--- Not possible to omit columns with default values (e.g. id, created_at, updated_at)
--- It will break if there are changes in the table schema like adding/removing columns, also if they are not needed to be explicit used here
+-- Not possible to omit columns with default values
+-- It will break if there are changes in the table schema
 
 -- good
 INSERT INTO users (email) VALUES ('sharaal@example.com')

@@ -47,6 +47,7 @@ And if the user with the ID 1 is an admin, the attacker can to a password forget
 ### Parameters
 
 To solve that kind of security issues all values which are not hardcoded in the SQL query needs to be escaped. DB drivers should provide own solution for that, so it's recommended to use that and never building an own solution.
+
 For PostgreSQL parameters are the way to go: using placeholders in the SQL query, send the values separately and the database will handle them securely.
 
 e.g. Update email of an user:
@@ -66,8 +67,7 @@ That's all. Follow these and never have security issues because of SQL Injection
 
 ### Identifiers (table/column names)
 
-Because of technical reasons (changed query paths), placeholders we use for values are not allowed for identifiers.
-Also here different databases has different solutions to solve these, some just don't have any.
+Because of technical reasons (changed query paths), placeholders we use for values are not allowed for identifiers. Also here different databases has different solutions to solve these, some just don't have any.
 
 PostgreSQL is one of the database don't have a solution, but a well documented format of identifiers, so we can easily write an own escape function:
 ```javascript

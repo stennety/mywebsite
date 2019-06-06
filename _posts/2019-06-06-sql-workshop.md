@@ -47,7 +47,7 @@ And if the user with the ID 1 is an admin, the attacker can to a password forget
 ### Parameters
 
 To solve that kind of security issues all values which are not hardcoded in the SQL query needs to be escaped. DB drivers should provide own solution for that, so it's recommended to use that and never building an own solution.
-For PostgreSQL parameters are the way to go. Using placeholders in the SQL query and send the values separately and the database will care about the escaping.
+For PostgreSQL parameters are the way to go: using placeholders in the SQL query, send the values separately and the database will care about the escaping.
 
 e.g. Update email of an user:
 ```javascript
@@ -64,7 +64,7 @@ app.post('/users/email', async (req, res) => {
 
 That's all. Follow these and never have security issues because of SQL Injections.
 
-### Identifiers
+### Identifiers (table/column names)
 
 Because of technical reasons (changed query paths), placeholders we use for values are not allowed for identifiers.
 Also here different databases has different solutions to solve these, some just don't have any.
@@ -93,7 +93,7 @@ app.post('/users/email', async (req, res) => {
 })
 ```
 
-## Additionally solution: SQL Tagged Template Literal
+## Additional Solution: SQL Tagged Template Literal
 
 With ES6 tagged template literals was introduced and can be used to build sql queries. The user email example using them would look like:
 ```javascript
@@ -120,7 +120,7 @@ The sql tag handles the splitting of the query and the values automatically and 
 ### Timestamps
 
 - Always have a `created_at` column automatically filled with the current timestamp if inserting new rows and a `updated_at` column automatically filled with the current timestamp if inserting new rows or updating existing ones
-- Special solution for PostgreSQL needed
+- `updated_at` needs a special solution for PostgreSQL (custom function + trigger)
 
 ### Indices
 

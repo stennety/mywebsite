@@ -6,15 +6,16 @@ title: SQL Workshop
 Because of security issues I did a very small SQL workshop in my company focused on SQL Injections. So I explain them what they are, what the issues are and how to ensure not having any issues with them. Also some more topics in a rough walkthrough like proper database design and some best practices.
 <!--more-->
 
-## Injection
+## SQL Injection
 
 SQL Injection means to change the expected behaviour of a SQL query by sending parts of the SQL query instead of only values and can always be done if the values are not right escaped. It's the number one reason of all security problems out in the world.
 
 e.g. Update email of an user:
 ```javascript
 app.post('/users/email', async (req, res) => {
-  const newEmail = req.body.newEmail
-  await db.query(`UPDATE users SET email = '${newEmail}' WHERE id = ${req.user.id}`)
+  const email = req.body.email
+  const id = req.user.id
+  await db.query(`UPDATE users SET email = '${email}' WHERE id = ${id}`)
   res.sendStatus(204)
 })
 ```
@@ -22,7 +23,7 @@ app.post('/users/email', async (req, res) => {
 The expected behaviour if there is a post which contains:
 ```json
 {
-  "newEmail": "sharaal@example.com"
+  "email": "sharaal@example.com"
 }
 ```
 works fine.
@@ -30,7 +31,7 @@ works fine.
 But what happens if there is an attacker trying some injection by sending:
 ```json
 {
-  "newEmail": "attacker@example.com' WHERE id = 1 --"
+  "email": "attacker@example.com' WHERE id = 1 --"
 }
 ```
 
@@ -49,10 +50,11 @@ For PostgreSQL parameters are the way to go. Using placeholders in the SQL query
 e.g. Update email of an user:
 ```javascript
 app.post('/users/email', async (req, res) => {
-  const newEmail = req.body.newEmail
+  const email = req.body.email
+  const id = req.user.id
   await db.query(
     `UPDATE users SET email = $1 WHERE id = $2`,
-    [newEmail, req.user.id]
+    [email, id]
   )
   res.sendStatus(204)
 })
@@ -76,13 +78,14 @@ Every `"` will be replaced by `""` to be escaped an the identifier is surrounded
 
 So if the table name should be dynamically in the user email example, it will looks like:
 ```javascript
-const usersTableName = 'users'
+const tableName = 'users'
 
 app.post('/users/email', async (req, res) => {
-  const newEmail = req.body.newEmail
+  const email = req.body.email
+  const id = req.user.id
   await db.query(
-    `UPDATE ${escapeIdentifier(usersTableName)} SET email = $1 WHERE id = $2`,
-    [newEmail, req.user.id]
+    `UPDATE ${escapeIdentifier(tableName)} SET email = $1 WHERE id = $2`,
+    [email, id]
   )
   res.sendStatus(204)
 })
@@ -92,11 +95,14 @@ app.post('/users/email', async (req, res) => {
 
 With ES6 tagged template literals was introduced and can be used to build sql queries. The user email example using them would look like:
 ```javascript
-const usersTableName = 'users'
+const tableName = 'users'
 
 app.post('/users/email', async (req, res) => {
-  const newEmail = req.body.newEmail
-  await sql.query(sql`UPDATE ${sql.key(usersTableName)} SET email = ${newEmail} WHERE id = ${req.user.id}`)
+  const email = req.body.email
+  const id = req.user.id
+  await sql.query(
+    sql`UPDATE ${sql.key(tableName)} SET email = ${email} WHERE id = ${id}`
+  )
   res.sendStatus(204)
 })
 ```

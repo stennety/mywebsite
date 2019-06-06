@@ -120,7 +120,27 @@ The sql tag handles the splitting of the query and the values automatically and 
 ### Timestamps
 
 - Always have a `created_at` column automatically filled with the current timestamp if inserting new rows and a `updated_at` column automatically filled with the current timestamp if inserting new rows or updating existing ones
-- `updated_at` needs a special solution for PostgreSQL (custom function + trigger)
+
+`updated_at` needs a special solution for PostgreSQL:
+
+Custom function:
+```sql
+CREATE OR REPLACE FUNCTION on_update_timestamp()
+  RETURNS trigger AS $$
+  BEGIN
+    NEW.updated_at = now();
+    RETURN NEW;
+  END;
+  $$ language 'plpgsql'
+```
+
+Trigger for every table, e.g. users:
+```sql
+CREATE TRIGGER users_updated_at
+  BEFORE UPDATE ON users
+  FOR EACH ROW
+  EXECUTE PROCEDURE on_update_timestamp()
+```
 
 ### Indices
 

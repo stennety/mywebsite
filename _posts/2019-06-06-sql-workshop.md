@@ -179,3 +179,4 @@ INSERT INTO users (email) VALUES ('sharaal@example.com')
 
 - Evaluate and use solutions for migrations and querying in services separately
 - e.g. `knex` for migrations, `pg` for querying in services
+- Think about query builder if the queries become more complex with the native `pg` use

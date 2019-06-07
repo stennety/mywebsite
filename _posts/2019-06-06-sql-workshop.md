@@ -13,6 +13,7 @@ So I explain them what they are, what the issues are and how to ensure not havin
 SQL Injection means to change the expected behaviour of a SQL query by sending parts of the SQL query instead of only values and can always be done if the values are not right escaped. It's the number one reason of all security problems out in the world.
 
 e.g. Update email of an user:
+
 ```javascript
 app.post('/users/email', async (req, res) => {
   const email = req.body.email
@@ -23,14 +24,17 @@ app.post('/users/email', async (req, res) => {
 ```
 
 The expected behaviour if there is a post which contains:
+
 ```json
 {
   "email": "sharaal@example.com"
 }
 ```
+
 works fine.
 
 But what happens if there is an attacker trying some injection by sending:
+
 ```json
 {
   "email": "attacker@example.com' WHERE id = 1 --"
@@ -38,6 +42,7 @@ But what happens if there is an attacker trying some injection by sending:
 ```
 
 In this case the SQL which is executed looks like:
+
 ```sql
 UPDATE users SET email = 'attacker@example.com' WHERE id = 1 --' WHERE id = 5
 ```
@@ -51,6 +56,7 @@ To solve that kind of security issues all values which are not hardcoded in the 
 For PostgreSQL parameters are the way to go: using placeholders in the SQL query, send the values separately and the database will handle them securely.
 
 e.g. Update email of an user:
+
 ```javascript
 app.post('/users/email', async (req, res) => {
   const email = req.body.email
@@ -70,6 +76,7 @@ That's all. Follow these and never have security issues because of SQL Injection
 Because of technical reasons (changed query paths), placeholders we use for values are not allowed for identifiers. Also here different databases has different solutions to solve these, some just don't have any.
 
 PostgreSQL is one of the database don't have a solution, but a well documented format of identifiers, so we can easily write an own escape function:
+
 ```javascript
 function escapeIdentifier (identifier) {
   return `"${identifier.replace(/"/g, '""')}"`
@@ -79,6 +86,7 @@ function escapeIdentifier (identifier) {
 Every `"` will be replaced by `""` to be escaped an the identifier is surrounded by `"`.
 
 So if the table name should be dynamically in the user email example, it will looks like:
+
 ```javascript
 const tableName = 'users'
 
@@ -96,6 +104,7 @@ app.post('/users/email', async (req, res) => {
 ## Additional Solution: SQL Tagged Template Literal
 
 With ES6 tagged template literals was introduced and can be used to build sql queries. The user email example using them would look like:
+
 ```javascript
 const tableName = 'users'
 
@@ -124,6 +133,7 @@ The sql tag handles the splitting of the query and the values automatically and 
 `updated_at` needs a special solution for PostgreSQL:
 
 Custom function:
+
 ```sql
 CREATE OR REPLACE FUNCTION on_update_timestamp()
   RETURNS trigger AS $$
@@ -162,6 +172,7 @@ Different relations:
 ### Uppercased Keywords / Lowercased Identifier
 
 Easier to read if used consequent independently if syntax highlighting is available (e.g. in logs). e.g.:
+
 ```sql
 -- bad
 select * from users
@@ -173,6 +184,7 @@ SELECT * FROM users
 ### Always use lowercased identifier
 
 Even if it's possible, it's hard to work with identifiers having uppercased characters, e.g.:
+
 ```sql
 -- bad
 SELECT * FROM "Users"

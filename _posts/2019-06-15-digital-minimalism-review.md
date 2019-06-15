@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Digital Minimalism Review
 ---
 (This is adapted from a speech I'm going to give for Toastmasters that I thought I'd share here as well)
@@ -16,5 +16,4 @@ So, in essence, the problems I was trying to solve around my use of technology w
 
 These changes were all fairly recent, but I’m pleased so far with the results. I feel like I’m more productive, mindful, and present with people around me. Early on, I’d find myself wanting to know how many people liked a recent post I’d made, but then I’d remember that I didn’t have any social media apps on my phone. That pause was enough to give me room to realize that it didn’t matter. It’s amazing how easy it is to tame an impulse like that by just making things a little less accessible. Google did a recent study in which they found that employee consumption of M&Ms decreased by [3.1 million calories](https://www.washingtonpost.com/business/technology/google-crunches-data-on-munching-in-office/2013/09/01/3902b444-0e83-11e3-85b6-d27422650fd5_story.html?noredirect=on&utm_term=.df0baa8668fe) when they just placed them in opaque containers. I do still log into Facebook, but once every few days on my computer and mostly just to check events. As for messages, I learned that probably 99% of things are not as much of an emergency as I was treating them. Not responding right away has allowed me to concentrate on what I’m doing for longer periods of time, and I’ve felt much more productive at work. This is anecdotal, of course, but at the end of the day lately I’ve felt more relaxed. 
 
-In conclusion, the world is only getting more connected, not less. 5G networks are rolling out, Elon Musk is putting 12,000 Internet satellites into space as we speak, we all have more and more smart devices on our wrists and in our homes. There’s a lot of competition for our attention, and that’s only going to increase in the coming years. I’m glad I took the time to evaluate my relationship with technology, and while you don’t have to go to the extremes that I did, I encourage you to ask the same kinds of questions. 
-
+In conclusion, the world is only getting more connected, not less. 5G networks are rolling out, Elon Musk is putting 12,000 Internet satellites into space as we speak, we all have more and more smart devices on our wrists and in our homes. There’s a lot of competition for our attention, and that’s only going to increase in the coming years. I’m glad I took the time to evaluate my relationship with technology, and while you don’t have to go to the extremes that I did, I encourage you to ask the same kinds of questions.

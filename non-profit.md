@@ -4,7 +4,7 @@ title: Resources for non-profits
 permalink: /non-profit/
 ---
 
-There's a lot of generosity in tech ocmmunity to non-profits, and sometimes it's a little difficult to put all the items together. Even if you have a $5000 of free compute resources from a cloud provider, that doesn't actually translate into a website or backups or anything with actual mission value to a non-profit without some technical expertise. 
+There's a lot of generosity in tech community to non-profits, and sometimes it's a little difficult to put all the items together. Even if you have a $5000 of free compute resources from a cloud provider, that doesn't actually translate into a website or backups or anything with actual mission value to a non-profit without some technical expertise. 
 
 So here's my offer. If you're a 501(c)3 non-profit in the United States and need a little help getting things off the ground reach out to me and I'll help tie together a basic package of completely free tech resources together. You can give me the documentation, I'll get you a basic website and email together to get you off the ground.
 
@@ -24,10 +24,26 @@ Great, you're probably right. That doesn't mean that these tech companies have t
 
 But you say, that's such a stupid hassle for a brand new non-profit getting off the ground!
 
-Great, you're right. And that might mean that the best thing for your organization to do is get a free @gmail.com account and start serving people with imperfect tech. Many great non-profits started out without a website, email, or video conferencing. Particularly if you're just starting to explore the need that you're thinking needs to be met, you should explore that space before and get crisp on your mission before you worry about getting an official website.
+Great, you're right. And that might mean that the best thing for your organization to do is get a free @gmail.com account and start serving people with imperfect tech. Many great non-profits started out without a website, email, or live video streaming. Particularly if you're just starting to explore the need that you're thinking needs to be met, you should explore that space before and get crisp on your mission before you worry about getting an official website.
 
 ### You will need to support the technology
 
+Here's the other thing. I'm excited about giving new (or new to free technology) non-profits a push for a running start. I'm not excited about being a free IT guy for eternity. I'll get you a domain, a website and email up and running, which is most of the hard part. When it comes to adding new email accounts, adding a photo to a website or making an email newsletter you'll have to take care of that internal to your org.
 
+To use the pizza as a service metaphor in tech; tech companies will give you free ingredients, I'll make that into pizzas for you, but you'll need to throw it into the oven yourself. I'm a one person Papa Murphy's take and bake for technology, not a full service restaraunt.
+
+Alright, we on the same page? Here's what I can help throw together. Or just follow these links and do them yourself.
+## The Non-Profit Package I'll Help With
+You got your magic letter? Alright, let's go!
+
+#### Foundations: [TechSoup.org](https://www.techsoup.org/)
+
+My first step is to setup an account with you at TechSoup. They're a central clearing house for a bunch of other discountet things that you might find useful down the line, like [discounted mobile internet hotspots](https://www.techsoup.org/products/single-hotspot-for-mobile-beacon-4g-lte-internet-service-for-nonprofits--G-49861--) for internet access in the feild or [discounts on QuickBooks](https://www.techsoup.org/intuit) for accounting at home.
+
+For this, however, we want them as they're the non-profit verification partner for
+
+#### Email (and calendars, video, filestorage, and a billion other things): [G-Suite for Non-Profits](https://www.google.com/nonprofits/offerings/apps-for-nonprofits.html)
+
+You have a @gmail.com email account (or know other people that do)? You know how that also let's them store things in Google Drive, have a YouTube channel, manage a calendar, write documents and a billion things? That's G-Suite, except it also means your email addresses are yourname@supercoolnonprofit.org (or whatever the domain is) rather than @gmail.com
 
 ## Other Free Resources

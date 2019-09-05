@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: bundle install --jobs=3 --retry=3
-      - run: ls -la
+      - run: ls -la .
       - persist_to_workspace:
           root: .
           paths:
@@ -33,6 +33,8 @@ workflows:
               only:
                 - master
       - deploy:
+          requires:
+            - build
           filters:
             branches:
               only:

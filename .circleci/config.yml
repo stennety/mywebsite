@@ -7,12 +7,17 @@ jobs:
     steps:
       - checkout
       - run: bundle install --jobs=3 --retry=3
+      - persist_to_workspace:
+          root: .
+          paths:
+            - _site/*
   deploy:
     docker:
       - image: mesosphere/aws-cli
     steps:
       - attach_workspace:
           at: /tmp/workspace
+      - run: ls /tmp/workspace
       - deploy:
           name: Deploy to AWS
           command: aws s3 sync /tmp/workspace/_site s3://david-merrick.com

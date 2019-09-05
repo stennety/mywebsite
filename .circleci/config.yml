@@ -1,9 +1,12 @@
+defaults: &defaults
+  working_directory: ~/repo
+
 version: 2.1
 jobs:
   build:
+    <<: *defaults
     docker:
-      - image: ruby:2.3.0
-    working_directory: ~/repo
+      - image: circleci/ruby:2.5
     steps:
       - checkout
       - run: gem install bundler
@@ -13,6 +16,7 @@ jobs:
           paths:
             - _site/*
   deploy:
+    <<: *defaults
     docker:
       - image: mesosphere/aws-cli
     steps:

@@ -5,6 +5,12 @@ permalink: /projects/
 published: true
 ---
 
+## 2019
+
+[partymode](https://github.com/davidmerrick/partymode)
+
+Slack-controlled bot that uses Twilio to buzz people into my building automatically when enabled.
+
 ## 2017
 
 [Trump Report](https://tr.david-merrick.com/)

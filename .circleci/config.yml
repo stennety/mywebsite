@@ -11,7 +11,9 @@ jobs:
       - checkout
       - run: gem install bundler
       - run: bundle install --jobs=3 --retry=3
-      - run: bundle exec jekyll build
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
       - persist_to_workspace:
           root: .
           paths:
@@ -19,14 +21,19 @@ jobs:
   deploy:
     <<: *defaults
     docker:
-      - image: mesosphere/aws-cli
+      - image: circleci/python:3.6.3
+    environment:
+      S3_BUCKET_NAME: david-merrick.com
     steps:
       - attach_workspace:
-          at: /tmp/workspace
-      - run: ls -la /tmp/workspace
-      - deploy:
-          name: Deploy to AWS
-          command: aws s3 sync /tmp/workspace/_site s3://david-merrick.com
+          at: ./
+      - run: ls -la .
+      - run:
+          name: Install AWS CLI
+          command: pip install awscli --upgrade --user
+      - run:
+          name: Upload to s3
+          command: ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME/ --delete --acl public-read
 
 workflows:
   version: 2

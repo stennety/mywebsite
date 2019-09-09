@@ -54,7 +54,7 @@ title: August 2019 meetup
   - Affordable
 
 ### Slack and Unexpected Maker Discord Server
-* >200 on Slack ([auto invite](https://slack-micropython.herokuapp.com/))
+* More than 200 users now on Slack ([auto invite](https://slack-micropython.herokuapp.com/))
 * Unexpected Maker has a [Discord Server](https://discordapp.com/invite/vGgduY7)
 
 ### ASCII 0_1 Stream

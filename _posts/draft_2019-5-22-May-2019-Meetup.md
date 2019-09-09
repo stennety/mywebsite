@@ -1,95 +1,100 @@
 ---
 layout: post
-title: April 2019 meetup
+title: May 2019 meetup
 ---
 
-**Matt** Trentini presented the [news roundup](#News-roundup), **Damien** George, to celebrate MicroPython's 6th birthday, presented a fun talk about the [Early Days of MicroPython](#Early-Days-Of-MicroPython). **Peter** Boin covered [uPyTester](#uPyTester) a library he's created to perform Hardware-in-the-Loop testing.
-
+**Matt** delivered the [news roundup](#News-roundup), **Lachlan** and **Brian** give an amazing demonstration of the Propellor 2 microcontroller.
 
 ## News roundup
 <a name="News-roundup"></a>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiQvizEfk9ZgTBpZ_CiWsgwThJrsu3GQRU6mdqm_-D6QqH2kVybWe9BqssoPLSTcGT95Wg1eTQ5r2g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0VqBQiYf1sXg9DCDZ3gXQHMo--O80ZYO6IF4HcPo4G7C-qCK0JWox7k9qhKbC6VcvTvfdVtaa7wBB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe width="960" height="569" src="https://www.youtube.com/embed/O-skW4V4Mlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/Al-NC0zg2YE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### PyBoard D
-* Small, powerful, low-power microcontroller
-* STM32 F7 series: 216MHz
-* Currently 3 variants
-  - 512KB-2MB flash, 256KB-512KB RAM
-  - One has high speed USB
-* WiFi/Bluetooth 4.1
-* Plenty of GPIO/peripherals
-* Breadboard/castellation/headers
+### Hardware to tinker with tonight
+* Blyst Nano
+* OpenMV Cam H7
+* Self-balancing Bala
+* Fomu
+* Papyr
+* PyBoard D
+* I2CDriver (and SPIDriver)
 
 ### Season of Docs
 * MicroPython has applied to Google for their first [Season of Docs](https://developers.google.com/season-of-docs/)
-* It’s an effort to improve documentation for Open Source projects
+* **Unfortunately the application wasn’t successful :(**
 * Read our [proposal](https://docs.google.com/document/d/1Yvca_dFPn_-BwWdsI4lUT4p-rjn5CvhrVgupiLC60_A)
-* Some of the ideas
-  - Restructure common/port specific
-  - Improve documentation for existing ports
-  - Getting Started guide
-  - Developer documentation 
+* Good news: We now have some clear direction where to take the documentation
 
 ### MicroPython video tutorials
 * [#1 - Let’s get started](https://www.youtube.com/watch?v=5W3WvXAmDJc&t=1s)
 * [#2 - Hit the Ground Running](https://www.youtube.com/watch?v=DFp_T-H3eRc&t=1s)
 * [#3 - Some Fundamentals](https://www.youtube.com/watch?v=Rd9V6qEIfv4&t=17s)
-
-### Lego <3's MicroPython
-* [Program in Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3?fbclid=IwAR3-1rwHexXYCnA-yzwQAY8mTNBndmc51p3BTvWcL7lUXk6dNOCzaQfMuJU)
-  - EV3 is an ARM9 Linux computer, runs MicroPython Unix port
-* But the next model, [part of SPIKE](https://blog.adafruit.com/2019/04/15/python-snakes-its-way-to-lego-spike-prime-lego_group-lego_education-micropython-legoconfidence/), will run bare metal
-  - 100MHz processor
-  - Due in the August timeframe
+* [#4 - PWM, ADC, Timers and Interrupts](https://www.youtube.com/watch?v=Mku1Bq78nXw)
+* [#5 - JSON & Network Modules + Practical Example](https://www.youtube.com/watch?v=Kqnw9jvceSg)
 
 ### PyCon AU 2019
 * August 2-6 @ ICC Sydney
-* [Call for Proposals](https://2019.pycon-au.org/speak/) now open
-  - Opened April 3, **closes May 5**
-  - Mentors available
-  - 30 min talks
-    - This year: 70 min [Deep Dive Talks](https://2019.pycon-au.org/news/deep-dive-talks/) are possible
-* Specialist tracks
-  - Education, Django, Security and Privacy and Science and Data
+* Talks to be announced 2 June
+* There have been at least a few MicroPython talks submitted...fingers crossed!
 
-### Bite-sized
-* OpenMV Cam H7 [is shipping](https://openmv.io/blogs/news/openmv-cam-h7-shipping-update)
-* Humble Bundle [Electronics + 3D printing](https://www.humblebundle.com/books/electronics-3d-printing-make-books)
-  - 5 books for <$2, 12 for $12, 18 for $21, 24 for $25
-* [Electronut Papyr](https://docs.electronut.in/papyr/) now has [official CircuitPython support](https://twitter.com/electronutLabs/status/1118197834040233984)
-  - Need a MicroPython demo!
-* [Very Simple MicroPython Web Clock](https://www.hackster.io/alankrantas/very-simple-micropython-esp8266-esp-12-web-clock-3c5c6f)
-* [SHA 2017 Badge e-ink Gameboy](https://trmm.net/Gamebadge)
-* [MQTT-Enabled Scrolling Text](https://www.hackster.io/andreas-motzek/mqtt-enabled-scrolling-text-with-esp8266-and-micropython-086238)
-* [New ESP32 chip coming](https://twitter.com/EspressifSystem/status/1108044835766689792)
-  - Rumours: Cheaper, single core, USB, no Bluetooth, more GPIO
-* [Bluetooth implementation progressing](https://github.com/micropython/micropython/pull/4589)
-* [LoDev S76S available on Crowd Supply](https://www.crowdsupply.com/ronoth/lodev)
-  - STM32L0 + SemTech 1276
-  - Hoping for MicroPython (Tight: 129KB/20KB)
-* [Miguel Grinberg: Introducing My MicroPython Tutorial](https://blog.miguelgrinberg.com/post/introducing-my-micropython-tutorial)
-* Ray Ozzie has [started using Python on uC's](https://twitter.com/rozzie/status/1106531501317992448)
-  - Enjoys it but is frustrated with the different APIs
-* ESP32 Coincell boards
-  - [Mike Rankin's Coin Cell board](https://twitter.com/mikerankin)
-  - [Alex Albino's Femtobeacon](https://twitter.com/femtoduino)
+### PyCon 2019
+* Nina Zakharenko: [Light up your life - with Python and LEDs](https://www.youtube.com/watch?v=35mXD40SvXM)
+* Scott Shawcroft: [History of CircuitPython](http://pyfound.blogspot.com/2019/05/scott-shawcroft-history-of-circuitpython.html)
+* Many [other talks](https://us.pycon.org/2019/schedule/talks/) of course
 
-### TinyPICO update
-* Matte black
-* Shields!
-  - Play Board
-  - Proto shield
-  - RTC shield
-  - Audio shield
-  - Grove I2C shield
-  - IO expander shield?
-* Launching soon™ on Crowd Supply
+### MicroPython on SAMD
+* Microchip SAMD make a popular range of microcontrollers
+  - Adafruit make many boards using these
+  - SAMD21 - low power ARM Cortex M0
+  - SAMD51 - ARM Cortex M4
+* Damien has taken the first steps toward a port
+  - MicroPython on Trinket M0 and ItsyBitsy M4
+  - TinyUSB port underway
 
-### Happy Birthday MicroPython
-* 'Born' 29th April 2013
-* Six years old next week
+### New ESP32-S2
+* [Announcement](https://www.espressif.com/en/news/espressif-announces-%E2%80%A8esp32-s2-secure-wi-fi-mcu) and [Hackaday](https://hackaday.com/2019/05/21/new-part-day-espressif-announces-esp32-s2-with-usb/)
+* New core - better FP - but only one
+* More GPIO (42), more cap touch (14)
+* **No Bluetooth**
+* Less RAM (320KB)
+* **USB support**
+* LCD and Camera support 
+* Security features (AES, RSA)
+* Aiming to be **cheaper**
+
+### CircuitPython 4.0.0
+* Huge release, congrats to the CircuitPython folks!
+* Big ticket items
+  - Nordic nRF52840
+  - Displayio
+  - USB MIDI
+  - Multiple language support
+
+### PicoJPEG
+* ‘Shazz’ saw [Damien’s talk](https://melbournemicropythonmeetup.github.io/June-2018-Meetup/) on wrapping a C module that used Nano JPEG
+  - Which ultimately didn’t work since Nano JPEG used a lot of memory
+* [PicoJPEG](https://github.com/richgel999/picojpeg) is a small library designed to work on microcontrollers
+* Shazz published a repo that has a new module wrapping PicoJPEG!
+
+### 32blit
+* Pimoroni folks
+* STM32H750 400MHz, 1MB SRAM
+* 32MB Flash
+* 320x240 display, speaker, buttons, joystick, accelerometer, battery
+* AU$120 (beta) AU$175
+
+### Adafruit PyGamer
+* [Adafruit PyGamer](https://www.adafruit.com/product/4242)
+* SAMD51@120MHz
+* 8MB Flash
+* 160x128 display
+* Accelerometer, light sensor
+* US$40
+
+### Nordic Dev Board
+
+
 
 <a name="Early-Days-Of-MicroPython"></a>
 ## Early Days Of MicroPython

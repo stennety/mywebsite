@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Chaincode"
+title: "Tag: chaincode"
 tag: chaincode
 robots: noindex
 ---

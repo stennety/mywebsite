@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Javasdk"
+title: "Tag: JavaSDK"
 tag: JavaSDK
 robots: noindex
 ---

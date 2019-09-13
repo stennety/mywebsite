@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Event Listener using the Java SDK
-tags: hyperledger fabric eventlistener
+tags: Hyperledger Fabric eventlistener
 ---
 
 In this post, we'll walk through an event listener within the Java SDK paradigm.

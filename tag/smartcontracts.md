@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Smartcontracts"
+title: "Tag: smartcontracts"
 tag: smartcontracts
 robots: noindex
 ---

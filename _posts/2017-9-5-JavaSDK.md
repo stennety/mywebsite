@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hyperledger Fabric and the JavaSDK
-tags: Hyperledger Fabric JavaSDK 
+tags: hyperledger fabric JavaSDK 
 ---
 
 In this post, I shall shed some light on the Java SDK for Hyperledger Fabric. We'll begin with a brief mention of the `v0.6` SDK (for consistency with my [previous post]({{ site.baseurl }}{% link _posts/2017-4-21-TransitioningTov1.md %})) and then we'll dive into `v1.0`.

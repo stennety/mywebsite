@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Hyperledger"
-tag: Hyperledger
+title: "Tag: hyperledger"
+tag: hyperledger
 robots: noindex
 ---

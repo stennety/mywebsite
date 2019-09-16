@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Fabric"
-tag: Fabric
+title: "Tag: fabric"
+tag: fabric
 robots: noindex
 ---

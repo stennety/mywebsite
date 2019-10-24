@@ -30,9 +30,13 @@ on:
 
 Running tests against every pull request shortens the feedback loop and is a check against having a broken build make it into a deployment pipeline. GitHub Actions allow for [persisting test artifacts](https://help.github.com/en/github/automating-your-workflow-with-github-actions/persisting-workflow-data-using-artifacts) in zip format, which is well-suited for uploading test results. The retention is 30 days for pull requests. To upload artifacts, invoke `actions/upload-artifact` in a build step.
 
-## Usage for deployment
+## Usage for deployment pipelines
 
-I haven't explored this yet, to be honest. I need to investigate whether GitHub allows for gated deploys with user input, or if that's not supported yet.
+Actions isn't ready for prime time here yet. There are a few issues with its current iteration that make it unsuitable for a production environment. One is that secrets are currently defined at the repository level, not the organization level. So if you ever need to change these, it requires redefining them in every project. Another issue is that, as far as I can tell, there is no functionality for manually approving deployments. There also isn't any sort of view to visualize a pipeline. Contrast this to the functionality that CircleCI provides:
+
+![CircleCI pipeline view]({{site.cdn_path}}/2019/10/25/circleci.png)
+
+Given that CircleCI, GitLab, and BitBucket all have pipeline views and functionality, GitHub will likely add these in a future release.
 
 ## Resources
 

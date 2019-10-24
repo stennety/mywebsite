@@ -26,6 +26,14 @@ on:
     types: [closed]
 ```
 
+## Usage for testing
+
+Running tests against every pull request shortens the feedback loop and is a check against having a broken build make it into a deployment pipeline. GitHub Actions allow for [persisting test artifacts](https://help.github.com/en/github/automating-your-workflow-with-github-actions/persisting-workflow-data-using-artifacts) in zip format, which is well-suited for uploading test results. The retention is 30 days for pull requests. To upload artifacts, invoke `actions/upload-artifact` in a build step.
+
+## Usage for deployment
+
+I haven't explored this yet, to be honest. I need to investigate whether GitHub allows for gated deploys with user input, or if that's not supported yet.
+
 ## Resources
 
 I created a cheatsheet of useful syntax and snippets [here](https://gist.github.com/davidmerrick/15ec0d6cd8e6b25113aa16dd02cb8ea9).

@@ -7,9 +7,23 @@ published: true
 
 ## 2019
 
+[PodRoullette](https://github.com/davidmerrick/podroulette)
+
+RSS feed combined with an iOS shortcut to pick a random podcast to listen to.
+
 [partymode](https://github.com/davidmerrick/partymode)
 
 Slack-controlled bot that uses Twilio to buzz people into my building automatically when enabled.
+
+> Stack: Kotlin, Serverless
+
+## 2018
+
+[PDXAlerts](https://github.com/davidmerrick/PDXAlerts)
+
+Alexa skill that fetches the latest tweets from [@PDXAlerts](https://twitter.com/pdxalerts).
+
+> Stack: Kotlin
 
 ## 2017
 
@@ -121,4 +135,3 @@ from Facebook photos.
 
 In 2009, I wanted to see if I could get a website to rank for the first Google search result for
 "Coolest Guy in America." So I learned about SEO and was able to get the site ranked in a couple weeks.
-

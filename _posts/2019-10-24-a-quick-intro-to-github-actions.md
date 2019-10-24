@@ -32,7 +32,7 @@ Running tests against every pull request shortens the feedback loop and is a che
 
 ## Usage for deployment pipelines
 
-Actions isn't ready for prime time here yet. There are a few issues with its current iteration that make it unsuitable for a production environment. One is that secrets are currently defined at the repository level, not the organization level. So if you ever need to change these, it requires redefining them in every project. Another issue is that, as far as I can tell, there is no functionality for manually approving deployments. There also isn't any sort of view to visualize a pipeline. Contrast this to the functionality that CircleCI provides:
+Actions isn't ready for prime time here yet. There are a few issues with its current iteration that make it unsuitable for a production environment. One is that secrets are currently defined at the repository level, not the organization level. So if you ever need to change these, it requires redefining them in every project. Another issue is that [there is no functionality](https://github.community/t5/GitHub-Actions/GitHub-Actions-Manual-Trigger-Approvals/td-p/31504) for manually approving deployments. There also isn't any sort of view to visualize a pipeline. Contrast this to the functionality that CircleCI provides:
 
 ![CircleCI pipeline view]({{site.cdn_path}}/2019/10/25/circleci.png)
 

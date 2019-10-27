@@ -4,13 +4,13 @@ title: Hiking the Entire Wildwood Trail in One Day
 ---
 I turned 30 this year, and it's been on my list to commemorate that milestone by hiking all 31 miles of Portland's Wildwood Trail. It's been a busy year, with a move to a new apartment, projects at work, training for and running the Eugene Marathon, a shoulder surgery in May, etc. So I'd put it off. But after traveling to Italy in September and all the walking I'd done there, I finally felt that I was ready.
 
-I had a few friends who had done the entire hike in one day, and they recommended meeting at the Zoo, leaving cars there, then carpooling up to the Newberry trailhead and hiking south back down towards Portland. I created a Facebook event with this plan in mind, and invited several friends who I thought might be interested, and others who I thought might be up for hiking segments of it with me.
+I have a few friends who had done the entire hike in one day, and they had recommended meeting at the Zoo, leaving cars there, then carpooling up to the Newberry Trailhead and hiking south back down towards Portland. I created a Facebook event with this plan in mind, and invited several friends who I thought might be interested, and others who I thought might be up for hiking segments of it with me.
 
 31 miles is a big commitment from friends, but I got one taker on that. Unfortunately, he had to bail last-minute for a work trip. I did, however, have several friends who were up for hiking segments of it with me.
 
 The morning of October 13, four of us met at the Zoo parking lot at 7 am. I'd taken a Lyft there and unfortunately hadn't properly secured my Camelbak, so it leaked about an 8th of my water all over the guy's seat. I apologized profusely and left a good tip.
 
-My friends and I staged a car at mile 7, then drove up to the Newberry trailhead. It was great having support at the start, and we even ran into a couple other people we knew on a trail run up there. After mile 7, they exited on a firelane to their car.
+My friends and I staged a car at mile 7, then drove up to the Newberry Trailhead. It was great having support at the start, and we even ran into a couple other people we knew on a trail run up there. After mile 7, they exited on a firelane to their car.
 
 ![]({{site.cdn_path}}/2019/10/27/wildwood_start.jpg)
 

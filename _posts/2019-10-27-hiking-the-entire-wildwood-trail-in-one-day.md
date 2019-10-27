@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hiking the Entire Wildwood Trail in One Day
 ---
 I turned 30 this year, and it's been on my list to commemorate that milestone by hiking all 31 miles of Portland's Wildwood Trail. It's been a busy year, with a move to a new apartment, projects at work, training for and running the Eugene Marathon, a shoulder surgery in May, etc. So I'd put it off. But after traveling to Italy in September and all the walking I'd done there, I finally felt that I was ready.

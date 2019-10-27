@@ -39,3 +39,4 @@ Advice for this hike if you do it yourself:
 - Check ahead of time for any trail closures
 - Hike north to south. It's much more motivating and comforting to be heading _toward_ the city, especially as night starts to fall
 - If you can, ask for support. Even if you're fiercely independent, you'll be glad you did
+- Bring a GPS watch and keep track of your pacing

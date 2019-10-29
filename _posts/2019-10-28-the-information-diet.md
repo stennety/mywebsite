@@ -4,7 +4,7 @@ title: The Information Diet
 ---
 This follows up my original [post](https://www.david-merrick.com/2019/06/15/digital-minimalism-review/) on digital minimalism with a practical guide for how to implement the principles in your own life, and some personal anecdotes on what's worked well for me.
 
-To recap, what is digital minimalism? It's a term first coined by [Cal Newport](https://www.amazon.com/dp/B07DBRBP7G/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) for a philosophy of taking a more intentional approach to our relationship with technology which prioritizes long-term meaning over short-term satisfaction, and aims for focus in a distracted world.
+To recap, what is digital minimalism? It's a term coined by [Cal Newport](https://www.amazon.com/dp/B07DBRBP7G/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) for a philosophy of taking a more intentional approach to our relationship with technology which prioritizes long-term meaning over short-term satisfaction, and aims for focus in a distracted world.
 
 That being said, our goals with this information diet will be:
 - Minimize distractions and mindless interactions with technology

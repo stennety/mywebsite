@@ -10,9 +10,13 @@ That being said, our goals with this information diet will be:
 - Minimize distractions and mindless interactions with technology
 - Maximize time spent in a focused state
 
+And our assumptions are:
+- Our self control and willpower is a finite resource so we're not going to rely on it
+- Most things are not emergencies
+
 ## The phone
 
-The place to start is with your smartphone. It's on your person 24/7, filled with apps that are engineered to capitalize on your attention, and checked [every 12 minutes](https://nypost.com/2017/11/08/americans-check-their-phones-80-times-a-day-study/) by most Americans.
+You'll get the most leverage reclaiming your attention by starting with your smartphone. It's always the nearest and dearest screen, is filled with apps that are engineered to capitalize on your attention, and checked [every 12 minutes](https://nypost.com/2017/11/08/americans-check-their-phones-80-times-a-day-study/) by most Americans.
 
 ### Remove distracting apps
 
@@ -26,4 +30,23 @@ Since I still wanted to use Instagram, and the web app is missing some crucial f
 
 ![]({{site.cdn_path}}/2019/10/28/ksafe.jpg)
 
-## Establishing a personal SLA
+### Keep the phone far away and silenced when you want to be focused
+
+During my workday, I keep my phone zipped up in a pocket in my backpack. It doesn't come with me to lunch, it doesn't come with me to meetings, it doesn't come with me to the bathroom. That change has made my workdays much more productive, and I'm much more present with my coworkers during lunch and meetings.
+
+At night, I plug my phone into a charger across the room, so I don't use it before bed or during the night. I generally do the same thing when I get home. Keeping the phone out of reach unless I need it has made me much less distracted.
+
+Get in the habit of putting your phone into Do Not Disturb mode.
+
+## Batch distracting activities
+
+### Establishing a personal SLA
+
+In software engineering, it's standard to establish a Service Level Agreement around your product. This is a contract that specifies boundaries on responsiveness, uptime, etc. For example, my SLA on this website is that it will be up 99.99% of the time (I have it fronted by CloudFlare and their uptime is 99.99%).
+
+The same approach can be applied to responding to messages. I established a few different priority tiers for these. Tier 0 (higher priority) are Slack messages from coworkers. I thought I could get away with not responding to those for 1 hour. So I either mute or close Slack, do focused work for an hour, and have a quiet reminder that chimes for me to reopen it and check. Most of my coworkers are in the office, so if something is more of an emergency, people can walk over and interrupt me. If you don't have this luxury, you could provide a phone number where people could call you in case of emergency.
+
+Tier 1 (lower priority) are e-mail, Facebook messages, text messages, etc. I decided that it would be acceptable and not piss people off too much if I responded to these 3 times during the day. I set aside 10-15 minutes for this at 9 when I get into the office, just before lunch, and at around 4. In the interim, I intentionally don't check any of these so I can maximize my focus.
+
+
+

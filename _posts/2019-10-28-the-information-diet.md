@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: The Information Diet
 ---
 This follows up my original [post](https://www.david-merrick.com/2019/06/15/digital-minimalism-review/) on digital minimalism with a practical guide for how to implement the principles in your own life, and some personal anecdotes on what's worked well for me.
@@ -36,7 +36,7 @@ During my workday, I keep my phone zipped up in a pocket in my backpack. It does
 
 At night, I plug my phone into a charger across the room, so I don't use it before bed or during the night. I generally do the same thing when I get home. Keeping the phone out of reach unless I need it has made me much less distracted.
 
-Get in the habit of putting your phone into Do Not Disturb mode.
+Get in the habit of putting your phone into "Do Not Disturb" mode.
 
 ## Batch distracting activities
 

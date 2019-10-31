@@ -9,3 +9,6 @@ package.json
 .idea
 .tweet-cache
 .sass-cache
+.terraform
+*.tfstate
+*.tfstate.backup

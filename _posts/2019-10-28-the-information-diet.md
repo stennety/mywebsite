@@ -30,6 +30,14 @@ Since I still wanted to use Instagram, and the web app is missing some crucial f
 
 ![]({{site.cdn_path}}/2019/10/28/ksafe.jpg)
 
+### Update notifications, sounds, and badges
+
+One thing that grabs my attention are the badge icons indicating unread notifications on apps. It was very helpful for me to disable those categorically. I did this on both my MacBook at work and on my phone. I also disabled Slack's sounds.
+
+![]({{site.cdn_path}}/2019/10/28/badges.jpg)
+
+One way to think of this is shifting from a "push" workflow where notifications interrupt you, to a "pull" model where you reach out to get the notifications on your terms.
+
 ### Keep the phone far away and silenced when you want to be focused
 
 During my workday, I keep my phone zipped up in a pocket in my backpack. It doesn't come with me to lunch, it doesn't come with me to meetings, it doesn't come with me to the bathroom. That change has made my workdays much more productive, and I'm much more present with my coworkers during lunch and meetings.

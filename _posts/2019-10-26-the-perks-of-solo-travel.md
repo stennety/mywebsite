@@ -1,18 +1,35 @@
 ---
-published: false
+published: true
 title: The Perks of Solo Travel
 ---
-In September, I went on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be an unexpectedly enjoyable experience. Preferable, even. It expands the horizons of your comfort zone, gives you the freedom to travel on your terms, empowers you to make new friends, and forces you to be in the moment and get the most out of the experience.
+## My experience
+
+![]({{site.cdn_path}}/2019/10/26/han_solo.jpg)
+
+In September, I went on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be amazing and even preferable in a lot of ways. 
+
+The four biggest benefits I've found with it are:
+
+1. It expands your comfort zone.
+2. It gives you the freedom to travel on your terms 
+3. It empowers you to make new friends 
+4. It forces you to be in the moment and get the most out of the experience
 
 ## Pushing your comfort zone
 
-Like I mentioned before, I was initially self-conscious about the idea of dining alone. This is not something I would generally do in the States because of that. I'd had this idea that you weren't really supposed to go to restaurants alone. I'd worried that people might think I'm weird or feel bad for me, or that they might ask me why I'm eating alone. I got over this immediately in Italy because, well, I had to eat. And when I did, I realized that people generally aren't paying any attention to you. And if they are, it's because they're friendly and want to talk. Since I've been back in the States, I've found myself going out to eat more solo.
+Like I mentioned before, I was initially self-conscious about the idea of dining alone. This is not something I would generally do in the States because of that. I'd had this idea that you weren't really supposed to go to restaurants alone. I'd worried that people might think I'm weird or feel bad for me, or that they might ask me why I'm there by myself. 
+
+There are a lot of studies that show how poor humans are at [affective forecasting](https://www.apa.org/science/about/psa/2004/04/pelham), that is, predicting how things will make them feel. I found this to be true for myself, as I did not actually feel nearly as self-conscious as I'd thought I would. In Italy, I had to eat, and I didn't want to cook, so I ate out. And when I did, I realized that people generally weren't paying any attention to me. And if they were, it was because they were friendly and want to talk. Since I've been back in the States, I've found myself going out to eat more solo.
+
+![]({{site.cdn_path}}/2019/10/26/spritz.jpg)
+
+_One of many delicious [Aperol spritzes](https://www.eater.com/2014/10/21/7020183/the-story-of-the-aperol-spritz-a-classic-italian-cocktail) I enjoyed in Italy. It's a popular aperitivo (happy hour) drink there._
 
 ## Traveling on your terms
 
-When you're solo traveling, you get to travel on your terms. Planning becomes much less complicated. You can make the itinerary as busy or relaxed as you want. If you need a rest day, you can take one without impeding anyone else. You can see exactly what you want to see. 
+When you're solo traveling, you get to travel on your terms. Planning becomes much less complicated. You can make the itinerary as busy or relaxed as you want. If you need a rest day, you can take one without impeding anyone else. You can see exactly what you want to see. You're not constrained by the preferences, dietary restrictions, etc. of anyone but yourself.
 
-For example, my first day in Rome, I felt like walking 18 miles and seeing all the sights, so I walked 18 miles and saw all the sights. Did I regret it the next day? Yes. But that choice was owned by me! And in Florence, I wanted to see [Galileo's middle finger](https://www.atlasobscura.com/places/galileos-middle-finger), which is literally in this glass case in Florence's Museo Galileo.
+For example, my first day in Rome, I felt like walking 18 miles and seeing all the sights, so I walked 18 miles and saw all the sights. Did I regret it the next day? Yes. But that choice was owned by me and me alone! And in Florence, I wanted to see [Galileo's middle finger](https://www.atlasobscura.com/places/galileos-middle-finger), which is literally in this glass case in Florence's Museo Galileo.
 
 ![]({{site.cdn_path}}/2019/10/26/galileo_middle_finger.jpg)
 
@@ -24,5 +41,8 @@ With websites like AirBnB and Couchsurfing, it's easier than ever to make new fr
 
 One of my concerns initially with solo travel was that I would be lonely. This turned out to be completely unfounded. In fact, I would go so far as to say that if you wanted to not make new friends while traveling, you'd have a hard time. And this is a very good thing.
 
+![]({{site.cdn_path}}/2019/10/26/new_friends.jpg)
+
 ## Being in the moment
 
+Solo traveling forces you to be in the moment. If you miss your train, it's entirely on you. So it's entirely on you to know all the details and planning of your trip. Previously, I'd had friends or romantic partners who I traveled with who took over the planning of trips, and it was really empowering to know that I could organize and execute a trip myself.

@@ -24,9 +24,26 @@ Cal Newport recommends doing a "digital decluttering," during which you purge al
 
 ![]({{site.cdn_path}}/2019/10/28/news_feed_eradicator.png)
 
-My usage of Facebook has become much less distracted and much more intentional since making these changes.
+I have several friends who quit Facebook altogether, and, while I admire that, I still get a lot of value out of the service. Zooming in on that, here are my pros/cons:
 
-Since I still wanted to use Instagram, and the web app is missing some crucial features like messaging and posting, I established a "vice phone" (trademark pending. Just kidding). This is an old phone where I install apps that are my vices, like Instagram, Facebook, Twitter, Reddit, etc. Every week or so, I'll let myself use it for a bit. If I ever feel like I'm out of control, I throw the phone in a [kSafe](https://www.thekitchensafe.com), which is a time-locked safe. A brilliant invention.
+Pros of Facebook
+- My friend group uses Messenger to keep in contact
+- We also use Events to coordinate things
+- Keeping up with people on the News Feed
+- I'm a photographer, and it's an easy way to share photos with people
+
+Cons of Facebook
+- FOMO
+- News Feed is super distracting
+- News Feed interactions are low-value as compared to meeting with friends in person
+
+So, instead of ditching Facebook altogether, I essentially surgically removed the bad parts of it from my usage. I realized that the News Feed had more downside than upside, for me. The tradeoff is that I'm not as up-to-date on what my friends are doing, but to me, that was worth it. Plus, I see friends often enough that I'm mostly able to just get that information from them first-hand, which I'd prefer anyway.
+
+## The "Vice Phone"
+
+Since I still wanted to use Instagram, and the web app is missing some crucial features like messaging and posting, I established a "vice phone" (trademark pending. Just kidding). This is an old phone where I install apps that are my "vices," like Instagram, Facebook, Twitter, Reddit, etc. Every few days, I check it. This also augments, to some degree, my feeling that I mentioned earlier about not keeping up with what friends are doing as much.
+
+I try to time-box my usage of this phone to 15-30 min. If I ever feel like I'm wasting too much time on it, I throw the phone in a [kSafe](https://www.thekitchensafe.com), which is a time-locked safe. A brilliant invention. They cost about $50 on Amazon.
 
 ![]({{site.cdn_path}}/2019/10/28/ksafe.jpg)
 
@@ -56,5 +73,10 @@ The same approach can be applied to responding to messages. I established a few 
 
 Tier 1 (lower priority) are e-mail, Facebook messages, text messages, etc. I decided that it would be acceptable and not piss people off too much if I responded to these 3 times during the day. I set aside 10-15 minutes for this at 9 when I get into the office, just before lunch, and at around 4. In the interim, I intentionally don't check any of these so I can maximize my focus.
 
+## Conclusion
 
+Am I perfect? Absolutely not. Do I break my rules sometimes? You know it. I'm the same dopamine-starved, distractible human who's as poorly adapted to the modern world we built as you are. It's important to be forgiving of yourself, and, like any effective diet, allow for some cheat days. But I think this approach is sound; Not relying on willpower, deciding what's an emergency and what's not, and deciding what's important to you. 
 
+And to clarify, this is not about taking some kind of abstinence-only, Luddite stance toward technology. It's about being intentional about extracting the parts of it that are valuable to you, and reducing the downsides. As I mentioned earlier, I still use Facebook, but I made a conscious choice about which parts of it I engage with.
+
+Going down this path, I think you'll find, like I did, that there are a myriad of benefits to establishing boundaries around your relationship with technology. I feel much less scattered, overstimulated, burned out, and feel much more present with what I'm working on and with the people around me. And, slowly but surely, this diet is transforming into a lifestyle. Digital Minimalism 4 Life.

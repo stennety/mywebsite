@@ -6,7 +6,7 @@ title: The Perks of Solo Travel
 
 ![]({{site.cdn_path}}/2019/10/26/han_solo.jpg)
 
-In September, I went on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be amazing and even preferable in a lot of ways. 
+In September, I went on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I liked the safety of being around people I knew. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be amazing and even preferable in many ways. 
 
 The four biggest benefits I've found with it are:
 
@@ -45,4 +45,16 @@ One of my concerns initially with solo travel was that I would be lonely. This t
 
 ## Being in the moment
 
-Solo traveling forces you to be in the moment. If you miss your train, it's entirely on you. So it's entirely on you to know all the details and planning of your trip. Previously, I'd had friends or romantic partners who I traveled with who took over the planning of trips, and it was really empowering to know that I could organize and execute a trip myself.
+Solo traveling forces you to pay attention to your surroundings. If you get lost or miss your train, it's entirely on you. So it's entirely on you to know all the details and planning of your trip. On previous non-solo trips, if I got lost or got into a jam, I had friends with me and we'd put our heads together to figure it out, or I'd rely on them. The downside of solo travel is that there's not anyone around for you to use as a crutch. But this is also the upside; it was incredibly empowering to know that I could organize and execute a trip myself, and I could overcome any obstacle that cropped up along the way.
+
+But also, it's important to note that you're never really alone. Generally there will be people around who you can ask for help.
+
+![]({{site.cdn_path}}/2019/10/26/burano.jpg)
+
+## Conclusion
+
+Whether you're a seasoned traveler or new to it, I can't recommend solo travel highly enough. Just try it. If it's not your cup of tea, then at least you've discovered something more about yourself. But if your experience is anything like mine, you'll be rewarded a thousandfold with a feeling of freedom, boosted confidence, and self-reliance. And you'll get to explore some cool new places in the process. 
+
+_I took far too many photos in Italy to post them all here. Feel free to check out my [Google Photos album](https://photos.app.goo.gl/RSivZKQJQ7nuXfbGA) for the best ones._
+
+

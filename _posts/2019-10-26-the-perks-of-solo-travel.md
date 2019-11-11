@@ -2,20 +2,18 @@
 published: true
 title: The Perks of Solo Travel
 ---
-## My experience
-
 ![]({{site.cdn_path}}/2019/10/26/han_solo.jpg)
 
-In September, I went on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I liked the safety of being around people I knew. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be amazing and even preferable in many ways. 
+In September, I embarked on my first solo international trip for two weeks in Italy. The night before my flight, I found myself lying wide awake in bed, thinking, "What the hell am I doing?" A friend had challenged me to take a solo trip at one point, and I chose to precisely because it scared me. I’d always thought that you were supposed to travel with other people. I liked the safety of being around people I knew. I felt self-conscious about the idea of dining alone. I worried about getting lost while navigating the trains in Rome and having no one to turn to for help. I worried about being lonely. But in spite of myself, I got on the plane. And not only did it not suck, but solo travel turned out to be amazing and even preferable in many ways. 
 
-The four biggest benefits I've found with it are:
+The four biggest benefits I discovered are:
 
 1. It expands your comfort zone.
 2. It gives you the freedom to travel on your terms 
 3. It empowers you to make new friends 
 4. It forces you to be in the moment and get the most out of the experience
 
-## Pushing your comfort zone
+## Expanding your comfort zone
 
 Like I mentioned before, I was initially self-conscious about the idea of dining alone. This is not something I would generally do in the States because of that. I'd had this idea that you weren't really supposed to go to restaurants alone. I'd worried that people might think I'm weird or feel bad for me, or that they might ask me why I'm there by myself. 
 
@@ -56,5 +54,3 @@ But also, it's important to note that you're never really alone. Generally there
 Whether you're a seasoned traveler or new to it, I can't recommend solo travel highly enough. Just try it. If it's not your cup of tea, then at least you've discovered something more about yourself. But if your experience is anything like mine, you'll be rewarded a thousandfold with a feeling of freedom, boosted confidence, and self-reliance. And you'll get to explore some cool new places in the process. 
 
 _I took far too many photos in Italy to post them all here. Feel free to check out my [Google Photos album](https://photos.app.goo.gl/RSivZKQJQ7nuXfbGA) for the best ones._
-
-

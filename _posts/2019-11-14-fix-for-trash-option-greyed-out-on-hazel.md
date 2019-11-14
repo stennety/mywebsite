@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Fix for "move to trash" option greyed out on Hazel
 ---
 I just started using [Hazel](https://www.noodlesoft.com/) to automate cleanup of my Mac. It worked great on my machine at home, but on my work MacBook Pro the trash icon was greyed out in the move window. 
@@ -16,4 +16,3 @@ chmod u+rwx ~/.Trash
 ```
 
 And now it works fine for me. Hopefully that solves it for you, too.
-

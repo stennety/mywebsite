@@ -39,6 +39,8 @@ Cons of Facebook
 
 So, instead of ditching Facebook altogether, I essentially surgically removed the bad parts of it from my usage. I realized that the News Feed had more downside than upside, for me. The tradeoff is that I'm not as up-to-date on what my friends are doing, but to me, that was worth it. Plus, I see friends often enough that I'm mostly able to just get that information from them first-hand, which I'd prefer anyway.
 
+I realized that I can also use Instagram via a web browser on my computer. Normally, a desktop browser is prohibited from posting content, but you can trick Instagram into thinking you're a mobile browser by switching your user agent. You can use [this Chrome plugin](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) to do that.
+
 ## The "Vice Phone"
 
 Since I still wanted to use Instagram, and the web app is missing some crucial features like messaging and posting, I established a "vice phone" (trademark pending. Just kidding). This is an old phone where I install apps that are my "vices," like Instagram, Facebook, Twitter, Reddit, etc. Every few days, I check it. This also augments, to some degree, my feeling that I mentioned earlier about not keeping up with what friends are doing as much.

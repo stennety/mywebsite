@@ -3,8 +3,7 @@ layout: post
 title: September 2019 meetup
 ---
 
-**Matt** Trentini discussed the latest and greatest MicroPython [news](#News-roundup) and **Andrew** showed us how he's
-set up a [Gitlab CI system](#ci) to build *every* MicroPython port in less than ten minutes.
+**Matt** Trentini discussed the latest and greatest MicroPython [news](#News-roundup) and **Andrew** Leech showed us how he's set up a [Gitlab CI system](#ci) to build *every* MicroPython port in less than ten minutes.
 
 ## News roundup
 <a name="News-roundup"></a>

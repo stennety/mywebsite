@@ -88,6 +88,6 @@ set up a Gitlab [CI](#ci) process to build *every* MicroPython port in less than
 
 <a name="ci"></a>
 ## Gitlab Continuous Integration for MicroPython 
-Andrew demonstrated his [Gitlab Continuous Integration system](https://gitlab.com/alelec/micropython_ci/pipelines/latest) that builds every port of MicroPython in under ten minutes. Impressive!
+Andrew demonstrated his [Gitlab Continuous Integration system](https://gitlab.com/alelec/micropython_ci/pipelines/latest) that builds *every* port of MicroPython in under ten minutes. Impressive!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qc1bTOdMbrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/qc1bTOdMbrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

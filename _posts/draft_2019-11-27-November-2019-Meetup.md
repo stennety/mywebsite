@@ -13,78 +13,78 @@ title: November 2019 meetup
 <iframe width="960" height="569" src="https://www.youtube.com/embed/xzTOXaPgwO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Meadow
-* Left my box of hardware on the train
-* ~80 microcontrollers are touring Melbourne on our train network
+* Kickstarter, delivered!
+* Tech
+  * STM32F777, 32MB RAM, 32MB Flash (+2MB)
+  * ESP32 coprocessor for WiFi/BLE
+  * Battery charging
+  * Feather form factor
+* Designed to run .NET
+* Now runs MicroPython!
+* US$50
 
-### CCHS News
-* CCHS BBQ Oct 6th
-* AI cars outreach day Dec 28th
+### PineTime
+* Pine64 caused a stir with PineTime
+* US$25 watch seems popular!
+* I suggested MicroPython should be ported to it...
+* Could use some help!
+* Nordic NRF52832, 64KB RAM, 512KB Flash
+  * That part is in good shape
+* Peripherals
+  * ST7789 240x240 IPS display
+  * Power management
+  * SPI Flash 8MB
+  * Touchpad CST816S
+  * Accelerometer BMA421
+  * Heart rate sensor HRS3300
 
-### Building an IoT Server with Flask and Python
-* [Tutorial](https://pythonforundergradengineers.com/flask-iot-server-motivation.html) from Peter Kazarinoff
-  * Details how to measure temperature and send it to a server in the cloud
-* End-to-end
-  * Cloud server, running flask/SQLite
-  * ESP8266 with temp sensor
+### Black Pill
+* First there was the Blue Pill
+  * STM32F103: ARM M3 72MHz, 20KB RAM, 64KB Flash
+  * Very popular in the Arduino community - cheap! US$2
+  * A little underpowered for MicroPython
+* Enter, the Black Pill
+  * STM32F411: M4 100MHz, 128KB RAM, 512KB Flash
+  * Still cheap, US$4
+  * Optional external flash (up to 16MB)
+  * Board definitions under development
 
-### PineTime watch
-* [Pine64](https://www.pine64.org/) make interesting hardware, particularly SBC’s
-  * Good track-record of working with developers
-* Recently announced a watch is coming
-  * Currently nRF52832 but considering nRF52840
-  * Seem to be aiming to interest developers
-  * Aiming for **US$25**
+### Wemos
+* W600
+  * Cheap board with Wifi
+  * M3, 300KB RAM, 1MB Flash
+  * ESP8266 competitor
+  * AU$3.12
+* 2.4” TFT
+  * 320x240 display with resistive touchscreen
+  * Fits the D1 mini form factor
+  * AU$8.70
 
-### MicroPython Binding
-* Amirgorn: [Pure Micropython Display Driver](https://blog.littlevgl.com/2019-08-05/micropython-pure-display-driver#micropython-api-to-any-c-library)
-  * Wrote a pure MicroPython library for the ILI9341
-  * Also used pure C driver in LittlevGL
-  * Then, built a hybrid! Started a driver in Python, used his Binding tool to parse C and create a MicroPython C module
-    * Technique can be used with any C library
-* Also, Hackaday: [MicroPython and C Play together better](https://hackaday.com/2019/08/31/micropython-and-c-play-together-better/)
+### PyLadies 'homework'
+* Bouncing ball!
 
-### Apothewell
-* [Prototype for a pill dispenser](https://apothewell.com/the-first-big-moment/) by Daniel Sharp
-  * Has a son that is reliant on medications
-* Began with some [help from Miguel Grinberg](https://apothewell.com/things-got-rolling-with-a-wheel-and-miguel/)
-  * Remember: a little help can go a long way!
+### OpenMV H7
+* Big update
+ * Update to MicroPython 1.11
+ * Tensorflow support
+ * Built-in person detection
+* Also tentatively announced a new board
+ * STM32H743, 32MB RAM, 32MB flash, 5MP cam
 
-### Blip
-* Electronut Labs released [Blip on Crowd Supply](https://www.crowdsupply.com/electronut-labs/blip)
-  * nRF52840: 256KB RAM, 1MB flash - and BLE
-  * Zephyr, Arduino, CircuitPython…
-  * Sensors: Accelerometer, light, humidity/temp, debugger
-  * Optional shields: ePaper and Gaming
-  * **US$55** + US$8 shipping
+### CircuitPython 5.0.0 beta
+* Big update coming from Adafruit
+  * Display.io improvements (greyscale OLDE, e-paper)
+  * BLE
+  * STM32F4
+  * Sony Sprense
+  * PWM audio
 
-### Microsoft: Python for Beginners
+### Pull requests
 
-* [Python for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) video series by Microsoft
-  * Set of 44 (!) videos, free, on YouTube
-  * Looks like good quality, quite in-depth
-
-### Sparkfun Artemis port
-* Michael Welling on [Twitter](https://twitter.com/QwertyEmbedded/status/1174822225028894720):
-  * “I have a start on a Micropython port for the Artemis if you are interested”
-* Released on [Github](https://github.com/mwelling/micropython/tree/artemis/ports/artemis) overnight…
-  * Remember to [configure the toolchain](https://twitter.com/QwertyEmbedded/status/1176630083533979648)
-* Specs
-  * Cortex M4F, 96MHz, BLE, 48 GPIO, 31 PWM, FCC certified
-  * Modules: **US$8.95**
-  * Boards: US$15-25
-
-### CCCamp2019 Badge
-* Dual core M4F, 96MHz, 512KB, 1+8MB Flash
-* ECG, accelerometer/gyro, temp/humidity, RGB LEDs, display
-* MicroPython
-* Excellent documentation
-* [Hackaday article](https://hackaday.com/2019/08/29/hands-on-cccamp2019-badge-is-a-sensor-playground-not-to-be-mistaken-for-a-watch/)
-* Cannot yet be bought for love nor money
-
-### Quotes
-* “I do think MicroPython is the future for embedded electronics”
-* “...I think Python has already managed to vanquish its challengers”
-
+* ESP32 RMT
+* LittleFS is in mainline
+* Rewrite of Asyncio
+* BLE documentation has improved
 
 <a name="art"></a>
 ## Gitlab Continuous Integration for MicroPython 

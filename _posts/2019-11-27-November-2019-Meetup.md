@@ -87,11 +87,13 @@ title: November 2019 meetup
 * BLE documentation has improved
 
 <a name="art"></a>
-## Gitlab Continuous Integration for MicroPython 
-Andrew demonstrated his [Gitlab Continuous Integration system](https://gitlab.com/alelec/micropython_ci/pipelines/latest) that builds *every* port of MicroPython in under ten minutes. Impressive!
+## Natural Sequence or Fabricated: MicroPython-powered art
+Peter discussed his latest art installation for the City of Whittlesea's [SOS Annual Art Exhibition](https://www.whittlesea.vic.gov.au/arts-events-recreation/things-to-see-and-do/events/sos-annual-art-exhibition/)
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/LVqFETunxK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a name="littlefs"></a>
+## LittleFS integration for MicroPython
+Damien explains and demonstrates recent additions to MicroPython to provide LittleFS integration. LittleFS is a lightweight, highly robust filesystem designed for embedded use.
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/wkgU4fGP3eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

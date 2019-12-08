@@ -3,15 +3,16 @@ layout: post
 title: November 2019 meetup
 ---
 
-**Matt** Trentini covered the latest MicroPython [news](#News-roundup), **Peter** van der Berg explained how he'd used MicroPython to power his latest [art project](#art) and **Damien** George gives us the [low-down on LittleFS](#littlefs) - it's coming to MicroPython!
+**Matt** Trentini covered the latest MicroPython [news](#News-roundup), **Peter** van der Berg explained how he's used MicroPython to power his latest [art project](#art) and **Damien** George gives us the [low-down on LittleFS](#littlefs) - it's coming to MicroPython!
 
 ## News roundup
 <a name="News-roundup"></a>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1oBx0YBv2r41WxiYtzkYgIRpQdbl1oLxVPDRix2O9aqOlXJyaYKg-SNw1CGWbidq7HWANfhJmP9c7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe width="960" height="569" src="https://www.youtube.com/embed/cZlFqPEvEmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmgEncTOulhz4aJEW8cytKu2YyqketLP9oLs05JdrvqAh2SbroQJ_O0UAyDavtzMCWz88Wf5M8Xrxw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### Sad day
+<iframe width="960" height="569" src="https://www.youtube.com/embed/xzTOXaPgwO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Meadow
 * Left my box of hardware on the train
 * ~80 microcontrollers are touring Melbourne on our train network
 
@@ -89,6 +90,8 @@ title: November 2019 meetup
 ## Gitlab Continuous Integration for MicroPython 
 Andrew demonstrated his [Gitlab Continuous Integration system](https://gitlab.com/alelec/micropython_ci/pipelines/latest) that builds *every* port of MicroPython in under ten minutes. Impressive!
 
-<iframe width="960" height="569" src="https://www.youtube.com/embed/qc1bTOdMbrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/LVqFETunxK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a name="littlefs"></a>
+
+<iframe width="960" height="569" src="https://www.youtube.com/embed/wkgU4fGP3eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

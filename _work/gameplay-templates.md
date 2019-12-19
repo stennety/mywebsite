@@ -1,7 +1,7 @@
 ---
 Title: Gameplay Customer Communication
 Description: Customer email templates redesign for Gameplay customer communications
-Tags: design, mailer, game
+Tags: [design, mailer, game]
 Alt: Gameplay Template Designs
 Shortname: Gameplay Templates
 ---

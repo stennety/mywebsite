@@ -1,7 +1,7 @@
 ---
 Title: GAME App
 Description: GAME App icon design and banners for the UI of Game.co.uk's iOS app.
-Tags: design, game, ios
+Tags: [design, game, ios]
 Alt: Game App
 ---
 Because of my interest in mobile applications and the iTunes app marketplace, I was asked to assist in providing representative icons for the UI and in-app banners for GAME’s iOS application.

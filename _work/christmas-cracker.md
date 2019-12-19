@@ -1,7 +1,7 @@
 ---
 Title: Christmas Cracker
 Description: Luxury Christmas cracker box design direct marketing promotion for Ideal World special event
-Tags: print, ideal, marketing, design
+Tags: [print, ideal, marketing, design]
 Alt: Ideal Christmas Cracker Promotion
 ---
 Tasked with advertising Ideal World’s upcoming ‘Christmas in August’ bank holiday weekend event, with the focus on getting ready for Christmas. 

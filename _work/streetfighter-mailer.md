@@ -1,7 +1,7 @@
 ---
 Title: Street Fighter IV Mailer
 Description: Email marketing creation for Street Fighter IV game, featuring a design as bold as the gameplay.
-Tags: mailer, game, design
+Tags: [mailer, game, design]
 Alt: Street Fighter IV Mailer
 Portrait: Yes
 ---

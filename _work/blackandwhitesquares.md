@@ -1,7 +1,7 @@
 ---
 Title: blackandwhitesquares
 Description: A Tumblr site dedicated to all things 2D code. If it's black, white and grid-like it has a place here.
-Tags: web, design, tumblr
+Tags: [web, design, tumblr]
 Alt: blackandwhitesquares.com website
 Shortname: b&ws
 ---

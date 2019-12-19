@@ -1,7 +1,7 @@
 ---
 Title: Jewellery Size Guide
 Description: Jewellery Size Guide downloadable sheet for Ideal Shopping Direct
-Tags: ideal, print
+Tags: [ideal, print]
 Alt: Jewellery Size Guide
 Portrait: Yes
 ---

@@ -1,7 +1,7 @@
 ---
 Title: Print Theme for Tumblr
 Description: Print Theme is my first publicly released theme for the Tumblr blogging platform, inspired by the CMYK colour test blocks on printed material
-Tags: web, tumblr, coding, html5
+Tags: [web, tumblr, coding, html5]
 Alt: Print Theme for Tumblr blogging platform
 ---
 Print Theme is my first publicly released theme for the Tumblr platform. It draws its inspiration from the CMYK colour blocks you see at the edge of printed material. I thought it would appeal to the creative bias of Tumblr users, and was a feature I had not seen on other themes. 

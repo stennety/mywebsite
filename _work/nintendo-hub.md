@@ -1,7 +1,7 @@
 ---
 Title: Enjoy Nintendo Hub
 Description: Creation of the Ant and Dec ‘Enjoy Nintendo’ campaign content hub for Game.co.uk site
-Tags: web, game, design
+Tags: [web, game, design]
 Alt: Nintendo Game Hub
 ---
 *Enjoy Nintendo with Ant & Dec* was part of Nintendo’s multi-million pound ad campaign in Q4 of 2009. 

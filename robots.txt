@@ -1,4 +1,4 @@
-User-agent: Baiduspider, sogou spider, YoudaoBot, Semalt
+User-agent: *
 Disallow: /
 
 User-agent: *
@@ -13,4 +13,4 @@ Disallow: /downloads/
 Disallow: /2010/04/13/hello-world/feed/
 Disallow: default.htm
 
-Sitemap: http://www.paulfosterdesign.co.uk/sitemap.xml
+#Sitemap: http://www.paulfosterdesign.co.uk/sitemap.xml

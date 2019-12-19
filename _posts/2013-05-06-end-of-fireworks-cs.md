@@ -3,7 +3,7 @@ Title: The End of Fireworks CS
 Description: Lamenting on the demise of Adobe Fireworks web design software package as it doesn't make the cut for Adobes cloud service. 
 Date: 13-05-06
 Source: 
-Tags: paulfosterdesign, fireworks, web design, tools
+Tags: [paulfosterdesign, fireworks, web design, tools]
 ---
 ##Surely you saw this coming?
 

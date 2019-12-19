@@ -3,7 +3,7 @@ Title: 10,000 Hop Over Effect Views
 Description: Hop Over Notification Badge CSS effect has passed 10,000 views over on code demo site, CodePen
 Date: 16-08-08
 Source: http://codepen.io/plfstr/pen/cgsGH
-Tags: codepen, personal, css, milestone
+Tags: [codepen, personal, css, milestone]
 ---
 (codepen: http://codepen.io/plfstr/pen/cgsGH height: 250)
 

@@ -3,7 +3,7 @@ Title: Semantically Integrated CSS
 Description: A personal example using ARIA state roles to progressively enhance and style an interactive element
 Date: 16-05-18
 Source: 
-Tags: css, semantics, framework, theory, personal
+Tags: [css, semantics, framework, theory, personal]
 ---
 A recent A List Apart article [Meaningful CSS: Style Like You Mean It](http://alistapart.com/article/meaningful-css-style-like-you-mean-it), by Tim Baxter has caused a lot of furious posts in the frontend community. Personally, I think the subtext of the article is a response to class-happy and div-tastic reinvention of the wheel using non-semantic markup, rather than a call to abandon current CSS approaches that its been taken as.
 

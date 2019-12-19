@@ -2,7 +2,7 @@
 Title: Animation Inspiration
 Description: A post about the increasing trend of animated interaction in apps and roundup of some of Pauls demo work featuring animation and transitions. 
 Date: 14-08-22
-Tags: paulfosterdesign, roundup, animation, css, codepen, collection
+Tags: [paulfosterdesign, roundup, animation, css, codepen, collection]
 ---
 In mobile and touch devices, animation has been gradually becoming more and more prominent to enhance the experience. Users are experienced with smartphone and digital interfaces. We have lost the skeumorphic need to relate back to physical objects, indeed iOS7 [took away a little too much](https://medium.com/coding-design/confusion-with-ios7-1s-new-keyboard-b9fbc46a0e3c). 
 

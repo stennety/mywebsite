@@ -3,7 +3,7 @@ Title: User Testing the Local Council Website
 Description: My experience user testing Huntingdonshire District Councils new website, the process and my initial impressions.
 Date: 15-09-17
 Source: 
-Tags: web, personal, testing, dev, ux
+Tags: [web, personal, testing, dev, ux]
 ---
 This week I went along to test the upcoming website for Huntingdonshire District Council. I saw an ad in the local newspaper(yes) [asking for testers](http://huntingdonshire.gov.uk/News%20and%20Communications/whatsnew/Pages/Councillookingforvolunteerstotestnewwebsite.aspx) and thought it would be interesting to experience the user testing process.
 

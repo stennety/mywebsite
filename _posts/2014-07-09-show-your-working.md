@@ -3,7 +3,7 @@ Title: Show your working
 Description: Show your working. I shared some new button styles, it got shared, it got me to share this post with you.
 Date: 14-07-09
 Source: http://codepen.io/plfstr/pen/nBqHC
-Tags: paulfosterdesign, codepen, web, css
+Tags: [paulfosterdesign, codepen, web, css]
 ---
 Whenever I am creating or reflecting on creative work I have completed I always keep [this phrase](https://signalvnoise.com/posts/1620-sell-your-by-products) in mind from the book *[Rework](http://37signals.com/rework)* by Basecamp (previously 37signals), which states:
 

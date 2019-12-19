@@ -3,7 +3,7 @@ Title: Flexbox Film Credits
 Description: Flexbox film credits layout, inspired by the old fashioned Hollywood movies!
 Date: 16-01-05
 Source: http://codepen.io/plfstr/pen/JGWYar/
-Tags: codepen, flexbox, effect, css, pickedpen
+Tags: [codepen, flexbox, effect, css, pickedpen]
 ---
 I saw a lot of classic films over the Christmas break. As the credits were rolling for yet another classic, I looked at the dotted divider between film character and actor and something in my brain said ‘flexbox’, and this is what happened. 
 

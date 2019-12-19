@@ -3,7 +3,7 @@ Title: Embriage Ipsum
 Description: How ‘Embriage Ipsum’, a nonsense text generator based on an old and badly translated French car manual, came to exist.
 Date: 15-01-28
 Source: http://codepen.io/plfstr/pen/zxdYpb/
-Tags: codepen, sideproject, web, personal, typography, pickedpen
+Tags: [codepen, sideproject, web, personal, typography, pickedpen]
 ---
 While watching the episode of BBC Top Gear where Jeremy and James are driving a vintage French car, I realised the badly translated instructions Jeremy was yelling from the manual would make a good Lorem Ipsum substitute. 
 

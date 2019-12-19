@@ -2,7 +2,7 @@
 Title: Early Days
 Description: Thinking about the early days of the internet and what I was doing in 2003, why I was so blasé about the web and how I got to this point.
 Date: 14-03-31 
-Tags: personal, web, projects, paulfosterdesign
+Tags: [personal, web, projects, paulfosterdesign]
 ---
 _I was thinking of topics for blog posts as right now I am in the middle of a couple of things. One I hope to be debuting on here very soon. But I realised I wasn't living up to the promise I left off on in my [first post](/blog/portfolio-redesign/). Turns out blog writing doesn't just happen._
 

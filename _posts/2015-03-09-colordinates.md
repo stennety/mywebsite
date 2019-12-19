@@ -4,7 +4,7 @@ Description: Where the hue are you? A simple web app to return a colour value ba
 Date: 15-03-09
 Alt: Colordinates web app
 Source: https://plfstr.github.io/colordinates/
-Tags: personal, webapp, project, github
+Tags: [personal, webapp, project, github]
 ---
 ## Where the hue are you?
 

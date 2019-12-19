@@ -9,7 +9,7 @@ Side projects are a great opportunity to focus on something specific and learn s
 
 ## Print Theme
 
-![Print Theme for Tumblr](//content/01-work/02-print-theme/printtheme.png)
+![Print Theme for Tumblr](printtheme.png)
 
 Always wanted to make a Tumblr theme. Finally I had the time to and an idea of a theme. [Print Theme was born](/work/print-theme/).
 
@@ -31,7 +31,7 @@ The site never became huge by any standard but still receives 4 times more searc
 
 ## Colordinates
 
-![Colordinates App](//content/04-blog/21-colordinates/colordinates.png)
+![Colordinates App](colordinates.png)
 
 [Colordinates](/blog/colordinates/) was created as an excuse to use the Geolocation API. 
 

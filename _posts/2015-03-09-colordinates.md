@@ -1,7 +1,7 @@
 ---
 Title: Colordinates
 Description: Where the hue are you? A simple web app to return a colour value based on your location on the Earth.
-Date: 15-03-09
+Date: 2015-03-09
 Alt: Colordinates web app
 Source: https://plfstr.github.io/colordinates/
 Tags: [personal, webapp, project, github]

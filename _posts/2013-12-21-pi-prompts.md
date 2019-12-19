@@ -1,7 +1,7 @@
 ---
 Title: Pi Prompts
 Description: Pi Prompts is a crib-sheet of basic Pi commands for a beginner to get to grips with. Hosted on GitHub and caches offline.
-Date: 13-12-31
+Date: 2013-12-31
 Source: http://plfstr.github.io/pi-prompts/
 Tags: [ paulfosterdesign, web, personal]
 ---

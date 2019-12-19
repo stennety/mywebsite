@@ -1,7 +1,7 @@
 ---
 Title: Lightening the Load
 Description: When taking away, adds better experience. Recent performance tweaks to lighten page weight and increase speed of paulfosterdesign.co.uk
-Date: 15-10-22
+Date: 2015-10-22
 Source: 
 Tags: [personal, perf, web, js]
 ---

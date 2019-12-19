@@ -1,7 +1,7 @@
 ---
 Title: Show your working
 Description: Show your working. I shared some new button styles, it got shared, it got me to share this post with you.
-Date: 14-07-09
+Date: 2014-07-09
 Source: http://codepen.io/plfstr/pen/nBqHC
 Tags: [paulfosterdesign, codepen, web, css]
 ---

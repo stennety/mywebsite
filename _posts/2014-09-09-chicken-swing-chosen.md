@@ -1,7 +1,7 @@
 ---
 Title: Chicken Swing in CodePen Picked Pens
 Description: Chicken Swing was selected for CodePens Picked Pens section.
-Date: 14-09-09
+Date: 2014-09-09
 Source: http://codepen.io/
 Tags: [personal, paulfosterdesign, codepen, accolades]
 ---

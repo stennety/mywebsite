@@ -1,7 +1,7 @@
 ---
 Title: CodePen Kirbytag for Kirby 2
 Description: CodePen ‘kirbytag’ extension to enable simple embedding of code demos in the Kirby 2 CMS platform.
-Date: 14-11-06
+Date: 2014-11-06
 Source: https://github.com/plfstr/kirbytag-codepen
 Tags: [paulfosterdesign, personal, codepen, code, github]
 ---

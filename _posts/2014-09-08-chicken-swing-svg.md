@@ -1,7 +1,7 @@
 ---
 Title: Chicken Swing animated SVG
 Description: A chicken passing the time on a swing. Animated SVG using keyframes and transforms to create a fun loading screen.
-Date: 14-09-08
+Date: 2014-09-08
 Source: http://codepen.io/plfstr/pen/sFCbG
 Tags: [svg, animation, css3, paulfosterdesign, pickedpen, popularpen]
 ---

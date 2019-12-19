@@ -1,7 +1,7 @@
 ---
 Title: Flexbox Film Credits
 Description: Flexbox film credits layout, inspired by the old fashioned Hollywood movies!
-Date: 16-01-05
+Date: 2016-01-05
 Source: http://codepen.io/plfstr/pen/JGWYar/
 Tags: [codepen, flexbox, effect, css, pickedpen]
 ---

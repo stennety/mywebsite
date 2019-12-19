@@ -1,7 +1,7 @@
 ---
 Title: Colordinates App A11Y
 Description: An explainer of the accessibility(A11Y) features included in Colordinates web app - an app that returns a colour value based on your geolocation
-Date: 19-07-11
+Date: 2019-07-11
 Source: 
 Tags: [a11y, app, colordinates, code, sideproject]
 ---

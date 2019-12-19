@@ -1,7 +1,7 @@
 ---
 Title: Side Project Learning
 Description: Paul Fosters side projects, my experience and what I learned from each project-
-Date: 16-11-15
+Date: 2016-11-15
 Source: 
 Tags: [personal, codepen, web, ui, sideproject]
 ---

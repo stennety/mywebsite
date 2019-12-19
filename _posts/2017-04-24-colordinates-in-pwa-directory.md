@@ -1,7 +1,7 @@
 ---
 Title: PWA Directory Includes Colordinates
 Description: Colordinates web app is now included in the PWA (Progressive Web App) Directory
-Date: 17-04-24
+Date: 2017-04-24
 Source: 
 Tags: [colordinates, pwa, webapp]
 ---

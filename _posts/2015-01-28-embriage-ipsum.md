@@ -1,7 +1,7 @@
 ---
 Title: Embriage Ipsum
 Description: How ‘Embriage Ipsum’, a nonsense text generator based on an old and badly translated French car manual, came to exist.
-Date: 15-01-28
+Date: 2015-01-28
 Source: http://codepen.io/plfstr/pen/zxdYpb/
 Tags: [codepen, sideproject, web, personal, typography, pickedpen]
 ---

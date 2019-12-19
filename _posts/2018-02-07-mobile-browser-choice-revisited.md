@@ -1,7 +1,7 @@
 ---
 Title: Mobile Browser Choice Revisited
 Description: Are there still tough choices choosing a mobile OS and your mobile browser choice? With multi-platform browsers and progressive web apps, choice wins
-Date: 18-02-07
+Date: 2018-02-07
 Source: 
 Tags: [mobile, browser, edge, safari, chrome, samsung, pwa, webkit]
 ---

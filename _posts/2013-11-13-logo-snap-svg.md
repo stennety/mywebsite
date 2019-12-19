@@ -1,7 +1,7 @@
 ---
 Title: PF Logo Snap.svg
 Description: Manipulation of my PF logo using Adobe's new Snap.svg framework to create a hover effect.
-Date: 13-11-13
+Date: 2013-11-13
 Source: http://codepen.io/plfstr/details/bDczt
 Tags: [ paulfosterdesign, web, svg]
 ---

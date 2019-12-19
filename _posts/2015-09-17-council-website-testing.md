@@ -1,7 +1,7 @@
 ---
 Title: User Testing the Local Council Website
 Description: My experience user testing Huntingdonshire District Councils new website, the process and my initial impressions.
-Date: 15-09-17
+Date: 2015-09-17
 Source: 
 Tags: [web, personal, testing, dev, ux]
 ---

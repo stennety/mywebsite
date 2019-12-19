@@ -1,7 +1,7 @@
 ---
 Title: Agony of Mobile Browser Choice
 Description: Tough choices to be be made selecting between a mobile OS and its browser(s).
-Date: 16-03-26
+Date: 2016-03-26
 Source: 
 Tags: [browsers, personal, web, apps, mobile]
 ---

@@ -1,7 +1,7 @@
 ---
 Title: When you accidentally start a thing
 Description: CSS 1k is a styling challenge using - you guessed it - less than 1k of CSS. Posting an old take on it, the users of CodePen took up the challenge.
-Date: 13-08-22
+Date: 2013-08-22
 Source: http://codepen.io/plfstr/pen/izswy
 Tags: [ paulfosterdesign, web, codepen, css, twitter]
 ---

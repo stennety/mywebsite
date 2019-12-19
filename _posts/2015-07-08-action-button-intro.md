@@ -1,7 +1,7 @@
 ---
 Title: Action Button Intro Effect
 Description: Intro effect highlighting a primary action button, using the Material Design Light framework.
-Date: 15-07-08
+Date: 2015-07-08
 Source: http://codepen.io/plfstr/pen/MwVGxR
 Tags: [codepen, material design, css]
 ---

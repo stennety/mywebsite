@@ -1,7 +1,7 @@
 ---
 Title: PF logo morphs into skill chart concept
 Description: CodePen demo of my site logo which transitions using CSS3 into a representative chart of my web design skills.
-Date: 13-06-17
+Date: 2013-06-17
 Source: http://codepen.io/plfstr/pen/DhfJu
 Tags: [ gif, web design, paulfosterdesign, codepen]
 ---

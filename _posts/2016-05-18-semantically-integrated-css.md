@@ -1,7 +1,7 @@
 ---
 Title: Semantically Integrated CSS
 Description: A personal example using ARIA state roles to progressively enhance and style an interactive element
-Date: 16-05-18
+Date: 2016-05-18
 Source: 
 Tags: [css, semantics, framework, theory, personal]
 ---

@@ -3,7 +3,7 @@ Title: PWA Directory Includes Colordinates
 Description: Colordinates web app is now included in the PWA (Progressive Web App) Directory
 Date: 17-04-24
 Source: 
-Tags: colordainates, pwa, webapp
+Tags: colordinates, pwa, webapp
 ---
 My web app, [Colordinates](/blog/colordinates/), an app that displays a colour value based on your geolocation, has been [included in the PWA (Progressive Web App) Directory](https://pwa-directory.appspot.com/pwas/5638503354335232). 
 

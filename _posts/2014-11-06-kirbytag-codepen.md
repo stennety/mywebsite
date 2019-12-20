@@ -9,7 +9,7 @@ I recently installed the overhauled [Kirby 2](http://getkirby.com/blog/kirby-2) 
 
 ## Get the extension
 
-(link: https://github.com/plfstr/kirbytag-codepen text: Codepen extension for Kirby 2 class: h3)
+[Codepen extension for Kirby 2](https://github.com/plfstr/kirbytag-codepen)
 
 _Download the files and then follow the readme instructions. Sorry, not compatible with Kirby 1._
 

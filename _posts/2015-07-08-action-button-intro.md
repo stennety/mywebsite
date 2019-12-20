@@ -7,7 +7,7 @@ Tags: [codepen, material design, css]
 ---
 With the release of [Material Design Lite](http://www.getmdl.io), an official framework smoothing the way for Material Design everywhere, it seemed like  perfect timing to put this simple intro effect out there. 
 
-(codepen: http://codepen.io/plfstr/pen/MwVGxR height: 310)
+{% include codepen.html codepen="http://codepen.io/plfstr/pen/MwVGxR" height="310" %}
 
 Based on my [Hop Over Notification](/blog/hop-over-navigation/) demo - hey, everything is a remix - the effect reinforces the principle of layers and animation in Material Design language reinforcing hierarchy. Perfect for highlighting your primary action button to new users.
 

@@ -17,7 +17,7 @@ I was messing around with some new button styles for my site. I had a little col
 
 It feels strange revealing creative and code that is incomplete and in the initial stages, but others are interested in the ideas and the execution.
 
-(codepen: http://codepen.io/plfstr/pen/nBqHC)
+{% include codepen.html codepen="http://codepen.io/plfstr/pen/nBqHC" %}
 
 ## Showing worked out for me
 

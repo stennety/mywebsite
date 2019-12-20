@@ -5,7 +5,7 @@ Date: 2013-06-02
 Source: http://codepen.io/plfstr/pen/Kyslk
 Tags: [ paulfosterdesign, web, gif, codepen, pickedpen, popularpen]
 ---
-(codepen: http://codepen.io/plfstr/pen/Kyslk)
+{% include codepen.html codepen="http://codepen.io/plfstr/pen/Kyslk" %}
 
 Excerpt Peek is a hover effect that allows you to preview content beneath a featured image. The demo is over on [Codepen.io](http://codepen.io/plfstr/pen/Kyslk), go check it out!
 ##The Response

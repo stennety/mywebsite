@@ -26,13 +26,13 @@ Modern browser support for CSS3 and the relative simplicity of implementing comp
 
 Using movement to show current focus. Link markers expand to form various fill styles, before returning back to become a simple tab or page marker.
 
-(codepen: http://codepen.io/plfstr/pen/EdlBu)
+{% include codepen.html codepen="http://codepen.io/plfstr/pen/EdlBu" %}
 
 ### [Hop Over Notification Badge](/blog/hop-over-navigation/) 
 
 A charming hop effect for showing / hiding some secondary info, totals, tool tips. _The digital opacity fade in has no soul, why can't something hop over to meet you_.
 
-(codepen: http://codepen.io/plfstr/pen/cgsGH height: 250)
+{% include codepen.html codepen="http://codepen.io/plfstr/pen/cgsGH" height="250" %}
 
 ### Animation plays a part in many of my demos
 

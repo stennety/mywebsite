@@ -2,7 +2,7 @@
 Title: Show your working
 Description: Show your working. I shared some new button styles, it got shared, it got me to share this post with you.
 Date: 2014-07-09
-Source: http://codepen.io/plfstr/pen/nBqHC
+Source: https://codepen.io/plfstr/pen/nBqHC
 Tags: [paulfosterdesign, codepen, web, css]
 ---
 Whenever I am creating or reflecting on creative work I have completed I always keep [this phrase](https://signalvnoise.com/posts/1620-sell-your-by-products) in mind from the book *[Rework](http://37signals.com/rework)* by Basecamp (previously 37signals), which states:
@@ -17,11 +17,11 @@ I was messing around with some new button styles for my site. I had a little col
 
 It feels strange revealing creative and code that is incomplete and in the initial stages, but others are interested in the ideas and the execution.
 
-{% include codepen.html codepen="http://codepen.io/plfstr/pen/nBqHC" %}
+{% include codepen.html codepen="https://codepen.io/plfstr/pen/nBqHC" %}
 
 ## Showing worked out for me
 
-Chris Coyier, co-founder of [CodePen.io](//codepen.io), added it to his popular collection ‘[The Fanciest of All Buttons](http://codepen.io/collection/bxdaH/)’, where it will now get seen by many others. At the time of writing it has 50+ views and 4 hearts. 
+Chris Coyier, co-founder of [CodePen.io](//codepen.io), added it to his popular collection ‘[The Fanciest of All Buttons](https://codepen.io/collection/bxdaH/)’, where it will now get seen by many others. At the time of writing it has 50+ views and 4 hearts. 
 
 That experimentation, lead to creative work to show, which lead to exposure, which lead to this post, which will lead to more connections and content. All from tinkering around around with a couple of alternative button styles that in the past would be consigned to folders on my hard drive, where even I may never have looked at them again. 
 

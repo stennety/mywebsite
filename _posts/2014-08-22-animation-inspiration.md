@@ -26,13 +26,13 @@ Modern browser support for CSS3 and the relative simplicity of implementing comp
 
 Using movement to show current focus. Link markers expand to form various fill styles, before returning back to become a simple tab or page marker.
 
-{% include codepen.html codepen="http://codepen.io/plfstr/pen/EdlBu" %}
+{% include codepen.html codepen="https://codepen.io/plfstr/pen/EdlBu" %}
 
 ### [Hop Over Notification Badge](/blog/hop-over-navigation/) 
 
 A charming hop effect for showing / hiding some secondary info, totals, tool tips. _The digital opacity fade in has no soul, why can't something hop over to meet you_.
 
-{% include codepen.html codepen="http://codepen.io/plfstr/pen/cgsGH" height="250" %}
+{% include codepen.html codepen="https://codepen.io/plfstr/pen/cgsGH" height="250" %}
 
 ### Animation plays a part in many of my demos
 
@@ -40,7 +40,7 @@ Other examples of my work which may inspire animation in areas you might not hav
 
 ## Get animated
 
-I also recommend checking out Codepen for ‘[Material design](http://codepen.io/search?q=material&limit=all&depth=everything&show_forks=false)’ or [the Material tag](http://codepen.io/tag/material/) as people begin to experiment with this new style of layout and interaction.
+I also recommend checking out Codepen for ‘[Material design](https://codepen.io/search?q=material&limit=all&depth=everything&show_forks=false)’ or [the Material tag](https://codepen.io/tag/material/) as people begin to experiment with this new style of layout and interaction.
 
 If you want to get into the new methods of thinking about interaction, a site that springs to mind is [Don't Click](http://www.dontclick.it/), where you click and you lose the challenge.
 

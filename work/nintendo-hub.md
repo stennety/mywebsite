@@ -4,6 +4,8 @@ Description: Creation of the Ant and Dec ‘Enjoy Nintendo’ campaign content h
 Tags: [web, game, design]
 Alt: Nintendo Game Hub
 ---
+{% include image.html image="nintendohub.jpg" alt="Nintendo Game Hub" %}
+
 *Enjoy Nintendo with Ant & Dec* was part of Nintendo’s multi-million pound ad campaign in Q4 of 2009. 
 
 This content ‘hub’ of the GAME site was produced to a tight deadline against strict brand guidelines from Nintendo and the use of the Ant and Dec’s imagery. Featured strong visual ties with Nintendo’s branding in this marketing campaign and styling of the console hardware.

@@ -5,6 +5,8 @@ Tags: [web, design, tumblr]
 Alt: blackandwhitesquares.com website
 Shortname: b&ws
 ---
+{% include image.html image="baws.jpg" alt="blackandwhitesquares.com website" %}
+
 ### If it’s black, white and grid-like it has a place here.
 
 A site dedicated to all things 2D code. I purchased the domain [blackandwhitesquares.com](http://blackandwhitesquares.com/) [B&WS], which encapsulates the whole genre of 2D code, back in 2007 when QR(Quick Response) codes were coming to the attention of western markets. In 2009 I launched a site dedicated to QR and 2D barcodes showing the best of what they can do, using a self-built custom theme using Tumblr as a platform.

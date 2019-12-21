@@ -5,6 +5,8 @@ Tags: [ideal, print]
 Alt: Jewellery Size Guide
 Portrait: Yes
 ---
+{% include image.html image="ringsizer.png" alt="Jewellery Size Guide" %}
+
 ### Brief:
 
 Create a downloadable and printable measuring tape for customers to measure themselves and establish their size to assist them in placing jewellery orders.

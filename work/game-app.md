@@ -4,6 +4,8 @@ Description: GAME App icon design and banners for the UI of Game.co.uk's iOS app
 Tags: [design, game, ios]
 Alt: Game App
 ---
+{% include image.html image="gameapp.jpg" alt="Game App" %}
+
 Because of my interest in mobile applications and the iTunes app marketplace, I was asked to assist in providing representative icons for the UI and in-app banners for GAME’s iOS application.
 
 The new platform nature of the project meant it was essential to keep ‘on brand’ with the look and feel of the GAME store, to reassure users they would receive the same customer experience as with the GAME site.

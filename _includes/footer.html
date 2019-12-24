@@ -1,0 +1,15 @@
+<div class="footer md:flex md:flex-wrap text-center md:text-left">
+			
+    <nav>
+        <ul class="list-none p-0 list-navigation flex flex-wrap content-between mb-6 md:text-center">
+            {% for page for site.pages %}
+            <li class="w-1/3"><a class="link__nav" href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    
+    <footer class="md:order-first" role="contentinfo">
+        <p class="copyright" translate="no">&copy;Copyright Paul Foster</p>
+    </footer>
+    
+</div>

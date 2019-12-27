@@ -1,6 +1,6 @@
 ---
 Title: CodePen Kirbytag Update
-Description: Improvements to the Kirbytext CodePen extension for Kirby CMS: Moving to GitHub, license and HTTPS support
+Description: "Improvements to the Kirbytext CodePen extension for Kirby CMS: Moving to GitHub, license and HTTPS support"
 Date: 2015-11-10
 Source: https://github.com/plfstr/kirbytag-codepen
 Tags: [codepen, kirby, github, project, code]

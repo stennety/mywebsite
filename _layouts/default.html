@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-<!-- {% include meta.html %} -->
+{% comment %}
+{% include meta.html %}
+{% endcomment %}
 </head>
 <body>
 
     <div class="wrap-all">
 
+        {% comment %}
         {% include header.html %}
+        {% endcomment %}
 
         <div id="sidebar" class="wrap-sidebar">
             
+            {% comment %}
             {% include sidebar.html %}
+            {% endcomment %}
 
         </div>
         
@@ -23,9 +29,13 @@
             </article>
         </main>
 
+        {% comment %}
         {% include socialicons.html %}
+        {% endcomment %}
 
+        {% comment %}
         {% include footer.html %}
+        {% endcomment %}
 
     </div>
 

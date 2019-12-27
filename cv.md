@@ -69,4 +69,4 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 If you like what you read and have a role available (in-house or work remotely), [contact me](/contact/), see my [LinkedIn profile](https://www.linkedin.com/in/paulfosterdesign) or tweet [@plfstr](https://twitter.com/plfstr).
 
-(link: / text: Back To Site class:button button--allposts)
+[Back To Home](/)

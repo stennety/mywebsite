@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include meta.html %}
+</head>
+<body>
+
+    <div class="wrap-all">
+
+        {% include header.html %}
+
+        <div id="sidebar" class="wrap-sidebar">
+            
+            {% include sidebar.html %}
+
+        </div>
+        
+        <main id="content" class="wrap-content">
+            <article>
+                
+                {{ content }}
+                
+            </article>
+        </main>
+
+        {% include socialicons.html %}
+
+        {% include footer.html %}
+
+    </div>
+
+</body>
+</html>

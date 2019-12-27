@@ -7,7 +7,7 @@ Tags: [codepen, flexbox, effect, css, pickedpen]
 ---
 I saw a lot of classic films over the Christmas break. As the credits were rolling for yet another classic, I looked at the dotted divider between film character and actor and something in my brain said ‘flexbox’, and this is what happened. 
 
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/JGWYar/" height="450" %}
+{% include codepen.html codepen="https://codepen.io/plfstr/pen/JGWYar" height="450" %}
 
 An ideal layout for displaying cast and crew list beneath a video embed.
 

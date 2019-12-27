@@ -11,7 +11,7 @@ Novelty Ipsum generators were a thing, so I had no trouble finding a JS generato
 
 ## Some Embriage
 
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/zxdYpb/" height="550" %}
+{% include codepen.html codepen="https://codepen.io/plfstr/pen/zxdYpb" height="550" %}
 
 ## Typography
 

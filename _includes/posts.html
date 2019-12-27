@@ -1,0 +1,23 @@
+<div class="posts">
+  
+  {% for post in site.posts %}
+  <article class="preview--project clearfix mb-6">
+
+    <h1 class="h2 h2--projecttitle"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    
+    {% if post.image %}
+    <div class="block mb-6 md:float-right md:m-3">
+        <a href="{{ post.url }}" class="figure__featimg" tabindex="-1">
+            <img src="{{ post.image }}" alt="{{ post.alt }}">
+        </a>
+    </div>
+    {% endif %}
+    
+    <p>{{ post.excerpt | strip_html }}</p>
+    
+    <p><a href="{{ post.url }}" class="button button--hero" tabindex="-1">View project</a></p>
+
+</article>
+{% endfor %}
+
+</div>

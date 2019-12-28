@@ -60,6 +60,6 @@ Happiest when taking the design process through in to writing efficient code, an
 
 If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing, check [my blog](/blog/) for the latest projects. 
 
-If you like my work and have a web role available (in-house or work remotely), [check out my CV](/cv/) or please [contact me](/contact/).
+If you like my work and have a web role available (in-house or work remotely), find out more [about me](/about/) and [check out my CV](/cv/).
 
 *Thank you for visiting*

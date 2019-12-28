@@ -57,7 +57,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Education
 
-###University of Wales Institute Cardiff (now Cardiff Metropolitan University)
+### University of Wales Institute Cardiff (now Cardiff Metropolitan University)
 
 **BA (Hons) Product Design 2:1**
 

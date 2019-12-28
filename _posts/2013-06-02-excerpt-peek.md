@@ -8,13 +8,13 @@ Tags: [ paulfosterdesign, web, gif, codepen, pickedpen, popularpen]
 {% include codepen.html codepen="https://codepen.io/plfstr/pen/Kyslk" %}
 
 Excerpt Peek is a hover effect that allows you to preview content beneath a featured image. The demo is over on [Codepen.io](https://codepen.io/plfstr/pen/Kyslk), go check it out!
-##The Response
+## The Response
 
 Released a week ago, the response has been phenomenal and most unexpected. Starting with being picked for the Editors Picks on the frontpage but then continuing on to the Popular section based on the number of likes received (at his point 2000+ views and 80+ likes). Truly blown away.
 
 As the site says, ‘Demo or it didn't happen,’ this Pen was just a result of me trying an idea I had for my new folio site. I wanted to show a little of the description in a slightly different way.
 
-##Thoughts Why
+## Thoughts Why
 
 I’m going to try and break out why things might have gotten so crazy so fast. This is not a guide getting popular on CodePen, just me thinking out loud.
 

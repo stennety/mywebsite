@@ -5,7 +5,7 @@ Date: 2013-05-06
 Source: 
 Tags: [paulfosterdesign, fireworks, web design, tools]
 ---
-##Surely you saw this coming?
+## Surely you saw this coming?
 
 I heard the rumours, but I was exhaling in relief, taking in the news of the launch of Adobe CC packages and working out how much I could get the latest Fireworks for per month, when I saw the first tweets come in about [the announcement](http://blogs.adobe.com/fireworks/2013/05/the-future-of-adobe-fireworks.html).
 
@@ -13,11 +13,11 @@ Now before you write me off as another jaded Fireworks fanboy, which maybe I am.
 
 I even wrote about my experience with moving to Fireworks. Moving over hasn’t been straightforward and I haven’t attained the same oneness and flow that I had with Photoshop. But with that in mind, and this I do share this with the Fireworks evangelists, it was THE tool for web and ui design. Fireworks wins, not Photoshop, unquestionably for me.
 
-##I can see where they are coming from
+## I can see where they are coming from
 
 I can see an argument from Adobes point of view in that they cant control the market and push or force designers to use Fireworks. Why would or should they? The market practically dictates that Photoshop is the tool for web designing. That remaining the case, I can see it makes no sense for them to continue to maintain two products with an overlap of feature, fighting for the same customer base.
 
-##However...
+## However...
 
 If I were feeling cynical, and I am. It could be that Fireworks ability to cover many bases made it a target. It enabled easy wireframing, vector  and limited bitmap editing, [basic] html and css output.
 

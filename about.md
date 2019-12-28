@@ -8,6 +8,7 @@ My name is Paul Foster, this site is collection of my professional career and pr
 ## Work Overview
 
 ### Ideal World
+
 **Got to grips with web design in the World of TV Shopping.**
 
 *	Present for 3 major site redesigns and <abbr title="User Acceptance Testing">UAT</abbr> testing.
@@ -17,6 +18,7 @@ My name is Paul Foster, this site is collection of my professional career and pr
 *	Print work, including [ring sizer](/work/ringsize-guide/) and [Christmas event](/work/christmas-cracker/).
 
 ### Game
+
 **Furthered my career with an international games retailer.**
 
 *	Creation of site merchandising, affiliate banners and content hubs, such as [Nintendo hub](/work/nintendo-hub/).
@@ -24,6 +26,7 @@ My name is Paul Foster, this site is collection of my professional career and pr
 *	Responsible for tasking creative for GAMEs weekly newsletters.
 	
 ### Thomas Cook
+
 **Contract work in a major brand. Hit the ground running.**
 
 *	Email marketing creation for Thomas Cook Cruises.

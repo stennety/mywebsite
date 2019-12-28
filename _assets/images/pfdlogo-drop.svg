@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 410 164">
+  <defs>
+    <path id="a" d="M389.6 34H227.3l10.6-34H401l-11.4 34zm-372 65l11.7-35h126.2l9.5-30H38.9L50.3 0h167.3l-33 99h-167zm44.1 53H0l11.9-35h61.4l-11.6 35zm198.8-35l-11.6 35h-61.2l11.9-35h60.9zM217 64h121.4l-12.3 35H205.4L217 64z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(9 12)">
+      <mask id="b" fill="#fff">
+        <use xlink:href="#a"/>
+      </mask>
+      <use fill="#111" opacity=".2" xlink:href="#a"/>
+      <path fill="#FFF" d="M380.6 22H218.3l10.6-34H392l-11.4 34zM8.6 87l11.7-35h126.2l9.5-30H29.9l11.4-34h167.3l-33 99H8.6zm44.1 53H-9l11.9-35h61.4l-11.6 35zm198.8-35l-11.6 35h-61.2l11.9-35h60.9zM208 52h121.4l-12.3 35H196.4L208 52z" mask="url(#b)"/>
+    </g>
+    <path fill="#F0F0F0" d="M389.6 34H227.3l10.6-34H401l-11.4 34zm-372 65l11.7-35h126.2l9.5-30H38.9L50.3 0h167.3l-33 99h-167zm44.1 53H0l11.9-35h61.4l-11.6 35zm198.8-35l-11.6 35h-61.2l11.9-35h60.9zM217 64h121.4l-12.3 35H205.4L217 64z"/>
+  </g>
+</svg>

@@ -35,7 +35,6 @@ My name is Paul Foster, this site is collection of my professional career and pr
 
 ## What I offer
 
-<section class="section--panel section--panel--horizontal">
 ### Skills I bring
 
 *	Idea generation and creative thinking
@@ -45,7 +44,7 @@ My name is Paul Foster, this site is collection of my professional career and pr
 *	Direct marketing, PPC, Affiliate experience
 *	SEO, Web Analytics, Site Optimisation
 *	Nearly 4 years corporate workplace experience
-</section><section class="section--panel section--panel--horizontal">
+
 ### Using these tools
 
 *	Adobe Creative Suite – <abbr title="Photoshop">Ps</abbr>, <abbr title="Fireworks">Fw</abbr>, <abbr title="Dreamweaver">Dw</abbr>, <abbr title="Flash">Fl</abbr>
@@ -54,7 +53,6 @@ My name is Paul Foster, this site is collection of my professional career and pr
 *	Built frontends on top of company bespoke CMS's, WordPress, Tumblr and Kirby CMS
 *	Office, OpenOffice, Google Docs, Basecamp
 *	GoSquared / Google Analytics / Google Webmaster
-</section>
 
 Happiest when taking the design process through in to writing efficient code, and knowing that I am presenting information to users in the most effective way. The web is always changing and I have a real interest in the mobile and application based platforms and the new opportunities they present.
 

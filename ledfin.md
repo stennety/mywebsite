@@ -2,11 +2,11 @@
 title: LEDfin
 description: LEDfin - an award winning LED desk lamp designed by Paul Foster. Finalist European Lights of the future, 2nd Lighting Association Student Lighting Design competition
 ---
-[LEDfin on display European Lights of the Future exhibition](/assets/images/ledfin.jpg)
+![LEDfin on display European Lights of the Future exhibition](/assets/images/ledfin.jpg)
 
 Prize Winning Desk Lamp – LEDfin utilises 19 ultra-bright white LEDs to cast a gentle white light on to a frosted perspex sail.
 
-[LEDfin submitted design board](/assets/images/ledfin_board.jpg)
+![LEDfin submitted design board](/assets/images/ledfin_board.jpg)
 
 ## Finalist European Lights of the future
 
@@ -16,7 +16,7 @@ LEDfin was entered into the **European Lights of the Future** competition in 200
 
 It went on to achieve second place in the *UK Student Lighting Design Competition* held by the Lighting Association. The first time my university had attained an award in the competition. 
 
-[Magazines in which LEDfin appeared](/assets/images/ledfin_magcovers.jpg)
+![Magazines in which LEDfin appeared](/assets/images/ledfin_magcovers.jpg)
 
 ## LEDFin featured in Light, Light and Design and ID magazines
 

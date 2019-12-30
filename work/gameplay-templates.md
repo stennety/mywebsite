@@ -1,8 +1,8 @@
 ---
-Title: Gameplay Customer Communication
-Description: Customer email templates redesign for Gameplay customer communications
-Tags: [design, mailer, game]
-Alt: Gameplay Template Designs
+title: Gameplay Customer Communication
+description: Customer email templates redesign for Gameplay customer communications
+tags: [design, mailer, game]
+alt: Gameplay Template Designs
 Shortname: Gameplay Templates
 ---
 {% include image.html image="gameplay.jpg" alt="Gameplay Template Designs" %}

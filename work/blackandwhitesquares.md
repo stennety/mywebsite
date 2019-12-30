@@ -1,8 +1,8 @@
 ---
-Title: blackandwhitesquares
-Description: A Tumblr site dedicated to all things 2D code. If it's black, white and grid-like it has a place here.
-Tags: [web, design, tumblr]
-Alt: blackandwhitesquares.com website
+title: blackandwhitesquares
+description: A Tumblr site dedicated to all things 2D code. If it's black, white and grid-like it has a place here.
+tags: [web, design, tumblr]
+alt: blackandwhitesquares.com website
 Shortname: b&ws
 ---
 {% include image.html image="baws.jpg" alt="blackandwhitesquares.com website" %}

@@ -1,6 +1,6 @@
 ---
-Title: Paul Foster Résumé
-Description: Paul Fosters résumé, from a degree in product design to four years work web design experience for some high street brands.
+title: Paul Foster Résumé
+description: Paul Fosters résumé, from a degree in product design to four years work web design experience for some high street brands.
 layout: cv
 ---
 ## Statement

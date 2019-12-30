@@ -1,9 +1,9 @@
 ---
-Title: Hop Over Notification Badge
-Description: Concept for a subtle z-index based notification effect. Counters, badges or alerts hop over the site navigation to alert users / give feedback.
-Date: 2013-08-21
-Source: https://codepen.io/plfstr/pen/cgsGH
-Tags: [css, codepen, animation, html5]
+title: Hop Over Notification Badge
+description: Concept for a subtle z-index based notification effect. Counters, badges or alerts hop over the site navigation to alert users / give feedback.
+date: 2013-08-21
+source: https://codepen.io/plfstr/pen/cgsGH
+tags: [css, codepen, animation, html5]
 ---
 {% include codepen.html codepen="https://codepen.io/plfstr/pen/cgsGH" height="250" %}
 

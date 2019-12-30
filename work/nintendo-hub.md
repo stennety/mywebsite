@@ -1,8 +1,8 @@
 ---
-Title: Enjoy Nintendo Hub
-Description: Creation of the Ant and Dec ‘Enjoy Nintendo’ campaign content hub for Game.co.uk site
-Tags: [web, game, design]
-Alt: Nintendo Game Hub
+title: Enjoy Nintendo Hub
+description: Creation of the Ant and Dec ‘Enjoy Nintendo’ campaign content hub for Game.co.uk site
+tags: [web, game, design]
+alt: Nintendo Game Hub
 ---
 {% include image.html image="nintendohub.jpg" alt="Nintendo Game Hub" %}
 

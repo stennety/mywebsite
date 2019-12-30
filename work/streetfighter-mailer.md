@@ -1,8 +1,8 @@
 ---
-Title: Street Fighter IV Mailer
-Description: Email marketing creation for Street Fighter IV game, featuring a design as bold as the gameplay.
-Tags: [mailer, game, design]
-Alt: Street Fighter IV Mailer
+title: Street Fighter IV Mailer
+description: Email marketing creation for Street Fighter IV game, featuring a design as bold as the gameplay.
+tags: [mailer, game, design]
+alt: Street Fighter IV Mailer
 Portrait: true
 ---
 {% include image.html image="streetfighteriv.jpg" alt="Street Fighter IV Mailer" %}

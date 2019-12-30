@@ -1,6 +1,6 @@
 ---
-Title: About Me
-Description: Paul Fosters portfolio of professional web career and product design degree work. I have nearly 4 years commercial front-end web design experience for some well known brands.
+title: About Me
+description: Paul Fosters portfolio of professional web career and product design degree work. I have nearly 4 years commercial front-end web design experience for some well known brands.
 ---
 
 My name is Paul Foster, this site is collection of my professional career and product design degree work. I have nearly 4 years commercial front-end web design experience for some well known high-street and online brands. I have produced ads, content hubs, microsites and mailshots with millions of views. Paul invites you to [connect him with a role](/cv/) in your web team. 

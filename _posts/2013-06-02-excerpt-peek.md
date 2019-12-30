@@ -1,9 +1,9 @@
 ---
-Title: Excerpt Peek
-Description: Excerpt Peek is a hover effect that allows you to preview content beneath a featured image. My first demo on CodePen.
-Date: 2013-06-02
-Source: https://codepen.io/plfstr/pen/Kyslk
-Tags: [ paulfosterdesign, web, gif, codepen, pickedpen, popularpen]
+title: Excerpt Peek
+description: Excerpt Peek is a hover effect that allows you to preview content beneath a featured image. My first demo on CodePen.
+date: 2013-06-02
+source: https://codepen.io/plfstr/pen/Kyslk
+tags: [ paulfosterdesign, web, gif, codepen, pickedpen, popularpen]
 ---
 {% include codepen.html codepen="https://codepen.io/plfstr/pen/Kyslk" %}
 

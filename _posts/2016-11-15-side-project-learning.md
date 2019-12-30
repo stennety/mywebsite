@@ -1,9 +1,9 @@
 ---
-Title: Side Project Learning
-Description: Paul Fosters side projects, my experience and what I learned from each project-
-Date: 2016-11-15
-Source: 
-Tags: [personal, codepen, web, ui, sideproject]
+title: Side Project Learning
+description: Paul Fosters side projects, my experience and what I learned from each project-
+date: 2016-11-15
+source: 
+tags: [personal, codepen, web, ui, sideproject]
 ---
 Side projects are a great opportunity to focus on something specific and learn some things at the same time. Each project had different deliverables and things I wanted to learn. This is my experience and what I learned from each side project.
 

@@ -1,9 +1,9 @@
 ---
-Title: Read Only Web
-Description: Did slow loading, cluttered websites cause people to use reader view by default? Are we heading towards a reader view only, of the web?
-Date: 2017-11-08
-Source: 
-Tags: [design, web, typography, copywriting, content, blogging, advice, browsers]
+title: Read Only Web
+description: Did slow loading, cluttered websites cause people to use reader view by default? Are we heading towards a reader view only, of the web?
+date: 2017-11-08
+source: 
+tags: [design, web, typography, copywriting, content, blogging, advice, browsers]
 ---
 Are we moving to a text-only reading view experience of the web? 
 

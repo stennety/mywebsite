@@ -1,8 +1,8 @@
 ---
-Title: Christmas Cracker
-Description: Luxury Christmas cracker box design direct marketing promotion for Ideal World special event
-Tags: [print, ideal, marketing, design]
-Alt: Ideal Christmas Cracker Promotion
+title: Christmas Cracker
+description: Luxury Christmas cracker box design direct marketing promotion for Ideal World special event
+tags: [print, ideal, marketing, design]
+alt: Ideal Christmas Cracker Promotion
 ---
 {% include image.html image="christmascracker.jpg" alt="Ideal Christmas Cracker Promotion" %}
 

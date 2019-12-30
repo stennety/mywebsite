@@ -1,8 +1,8 @@
 ---
-Title: GAME App
-Description: GAME App icon design and banners for the UI of Game.co.uk's iOS app.
-Tags: [design, game, ios]
-Alt: Game App
+title: GAME App
+description: GAME App icon design and banners for the UI of Game.co.uk's iOS app.
+tags: [design, game, ios]
+alt: Game App
 ---
 {% include image.html image="gameapp.jpg" alt="Game App" %}
 

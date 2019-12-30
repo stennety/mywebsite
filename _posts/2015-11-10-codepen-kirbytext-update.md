@@ -1,9 +1,9 @@
 ---
-Title: CodePen Kirbytag Update
-Description: "Improvements to the Kirbytext CodePen extension for Kirby CMS: Moving to GitHub, license and HTTPS support"
-Date: 2015-11-10
-Source: https://github.com/plfstr/kirbytag-codepen
-Tags: [codepen, kirby, github, project, code]
+title: CodePen Kirbytag Update
+description: "Improvements to the Kirbytext CodePen extension for Kirby CMS: Moving to GitHub, license and HTTPS support"
+date: 2015-11-10
+source: https://github.com/plfstr/kirbytag-codepen
+tags: [codepen, kirby, github, project, code]
 ---
 The [CodePen Kirbytag extension](/blog/kirbytag-codepen/) allows Kirby CMS powered sites to embed Pen demos easily via the Kirbytext syntax. This is a quick update about some recent improvements.
 

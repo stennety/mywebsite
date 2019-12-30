@@ -1,9 +1,9 @@
 ---
-Title: PF Logo Snap.svg
-Description: Manipulation of my PF logo using Adobe's new Snap.svg framework to create a hover effect.
-Date: 2013-11-13
-Source: https://codepen.io/plfstr/details/bDczt
-Tags: [ paulfosterdesign, web, svg]
+title: PF Logo Snap.svg
+description: Manipulation of my PF logo using Adobe's new Snap.svg framework to create a hover effect.
+date: 2013-11-13
+source: https://codepen.io/plfstr/details/bDczt
+tags: [ paulfosterdesign, web, svg]
 ---
 {% include codepen.html codepen="https://codepen.io/plfstr/pen/bDczt" height="300" %}
 

@@ -1,8 +1,8 @@
 ---
-Title: New Site Redesign
-Description: The re-launch of a Paul Fosters portfolio site and the reasoning for my switch to Kirby CMS as a platform.
-Date: 2014-02-26
-Tags: [paulfosterdesign, web, site, personal]
+title: New Site Redesign
+description: The re-launch of a Paul Fosters portfolio site and the reasoning for my switch to Kirby CMS as a platform.
+date: 2014-02-26
+tags: [paulfosterdesign, web, site, personal]
 ---
 Thats right a nice and new shiny site, complete with blog! So let's break this blog thing into its new home and explain myself...
 

@@ -1,9 +1,9 @@
 ---
-Title: Agony of Mobile Browser Choice
-Description: Tough choices to be be made selecting between a mobile OS and its browser(s).
-Date: 2016-03-26
-Source: 
-Tags: [browsers, personal, web, apps, mobile]
+title: Agony of Mobile Browser Choice
+description: Tough choices to be be made selecting between a mobile OS and its browser(s).
+date: 2016-03-26
+source: 
+tags: [browsers, personal, web, apps, mobile]
 ---
 I have a dilemma coming. Its the classic native vs web argument but with a new slant. That old argument was always phrased hypothetically pitching a generic phone platform versus a non-specific browser. Reality is not that simple.
 

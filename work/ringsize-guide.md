@@ -3,7 +3,7 @@ title: Jewellery Size Guide
 description: Jewellery Size Guide downloadable sheet for Ideal Shopping Direct
 tags: [ideal, print]
 alt: Jewellery Size Guide
-Portrait: true
+portrait: true
 ---
 {% include image.html image="ringsizer.png" alt="Jewellery Size Guide" %}
 

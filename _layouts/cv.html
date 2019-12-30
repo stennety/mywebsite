@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include meta.html %}
+</head>
+<body>
+
+    <div class="wrap-all">
+
+        {% include header.html %}
+
+        <div id="sidebar" class="wrap-sidebar">
+            
+            <aside class="largeonly" role="complementary">
+
+                <h2>Skills</h2>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Fireworks</li>
+                    <li>Sketch</li>
+                    <li>SVG</li>
+                    <li>HTML</li>
+                    <li>XHTML</li>
+                    <li>HTML5</li>
+                    <li>PHP</li>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>JS</li>
+                    <li>jQuery</li>
+                    <li>Vue</li>
+                    <li>Markdown</li>
+                    <li>WordPress</li>
+                    <li>Kirby&shy;CMS</li>
+                    <li>Jekyll</li>
+                    <li>Tumblr</li>
+                    <li>UX</li>
+                    <li>Responsive&nbsp;Design</li>
+                    <li>Typography</li>
+                    <li>Wire&nbsp;Frames</li>							
+                    <li>Hand&nbsp;Coding</li>
+                    <li>Accessibility</li>
+                    <li>Cross-browser&nbsp;Compatibility</li>
+                    <li>W3C&nbsp;Validation</li>
+                    <li>Version&nbsp;Control</li>
+                    <li>Email&nbsp;Design</li>
+                    <li>Image&nbsp;Optimisation</li>
+                    <li>SEO</li>
+                    <li><abbr title="User Acceptance Testing">UAT</abbr></li>                        
+                </ul>
+                
+                <figure aria-labelledby="willrelocate">
+                    <img id="relocatemap" role="graphics-doc img" src="/assets/images/relocatemap.svg" width="140" height="170" alt="Area willing to relocate to in the UK">
+                    <figcaption id="willrelocate" class="lowlight highlight">&bull; Area consider relocating</figcaption>
+                </figure>
+                                                
+            </aside>
+
+        </div>
+        
+        <main id="content" class="wrap-content">
+            <article>
+                
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+                
+            </article>
+        </main>
+
+        {% include socialicons.html %}
+
+        {% include footer.html %}
+
+    </div>
+
+</body>
+</html>

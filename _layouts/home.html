@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include meta.html %}
+<link rel="stylesheet" href="/assets/styles/style-home.css" media="only screen and (min-width: 768px)">
+</head>
+<body>
+
+    <div class="wrap-all">
+
+        {% include header.html %}
+
+        <main id="content" class="wrap-content" role="main">
+	
+            <article class="grid--primarycol">
+            	
+                <div class="grid--projects">
+                    
+                    <a class="figure__featimg" href="/work/blackandwhitesquares/">
+                        <img src="/assets/images/baws.jpg" width="320" height="220" alt="blackandwhitesquares.com" loading="eager">
+                    </a>
+
+                    <a class="figure__featimg" href="/work/print-theme/">
+                        <img src="/assets/images/printtheme.jpg" width="320" height="220" alt="Print Theme" loading="eager">
+                    </a>
+
+                    <a class="figure__featimg" href="/work/nintendo-hub/">
+                        <img src="/assets/images/nintendohub.jpg" width="320" height="220" alt="Nintendo Hub" loading="eager">
+                    </a>
+        
+                </div>
+
+                <section class="grid--primarycol">
+                    <div>
+                        <h2>My Work</h2>
+                        <p><strong>Web, UI, Graphics, Print.</strong></p>
+                        <p><a href="/work/" class="button">All Work</a></p>
+                    </div>
+                    <div>
+                        {{ content }}
+                    </div>
+                </section>
+                
+                <section>
+                    <h2>My Posts</h2>
+                    <p>Read my thoughts on web design and more...</p>
+                    <a href="/blog/" class="button">All Posts</a>
+                </section>        
+                
+                <aside>
+                    <article class="wrap-preview">
+                        {% assign latestpost = site.posts.first %}
+                        <h1 class="h3"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h1>
+                        {% if latestpost.thumb %}
+                            <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
+                                <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">
+                            </a>
+                        {% endif %}
+                        <p>{{ latestpost.excerpt | strip_html }}</p>
+                        <p><a href="{{ latestpost.url }}" class="button" tabindex="-1">Read Post</a></p>
+                    </article>
+                </aside>
+        
+            </article>
+        
+        </main>
+        
+        {% include socialicons.html %}
+
+        {% include footer.html %}
+
+    </div>
+
+</body>
+</html>

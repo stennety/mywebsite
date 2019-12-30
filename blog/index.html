@@ -1,0 +1,25 @@
+---
+title: Blog
+description: Paul Foster has a blog now. A place for new projects, code demos and general web musings to appear for you to read.
+layout: default
+---                
+<p>A place for new projects, code demos and general webby musings to appear for you to read. <i>Subscribe to my posts via RSS or follow <a href="https://twitter.com/plfstr">@plfstr</a> for more frequent updates.</i></p>
+
+{% for post in paginator.posts %}
+<article class="wrap-preview">
+    <h1 class="h2"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.excerpt | strip_html }}</p>
+    <p><a href="{{ post.url }}" class="button" tabindex="-1">Read Post</a></p>
+</article>
+{% endfor %}
+
+<nav>
+<ul class="list--nostyles list--inline list--spacebetween">
+    {% if paginator.previous_page %}
+    <li><a class="button" href="{{ paginator.previous_page_path }}" rel="prev">Earlier Posts</a></li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li><a class="button" href="#" rel="next">Recent Posts</a></li>
+    {% endif %}
+</ul>
+</nav>

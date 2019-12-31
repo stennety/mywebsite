@@ -59,6 +59,10 @@ permalink: /:collection/:slug/
 paginate: 8
 paginate_path: "/blog/page:num/"
 
+# SASS
+sass:
+    style: compressed
+
 # Append /blog/
 collections:
   posts:

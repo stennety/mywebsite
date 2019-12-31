@@ -60,8 +60,8 @@ paginate: 8
 paginate_path: "/blog/page:num/"
 
 # SASS
-sass:
-    style: compressed
+# sass:
+    # style: compressed
 
 # Append /blog/
 collections:

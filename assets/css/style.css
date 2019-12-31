@@ -57,6 +57,7 @@ body {
     position: relative;
     margin: 0 auto;
     padding: .75rem;
+    max-width: calc(700px + (.75rem*2));
     font: 100%/1.5 var(--font-body);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;

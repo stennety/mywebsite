@@ -1,0 +1,289 @@
+---
+---
+:root {
+    --col-body: #fafafa;
+    --col-primary: #242a48;
+    --col-secondary: rgba(10,0,10,.2);
+    --col-highlight: #a0faff;
+    --col-lowlight: #787e8b;
+    --font-body: Tahoma, sans-serif;
+    --font-slab: Verdana, Geneva, Tahoma, sans-serif;
+    --font-figure: Hack, Consolas, Menlo, Monaco, monospace;
+    --img-featheight: 480px
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,* :before,* :after {
+    box-sizing: inherit
+}
+
+::before,::after {
+    vertical-align: inherit
+}
+
+html,body {
+    min-height: 100%
+}
+
+main,picture,iframe,img {
+    display: block
+}
+
+.visually-hidden,[hidden] {
+    display: none
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0
+}
+
+svg {
+    fill: currentColor
+}
+
+figure {
+    margin: 0 auto 1.5em
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+body {
+    position: relative;
+    margin: 0 auto;
+    padding: .75rem;
+    font: 100%/1.5 var(--font-body);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--col-body);
+    background: var(--col-primary);
+    background-image: linear-gradient(-12deg,var(--col-primary),98%,var(--col-highlight));
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-color: var(--col-lowlight) transparent;
+    scrollbar-width: thin
+}
+
+h1,h2,h3,blockquote,.lowlight {
+    display: block;
+    margin: 0 0 1.5rem
+}
+
+h1,.h1 {
+    font-size: 3rem;
+    line-height: 1;
+    word-wrap: break-word
+}
+
+h2,.h2 {
+    font-size: 2em;
+    line-height: .75
+}
+
+h3,.h3 {
+    font-size: 1.5em;
+    line-height: 1
+}
+
+article {
+    font-size: 1.125rem;
+    line-height: calc(27/18)
+}
+
+p,ul,ol,dl {
+    margin: 0 auto 1.5rem
+}
+
+ul {
+    list-style-type: square
+}
+
+ol {
+    list-style-type: upper-alpha
+}
+
+::marker {
+    color: var(--col-highlight, currentColor)
+}
+
+mark,::selection {
+    background: var(--col-highlight)
+}
+
+a:link,a:visited {
+    color: var(--col-highlight, currentColor);
+    text-decoration: none;
+    transition: color .1s linear 0;
+    transition: color .1s linear 0,text-decoration-color .1s linear 0
+}
+
+a:hover,a:active,a:focus {
+    color: currentColor;
+    text-decoration: underline;
+    text-decoration-skip: auto;
+    text-decoration-skip-ink: auto
+}
+
+@supports (text-underline-offset:0) {
+    a:hover,a:active,a:focus,.active,[aria-current] {
+        color: var(--col-body, currentColor)!important;
+        text-decoration: underline!important;
+        text-decoration-thickness: .1rem;
+        text-underline-offset: .25em;
+        text-decoration-color: currentColor
+    }
+}
+
+a[rel] {
+    text-decoration: none
+}
+
+article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
+    content: "\2794";
+    padding: .125em;
+    font-size: initial;
+    color: currentColor
+}
+
+p a,li a {
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+@supports (-webkit-hyphens:auto) {
+    p a,li a {
+        word-wrap: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto
+    }
+}
+
+code,pre,kbd {
+    font-family: var(--font-figure)
+}
+
+p>code,kbd {
+    padding: .125em .25em;
+    border: 1px solid var(--col-lowlight)
+}
+
+pre {
+    margin: 0 auto 1.5em;
+    padding: .75rem;
+    white-space: pre-wrap;
+    background-color: var(--col-secondary)
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: .875em;
+    border-left: .125rem solid var(--col-highlight);
+    margin: 0 0 1.5rem
+}
+
+@media only screen and (min-width:600px) {
+    blockquote {
+        margin-left: 0;
+        padding-left: 4.5rem;
+        border: 0;
+        background: url(/assets/images/blockquote.svg) no-repeat;
+        background-size: 4rem
+    }
+}
+
+blockquote p {
+    font-size: 1.5rem;
+    line-height: 1.5
+}
+
+small {
+    letter-spacing: .025em
+}
+
+dt {
+    font-weight: 700;
+    font-style: italic
+}
+
+.invisible {
+    position: absolute!important;
+    clip: rect(1px,1px,1px,1px);
+    text-indent: -100em
+}
+
+.list--nostyles {
+    padding: 0;
+    list-style-type: none
+}
+
+.flex--row,.list--inline {
+    display: flex;
+    flex-flow: row nowrap
+}
+
+.flex--spacebetween,.list--spacebetween {
+    justify-content: space-between
+}
+
+.flex--auto {
+    flex: 1 auto
+}
+
+.flex--fifty {
+    flex: 1 1 50%
+}
+
+.flex--justifycenter {
+    text-align: center
+}
+
+.lowlight {
+    display: block;
+    font-size: .875rem;
+    line-height: 1.715;
+    letter-spacing: .025rem;
+    color: var(--col-lowlight, #777)
+}
+
+.button {
+    padding: .5em;
+    color: var(--col-highlight);
+    background-color: var(--col-secondary);
+    font-size: 1.5rem
+}
+
+.button.button--hero {
+    font-size: 1.5rem;
+    font-family: var(--font-slab, currentColor);
+    font-weight: 700;
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+    text-transform: capitalize
+}
+
+.button.button--hero:after {
+    content: "→"
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin: .25rem
+}
+
+.wrap-logo {
+    margin: 1.5rem
+}
+
+.wrap-banner .flex--fifty {
+    display: none
+}

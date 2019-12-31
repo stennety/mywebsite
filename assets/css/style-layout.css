@@ -70,7 +70,7 @@ h1:before,h2:before {
     margin: 0
 }
 
-.pf__img {
+.wrap-logo--img {
     transform: translateY(3.5rem) rotate(-17deg) scale(1.4)
 }
 

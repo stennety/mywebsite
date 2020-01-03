@@ -290,3 +290,9 @@ dt {
 .wrap-banner .flex--fifty {
     display: none
 }
+
+.figure__featimg {
+    display: block;
+    margin: 0 auto 1.5rem;
+    box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
+}

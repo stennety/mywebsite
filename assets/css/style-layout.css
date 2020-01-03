@@ -78,11 +78,6 @@ h1:before,h2:before {
     margin-top: -2em
 }
 
-.figure__featimg {
-    display: block;
-    box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
-}
-
 .figure__featimg--portrait {
     max-width: 50%;
     float: right;

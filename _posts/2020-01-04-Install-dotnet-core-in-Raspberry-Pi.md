@@ -11,13 +11,16 @@ I recently bought a Raspberry Pi 4, I installed it [Raspbian Linux](https://down
 ## Context
 I recently developed a dotnet core command line application, and I needed to run it on my Raspberry Pi, using a cron to automate its execution.
 In order to run the application I had to install dotnet core on Raspberry.
+
 ![_config.yml]({{ site.baseurl }}/images/raspberrypi_version.png)
 Here are all the steps I performed:
 
 # Install
 ## Download dotnet core for ARM
 First you'll need to download the 32 bit binaries for linux ARM. My option at this time was on [dotnet core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2).
+
 ![_config.yml]({{ site.baseurl }}/images/download_dotnet_core_arm32.png)
+
 ### to download the SDK
 ```bash
 wget https://download.visualstudio.microsoft.com/download/pr/fca1c415-b70c-4134-8844-ea947f410aad/901a86c12be90a67ec37cd0cc59d5070/dotnet-sdk-2.2.207-linux-arm.tar.gz
@@ -45,7 +48,9 @@ Make sure it is intalled and check the version/info about the dotnet core versio
 dotnet --info
 ```
 After run all those steps dotnet core 2.2 was installed and running (for all users) in my Raspberry Pi 4. My personal option was on 2.2, but if you want to install one 2.* version, maybe you should use 2.1, as it is a LTS version, otherwise you should consider 3.1, as it is the current LTS version.
-![_config.yml]({{ site.baseurl }}/images/dotnet_info.png)
+
+![_config.yml]({{ site.baseurl }}/images/dotnet_info.PNG)
+
 
 # next post
 So probally my next post on this topic will be on how to upgrade dotnet core 2.2 to dotnet core 3.1 in Raspberry Pi (ARM 32).

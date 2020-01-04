@@ -9,7 +9,7 @@ A recent A List Apart article [Meaningful CSS: Style Like You Mean It](http://al
 
 The article makes the case for basing CSS styling hooks upon the semantic elements of HTML5, over the use of additional classes in markup. 
 
->	Why reinvent the semantic meanings already defined in the spec in our own classes? Why duplicate them, or muddy them?
+> Why reinvent the semantic meanings already defined in the spec in our own classes? Why duplicate them, or muddy them?
 
 I don't agree with this blanket approach to the extent suggested in the article but I have used this method on my site and it works particularly well in styling interactive elements.
 
@@ -17,7 +17,7 @@ I don't agree with this blanket approach to the extent suggested in the article 
 
 I took this approach when building my mobile navigation drop down. I use the CSS [attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) to toggle the nav and button states. 
 
->	Why can’t our CSS be as semantic and meaningful as our markup? Why can’t both be more semantic and meaningful, moving forward in tandem?
+> Why can’t our CSS be as semantic and meaningful as our markup? Why can’t both be more semantic and meaningful, moving forward in tandem?
 
 Right around the time I learned about [state rules](https://smacss.com/book/type-state) (.is-state) class based approach, I was also trying to improve my sites accessibility. I realised I was already applying state attributes and any `.is-active` class based toggling approach would be duplication of the semantic ARIA State properties of the nav menu.
 

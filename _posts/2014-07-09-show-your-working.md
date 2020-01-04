@@ -7,7 +7,7 @@ tags: [paulfosterdesign, codepen, web, css]
 ---
 Whenever I am creating or reflecting on creative work I have completed I always keep [this phrase](https://signalvnoise.com/posts/1620-sell-your-by-products) in mind from the book *[Rework](http://37signals.com/rework)* by Basecamp (previously 37signals), which states:
 
->	When you make something you make something else.
+> When you make something you make something else.
 
 Judging by the increasing podcasts, blog posts and web design books published now, others, whether they know it or not are acting on this too. This phrase is what my blog is!
 

@@ -12,7 +12,7 @@ Perhaps its a concession that our devices are more powerful and we multi task mu
 
 At this years Google IO event, Android ‘L’ introduced Googles new ‘Material Design’ principle. A visual and user experience framework, rooted in physical properties but with clever use of animation to reinforce elements of user interaction.
 
->	Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efficient yet coherent. _&ndash; [Google Material Design guide](http://www.google.com/design/spec/material-design/introduction.html#introduction-principles)_
+> Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efficient yet coherent. _&ndash; [Google Material Design guide](http://www.google.com/design/spec/material-design/introduction.html#introduction-principles)_
 
 With the showing of Googles new material design, a new trend for animation, parallax and ‘[meaningful transitions](http://www.google.com/design/spec/animation/meaningful-transitions.html#meaningful-transitions-visual-continuity)’, animation is here and likely to become more prevalent, [leaving behind the skeumorphism before it](http://www.dezeen.com/2014/07/26/alex-wiltshire-google-material-design-end-of-skeumorphism/).
 

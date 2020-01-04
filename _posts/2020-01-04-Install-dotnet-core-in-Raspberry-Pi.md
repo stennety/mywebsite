@@ -11,9 +11,9 @@ I recently bought a Raspberry Pi 4, I installed it [Raspbian Linux](https://down
 ## Context
 I recently developed a dotnet core command line application, and I needed to run it on my Raspberry Pi, using a cron to automate its execution.
 In order to run the application I had to install dotnet core on Raspberry.
+In this post you'll find all the steps I performed to do it.
 
 ![_config.yml]({{ site.baseurl }}/images/raspberrypi_version.png)
-Here are all the steps I performed:
 
 # Install
 ## Download dotnet core for ARM

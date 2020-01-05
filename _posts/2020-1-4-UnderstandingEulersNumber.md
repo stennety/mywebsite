@@ -3,7 +3,7 @@ layout: post
 title: Understanding Euler's Number
 ---
 
-This is the newer post (shown below).
+Discover why mathematicians and statisticians are so enamored by the Exponential Constant _e_
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 

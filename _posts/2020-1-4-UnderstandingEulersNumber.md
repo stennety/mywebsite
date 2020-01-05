@@ -70,4 +70,40 @@ Differentiating this expansion, we get
 
 ![_config.yml]({{ site.baseurl }}/images/eu10-diff.png)
 
-What does this mean? The rate of growth of \exp^x is equal to itself i.e., \expe^x. This very property makes it unique and popular as the base of any functions involving natural growth or continuous function.
+What does this mean? The rate of growth of e^x is equal to itself i.e., e^x. This very property makes it unique and popular as the base of any functions involving natural growth or continuous function.
+
+![_config.yml]({{ site.baseurl }}/images/eu11-graph.png)
+
+In other words, e^x is the amount to which continuous growth will happen from time unit _1_ to time unit _x_ when rate of growth is 100%.   
+
+This should explain why _e_ is the preferred base for calculus based problems and not other digits like 2, 3  or 10.
+
+### Natural Logarithm
+
+We cannot discuss exponential function without also talking about its inverse - Natural logarithm
+
+![_config.yml]({{ site.baseurl }}/images/eu12-lnx.png)
+
+It can be interpreted as the unit of time an exponential function will take to reach a certain growth. For eg, with e^x as growth function, the number of time units required to reach y= 20 is _ln_ 20 
+
+Given, 
+
+![_config.yml]({{ site.baseurl }}/images/eu13-elnx.png)
+
+, then differentiating on both sides wrt x, we get 
+
+![_config.yml]({{ site.baseurl }}/images/eu14-lne1.png)
+
+, meaning horizontal traversal on the x axis when e^x grows from 1 to _e_ is 1 unit. 
+
+### Why e^x is favored for Calculus
+
+Simply put, it is because of its unique property of being a derivative of itself 
+
+![_config.yml]({{ site.baseurl }}/images/eu15-dex.png)
+
+Let’s say we have a function y = 5^x . This can easily be represented in terms of _e_ as 
+
+![_config.yml]({{ site.baseurl }}/images/eu16-ybar.png)
+
+This can be easily be interpreted as the rate of growth for 5 ^(x ) is proportional to _ln_ 5.  This ease and beauty is what has made mathematicians and statisticians to be so enamoured by this magical number called the ‘exponential constant’. 

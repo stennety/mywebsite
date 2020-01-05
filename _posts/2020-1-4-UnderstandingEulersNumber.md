@@ -60,3 +60,14 @@ implying that in an imaginary plane, growth means rotating around a circle by so
 
 ![_config.yml]({{ site.baseurl }}/images/eu9-circle.png)
 
+### Its own Derivative
+
+Given,
+
+![_config.yml]({{ site.baseurl }}/images/eu9a-prediff.png)
+
+Differentiating this expansion, we get 
+
+![_config.yml]({{ site.baseurl }}/images/eu10-diff.png)
+
+What does this mean? The rate of growth of \exp^x is equal to itself i.e., \expe^x. This very property makes it unique and popular as the base of any functions involving natural growth or continuous function.

@@ -21,3 +21,42 @@ He established that the constant _e_ (2.7182824...) was irrational as well as tr
 
 which we now have come to call as exponential function, the base of many calculus problems. To appreciate this function better, let us check out how this great mathematician connected abstract mathematics to physical realm - a complex plane
 
+### Euler's Formula and Euler's Identity
+
+Let’s see how a complex number plane can be represented by the series
+
+![_config.yml]({{ site.baseurl }}/images/eu3-expfunc.png)
+
+Using __McLaurin’s Power Series__, we know the following
+
+![_config.yml]({{ site.baseurl }}/images/eu4-mclaurins.png)
+
+Substituting **_ix_** in place of **_x_** in the below
+
+![_config.yml]({{ site.baseurl }}/images/eu3-expfunc.png)
+
+, we get
+
+![_config.yml]({{ site.baseurl }}/images/eu5-preeulers.png)
+
+This gives us,
+
+![_config.yml]({{ site.baseurl }}/images/eu6-eulerseqn.png)
+
+popularly known as **Euler’s Formula**. 
+
+This equation in turn gave way to findings like
+
+![_config.yml]({{ site.baseurl }}/images/eu7-posteulers.png)
+
+helpful tools in topics like Signal processing, etc. 
+
+
+We can also see that when _x_ is substituted by _π_ ,  we arrive at the Euler’s Identity
+
+![_config.yml]({{ site.baseurl }}/images/eu8-identity.png)
+
+implying that in an imaginary plane, growth means rotating around a circle by so many radians while real growth scales up the magnitude. 
+
+![_config.yml]({{ site.baseurl }}/images/eu9-circle.png)
+

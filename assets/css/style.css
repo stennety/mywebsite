@@ -4,8 +4,8 @@
     --col-secondary: rgba(10,0,10,.2);
     --col-highlight: #a0faff;
     --col-lowlight: #787e8b;
-    --font-body: Tahoma, sans-serif;
-    --font-slab: Verdana, Geneva, Tahoma, sans-serif;
+    --font-body: Tahoma, Arial, sans-serif;
+    --font-slab: 'Arial Black', Verdana, Tahoma, sans-serif;
     --font-figure: Hack, Consolas, Menlo, Monaco, monospace;
     --img-featheight: 480px
 }

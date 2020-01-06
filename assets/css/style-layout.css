@@ -119,9 +119,17 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
 }
 
 .wrap-preview {
-    margin-bottom: 1.5rem;
-    overflow: visible;
-    clear: both
+    margin-bottom: 3rem;
+    padding: 0;
+    overflow: auto;
+    background-color: transparent;
+}
+
+@supports (display:flow-root) {
+    .wrap-preview {
+        display: flow-root;
+        overflow: visible;
+    }
 }
 
 .wrap-preview h1:before {

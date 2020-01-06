@@ -15,11 +15,11 @@ layout: default
 
 <nav>
 <ul class="list--nostyles list--inline list--spacebetween">
-    {% if paginator.previous_page %}
-    <li><a class="button" href="{{ paginator.previous_page_path }}" rel="prev">Earlier Posts</a></li>
-    {% endif %}
     {% if paginator.next_page %}
-    <li><a class="button" href="{{ paginator.next_page_path }}" rel="next">Recent Posts</a></li>
+    <li><a class="button" href="{{ paginator.next_page_path }}" rel="prev">Earlier Posts</a></li>
+    {% endif %}
+    {% if paginator.previous_page %}
+    <li><a class="button" href="{{ paginator.previous_page_path }}" rel="next">Recent Posts</a></li>
     {% endif %}
 </ul>
 </nav>

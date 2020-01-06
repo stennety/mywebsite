@@ -17,8 +17,9 @@ h1,h2,h3 {
     margin-bottom: 1.5rem
 }
 
-h1:before,h2:before {
+h1:before {
     content: "/";
+    vertical-align: text-top;
     color: var(--col-highlight)
 }
 

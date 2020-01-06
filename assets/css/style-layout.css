@@ -38,12 +38,11 @@ h1:before,h2:before {
         gap: 1.5rem
     }
 
-    .wrap-sidebar {
-        grid-column-end: 0;
-        grid-column-end: 0;
+    .wrap-content {
+        grid-column-start: 2;
         grid-row-start: 2;
-        grid-row-end: 2
-	}
+        margin-top: -2em
+    }
 	
 	@media only screen and (min-width:1024px) {
         .wrap-all{grid-gap: 3rem;
@@ -72,10 +71,6 @@ h1:before,h2:before {
 
 .wrap-logo--img {
     transform: translateY(3.5rem) rotate(-17deg) scale(1.4)
-}
-
-.wrap-content {
-    margin-top: -2em
 }
 
 .figure__featimg--portrait {

@@ -11,7 +11,7 @@ body {
 }
 
 h1,h2,h3 {
-    font-family: Verdana,Tahoma,sans-serif;
+    font-family: var(--font-slab, sans-serif);
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem

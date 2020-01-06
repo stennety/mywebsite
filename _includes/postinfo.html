@@ -1,9 +1,9 @@
-<div class="md:flex md:flex-no-wrap">
+<div class="flex--row">
 					
     <footer>
-        <time class="block mb-6 md:inline md:mb-0 md:mr-6" datetime="{{ page.date | date_to_rfc822 }}">{{ page.date }}}</time>
+        <p><small><time datetime="{{ page.date | date_to_rfc822 }}">{{ page.date }}}</time></small></p>
     </footer>
     
 </div>
 
-<p class="invisible"><small aria-hidden="true">&lsquo;{{ page.title }}}&rsquo; published by Paul Foster (<a href="{{ page.url }}" rel="author">www.paulfosterdesign.co.uk</a>), a web designer / front-end developer, based in Cambridgeshire, UK.</small></p>
+<p class="invisible" aria-hidden="true"><small>&lsquo;{{ page.title }}}&rsquo; published by Paul Foster (<a href="{{ page.url }}" rel="author">www.paulfosterdesign.co.uk</a>), a web designer / front-end developer, based in Cambridgeshire, UK.</small></p>

@@ -292,6 +292,12 @@ dt {
     display: none
 }
 
+.wrap-preview {
+    margin-bottom: 1.5rem;
+    padding: .75rem;
+    background-color: var(--col-secondary);
+}
+
 .figure__featimg {
     display: block;
     margin: 0 auto 1.5rem;

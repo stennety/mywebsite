@@ -9,6 +9,16 @@
 
         {% include header.html %}
 
+        <main id="content" class="wrap-content">
+            <article>
+                
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+                
+            </article>
+        </main>
+
         <div id="sidebar" class="wrap-sidebar">
             
             <aside class="largeonly" role="complementary">
@@ -56,16 +66,6 @@
             </aside>
 
         </div>
-        
-        <main id="content" class="wrap-content">
-            <article>
-                
-                <h1>{{ page.title }}</h1>
-
-                {{ content }}
-                
-            </article>
-        </main>
 
         {% include socialicons.html %}
 

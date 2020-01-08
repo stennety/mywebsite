@@ -166,10 +166,11 @@ p a,li a {
     word-break: break-all
 }
 
-@supports (-webkit-hyphens:auto) {
+@supports (-webkit-hyphens:auto) or (-ms-hyphens:auto) or (hyphens:auto) {
     p a,li a {
         word-wrap: auto;
         -webkit-hyphens: auto;
+        -ms-hyphens: auto;
         hyphens: auto
     }
 }

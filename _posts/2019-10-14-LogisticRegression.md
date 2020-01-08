@@ -19,4 +19,18 @@ Above figures show the classical difference between a regression (left) and a cl
 
 ![_config.yml]({{ site.baseurl }}/images/lr2-02-eqn.png)
 
-In order to depict probability, we now need a device that will output values between 0 and 1 (0 ≤p ≤1 )  For eg , for a Binary classification problem  _P(Y=1| X)  = 1 - P(Y=0 |X)_  . Also, P(Y) = 0.5 would mean that the data point could belong to either of the class with equal chance. (in other words, right on the hyperplane dividing the two classes) 
+In order to depict probability, we now need a device that will output values between 0 and 1 _(0 ≤ p ≤1 )_  For eg , for a Binary classification problem  _P(Y=1| X)  = 1 - P(Y=0 |X)_  . Also, _P(Y) = 0.5_ would mean that the data point could belong to either of the class with equal chance. (in other words, right on the hyperplane dividing the two classes) 
+
+How do we transform the equation above to something that restrains itself between 0 and 1, without having to sacrifice the ease of a linear representation? Let’s do that in two steps:
+
+1. Make it greater than 0
+   From my previous article, one can see that _e^z_  ( exponential function )is always greater than 0.  So, if we assign
+   
+   ![_config.yml]({{ site.baseurl }}/images/lr2-03-abovex.png)
+
+2. Bring _p_ down from infinity to 1 or less
+   Any fraction with a denominator slightly higher than its numerator is always less than 1.  Therefore, if we assign
+   
+   ![_config.yml]({{ site.baseurl }}/images/lr2-04-pbetween.png)
+
+   , p duly falls in between -1 & 1. Voila, we have grabbed it by horns and tamed our unruly linear relation to be represented as probability.  

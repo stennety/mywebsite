@@ -34,3 +34,41 @@ How do we transform the equation above to something that restrains itself betwee
    ![_config.yml]({{ site.baseurl }}/images/lr2-04-pbetween.png)
 
    , p duly falls in between -1 & 1. Voila, we have grabbed it by horns and tamed our unruly linear relation to be represented as probability.  
+
+### Logistic Sigmoid Function
+
+![_config.yml]({{ site.baseurl }}/images/lr2-05-sigmoidfn.png)
+
+This function is also known as Sigmoid function. As depicted here, it takes an ‘S’ form and at 0, _f(0) = 0.5_.The Sigmoid function is usually denoted as _σ_.  
+
+![_config.yml]({{ site.baseurl }}/images/lr2-06-siggraph.png)
+
+### Tanh Function
+
+This is also used as a sigmoid function where in it also generates an ‘S’ form, except that the range is between _-1 < f(x) < 1_. 
+
+![_config.yml]({{ site.baseurl }}/images/lr2-07-Hyptanfunction.png)
+
+We’ll discuss more on this when we get to neural networks.  
+
+![_config.yml]({{ site.baseurl }}/images/lr2-08-tanhgraph.png)
+
+### Logit Function
+
+![_config.yml]({{ site.baseurl }}/images/lr2-09-logitfn.png)
+
+, which is also called the odds of likelihood. In other words, the ratio of the _P(event)_ to _P(non-event)_
+
+![_config.yml]({{ site.baseurl }}/images/lr2-10-oddslh.png)
+
+This function,
+
+![_config.yml]({{ site.baseurl }}/images/lr2-11-lnf.png)
+
+is also called logit function, using which a Machine learning model adjusts its coefficients 
+
+![_config.yml]({{ site.baseurl }}/images/lr2-12-beta.png)
+
+A simple logistic regression model is shown here.  The weight set _{w1, w2, w3...}_ is the coefficient set _{β0, β1, β2,...}_ we try to find with the help of logit function.
+
+![_config.yml]({{ site.baseurl }}/images/lr2-13-graph.png)

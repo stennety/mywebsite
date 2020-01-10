@@ -9,7 +9,7 @@ Shortname: b&ws
 
 ### If it’s black, white and grid-like it has a place here.
 
-In 2009 I launched blackandwhitesqaures.com, a site dedicated to QR (Quick Response) and 2D barcodes, showing the best of what they can do. 
+In 2009 I launched blackandwhitesquares.com - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do. 
 
 Two posts featured under Tumblr’s very popular and curated [#tech tag](https://www.tumblr.com/tagged/tech), generating great traffic and quadrupling follower count. 
 

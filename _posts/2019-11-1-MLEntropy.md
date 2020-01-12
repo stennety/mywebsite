@@ -39,6 +39,18 @@ In fact, the concept of Cross Entropy has come from Information theory founded b
 
 Simply put, if there’s a communication channel that outputs a sequence of 2 letters [A,B ]  and the recipient is asked to predict the next letter that will come through the channel  , prediction is easier when there’s a heavy bias to either A or B  than when both having equal chance of being output. In other words, predicting A is easier when its probability is 75% than when it is 50 % or less. If this was represented by a binary decision tree ,  ‘A’ would come up much higher in level than B. Therefore, the total entropy =
 
+![_config.yml]({{ site.baseurl }}/images/ml3-05-wtbias.png)
+
+It is apparent from the figure (source: Wikipedia) that the maximum entropy is when it is uniformly distributed. In our example, therefore the entropy is
+
+![_config.yml]({{ site.baseurl }}/images/ml3-06-entropy.png)
+
+This will be the uncertainity of the network given the probability. But if the prediction by recipient doesn’t match with true prediction, and A’s probability is wrongly predicted to be 60%, then it brings in some divergence from the true entropy as the entropy rises to.  
+This is Cross Entropy, given as
+
+![_config.yml]({{ site.baseurl }}/images/ml3-07-xentropy.png)
+
+It’s amazing to behold how the same concept is applied across diverse areas such as Machine learning, Information and Statistical theories. 
 
 
 

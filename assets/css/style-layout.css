@@ -141,15 +141,6 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
     margin: .5rem
 }
 
-@supports (initial-letter:2) or (-webkit-initial-letter:2) {
-    .wrap-preview h1+p::first-letter {
-        -webkit-initial-letter: 2;
-        initial-letter: 2;
-        margin-right: .125em;
-        color: var(--col-highlight)
-    }
-}
-
 .copyright {
     margin: 0
 }

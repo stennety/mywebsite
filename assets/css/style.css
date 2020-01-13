@@ -1,8 +1,8 @@
 :root {
     --col-body: #fafafa;
-    --col-primary: #242a48;
+    --col-primary: #1f2345;
     --col-secondary: rgba(10,0,10,.2);
-    --col-highlight: #a0faff;
+    --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
     --font-body: Tahoma, Arial, sans-serif;
     --font-slab: 'Arial Black', Verdana, Tahoma, sans-serif;

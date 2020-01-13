@@ -133,7 +133,8 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
 
 .wrap-preview--image {
     float: right;
-    margin: .5rem
+    margin: .5rem;
+    max-width: 33%
 }
 
 @supports (initial-letter:2) or (-webkit-initial-letter:2) {

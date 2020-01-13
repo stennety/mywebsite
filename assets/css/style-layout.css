@@ -11,13 +11,13 @@ body {
 }
 
 h1,h2,h3 {
-    font-family: Verdana,Geneva,Tahoma,sans-serif;
+    font-family: var(--font-slab, sans-serif);
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem
 }
 
-h1:before,h2:before {
+h1:before {
     content: "/";
     color: var(--col-highlight)
 }
@@ -135,15 +135,6 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
     float: right;
     margin: .5rem;
     max-width: 33%
-}
-
-@supports (initial-letter:2) or (-webkit-initial-letter:2) {
-    .wrap-preview h1+p::first-letter {
-        -webkit-initial-letter: 2;
-        initial-letter: 2;
-        margin-right: .125em;
-        color: var(--col-highlight)
-    }
 }
 
 .copyright {

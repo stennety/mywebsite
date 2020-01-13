@@ -4,8 +4,8 @@
     --col-secondary: rgba(10,0,10,.2);
     --col-highlight: #a0faff;
     --col-lowlight: #787e8b;
-    --font-body: Tahoma, sans-serif;
-    --font-slab: Verdana, Geneva, Tahoma, sans-serif;
+    --font-body: Tahoma, Arial, sans-serif;
+    --font-slab: 'Arial Black', Verdana, Tahoma, sans-serif;
     --font-figure: Hack, Consolas, Menlo, Monaco, monospace;
     --img-featheight: 480px
 }
@@ -84,7 +84,7 @@ h1,.h1 {
 
 h2,.h2 {
     font-size: 2em;
-    line-height: .75
+    line-height: 1
 }
 
 h3,.h3 {
@@ -101,12 +101,21 @@ p,ul,ol,dl {
     margin: 0 auto 1.5rem
 }
 
+ul, ol {
+    padding-left: 1.5em
+}
+
 ul {
     list-style-type: square
 }
 
 ol {
     list-style-type: upper-alpha
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-bottom: 0;
 }
 
 ::marker {
@@ -157,10 +166,11 @@ p a,li a {
     word-break: break-all
 }
 
-@supports (-webkit-hyphens:auto) {
+@supports (-webkit-hyphens:auto) or (-ms-hyphens:auto) or (hyphens:auto) {
     p a,li a {
         word-wrap: auto;
         -webkit-hyphens: auto;
+        -ms-hyphens: auto;
         hyphens: auto
     }
 }
@@ -183,8 +193,8 @@ pre {
 
 blockquote {
     font-style: italic;
-    padding-left: .875em;
-    border-left: .125rem solid var(--col-highlight);
+    padding-left: 1.25rem;
+    border-left: .25rem solid var(--col-highlight);
     margin: 0 0 1.5rem
 }
 

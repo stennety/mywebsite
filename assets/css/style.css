@@ -281,7 +281,7 @@ dt {
 
 .wrap-all {
     margin: auto;
-    max-width: calc(700px + (.75rem*2))
+    max-width: 43.75rem
 }
 
 .wrap-logo {

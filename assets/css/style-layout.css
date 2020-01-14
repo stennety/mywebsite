@@ -73,12 +73,6 @@ h1:before {
     transform: translateY(3.5rem) rotate(-17deg) scale(1.4)
 }
 
-.figure__featimg--portrait {
-    max-width: 50%;
-    float: right;
-    margin-left: 1rem
-}
-
 @media only screen and (min-width:1200px) {
     .figure__featimg {
         position: relative;

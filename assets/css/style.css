@@ -313,3 +313,11 @@ dt {
     margin: 0 auto 1.5rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
+
+@media only screen and (min-width: 600px) {
+    .figure__featimg--portrait {
+        max-width: 50%;
+        float: right;
+        margin-left: 1rem
+    }
+}

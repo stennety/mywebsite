@@ -6,6 +6,9 @@ alt: Colordinates web app
 source: https://plfstr.github.io/colordinates/
 tags: [personal, webapp, project, github]
 ---
+
+![Colordinates App](/assets/images/colordinates.png)
+
 ## Where the hue are you?
 
 Colordinates takes your geographic location and converts your latitude and longitude position into a HSLA (Hue, Saturation, Lightness, Alpha) colour value. 

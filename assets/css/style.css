@@ -146,8 +146,7 @@ a[rel] {
 }
 
 article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
-    content: "\2794";
-    padding: .125em;
+    content: " \2794";
     font-size: initial;
     color: currentColor
 }

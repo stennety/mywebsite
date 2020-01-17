@@ -1,4 +1,4 @@
-@media only screen and (prefers-theme:dark) {
+@media only screen and (prefers-color-scheme: dark) {
     :root {
         --col-body: #e3e3e3;
         --col-primary: #1a1e34;

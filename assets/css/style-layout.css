@@ -82,7 +82,7 @@ h1:before {
         bottom: 0;
         left: 0;
         z-index: -1;
-        transform: scaleY(.5) skew(-15deg) translate(23%,60%);
+        transform: translate(12%,30%) scaleY(.5) skew(-15deg);
         background-color: var(--col-secondary)
     }
 }

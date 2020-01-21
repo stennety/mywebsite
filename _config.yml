@@ -70,8 +70,8 @@ collections:
     permalink: /blog/:slug/
 
 # RSS
-feed:
-  path: /blog/feed/
+# feed:
+#   path: /blog/feed/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

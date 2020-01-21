@@ -85,6 +85,10 @@ h1:before {
         transform: translate(12%,30%) scaleY(.5) skew(-15deg);
         background-color: var(--col-secondary)
     }
+
+    .figure__featimg.figure__featimg--portrait:after {
+        transform: translate(22%,30%) scaleY(.5) skew(-15deg);
+    }
 }
 
 a[rel=tag],a[rel=tag]:before {

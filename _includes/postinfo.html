@@ -1,9 +1,6 @@
-<div class="flex--row">
-					
-    <footer>
-        <p><small><time datetime="{{ page.date | date_to_rfc822 }}">{{ page.date }}}</time></small></p>
-    </footer>
-    
-</div>
-
-<p class="invisible" aria-hidden="true"><small>&lsquo;{{ page.title }}}&rsquo; published by Paul Foster (<a href="{{ page.url }}" rel="author">www.paulfosterdesign.co.uk</a>), a web designer / front-end developer, based in Cambridgeshire, UK.</small></p>
+{% if page.date %}
+<p><small>Posted <time datetime="{{ page.date }}">{{ page.date }}}</time></small></p>
+{% endif %}
+<footer>
+    <p class="invisible" aria-hidden="true"><small>&lsquo;{{ page.title }}}&rsquo; published by Paul Foster (<a href="{{ page.url }}" rel="author">www.paulfosterdesign.co.uk</a>), a web designer / front-end developer, based in Cambridgeshire, UK.</small></p>
+</footer>

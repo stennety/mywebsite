@@ -334,3 +334,8 @@ dt {
         margin-left: 1rem
     }
 }
+
+#relocatemap {
+    padding: 1.5rem;
+    max-width: 12.5rem;
+}

@@ -79,6 +79,12 @@ body {
     scrollbar-width: thin
 }
 
+@supports (padding: max(0px)) {
+    body {
+        padding: max(.75rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(.75rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
+    }
+}
+
 h1,h2,h3,blockquote,.lowlight {
     display: block;
     margin: 0 0 1.5rem

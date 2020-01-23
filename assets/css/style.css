@@ -174,20 +174,6 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     color: currentColor
 }
 
-p a,li a {
-    word-wrap: break-word;
-    word-break: break-all
-}
-
-@supports (-webkit-hyphens:auto) or (-ms-hyphens:auto) or (hyphens:auto) {
-    p a,li a {
-        word-wrap: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto
-    }
-}
-
 code,pre,kbd {
     font-family: var(--font-figure)
 }

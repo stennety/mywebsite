@@ -20,8 +20,7 @@ h1:before {
     display: block
 }
 
-@supports (display:grid) {
-	
+@supports (display:grid) {	
 	.wrap-all {
         max-width: 1000px;
         margin: 0 auto;
@@ -40,11 +39,12 @@ h1:before {
 	
 	@media only screen and (min-width:1024px) {
         .wrap-all{grid-gap: 3rem;
-        gap: 3rem;
-        margin-top: 1.5rem;
-        grid-template-columns: 1fr 700px
+            gap: 3rem;
+            margin-top: 1.5rem;
+            grid-template-columns: 1fr 700px
+        }
     }
-}}
+}
 
 .wrap-banner {
     padding-top: 4rem

@@ -5,7 +5,7 @@
     --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
     --font-body: Tahoma, Arial, sans-serif;
-    --font-slab: 'Arial Black', Verdana, Tahoma, sans-serif;
+    --font-slab: 'Arial Black', Tahoma, 'Avenir Next', Verdana, sans-serif;
     --font-figure: Hack, Consolas, Menlo, Monaco, monospace;
     --img-featheight: 480px
 }

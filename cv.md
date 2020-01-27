@@ -11,7 +11,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Career Break - Personal Projects
 
-**[www.paulfosterdesign.co.uk](/)** | **[blackandwhitesquares.com](http://blackandwhitesquares.com)** | **[Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
+**[paulfosterdesign.co.uk](/), [blackandwhitesquares.com](http://blackandwhitesquares.com), [Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
 
 *	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](http://www.paulfosterdesign.co.uk/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS) and currently as a static site built via Jekyll and Markdown.
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Uses HTML5, CSS3 transitions, Peak of 470+ installs.
@@ -28,7 +28,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Thomas Cook - Web Designer _9 week contract role_
 
-**thomascook.com** | **directholidays.co.uk** | **hotels4u.co.uk**
+**thomascook.com, directholidays.co.uk, hotels4u.co.uk**
 
 *	Primary duties email marketing material for Cruise Thomas Cook. 
 *	Creation of merchandising material for the numerous Thomas Cook brands.
@@ -37,7 +37,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## GAME Group - Online Designer _14 months_
 
-**game.co.uk** | **gamestation.co.uk** | **gameplay.co.uk**
+**game.co.uk, gamestation.co.uk, gameplay.co.uk**
 
 *	Duties include email marketing, [landing pages](/work/nintendo-hub/), weekly re-merchandising of the GAME.co.uk site.
 *	Tasking and coordinating assistant designers with feature creative for weekly newsletter, based around merchandising commitments.
@@ -47,7 +47,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Ideal Shopping Direct - Web Designer _29 months_
 
-**idealworld.tv** | **createandcraft.tv**
+**idealworld.tv, createandcraft.tv**
 
 *	Present through two major site redesigns involving the creation of page templates, design and mockup of basket and checkout process, working with development team, user acceptance testing (UAT).
 *	Creation of web advertising for [events and promotions](/work/christmas-cracker/). Generation of high distribution email shots and relevant landing pages, microsites, competition pages and [customer buying guides](/work/ringsize-guide/).

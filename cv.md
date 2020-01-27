@@ -66,6 +66,6 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Have a role for me?
 
-If you like what you read and have a role available (in-house or work remotely), see my [LinkedIn profile](https://www.linkedin.com/in/paulfosterdesign) or tweet [@plfstr](https://twitter.com/plfstr).
+If you like what you read and have a role available, see my [LinkedIn profile](https://www.linkedin.com/in/paulfosterdesign) or tweet [@plfstr](https://twitter.com/plfstr).
 
 [Back To Home](/)

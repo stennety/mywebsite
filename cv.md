@@ -11,7 +11,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Career Break - Personal Projects
 
-[www.paulfosterdesign.co.uk](/) [blackandwhitesquares.com](http://blackandwhitesquares.com) [Tumblr Print Theme](https://www.tumblr.com/theme/30839)
+**[www.paulfosterdesign.co.uk](/) | [blackandwhitesquares.com](http://blackandwhitesquares.com) | [Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
 
 *	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](http://www.paulfosterdesign.co.uk/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS) and currently as a static site built via Jekyll and Markdown.
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Uses HTML5, CSS3 transitions, Peak of 470+ installs.

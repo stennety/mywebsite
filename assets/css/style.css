@@ -202,7 +202,7 @@ blockquote {
         margin-left: 0;
         padding-left: 4.5rem;
         border: 0;
-        background: url(/assets/images/blockquote.svg) no-repeat;
+        background: url(/assets/images/blockquote.svg) 0 .25em no-repeat;
         background-size: 4rem
     }
 }

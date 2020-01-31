@@ -321,6 +321,15 @@ dt {
     }
 }
 
+.list--cvskills li {
+    display: inline-block;
+    margin: .125rem 0;
+    padding: .25rem;
+    line-height: 1;
+    color: var(--col-primary);
+    background-color: var(--col-body);
+}
+
 #relocatemap {
     padding: 1.5rem;
     max-width: 12.5rem;

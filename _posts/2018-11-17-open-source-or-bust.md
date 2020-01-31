@@ -24,7 +24,7 @@ Therein lies a strong reason why the future belongs to open source models: socie
 
 [Demographic changes](https://www.sciencedirect.com/science/article/pii/S0304393217301307) and skills shortages in US and Europe will likely accelerate this process. Technology companies will find it increasingly difficult to hire the right talent and will have no choice but to explore other development models, including open source. Particularly at a time when the strategy of opening up economies to greater levels of immigration is falling out of favour!
 
-![Free stuff](https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2018/06/00-free-stuff.jpg?itok=ez5123BH&fc=50,50){: .center-image }
+![Free stuff](https://live.staticflickr.com/3244/2345633527_dffc740692_b.jpg){: .center-image }
 So, what actually motivates volunteers and how are these loyal communities built? Well, it requires some investment. These people aren't really working for free: there's always a quid pro quo! Some of the following strategies have traditionally helped build an army of volunteers: 
 - The project must have a vision or story that's [worth contributing towards](https://www.blender.org/foundation/). Even doing something truely cutting edge might be enough to get people rallying around your product: the Apple and Tesla fanbois are a case in point.
 - Providing tools that can be used entirely, or partly, free of charge---and more importantly: tools that users are free to tinker with and modify. There's nothing that gives hobbyists energy more than the freedom to play with the innards of machines and software.

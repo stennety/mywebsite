@@ -9,7 +9,7 @@ With my portfolio, my work needs to be the stand-out, everything else needs to g
 
 ## Design 
 
-The basis for the design was an idea I dropped from my [last redesign](/blog/site-redesign/) - a rotated logo. This redesign I was determined to let the design form around that. The angled slashes of the logo are emulated throughout the sites design. 
+The basis for the design was an idea I dropped from my [last redesign](/blog/portfolio-redesign/) - a rotated logo. This redesign I was determined to let the design form around that. The angled slashes of the logo are emulated throughout the sites design. 
 
 The slash on the page title headings, the drop shadows for my images, the background gradient of the site, all follow this same angle from my logo.
 

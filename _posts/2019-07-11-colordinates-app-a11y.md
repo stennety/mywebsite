@@ -55,7 +55,7 @@ The colour swatch output is a HSLA colour value. I initially used lowercase lett
 
 I removed `maximum-scale=1,user-scalable=no` from the viewport meta tag which was [a damaging recommendation](https://timkadlec.com/2013/11/avoiding-the-300ms-click-delay-accessibly/) which prevented the click delay but has ultimately cost a lot of accessibility for users worldwide, for the sake of 300 milliseconds wait.
  
-## App Accessiblity
+## App Accessibility
 
 I recommended getting very familiar with the [Mozilla accessibility docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility) and the W3C [WAI hub](https://www.w3.org/WAI/).
 

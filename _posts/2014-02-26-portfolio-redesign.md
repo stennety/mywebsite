@@ -6,6 +6,8 @@ tags: [paulfosterdesign, web, site, personal]
 ---
 Thats right a nice and new shiny site, complete with blog! So let's break this blog thing into its new home and explain myself...
 
+![Redesigned portfolio homepage](/assets/images/portfolio-redesign-2014.png)
+
 ## What's changed in the redesign?
 
 A welcome injection of colour and a much bolder approach then previously, to meet the trend for larger and high resolution displays. I  tried to embrace flat design and let my work and the content provide the focus. 

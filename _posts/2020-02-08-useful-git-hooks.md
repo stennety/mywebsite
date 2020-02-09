@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Useful git hooks
 ---
 [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) are a useful way to add and customize git's behavior at different lifecycle phases (pre-commit, pre-push, etc).
@@ -24,5 +24,3 @@ You can, however, add your own `.githooks` directory, put your versioned hooks t
 init:
   git config core.hooksPath .githooks
 ```
-
-

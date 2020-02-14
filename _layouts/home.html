@@ -62,7 +62,9 @@
                         <h1 class="h2"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h1>
                         {% if latestpost.thumb %}
                             <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
-                                <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">
+                                <div class="figure__featimg">
+                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">
+                                </div>
                             </a>
                         {% endif %}
                         <p>{{ latestpost.excerpt | strip_html }}</p>

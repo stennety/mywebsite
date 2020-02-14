@@ -59,7 +59,7 @@
                 <aside>
                     <article class="wrap-preview">
                         {% assign latestpost = site.posts.first %}
-                        <h1 class="h3"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h1>
+                        <h1 class="h2"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h1>
                         {% if latestpost.thumb %}
                             <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
                                 <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">

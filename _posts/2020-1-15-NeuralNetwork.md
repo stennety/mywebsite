@@ -33,8 +33,22 @@ Minsky and Papert were obviously familiar with McCullogh-Pitts network and knew 
 
 ### Feed Forward and Back Propagation
 
+![_config.yml]({{ site.baseurl }}/images/ann5-05-forward.png)
 
+Taking the cue from XOR problem, AI researchers understood that several hidden layers bridging the input and output layers is the next step to address non linearity of many real world problems. They could randomly assign weights and biases to each node / neuron and arrive at a probability of the output being part of a certain class.  Fine tuning such a network to correctly classify a group of data into various classes would require adequate training of the network. Through training, the network can self-adjust its weights to give proper weightage to each layer. But how can several layers of weights and bias be adjusted from a Cost Function?  This is where back propagation comes to the rescue. 
 
+This idea of back propagation was first presented in a PHD thesis in 1974 by Paul Werberos taking in cue from the feedback loop concept in Control Systems. The method of minimizing cost function using gradient computation was applied in backward propagation by Rumelhart et al around 1985.  The idea is to share the error across the network (nodes + edges) and adjust parameters such as weights until the network approximates to this unknown function that generalizes a given sample of data. Error/Cost calculated at the outermost layer is propagated backwards to its preceding layer of nodes. Then each edge incoming to this node can calculate locally the deviation each of their weights are responsible for. Shown here is a diagramatic representation of how chain rule is used in computing the gradient wrt parameters. This sort of localized computing makes it easier to propagate all the way back to the bottom most layer. 
 
+![_config.yml]({{ site.baseurl }}/images/ann5-06-backward.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Application of NNs 
+
+Today’s high performance parallel processing via GPUs (Graphical Processing Units ) have allowed training deep networks easier. Auto differentiation packages like TensorFlow allows gradient descent optimization of parameters through vector operations.  This back-propagation property of NN is now being capitalized in areas which have dynamic systems like the trajectory of Robotic arm or a driverless car. 
+
+![_config.yml]({{ site.baseurl }}/images/ann5-07-pid.png)
+
+For example, a PID (Proportional, Integral and Derivative) controller is a feedback loop employed in systems that require constant response modulation like a cruise control in a car. A PID controlller is though effective in linear systems, it gets troublesome when the systems are non-linear and large disturbances can cause considerable lag time. This is where a neural network-based controller has apparent advantage. Shown above is a simple neural network predictive controller 
+
+![_config.yml]({{ site.baseurl }}/images/ann5-08-response.png)
+
+There are other models of NN controllers , suggested reading for more details http://www.geocities.ws/djorland/NNControl.pdf

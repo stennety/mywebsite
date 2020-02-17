@@ -24,3 +24,21 @@ You can, however, add your own `.githooks` directory, put your versioned hooks t
 init:
   git config core.hooksPath .githooks
 ```
+
+Another option is to add an alias to your global git config:
+
+```
+[alias]
+	inithooks = config core.hooksPath .githooks
+```
+
+## Global hook templates
+
+Git has a feature that will copy files into your repo's `.git` folder on init. To configure this, edit your global git config to point the `templatedir` to your template directory.
+
+```
+[init]
+	templatedir = ~/.dotfiles/git/templates
+```
+
+In this directory, create a folder called "hooks", and place your git hooks there. Whenever you clone or init a repo, they will be copied into the `.git` folder.

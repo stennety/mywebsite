@@ -27,6 +27,12 @@ This logical gate representation shown here clearly points that XOR is a composi
 
 Warren McCullogh a neuroscientist who was inspired by Principia Mathematica - the book by Bertrand Russel and Alfred North Whitehead where they prove that any complex computation can be built using seemingly simple propositions ( true/false or 0/1), began to see neuron cells in this new light as they too seemed to be binary - a neuron fires electric signal  if enough preceding neurons manage to excite it otherwise remains inhibitory. Along with mathematician Walter Pitts ,he began to work on a modelling brain  that could compute just like a network of logic gates (OR, AND, NOR etc).  In their paper “A Logical Calculus of Ideas Immanent in Nervous Activity”, they proved that a network of computing units has the capability to compute any complex function. In the generalized version of Mcculloch-Pitts unit, θ is the threshhold and input and output are binary (either 0 or 1) . If sum of inputs is greater than θ, the unit gets excited.  
 
+![_config.yml]({{ site.baseurl }}/images/ann5-04-pitts.png)
+
+Minsky and Papert were obviously familiar with McCullogh-Pitts network and knew that perceptrons interconnected with several hidden layers would solve nonlinear problems like XOR. What they did not know was a way to ‘learn a network ‘. 
+
+### Feed Forward and Back Propagation
+
 
 
 

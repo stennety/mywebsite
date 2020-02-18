@@ -1,6 +1,6 @@
 ---
 published: true
-title: '"Working Effectively with Legacy Code" book summary'
+title: '"Working Effectively with Legacy Code" Summary'
 ---
 I read a technical book every quarter, and my pick for Q1 2020 was "Working Effectively with Legacy Code." Captivating title, am I right? My team recently inherited a tangled rat's nest of legacy services, so I thought this would be a useful read to get a sense for how to address these. It’s written by Michael C. Feathers, a renowned software consultant whose resume includes being the Chief Scientist at Obtivia, a senior consultant at Object Mentor International, and a member of the technical staff at Groupon.
 

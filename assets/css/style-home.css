@@ -48,14 +48,6 @@
     }
 }
 
-.wrap-preview {
-    padding: 1rem;
-    margin-top: -1rem;
-    margin-bottom: 0;
-    background-color: rgba(10,10,10,.2);
-    overflow: auto
-}
-
 .wrap-preview--image {
     max-width: 270px
 }

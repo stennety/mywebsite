@@ -2,6 +2,8 @@
 published: true
 title: Useful git hooks
 ---
+![]({{site.cdn_path}}/2020/02/18/pirate.jpg)
+
 [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) are a useful way to add and customize git's behavior at different lifecycle phases (pre-commit, pre-push, etc).
 
 Here are few hooks I use in my own workflow as a backend Kotlin dev. I've organized them by lifecycle phase.

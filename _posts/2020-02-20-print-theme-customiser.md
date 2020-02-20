@@ -6,7 +6,7 @@ Source: https://codepen.io/plfstr/pen/VwZqyjM
 Tags: [codepen, tumblr, css, printtheme, github]
 ---
 
-(codepen: https://codepen.io/plfstr/pen/VwZqyjM height: 500)
+![Print Theme Customiser](/assets/images/print-theme-customiser.png)
 
 This project began as a static recreation of [Print Theme](/work/print-theme/), my CMYK custom theme for Tumblr. 
 

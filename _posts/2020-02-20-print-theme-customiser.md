@@ -1,9 +1,9 @@
 ---
-Title: Print Theme Customiser
-Description: Customise Print Theme, my CMYK custom Tumblr theme in this CodePen demo using CSS custom variables
-Date: 2020-02-20
-Source: https://codepen.io/plfstr/pen/VwZqyjM
-Tags: [codepen, tumblr, css, printtheme, github]
+title: Print Theme Customiser
+description: Customise Print Theme, my CMYK custom Tumblr theme in this CodePen demo using CSS custom variables
+date: 2020-02-20
+source: https://codepen.io/plfstr/pen/VwZqyjM
+tags: [codepen, tumblr, css, printtheme, github]
 ---
 
 ![Print Theme Customiser](/assets/images/print-theme-customiser.png)

@@ -78,7 +78,7 @@ h1:before {
 }
 
 .wrap-logo--img {
-    transform: translateY(3.5rem) rotate(-17deg) scale(1.4)
+    transform: translateY(3.5rem) rotate(-17deg) scale(1.5)
 }
 
 @media only screen and (min-width:1200px) {

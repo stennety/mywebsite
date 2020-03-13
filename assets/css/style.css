@@ -160,7 +160,7 @@ a:hover,a:active,a:focus {
         color: var(--col-body, currentColor)!important;
         text-decoration: underline!important;
         text-decoration-thickness: .1rem;
-        text-underline-offset: .25em;
+        text-underline-offset: .125em;
         text-decoration-color: currentColor
     }
 }

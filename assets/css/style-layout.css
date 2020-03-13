@@ -38,7 +38,8 @@ h1:before {
     }
 	
 	@media only screen and (min-width:1024px) {
-        .wrap-all{grid-gap: 3rem;
+        .wrap-all{
+            grid-gap: 3rem;
             gap: 3rem;
             margin-top: 1.5rem;
             grid-template-columns: 1fr 700px

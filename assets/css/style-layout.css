@@ -16,6 +16,12 @@ h1:before {
     color: var(--col-highlight)
 }
 
+@media only screen and (min-width: 1200px) {
+    h3, .h3 {
+        font-size: 1.625em;
+    }
+}
+
 .wrap-banner .flex--fifty {
     display: block
 }

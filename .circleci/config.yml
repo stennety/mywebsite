@@ -27,28 +27,25 @@ commands:
           name: Upload to s3
           command: ~/.local/bin/aws s3 sync ./_site s3://<< parameters.bucketName >>/ --delete --acl public-read
 
-jobs:
-  build:
-    <<: *defaults
-    docker:
-      - image: circleci/ruby:2.5
-    steps:
-      - checkout
-      - run: gem install bundler
-      - run: bundle install --jobs=3 --retry=3
-      - run:
-          name: Jekyll build
-          command: bundle exec jekyll build
-      - persist_to_workspace:
-          root: .
-          paths:
-            - _site/*
-
 workflows:
   version: 2
   build-and-deploy:
     jobs:
       - build:
+          <<: *defaults
+          docker:
+            - image: circleci/ruby:2.5
+          steps:
+            - checkout
+            - run: gem install bundler
+            - run: bundle install --jobs=3 --retry=3
+            - run:
+                name: Jekyll build
+                command: bundle exec jekyll build
+            - persist_to_workspace:
+                root: .
+                paths:
+                  - _site/*
       - deploy-dev:
           <<: *defaults
           executor: aws-executor

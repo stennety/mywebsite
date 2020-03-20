@@ -1,5 +1,9 @@
+version: 2.1
+
 defaults: &defaults
   working_directory: ~/repo
+
+filters: &filters
   filters:
     branches:
       only:
@@ -9,8 +13,6 @@ executors:
   aws-executor:
     docker:
       - image: circleci/python:3.6.3
-
-version: 2.1
 
 commands:
   deploy:
@@ -27,42 +29,50 @@ commands:
           name: Upload to s3
           command: ~/.local/bin/aws s3 sync ./_site s3://<< parameters.bucketName >>/ --delete --acl public-read
 
+jobs:
+  build:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.5
+    steps:
+      - checkout
+      - run: gem install bundler
+      - run: bundle install --jobs=3 --retry=3
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - _site/*
+  deploy-dev:
+    <<: *defaults
+    executor: aws-executor
+    steps:
+      - deploy:
+          bucketName: dev.david-merrick.com
+  deploy-prd:
+    <<: *defaults
+    executor: aws-executor
+    steps:
+      - deploy:
+          bucketName: www.david-merrick.com
+
 workflows:
   version: 2
   build-and-deploy:
     jobs:
       - build:
-          <<: *defaults
-          docker:
-            - image: circleci/ruby:2.5
-          steps:
-            - checkout
-            - run: gem install bundler
-            - run: bundle install --jobs=3 --retry=3
-            - run:
-                name: Jekyll build
-                command: bundle exec jekyll build
-            - persist_to_workspace:
-                root: .
-                paths:
-                  - _site/*
+          <<: *filters
       - deploy-dev:
-          <<: *defaults
-          executor: aws-executor
+          <<: *filters
           requires:
             - build
-          steps:
-            - deploy:
-                bucketName: dev.david-merrick.com
       - hold:
           type: approval
           requires:
             - deploy-dev
       - deploy-prd:
-          <<: *defaults
-          executor: aws-executor
+          <<: *filters
           requires:
             - hold
-          steps:
-            - deploy:
-                bucketName: www.david-merrick.com

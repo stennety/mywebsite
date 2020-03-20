@@ -1,7 +1,34 @@
+version: 2.1
+
 defaults: &defaults
   working_directory: ~/repo
 
-version: 2.1
+filters: &filters
+  filters:
+    branches:
+      only:
+        - master
+
+executors:
+  aws-executor:
+    docker:
+      - image: circleci/python:3.6.3
+
+commands:
+  deploy:
+    parameters:
+      bucketName:
+        type: string
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Install AWS CLI
+          command: pip install awscli --upgrade --user
+      - run:
+          name: Upload to s3
+          command: ~/.local/bin/aws s3 sync ./_site s3://<< parameters.bucketName >>/ --delete --acl public-read
+
 jobs:
   build:
     <<: *defaults
@@ -18,35 +45,34 @@ jobs:
           root: .
           paths:
             - _site/*
-  deploy:
+  deploy-dev:
     <<: *defaults
-    docker:
-      - image: circleci/python:3.6.3
-    environment:
-      S3_BUCKET_NAME: www.david-merrick.com
+    executor: aws-executor
     steps:
-      - attach_workspace:
-          at: ./
-      - run:
-          name: Install AWS CLI
-          command: pip install awscli --upgrade --user
-      - run:
-          name: Upload to s3
-          command: ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME/ --delete --acl public-read
+      - deploy:
+          bucketName: dev.david-merrick.com
+  deploy-prd:
+    <<: *defaults
+    executor: aws-executor
+    steps:
+      - deploy:
+          bucketName: www.david-merrick.com
 
 workflows:
   version: 2
   build-and-deploy:
     jobs:
       - build:
-          filters:
-            branches:
-              only:
-                - master
-      - deploy:
+          <<: *filters
+      - deploy-dev:
+          <<: *filters
           requires:
             - build
-          filters:
-            branches:
-              only:
-                - master
+      - hold:
+          type: approval
+          requires:
+            - deploy-dev
+      - deploy-prd:
+          <<: *filters
+          requires:
+            - hold

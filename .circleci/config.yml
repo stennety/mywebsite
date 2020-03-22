@@ -68,11 +68,7 @@ workflows:
           <<: *filters
           requires:
             - build
-      - hold:
-          type: approval
-          requires:
-            - deploy-dev
       - deploy-prd:
           <<: *filters
           requires:
-            - hold
+            - build

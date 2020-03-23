@@ -4,9 +4,11 @@ title: 'The Corona Diaries, Week 2'
 ---
 Week 2 under quarantine in Portland has been really good, overall. 
 
+![]({{site.cdn_path}}/2020/03/22/IMG_3024.jpg)
+
 I’ve been really proud of my partner, Patty. It was difficult to adjust to the social distancing and staying inside, at first, but she has found a way to thrive by throwing herself into a bunch of apartment projects like painting and mounting framed photos. We had some beautiful spring weather yesterday and we rode our bikes to my place from hers, then we walked to Target later in the day. On our way back, we ran into this group of people who had rigged up their Jeep into a mobile karaoke station:
 
-https://www.youtube.com/watch?v=M51nJaHESFE&lc=z230stairwq5ezbjz04t1aokg3zz4wyxt1tewu2kcgk2bk0h00410
+{% youtube M51nJaHESFE %}
 
 During regular life, my coworkers and I do a game night on Thursdays. This past Thursday, we experimented with a remote game night over Zoom. Initially, I couldn't hear them because the game volume was too high, but I solved it with this macOS app called [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic), which lets you control the volume for individual apps. After getting that sorted out, it worked great. We played several rounds of QuipLash. My run club friends and I are going to try out some other remote games on Tues.
 

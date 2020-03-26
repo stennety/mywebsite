@@ -85,9 +85,8 @@ body {
     }
 }
 
-h1,h2,h3,blockquote,.lowlight {
-    display: block;
-    margin: 0 0 1.5rem
+h1,h2,h3 {
+    font-weight: 900
 }
 
 h1,.h1 {

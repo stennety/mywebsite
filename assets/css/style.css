@@ -187,7 +187,8 @@ p>code,kbd {
 pre {
     margin: 0 auto 1.5em;
     padding: .75rem;
-    white-space: pre-wrap;
+    overflow: auto;
+    word-wrap: normal;
     background-color: var(--col-secondary)
 }
 

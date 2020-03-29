@@ -2,7 +2,7 @@
 published: true
 title: 'The Corona-cles of Narnia: Week 3'
 ---
-This was my third week of quarantine here in Portland. I felt a little lethargic by Friday, but overall it was productive.
+This was our third week of quarantine here in Portland. I felt a little lethargic by Friday, but overall it was productive.
 
 What's kept me sane is being religious about adhering to a schedule. It's easy to let work bleed into personal time and start to feel burned out before you realize it.
 

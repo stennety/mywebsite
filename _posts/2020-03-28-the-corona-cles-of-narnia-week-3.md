@@ -16,9 +16,9 @@ I've also been playing a ton of Beat Saber. Patty has gotten really into it, whi
 
 # Books
 
-I finished [Reality Is Broken](https://www.amazon.com/Reality-Broken-Games-Better-Change-ebook/dp/B004G8Q1Q4/ref=sr_1_1?crid=3IG86SK6JI49K&keywords=jane+mcgonigal&qid=1585444673&s=digital-text&sprefix=jane+mcg%2Cdigital-text%2C204&sr=1-1), about how we can improve society by incorporating more games. It was good! It made me rethink the value of games in our lives, and I've tried to incorporate some of the ideas in my own life.
+I finished [Reality Is Broken](https://www.amazon.com/Reality-Broken-Games-Better-Change-ebook/dp/B004G8Q1Q4/ref=sr_1_1?crid=3IG86SK6JI49K&keywords=jane+mcgonigal&qid=1585444673&s=digital-text&sprefix=jane+mcg%2Cdigital-text%2C204&sr=1-1), which advocates improving society by incorporating more games into our everyday lives. It was good! I've been trying to incorporate some of the ideas in my own life.
 
-Continuing my pandemic reading kick, I'm currently listening to The [Next Pandemic](https://www.audible.com/pd/The-Next-Pandemic-Audiobook/B01NBMZY3D) on Audible and reading [The Great Influenza](https://www.amazon.com/Great-Influenza-Deadliest-Pandemic-History-ebook/dp/B000OCXFWE/ref=sr_1_2?keywords=influenza&qid=1585444802&sr=8-2).
+Continuing my pandemic reading kick, I'm listening to The [Next Pandemic](https://www.audible.com/pd/The-Next-Pandemic-Audiobook/B01NBMZY3D) on Audible and reading [The Great Influenza](https://www.amazon.com/Great-Influenza-Deadliest-Pandemic-History-ebook/dp/B000OCXFWE/ref=sr_1_2?keywords=influenza&qid=1585444802&sr=8-2).
 
 # Projects 
 

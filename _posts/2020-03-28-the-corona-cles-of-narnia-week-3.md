@@ -8,7 +8,7 @@ What's kept me sane is being religious about adhering to a schedule. It's easy t
 
 Finding little ways to inject humor into the day has helped. I started setting my background in Zoom meetings to various disasters, like the Hindenburg and a house burning down. I created [an album](https://photos.app.goo.gl/GjvWHofTMvw9vymRA) of these, so feel free to borrow them yourself.
 
-![]({{site.cdn_path}}/2020/03/28/quarantineDays.jpg)
+![]({{site.cdn_path}}/2020/03/28/missionAccomplished.png)
 
 Games have also been helpful. I did a game night with friends on Tuesday and coworkers on Thursday. We hopped in a Zoom video call and played some board games via the web on [BGA](https://boardgamearena.com/). I'm going to play [Terraforming Mars](https://store.steampowered.com/app/800270/Terraforming_Mars/) with some friends during the day tomorrow.
 

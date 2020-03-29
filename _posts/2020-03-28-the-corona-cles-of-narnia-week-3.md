@@ -6,7 +6,13 @@ This was my third week of quarantine here in Portland. I felt a little lethargic
 
 What's kept me sane is being religious about adhering to a schedule. It's easy to let work bleed into personal time and start to feel burned out before you realize it.
 
-Games have also been helpful. I did a game night with some friends on Tuesday and coworkers on Thursday. We hopped in a Zoom video call and played board games on [BGA](https://boardgamearena.com/). I'm going to play Terraforming Mars with some friends during the day tomorrow.
+Finding little ways to inject humor into the day has helped. I started setting my background in Zoom meetings to various disasters, like the Hindenburg and a house burning down. I created [an album](https://photos.app.goo.gl/GjvWHofTMvw9vymRA) of these, so feel free to borrow them yourself.
+
+![]({{site.cdn_path}}/2020/03/28/quarantineDays.jpg)
+
+Games have also been helpful. I did a game night with friends on Tuesday and coworkers on Thursday. We hopped in a Zoom video call and played some board games via the web on [BGA](https://boardgamearena.com/). I'm going to play [Terraforming Mars](https://store.steampowered.com/app/800270/Terraforming_Mars/) with some friends during the day tomorrow.
+
+I've also been playing a ton of Beat Saber. Patty has gotten really into it, which has helped with my addiction to it. VR is a great medium for a quarantine scenario.
 
 # Books
 
@@ -16,9 +22,15 @@ Continuing my pandemic reading kick, I'm currently listening to The [Next Pandem
 
 # Projects 
 
+I organized the crap out of my photo library. I have about 35,000 photos that I've been meaning to get onto iCloud, so I did that. I also uploaded a bunch of them to Google Photos. I got my parents a Nest Hub for Christmas and added some photos to their album as well so they'll show up when my parents are in the kitchen. The Nest Hub Max was on sale this week, so I ordered one for my parents, figuring it will also make it easier to video chat with them during the day sometimes.
+
 I installed a wall-mount for my bike for convenience, since I'm riding it more often. It also saves me from making too many trips to the basement bike room in the elevator.
 
+![]({{site.cdn_path}}/2020/03/28/bikeMount.jpg)
+
 I decked out my Roomba in R2-D2 decals.
+
+![]({{site.cdn_path}}/2020/03/28/r2Roomba.jpg)
 
 I started writing this darkly funny [Slack bot](https://github.com/davidmerrick/quarantinebot) to remind me how many days I've been in quarantine. Other coworkers have come up with more manual ways of tracking.
 
@@ -37,3 +49,5 @@ Amazon announced that many "non-essential" items would be delayed in shipping un
 And everyone started watching this [tiger show](https://www.netflix.com/title/81115994) on Netflix.
 
 In happier news, Animal Crossing came out and I picked up a copy. It's just as addictive as it was promised to be. Naturally, I named my island "Corona."
+
+![]({{site.cdn_path}}/2020/03/28/coronaCrossing.jpeg)

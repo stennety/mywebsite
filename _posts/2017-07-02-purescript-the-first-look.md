@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-07-02 22:13:20
-tags: [archived]
+tags: [archived, purescript, first_look]
+categories: [old_blog, languages, first_looks]
 ---
 After ElixirConfEu I decided to try PureScript. Partly for yet another frontend try, party because it looked interesting and partly because I wanted a little break with something way different and new.
 

@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-08 07:00:08
-tags: [archived]
+tags: [archived, osii]
+categories: [projects, old_blog]
 ---
 <strong>This is the first post in series about OpenSettlersII aka GetNoticed! project.</strong>
 

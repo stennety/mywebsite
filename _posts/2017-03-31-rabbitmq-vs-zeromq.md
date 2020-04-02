@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-31 21:58:32
-tags: [archived]
+tags: [archived, integration, rabbitmq]
+categories: [theory, projects, old_blog]
 ---
 <div style="direction: ltr; border-width: 100%;">
 <div style="direction: ltr; margin-top: 0in; margin-left: 0in; width: 6.6041in;">

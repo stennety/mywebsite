@@ -5,6 +5,7 @@ layout: post
 published: true
 post_date: 2017-06-12 07:00:19
 tags: [archived]
+categories: [announcements, old_blog]
 ---
 Hello!
 

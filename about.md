@@ -4,11 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I'm Łukasz, more widely known on the Internet as dreat
 
-### More Information
+### What do I do?
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a software monk, delivering high quality software with zen.
+On a path to programming polyglot.
+Professionally using Elixir, possibly some Erlang, my two programming loves. 
+
+I'm a drummer, already with one album recorded as a session drummer. If you want me to drum, contact me.
+
+I'm a music designer, I play around Ableton to make mostly dark ambient and I'm developing my SonicPi skills.
 
 ### Contact me
 

@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-05-13 20:00:59
-tags: [archived]
+tags: [archived, conference]
+categories: [old_blog, conference]
 ---
 Hello!
 

@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-05-20 19:00:38
-tags: [archived]
+tags: [archived, testing, software_engineering]
+categories: [theory, tests, old_blog]
 ---
 During ElixirConfEu in Barcelona, I learned about Property Testing. It looks pretty neat and it got me interested. Basics sound quite easy but there’s more than meets the eye and I’ve been reading/listening about it for a while.
 As I don’t feel comfortable enough to do a deep dive into the topic I will do an introduction to it. After I get a deeper understanding with some “real life” examples (or maybe doing them myself) I will write a follow-up.

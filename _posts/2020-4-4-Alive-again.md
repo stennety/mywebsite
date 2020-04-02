@@ -2,6 +2,7 @@
 layout: post
 title: I'm back!
 published: false
+categories: [announcements, new_blog]
 ---
 
 #Hello! I'm back!

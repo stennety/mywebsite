@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-04-08 07:00:54
-tags: [archived]
+tags: [archived, til]
+categories: [til, theory, old_blog]
 ---
 <p style="text-align: center;"><em>This is Today I Learned - some nice things I learned, too short to be valid blog post, but too important/interesting/etc to not be written down</em></p>
 While exposing classes to WCF service, you have to use <em>[DataContract]</em> (for class) and <em>[DataMember]</em> (for properties) attributes. Or do you?

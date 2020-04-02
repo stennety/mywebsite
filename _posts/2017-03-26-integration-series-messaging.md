@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-26 20:50:50
-tags: [archived]
+tags: [archived, integration]
+categories: [theory, old_blog]
 ---
 <a href="https://dreat.info/2017-03-17-introduction-to-integration/">Last time</a> we spoke about some integration methods we can use.
 

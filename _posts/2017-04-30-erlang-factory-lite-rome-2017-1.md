@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-04-30 22:36:46
-tags: [archived]
+tags: [archived, conference]
+categories: [old_blog, conferences]
 ---
 Hello for the second (and last) part of EFL Rome2017 post! You can find previous one <a href="https://dreat.info/2017/04/17/erlang-factory-lite-rome-2017-0/">here</a>
 <h3 class="talk-title" style="text-align: center;">Music and Message Passing Concurrency <em>by Joe Armstrong</em></h3>

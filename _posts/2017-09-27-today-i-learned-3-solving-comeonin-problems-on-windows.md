@@ -4,7 +4,8 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-09-27 07:00:52
-tags: [archived]
+tags: [archived, til, elixir, windows]
+categories: [til, old_blog]
 ---
 Hello there!
 

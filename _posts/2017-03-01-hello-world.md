@@ -1,7 +1,6 @@
 ---
 post_title: Hello, world!
 author: dreat
-"
 published: true
 layout: post
 post_date: 2017-03-01 09:05:29

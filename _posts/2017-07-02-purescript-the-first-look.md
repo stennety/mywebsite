@@ -1,8 +1,6 @@
 ---
-ID: 156
 post_title: 'PureScript: The First Look'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-07-02 22:13:20

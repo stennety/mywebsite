@@ -1,8 +1,6 @@
 ---
-ID: 68
 post_title: 'Integration series: Messaging'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-03-26 20:50:50

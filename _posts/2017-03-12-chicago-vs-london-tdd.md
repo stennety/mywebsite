@@ -1,8 +1,6 @@
 ---
-ID: 50
 post_title: Chicago vs London TDD
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-03-12 22:04:29

@@ -1,8 +1,6 @@
 ---
-ID: 100
 post_title: 'Erlang Factory Lite Rome 2017 #0'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-04-17 14:12:07

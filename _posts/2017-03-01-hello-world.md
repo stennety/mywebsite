@@ -1,7 +1,6 @@
 ---
 post_title: Hello, world!
 author: dreat
-post_excerpt: "I decided to participate in GetNoticed. Short story even shorter, it's about writing OpenSource code and blog about it (and IT).
 "
 published: true
 layout: post

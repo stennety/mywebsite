@@ -1,8 +1,6 @@
 ---
-ID: 165
 post_title: 'Today I Learned #2'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-09-14 07:00:35

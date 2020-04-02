@@ -1,8 +1,6 @@
 ---
-ID: 86
 post_title: 'OpenSettlersII #2'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-04-02 21:05:54

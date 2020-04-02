@@ -1,8 +1,6 @@
 ---
-ID: 131
 post_title: Property testing
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-05-20 19:00:38

@@ -1,8 +1,6 @@
 ---
-ID: 39
 post_title: RabbitMQ vs ZeroMQ
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-03-31 21:58:32

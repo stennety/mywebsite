@@ -1,8 +1,6 @@
 ---
-ID: 126
 post_title: Elixir Conf Eu
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-05-13 20:00:59

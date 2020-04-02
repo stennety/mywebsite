@@ -1,8 +1,6 @@
 ---
-ID: 58
 post_title: Introduction to integration
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-03-17 07:00:26

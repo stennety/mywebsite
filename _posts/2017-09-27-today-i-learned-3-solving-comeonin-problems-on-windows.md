@@ -1,8 +1,6 @@
 ---
-ID: 168
 post_title: 'Today I Learned #3: Solving Comeonin problems on Windows!'
 author: dreat
-post_excerpt: ""
 layout: post
 published: true
 post_date: 2017-09-27 07:00:52

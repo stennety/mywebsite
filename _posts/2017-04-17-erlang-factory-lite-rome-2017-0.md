@@ -11,7 +11,7 @@ Week ago I went to Rome to take part in Erlang Factory Lite, and, as promised, h
 
 Starting with venue - it was near the centre of the city, easy to get with decent views. While inside was quite small (not a lot of people were there as well), the outside...
 
-[caption id="attachment_101" align="aligncenter" width="300"]<a href="http://dreat.info/wp-content/uploads/2017/04/IMG_1895-e1492431408760.jpg"><img class="wp-image-101 size-medium" src="http://dreat.info/wp-content/uploads/2017/04/IMG_1895-e1492431408760-300x225.jpg" alt="" width="300" height="225" /></a> What a place to take a break![/caption]
+[caption id="attachment_101" align="aligncenter" width="300"]<a href="https://dreat.info/wp-content/uploads/2017/04/IMG_1895-e1492431408760.jpg"><img class="wp-image-101 size-medium" src="http://dreat.info/wp-content/uploads/2017/04/IMG_1895-e1492431408760-300x225.jpg" alt="" width="300" height="225" /></a> What a place to take a break![/caption]
 
 &nbsp;
 
@@ -37,7 +37,7 @@ This was talk full with nice theory. Michele defined a <em>formula </em>somethin
 
 Nice thingies:
 <ol>
- 	<li><a href="http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf" target="_blank">One thing to remember? Read this paper</a></li>
+ 	<li><a href="https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf" target="_blank">One thing to remember? Read this paper</a></li>
  	<li><a href="https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence">Basically wiki article around this talk</a></li>
  	<li>Duck typing? No! It's untyped and it's fine!</li>
 </ol>

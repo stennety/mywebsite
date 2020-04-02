@@ -7,7 +7,7 @@ layout: post
 published: true
 post_date: 2017-03-26 20:50:50
 ---
-<a href="http://dreat.info/2017-03-17-introduction-to-integration/">Last time</a> we spoke about some integration methods we can use.
+<a href="https://dreat.info/2017-03-17-introduction-to-integration/">Last time</a> we spoke about some integration methods we can use.
 
 As we see, there are methods that are not so tight coupled, being able to generate lots of little data packages (like file transfer), easily synchronizable (like shared database), details of storage's structure hidden from applications (unlike shared database) and being able to send data to invoke behavior in other app (like RPI) but with being resistant to failure (unlike RPI).
 

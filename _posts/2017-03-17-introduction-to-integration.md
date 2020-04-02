@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-17 07:00:26
+tags: [archived]
 ---
 I started to get more into integration and integration patterns. There are few reasons:
 <ul>

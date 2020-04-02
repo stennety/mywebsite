@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-12 22:04:29
+tags: [archived]
 ---
 Somewhere near my very beggining of my software engineering journey, as a fresh Junior, I happened to talk with a collegue of mine. I remember him saying:
 <p style="text-align: center;">So, when someone says [during the interview]

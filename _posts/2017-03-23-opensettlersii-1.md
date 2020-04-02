@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-23 07:00:25
+tags: [archived]
 ---
 Hello and welcome for a short update!
 

@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-04-30 22:37:21
+tags: [archived]
 ---
 <a href="https://github.com/Dreat/OpenSettlersII/commit/e75c850094b394d51e60dd1712befa70e10d357f" target="_blank" rel="noopener noreferrer">As always - a commit!</a>
 

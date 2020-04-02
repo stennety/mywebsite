@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-31 21:58:32
+tags: [archived]
 ---
 <div style="direction: ltr; border-width: 100%;">
 <div style="direction: ltr; margin-top: 0in; margin-left: 0in; width: 6.6041in;">

@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-06-23 21:22:01
+tags: [archived]
 ---
 While using EntityFramework in my integration tests (which is a separate topic ;) ) I discovered quite interesting thing. I guess this may be obvious to some, but I learned Entity "the hard way" jumping into an app with Entity already in place and had to adapt - this was my first app with a database by the way.
 

@@ -5,6 +5,7 @@ author: dreat
 published: true
 layout: post
 post_date: 2017-03-01 09:05:29
+tags: [archived]
 ---
 I decided to participate in <a href="https://dajsiepoznac.pl/" target="_blank">GetNoticed</a>. Short story even shorter, it's about writing OpenSource code and blog about it (and IT).
 

@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-04-17 14:12:07
+tags: [archived]
 ---
 Week ago I went to Rome to take part in Erlang Factory Lite, and, as promised, here is blogpost about it (the first part)
 

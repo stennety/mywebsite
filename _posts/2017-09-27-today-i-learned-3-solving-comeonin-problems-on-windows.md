@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-09-27 07:00:52
+tags: [archived]
 ---
 Hello there!
 

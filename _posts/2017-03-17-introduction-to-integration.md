@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/03/17/introduction-to-integration/
+  http://dreat.info/2017-03-17-introduction-to-integration/
 published: true
 post_date: 2017-03-17 07:00:26
 ---
@@ -29,4 +29,4 @@ Sometimes sharing data is not enough, because data changes may require actions i
 
 It may loosen the coupling, but it's still quite tight. In particular doing things in particular order can lead to muddy mess. While developers know how to write procedures (it's what we do all the time, right?) and it may seem like a good thing it's actually not so good. It's easy to forget that we're not calling local procedure and that it will take more time or can fail due to multiple reasons. Due to this thinking also quite tight coupling arises (as stated before).
 
-As always, there's always a tradeoff. But do we have the best approach here? Or can we do even better? I'll address these questions in <a href="http://dreat.info/2017/03/26/integration-series-messaging/">the next post in series</a>.
+As always, there's always a tradeoff. But do we have the best approach here? Or can we do even better? I'll address these questions in <a href="http://dreat.info/2017-03-26-integration-series-messaging/">the next post in series</a>.

@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/03/01/hello-world/
+  http://dreat.info/2017-03-01-hello-world/
 published: true
 post_date: 2017-03-01 09:05:29
 ---

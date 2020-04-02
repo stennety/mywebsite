@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/04/08/today-i-learned-0/
+  http://dreat.info/2017-04-08-today-i-learned-0/
 published: true
 post_date: 2017-04-08 07:00:54
 ---

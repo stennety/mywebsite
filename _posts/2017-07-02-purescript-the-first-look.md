@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/07/02/purescript-the-first-look/
+  http://dreat.info/2017-07-02-purescript-the-first-look/
 published: true
 post_date: 2017-07-02 22:13:20
 ---

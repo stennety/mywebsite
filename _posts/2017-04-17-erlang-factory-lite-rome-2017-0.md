@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/04/17/erlang-factory-lite-rome-2017-0/
+  http://dreat.info/2017-04-17-erlang-factory-lite-rome-2017-0/
 published: true
 post_date: 2017-04-17 14:12:07
 ---

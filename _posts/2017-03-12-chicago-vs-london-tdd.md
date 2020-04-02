@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/03/12/chicago-vs-london-tdd/
+  http://dreat.info/2017-03-12-chicago-vs-london-tdd/
 published: true
 post_date: 2017-03-12 22:04:29
 ---

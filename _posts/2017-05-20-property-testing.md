@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/05/20/property-testing/
+  http://dreat.info/2017-05-20-property-testing/
 published: true
 post_date: 2017-05-20 19:00:38
 ---

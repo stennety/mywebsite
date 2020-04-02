@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/06/23/today-i-learned-1/
+  http://dreat.info/2017-06-23-today-i-learned-1/
 published: true
 post_date: 2017-06-23 21:22:01
 ---

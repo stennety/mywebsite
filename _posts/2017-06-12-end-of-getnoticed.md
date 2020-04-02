@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/06/12/end-of-getnoticed/
+  http://dreat.info/2017-06-12-end-of-getnoticed/
 published: true
 post_date: 2017-06-12 07:00:19
 ---

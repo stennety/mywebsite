@@ -5,7 +5,7 @@ author: dreat
 post_excerpt: ""
 layout: post
 permalink: >
-  http://dreat.info/2017/04/30/opensettlers5/
+  http://dreat.info/2017-04-30-opensettlers5/
 published: true
 post_date: 2017-04-30 22:37:21
 ---

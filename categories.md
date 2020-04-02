@@ -1,3 +1,8 @@
+---
+layout: page
+title: Posts by categories
+permalink: /categories/
+---
 {% for category in site.categories %}
     <h3>{{ category[0] }}</h3>
     <ul>

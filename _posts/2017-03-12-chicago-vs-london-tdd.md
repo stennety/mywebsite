@@ -4,6 +4,7 @@ author: dreat
 layout: post
 published: true
 post_date: 2017-03-12 22:04:29
+permalink: 2017/03/12/chicago-vs-london-tdd/
 tags: [archived]
 ---
 Somewhere near my very beggining of my software engineering journey, as a fresh Junior, I happened to talk with a collegue of mine. I remember him saying:

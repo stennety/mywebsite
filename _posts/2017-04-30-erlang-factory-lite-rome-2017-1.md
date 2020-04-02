@@ -19,9 +19,9 @@ You should also treat specific parts/modules/apps like a black boxes - you know 
  	<li>Pick encoding (XML/JSON/YAML/etc)</li>
  	<li>Pick protocol description (RFC/UBF/etc)</li>
 </ol>
-[caption id="attachment_102" align="aligncenter" width="300"]<a href="https://dreat.info/wp-content/uploads/2017/04/IMG_1904-e1493561399410.jpg"><img class="wp-image-102 size-medium" src="http://dreat.info/wp-content/uploads/2017/04/IMG_1904-e1493561399410-300x225.jpg" alt="" width="300" height="225" /></a> Some combinations for you to pick from[/caption]
+![Some combinations for you to pick from](/images/eflr2017-1.jpg)
 
-[caption id="attachment_117" align="aligncenter" width="300"]<a href="https://dreat.info/wp-content/uploads/2017/04/IMG_1905-e1493586568689.jpg"><img class="size-medium wp-image-117" src="http://dreat.info/wp-content/uploads/2017/04/IMG_1905-e1493586568689-300x225.jpg" alt="" width="300" height="225" /></a> With the Joe himself![/caption]
+![With the Joe himself!](/images/eflr2017-2.jpg)
 
 Joe picked OSC over TCP/UPD with some English to describe it. OSC is a very simple encoding - and it has "simplicity by design", as Joe said, "if you can't create complex data structures, the interface will be simple and easy to understand".
 <blockquote>"if you can't create complex data structures, the interface will be simple and easy to understand"</blockquote>
@@ -51,7 +51,7 @@ He describes himself as a Mad Scientist - and, boy, he is!
 
 Basically it was a little trivia on the Internet and his attempt to do a small replica of it's routing system using Elixir (and nerves). He had 2 RP3s connected, simulating North America and Europe with routing links. There's a bit of how the Internet works and how it connects - he used that common knowledge to simulate it and it worked like a charm. There a code online if you want to look at it!
 
-[caption id="attachment_103" align="aligncenter" width="300"]<a href="https://dreat.info/wp-content/uploads/2017/04/IMG_1912-e1492431051816.jpg"><img class="size-medium wp-image-103" src="http://dreat.info/wp-content/uploads/2017/04/IMG_1912-e1492431051816-300x225.jpg" alt="" width="300" height="225" /></a> This is the Internet! Be careful not to break it![/caption]
+![This is the Internet! Be careful not to break it!](/images/eflr2017-3.jpg)
 
 The real show started when he took the router, connected third Rasp and added Asia - it all worked! It was a nice show for the <a href="https://nerves-project.org/" target="_blank" rel="noopener noreferrer">Nerves project</a> to show what you can do with them. Funny thing - the most problems, and the slowest part was HTML+JS frontend where all the arrows where hacked as separate CSS elements - so it crashed when connection number rose. Still, great project and <a href="https://github.com/Arkham/mini_router" target="_blank" rel="noopener noreferrer">you can look at it on github!</a>
 <h3 class="talk-title" style="text-align: center;">Embrace the Database with Ecto <em>by <span class="modal_speaker_name">Josh Branchaud</span></em></h3>

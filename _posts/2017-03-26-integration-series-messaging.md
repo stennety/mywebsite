@@ -4,8 +4,6 @@ post_title: 'Integration series: Messaging'
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-03-26-integration-series-messaging/
 published: true
 post_date: 2017-03-26 20:50:50
 ---

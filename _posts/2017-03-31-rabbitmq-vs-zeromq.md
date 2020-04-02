@@ -4,8 +4,6 @@ post_title: RabbitMQ vs ZeroMQ
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-03-31-rabbitmq-vs-zeromq/
 published: true
 post_date: 2017-03-31 21:58:32
 ---

@@ -1,12 +1,10 @@
 ---
-ID: 24
 post_title: Hello, world!
 author: dreat
-post_excerpt: ""
-layout: post
-permalink: >
-  http://dreat.info/2017-03-01-hello-world/
+post_excerpt: "I decided to participate in GetNoticed. Short story even shorter, it's about writing OpenSource code and blog about it (and IT).
+"
 published: true
+layout: post
 post_date: 2017-03-01 09:05:29
 ---
 I decided to participate in <a href="http://dajsiepoznac.pl/" target="_blank">GetNoticed</a>. Short story even shorter, it's about writing OpenSource code and blog about it (and IT).

@@ -4,8 +4,6 @@ post_title: Introduction to integration
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-03-17-introduction-to-integration/
 published: true
 post_date: 2017-03-17 07:00:26
 ---

@@ -4,8 +4,6 @@ post_title: 'Today I Learned #3: Solving Comeonin problems on Windows!'
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-09-27-today-i-learned-3-solving-comeonin-problems-on-windows/
 published: true
 post_date: 2017-09-27 07:00:52
 ---

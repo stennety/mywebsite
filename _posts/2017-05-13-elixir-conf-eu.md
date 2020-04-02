@@ -4,8 +4,6 @@ post_title: Elixir Conf Eu
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-05-13-elixir-conf-eu/
 published: true
 post_date: 2017-05-13 20:00:59
 ---

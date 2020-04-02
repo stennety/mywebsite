@@ -4,8 +4,6 @@ post_title: 'OpenSettlersII #6'
 author: dreat
 post_excerpt: ""
 layout: post
-permalink: >
-  http://dreat.info/2017-05-14-opensettlersii-6/
 published: true
 post_date: 2017-05-14 20:38:02
 ---

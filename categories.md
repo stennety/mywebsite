@@ -4,10 +4,9 @@ title: Posts by categories
 permalink: /categories/
 ---
 {% for category in site.categories %}
-    <h3>{{ category[0] }}</h3>
-    <ul>
+    *{{ category[0] }}
+    
         {% for post in category[1] %}
-            <li><a href=" {{ post.url }}">{{ post.title }}</a></li>
+            ⋅⋅*[{{ post.title }}]({{ post.url }}
         {% endfor %}
-    </ul>
 {% endfor %}

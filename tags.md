@@ -4,10 +4,9 @@ title: Posts by tags
 permalink: /tags/
 ---
 {% for tag in site.tags %}
-    <h3>{{ tag[0] }}</h3>
-    <ul>
+    *{{ tag[0] }}
+    
         {% for post in tag[1] %}
-            <li><a href=" {{ post.url }}">{{ post.title }}</a></li>
+            ⋅⋅*[{{ post.title }}]({{ post.url }}
         {% endfor %}
-    </ul>
 {% endfor %}

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: I'm back!
-published: false
+published: true
+post_date: 2020-04-04 08:00:00
 categories: [announcements, new_blog]
 ---
 

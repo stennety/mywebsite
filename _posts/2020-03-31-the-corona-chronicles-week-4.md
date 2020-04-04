@@ -41,5 +41,7 @@ Our president announced that Americans should wear face masks...but that [he won
 
 It's difficult to say when we'll be out of quarantine. My prediction: Assuming a normal distribution, if Oregon cases peak in mid-May, it'll be about two months to ramp down. Meaning we'll be out of quarantine in late July or early August. But then there's still the window between when we're out of quarantine and when a vaccine is ready where we're vulnerable as a population to further outbreaks. So it's not clear what "normal" is even going to look like for the next year until that vaccine is ready. 
 
+![]({{site.cdn_path}}/2020/04/04/fine.jpg)
+
 
 

@@ -28,9 +28,8 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +CarlosCarbajal16
-
+  youtube: # channel/UCZgScGg9gLWNUT3aEuERang/educagis
+ 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

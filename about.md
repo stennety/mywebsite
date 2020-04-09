@@ -18,4 +18,4 @@ I'm a music designer, I play around Ableton to make mostly dark ambient and I'm 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[contact@dreat.info](mailto:contact@dreat.info)

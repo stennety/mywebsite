@@ -38,7 +38,9 @@ I don't know if that's me using Safari, but website on projects view was a bit w
 8. Focus on tests, even testing your web part of an app. Nice!
 
 ## First look conclusion.
-Did I have fun? Yes! Do I regret spending money? Absolutely no! Will I continue learning with Programmer's Passport? Hell yeah!
+Did I have fun? Yes! 
+Do I regret spending money? Absolutely no! 
+Will I continue learning with Programmer's Passport? Hell yeah!
 There were some little things, but for first course/language this was a really solid run. I can surely recommend it. I will now jump to Prolog or Elixir to see how they progressed and return to Pony later.
 
 Adn thank you Bruce for this, you rock!

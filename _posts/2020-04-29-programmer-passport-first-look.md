@@ -9,7 +9,7 @@ categories: [new_blog, first_looks, learning]
 ---
 Hello!
 
-Some time ago I signed up for Programmer's Passport at [Grox.io](httsp://grox.io) and just recently finished first language, so I though I will write a small review.
+Some time ago I signed up for Programmer's Passport at [Grox.io](https://grox.io) and just recently finished first language, so I though I will write a small review.
 
 ## What is Programmer's Passport?
 Following theory that every good programmer should be polyglot (not master in every language, but know a few) Programmer's Passport is a online place to give you a knowledge about interesting languages, so you can grow.

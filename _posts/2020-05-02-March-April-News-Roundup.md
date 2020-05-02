@@ -3,8 +3,10 @@ layout: post
 title: March-April News Roundup
 ---
 
-**Matt** Trentini covered the latest MicroPython [news](#News-roundup)
-## News roundup
+COVID-19 has interrupted the MicroPython Meetups! Rude. In lieu of a proper meetup, *Matt* decided to record a news roundup.
+
+## March-April News Roundup
+*Matt* Trentini discusses the latest MicroPython news.
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/R_y74v-HmLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

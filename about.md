@@ -8,4 +8,4 @@ My name is Ben Watson, and I am an independent senior big data consultant, provi
 
 In my spare time I enjoy gradually getting worse at basketball and the guitar.
 
-Free free to say hi to me on <a title="LinkedIn" href="www.linkedin.com/in/ben-watson-big-data">LinkedIn</a>.
+Free free to say hi to me on <a title="LinkedIn" href="https://www.linkedin.com/in/ben-watson-big-data">LinkedIn</a>.

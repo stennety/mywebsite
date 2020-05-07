@@ -19,11 +19,12 @@ Behavior is central to understanding the benefits of testing:
 > Behavior is the most important thing about software. It is what users depend on. Users like it when we add behavior (provided it is what they really wanted), but if we change or remove behavior they depend on (introduce bugs), they stop trusting us.
 
 Tests act as a safety net when making changes to a system. Without tests, there is no verifiable way to know whether a change to one part of the codebase might introduce a change to behavior somewhere else. One way to think of tests is as a “software vise.” Like the analogous tool, tests clamp down behavior. This way, when code changes are made, we can be more confident that the resulting behavior is consistent with what is desired.
-How to get tests in place in legacy codebases
 
-There is often a Catch 22 when testing legacy codebases; "When we change code, we should have tests in place. To put the tests in place, we often have to change code." In these cases, he advocates a few different approaches, the crux of which is to break dependencies so that tests can be put in place. 
+# How to get tests in place in legacy codebases
 
-The approach he suggests for making changes to legacy codebases is as follows:
+There is often a Catch-22 when testing legacy codebases; "When we change code, we should have tests in place. To put the tests in place, we often have to change code." In these cases, he advocates a few different approaches, the purpose of which is to break dependencies.
+
+The suggested approach:
 1. Identify change points.
 1. Find test points.
 1. Break dependencies.

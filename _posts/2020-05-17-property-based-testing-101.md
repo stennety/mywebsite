@@ -8,7 +8,7 @@ tags: [testing, software_engineering]
 categories: [theory, tests, new_blog]
 ---
 
-##### _this is a loose transcription of my talk_
+##### this is a loose transcription of my <a href="{{ site.baseurl }}/presentations/PropertyBasedTesting101/index.html"><u>talk</u></a>
 
 Before I'll explain Property Based Testing let me give some context.
 

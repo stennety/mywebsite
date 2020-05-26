@@ -12,7 +12,7 @@ This post is written to serve as a reminder (mostly to myself) of what the proce
 
 Alice resides within Charlie's regime, who happens to censor content that he doesn't like. Alice wishes to access blocked content. 
 
-The various existing approaches to address this include Tor and tunneling traffic (commonly called VPNs) over a variety of media. In the context of our work, we attempted to solve this problem using _Decoy Routing_. Under this censorship evasion technique, when Alice sends out a network packet, it shouldn't raise an alarm for Charlie. That is, to Charlie it must appear like it is intended for an allowed website.
+The various existing approaches to address this include Tor and tunneling traffic (commonly called VPNs) over a variety of media. In the context of our work, we attempted to solve this problem using _Decoy Routing_. Under this censorship evasion technique, when Alice sends out a network packet for a blocked website, it should be able to fool Charlie's censoring systems, by not raising an alarm. More precisely, to Charlie it should appear like it is intended for an allowed website.
 
 <img src="../images/decoyRouting.png" alt="Figure 1 from PETS paper" width="1800"/>
 

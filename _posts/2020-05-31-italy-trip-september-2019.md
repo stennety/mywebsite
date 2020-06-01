@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Italy Trip, September 2019'
 ---
 _this post is a work in progress_
@@ -30,4 +30,4 @@ My base camps were Rome, Florence, and Riomaggiore, with a final night in Rome b
 
 Here we go. After a thankfully restful night of sleep, I spent the first half of the day packing. I made a spreadsheet of everything I needed and checked it off as it went into the suitcase. This turned out to be an effective remedy for my tendency to constantly worry that I'd forgotten something. I caught a Lyft to the airport, breezed through security with my TSA Precheck, and killed the 90 minutes before my 1:18 pm flight watching reruns of Star Trek TNG and eating sushi.
 
-The initial leg to Amsterdam went smoothly. The next one, in Lisbon, had a short layover. I was glad I'd worn running shoes as I booked it to the gate. I arrived in Rome around 2 pm local time. I caught a taxi for the 10-minute drive to my AirBnB, which was in the Flaminio neighborhood next to the east bank of the Tiber River. My hosts were an energetic, charming young couple and the apartment was very chic. 
+The initial leg to Amsterdam went smoothly. The next one, in Lisbon, had a short layover. I was glad I'd worn running shoes as I booked it to the gate. I arrived in Rome around 2 pm local time. I caught a taxi for the 10-minute drive to my AirBnB, which was in the Flaminio neighborhood next to the east bank of the Tiber River. My hosts were an energetic, charming young couple and the apartment was very chic.

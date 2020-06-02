@@ -7,8 +7,6 @@ author:
   github: davidmerrick
   stackoverflow: 2057706/davidmerrick
   linkedin: davidemerrick
-  twitter: _davidmerrick
-  flickr: 42873456@N02
   instagram: _davidmerrick
 
 paginate: 10
@@ -71,3 +69,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - terraform

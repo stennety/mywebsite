@@ -10,7 +10,7 @@ Patty's mom made us some sweet new masks:
 
 It was a very productive week overall:
 
-* Continued to build this QuarantineBot:
+* Continued to build QuarantineBot:
 ![]({{site.cdn_path}}/2020/04/04/quarantineBot.png)
 
 * Completed the campaign mode in Beat Saber. A very proud achievement.

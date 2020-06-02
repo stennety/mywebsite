@@ -11,8 +11,8 @@ convert original.jpg -distort barrel '0.06335 -0.18432 -0.13009' result.jpg
 
 Using this, he was able to convert this image:
 
-![]({{site.cdn_path}}/2015/01/05/1.jpg)
+![]({{site.cdn_path}}/2015/01/05/2.jpg)
 
 Into this one:
 
-![]({{site.cdn_path}}/2015/01/05/2.jpg)
+![]({{site.cdn_path}}/2015/01/05/1.jpg)

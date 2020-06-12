@@ -44,9 +44,9 @@ All in all, this post is simply for me to document, appreciate and be mindful of
 ---
 
 ## Terminology:
-- covert destination (OD): an IP address that the censor blocks visits to
+- covert destination (CD): an IP address that the censor blocks visits to
 
-- overt destination (CD): an IP address that the censor allows visits to
+- overt destination (OD): an IP address that the censor allows visits to
 
 - secret proxy (SP): a proxy server that communicates with the CD on behalf of the client
 

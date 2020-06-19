@@ -16,7 +16,7 @@ The various existing approaches to address this include Tor and tunneling traffi
 
 <img src="../images/decoyRouting.png" alt="Figure 1 from PETS paper" width="1800"/>
 
-Decoy Routing is a censorship evasion mechanism that that uses "friendly" routers in the Internet as proxy servers. As they are routers, it becomes very difficult to block them.
+Decoy Routing is a censorship evasion mechanism that that uses "friendly" routers in the Internet as proxy servers. As they are routers, it becomes very difficult to block them. Do take note of the jurisdiction within the censor's control and that the decoy router lies outside it.
 
 
 ---
@@ -61,7 +61,7 @@ After being at it for most part of a year, I had some proof of concept in place 
 
 ### Protocol Design:
 The two parts of DR: 
-- _Signaling: Set ToS bits and Snort IDS to generate alerts at the controller._
+- _Signaling: Set ToS bits and let Snort IDS generate alerts for the controller_
 
 	The  client  covertly  signals  the  Decoy  Router  by sending out a special ToS bit pattern and sequence of bytes in the payload. This packet gets picked up by the Snort IDS listening in on _all_ the traffic arriving at the SDN switch (via _port mirroring_). If the payload has a "START" string in its content, it alerts the controller to enable DR. If the payload instead has a "STOP" string, Snort alerts the controller to disable DR. In both scenarios, the IP address of the client requesting these services is also passed onto the controller. 
 - _Redirection: On receiving an alert from the Snort IDS, the controller installs redirection flows onto the switch_
@@ -72,13 +72,13 @@ The two parts of DR:
 
 	**ii)** if the source IP address matches that of the covert destination and the destination IP address matches that of the client, modify the source IP address to that of the overt destination.
 
-	Disabling decoy routing simply involves removing previously installed flow rule.
+	Disabling decoy routing simply involves removing previously installed flow rules.
 
 ### Pitfalls/Open Questions:
-There were so many questions unanswered in this protocol. To mention a few:
+There were many questions unanswered in this protocol. To mention a few:
 - Having ToS bits set for signaling is easily detectable. We were aware of this, but were also restricted by the OpenFlow protocol and switch implementations.
-- The system needs to maintain (overt destination, covert destination) pairs, as the client relied on the system to map them to the right covert destination, from their choice of overt destination.
-- Since Snort generates alerts out of mirrored packets, it meant that the original packet continued on its way to the original destination, implying a connection being setup. Now, if and when the overt destination responded, the censor observing the packets and sessions will be suspcious of foul play on seeing possibly duplicate or redundant packets from the overt destination intended for the same client. (the second set of packets coming from the flow rule ii that was added)
+- The system needs to maintain (overt destination, covert destination) pairs, as the client relied on the system to map them to the right covert destination, given their choice of overt destination.
+- Since Snort generates alerts out of mirrored packets, it meant that the original packet continued on its way to the original destination, implying a connection being setup. Now, if and when the overt destination responded, the censor observing the packets and sessions will be suspcious of foul play on seeing possibly duplicate or redundant packets from the overt destination intended for the same client. (the second set of packets coming from the flow rule **ii** that was added)
 - The system is essentially a NAT box, and, as such, cannot support HTTPS.
 
 While this approach had lots of issues, it made us aware of systemic restrictions with using SDNs as well as various other aspects of the TCP/IP stack we had to be mindful of, while building **SiegeBreaker**.
@@ -137,17 +137,17 @@ For both these scenarios, _SiegeBreaker_ performed comparably against the comman
 ### Pitfalls/Open questions:
 
 - The only purpose OD2 serves is so the packet reaches the controller. Also, the only way for a client to know if DR has been enabled for her is if SP sends data packet containing content from CD, which is quite late in the protocol and she needs to start all over in that case.
-- As with ToS, ICMP is an obvious signal for the censor. Of course, ICMP is used for debugging almost unviersally, but every client using ICMP to request decoy routing is likely to raise the censor's suspicion.
+- As with ToS, ICMP is an obvious signal for the censor. Of course, ICMP is used for troubleshooting almost unviersally, but every client using ICMP to request decoy routing is likely to raise the censor's suspicion.
 - Further, the client is expected to figure some OD2 that doesn't exist in the switch flow table, so that a packet destined for OD2 reaches the controller. The odds of the client guessing and arriving at such an IP address is at best, as good as a coin flip. The client is also expected to know the public key of the Secret Proxy beforehand.
-- At this version, the security of the system is weak, partly due to the usage of ICMP packets, which was an additional blow on the signaling mechanism. While the system handles TLS connections, it does so while reusing a prior secret key, established with a different party.
-- _Switch selection_, i.e., which switch to be selected for flushing the redirection flow rules? Next hop? all?
+- At this version, the security of the system is weak, partly due to the usage of ICMP packets, which was an additional blow on the signaling mechanism. While the system handles TLS connections, it does so while reusing a prior secret key from a session established with a different party.
+- _Switch selection_, i.e., which switch to be selected for flushing the redirection flow rules? One hop from the client? all?
 
 ---
 
 While the separation of concerns between controller and a proxy server helped us put together an efficient modular design, the signaling mechanism was clearly weak. 
 
 
-As we proposed using SDN, we often had to acknowledge/address issues specific to the SDN domain-- impact on failures on such a centralised system, controller and switch capabilities in terms of bottlenecks and throughputs and so on. Why we missed evaluating on these fronts was all SiegeBreaker wanted to get across, was that a **practical, usable** decoy routing system was possible readily through the use of programmable routers (with SDNs or without).
+As we proposed using SDN, we often had to acknowledge/address issues specific to the SDN domain-- impact on failures on such a centralised system, controller and switch capabilities in terms of bottlenecks and throughputs and so on. All we wanted to convey through SiegeBreaker, was that a **practical, usable** decoy routing system was possible readily through the use of programmable routers (with SDNs or without).
 
 The problem with using conventional routers was that they weren't _all-rounder_ smart. Their intelligence was limited _exclusively_ to routing. 
 
@@ -183,13 +183,13 @@ ICMP had to go away.
 
 Even with evaluations against real Internet traffic, on industry-grade hardware switches, there was no way a system could be called practical if it relied heavily on an unbounded use of ICMP pings.
 
-Therefore, we leveraged the e-mail, a commonly used covert channel for censorship circumvention. However, in our context, we used e-mail not for carrying data, but simply to signal the SDN controller.
+Therefore, we leveraged e-mail, a commonly used covert channel for censorship circumvention. However, for SiegeBreaker, we used e-mail not for carrying data, but simply to signal the SDN controller.
 
 The protocol below is the result of multiple iterations, making it privacy-preserving and resilient against various attacks.
 
 ### Protocol Design:
 For an easier understanding, the protocol is divided into three phases:
-- _Bootstrapping: ~~send ICMP ping~~ send encrypted email_ (similar to the signaling phase in prior versions)
+- _Bootstrapping: ~~send ICMP ping~~ send encrypted email_ (equivalent to the signaling phase in prior versions)
 	
 	1. The client sends an email to the controller's email address. The payload of this email contains the DR request, encrypted using the public key of the controller, making it non-readable to the client’s email provider or the adversary (censor). On receiving the email, the controller decrypts the message, extracting out 4 fields:
 		- the word "SIEGE"
@@ -229,12 +229,12 @@ Overall, the promising performance of SiegeBreaker can be attributed to our modu
 
 Again, more details about the performance as well as the design choices that led to them are given in Section 5 of the paper.
 
-### Discussion/Future Work:
+---
 
-I have deliberately glossed over cryptographic and security details in the above description of the protocol, in order to avoid being repetitive against the paper. Specifically, the [paper](https://petsymposium.org/2020/files/papers/issue3/popets-2020-0051.pdf "SiegeBreaker: An SDN Based Practical Decoy Routing System") addresses the following concerns and more:
-- How does the protocol work for clients behind a NAT (packets emanating from all of them would bear the same IP address)? 
-- What determines the timeout values to be set for the redirection/inspection rules pushed on the switches? 
-- On exactly which switch should the inspection/redirection rules be pushed so the packet _always_ encounters it?
+I deliberately glossed over cryptographic and security details in the above description of the protocol, in order to avoid being repetitive against the paper. Specifically, the [paper](https://petsymposium.org/2020/files/papers/issue3/popets-2020-0051.pdf "SiegeBreaker: An SDN Based Practical Decoy Routing System") addresses the following concerns and more:
+- How the protocol works for clients behind a NAT (packets emanating from all of them would bear the same IP address) 
+- What determines the timeout values to be set for the redirection/inspection rules pushed on the switches
+- On exactly which switch(es) should the inspection/redirection rules be pushed so the packet _always_ encounters it
 - Note that the client and SP do not have a true TCP session (established via a TCP handshake) between them. How do they then handle dropped packets, ensure in-ordered delivery, etc.?
 - As I skipped the specifics of the correspondence between the client and SP, Section 6.2 of the paper discusses possible security attacks and our countermeasures against them.
 
@@ -242,7 +242,7 @@ I have deliberately glossed over cryptographic and security details in the above
 
 ## Takeaways
 
-Having spent some time across multiple teams, in two geographies, working on varied scale of problems, the one dictum that I find constant across everything is that _it matters how you tell, what you sell_.
+Having spent some time across multiple teams, in two geographies, working on varied scale of problems, the one dictum that I find constant across everything is that _the pitch matters_.
 
 The scale of the problem we were addressing with decoy routing was no doubt huge, which is why having a clear demarcation of the scope of the problem, _we_ choose to address or solve is necessary. SiegeBreaker went from ToS, to ICMP and then finally e-mail, through multiple _(submit, rebut, reject)_ cycles to finally arrive at a _(submit, revise, accept)_. 
 
@@ -251,6 +251,8 @@ When we had started, the existing DR systems leveraged servers mirroring traffic
 In the bigger picture (pun intended), however, was the censor, a nation-state censor. So the PoC wasn't going to fly. The subsequent version wasn't going to fly either. What we somehow failed to convey was that we weren't here to spell the protocol. To us, that didn't matter. On that path, our (incremental) contribution could simply have been to nudge the decoy routing discussion to programmable routers. Then again, simply that would never sit well with the venues we were submitting to. 
 
 So through a desire to have this published in a tier 1 privacy venue, came about the involved protocol that we call SiegeBreaker.
+
+
 
 Not a lot of problems have or bring to surface these multiple layers of academic research (ideation, system building, publishing). Even though it took long, the lessons and learnings from this journey will always stay with me, as will the connections I made with the incredibly persevering grad students I crossed paths with.
 

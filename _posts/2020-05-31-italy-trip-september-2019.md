@@ -2,8 +2,6 @@
 published: true
 title: 'Italy Trip, September 2019'
 ---
-_this post is a work in progress_
-
 I've been quarantined now for 72...years or so and at this rate it'll be another 72 years before I'll get on a plane again, so I thought it would be a good opportunity to write about my trip to Italy last fall.
 
 I'd been wanting to visit Italy forever. My roommate in college had lived near Naples for two years as a kid when his mom was serving in the Army and had regaled me with stories of the late-night Italian culture. As an endurance athlete, I've always been a fan of carb-heavy Italian food. My sister visited the Cinque Terre in 2015 and I was blown away by the photos she took there.

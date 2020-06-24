@@ -19,7 +19,6 @@ It was a very productive week overall:
 * Bought a GoPro Hero 8. Want to shoot some timelapses of the city during this time.
 * Bought my parents a Nest Hub Max and helped them set it up so we can video call more easily. 
 * Organized several thousand old photos. Uploaded them to Google so they'll show up on my parents' new 'Hub. Started a shared family album on Google Photos for our extended family.
-* Finally found an alternative show (Succession) we could binge because Patty hates the tiger show. Snuck in episodes of said tiger show on my own.
 * I ran 19 miles this week. Which is right around where I want to be. The inertia of being inside so much has made it a struggle to drag myself out to the trails.
 
 Also found some new Zoom backgrounds. My favorites so far are this Windows XP one with a submarine in it:

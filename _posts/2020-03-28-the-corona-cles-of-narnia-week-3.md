@@ -12,7 +12,7 @@ Finding little ways to inject humor into the day has also helped. I started sett
 
 Games also lighten the situation. I did a game night with friends on Tuesday and coworkers on Thursday. We hopped in a Zoom video call and played some board games via the web on [BGA](https://boardgamearena.com/). I'm going to play [Terraforming Mars](https://store.steampowered.com/app/800270/Terraforming_Mars/) with some friends during the day tomorrow.
 
-I've also been playing a ton of Beat Saber. My partner, Patty, has gotten really into it as well, so we've been enabling each other's addiction. VR is a medium that really shines in a quarantine scenario.
+I've also been playing a ton of Beat Saber. VR is a medium that really shines in a quarantine scenario.
 
 # Books
 
@@ -22,7 +22,7 @@ Continuing my pandemic reading kick, I'm listening to The [Next Pandemic](https:
 
 # Projects 
 
-I organized the crap out of my photo library. I have about 35,000 photos that I've been meaning to get onto iCloud, and finally got around to deleting enough of them to make that viable. I also uploaded a bunch of them to Google Photos. I got my parents a Nest Hub for Christmas and added some photos to their album as well so they'll show up when my parents are in the kitchen. The Nest Hub Max was on sale this week, so I ordered one for my parents, figuring it will also make it easier to video chat with them during the day sometimes.
+I organized my photo library, which was a Herculean endeavor. I have about 35,000 photos that I've been meaning to get onto iCloud, and finally got around to deleting enough of them to make that viable. I also uploaded a bunch of them to Google Photos. I got my parents a Nest Hub for Christmas and added some photos to their album as well so they'll show up when my parents are in the kitchen. The Nest Hub Max was on sale this week, so I ordered one for my parents, figuring it will also make it easier to video chat with them during the day sometimes.
 
 I installed a wall mount for my bike for convenience, since I'm riding it more often. It also saves me from making too many trips to the basement bike room via the elevator and catching Corona that way.
 
@@ -32,7 +32,7 @@ I decked out my Roomba in R2-D2 decals.
 
 ![]({{site.cdn_path}}/2020/03/28/r2Roomba.jpg)
 
-I started writing this darkly funny [Slack bot](https://github.com/davidmerrick/quarantinebot) to remind me how many days I've been in quarantine. Other coworkers have come up with more manual ways of tracking.
+I started writing this toy [Slack bot](https://github.com/davidmerrick/quarantinebot) to remind me how many days I've been in quarantine. Other coworkers have come up with more manual ways of tracking.
 
 ![]({{site.cdn_path}}/2020/03/28/quarantineDays.jpg)
 

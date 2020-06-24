@@ -4,7 +4,7 @@ title: 'The Corona Chronicles, Week 4'
 ---
 Week 4. Overall, I feel like I've gotten into the rhythm of this new way of life. Friends have been setting up more and more video calls in the evenings, which is nice. I've got standing Zoom meetings set up for online board games twice a week, and my coworkers and I have been playing games during lunch.
 
-Patty's mom made us some sweet new masks:
+Got some sweet new masks:
 
 ![]({{site.cdn_path}}/2020/04/04/beetles_mask.jpeg)
 
@@ -42,6 +42,3 @@ Our president announced that Americans should wear face masks...but that [he won
 It's difficult to say when we'll be out of quarantine. My prediction: Assuming a normal distribution, if Oregon cases peak in mid-May, it'll be about two months to ramp down. Meaning we'll be out of quarantine in late July or early August. But then there's still the window between when we're out of quarantine and when a vaccine is ready where we're vulnerable as a population to further outbreaks. So it's not clear what "normal" is even going to look like for the next year until that vaccine is ready. 
 
 ![]({{site.cdn_path}}/2020/04/04/fine.jpg)
-
-
-

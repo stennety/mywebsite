@@ -6,7 +6,7 @@ I've been quarantined now for 72...years or so and at this rate it'll be another
 
 I'd been wanting to visit Italy forever. My roommate in college had lived near Naples for two years as a kid when his mom was serving in the Army and had regaled me with stories of the late-night Italian culture. As an endurance athlete, I've always been a fan of carb-heavy Italian food. My sister visited the Cinque Terre in 2015 and I was blown away by the photos she took there.
 
-"Have you ever traveled solo? At least once in your life, everyone should," my friend, Lauren, said to me over beers at Kells Irish Pub in Portland one night. My initial reaction was, "absolutely not." I'm very self-conscious, and the idea of going to a restaurant alone and having people feel sorry for me eating by myself sounded awful. I was also convinced that I'd inevitably fuck up, pick the wrong train, and end up super lost surrounded by people who didn't speak my language.
+"Have you ever traveled solo? At least once in your life, everyone should," my friend, Lauren, said to me over beers at Kells Irish Pub in Portland one night. My initial reaction was, "absolutely not." I'd always traveled internationally with other people, whether they were coworkers, family, friends, significant others. I was certain that, if left to my own devices, I'd inevitably fuck up, pick the wrong train, and end up super lost surrounded by people who didn't speak my language.
 
 After marinating on it for a month, though, the idea seemed more and more appealing. I liked the idea of having the flexibility to see what I wanted to see, read tons of books, and take a million photos without being concerned with a travel companion getting impatient. 
 

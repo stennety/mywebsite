@@ -6,7 +6,7 @@ Week 2 under quarantine in Portland has been really good, overall.
 
 ![]({{site.cdn_path}}/2020/03/22/IMG_3024.jpg)
 
-I’ve been really proud of my partner, Patty. It was difficult to adjust to the social distancing and staying inside, at first, but she has found a way to thrive by throwing herself into a bunch of apartment projects like painting and mounting framed photos. We had some beautiful spring weather yesterday and we rode our bikes to my place from hers, then we walked to Target later in the day. On our way back, we ran into this group of people who had rigged up their Jeep into a mobile karaoke station:
+I ran into this group of people the other day who had rigged up their Jeep into a mobile karaoke station:
 
 {% youtube M51nJaHESFE %}
 

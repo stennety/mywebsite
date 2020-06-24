@@ -16,7 +16,6 @@ It was a very productive week overall:
 * Completed the campaign mode in Beat Saber. A very proud achievement.
 * Managed to somehow tweak my wrist playing said Beat Saber game. So I was icing up for a couple days. It's fine now.
 * Upgraded my house twice in Animal Crossing.
-* Got two more shrines in Breath of the Wild.
 * Bought a GoPro Hero 8. Want to shoot some timelapses of the city during this time.
 * Bought my parents a Nest Hub Max and helped them set it up so we can video call more easily. 
 * Organized several thousand old photos. Uploaded them to Google so they'll show up on my parents' new 'Hub. Started a shared family album on Google Photos for our extended family.

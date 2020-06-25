@@ -286,9 +286,7 @@ footer {
 td {
   padding-left: 7.5px;
   padding-right: 7.5px;
-  background-color: red;
   height: 40px;
-  border: 1px solid green;
   width: 25%;
 }
 
@@ -302,9 +300,7 @@ td:last-child {
 
 table {
   width: calc(100% + 30px);
-  table-layout: fixed;
   border-spacing: 15px 0px;
-  background: green;
   margin: 0px -15px;
 }
 

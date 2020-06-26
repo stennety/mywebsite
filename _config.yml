@@ -82,3 +82,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+
+# Set the direction of the text
+dir: rtl

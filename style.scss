@@ -252,6 +252,7 @@ nav {
 }
 
 .post {
+  dir="auto";
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -267,7 +268,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -281,6 +282,27 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+
+//
+// FOUT fonts
+//
+
+.naskh-font-loaded {
+  body { font-family: $body-font-family; }
+}
+
+.kufi-font-loaded {
+  h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; }
+  .site-name             { font-family: $heading-font-family; }
+  nav                    { font-family: $heading-font-family; }
+  .read-more             { font-family: $heading-font-family; }
+  .date                  { font-family: $heading-font-family; }
+}
+
+.kawkab-font-loaded {
+  code { font-family: $code-font-family; }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

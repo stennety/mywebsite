@@ -4,20 +4,22 @@ title: About
 permalink: /about/
 ---
 
-## About
+Hey there! 
+My name is Laila and I am currently a PhD student in Computer Engineering. Interested in machine learning, computer vision and pattern recognition. 
+In this blog, I am documenting some projects I am working on and writing articles related to my interests in both Arabic and English.
 
-Hey there! My name is Laila and I am currently a PhD student in Computer Engineering. Interested in machine learning, computer vision and pattern recognition. 
-In this blog, I am documenting some projects I am working on and writing  articles related to my interests in both Arabic and English.
+السلام عليكم
+اسمي ليلى طالبة دكتوراه في هندسة الحاسب، مهتمة بالمواضيع المتعلقة بتعلم الآلة، الرؤية باستخدام الحاسب والتعرف على الأنماط. أنشر في هذه المدونة بعض الدروس والمقالات وأكتب عن بعض المشاريع التي أعمل بها باللغة العربية أو الإنجليزية.
 
-السلام عليكم، اسمي ليلى طالبة دكتوراه في هندسة الحاسب، مهتمة بالمواضيع المتعلقة بتعلم الآلة، الرؤية باستخدام الحاسب والتعرف على الأنماط. أنشر في هذه المدونة بعض الدروس والمقالات وأكتب عن بعض المشاريع التي أعمل بها باللغة العربية أو الإنجليزية.
+#### Publications
 
-#### Papers
+- Siamese-GAN: Learning Invariant Representations for Aerial Vehicle Image Categorization [[Link](http://www.mdpi.com/2072-4292/10/2/351/htm)] [[Code](https://github.com/LailaMB/Siamese-GANs)]
 
-- Siamese-GAN: Learning Invariant Representations for Aerial Vehicle Image Categorization [[link](http://www.mdpi.com/2072-4292/10/2/351/htm)] [[Code](https://github.com/LailaMB/Siamese-GANs)]
-*L. Bashmal, Y. Bazi, H. AlHichri, M. Al-Rahal, N. Ammour, and N. Alajlan*
+  *L. Bashmal, Y. Bazi, H. AlHichri, M. Al-Rahal, N. Ammour, and N. Alajlan*
 
 - Asymmetric Adaptation of Deep Features for Cross-Domain Classification in Remote Sensing Imagery [[Link](https://ieeexplore.ieee.org/document/8291513/)]
-*N. Ammour, L. Bashmal, Y. Bazi, M. M. Al Rahhal, and M. Zuair*
+
+  *N. Ammour, L. Bashmal, Y. Bazi, M. M. Al Rahhal, and M. Zuair*
 
 #### Translated Articles
 

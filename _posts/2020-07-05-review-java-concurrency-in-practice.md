@@ -2,7 +2,9 @@
 published: false
 title: 'Review: "Java: Concurrency in Practice"'
 ---
-My tech reading for Q2 2020 was "Java: Concurrency in Practice." It was written in 2006, but it is still very relevant and doesn't show its age. There are occasional mentions of Java 5, but they're few and far between, and most of the concurrency primitives mentioned are still used.
+My tech reading for Q2 2020 was "Java: Concurrency in Practice." It was written in 2006, but it is still very relevant and doesn't show its age. There are occasional mentions of Java 5, but they're few and far between, and most of the concurrency primitives mentioned are still used. 
+
+_Note that I'll probably keep this review relatively brief since it's already Q3 and there are some things I want to get moving on. So this will mostly be a collection, in no particular order, of highlights and things I learned while reading._
 
 It was written by Brian Goetz, who I just learned was the spec lead for Lambdas in Java (JSR-335). As a frequent user and huge fan of Lambdas, thanks, Mr. Goetz, for those as well as for writing this book.
 
@@ -49,4 +51,4 @@ Serializing access to a shared object has nothing to do with converting it to a 
 
 One distinction Goetz makes is between liveness and safety. Safety means that "nothing bad happens," but liveness means that "something good eventually happens."
 
-I was familiar with the term "deadlock" in computing, but there is also a failure case called "livelock." This is a situation in which two or more processes continually repeat the same interaction without doing any useful work. 
+I was familiar with the term "deadlock" in computing, but there is also a failure case called "livelock." This is a situation in which two or more processes continually repeat the same interaction without doing any useful work. An analogy would be when two people are walking toward each other in a hallway. Person A moves to let Person B by, but Person B moves in the same direction. And then they do this repeatedly forever, neither making any progress. Like a deadlock, this results in resource starvation.

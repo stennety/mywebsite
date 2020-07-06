@@ -52,3 +52,11 @@ Serializing access to a shared object has nothing to do with converting it to a 
 One distinction Goetz makes is between liveness and safety. Safety means that "nothing bad happens," but liveness means that "something good eventually happens."
 
 I was familiar with the term "deadlock" in computing, but there is also a failure case called "livelock." This is a situation in which two or more processes continually repeat the same interaction without doing any useful work. An analogy would be when two people are walking toward each other in a hallway. Person A moves to let Person B by, but Person B moves in the same direction. And then they do this repeatedly forever, neither making any progress. Like a deadlock, this results in resource starvation.
+
+# Performance
+
+Goetz advises against premature optimization, to measure your system, and to justify any optimizations using those measurements as well as your performance requirements.
+
+> First make your program right, then make it fast--and then only if your performance requirements and measurements tell you it needs to be faster.
+
+> A colleague provided this amusing anectdote: he had been involved in the testing of an expensive and complex application that managed its work via a tunable thread pool. After the system was complete, testing showed that the optimal number of threads for the pool was...1. This should have been obvious from the outset; the target was a single-CPU system and the application was almost entirely CPU-bound.

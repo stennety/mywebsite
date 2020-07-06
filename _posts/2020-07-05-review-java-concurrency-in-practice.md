@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Review: "Java: Concurrency in Practice"'
 ---
 My tech reading for Q2 2020 was "Java: Concurrency in Practice." It was written in 2006, but it is still very relevant and doesn't show its age. There are occasional mentions of Java 5, but they're few and far between, and most of the concurrency primitives mentioned are still used. 

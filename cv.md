@@ -22,7 +22,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post, inspiring other designers to try this popular coding challenge using 1Kb of CSS. 
 	+ Hop Over Notification was featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 57,500+ views, 150+ likes.
 *	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/). _The extension featured on [getkirby-plugins.com](http://getkirby-plugins.com/), a quality resource of Kirby 2 code plugins._
-*	Contributed to open source projects [on GitHub](https://github.com/plfstr) and participated in [user testing](/blog/council-website-testing/) with the local council.
+*	Contributed to open source projects [on GitHub](https://github.com/plfstr) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404notfound/) accepted to sites dedicated to showing interesting 404s. Included in [46 of the Web’s Most Creative 404 Error Pages (2015 Edition)](http://www.noupe.com/design/46-of-the-webs-most-creative-404-error-pages-2015-edition-88506.html), by Noupe. [Featured on TAXI](http://designtaxi.com/news/371534/A-Tumblr-Blog-Featuring-Creative-404-Webpages/) as part of a post about 404sites.tumblr.com. Also featured on reallygood404.com, 404notfound.fr and was ‘404 of the week’ on [Bonjour 404](http://www.bonjour404.fr/post/138469844000/paul-foster-design).
 
 

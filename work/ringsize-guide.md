@@ -7,16 +7,12 @@ portrait: true
 ---
 {% include image.html image="ringsizer.png" alt="Jewellery Size Guide" %}
 
-### Brief:
+Tasked with creating a downloadable and printable measuring tape for Ideal World customers to measure themselves, establish their size and assist in placing jewellery orders.
 
-Create a downloadable and printable measuring tape for customers to measure themselves and establish their size to assist them in placing jewellery orders.
+### Deliverables
 
-### Deliverables:
-
-*	Incredibly accurate measurements.
-*	Precise instructions and uncluttered design.
+*	Incredibly accurate measurements required to avoid disappointed customers.
+*	Precise and simple instructions and uncluttered design.
 *	Sparing use of colour to keep customers print time quick and light on ink use.
 
-The ring size band I designed is as accurate as the tape that Goldsmiths distribute through their website. The measuring band is [still available to download](http://www.idealworld.tv/Jewellery_Size_Guide) to assist customers on the Ideal World site.
-
-<small class="note">I accept no responsibility for the mis-sizing of jewellery due to the download and use of this ring sizing sheet. It is provided as an example of my previous creative work only.</small>
+The ring size guide I designed is as accurate as the tape that Goldsmiths distribute through their website and was available for customers to download from 2008–2016 on the Ideal World website.

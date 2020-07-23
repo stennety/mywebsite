@@ -9,7 +9,7 @@ My name is Paul Foster, this site is a collection of my web career work. I have 
 
 ### Ideal World
 
-_**Got to grips with web design in the World of TV Shopping.**_
+_**Started my web design career in the World of TV Shopping.**_
 
 *	Involved in 3 major site redesigns.
 *	Redesign of Ideal World checkout process.
@@ -19,15 +19,15 @@ _**Got to grips with web design in the World of TV Shopping.**_
 
 ### Game
 
-_**Furthered my career with an international games retailer.**_
+_**Continued my career with an international games retailer.**_
 
-*	Creation of site merchandising, affiliate banners and content hubs, such as [Nintendo hub](/work/nintendo-hub/).
+*	Creation of site merchandising, affiliate banners and [content hubs](/work/nintendo-hub/).
 *	Redesign of GAME Groups [customer email templates](/work/gameplay-templates/).
 *	Responsible for tasking creative for GAME’s weekly newsletters.
 	
 ### Thomas Cook
 
-_**Contract work in a major brand. Hit the ground running.**_
+_**Contract work in a major brand. Quickly up to speed in a new team.**_
 
 *	Email marketing creation for Thomas Cook Cruises.
 *	Generating creative for the numerous Thomas Cook web properties.
@@ -35,7 +35,7 @@ _**Contract work in a major brand. Hit the ground running.**_
 
 ## What I offer
 
-Happiest when taking the design process through in to writing efficient code, and knowing that I am presenting information to users in the most effective way. The web is always changing and I have a real interest in the mobile and web application based platforms and the new opportunities they present.
+Happiest when taking the design process through in to writing efficient code, and knowing that I am presenting information to people in the most effective way. The web is always changing and I have a real interest in the mobile and web application based platforms and the new opportunities they present.
 
 ### Skills I bring
 
@@ -48,7 +48,7 @@ Happiest when taking the design process through in to writing efficient code, an
 
 ## Work with me
 
-If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for the latest projects. 
+If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for my latest project sand updates. 
 
 If you like my work and have a web role available (in-house or remotely), find out more [about me](/about/) and [check out my CV](/cv/).
 

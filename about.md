@@ -48,7 +48,7 @@ Happiest when taking the design process through in to writing efficient code, an
 
 ## Work with me
 
-If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for my latest project sand updates. 
+If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for my latest projects and updates.
 
 If you like my work and have a web role available (in-house or remotely), find out more [about me](/about/) and [check out my CV](/cv/).
 

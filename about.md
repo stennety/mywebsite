@@ -15,7 +15,7 @@ _**Started my web design career in the World of TV Shopping.**_
 *	Redesign of Ideal World checkout process.
 *	Generation of site creative, customer buying guides and direct email marketing.
 *	Creation of standalone mini-sites supporting TV events.
-*	Print work, including [ring sizer](/work/ringsize-guide/) and [Christmas event](/work/christmas-cracker/).
+*	Print work, including [ring sizer](/work/ringsize-guide/) and [Christmas event direct mailing](/work/christmas-cracker/).
 
 ### Game
 

@@ -140,3 +140,24 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
     margin: .5rem;
     max-width: 33%
 }
+
+@supports (display: grid) {
+.wrap-cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1.5rem;
+	column-gap: 1.5rem;
+}
+
+.wrap-cards .wrap-preview--image {
+	float: none;
+	margin: 0 0 1.5rem;	
+	max-width: none;
+}
+
+.wrap-cards .h2 {
+	font-size: 1.85rem;
+	line-height: 1;
+	word-break: break-word;
+}
+}

@@ -162,7 +162,7 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
 	margin: 0 0 .75rem;
 }
 @supports (grid-template-rows: subgrid) {
-	.wrap-preview {       
+	.wrap-cards .wrap-preview {       
 	    display: inline-grid;
 	    grid-template-rows: subgrid;
 	    grid-row: auto / span 3;

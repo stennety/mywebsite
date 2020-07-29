@@ -159,5 +159,14 @@ a[href*="#pickedpen"],a[href*="#editorspick"] {
 	font-size: 1.85rem;
 	line-height: 1;
 	word-break: break-word;
+	margin: 0 0 .75rem;
+}
+@supports (grid-template-rows: subgrid) {
+	.wrap-preview {       
+	    display: inline-grid;
+	    grid-template-rows: subgrid;
+	    grid-row: auto / span 3;
+	    margin-bottom: 0;
+	}
 }
 }

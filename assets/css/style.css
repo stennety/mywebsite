@@ -240,6 +240,10 @@ dt {
     list-style-type: none
 }
 
+.list--nostyles.h3 {
+    line-height: 1.25;
+}
+
 .flex--row,.list--inline {
     display: flex;
     flex-flow: row nowrap;

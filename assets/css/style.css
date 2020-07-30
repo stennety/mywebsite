@@ -342,8 +342,3 @@ dt {
     color: var(--col-primary);
     background-color: var(--col-body);
 }
-
-#relocatemap {
-    padding: 1.5rem;
-    max-width: 12.5rem;
-}

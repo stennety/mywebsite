@@ -3,7 +3,7 @@ layout: post
 title: May News Roundup
 ---
 
-*Matt* gave a news update including MicroPython's successful application to Google's Season of Docs, a brief summary of ARM devices and a look at the new ESP32-powered TTGO watch.
+*Matt* gave a news update including MicroPython's successful application to Google's Season of Docs, a brief summary of ARM devices, a look at the new ESP32-powered TTGO watch...and more! (No video)
 
 ## May News Roundup
 *Matt* Trentini discusses the latest MicroPython news.

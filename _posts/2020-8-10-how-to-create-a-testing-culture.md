@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a "testing culture"
+title: How To Create a "Testing Culture"
 ---
 
 I love writing unit tests.  I evangelize their value to teammates, and I'm always cultivating "testing culture" within my teams.  I've developed several projects that have very high coverage (~95%), and those projects are my absolute favorite to work in.

@@ -4,8 +4,6 @@ title: 'The Corona Diaries, Week 2'
 ---
 Week 2 under quarantine in Portland has been really good, overall. 
 
-![]({{site.cdn_path}}/2020/03/22/IMG_3024.jpg)
-
 I ran into this group of people the other day who had rigged up their Jeep into a mobile karaoke station:
 
 {% youtube M51nJaHESFE %}

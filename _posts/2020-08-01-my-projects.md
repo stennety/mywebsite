@@ -3,6 +3,8 @@ layout: post
 title: Scott Rippey's Projects
 ---
 
+Here's a showcase of my open source projects, and a few stories about my past work projects.  Enjoy!
+
 ## My Open Source projects
 
 ### [SmartFormat.NET](https://github.com/axuno/SmartFormat)
@@ -16,7 +18,7 @@ A fun little "space shooter" game that you can play in your browser, phone, or t
 
 ## My Work Projects
 
-I've written a LOT of code in my career, but as is common, most of it lies in the hands of my employers!  Here's a couple of the interesting projects I've worked on.
+I've written a LOT of code in my career, but as is common, most of it lies in the hands of my employers!  Here's a couple of the interesting projects I've worked on, and some stories behind them.
 
 ### [InVision Studio](https://www.invisionapp.com/studio)
 

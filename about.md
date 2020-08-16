@@ -18,10 +18,10 @@ I take pride in writing code that's clean, understandable, testable, and reusabl
 
 ## My Projects
 
-I have a couple of [interesting GitHub projects](./my-projects), so please take a look!
+I have a couple of [interesting GitHub projects](../my-projects), so please take a look!
 
 
 ## Contact me
 
-You can contact me via https://www.linkedin.com/in/scottrippey/  
+You can contact me via [https://www.linkedin.com/in/scottrippey/](https://www.linkedin.com/in/scottrippey/)
 I'm not interested in solicitations or job offers, thank you!  

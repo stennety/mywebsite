@@ -23,5 +23,5 @@ I have a couple of [interesting GitHub projects](../my-projects), so please take
 
 ## Contact me
 
-You can contact me via [https://www.linkedin.com/in/scottrippey/](https://www.linkedin.com/in/scottrippey/)
+You can contact me via [LinkedIn](https://www.linkedin.com/in/scottrippey/)  
 I'm not interested in solicitations or job offers, thank you!  

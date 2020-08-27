@@ -7,7 +7,7 @@ Shortname: b&ws
 ---
 {% include image.html image="baws.jpg" alt="blackandwhitesquares.com website" %}
 
-### If it’s black, white and grid-like it has a place here.
+**If it’s black, white and square-like it has a place here.**
 
 In 2009 I launched blackandwhitesquares.com - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do. 
 

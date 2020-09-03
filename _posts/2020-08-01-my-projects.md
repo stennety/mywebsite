@@ -32,6 +32,8 @@ I've written a LOT of code in my career, but as is common, most of it lies in th
 
 ### [InVision Studio](https://www.invisionapp.com/studio)
 
+![InVision Studio](https://user-images.githubusercontent.com/430608/92064206-41807a80-ed5a-11ea-8f45-e43354e64938.gif)
+
 #### The Beginning
 I was drawn to InVision by the tagline  "made for designers, by designers".  I love designers!  I actually wish I was one, but my technical skills have always outweighed my artistic skills.  Gotta pay the bills!  But I've always loved working as the middle-man, between the design team and the engineering team.  Like a Front-FRONT-end engineer.
 So, I was excited to work on design software.  And InVision's designers are awesome ... really the best of the best.  After a few months into my employment, I caught wind of a "top secret" project ... something to do with a canvas and animation ... so I had to get in on that!  And sure enough, I found myself working on the most interesting project I could think of!  Creating an actual Design Tool!  
@@ -58,6 +60,9 @@ We all kept chuckling, as my manager asked me where they should send my last che
 
 
 ### Xbox One App for AT&T Uverse
+
+![ATT Xbox 2 Movies](https://user-images.githubusercontent.com/430608/92063875-77712f00-ed59-11ea-85a5-7fa1cfca5426.jpg)
+
 
 #### The Beginning
 I worked for AT&T's Uverse cable service (through a company called Piksel), and worked initially on their website, streaming TV and Movies, a lot like Netflix.  

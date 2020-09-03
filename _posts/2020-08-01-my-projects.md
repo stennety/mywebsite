@@ -18,7 +18,7 @@ A fun little "space shooter" game that you can play in your browser, phone, or t
 ![xQuest 1 Heat of the Battle](https://user-images.githubusercontent.com/430608/92063687-fade5080-ed58-11ea-89e5-d133f7a72c17.png)
 
 ### [RippeyEats](http://scottrippey.github.io/sample-RippeyEats/)
-This is just a little sample exercise, which was done as an "interview exercise".  It's a nice little demonstration of a React, TypeScript, TailwindCSS, and Parcel development stack, and should showcase some of my coding skills.  
+This was done as a little "interview exercise".  It's a nice little demonstration of a React, TypeScript, TailwindCSS, and Parcel development stack, and should showcase some of my coding skills.  
 
 ![RippeyEats Sample](https://user-images.githubusercontent.com/430608/91997404-4a8c3000-ecf7-11ea-8068-d63ab8f34a84.gif)
 

@@ -3,6 +3,8 @@ layout: post
 title: Scott Rippey's Projects
 ---
 
+[last updated Sept 2, 2020]
+
 Here's a showcase of my open source projects, and a few stories about my past work projects.  Enjoy!
 
 ## My Open Source projects
@@ -14,6 +16,13 @@ To my surprise, it has nearly 1 million downloads in NuGet now!
 
 ### [XQuestJS](http://scottrippey.github.io/xquestjs/)
 A fun little "space shooter" game that you can play in your browser, phone, or tablet!
+TODO: IMG
+
+### [RippeyEats](http://scottrippey.github.io/sample-RippeyEats/)
+This is just a little sample exercise, which was done as an "interview exercise".  It's a nice little demonstration of a React, TypeScript, TailwindCSS, and Parcel development stack, and should showcase some of my coding skills.  
+
+![RippeyEats Sample](https://user-images.githubusercontent.com/430608/91997404-4a8c3000-ecf7-11ea-8068-d63ab8f34a84.gif)
+
 
 
 ## My Work Projects

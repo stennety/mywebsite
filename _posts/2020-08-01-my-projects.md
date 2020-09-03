@@ -3,8 +3,6 @@ layout: post
 title: Scott Rippey's Projects
 ---
 
-[last updated Sept 2, 2020]
-
 Here's a showcase of my open source projects, and a few stories about my past work projects.  Enjoy!
 
 ## My Open Source projects
@@ -77,3 +75,5 @@ Well, I was pretty bummed that my development console couldn't play games.  Howe
 One night, I had to work super late, and was the last in the office.  I finally used that chance to launch the game, and worked out a few bugs, and that was all the testing I could really do!  I successfully shipped the game in the app.
 
 Unfortunately, last I checked, AT&T has discontinued their Xbox One app support, so my app no longer sees the light of day.  At least [the game I wrote](http://scottrippey.github.io/xquestjs/) still lives on!
+
+[last updated Sept 2, 2020]

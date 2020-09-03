@@ -3,6 +3,8 @@ layout: post
 title: Scott Rippey's Projects
 ---
 
+[last updated Sept 2, 2020]
+
 Here's a showcase of my open source projects, and a few stories about my past work projects.  Enjoy!
 
 ## My Open Source projects
@@ -15,12 +17,22 @@ To my surprise, it has nearly 1 million downloads in NuGet now!
 ### [XQuestJS](http://scottrippey.github.io/xquestjs/)
 A fun little "space shooter" game that you can play in your browser, phone, or tablet!
 
+![xQuest 1 Heat of the Battle](https://user-images.githubusercontent.com/430608/92063687-fade5080-ed58-11ea-89e5-d133f7a72c17.png)
+
+### [RippeyEats](http://scottrippey.github.io/sample-RippeyEats/)
+This is just a little sample exercise, which was done as an "interview exercise".  It's a nice little demonstration of a React, TypeScript, TailwindCSS, and Parcel development stack, and should showcase some of my coding skills.  
+
+![RippeyEats Sample](https://user-images.githubusercontent.com/430608/91997404-4a8c3000-ecf7-11ea-8068-d63ab8f34a84.gif)
+
+
 
 ## My Work Projects
 
 I've written a LOT of code in my career, but as is common, most of it lies in the hands of my employers!  Here's a couple of the interesting projects I've worked on, and some stories behind them.
 
 ### [InVision Studio](https://www.invisionapp.com/studio)
+
+![InVision Studio](https://user-images.githubusercontent.com/430608/92064206-41807a80-ed5a-11ea-8f45-e43354e64938.gif)
 
 #### The Beginning
 I was drawn to InVision by the tagline  "made for designers, by designers".  I love designers!  I actually wish I was one, but my technical skills have always outweighed my artistic skills.  Gotta pay the bills!  But I've always loved working as the middle-man, between the design team and the engineering team.  Like a Front-FRONT-end engineer.
@@ -48,6 +60,9 @@ We all kept chuckling, as my manager asked me where they should send my last che
 
 
 ### Xbox One App for AT&T Uverse
+
+![ATT Xbox 2 Movies](https://user-images.githubusercontent.com/430608/92063875-77712f00-ed59-11ea-85a5-7fa1cfca5426.jpg)
+
 
 #### The Beginning
 I worked for AT&T's Uverse cable service (through a company called Piksel), and worked initially on their website, streaming TV and Movies, a lot like Netflix.  

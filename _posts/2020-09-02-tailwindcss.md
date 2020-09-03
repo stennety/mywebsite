@@ -1,17 +1,22 @@
 ---
 layout: post
-title: TailwindCSS with React: the pros and cons
+title: TailwindCSS with React, the pros and cons
 ---
 
-I recently completed an "interview exercise", where I was challenged to create a simple prototype of a web page.  The goal was to demonstrate my coding skills, by creating it from scratch.  The result was pretty simple:
+I recently completed an "interview exercise", where I was challenged to create a simple prototype of a web page.  The goal was to demonstrate my coding skills, by creating it from scratch.  
 
-![RippeyEats Sample](https://user-images.githubusercontent.com/430608/91997404-4a8c3000-ecf7-11ea-8068-d63ab8f34a84.gif)
+It's always fun to start a project from scratch, especially when you get to choose your own software stack!  Here's the stack I chose:
 
-It's always fun to start a project from scratch, especially when you get to choose your own software stack!  For my stack, I chose:
 - React
 - TypeScript
 - TailwindCSS
 - Parcel (building / bundling)
+
+
+The result was pretty simple:
+
+![RippeyEats Sample](https://user-images.githubusercontent.com/430608/91997404-4a8c3000-ecf7-11ea-8068-d63ab8f34a84.gif)
+
 
 ## Thoughts on "The Stack"
 I loved it!  Why else would I choose it?

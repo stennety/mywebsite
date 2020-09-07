@@ -1,11 +1,9 @@
 ---
 layout: post
-title: January News Roundup
+title: January 2020 Meetup
 ---
 
-*Matt* presents the latest MicroPython News Roundup. 
-
-*Jim* gives a deep dive on the MicroPython Garbage Collector.
+**Matt** presents the latest MicroPython News Roundup. **Jim** gives a super deep dive on the MicroPython Garbage Collector.
 
 ## January News Roundup
 
@@ -15,4 +13,4 @@ title: January News Roundup
 
 ## The MicroPython Garbage Collector
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H_xq8IYjh2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="960" height="569" src="https://www.youtube.com/embed/H_xq8IYjh2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

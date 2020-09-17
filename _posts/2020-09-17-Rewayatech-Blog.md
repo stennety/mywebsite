@@ -8,7 +8,7 @@ category: Arabic
 
 في شهر أغسطس الماضي شاركت في تحدي رواية-تك، وهو تحدي من تنظيم [منصة بيان](https://bayan.site) يهدف لتحليل أكثر من ١٢٠٠ رواية عربية كتبت في المنتديات في الفترة مابين ٢٠٠٣ إلى ٢٠١٥ وجمعت في قاعدة بيانات تحت اسم [رواية-تك](https://github.com/aseelad/Rewayatech-Saudi-Stories) . السمة الأبرز لهذه الروايات هو كونها مكتوبة بلهجات عربية عاميّة مختلفة مما يشكل تحدي كبير أمام عملية التحليل، الشكل التالي يوضح تمثيل عينة من هذه الروايات على اللهجات العربية المختلفة.
 
-![1st_post_t_sne_dialects](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_t_sne_dialects.png)
+![1st_post_t_sne_dialects](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_t_sne_dialects.png)
 
 
 
@@ -48,7 +48,7 @@ category: Arabic
 
 
 
-![1st_post_title_name](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_title_name.png)
+![1st_post_title_name](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_title_name.png)
 
  
 
@@ -62,7 +62,7 @@ category: Arabic
 
 
 
-![1st_post_Number_of_characters](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_Number_of_characters.png)
+![1st_post_Number_of_characters](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_Number_of_characters.png)
 
 
 
@@ -72,9 +72,9 @@ category: Arabic
 
  
 
-![1st_male_names_cloud](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_male_names_cloud.png)
+![1st_male_names_cloud](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_male_names_cloud.png)
 
-![1st_male_names](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_male_names.png)
+![1st_male_names](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_male_names.png)
 
  
 
@@ -86,9 +86,9 @@ category: Arabic
 
  
 
-![1st_female_names_cloud](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_female_names_cloud.png)
+![1st_female_names_cloud](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_female_names_cloud.png)
 
-![1st_female_names](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_female_names.png)
+![1st_female_names](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_female_names.png)
 
  
 
@@ -102,7 +102,7 @@ category: Arabic
 
  
 
-![1st_story_length](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_story_length.png)
+![1st_story_length](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_story_length.png)
 
  
 
@@ -118,17 +118,17 @@ category: Arabic
 
 وجود اسم شخصيتين في نفس الجملة يعني أن هناك تفاعل قد حدث بين الشخصيتين، هذا التفاعل قد يكون لقاء، أو حوار بين الشخصيتين، أو شخصية تتحدث إلى الشخصية الأخرى أو تفكر في الشخصية الأخرى وماإلى ذلك. 
 
-الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
+الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
 
-![1st_post_interaction](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_interaction.png)
+![1st_post_interaction](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_interaction.png)
 
  
 
 يمثل العمود source و target اسم الشخصيتين التي حصل بينها تفاعل، يمثل weight عدد مرات حدوث تفاعل بين الشخصيتين، و weight_inv مقلوب هذه القيمة ليسهل التعامل معها في العمليات الحسابية لاحقاً.
 
-بعد إنشاء مصفوفة العلاقات أصبح من السهل تمثيل التفاعل بين شخصيات الرواية كمخطط شبكي (Graph)، وكذلك الاستفادة من خصائص المخطط الشبكي في تحليل أهمية الشخصية في الرواية، الشكل التالي يبين تمثيل رواية (آحبك يانونا) بحيث تمثل كل دائرة في هذا المخطط شخصية من شخصيات الرواية، ويمثل لون الدائرة جنس الشخصية (ذكر، أنثى)، ويمثل حجم الدائرة عدد المرات التي ذكرت فيها هذه الشخصية في الرواية، أما الخط الواصل بين دائرتين فهو يمثل وجود تفاعل بين الشخصين، وسمك هذا الخط يمثل مدى هذا التفاعل.
+بعد إنشاء مصفوفة العلاقات أصبح من السهل تمثيل التفاعل بين شخصيات الرواية كمخطط شبكي (Graph)، وكذلك الاستفادة من خصائص المخطط الشبكي في تحليل أهمية الشخصية في الرواية، الشكل التالي يبين تمثيل رواية (آحبك يانونا) بحيث تمثل كل دائرة في هذا المخطط شخصية من شخصيات الرواية، ويمثل لون الدائرة جنس الشخصية (ذكر، أنثى)، ويمثل حجم الدائرة عدد المرات التي ذكرت فيها هذه الشخصية في الرواية، أما الخط الواصل بين دائرتين فهو يمثل وجود تفاعل بين الشخصين، وسمك هذا الخط يمثل مدى هذا التفاعل.
 
-![1st_post_nona](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_nona.png)
+![1st_post_nona](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_nona.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "آحبك يانونا"
 
@@ -190,7 +190,7 @@ category: Arabic
 
 يمكن إجراء هذه التحليلات على جميع الروايات في الشكل التالي عينة عشوائية من تطبيق نفس هذا التحليل على روايات أخرى:
 
-![1st_post_secret_garden](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_secret_garden.png)
+![1st_post_secret_garden](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_secret_garden.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "الحديقة السرية"
 
@@ -198,7 +198,7 @@ category: Arabic
 
 
 
-![1st_post_worood](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_worood.png)
+![1st_post_worood](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_worood.png)
 
 
 

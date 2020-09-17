@@ -11,9 +11,10 @@ category: Arabic
 ![1st_post_t_sne_dialects]({{ site.baseurl }}/images/1st_post_t_sne_dialects.png)
 </div>
 
-<p align="center">
+
+<div align="center">
   <img src="https://lailamb.github.io/images/1st_post_t_sne_dialects.png">
-</p>
+</div>
 
 أحد مسارات التحليل التي طرحت من قِبل منظمي المسابقة هو استكشاف شخصيات الروايات وشبكة العلاقات فيما بينهم، في هذه التدوينة سأستعرض الطريقة التي اتبعتها في هذا التحليل لاستخراج شخصيات الرواية، واستكشاف العلاقات فيما بينهم، بعد الاطلاع على النصوص الروائية بشكل عام لاحظت وجود المشاكل التالية: 
 

@@ -46,7 +46,7 @@ category: Arabic
 
 
 
-![1st_post_title_name](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_title_name.png)
+![1st_post_title_name]({{ site.baseurl }}/images/1st_post_title_name.png)
 
  
 
@@ -60,7 +60,7 @@ category: Arabic
 
 
 
-![1st_post_Number_of_characters](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_Number_of_characters.png)
+![1st_post_Number_of_characters]({{ site.baseurl }}/images/1st_post_Number_of_characters.png)
 
 
 
@@ -70,11 +70,9 @@ category: Arabic
 
  
 
-![1st_male_names_cloud](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_male_names_cloud.png)
+![1st_male_names_cloud]({{ site.baseurl }}/images/1st_male_names_cloud.png)
 
-![1st_male_names](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_male_names.png)
-
- 
+![1st_male_names]({{ site.baseurl }}/images/1st_male_names.png)
 
  
 
@@ -84,9 +82,9 @@ category: Arabic
 
  
 
-![1st_female_names_cloud](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_female_names_cloud.png)
+![1st_female_names_cloud]({{ site.baseurl }}/images/1st_female_names_cloud.png)
 
-![1st_female_names](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_female_names.png)
+![1st_female_names]({{ site.baseurl }}/images/1st_female_names.png)
 
  
 
@@ -100,7 +98,7 @@ category: Arabic
 
  
 
-![1st_story_length](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_story_length.png)
+![1st_story_length]({{ site.baseurl }}/images/1st_story_length.png)
 
  
 
@@ -110,7 +108,7 @@ category: Arabic
 
 
 
-![1st_text](/Users/nourainclub/Desktop/Rewayatech/Report/1st_text.png)
+![1st_text]({{ site.baseurl }}/images/1st_text.png)
 
  
 
@@ -118,7 +116,7 @@ category: Arabic
 
 الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
 
-![1st_post_interaction](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_interaction.png)
+![1st_post_interaction]({{ site.baseurl }}/images/1st_post_interaction.png)
 
  
 
@@ -126,7 +124,7 @@ category: Arabic
 
 بعد إنشاء مصفوفة العلاقات أصبح من السهل تمثيل التفاعل بين شخصيات الرواية كمخطط شبكي (Graph)، وكذلك الاستفادة من خصائص المخطط الشبكي في تحليل أهمية الشخصية في الرواية، الشكل التالي يبين تمثيل رواية (آحبك يانونا) بحيث تمثل كل دائرة في هذا المخطط شخصية من شخصيات الرواية، ويمثل لون الدائرة جنس الشخصية (ذكر، أنثى)، ويمثل حجم الدائرة عدد المرات التي ذكرت فيها هذه الشخصية في الرواية، أما الخط الواصل بين دائرتين فهو يمثل وجود تفاعل بين الشخصين، وسمك هذا الخط يمثل مدى هذا التفاعل.
 
-![1st_post_nona](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_nona.png)
+![1st_post_nona]({{ site.baseurl }}/images/1st_post_nona.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "آحبك يانونا"
 
@@ -188,7 +186,7 @@ category: Arabic
 
 يمكن إجراء هذه التحليلات على جميع الروايات في الشكل التالي عينة عشوائية من تطبيق نفس هذا التحليل على روايات أخرى:
 
-![1st_post_secret_garden](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_secret_garden.png)
+![1st_post_secret_garden]({{ site.baseurl }}/images/1st_post_secret_garden.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "الحديقة السرية"
 
@@ -196,7 +194,7 @@ category: Arabic
 
 
 
-![1st_post_worood](https://github.com/LailaMB/lailaMB.github.io/blob/master/images/1st_post_worood.png)
+![1st_post_worood]({{ site.baseurl }}/images/1st_post_worood.png)
 
 
 

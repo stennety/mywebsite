@@ -7,10 +7,6 @@ category: Arabic
 
 
 في شهر أغسطس الماضي شاركت في تحدي رواية-تك، وهو تحدي من تنظيم [منصة بيان](https://bayan.site) يهدف لتحليل أكثر من ١٢٠٠ رواية عربية كتبت في المنتديات في الفترة مابين ٢٠٠٣ إلى ٢٠١٥ وجمعت في قاعدة بيانات تحت اسم [رواية-تك](https://github.com/aseelad/Rewayatech-Saudi-Stories) . السمة الأبرز لهذه الروايات هو كونها مكتوبة بلهجات عربية عاميّة مختلفة مما يشكل تحدي كبير أمام عملية التحليل، الشكل التالي يوضح تمثيل عينة من هذه الروايات على اللهجات العربية المختلفة.
-<div align="center">
-![1st_post_t_sne_dialects]({{ site.baseurl }}/images/1st_post_t_sne_dialects.png)
-</div>
-
 
 <div align="center">
   <img src="https://lailamb.github.io/images/1st_post_t_sne_dialects.png">
@@ -75,8 +71,9 @@ category: Arabic
 يمكن كذلك معرفة أسماء الشخصيات التي كانت سائدة في تلك الفترة، يوضح الشكل التالي الأسماء الأكثر شيوعاً للذكور والإناث، حيث يحتل اسمي فيصل وخالد الاسماء الأكثر انتشاراً بين الذكور. 
 
  
-
-![1st_male_names_cloud]({{ site.baseurl }}/images/1st_male_names_cloud.png)
+<div align="center">
+  <img src="https://lailamb.github.io/images/1st_male_names_cloud.png">
+</div>
 
 ![1st_male_names]({{ site.baseurl }}/images/1st_male_names.png)
 
@@ -86,13 +83,12 @@ category: Arabic
 
 أما أسماء الإناث الشائعة فيحتل اسمي سارة وريم أكثر الأسماء انتشاراً بين أسماء الإناث
 
- 
 
-![1st_female_names_cloud]({{ site.baseurl }}/images/1st_female_names_cloud.png)
+<div align="center">
+  <img src="https://lailamb.github.io/images/1st_female_names_cloud.png">
+</div>
 
 ![1st_female_names]({{ site.baseurl }}/images/1st_female_names.png)
-
- 
 
  
 
@@ -103,10 +99,10 @@ category: Arabic
 يهدف هذا التحليل إلى اختبار ما إذا كان هناك ارتباط بين عدد الشخصيات في الرواية وطول الرواية، إذ يتوقع أحياناً أنه كلما زاد طول الرواية، زاد تعقيد الأحداث فيها وبالتالي زاد عدد الشخصيات. بعد دراسة الارتباط بين المتغيرين (عدد كلمات الرواية وعدد الشخصيات، وجدت أن معامل الارتباط يساوي ٠.٢ مما يعني وجود ارتباط إيجابي ولكنه ارتباط ضئيل جداً.
 
  
+<div align="center">
+  <img src="https://lailamb.github.io/images/1st_story_length.png">
+</div>
 
-![1st_story_length]({{ site.baseurl }}/images/1st_story_length.png)
-
- 
 
 ### **٥. تحليل العلاقات والتفاعل بين شخصيات الرواية:** 
 
@@ -122,9 +118,10 @@ category: Arabic
 
 الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
 
-![1st_post_interaction]({{ site.baseurl }}/images/1st_post_interaction.png)
 
- 
+ <div align="center">
+  <img src="https://lailamb.github.io/images/1st_post_interaction.png">
+</div>
 
 يمثل العمود source و target اسم الشخصيتين التي حصل بينها تفاعل، يمثل weight عدد مرات حدوث تفاعل بين الشخصيتين، و weight_inv مقلوب هذه القيمة ليسهل التعامل معها في العمليات الحسابية لاحقاً.
 

@@ -6,49 +6,49 @@ category: Arabic
 ---
 
 
-في شهر أغسطس الماضي شاركت في تحدي رواية-تك، وهو تحدي من تنظيم [منصة بيان](https://bayan.site) يهدف لتحليل أكثر من ١٢٠٠ رواية عربية كتبت في المنتديات في الفترة مابين ٢٠٠٣ إلى ٢٠١٥ وجمعت كبيانات تحت مسمى [رواية-تك](https://github.com/aseelad/Rewayatech-Saudi-Stories) . السمة الأبرز لروايات المنتديات المكتوبة في تلك الفترة هو كونها مكتوبة بلهجات عربية عاميّة مختلفة وبدون أي قواعد أدبية، تنوع اللهجات هذا يشكل تحدي كبير أمام أي عملية تحليل، الشكل التالي يوضح توزيع عينة من هذه الروايات على اللهجات المختلفة العربية.
+في شهر أغسطس الماضي شاركت في تحدي رواية-تك، وهو تحدي من تنظيم [منصة بيان](https://bayan.site) يهدف لتحليل أكثر من ١٢٠٠ رواية عربية كتبت في المنتديات في الفترة مابين ٢٠٠٣ إلى ٢٠١٥ وجمعت في قاعدة بيانات تحت اسم [رواية-تك](https://github.com/aseelad/Rewayatech-Saudi-Stories) . السمة الأبرز لهذه الروايات هو كونها مكتوبة بلهجات عربية عاميّة مختلفة مما يشكل تحدي كبير أمام عملية التحليل، الشكل التالي يوضح تمثيل عينة من هذه الروايات على اللهجات العربية المختلفة.
+
+![1st_post_t_sne_dialects](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_t_sne_dialects.png)
 
 
 
-![t_sne_dialects](/Users/nourainclub/Desktop/Rewayatech/Report/t_sne_dialects.png)
-
-أحد أهداف التحليل التي طرحت من قِبل منظمي المسابقة هو استكشاف شخصيات الروايات وشبكة العلاقات فيما بينهم، في هذه التدوينة سأستعرض الطريقة التي اتبعتها في هذا التحليل.
-
-بعد الاطلاع على النصوص الروائية بشكل عام لاحظت وجود المشاكل التالية: 
+أحد مسارات التحليل التي طرحت من قِبل منظمي المسابقة هو استكشاف شخصيات الروايات وشبكة العلاقات فيما بينهم، في هذه التدوينة سأستعرض الطريقة التي اتبعتها في هذا التحليل لاستخراج شخصيات الرواية، واستكشاف العلاقات فيما بينهم، بعد الاطلاع على النصوص الروائية بشكل عام لاحظت وجود المشاكل التالية: 
 
 - طول القصص وكثرة الحوارات الجانبية بين الشخصيات.
 - كثرة عدد الشخصيات في الرواية وتداخل العلاقات بينهم.
 - تفاوت أهمية وجود الشخصيات في الرواية ففي حين أن بعض الشخصيات مهمة في سياق وأحداث الرواية، هناك الكثير من الشخصيات الجانبية والغير مهمة. 
 
-تحليل الشخصيات يسهّل من فهم شبكة العلاقات المعقدة في كل رواية، ويساعد على فهم القصة بشكل مبسط، الجزء الأول من هذا التحليل يحاول أولاً استخراج أسماء الشخصيات (الذكور والإناث) من كل رواية.
+تحليل الشخصيات يسهّل من فهم شبكة العلاقات المعقدة في كل رواية، ويساعد على فهم القصة بشكل مبسط، الجزء الأول من هذا التحليل يحاول استخراج أسماء الشخصيات (الذكور والإناث) من كل رواية تمهيداً لعمليات التحليل الأخرى.
 
  
 
-#### ١. التعرف على شخصيات الرواية: 
+### ١. التعرف على شخصيات الرواية: 
 
 التعرف على شخصيات الرواية خطوة رئيسية لفهم الرواية وأحداثها، كما أنه يعد خطوة أولية لتنفيذ العديد من عمليات التحليل الأخرى، يمكن اعتبار التعرف على الشخصيات جزء من عملية التعرف على الكائنات [Name Entity Recognition](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwihud7s2-7rAhWFzoUKHbSkDisQFjABegQIAhAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNamed-entity_recognition&usg=AOvVaw0gBRQzjbYCnfBi_ocUVXYa) ، في مجال اللغات الطبيعية والتي يتم فيها التعرف على أي كائن في النص سواء أكان اسم شخص، أو مكان أو غيره. هذه العملية في اللغة العربية أصعب من اللغة الإنجليزية والتي يمكن بسهولة تمييز الكائنات فيها عن طريق الأحرف الكبيرة Capital Letters. أضف إلى ذلك أن اللغة العربية فيها تداخل مابين أسماء الأشخاص وبعض الكلمات الأخرى، فمثلاً اسم (جميلة) يمكن يأتي كاسم لمؤنث أو صفة لمؤنث في نفس الوقت. 
 
 لاستخراج الأسماء اتبعت ٣ طرق:
 
-##### ١. الخطوة الأولى POS:
+##### ١.  POS Tagging:
 
 استخراج الأسماء من نص الرواية بواسطة Recognizer Entity Farasa Named، كانت المعالجة تأخذ وقت طويل نظراً لكبر حجم النصوص، كما أن النتائج لم تكن دقيقة جداً خصوصاً وأننا نتعامل مع روايات بلهجة، وهذه المكتبة كغيرها من مكتبات اللغة العربية طورت للتعامل مع اللغة العربية الفصحى.
 
- 
 
-##### ٢. الخطوة الثانية الطريقة الإحصائية:
+
+##### ٢.  الطريقة الإحصائية:
 
 هذه الطريقة كانت أبسط وأسرع من السابقة، إذ أن أسماء الشخصيات في الرواية تعد من الكلمات الأكثر تكراراً في الرواية وعند الأخذ بالأسماء الأكثر تكراراً ، يمكن استخراج الأسماء بشكل أكثر دقة.
 
 
 
-##### ٣. الخطوة الثالثة قاموس الأسماء:
+##### ٣.  قاموس الأسماء:
 
 بعد الخطوة السابقة يتم البحث بالنتائج في قاموس خاص كخطوة أخيرة للتأكد من النتائج السابقة، وكذلك لتصنيف الأسماء المستخرجة إلى أسماء ذكور وإناث. استخرجت الأسماء العربية للذكور والإناث من موقع ويكيبيديا، بعد تحميل الأسماء وتنظيفها أُضيفت بعض الأسماء الشائعة محلياً بشكل يدوي، واُستخدم القاموس الناتج لاستخراج أسماء الشخصيات ذكوراً وإناثاً، قاموس الأسماء الناتج متاح على الروابط التالية [Kaggle](https://www.kaggle.com/lailamohammed/arabic-names).
 
 بعد استخراج أسماء الشخصيات من كل رواية حصلت على جدول بيانات بالشكل التالي بحيث يتكون الجدول من الأعمدة التالية (عنوان الرواية، أسماء الشخصيات، عدد مرات ذكر كل شخصية في الرواية، عدد الشخصيات في الرواية).
 
-![A screenshot of a cell phone  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+
+
+![1st_post_title_name](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_title_name.png)
 
  
 
@@ -56,69 +56,63 @@ category: Arabic
 
 
 
-#### **٢. عدد الشخصيات في كل رواية:**
+### **٢. عدد الشخصيات في كل رواية:**
 
 بعد استخراج أسماء الشخصيات في الخطوة السابقة يمكن استخراج عدد الشخصيات في كل الروايات، كما هو واضح من الشكل الذي يتخذ شكل التوزيع الطبيعي، متوسط عدد الشخصيات في كل رواية هو ٩ شخصيات. 
 
- ![Number_of_characters](/Users/nourainclub/Desktop/Rewayatech/Report/Number_of_characters.png)
+
+
+![1st_post_Number_of_characters](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_Number_of_characters.png)
 
 
 
-
-
-####  **٣. الأسماء الشائعة في الرواية:**
+###  **٣. الأسماء الشائعة في الرواية:**
 
 يمكن كذلك معرفة أسماء الشخصيات التي كانت سائدة في تلك الفترة، يوضح الشكل التالي الأسماء الأكثر شيوعاً للذكور والإناث، حيث يحتل اسمي فيصل وخالد الاسماء الأكثر انتشاراً بين الذكور. 
 
  
 
-![A picture containing holding, people  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![1st_male_names_cloud](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_male_names_cloud.png)
 
-سحابة أسماء الذكور الأكثر تكراراً في الروايات
-
- 
-
- 
-
-![A picture containing fence  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png)
+![1st_male_names](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_male_names.png)
 
  
 
  
+
+
 
 أما أسماء الإناث الشائعة فيحتل اسمي سارة وريم أكثر الأسماء انتشاراً بين أسماء الإناث
 
  
 
-![A close up of a logo  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image003.png)
+![1st_female_names_cloud](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_female_names_cloud.png)
 
-سحابة أسماء الإناث الأكثر تكراراً في الروايات
+![1st_female_names](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_female_names.png)
+
+ 
 
  
 
  
 
-![A screenshot of a cell phone  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.png)
-
- 
-
-#### **٤. العلاقة بين طول الرواية وعدد شخصياتها**
+### **٤. العلاقة بين طول الرواية وعدد شخصياتها**
 
 يهدف هذا التحليل إلى اختبار ما إذا كان هناك ارتباط بين عدد الشخصيات في الرواية وطول الرواية، إذ يتوقع أحياناً أنه كلما زاد طول الرواية، زاد تعقيد الأحداث فيها وبالتالي زاد عدد الشخصيات. بعد دراسة الارتباط بين المتغيرين (عدد كلمات الرواية وعدد الشخصيات، وجدت أن معامل الارتباط يساوي ٠.٢ مما يعني وجود ارتباط إيجابي ولكنه ارتباط ضئيل جداً.
 
  
 
-![image-20200917021743957](/Users/nourainclub/Library/Application Support/typora-user-images/image-20200917021743957.png)
+![1st_story_length](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_story_length.png)
 
  
 
-#### **٥. تحليل العلاقات والتفاعل بين شخصيات الرواية:** 
+### **٥. تحليل العلاقات والتفاعل بين شخصيات الرواية:** 
 
 استخراج أسماء الشخصيات مهم لاستخراج معلومات أولية عن القصة ولكنه لا يكفي لمعرفة أهمية هذه الشخصيات والعلاقات بينهم، لهذا السبب كان لابد من تحليل العلاقات والتفاعل بين هذه الشخصيات. لاستخراج التفاعل بشكل آلي قمت باستخراج كل جملة ذكرت فيها كل شخصية من شخصيات الرواية، وباستخدام هذه الجمل يمكن إنشاء مصفوفة علاقات تحوي أي اسمين من شخصيات الرواية تم ذكرهم في نفس الجملة أو في نطاق من ٥-١٠ كلمات، على سبيل المثال في قصة "رسالة ضائعة في الصحراء"، تمثل الحالة التالية تفاعل بين كل من (أحمد ومحمد)، (أحمد وخالد)،(خالد ويوسف)،(محمد وخالد)،(محمد ويوسف)،(خالد ويوسف):
 
 
 
-![A screenshot of a cell phone  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png)
+![1st_text](/Users/nourainclub/Desktop/Rewayatech/Report/1st_text.png)
 
  
 
@@ -126,13 +120,7 @@ category: Arabic
 
 الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
 
-
-
-وجود اسم شخصيتين في نفس الجملة يعني أن هناك تفاعل قد حدث بين الشخصيتين، هذا التفاعل قد يكون لقاء، أو حوار بين الشخصيتين، أو شخصية تتحدث إلى الشخصية الأخرى أو تفكر في الشخصية الأخرى وماإلى ذلك. 
-
-الشكل التالي يوضّح مثال على جدول العلاقات الناتج من إحدى من الروايات (رواية: آحبك يانونا):
-
-
+![1st_post_interaction](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_interaction.png)
 
  
 
@@ -140,7 +128,7 @@ category: Arabic
 
 بعد إنشاء مصفوفة العلاقات أصبح من السهل تمثيل التفاعل بين شخصيات الرواية كمخطط شبكي (Graph)، وكذلك الاستفادة من خصائص المخطط الشبكي في تحليل أهمية الشخصية في الرواية، الشكل التالي يبين تمثيل رواية (آحبك يانونا) بحيث تمثل كل دائرة في هذا المخطط شخصية من شخصيات الرواية، ويمثل لون الدائرة جنس الشخصية (ذكر، أنثى)، ويمثل حجم الدائرة عدد المرات التي ذكرت فيها هذه الشخصية في الرواية، أما الخط الواصل بين دائرتين فهو يمثل وجود تفاعل بين الشخصين، وسمك هذا الخط يمثل مدى هذا التفاعل.
 
-![A picture containing ball, phone  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image003.png)
+![1st_post_nona](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_nona.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "آحبك يانونا"
 
@@ -202,10 +190,16 @@ category: Arabic
 
 يمكن إجراء هذه التحليلات على جميع الروايات في الشكل التالي عينة عشوائية من تطبيق نفس هذا التحليل على روايات أخرى:
 
-![A close up of a logo  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image005.png)
+![1st_post_secret_garden](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_secret_garden.png)
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "الحديقة السرية"
 
-![A picture containing building, sitting, dark, large  Description automatically generated](file:////Users/nourainclub/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image007.png)
+
+
+
+
+![1st_post_worood](/Users/nourainclub/Downloads/lailaMB.github.io/images/1st_post_worood.png)
+
+
 
 المخطط الشبكي للعلاقات بين الشخصيات لرواية "ورود غرقت من دماء الشياطين "

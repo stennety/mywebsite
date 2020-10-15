@@ -7,7 +7,7 @@ tags: [vue, CodePen, colordinates, app, js, design, redesign, sideproject]
 
 With [Colordinates fifth birthday](/blog/colordinates-turns-five/), I decided it was time to take another look at the app with fresh eyes and see how I would design and code it today.
 
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/oNgxGwa" height="500" %}
+![Colordinates Redesign](/assets/images/colordinates-redesign.jpg)
 
 ## New Hue
 

@@ -34,7 +34,7 @@ I enjoy using WordPress, I've been through two site overhauls with it now since 
 
 * 	**Something New**: Its a new way of working, and new files to get stuck into and optimise to the way I want to work and maintain this site.
 
-It seems I am not the only one, I got a subtle sense perhaps from the rise of GitHub and Jekyll, more recently there have been a lot of blog posts proclaiming 2014 to be the [year of the flat file CMS](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses). *I suddenly feel less of a maverick*.
+It seems I am not the only one, I got a subtle sense perhaps from the rise of GitHub and Jekyll, more recently there have been a lot of blog posts proclaiming 2014 to be the year of the flat file CMS. *I suddenly feel less of a maverick*.
 
 ## Whats ahead?
 

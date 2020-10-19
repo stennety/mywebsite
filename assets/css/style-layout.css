@@ -103,20 +103,6 @@ h1:before {
     }
 }
 
-a[rel=tag],a[rel=tag]:before {
-    text-decoration-skip: none;
-    text-decoration-skip-ink: none
-}
-
-a[rel=tag]:before {
-    content: "#"
-}
-
-a[href*="#pickedpen"],a[href*="#editorspick"] {
-    color: #ff0;
-    text-decoration-color: currentColor
-}
-
 .wrap-preview {
     margin-bottom: 3rem;
     padding: 0;

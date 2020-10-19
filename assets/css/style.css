@@ -334,6 +334,10 @@ dt {
     }
 }
 
+.list--cvskills {
+    content-visibility: auto;
+}
+
 .list--cvskills li {
     display: inline-block;
     margin: .125rem 0;

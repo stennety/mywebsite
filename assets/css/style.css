@@ -53,10 +53,6 @@ svg {
     fill: currentColor
 }
 
-figure {
-    margin: 0 auto 1.5em
-}
-
 svg:not(:root) {
     overflow: hidden
 }
@@ -85,8 +81,11 @@ body {
     }
 }
 
+article > * {
+    margin: 0 auto 1.5rem
+}
+
 h1,h2,h3 {
-    margin: 0 auto 1.5rem;
     font-weight: 900
 }
 
@@ -110,10 +109,6 @@ article {
     line-height: calc(27/18);
     overflow-wrap: break-word;
     hanging-punctuation: first
-}
-
-p,ul,ol,dl {
-    margin: 0 auto 1.5rem
 }
 
 ul, ol {
@@ -185,7 +180,6 @@ p>code,kbd {
 }
 
 pre {
-    margin: 0 auto 1.5em;
     padding: .75rem;
     overflow: auto;
     word-wrap: normal;
@@ -315,14 +309,12 @@ dt {
 }
 
 .wrap-preview {
-    margin-bottom: 1.5rem;
     padding: .75rem;
     background-color: var(--col-secondary);
 }
 
 .figure__featimg {
     display: block;
-    margin: 0 auto 1.5rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
 

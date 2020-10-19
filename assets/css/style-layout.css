@@ -58,14 +58,6 @@ h1:before {
     }
 }
 
-.wrap-banner {
-    padding-top: 3.5rem
-}
-
-.wrap-banner--nav {
-    margin-bottom: 2rem
-}
-
 .link__nav--home {
     color: var(--col-body)!important;
     font-weight: bolder

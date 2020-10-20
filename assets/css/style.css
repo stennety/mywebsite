@@ -132,7 +132,7 @@ ul ul {
     color: var(--col-highlight, currentColor)
 }
 
-mark,::selection {
+mark,::selection,::target-text {
     background: var(--col-highlight)
 }
 
@@ -146,7 +146,6 @@ a:link,a:visited {
 a:hover,a:active,a:focus {
     color: currentColor;
     text-decoration: underline;
-    text-decoration-skip: auto;
     text-decoration-skip-ink: auto
 }
 
@@ -190,7 +189,6 @@ blockquote {
     font-style: italic;
     padding-left: 1.25rem;
     border-left: .25rem solid var(--col-highlight);
-    margin: 0 0 1.5rem
 }
 
 @media only screen and (min-width:600px) {

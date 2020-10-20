@@ -20,7 +20,7 @@ h1:before {
     }
 }
 
-.wrap-banner .flex--fifty {
+.wrap-banner--pfd {
     display: block
 }
 

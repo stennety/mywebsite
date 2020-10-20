@@ -41,6 +41,14 @@ h1, h2, p {
     }
 }
 
+.wrap-preview {
+    margin-bottom: 0
+}
+
 .wrap-preview--image {
     max-width: 270px
+}
+
+.copyright {
+    margin: auto
 }

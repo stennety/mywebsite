@@ -238,13 +238,13 @@ dt {
     line-height: 1.25;
 }
 
-.flex--row,.list--inline {
+.flex--row {
     display: flex;
     flex-flow: row nowrap;
     align-items: center
 }
 
-.flex--spacebetween,.list--spacebetween {
+.flex--spacebetween {
     justify-content: space-between
 }
 

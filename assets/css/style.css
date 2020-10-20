@@ -132,7 +132,7 @@ ul ul {
     color: var(--col-highlight, currentColor)
 }
 
-mark,::selection {
+mark,::selection,::target-text {
     background: var(--col-highlight)
 }
 

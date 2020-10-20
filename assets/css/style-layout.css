@@ -109,7 +109,7 @@ h1:before {
     }
 }
 
-.wrap-preview h1:before {
+.wrap-preview--title:before {
     color: currentColor
 }
 

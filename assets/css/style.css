@@ -311,6 +311,11 @@ dt {
     background-color: var(--col-secondary);
 }
 
+.wrap-preview--title {
+    font-size: 2em;
+    line-height: 1
+}
+
 .figure__featimg {
     display: block;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)

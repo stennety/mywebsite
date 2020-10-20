@@ -17,12 +17,12 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Uses HTML5, CSS3 transitions, Peak of 470+ installs.
 *	Launched [blackandwhitesquares.com](http://blackandwhitesquares.com) about QR code use, using Tumblr. Two [posts](http://blackandwhitesquares.com/all-new-mercedes-cars-will-feature-safety-info-and) [have featured](http://blackandwhitesquares.com/google-glass-qrcode) in the #Tech tag, one of Tumblrs’ most popular curated tags.
 *	[CodePen code demo success](https://codepen.io/plfstr/popular/)
- 	+ Top 5 popular pens have 90,000+ views collectively. 
+ 	+ Top 5 popular pens have 95,000+ views collectively. 
 	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
 	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post, inspiring other designers to try this popular coding challenge using 1Kb of CSS. 
-	+ Hop Over Notification was featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 57,500+ views, 150+ likes.
+	+ Hop Over Notification featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 60,000+ views, 175+ likes.
 *	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/). _The extension featured on [getkirby-plugins.com](http://getkirby-plugins.com/), a quality resource of Kirby 2 code plugins._
-*	Contributed to open source projects [on GitHub](https://github.com/plfstr) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
+*	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404notfound/) accepted to sites dedicated to interesting 404s. 
 	+ [46 of the Web’s Most Creative 404 Error Pages (2015 Edition)](http://www.noupe.com/design/46-of-the-webs-most-creative-404-error-pages-2015-edition-88506.html), by Noupe. 
 	+ ‘404 of the week’ on [Bonjour 404](http://www.bonjour404.fr/post/138469844000/paul-foster-design).

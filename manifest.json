@@ -1,0 +1,30 @@
+{
+	"dir" : "ltr",
+	"lang" : "en-GB",
+	"name" : "Paul Foster Portfolio",
+	"scope" : "/",
+	"display" : "browser",
+	"start_url" : "https://www.paulfosterdesign.co.uk/",
+	"short_name" : "Paul Foster",
+	"theme_color" : "#98fdff",
+	"description" : "Paul Foster design portfolio - work from full-time projects for some major high street brands, to personal side-projects and blog posts",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-favicon.svg",
+			"sizes": "any"
+		},
+		{
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-196x196.png",
+			"sizes": "196x196"
+		},
+		{
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-128x128.png",
+			"sizes": "128x128"
+		}],
+	"url" : "https://www.paulfosterdesign.co.uk",
+	"generated" : "true"
+}

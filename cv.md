@@ -13,9 +13,9 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 **[paulfosterdesign.co.uk](/), [blackandwhitesquares.com](http://blackandwhitesquares.com), [Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
 
-*	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](http://www.paulfosterdesign.co.uk/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS) and currently as a static site built via Jekyll and Markdown.
-*	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Uses HTML5, CSS3 transitions, Peak of 470+ installs.
-*	Launched [blackandwhitesquares.com](http://blackandwhitesquares.com) about QR code use, using Tumblr. Two [posts](http://blackandwhitesquares.com/all-new-mercedes-cars-will-feature-safety-info-and) [have featured](http://blackandwhitesquares.com/google-glass-qrcode) in the #Tech tag, one of Tumblrs’ most popular curated tags.
+*	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS), to a static site [built via Jekyll](/blog/portfolio-redesign-2020/).
+*	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
+*	Launched [blackandwhitesquares.com](http://blackandwhitesquares.com) about QR code use, built on Tumblr.
 *	[CodePen code demo success](https://codepen.io/plfstr/popular/)
  	+ Top 5 popular pens have 95,000+ views collectively. 
 	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
@@ -23,11 +23,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 	+ Hop Over Notification featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 60,000+ views, 175+ likes.
 *	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/). _The extension featured on [getkirby-plugins.com](http://getkirby-plugins.com/), a quality resource of Kirby 2 code plugins._
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
-*	[404 page](/404notfound/) accepted to sites dedicated to interesting 404s. 
-	+ [46 of the Web’s Most Creative 404 Error Pages (2015 Edition)](http://www.noupe.com/design/46-of-the-webs-most-creative-404-error-pages-2015-edition-88506.html), by Noupe. 
-	+ ‘404 of the week’ on [Bonjour 404](http://www.bonjour404.fr/post/138469844000/paul-foster-design).
-	+ [Featured on TAXI](http://designtaxi.com/news/371534/A-Tumblr-Blog-Featuring-Creative-404-Webpages/) as part of a post about 404sites.tumblr.com. 
-	+ Also featured on reallygood404.com, 404notfound.fr
+*	[404 page](/404page/) featured in numerous collections of creative 404s.
 
 
 ## Thomas Cook - Web Designer _9 week contract role_

@@ -15,7 +15,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 *	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS), to a static site [built via Jekyll](/blog/portfolio-redesign-2020/).
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
-*	Launched [blackandwhitesquares.com](http://blackandwhitesquares.com) about QR code use, built on Tumblr.
+*	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
 *	[CodePen code demo success](https://codepen.io/plfstr/popular/)
  	+ Top 5 popular pens have 95,000+ views collectively. 
 	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 

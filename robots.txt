@@ -11,6 +11,6 @@ Disallow: /contact.html
 Disallow: /pdf/
 Disallow: /downloads/
 Disallow: /2010/04/13/hello-world/feed/
-Disallow: default.htm
+Disallow: /default.htm
 
 #Sitemap: http://www.paulfosterdesign.co.uk/sitemap.xml

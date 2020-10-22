@@ -12,9 +12,9 @@
 
 @media only screen and (prefers-color-scheme: dark) {
     :root {
-        --col-body: #e3e3e3;
-        --col-primary: #1a1e34;
-        --col-highlight: #01abb9;
+        --col-body: #ddd;
+        --col-primary: #1d2342;
+        --col-highlight: #46c4cf;
     }
 }
 

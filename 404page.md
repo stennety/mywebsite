@@ -3,7 +3,7 @@ title: 404 Page
 description: My 404 page, featuring a sprawling data centre and a smoking server cabinet, has had some recognition for its design
 ---
 
-My 404 page — which hopefully you don’t get to see in normal circumstances — has proved quite popular. 
+My [404 page](/404notfound/) — which hopefully you don’t get to see in normal circumstances — has proved quite popular. 
 
 ## The Design
 
@@ -24,3 +24,5 @@ In 2014 I posted my page on 404notfound.fr, a new collection of creative error p
 * ‘404 of the week’ on [Bonjour 404](http://www.bonjour404.fr/post/138469844000/paul-foster-design).
 * <span lang="fr">Journal du Net</span> as part of a gallery, ‘<span lang="fr">[Les pages d'erreur 404 les plus originales](http://www.journaldunet.com/ebusiness/le-net/1099712-les-pages-d-erreur-404-les-plus-originales/1173398-paul-foster-design)</span>’.
 * Also featured on reallygood404.com, 404notfound.fr and many others.
+
+See [/404notfound/](/404notfound/) page.

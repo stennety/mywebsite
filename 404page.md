@@ -3,7 +3,7 @@ title: 404 Page
 description: My 404 page, featuring a sprawling data centre and a smoking server cabinet, has had some recognition for its design
 ---
 
-My [404 page](/404notfound/) — which hopefully you don’t get to see in normal circumstances — has proved quite popular. 
+My [404 page](/404notfound/) — which hopefully you don’t see in normal circumstances — has proved quite popular. 
 
 ## The Design
 

@@ -135,9 +135,7 @@ h1:before {
 
 .wrap-cards .wrap-preview--title {
 	font-size: 1.85rem;
-	line-height: 1;
 	word-break: break-word;
-	margin: 0 0 .75rem;
 }
 @supports (grid-template-rows: subgrid) {
 	.wrap-cards .wrap-preview {       

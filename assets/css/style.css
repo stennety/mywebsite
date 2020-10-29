@@ -232,7 +232,8 @@ dt {
     list-style-type: none
 }
 
-.list--nostyles.h3 {
+.list--navigation {
+    font-size: 1.5em;
     line-height: 1.25;
 }
 

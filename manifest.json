@@ -14,17 +14,27 @@
 	"prefer_related_applications" : false,
 	"icons" : [
 		{
-			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-favicon.svg",
-			"sizes": "any"
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-128x128.jpg",
+			"sizes": "128x128"
 		},
 		{
-			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-196x196.png",
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-192x192-maskable.jpg",
+			"sizes": "192x192",
+			"purpose": "maskable"
+		},
+		{
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-196x196.jpg",
 			"sizes": "196x196"
 		},
 		{
-			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-128x128.png",
-			"sizes": "128x128"
-		}],
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-512x512.jpg",
+			"sizes": "512x512"
+		},		
+		{
+			"src": "https://www.paulfosterdesign.co.uk/assets/images/pfd-favicon.svg",
+			"sizes": "any"
+		}
+	],
 	"url" : "https://www.paulfosterdesign.co.uk",
 	"generated" : "true"
 }

@@ -21,6 +21,7 @@ h1, h2, p {
     grid-template-rows: 1fr;
     grid-gap: 1rem;
     gap: 1rem;
+    margin-bottom: 0;
 }
 @media only screen and (min-width:1050px) {
     .grid--projects {

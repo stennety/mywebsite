@@ -337,6 +337,7 @@ h2 em, h3 em {
 
 .list--cvskills {
     content-visibility: auto;
+    contain-intrinsic-size: 100px;
 }
 
 .list--cvskills li {

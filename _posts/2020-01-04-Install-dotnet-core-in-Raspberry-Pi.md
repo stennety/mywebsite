@@ -53,7 +53,7 @@ After run all those steps dotnet core 2.2 was installed and running (for all use
 
 
 # next post
-So probally my next post on this topic will be on how to upgrade dotnet core 2.2 to dotnet core 3.1 in Raspberry Pi (ARM 32).
+So probally my next post on this topic will be on how to [upgrade dotnet core 2.2 to dotnet core 3.1](https://helderviana.pt/Install-dotnet-core-in-Raspberry-Pi/) in Raspberry Pi (ARM 32).
 
 # Some References:
 * [Scott Hanselman post](https://www.hanselman.com/blog/InstallingTheNETCore2xSDKOnARaspberryPiAndBlinkingAnLEDWithSystemDeviceGpio.aspx/)

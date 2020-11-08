@@ -5,7 +5,7 @@ category: blog
 tags: .net dotnet core Raspberry Pi 4 Open Source Debian Linux Raspbian
 comments: true
 ---
-# Raspberry Pi 
+# .Net Core 3.1
 ## Background
 I recently installed dotnet core 2.2 in my Raspberry Pi 4, as you can see it in my [previous post](https://helderviana.pt/Install-dotnet-core-in-Raspberry-Pi).
 ## Context

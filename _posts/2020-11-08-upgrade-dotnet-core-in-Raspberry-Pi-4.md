@@ -16,6 +16,7 @@ Now it is time to upgrade it to run the most recent LTS version, that for now is
 # Upgrade
 ## Make a copy of the 2.2 dotnet install
 First of all, I start by doing a copy of the previous instal. It was installed under /opt/dotnet, so I create a new folder in /opt/dotnet_2_2_207/ and copy all the content to this new folder.
+
 ![_config.yml]({{ site.baseurl }}/images/upgrade_mkdir_folder.PNG)
 
 ## Download dotnet core for ARM

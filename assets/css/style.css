@@ -348,3 +348,45 @@ h2 em, h3 em {
     color: var(--col-primary);
     background-color: var(--col-body);
 }
+
+@media print {
+    *, * :before, * :after, ::marker {
+        color: initial !important;
+        background: none !important;
+        border-color: currentColor !important;
+        box-shadow: none !important;
+        max-width: initial !important;
+    }
+
+    nav,
+    .wrap-logo,
+    .wrap-banner,
+    .wrap-sidebar,
+    #socialicons, 
+    .button {
+        display: none;
+    }
+    
+    img, figure, pre {
+        border: 1px solid currentColor;
+    }
+    
+    code {
+        page-break-inside: avoid; 
+        white-space: pre-wrap;
+        font-size: smaller;
+    }
+
+    a[href*="//"]:after {
+        content: "[" attr(href) "]" !important;
+        display: inline-block;
+        width: auto !important;
+        margin-left: .5em !important;
+        word-wrap: break;
+        white-space: normal;
+    }
+
+    abbr[title]:after {
+        content: "[" attr(title) "]"
+    }
+}

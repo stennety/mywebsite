@@ -316,6 +316,7 @@ dt {
     line-height: 1
 }
 
+.cp_embed_wrapper,
 .figure__featimg {
     display: block;
     margin-bottom: 1.5rem;

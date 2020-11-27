@@ -368,7 +368,7 @@ h2 em, h3 em {
         font-size: smaller;
     }
 
-    a[href*="//"]:after {
+    a[href*="/"]:after {
         content: "[" attr(href) "]" !important;
         display: inline-block;
         width: auto !important;

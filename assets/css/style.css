@@ -147,7 +147,6 @@ a:hover,a:active,a:focus,.active,[aria-current] {
     color: var(--col-body, currentColor)!important;
     text-decoration: underline !important;
     text-decoration-skip-ink: auto;
-    text-underline-offset: .25em;
 }
 
 a[rel] {

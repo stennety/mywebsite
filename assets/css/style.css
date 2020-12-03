@@ -140,20 +140,10 @@ a:link,a:visited {
     transition: color .1s linear 0,text-decoration-color .1s linear 0
 }
 
-a:hover,a:active,a:focus {
-    color: currentColor;
-    text-decoration: underline;
-    text-decoration-skip-ink: auto
-}
-
-@supports (text-underline-offset:0) {
-    a:hover,a:active,a:focus,.active,[aria-current] {
-        color: var(--col-body, currentColor)!important;
-        text-decoration: underline!important;
-        text-decoration-thickness: .1rem;
-        text-underline-offset: .125em;
-        text-decoration-color: currentColor
-    }
+a:hover,a:active,a:focus,.active,[aria-current] {
+    color: var(--col-body, currentColor)!important;
+    text-decoration: underline !important;
+    text-decoration-skip-ink: auto;
 }
 
 a[rel] {

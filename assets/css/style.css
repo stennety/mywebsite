@@ -5,7 +5,6 @@
     --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
     --font-body: Tahoma, Arial, sans-serif;
-    --img-featheight: 480px
 }
 
 @media only screen and (prefers-color-scheme: dark) {

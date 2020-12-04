@@ -4,7 +4,7 @@
     --col-secondary: rgba(10,0,10,.2);
     --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
-    --font-body: Tahoma, Arial, sans-serif;
+    --font-body: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -157,7 +157,7 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
 }
 
 code,pre,kbd {
-    font-family: Hack, Consolas, Menlo, Monaco, monospace
+    font-family: Hack, Menlo, Monaco, monospace
 }
 
 p>code,kbd {

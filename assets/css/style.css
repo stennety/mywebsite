@@ -173,14 +173,10 @@ pre {
 }
 
 blockquote {
-    font-style: italic;
     padding-left: 1.25rem;
+    font-size: 1.5em;
+    font-style: italic;
     border-left: .25rem solid var(--col-highlight);
-}
-
-blockquote p {
-    font-size: 1.5rem;
-    line-height: 1.5
 }
 
 small {

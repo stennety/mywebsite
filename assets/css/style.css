@@ -103,7 +103,6 @@ h3,.h3 {
 
 article {
     font-size: 1.125rem;
-    line-height: calc(27/18);
     overflow-wrap: break-word;
     hanging-punctuation: first
 }

@@ -17,11 +17,11 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
 *	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
 *	[CodePen code demo success](https://codepen.io/plfstr/popular/)
- 	+ Top 5 popular pens have 95,000+ views collectively. 
-	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
+ 	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
 	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post, inspiring other designers to try this popular coding challenge using 1Kb of CSS. 
 	+ Hop Over Notification featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 60,000+ views, 175+ likes.
 	+ [HTML Memory Test](/blog/html-memory-test/) went kind-of viral in the Twitter web community and amassed 10,000+ views.
+	+ Top 5 popular pens have 100,000+ views collectively. 
 *	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/). _The extension featured on [getkirby-plugins.com](http://getkirby-plugins.com/), a quality resource of Kirby 2 code plugins._
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404page/) featured in numerous collections of creative 404s.

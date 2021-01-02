@@ -21,8 +21,8 @@ In 2014 I posted my page on 404notfound.fr, a new collection of creative error p
 
 * [46 of the Web’s Most Creative 404 Error Pages](http://www.noupe.com/design/46-of-the-webs-most-creative-404-error-pages-2015-edition-88506.html) (2015 Edition), by Noupe.
 * [TAXI](https://web.archive.org/web/20150107194750/http://designtaxi.com/news/371534/A-Tumblr-Blog-Featuring-Creative-404-Webpages/) as part of a post featuring FourZeroFour, where it was also featured.
-* ‘404 of the week’ on <a href="http://www.bonjour404.fr/post/138469844000/paul-foster-design" hreflang="fr">Bonjour 404</a>.
-* <span lang="fr">Journal du Net</span> as part of a gallery, ‘<a href="http://www.journaldunet.com/ebusiness/le-net/1099712-les-pages-d-erreur-404-les-plus-originales/1173398-paul-foster-design" hreflang="fr">Les pages d'erreur 404 les plus originales</a>’.
+* ‘404 of the week’ on [Bonjour 404](http://www.bonjour404.fr/post/138469844000/paul-foster-design).
+* <span lang="fr">Journal du Net</span> as part of a gallery, ‘<span lang="fr">[Les pages d'erreur 404 les plus originales](http://www.journaldunet.com/ebusiness/le-net/1099712-les-pages-d-erreur-404-les-plus-originales/1173398-paul-foster-design)</span>’.
 * Also featured on reallygood404.com, 404notfound.fr and many others.
 
 See [/404notfound/](/404notfound/) page.

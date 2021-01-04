@@ -3,7 +3,7 @@
     <section>
         <h2>Work</h2>
         <nav role="navigation">
-            <ul class="list--nostyles h3">
+            <ul class="list--nostyles list--navigation list--navigation__work">
                 <li><a href="/work/blackandwhitesquares/">blackandwhitesquares</a></li>
                 <li><a href="/work/print-theme/">Print Theme</a></li>
                 <li><a href="/work/nintendo-hub/">Nintendo Hub</a></li>
@@ -19,7 +19,7 @@
     <section>
         <h2>Posts</h2>
         <nav role="navigation">
-            <ul class="list--nostyles h3">
+            <ul class="list--nostyles list--navigation list--navigation__posts">
                 {% for blogpost in site.posts limit:3 %}
                 <li><a href="{{ blogpost.url }}">{{ blogpost.title }}</a></li>
                 {% endfor %}

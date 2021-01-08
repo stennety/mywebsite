@@ -5,7 +5,7 @@ date: 2014-09-08
 source: https://codepen.io/plfstr/pen/sFCbG
 tags: [svg, animation, css3, paulfosterdesign, pickedpen, popularpen]
 ---
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/sFCbG" height="500" %}
+{% include codepen.html codepen="sFCbG" height="500" %}
 
 Inspired by a currently airing pet store TV ad and thought it would be fun to animate as a loader. Because… why not!
 

@@ -5,7 +5,7 @@ date: 2013-08-22
 source: https://codepen.io/plfstr/pen/izswy
 tags: [ paulfosterdesign, web, codepen, css, twitter]
 ---
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/izswy" height="500" %}
+{% include codepen.html codepen="izswy" height="500" %}
 
 Less than a week ago I posted a demo CSS1K theme I had parked on my hard drive and [posted it to CodePen](https://codepen.io/plfstr/pen/izswy) where it would be right at home.
 

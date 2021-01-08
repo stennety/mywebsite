@@ -7,7 +7,7 @@ tags: [colordinates, sideproject, milestone, app, pwa]
 
 [Colordinates](/blog/colordinates/), my web app which gives a colour value based on your geographic location, has turned 5 years old.
 
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/rarJov" height="500" %}
+{% include codepen.html codepen="rarJov" height="500" %}
 
 What started out as an excuse to use the Geolocation API, is approaching _almost_ 5,000 views and 50 likes on CodePen and is available as an offline PWA (Progressive Web App).
 

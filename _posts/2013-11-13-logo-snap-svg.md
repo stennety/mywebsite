@@ -5,7 +5,7 @@ date: 2013-11-13
 source: https://codepen.io/plfstr/details/bDczt
 tags: [ paulfosterdesign, web, svg]
 ---
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/bDczt" height="300" %}
+{% include codepen.html codepen="bDczt" height="300" %}
 
 ### Trial of Snap.svg logo hover effect...
 

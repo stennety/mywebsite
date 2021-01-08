@@ -5,7 +5,7 @@ date: 2013-11-15
 source: https://codepen.io/plfstr/details/JCoAI
 tags: [ paulfosterdesign, css3, HTML, codepen]
 ---
-{% include codepen.html codepen="https://codepen.io/plfstr/pen/JCoAI" %}
+{% include codepen.html codepen="JCoAI" %}
 
 ### Animation of my logo onload using css3 transform and keyframe animation
 

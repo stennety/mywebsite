@@ -2,6 +2,7 @@
 title: HTML Memory Test
 description: Test your memory and see how many HTML elements you can recall? I built an app to test you
 date: 2020-12-17
+source: https://codepen.io/plfstr/pen/zYqQeRw
 tags: [html, codepen, app, js, game]
 ---
 
@@ -14,6 +15,8 @@ I thought to myself, ‘That's a lot to remember. I wonder if there's a game tha
 A web search and lack of a results later... [HTML Elements Memory Test](https://codepen.io/plfstr/full/zYqQeRw) was created! 
 
 ## HTML elements to test you
+
+{% include codepen.html codepen="zYqQeRw" %}
 
 The app is built with plain JavaScript, the recalled total counts down as you make your HTML element guesses, which join a list of correct answers. 
 

@@ -75,8 +75,9 @@ blockquote {
     margin: 0
 }
 
-.wrap-logo--img {
-    transform: translateY(3.5rem) rotate(-17deg) scale(1.5)
+.wrap-logo--link {
+    display: block;
+    transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.5);
 }
 
 @media only screen and (min-width:1200px) {

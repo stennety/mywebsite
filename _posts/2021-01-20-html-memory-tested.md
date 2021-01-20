@@ -1,7 +1,7 @@
 ---
 title: HTML Memory Tested
 description: My latest CodePen, ‘HTML Tags Memory Test’ really took off on Twitter. Taking a look at the reaction and some of the sites that featured it.
-date: 2020-01-20
+date: 2021-01-20
 tags: [codepen, personal, html, social, game]
 ---
 

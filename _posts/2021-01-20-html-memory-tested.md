@@ -5,7 +5,7 @@ date: 2021-01-20
 tags: [codepen, personal, html, social, game]
 ---
 
-My little [HTML test](/blog/html-memory-test/) really [took off on Twitter](https://twitter.com/search?q=%22html%20tags%20memory%20test%22). Leslie Cohn-Wein (@lesliecdubs), whose tweet started all this, [retweeted me](https://twitter.com/lesliecdubs/status/1339714662083006464?s=20) to her enthusiastic followers. Next, Manuel Matuzović (@mmatuzo) (who runs @HTM_Hell) [mentioned it](https://twitter.com/mmatuzo/status/1339907494030811136) and I think it grew from there.
+My little [HTML test](/blog/html-elements-test/) really [took off on Twitter](https://twitter.com/search?q=%22html%20tags%20memory%20test%22). Leslie Cohn-Wein (@lesliecdubs), whose tweet started all this, [retweeted me](https://twitter.com/lesliecdubs/status/1339714662083006464?s=20) to her enthusiastic followers. Next, Manuel Matuzović (@mmatuzo) (who runs @HTM_Hell) [mentioned it](https://twitter.com/mmatuzo/status/1339907494030811136) and I think it grew from there.
 
 ## Reaction
 

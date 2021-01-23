@@ -82,11 +82,11 @@
                 <th>Architect</th>
                 <th>History</th> 
                 <th>Type of Job</th>
-                <th>Status</th>
+                <th>Status</th> 
                 <th>Past 100</th>
                 <th>Bob's Travel</th>
                 <th>YouTube</th>
-                <th>Instagram</th> 
+                <th>Instagram</th>
                 <th>Twitter</th> 
                 <th>Comments</th>
                 <th>Data Curated</th> 
@@ -95,11 +95,11 @@
           <tbody>
               {% for item in site.data.allGolf %}
                   <tr>
-                    <td>{{ item.Region }}</td> 
-                    <td>{{ item.Country }}</td> 
+                    <td>{{ item.Region }}</td>
+                    <td>{{ item.Country }}</td>
                     <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }} </a></td>
                     <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
-                    <td>{{ item.Date }}</td>
+                    <td>{{ item.Date }}</td> 
                     <td>{{ item.Architect }}</td>
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td> 

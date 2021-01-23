@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Input - System - Output: A paradigm for life
-date: 2021-1-23
+title: Input. System. Output (A paradigm for life)
 ---
 I came across an article online that claimed a piece of analysis failed because of ‘bad’ data. 
 

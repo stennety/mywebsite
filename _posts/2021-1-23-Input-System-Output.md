@@ -2,28 +2,43 @@
 layout: post
 title: Input. System. Output (A paradigm for life)
 ---
-I came across an article online that claimed a piece of analysis failed because of ‘bad’ data. 
+I came across an article that claimed a piece of analysis failed because of ‘bad’ data. 
 
-It reminded me of a phrase I used to hear on the trading floor – “US non-farm payrolls beat estimates”.
+It reminded me of a phrase I used to hear on the trading floor, “US non-farm payrolls beat estimates”.
 
-Hm, can data be inherently good or bad? The state of data is only that they exist and are held as the truth because they exist. Therefore, there must be another reason to explain the system’s unexpected performance.
+Is it possible for data to be inherently good or bad? I am not convinced. The state of data should only be that they 
+exist, and are held as the truth because they exist. 
 
-Input -> System -> Output 
+There must be another reason to explain the system’s unexpected performance. Consider the following paradigm.
 
-Applying this paradigm to a machine learning/data science project might give something like the following 4 steps.
+Input -> System -> Output
+
+When applied to a machine learning or data science project might give something like the following 4 steps.
 
 Source datasets – move datasets from there to here – do something useful with data – show something useful to the world
 
-Putting my paranoid/former trader cap on, 4 steps mean 4 modes of failure. 
+Putting my paranoid/Trader cap on, 4 steps mean 4 modes of failure. 
 
-For the rest of this blog, I shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering. I never know which one to use so I’ll stick with ‘move datasets from there to here’.
+The rest of this blog shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering. I never know which one to use so I’ll stick with ‘move datasets from there to here’.
 
 The aim of this blog is to challenge myself and hopefully the reader to think about big data systems at a layer of abstraction that remains invariant in time.
 
 Learn to fish and you’ll never be hungry, or something like that.
 
 Stick around and you can expect to explore:
-•	Database principles
-•	Types of failure
-•	Lambda architecture
-•	Where today’s tools fit in
+* Database principles
+* Types of failure
+* Lambda architecture
+* Where today’s tools fit in
+
+<!---
+
+layout: post
+title: You're up and running!
+
+Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
+![_config.yml]({{ site.baseurl }}/images/config.png)
+
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+--->

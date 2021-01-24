@@ -6,11 +6,11 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <div>{{ post.date | date: "%e %B %Y" }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 
-      <div class="date">
-        Written on {{ post.date | date: "%B %e, %Y" }}
-      </div>
+<!--      <div class="date">-->
+<!--        Written on-->
+<!--      </div>-->
 
       <div class="entry">
         {{ post.excerpt }}

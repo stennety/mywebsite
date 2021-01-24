@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scaling a relational database: Queues
+title: Scaling a relational database (Queues)
 ---
 
 Neil’s notes: 

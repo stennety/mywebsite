@@ -27,7 +27,7 @@ and a web server. Each time a web page tracked by your application is loaded, th
 
 Diagram 1
 
-The web application is a success, and traffic is growing like wildfire. You start getting lots of emails from your monitoring systems all with the same error: SE10 9FQ, Greenwich, London
+The web application is a success, and traffic is growing like wildfire. You start getting lots of emails from your monitoring systems all with the same error: 
 
 “Timeout error on inserting to the database”
 

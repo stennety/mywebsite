@@ -19,7 +19,7 @@ How to shard:
 * Choose a hash function
 * Shard_id = hash(key) mod n_shards
 
-![Sharded Application](images/blog_01_2021/PXL_20210125_150212123~2.jpg)
+![Sharded Application](/images/blog_01_2021/PXL_20210125_150212123~2.jpg)
 
 You write a script to map all the rows of your table to you hash function and split the table into 4 shards. 
 It takes a while to run and you don’t want new pageview increments to unbalance your uniform partition. 

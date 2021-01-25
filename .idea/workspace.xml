@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-1-25-Scaling-relational-database-sharding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +18,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,11 +30,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-Scaling-relational-database-sharding.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="73" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,11 +42,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,6 +73,8 @@
         <option value="$PROJECT_DIR$/_posts/2021-1-25-Scaling-relational-database-sharding.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" />
       </list>
     </option>
   </component>
@@ -316,31 +319,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-Input-System-Output.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-Scaling-relational-database-sharding.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="73" />
+          <first_editor relative-caret-position="390">
+            <caret line="26" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-Scaling-relational-database-Queues.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>

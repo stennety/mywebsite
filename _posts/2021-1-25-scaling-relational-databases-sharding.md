@@ -9,6 +9,8 @@ Neil’s notes:
 * Sharding requires significant day 1 work.
 * Re-sharding cost is very real.
 
+![Sharded Application](/images/blog_01_2021/PXL_20210125_150212123~2.jpg)
+
 Your application goes viral. Your worker can’t keep up with the writes so you add more workers and parallelise
  the updates. This works for a short time but you realise the bottleneck is in the database.
 
@@ -18,8 +20,6 @@ by partitioning the table across multiple servers using a shard key.
 How to shard:
 * Choose a hash function
 * Shard_id = hash(key) mod n_shards
-
-![Sharded Application](/images/blog_01_2021/PXL_20210125_150212123~2.jpg)
 
 You write a script to map all the rows of your table to you hash function and split the table into 4 shards. 
 It takes a while to run and you don’t want new pageview increments to unbalance your uniform partition. 

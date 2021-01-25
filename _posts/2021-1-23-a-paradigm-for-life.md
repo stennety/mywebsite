@@ -16,15 +16,15 @@ There must be another reason to explain the system’s unexpected performance. C
 
 When applied to a machine learning or data science project might give something like the following 4 steps.
 
-![input,system,output](/images/blog_01_2021/PXL_20210125_144448228~3.jpg)
-
-Source datasets – move datasets from there to here – do something useful with data – show something useful to the world
+![ML system flow](/images/blog_01_2021/PXL_20210125_144448228~3.jpg)
 
 Putting my paranoid/Trader cap on, 4 steps mean 4 modes of failure. 
 
-The rest of this blog shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering. I never know which one to use so I’ll stick with ‘move datasets from there to here’.
+The rest of this blog shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering.
+ I never know which one to use so I’ll stick with ‘move data from there to here’.
 
-The aim of this blog is to challenge myself and hopefully the reader to think about big data systems at a layer of abstraction that remains invariant in time.
+The aim of this blog is to challenge myself and hopefully the reader to think about big data systems at a layer of 
+abstraction that remains invariant in time.
 
 Learn to fish and you’ll never be hungry, or something like that.
 
@@ -33,7 +33,7 @@ Stick around and you can expect to explore:
 * Types of failure
 * Lambda architecture
 * Where today’s tools fit in
-* Lots of hand-drawn diagrams...no one does them anymore.
+* Lots of hand-drawn diagrams...no one does them anymore
 
 <!---
 

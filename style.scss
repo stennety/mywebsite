@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
-  width: 100%;
+  width: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -242,12 +242,14 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 0.25em;
-  border-bottom: 1px solid $lightGray;
+  margin-top: 10px;
+  padding-bottom: 0.4em;
+  background-color: $lightGray;
+ // border-bottom: 1px $lightgray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 0.4em;
   border-bottom: none;
 }
 

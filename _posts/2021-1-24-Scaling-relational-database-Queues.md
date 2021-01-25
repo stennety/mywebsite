@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scaling a relational database (Queues)
+title: Scaling a relational database with queues
 ---
 
 Neil’s notes: 
@@ -38,3 +38,4 @@ You realise that it is inefficient to perform a single increment per request. Yo
 Diagram 2
 
 It works well and the web server no longer pings the database directly and you no longer receive timeout notifications!
+    

@@ -1,23 +1,26 @@
-I"�<p>I came across an article that claimed a piece of analysis failed because of ‘bad’ data.</p>
+I"<p>I came across an article that claimed a piece of analysis failed because of ‘bad’ data.</p>
 
 <p>It reminded me of a phrase I used to hear on the trading floor, “US non-farm payrolls beat estimates”.</p>
 
 <p>Is it possible for data to be inherently good or bad? I am not convinced. The state of data should only be that they 
-exist, and are held as the truth because they exist.</p>
+exist, and are held as the truth because they exist. In other words, US non-farm payrolls didn’t beat estimates, your 
+estimate was too low.</p>
 
 <p>There must be another reason to explain the system’s unexpected performance. Consider the following paradigm.</p>
 
-<p>Input -&gt; System -&gt; Output</p>
+<p><img src="/images/blog_01_2021/PXL_20210122_185257907~2.jpg" alt="input,system,output" /></p>
 
 <p>When applied to a machine learning or data science project might give something like the following 4 steps.</p>
 
-<p>Source datasets – move datasets from there to here – do something useful with data – show something useful to the world</p>
+<p><img src="/images/blog_01_2021/PXL_20210125_144448228~3.jpg" alt="ML system flow" /></p>
 
 <p>Putting my paranoid/Trader cap on, 4 steps mean 4 modes of failure.</p>
 
-<p>The rest of this blog shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering. I never know which one to use so I’ll stick with ‘move datasets from there to here’.</p>
+<p>The rest of this blog shall pay close attention to mode 2. Otherwise labelled as DevOps, data architecture, data engineering.
+ I never know which one to use so I’ll stick with ‘move data from there to here’.</p>
 
-<p>The aim of this blog is to challenge myself and hopefully the reader to think about big data systems at a layer of abstraction that remains invariant in time.</p>
+<p>The aim of this blog is to challenge myself and hopefully the reader to think about big data systems at a layer of 
+abstraction that remains invariant in time.</p>
 
 <p>Learn to fish and you’ll never be hungry, or something like that.</p>
 
@@ -27,6 +30,7 @@ exist, and are held as the truth because they exist.</p>
   <li>Types of failure</li>
   <li>Lambda architecture</li>
   <li>Where today’s tools fit in</li>
+  <li>Lots of hand-drawn diagrams…no one does them anymore</li>
 </ul>
 
 <!---

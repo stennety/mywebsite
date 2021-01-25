@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 merriweather,Georgia,Times,serif;
   color: $darkGray;
 }
 
@@ -242,7 +242,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 0.25em;
   border-bottom: 1px solid $lightGray;
 }
 

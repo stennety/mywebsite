@@ -15,17 +15,13 @@ the application should be able to report the top 100 URLs by number of pageviews
 
 You start with the following data schema:
 
-Col_name Type                                                         
-Id	integer
-user_id	integer
-url	string
-pageviews	int
+![Data schema](/images/blog_01_2021/PXL_20210125_145337225~2.jpg)
 
 You build the back end to consist of a Relational Database Management System (say MySQL), a table with the above schema 
 and a web server. Each time a web page tracked by your application is loaded, the web page pings your web server with
  the pageview, and your web server increments the corresponding row in the database. 
 
-Diagram 1
+![A web application](/images/blog_01_2021/PXL_20210125_145356099~2.jpg)
 
 The web application is a success, and traffic is growing like wildfire. You start getting lots of emails from your monitoring systems all with the same error: 
 
@@ -35,7 +31,7 @@ Your logs tell you that write requests are timing out because the database canno
 
 You realise that it is inefficient to perform a single increment per request. You draw up and implement a queuing system between the web server and the database so whenever a pageview is received, that event is added to the queue. You also create a worker that reads 100 events at a time off the queue and batches them into a single update request to your database. 
 
-Diagram 2
+![A web application with queue](/images/blog_01_2021/PXL_20210125_145409766~2.jpg)
 
 It works well and the web server no longer pings the database directly and you no longer receive timeout notifications!
     

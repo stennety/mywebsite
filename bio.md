@@ -15,22 +15,22 @@ My masters topic was about comparing [Markov Chain Monte Carlo](https://www.yout
 I got roped into financial markets after reading [Reminiscences of a Stock Operator](https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf)
  and began trading interest rate options at Barclays Investment Bank. 
  There I discovered that I view things like a [cube](https://en.wikipedia.org/wiki/Necker_cube) - I register many
-perspectives easily. I found that ingesting important data in the right format gave me clarity when decision making
+perspectives easily. I found that ingesting important data in the right format gave me clarity when decision-making
 and led to more black numbers :chart_with_upwards_trend: and less [red](https://twitter.com/GSElevator/status/143459992618545152)
 numbers :chart_with_downwards_trend: in my PnL.
-But my mind was blown by the possibilities exposed by a little Python programming :snake:, system design and business knowledge. 
-So I paused life in trading.
+My mind was blown by the possibilities exposed by a little Python programming :snake:, system design and business knowledge, 
+ so I paused life in trading.
 
-I started with recommendation systems. Building, analysing, criticising and [writing about them](https://towardsdatascience.com/4-ways-to-supercharge-your-recommendation-system-aeac34678ce9). 
+I moved onto recommendation systems. Building, analysing, criticising and [writing about them](https://towardsdatascience.com/4-ways-to-supercharge-your-recommendation-system-aeac34678ce9). 
 The machine learning space is huge from a research perspective and an even larger expanse when factoring in implementation. 
-So I picked recommendation systems & unsupervised learning and decided to deep dive from end-to-end. You
+So I picked recommendation systems & unsupervised learning and decided to deep dive, from end-to-end. You
 can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started began
 making data chill at [www.scarletteai.com](https://www.scarletteai.com).
 
 I enjoy [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
 :bicyclist::dash:, making music :saxophone: (soundcloud coming soon?), taking everyday objects apart and 
 sometimes putting them together :construction_worker:. I love discussing all things [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
- :robot:. I have a sister who fixes teeth, who ran an [online food marketplace social
+ :robot:. I have a sister who fixes teeth. She ran an [online food marketplace social
  entreprise](https://www.instagram.com/feed.bucks/) :pizza: with me throughout 2020. 
 
 "Culture is set by what you choose to celebrate.", I celebrate the following:

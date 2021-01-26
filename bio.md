@@ -15,16 +15,16 @@ My masters topic was about comparing [Markov Chain Monte Carlo](https://www.yout
 I got roped into financial markets after reading [Reminiscences of a Stock Operator](https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf)
  and began trading interest rate options at Barclays Investment Bank. 
  There I discovered that I view things like a [cube](https://en.wikipedia.org/wiki/Necker_cube) - I register many
-perspectives easily. I found that ingesting important data in the right format gave me clarity when decision-making
-and led to more black numbers :chart_with_upwards_trend: and less [red](https://twitter.com/GSElevator/status/143459992618545152)
+perspectives easily. I found that ingesting important data in the right format gave me clarity when decision-making.
+That led to more black numbers :chart_with_upwards_trend: and less [red](https://twitter.com/GSElevator/status/143459992618545152)
 numbers :chart_with_downwards_trend: in my PnL.
-My mind was blown by the possibilities exposed by a little Python programming :snake:, system design and business knowledge, 
+My mind was blown by the power of a little Python programming :snake:, system design and business knowledge, 
  so I paused life in trading.
 
 I moved onto recommendation systems. Building, analysing, criticising and [writing about them](https://towardsdatascience.com/4-ways-to-supercharge-your-recommendation-system-aeac34678ce9). 
 The machine learning space is huge from a research perspective and an even larger expanse when factoring in implementation. 
 I picked only recommendation systems & unsupervised learning and decided to deep dive; end-to-end fun. You
-can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started trying
+can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I began
 making data chill for brands at [www.scarletteai.com](https://www.scarletteai.com).
 
 You can find me [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
@@ -41,6 +41,6 @@ I celebrate:
 * Unexpected generosity
 * Integrity in difficult situations
 
-Want to work together? Shoot me an email at [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
+Want to work together? Email me at [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
 
 

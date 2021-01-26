@@ -27,10 +27,10 @@ I picked only recommendation systems & unsupervised learning and decided to deep
 can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started trying
 making data chill for brands at [www.scarletteai.com](https://www.scarletteai.com).
 
-I enjoy [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
+You can find me [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
 :bicyclist::dash:, making music :saxophone: (soundcloud coming soon?), taking everyday objects apart and 
 sometimes putting them together :construction_worker:. I love discussing all things [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
- :robot:. I have a sister who fixes teeth. We ran an [online food marketplace social
+ :robot:. I have a sister who fixes teeth and we ran an [online food marketplace social
  entreprise](https://www.instagram.com/feed.bucks/) :pizza: together throughout 2020. 
 
 "What you celebrate is what your culture will be." 

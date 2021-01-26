@@ -30,8 +30,8 @@ making data chill at [www.scarletteai.com](https://www.scarletteai.com).
 I enjoy [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
 :bicyclist::dash:, making music :saxophone: (soundcloud coming soon?), taking everyday objects apart and 
 sometimes putting them together :construction_worker:. I love discussing all things [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
- :robot:. I have a sister who fixes teeth. She ran an [online food marketplace social
- entreprise](https://www.instagram.com/feed.bucks/) :pizza: with me throughout 2020. 
+ :robot:. I have a sister who fixes teeth. We ran an [online food marketplace social
+ entreprise](https://www.instagram.com/feed.bucks/) :pizza: together throughout 2020. 
 
 "What you celebrate is what your culture will be." 
 
@@ -41,6 +41,6 @@ I celebrate:
 * Unexpected generosity
 * Integrity in difficult situations
 
-If you'd like to work together, email me at [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com).
+If you'd like to work together, reach out at to me [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or [@neilchanda](https://www.instagram.com/neilchanda).
 
 

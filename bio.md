@@ -23,7 +23,7 @@ My mind was blown by the possibilities exposed by a little Python programming :s
 
 I moved onto recommendation systems. Building, analysing, criticising and [writing about them](https://towardsdatascience.com/4-ways-to-supercharge-your-recommendation-system-aeac34678ce9). 
 The machine learning space is huge from a research perspective and an even larger expanse when factoring in implementation. 
-So I picked recommendation systems & unsupervised learning and decided to deep dive, from end-to-end. You
+I picked only recommendation systems & unsupervised learning and decided to deep dive; end-to-end fun. You
 can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started began
 making data chill at [www.scarletteai.com](https://www.scarletteai.com).
 

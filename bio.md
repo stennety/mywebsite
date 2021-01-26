@@ -24,8 +24,8 @@ My mind was blown by the possibilities exposed by a little Python programming :s
 I moved onto recommendation systems. Building, analysing, criticising and [writing about them](https://towardsdatascience.com/4-ways-to-supercharge-your-recommendation-system-aeac34678ce9). 
 The machine learning space is huge from a research perspective and an even larger expanse when factoring in implementation. 
 I picked only recommendation systems & unsupervised learning and decided to deep dive; end-to-end fun. You
-can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started began
-making data chill at [www.scarletteai.com](https://www.scarletteai.com).
+can find some of my open-source projects on [GitHub](https://github.com/93tilinfinity). Along the way, I started trying
+making data chill for brands at [www.scarletteai.com](https://www.scarletteai.com).
 
 I enjoy [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a-zwifter-on-a-ride#:~:text=The%20easiest%20way%20to%20add,in%20the%20top%20right%20corner.) 
 :bicyclist::dash:, making music :saxophone: (soundcloud coming soon?), taking everyday objects apart and 

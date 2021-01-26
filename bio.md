@@ -5,7 +5,7 @@ permalink: /bio/
 ---
 :metal: Hello,
 
-I'm a starter/data analyst/engineer/scientist/consultant at [Scarlette AI](https://www.scarletteai.com). 
+I'm a starter/data analyst/engineer/scientist at [Scarlette AI](https://www.scarletteai.com). 
 
 :round_pushpin: Based in London, I'm [British Indian](https://en.wikipedia.org/wiki/British_Indians) :uk::india:. 
  

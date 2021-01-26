@@ -33,7 +33,9 @@ sometimes putting them together :construction_worker:. I love discussing all thi
  :robot:. I have a sister who fixes teeth. She ran an [online food marketplace social
  entreprise](https://www.instagram.com/feed.bucks/) :pizza: with me throughout 2020. 
 
-"What you celebrate is what your culture will be.", I celebrate the following:
+"What you celebrate is what your culture will be." 
+
+I celebrate:
 * Solving puzzles
 * Mastery
 * Unexpected generosity

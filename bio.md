@@ -41,6 +41,6 @@ I celebrate:
 * Unexpected generosity
 * Integrity in difficult situations
 
-If you'd like to work together, reach out at to me [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or [@neilchanda](https://www.instagram.com/neilchanda).
+Want to work together? Shoot me an email at [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
 
 

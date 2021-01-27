@@ -27,7 +27,7 @@ This was my favourite response (and good approach):
 + [Know your HTML](https://accessabilly.com/notes/know-your-html/) on Accessabilly.
 
 **Updated:** 
-+ CSS Tricks mentioned it at the bottom of Newsletter #235, Subject: ’Animations Animations Animations!’
++ CSS-Tricks newsletter at the bottom of #235, Subject: ’Animations Animations Animations!’
 
 ## HTML Tags Recalled
 

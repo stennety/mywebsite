@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scaling a relational database by sharding
+title: 'Scaling a relational database: Sharding'
 ---
 
 Neil’s notes:

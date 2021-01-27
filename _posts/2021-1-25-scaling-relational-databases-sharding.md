@@ -6,8 +6,8 @@ title: Scaling a relational database by sharding
 Neil’s notes:
 * Queues can’t escape overload, the database is the bottleneck
 * Spread the write load horizontally across multiple machines (sharding)
-* Sharding requires significant day 1 work.
-* Re-sharding cost is very real.
+* Sharding requires significant day 1 work
+* Re-sharding cost is very real
 
 ![Sharded Application](/images/blog_01_2021/PXL_20210125_150212123~2.jpg)
 

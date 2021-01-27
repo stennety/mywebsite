@@ -21,10 +21,10 @@ This was my favourite response (and good approach):
 
 + Some Redditors submitted it to [/r/webdev/](https://www.reddit.com/r/webdev/comments/kv44wj/html_tags_memory_test_how_many_html_tags_can_you/), [/r/web_design/](https://www.reddit.com/r/web_design/comments/kv44q6/html_tags_memory_test_how_many_html_tags_can_you/), and [/r/frontend/](https://www.reddit.com/r/Frontend/comments/kv44oc/html_tags_memory_test_how_many_html_tags_can_you/) and views jumped 1,000 overnight.
 + Mentioned in a user submitted post, [Semantics what does it mean?](https://translate.google.com/translate?sl=auto&tl=en&u=https://fronteers.nl/blog/2020/12/semantiek-wat-betekent-het)(Google Translate link), on fronteers.nl (of conference fame) as part of their 2020 advent calendar.
-+ University of Minnesota included it in its Information Technology Systems and Services [course materials](https://www.d.umn.edu/itss/training/online/webdesign/html.html)
++ University of Minnesota included it in its Information Technology Systems and Services [course materials](https://www.d.umn.edu/itss/training/online/webdesign/html.html).
 + Mentioned in [UI Dev Newsletter (#36)](https://dev.to/starbist/ui-dev-newsletter-36-4bgd) on Dev.to
 + Mentioned by [The Loop](https://www.loopinsight.com/2020/12/23/html-tags-memory-test/), a blog I follow about all things Apple.
-+ [Know your HTML](https://accessabilly.com/notes/know-your-html/) on Accessabilly
++ [Know your HTML](https://accessabilly.com/notes/know-your-html/) on Accessabilly.
 
 **Updated:** 
 + CSS Tricks mentioned it at the bottom of Newsletter #235, Subject: ’Animations Animations Animations!’

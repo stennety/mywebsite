@@ -26,6 +26,9 @@ This was my favourite response (and good approach):
 + Mentioned by [The Loop](https://www.loopinsight.com/2020/12/23/html-tags-memory-test/), a blog I follow about all things Apple.
 + [Know your HTML](https://accessabilly.com/notes/know-your-html/) on Accessabilly
 
+**Updated:** 
++ CSS Tricks mentioned it at the bottom of Newsletter #235, Subject: ’Animations Animations Animations!’
+
 ## HTML Tags Recalled
 
 Most pleasing, was the number of people mentioning discovering new HTML tags and elements they had forgotten or overlooked before. So the face-palming frustration of this _game_, may have some beneficial effect afterall.

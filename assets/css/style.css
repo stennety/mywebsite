@@ -279,6 +279,7 @@ dt {
 }
 
 .wrap-preview {
+    margin-bottom: 1.5rem;
     padding: .75rem;
     background-color: var(--col-secondary);
 }

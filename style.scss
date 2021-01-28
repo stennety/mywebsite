@@ -120,6 +120,7 @@ img {
   color: $gray;
 }
 
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -284,6 +285,35 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+// post page meta data display
+#post_container
+{
+    font-family: Helvetica;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    text-align:left;
+    font-size: 15px;
+    color: gray;
+}
+#meta1, #meta2
+{
+    display:inline;
+}
+
+// homepage tag cloud display
+
+#tagcloud
+{
+    font-family: Helvetica;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align:left;
+    font-size: 14px;
+    color: gray;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

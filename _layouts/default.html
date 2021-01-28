@@ -8,6 +8,7 @@
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {% include collecttags.html %}
   </head>
 
   <body>
@@ -35,6 +36,11 @@
     </div>
 
     <div id="main" role="main" class="container">
+        {% if page.url == "/" %}
+        <div id="tagcloud">
+            {% include tagcloud.html %}
+        </div>
+        {% endif %}
       {{ content }}
     </div>
 

@@ -287,7 +287,7 @@ footer {
 }
 
 // post page meta data display
-#post_container
+.post_container
 {
     font-family: Helvetica;
     font-weight: 300;
@@ -297,14 +297,14 @@ footer {
     font-size: 15px;
     color: gray;
 }
-#meta1, #meta2
+.meta1, .meta2
 {
     display:inline;
 }
 
 // homepage tag cloud display
 
-#tagcloud
+.tagcloud
 {
     font-family: Helvetica;
     font-weight: 300;

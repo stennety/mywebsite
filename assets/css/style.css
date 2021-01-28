@@ -161,7 +161,7 @@ code,pre,kbd {
 
 p>code,kbd {
     padding: .125em .25em;
-    border: 1px solid var(--col-lowlight)
+    border: 0.0625rem solid var(--col-lowlight)
 }
 
 pre {
@@ -348,7 +348,7 @@ h2 em, h3 em {
     }
     
     img, figure, pre {
-        border: 1px solid currentColor;
+        border: 0.0625rem solid currentColor;
     }
     
     code {

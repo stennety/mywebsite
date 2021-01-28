@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/16/426e771c1ff122b0bcc70beeaf72897125a51d2e8cf3c3f84bfcd3374b2d2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/16/d845ba4282fd9169f614f1eeee27e5c5f7304d7f329ce12b6818b202ca5d0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/19/5bedebfdff2f9bd52af5e08a7ece54c675e15c53f331d75b0f2e583924ecd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/2a/bda43dc32a9f84ee4cbac2d8e00568f909efe6bc4ba0747dc30037a593840e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/40/c2bf0ce35516d47935adf37b66b7325fd37f276d4d5d48598e2a3e356e3114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4a/562b7095a4928c5441d431e61a1f39ca8b2aede3969c043726b6570759b0ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/53/7840024d29c5119c62d8682a7ef985e3fad5df00cb585d18e962276ffb7ac2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5d/b99376ca7246488d80ac2ed8f8b067d35096792074eb2bd1bef856689f3e25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5e/6291fbf8f1b99a344a0e6eb14f8d4bd1f8699ef494fdaa274b351d368a5216" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/70/6efa769be5786d90cb9bca1e03ff6b7f397dda2a7326cc0611271d177e6b0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/80/c6befd2c9f9c7886d3a4eb352d541feaaa094954542903d836e36bf262c05d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/8e/8a75c16f5542e29b8d9fbeee599621c3b1bae54c02fc9d693386b78f790577" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/93/08d66833aff4d10f58a084876b39ef0e29f441fef9125e386fbfcfddd01b4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/a0/d03079f758cbdf66ea42ff6e86af10b2771bcfa616f95aa5be03c7d683b283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/af/a3239ce744c1eb78dd5de59bde40bd581d38cf15e78631c01332baf10819d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b6/9fb5c18c5f7f91ac2e6960f4751702ca15ad6678109b534f9fc2752eeb67e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c2/db5540836e0bccf9b7d15630cd5a26e57a0354adb2d65c7121ca8005b99fe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c4/bf0273631049ec6c3e204f66cf8c9c500521ed99ee520e74ce6803acf4bb4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ce/52b18be40d5df0afb6dd1537ea61979b7c07953b29e2b8cc503ed744bf6ed3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/d3/fa94902ab519201790f0f98135ad3c0475714b9d67598ac9844e7076af2bb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/de/df62cd296fb42897481e057be353e0136b113765f5730d60798433fba422bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e0/5828c8d082c914102262a15d1952d6c0f5556ee31b40ccf2974b5ce1850c90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f0/0876adfcf4f166e7db2144433d2970b3fcead0103917be7311bb494dfa3859" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f1/71948f68dfaae558196b74c32a9a6d94920c2d82d071a03cf98c2ef288af7e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f2/effadf26279d6ffa18bff33c4b3568ae746e42ded39be9da0c479e073b03c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fa/17f2978fa7a5f5080b7e6b4b3b87a52e2fabf500befb45e3044b36bffb50b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fc/a36ef395818545237ee3c7ca82b3d197e45afdcf658bdc3dfac0f405c1a423" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +45,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bio.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <first_editor>
+                <caret selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -42,35 +57,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="226" selection-start-line="7" selection-start-column="226" selection-end-line="7" selection-end-column="226" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,17 +90,18 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/bio.md" />
-        <option value="$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
     <option name="y" value="23" />
-    <option name="width" value="1374" />
+    <option name="width" value="1313" />
     <option name="height" value="1363" />
   </component>
   <component name="ProjectView">
@@ -117,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +135,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,10 +176,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1374" height="1363" extended-state="0" />
+    <frame x="1680" y="23" width="1313" height="1363" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49954003" visible="true" weight="0.090169996" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49954003" visible="true" weight="0.23916408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50045997" side_tool="true" weight="0.1552306" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,11 +246,7 @@
         <state relative-caret-position="-130" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/Scaling-relational-database-Queues/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-965" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/Scaling-relational-database-Queues/index.html" />
     <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -321,13 +309,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile" />
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -349,6 +331,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bio.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -362,38 +374,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <first_editor>
+            <caret selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="226" selection-start-line="7" selection-start-column="226" selection-end-line="7" selection-end-column="226" />
           </first_editor>
           <second_editor />
         </state>

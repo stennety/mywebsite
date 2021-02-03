@@ -1,0 +1,21 @@
+I"<p>So far, we’ve had problems with our relational database. As with any learning scenario, the best thing to do with problems is to learn from them.</p>
+
+<p>Desirable properties of a data system. Where do relational databases fail with respect to these properties?</p>
+
+<p>1)	Robustness &amp; fault tolerance – the ability of your data system to provide the right information in the face of the challenges involved with using, maintaining &amp; growing your service.</p>
+
+<p>2)	Low latency – the ability to provide the right information when you need it.</p>
+
+<p>3)	Scalable – the ability to maintain performance in the face of increasing data or load by adding resources to the system.</p>
+
+<p>4)	Generalised – the ability of your data system to satisfy a range of use cases.</p>
+
+<p>5)	Extensible – the ability to allow functionality to be added with minimal development cost.</p>
+
+<p>6)	Minimal maintenance – self-explanatory. Largely depends on implementation complexity i.e. how easy the system is to reason with.</p>
+
+<p>7)	Debuggability – the ability to trace the source for each value in the system.</p>
+
+<p>8)	Ad hoc queries – the ability to arbitrarily mine your dataset. This ability opens the door to discover interesting facets of your datasets.</p>
+
+:ET

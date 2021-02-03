@@ -28,6 +28,7 @@ This was my favourite response (and good approach):
 
 **Updated:** 
 + CSS-Tricks newsletter at the bottom of #235, Subject: ’Animations Animations Animations!’
++ Dev Awesome newsletter, [issue #49](https://devawesome.io/archive/49).
 
 ## HTML Tags Recalled
 

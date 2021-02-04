@@ -21,11 +21,21 @@ h1:before {
 }
 
 blockquote {
+    position: relative;
     margin-left: 0;
-    padding-left: 4.5rem;
+    padding-left: 3rem;
     border: 0;
-    background: url(/assets/images/blockquote.svg) 0 .25em no-repeat;
-    background-size: 4rem
+}
+
+blockquote p:first-child:before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    top: -0.25em;
+    font-size: 2.25em;
+    font-style: normal;
+    line-height: 1;
+    color: var(--col-highlight);
 }
 
 .wrap-banner--pfd {

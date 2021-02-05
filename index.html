@@ -76,19 +76,19 @@
               <tr> 
                 <th>Region</th> 
                 <th>Country</th>
-                <th>Location</th> 
-                <th>Course</th> 
+                <th>Location</th>
+                <th>Course</th>
                 <th>Date</th>
                 <th>Architect</th>
-                <th>History</th> 
+                <th>History</th>
                 <th>Type of Job</th>
                 <th>Status</th>
                 <th>Past 100</th>
-                <th>Bob's Travel</th> 
-                <th>YouTube</th> 
+                <th>Bob's Travel</th>
+                <th>YouTube</th>
                 <th>Instagram</th>
-                <th>Twitter</th> 
-                <th>Comments</th> 
+                <th>Twitter</th>
+                <th>Comments</th>
                 <th>Data Curated</th>
               </tr>
           </thead>
@@ -96,16 +96,16 @@
               {% for item in site.data.allGolf %}
                   <tr>
                     <td>{{ item.Region }}</td>
-                    <td>{{ item.Country }}</td> 
+                    <td>{{ item.Country }}</td>
                     <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }} </a></td>
                     <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
-                    <td>{{ item.Date }}</td> 
+                    <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td>
-                    <td>{{ item.Status }}</td> 
-                    <td>{{ item.i100 }}</td>
-                    <td>{{ item.Bob }}</td> 
+                    <td>{{ item.Status }}</td>
+                    <td>{{ item.i100 }}</td> 
+                    <td>{{ item.Bob }}</td>
                     <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.Instagram }}</a> </td>
                     <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>

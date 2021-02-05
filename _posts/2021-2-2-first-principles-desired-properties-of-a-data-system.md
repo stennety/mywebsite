@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Principles: Desirable properties of a data system'
-tags: principles
+tags: theory
 ---
 
 So far, we’ve had problems with our relational database. As with any learning scenario, the best thing to do with problems is to learn from them. 

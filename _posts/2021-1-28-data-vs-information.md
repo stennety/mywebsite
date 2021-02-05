@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Data vs Information: Is there a difference?'
-tags: principles
+title: 'Is there a difference between Data and Information?'
+tags: theory
 ---
 
 **TL;DR:** Yes.

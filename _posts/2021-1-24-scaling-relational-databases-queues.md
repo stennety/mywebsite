@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Scaling a relational database: Queues'
-tags: implementation
+tags: implementation relationaldatabase
 ---
 
 Neil’s notes: 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Scaling a relational database: What went wrong?'
-tags: implementation
+title: "Scaling a relational database: Mo' data, mo' problems"
+tags: theory relationaldatabase
 ---
 
 Neil’s notes:

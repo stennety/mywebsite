@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Scaling a relational database: Sharding'
+title: 'Sharding a relational database'
 tags: implementation relationaldatabase
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Scaling a relational database: Queues'
+title: 'Queueing a relational database'
 tags: implementation relationaldatabase
 ---
 

@@ -36,11 +36,11 @@ sometimes putting them together :construction_worker:. I love discussing all thi
 "What you celebrate is what your culture will be." 
 
 I celebrate:
-* Solving puzzles
+* Solving problems
 * Mastery
 * Unexpected generosity
 * Integrity in difficult situations
 
-Want to work together? Email me at [neil.chandarana18@gmail.com](mailto:neil.chandarana18@gmail.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
+Want to work together? Email me at [hello@neilchandarana.com](mailto:hello@neilchandarana.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
 
 

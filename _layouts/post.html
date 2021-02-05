@@ -11,10 +11,11 @@ layout: default
     {{ page.date | date: "%B %e, %Y" }}
     </div>
     <div class="meta2">
-    [{% for tag in page.tags %}
+    {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>
-    {% endfor %}]
+<!--      <a href="/tag/{{ tag_name }}"><code style="color:#a94064"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>-->
+      <code style="color:#a94064"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
     </div>
 
   </div>

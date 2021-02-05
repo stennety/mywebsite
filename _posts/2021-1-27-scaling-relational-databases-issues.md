@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scaling a relational database: Mo' data, mo' problems"
+title: "Mo' data, mo' problems"
 tags: theory relationaldatabase
 ---
 

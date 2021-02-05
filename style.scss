@@ -286,6 +286,11 @@ footer {
   text-align: center;
 }
 
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
 // post page meta data display
 .post_container
 {
@@ -313,9 +318,3 @@ footer {
     font-size: 14px;
     color: gray;
 }
-
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";

@@ -6,7 +6,7 @@ tags: theory
 
 So far, we’ve had problems with our relational database. As with any learning scenario, the best thing to do with problems is to learn from them. 
 
-Below I have put together a list of desirable properties of a data system. Where do relational databases fail with respect to these properties?
+Below is a list of desirable properties of data systems. Where do relational databases fail with respect to these properties?
 
 1) **Robustness/fault tolerance** – the ability of your data system to provide the right information in the face of the challenges involved with using, maintaining & growing your service.
 

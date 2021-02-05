@@ -11,7 +11,7 @@ I want a data system like Tom Brady.
 We’ve had problems with relational databases. They aren't Superbowl worthy. So, what data systems are?
 Or better yet, what general properties do help a data system achieve GOAT status?
 
-Here are my thoughts: (order and importance tbd)
+Here is what I have arrived at after limited research: (order and importance tbd)
 
 1) **Robustness/fault tolerance** – the ability to provide the right information in the face of the challenges involved with using, maintaining & growing your service.
 

@@ -8,7 +8,8 @@ Built to last. Always delivers. GOAT.
 
 I want a data system like Tom Brady.
 
-So far, we’ve had problems with relational databases. Next question, what general properties do help a data system achieve GOAT status?
+We’ve had problems with relational databases. They aren't Superbowl worthy. So, what data systems are?
+Or better yet, what general properties do help a data system achieve GOAT status?
 
 Here are my thoughts: (order and importance tbd)
 

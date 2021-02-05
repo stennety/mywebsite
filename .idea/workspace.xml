@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-24-scaling-relational-databases-queues.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-25-scaling-relational-databases-sharding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-27-scaling-relational-databases-issues.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-2-2-first-principles-desired-properties-of-a-data-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-2-2-first-principles-desired-properties-of-a-data-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-2-2-tom-brady-data-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-2-2-tom-brady-data-system.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +28,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-2-2-first-principles-desired-properties-of-a-data-system.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-2-2-tom-brady-data-system.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,6 +133,7 @@
         <option value="$PROJECT_DIR$/_posts/2021-1-28-data-vs-information.md" />
         <option value="$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md" />
         <option value="$PROJECT_DIR$/_posts/2021-2-2-first-principles-desired-properties-of-a-data-system.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-2-2-tom-brady-data-system.md" />
       </list>
     </option>
   </component>
@@ -464,11 +460,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-2-2-first-principles-desired-properties-of-a-data-system.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-2-2-tom-brady-data-system.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>

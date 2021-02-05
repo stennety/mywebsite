@@ -12,13 +12,13 @@ So far, we’ve had problems with relational databases. Next question, what gene
 
 Here are my thoughts: (order and importance tbd)
 
-1) **Robustness/fault tolerance** – the ability of your data system to provide the right information in the face of the challenges involved with using, maintaining & growing your service.
+1) **Robustness/fault tolerance** – the ability to provide the right information in the face of the challenges involved with using, maintaining & growing your service.
 
 2) **Low latency** – the ability to provide the right information when you need it. 
 
 3) **Scalable** – the ability to maintain performance in the face of increasing data or load by adding resources to the system.
 
-4) **Generalised** – the ability of your data system to satisfy a range of use cases.
+4) **Generalised** – the ability to satisfy a range of use cases.
 
 5) **Extensible** – the ability to allow functionality to be added with minimal development cost.
 

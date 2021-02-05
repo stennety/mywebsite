@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Input-> System-> Output: A paradigm for life'
-tags: theory
+tags: thinking
 ---
 I came across an article that claimed a piece of analysis failed because of ‘bad’ data. 
 

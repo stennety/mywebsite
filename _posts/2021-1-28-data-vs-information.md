@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Is there a difference between Data and Information?'
-tags: theory
+tags: thinking
 ---
 
 **TL;DR:** Yes.

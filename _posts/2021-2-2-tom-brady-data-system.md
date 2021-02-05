@@ -1,12 +1,16 @@
 ---
 layout: post
-title: 'Principles: Desirable properties of a data system'
-tags: theory
+title: 'The Tom Brady of data systems'
+tags: systemstheory
 ---
 
-So far, we’ve had problems with our relational database. As with any learning scenario, the best thing to do with problems is to learn from them. 
+Built to last. Always delivers. GOAT. 
 
-Below is a list of desirable properties of data systems. Where do relational databases fail with respect to these properties?
+I want a data system like Tom Brady.
+
+So far, we’ve had problems with relational databases. Next question, what general properties do help a data system achieve GOAT status?
+
+Here are my thoughts: (order and importance tbd)
 
 1) **Robustness/fault tolerance** – the ability of your data system to provide the right information in the face of the challenges involved with using, maintaining & growing your service.
 

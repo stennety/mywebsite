@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mo' data, mo' problems"
-tags: theory relationaldatabase
+tags: relationaldatabase
 ---
 
 Neil’s notes:

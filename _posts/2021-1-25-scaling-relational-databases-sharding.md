@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Sharding a relational database'
-tags: implementation relationaldatabase
+tags: relationaldatabase
 ---
 
 Neil’s notes:

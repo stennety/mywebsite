@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Queueing a relational database'
-tags: implementation relationaldatabase
+tags: relationaldatabase
 ---
 
 Neil’s notes: 

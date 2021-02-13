@@ -291,7 +291,11 @@ dt {
 
 .codepen {
     padding: .75rem;
-    font-family: Hack, Menlo, Monaco, monospace;
+    font-family: Hack, Menlo, Monaco, monospace    
+}
+
+.codepen,
+.cp_embed_wrapper {
     background-color: var(--col-secondary)
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Princios de R
+title: Principios de R
 ---
 
 # Introduction

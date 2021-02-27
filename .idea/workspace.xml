@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-2-27-dissection" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +16,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+              <first_editor relative-caret-position="465">
+                <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -454,11 +454,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+          <first_editor relative-caret-position="465">
+            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           </first_editor>
           <second_editor />
         </state>

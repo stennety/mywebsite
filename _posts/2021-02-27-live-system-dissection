@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'www.whatprinted.com: Google App Engine, MongoDB, Python, Thrift'
-tags: systemstheory
+title: 'www.whatprinted.com: Dissecting a data system'
+tags: implementation
 ---
 
 www.whatprinted.com is a web app that increases transparency of the [Swaption](https://en.wikipedia.org/wiki/Swaption) market. 

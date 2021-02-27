@@ -8,7 +8,7 @@ www.whatprinted.com is a web app that increases transparency of the [Swaption](h
 For a range of currencies, it allows users view options that expire today. 
 
 It’s taken me the best part of 24 days to get this site running. 
-In that time, the database system gone through major overhauls. Here’s the tech stack as of time of writing:
+In that time, the database system gone through major overhauls. Here’s the tech stack at the time of writing:
 
 * Python
 * Apache Thrift

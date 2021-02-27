@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
               </first_editor>
               <second_editor />
             </state>
@@ -457,8 +457,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-02-27-live-system-dissection">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
           </first_editor>
           <second_editor />
         </state>

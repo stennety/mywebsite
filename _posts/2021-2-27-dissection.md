@@ -4,7 +4,7 @@ title: 'Dissection'
 tags: implementation
 ---
 
-www.whatprinted.com is a web app that increases transparency of the [Swaption](https://en.wikipedia.org/wiki/Swaption) market. 
+[www.whatprinted.com](https://www.whatprinted.com) is a web app that increases transparency of the [Swaption](https://en.wikipedia.org/wiki/Swaption) market. 
 For a range of currencies, it allows users view options that expire today. 
 
 It’s taken me the best part of 24 days to get this site running. 

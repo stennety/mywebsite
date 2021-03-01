@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-2-27-dissection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-2-27-dissection.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,6 +105,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1740" />
     <option name="y" value="23" />
     <option name="width" value="1470" />
     <option name="height" value="852" />
@@ -197,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1470" height="852" extended-state="0" />
+    <frame x="1740" y="23" width="1470" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881983" visible="true" weight="0.15113872" />
@@ -365,9 +367,7 @@
     <entry file="file://$PROJECT_DIR$/images/blog_02_2021/IMG_20210227_125545_781_2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog_02_2021/IMG_20210227_125545_781_2 (1).jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/blog_02_2021/IMG_20210227_125545_781_2 (1).jpg" />
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -435,6 +435,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2021-1-23-a-paradigm-for-life.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -450,16 +460,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>

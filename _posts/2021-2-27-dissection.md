@@ -7,7 +7,7 @@ tags: implementation
 [www.whatprinted.com](https://www.whatprinted.com) is a web app that increases transparency of the [Swaption](https://en.wikipedia.org/wiki/Swaption) market. 
 For a range of currencies, it allows users view options that expire today. 
 
-It’s taken me the best part of 24 days to get this site running. 
+It’s taken me the best part of 3 weeks to get this site running. 
 In that time, the database system gone through major overhauls. Here’s the tech stack at the time of writing:
 
 * Python

@@ -25,7 +25,7 @@ To inspire users to use the themes customisation features, I showcased some of t
 
 Pivoting from my original focus of ‘everything QR codes’, I narrowed my focus to truly unique examples, rather than an incremental constant news feed of competing sites. This kept quality higher and lightened the effort required to maintain output of content.
 
-Perhaps validating my focus on inspirational examples of QR codes, two posts: [Mercedes Cars Safety Info Codes](http://blackandwhitesquares.com/post/51480047565/all-new-mercedes-cars-will-feature-safety-info-and) and [Google Glass uses QR code during setup to sync](http://blackandwhitesquares.com/post/50344093171/google-glass-qrcode) featured in the popular curated **#Tech** tag with a surge in traffic.
+Perhaps validating my focus on inspirational examples of QR codes, two posts: [Mercedes Cars Safety Info Codes](https://blackandwhitesquares.com/post/51480047565/all-new-mercedes-cars-will-feature-safety-info-and) and [Google Glass uses QR code during setup to sync](https://blackandwhitesquares.com/post/50344093171/google-glass-qrcode) featured in the popular curated **#Tech** tag with a surge in traffic.
 
 The site never became huge by any standard but still receives 4 times more search traffic than my other web properties. So I fulfilled my personal objective.
 

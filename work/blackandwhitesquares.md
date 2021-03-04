@@ -19,4 +19,4 @@ The site was also a usefull testbed for SEO techniques, experience copywriting, 
 
 B&WS was built using a custom designed, self-built theme, on the Tumblr platform. 
 
-Visit [blackandwhitesquares.com](http://blackandwhitesquares.com/) and see the result.
+Visit [blackandwhitesquares.com](https://blackandwhitesquares.com/) and see the result.

@@ -74,6 +74,14 @@ blockquote p:first-child:before {
             gap: 4rem;
         }
     }
+
+    @media (min-height: 45rem) {
+        .wrap-sidebar {
+            position: sticky;
+            top: 3rem;
+            align-self: start;
+        }
+    }
 }
 
 .link__nav--home {

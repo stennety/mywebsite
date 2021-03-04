@@ -1,20 +1,21 @@
----
-layout: default
----
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    </head>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <body>
+        <article class="message is-primary">
+            <div class="message-header">
+        <p>Site under construction</p>
+            </div>
+            <div class="message-body">
+                <p> I'm in process of designing brand new webpage with more information and structure.</p> <p>In spirit of old times I decided to go with "under construction" website instead of just launching brand new thing in one go.</p> <p>This will also pressure me to finish that quicker :)</p>
+        <p>In the meantime maybe check: </p>
+        <p><a href="https://blog.dreat.info">My Blog</a></p>
+        <p>or</p>
+        <p><a href="https://jungle.dreat.info">My Entropic Jungle</a></p>
+            </div>
+        </article>
+    </body>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.post_title }}</a></h1>
-      <h6>Published on: {{ post.post_date | date: "%B %e, %Y" }} <br /></h6>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-
-    </article>
-  {% endfor %}
-</div>
+</html>

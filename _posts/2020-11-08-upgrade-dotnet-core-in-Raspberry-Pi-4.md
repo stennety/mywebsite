@@ -23,7 +23,7 @@ First of all, I start by doing a copy of the previous instal. It was installed u
 Now it is time to download the latest 3.1 version for ARM 32, available on [dotnet core 2.2](https://dotnet.microsoft.com/download/dotnet-core/3.1).
 I want to install the Runtime and th SDK, so I need to download both of them.
 
-![_config.yml]({{ site.baseurl }}/images/upgrade_ARM_Versions.png)
+![_config.yml]({{ site.baseurl }}/images/upgrade_ARM_Versions.PNG)
 
 ### to download the SDK
 ```bash

@@ -310,6 +310,7 @@ dt {
     .figure__featimg--portrait {
         max-width: 50%;
         float: right;
+        float: inline-end;
         margin-left: 1rem
     }
 }

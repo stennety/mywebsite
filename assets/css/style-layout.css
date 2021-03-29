@@ -142,6 +142,7 @@ blockquote p:first-child:before {
 
 .wrap-preview--image {
     float: right;
+    float: inline-end;
     margin: .5rem;
     max-width: 33%
 }

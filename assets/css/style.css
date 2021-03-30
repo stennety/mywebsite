@@ -354,10 +354,10 @@ h2 em, h3 em {
     
     img, figure, pre {
         border: 0.0625rem solid currentColor;
+        page-break-inside: avoid;
     }
     
     code {
-        page-break-inside: avoid; 
         white-space: pre-wrap;
         font-size: smaller;
     }

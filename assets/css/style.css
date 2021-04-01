@@ -164,6 +164,11 @@ p>code,kbd {
     border: 0.0625rem solid var(--col-lowlight)
 }
 
+code, kbd {
+    font-size: .95em;
+    font-size: 1.75ex;
+}
+
 pre {
     padding: .75rem;
     overflow: auto;

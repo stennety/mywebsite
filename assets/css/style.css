@@ -320,6 +320,21 @@ dt {
     }
 }
 
+@media only screen and (min-width: 481px) {
+    #skills-i-bring + ul {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    #skills-i-bring + ul li {
+        flex: 1 48%;
+        margin-right: 2%;
+        margin-inline-end: 2%;
+    }
+}
+
 h2 em, h3 em {
     font-size: .875em;
     font-family: var(--font-body);

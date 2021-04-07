@@ -42,7 +42,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 *	Duties include email marketing, [landing pages](/work/nintendo-hub/), weekly re-merchandising of the GAME.co.uk site.
 *	Tasking and coordinating assistant designers with feature creative for weekly newsletter, based around merchandising commitments.
-*	Revamp of the [customer communication templates](/work/gameplay-templates/) for Game, Gamestation and Gameplay brands.
+*	Revamp of the [customer communication templates](/work/email-templates/) for Game, Gamestation and Gameplay brands.
 *	Creation of affiliate banner templates and digital merchandising for PPC campaigns.
 
 

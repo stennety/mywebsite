@@ -22,7 +22,7 @@ _**Started my web design career in the World of TV Shopping.**_
 _**Continued my career with an international games retailer.**_
 
 *	Creation of site merchandising, affiliate banners and [content hubs](/work/nintendo-hub/).
-*	Redesign of GAME Groups [customer email templates](/work/gameplay-templates/).
+*	Redesign of GAME Groups [customer email templates](/work/email-templates/).
 *	Responsible for tasking creative for GAME’s weekly newsletters.
 	
 ### Thomas Cook

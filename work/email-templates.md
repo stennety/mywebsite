@@ -17,7 +17,7 @@ My design aimed to do the same, with the big bold graphical style a derivative o
 
 The Street Fighter series was back and I wanted to make sure customers opening this mailer knew it and immediately pre-ordered.
 
-## GamePlay Templates
+## Gameplay Templates
 
 ![Gameplay Email Templates](/assets/images/gameplay.jpg)
 

@@ -316,7 +316,8 @@ dt {
         max-width: 22.5rem;
         float: right;
         float: inline-end;
-        margin-left: 1rem
+        margin-left: 1rem;
+        margin-inline-start: 1rem;
     }
 }
 

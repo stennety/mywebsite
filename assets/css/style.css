@@ -199,6 +199,7 @@ dt {
     width: 1px;
     margin: -1px;
     overflow: hidden;
+    overflow: clip;
     padding: 0;
     position: absolute;
     word-wrap: normal !important;

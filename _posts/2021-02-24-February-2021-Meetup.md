@@ -13,7 +13,7 @@ title: February 2021 Meetup
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqSR_7uKCuQb6mUeARENldtm2GxDkaEwMtPl0zwjOJjWpkxvPIAM8-2PCQGo-g5Ip6T2bP8r0nUU8p/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Raspberry Pi Pico MicroPython Port
+## Recent MicroPython Developments
 
 **Damien** shares some of the recent developments (since v1.14) in MicroPython, including:
 

@@ -25,7 +25,7 @@ If all queries are functions of data, the data model is the structure organising
 We’ve talked about data, information and queries before ([data vs info](https://www.neilchandarana.com/data-vs-information/)).
 Let’s have a look how that applies in an example related to our service.
 
-![whatprinted queiry](images/blog_02_2021/Screenshot_20210430-191629_2.png)
+![whatprinted query](/images/blog_02_2021/Screenshot_20210430-191629_2.png)
 
 If this makes no sense to you then check out the previous blog ([dissection](https://www.neilchandarana.com/dissection/)).
 
@@ -34,4 +34,4 @@ Secondly, and crucially, provides the basis we need to discuss 3 core concepts t
 most of the fault-tolerance/robustness heavy lifting. In other words, ‘are these results accurate?’ will be a whole
 lot quicker, easier, less stressful to answer. And let's face it, less stress = more happy.
 
-
+ 

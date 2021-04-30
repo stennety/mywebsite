@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="" />
+    <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +16,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <first_editor relative-caret-position="420">
+                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="51" lean-forward="true" selection-end-line="31" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="78" />
               </first_editor>
               <second_editor />
             </state>
@@ -88,6 +90,7 @@
         <option value="$PROJECT_DIR$/_posts/2021-2-27-dissection.md" />
         <option value="$PROJECT_DIR$/_posts/2021-4-30-info, data, queries, views" />
         <option value="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views" />
+        <option value="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" />
       </list>
     </option>
   </component>
@@ -130,6 +133,12 @@
               <item name="93tilinfinity.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="93tilinfinity.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="93tilinfinity.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_02_2021" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,6 +153,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/blog_02_2021" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$" />
@@ -176,8 +188,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1839" height="1362" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881983" visible="true" weight="0.15511551" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881983" visible="true" weight="0.20792079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011802" side_tool="true" weight="0.17956656" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,18 +446,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="51" lean-forward="true" selection-end-line="31" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="78" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <first_editor relative-caret-position="420">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor />
         </state>

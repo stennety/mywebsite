@@ -29,7 +29,7 @@ Let’s have a look how that applies in an example related to our service.
 
 If this makes no sense to you then check out the previous blog ([dissection](https://www.neilchandarana.com/dissection/)).
 
-Why is this important? Firstly, it helps conceptualise an end-to-end data-pipeline.
+Why is this important? Firstly, it helps conceptualise an end-to-end data pipeline.
 Secondly, and crucially, provides the basis we need to discuss 3 core concepts to developing data models that do
 most of the fault-tolerance/robustness heavy lifting. In other words, ‘are these results accurate?’ will be a whole
 lot quicker, easier, less stressful to answer. And let's face it, less stress = more happy.

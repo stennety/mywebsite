@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 'info, data, queries, views - D1'
+title: 'D1.1 - info, data, queries, views'
 tags: implementation
 ---
 
 This is the first dissection piece on [www.whatprinted.com](https://www.whatprinted.com). It will span at least 3 blog
-entries and will primarily poke holes in the robustness property of this data system.
+entries and will primarily poke holes in the robustness property of this data system. I've called it D1.1 for those who
+like an organised homepage.
 
 The service has been running for free for 2+ months now. There have been no bugs yet but there have also been no more
 features shipped. In the last article, you saw the data architecture for this service.

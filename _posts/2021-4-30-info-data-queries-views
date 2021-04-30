@@ -23,7 +23,11 @@ There are two components to the master dataset: the data model and the physical 
 If all queries are functions of data, the data model is the structure organising data to be consumed by your function.
 
 We’ve talked about data, information and queries before ([data vs info](https://www.neilchandarana.com/data-vs-information/)).
-Let’s have a look how that applies for this service.
+Let’s have a look how that applies in an example related to our service.
+
+![whatprinted queiry](images/blog_02_2021/Screenshot_20210430-191629_2.png)
+
+If this makes no sense to you then check out the previous blog ([dissection](https://www.neilchandarana.com/dissection/)).
 
 Why is this important? Firstly, it helps conceptualise an end-to-end data-pipeline.
 Secondly, and crucially, provides the basis we need to discuss 3 core concepts to developing data models that do

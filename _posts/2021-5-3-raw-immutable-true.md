@@ -35,11 +35,19 @@ It’s pretty obvious why immutability is desirable – fault tolerance and simp
 A consequence of storing the evolution of a single record is an increased storage requirement. In our service, 
 a single record is a specific trade. The trade evolution could only consist of an amendment, cancellation or 
 termination update. Once cancelled or terminated the same trade id is unlikely to be revived. Overall, I expect the 
-number of states of a particular record to be between 1 and 3, rarely hitting 4-6. Relatively low.
+number of states of a particular record to be between 1 and 3, rarely hitting 4-6. Relatively low so I don't care too
+about the additional storage required by implementing immutability.
 
 **Eternal truth: 7/7 – once true, always true.**
 
 Timestamped data entries ensure that if a piece of data was once true at a given time, that particular data point still
  reflects the truth at that time even if the state of the data point has been updated since.
 
- 
+So there we have it. Once trades enter the master dataset, they are processed but minimally with a filter.
+They are timestamped and written but never updated or deleted. And always reflect the true state of the trade at any
+given point in time.
+
+Next, I'll formalise this into what is known as a 
+[fact-based data model](https://isaaccomputerscience.org/concepts/data_big_fact_based) 
+(<- pretty good description of what is to come).
+

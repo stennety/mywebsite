@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a2622-4b0b-4b5d-8c8b-56a413336bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-5-3-raw-immutable-true.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog_05_2021/rawness_v_questions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +16,25 @@
     <favorites_list name="93tilinfinity.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="555">
-                <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+                <caret line="37" selection-start-line="37" selection-end-line="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-5-3-raw-immutable-true.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="540">
+                <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,6 +105,7 @@
         <option value="$PROJECT_DIR$/_posts/2021-4-30-info, data, queries, views" />
         <option value="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views" />
         <option value="$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-5-3-raw-immutable-true.md" />
       </list>
     </option>
   </component>
@@ -105,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,10 +153,17 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="blog_02_2021" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="93tilinfinity.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="93tilinfinity.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_05_2021" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,12 +174,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/blog_02_2021" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/blog_05_2021" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/images/blog_02_2021" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,6 +466,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="555">
+            <caret line="37" selection-start-line="37" selection-end-line="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2021-2-27-dissection.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -453,11 +486,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-4-30-info-data-queries-views.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2021-5-3-raw-immutable-true.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="555">
-            <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>

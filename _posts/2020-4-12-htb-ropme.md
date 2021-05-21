@@ -47,7 +47,7 @@ The first piece we observe is this one, which is calling the `puts@plt`:
 According to the [man page of puts][1]: it's defined as `int puts(const char *s);` which means this function takes exactly 1 argument, which is a pointer to the start of a cstring.
 
 **QUESTION: Why is the argument passed through EDI? Why not through the stack?**
-On x64 (as opposed to x32) the arguments are passed via the registers:
+When using the fast-call calling convention, the first 6 arguments are passed via the registers:
 1. RDI Holds the first argument
 2. RSI Holds the second argument
 3. RDX Holds the third argument

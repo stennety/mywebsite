@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Art + Architecture + Open Source + VR + Economics + Futurism = Me.
+Passionate about quality, innovation and sustainability.
 
 ### More Information
 
-Originally trained in the field of Architecture, I've dabbled in e-commerce and now VR.
-Currently working as a QA Tester at a leading VR/AR solutions provider.
+Originally trained in the field of Architecture, I've dabbled in e-commerce, VR/AR and currently working in the field of software quality as Quality Engineer at a leading financial services organisation.
 
 ### Contact me
 If you'd like to contact me: <script type="text/javascript">

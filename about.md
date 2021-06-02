@@ -33,6 +33,8 @@ _**Contract work in a major brand. Quickly up to speed in a new team.**_
 *	Generating creative for the numerous Thomas Cook web properties.
 *	Cross browser compatibility issues with Club 18–30 site.
 
+_See [my résumé](/cv/) for detailed work history._
+
 ## What I offer
 
 Happiest when taking the design process through in to writing efficient code, and knowing that I am presenting information to people in the most effective way. The web is always changing and I have a real interest in the mobile and web application based platforms and the new opportunities they present.

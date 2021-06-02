@@ -11,7 +11,7 @@ My name is Paul Foster, this site is a collection of my web career work. I have 
 
 _**Started my web design career in the World of TV Shopping.**_
 
-*	Involved in 3 major site redesigns.
+*	Involved in 2 major site redesigns.
 *	Redesign of Ideal World checkout process.
 *	Generation of site creative, customer buying guides and direct email marketing.
 *	Creation of standalone mini-sites supporting TV events.

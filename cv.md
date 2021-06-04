@@ -40,7 +40,7 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 **game.co.uk, gamestation.co.uk, gameplay.co.uk**
 
-*	Duties include email marketing, [landing pages](/work/nintendo-hub/), weekly re-merchandising of the GAME.co.uk site.
+*	Duties included [email marketing](/work/email-templates/), [landing pages](/work/nintendo-hub/), weekly re-merchandising of the GAME.co.uk site.
 *	Tasking and coordinating assistant designers with feature creative for weekly newsletter, based around merchandising commitments.
 *	Revamp of the [customer communication templates](/work/email-templates/) for Game, Gamestation and Gameplay brands.
 *	Creation of affiliate banner templates and digital merchandising for PPC campaigns.
@@ -48,10 +48,10 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 
 ## Ideal Shopping Direct - Web Designer _29 months_
 
-**idealworld.tv, createandcraft.tv**
+**idealworld.tv, createandcraft.com**
 
 *	Present through two major site redesigns involving the creation of page templates, design and mockup of basket and checkout process, working with development team, user acceptance testing (UAT).
-*	Creation of web advertising for [events and promotions](/work/christmas-cracker/). Generation of high distribution email shots and relevant landing pages, microsites, competition pages and [customer buying guides](/work/ringsize-guide/).
+*	Creation of web advertising for [events and promotions](/work/christmas-cracker/). Generation of high distribution email shots and relevant landing pages, microsites, competition pages, [customer buying guides](/work/ringsize-guide/) and [direct mail](/work/christmas-cracker/).
 *	Older audience required a very accessible approach to design, markup and page weight.
 
 

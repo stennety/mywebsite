@@ -9,29 +9,26 @@ My name is Paul Foster, this site is a collection of my web career work. I have 
 
 ### Ideal World
 
-_**Started my web design career in the World of TV Shopping.**_
+_**Started my web design career in the world of TV shopping.**_
 
 *	Involved in 2 major site redesigns.
 *	Redesign of Ideal World checkout process.
 *	Generation of site creative, customer buying guides and direct email marketing.
-*	Creation of standalone mini-sites supporting TV events.
-*	Print work, including [ring sizer](/work/ringsize-guide/) and [Christmas event direct mailing](/work/christmas-cracker/).
 
-### Game
+### GAME Group
 
 _**Continued my career with an international games retailer.**_
 
-*	Creation of site merchandising, affiliate banners and [content hubs](/work/nintendo-hub/).
-*	Redesign of GAME Groups [customer email templates](/work/email-templates/).
-*	Responsible for tasking creative for GAME’s weekly newsletters.
+*	GAME site merchandising, affiliate banners, PPC campaigns and [content hubs](/work/nintendo-hub/).
+*	Redesign of  [customer email templates](/work/email-templates/) for GAME Groups various brands.
+
 	
 ### Thomas Cook
 
 _**Contract work in a major brand. Quickly up to speed in a new team.**_
 
-*	Email marketing creation for Thomas Cook Cruises.
+*	Email marketing for Thomas Cook Cruises and related brands.
 *	Generating creative for the numerous Thomas Cook web properties.
-*	Cross browser compatibility issues with Club 18–30 site.
 
 _See [my résumé](/cv/) for detailed work history._
 
@@ -52,6 +49,6 @@ Happiest when taking the design process through in to writing efficient code, an
 
 If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for my latest projects and updates.
 
-If you like my work and have a web role available (in-house or remotely), [check out my CV](/cv/).
+If you like my work and have a web role available (in-house or work remotely), [check out my CV](/cv/).
 
 _Thank you for visiting_

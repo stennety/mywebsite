@@ -237,6 +237,10 @@ dt {
     text-align: center
 }
 
+.flex--gapped {
+    gap: 1rem
+}
+
 .lowlight {
     display: block;
     font-size: .875rem;

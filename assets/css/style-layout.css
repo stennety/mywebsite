@@ -1,3 +1,7 @@
+body {
+    background-attachment: fixed;
+}
+
 h1,h2 {
     font-family: 'Arial Black', Tahoma, 'Avenir Next', Verdana, sans-serif;
     text-transform: uppercase

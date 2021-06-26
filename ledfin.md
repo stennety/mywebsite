@@ -16,7 +16,7 @@ LEDfin was entered into the **European Lights of the Future** competition in 200
 
 It went on to achieve second place in the *UK Student Lighting Design Competition* held by the Lighting Association. The first time my university had attained an award in the competition. 
 
-![Magazines in which LEDfin appeared](/assets/images/ledfin_magcovers.jpg)
+![Magazines in which LEDfin appeared](/assets/images/ledfin_magazines.jpg)
 
 ## Featured in Light, Light and Design and ID magazines
 

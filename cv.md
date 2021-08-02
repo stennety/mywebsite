@@ -16,9 +16,9 @@ Efficiency, clean semantic markup and accessibility are my benchmarks. I am a pa
 *	Redesign, writing and maintainence on my portfolio site, progressing from WordPress to [Kirby CMS](/blog/portfolio-redesign/) (PHP ‘flat-file’ CMS), to a static site [built via Jekyll](/blog/portfolio-redesign-2020/).
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
 *	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
-*	[CodePen code demo success](https://codepen.io/plfstr/popular/)
- 	+ My first pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
-	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post, inspiring other designers to try this popular coding challenge using 1Kb of CSS. 
+*	[CodePen](https://codepen.io/plfstr/popular/) success.
+	+ First pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks and [Flexbox Film Credits](/blog/flexbox-film-credits/) selected for Editor Picks. 
+	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post about this popular coding challenge, using 1Kb of CSS. 
 	+ [Hop Over Notification](/blog/10k-hop-over-views/) featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 60,000+ views, 175+ likes.
 	+ [HTML Memory Test](/blog/html-elements-test/) went [kind-of viral](/blog/html-memory-tested/) in the Twitter web community and amassed 10,000+ views.
 	+ Top 5 popular pens have 100,000+ views collectively. 

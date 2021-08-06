@@ -1,8 +1,18 @@
 {% if page.portrait %}
 <figure class="figure__featimg figure__featimg--portrait">
+    <picture>
+    {% if include.webp %}
+    <source srcset="{{ include.webp | prepend: '/assets/images/' | default: ''}}" type="image/webp">
+    {% endif %}
     <img src="{{ include.image | prepend: '/assets/images/' | default: '' }}" alt="{{ include.alt | default: '' }}" width="360" height="509" loading="eager">
+    </picture>
 {% else %}
 <figure class="figure__featimg">
+    <picture>
+    {% if include.webp %}
+    <source srcset="{{ include.webp | prepend: '/assets/images/' | default: ''}}" type="image/webp">
+    {% endif %}
     <img src="{{ include.image | prepend: '/assets/images/' | default: '' }}" alt="{{ include.alt | default: '' }}" width="700" height="480" loading="eager">
+    </picture>
 {% endif %}
 </figure>

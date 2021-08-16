@@ -9,6 +9,14 @@ I build data systems at [Scarlette AI](https://www.scarletteai.com). I'm current
 interest rate derivative traders, if you're in the space let's chat. 
 Email me at [neil@scarletteai.com](mailto:neil@scarletteai.com).
 
+"What you celebrate is what your culture will be." 
+
+I celebrate:
+* Solving problems
+* Mastery
+* Unexpected generosity
+* Integrity in difficult situations
+
 :round_pushpin: Based in London, I'm [British Indian](https://en.wikipedia.org/wiki/British_Indians) :uk::india:. 
  
 :mortar_board: My academic background is a mix of maths, statistics and economics. I went to the University of Warwick, UK. 
@@ -32,15 +40,3 @@ You can find me [cycling](https://www.zwift.com/news/5082-zwift-how-to-joining-a
 sometimes putting them together :construction_worker:. I love discussing all things [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
  :robot:. I have a sister who fixes teeth; we ran an [online food marketplace social
  entreprise](https://www.instagram.com/feed.bucks/) :pizza: together throughout 2020. 
-
-"What you celebrate is what your culture will be." 
-
-I celebrate:
-* Solving problems
-* Mastery
-* Unexpected generosity
-* Integrity in difficult situations
-
-Want to work together? Email me at [hello@neilchandarana.com](mailto:hello@neilchandarana.com) or say hi on instagram [@neilchanda](https://www.instagram.com/neilchanda).
-
-

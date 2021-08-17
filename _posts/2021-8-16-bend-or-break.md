@@ -32,8 +32,7 @@ Even if the task is well understood, software can still introduce more problems.
 
 If abided by, the law helps ensures errors can be traced to their source easily and quickly through reducing the coupling between each unit in the software's code base. Not only that but the code base in general can be more quickly understood since modules are only related through a light interface without knowledge of module internals aka **shy code**. 
 
-In terms of our initial example, there may be more steps to trace but each unit traces back to a single source that can be tested easily since, if implemented correctly, changes to know module have minimal ripple effect into another. 
+In terms of our initial example, there may be more steps to trace but each unit traces back to a single source that can be tested easily.
+If implemented correctly, changes to one module should have minimal ripple effect into another.
 
-Alright, that's me done - I'm going back through the WhatPrinted? codebase to see if can make it more shy.
-
-
+If it's loud systems you want, then it's shy code you gotta write.

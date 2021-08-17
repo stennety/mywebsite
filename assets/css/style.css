@@ -35,6 +35,10 @@ main,picture,iframe,img {
     display: block
 }
 
+figure {
+    margin: 0 0 1.5rem
+}
+
 .visually-hidden,[hidden] {
     display: none
 }
@@ -315,17 +319,6 @@ dt {
     display: block;
     margin-bottom: 1.5rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
-}
-
-.figure--hover {
-    margin-left: 0;
-    margin-right: 0;
-    transition: transform .1s ease;
-}
-
-.figure--hover figcaption {
-    font-weight: bold;
-    padding-top: .5rem;
 }
 
 @media only screen and (min-width: 600px) {

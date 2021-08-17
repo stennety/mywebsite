@@ -12,9 +12,9 @@ High-concentration-low-upside tasks are incredibly costly and yet incredibly com
 
 I'm not even going to discuss those who don't see this as a problem. Those who do could address it by reducing the amount of human concentration required to complete. Ideally to 0 concentration (autonomous system), but in the near term to 'low' or 'very low'. And the way to achieve this is to write software.
 
-**I thought programming was magic?**
+**But I thought programming was magic?**
 
-The thing about software is that errors don't disappear into a hat. They still exist. It's just that the software creator now has the power to make the experience of encountering errors as pleasant or as unpleasant as they like. Here's how to avoid the latter: 1) make sure the software creator understands the current pain, 2) see 1).
+The thing about software is that errors don't disappear into a black hat. They still exist. It's just that the software creator now has the power to make the experience of encountering errors as pleasant or as unpleasant as they like. Here's how to avoid the latter: 1) make sure the software creator understands the current pain, 2) see 1).
 
 People who program their way out of the lame tasks they face will always understand the pain. And if it is important enough to them, they learn whatever programming principles needed to implement something decent. As a side note, I started doing consulting work this year, so for the first time I got a taste of learning the pain and then programming to solve it; it's way harder that just solving your own problems.
 

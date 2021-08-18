@@ -52,7 +52,7 @@ h1, h2, p {
     opacity: 0;
     color: var(--col-body, #fff);
     background-color: rgba(35, 120, 138, 0.8);
-    transition: transform 0.2s ease 0s;
+    transition: opacity 0.1s ease;
     hyphens: auto;
     z-index: 77;
 }

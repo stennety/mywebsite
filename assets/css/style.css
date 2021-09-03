@@ -263,17 +263,6 @@ dt {
     background-color: var(--col-secondary);
 }
 
-.button.button--hero {
-    font-weight: 700;
-    color: var(--col-primary);
-    background-color: var(--col-highlight);
-    text-transform: capitalize
-}
-
-.button.button--hero:after {
-    content: "→"
-}
-
 .icon {
     width: 1.5em;
     height: 1.5em;

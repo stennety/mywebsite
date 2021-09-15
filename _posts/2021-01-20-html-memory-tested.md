@@ -29,6 +29,7 @@ This was my favourite response (and good approach):
 **Updated:** 
 + CSS-Tricks newsletter at the bottom of #235, Subject: ’Animations Animations Animations!’
 + Dev Awesome newsletter, [issue #49](https://devawesome.io/archive/49).
++ [CSS Memory Test](https://www.bram.us/2021/01/21/css-properties-memory-test/), a fork by Bram\.us - only 650+ properties to recall!
 
 ## HTML Tags Recalled
 

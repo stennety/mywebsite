@@ -3,7 +3,8 @@
 {% endif %}
 {% if page.syndicated %}
 <section>
-<h2 class="h3">Syndicated To</h2>
+<h2 class="invisible">Syndication</h2>
+<p><small>Post syndicated to:</small></p>
 <ul>
     {% for syndilink in page.syndicated %}
     <li><a href="{{ syndilink }}" class="u-syndication" rel="syndication">{{ syndilink }}</a></li>

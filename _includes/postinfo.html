@@ -6,7 +6,7 @@
 <h2 class="h3">Syndicated To</h2>
 <ul>
     {% for syndilink in page.syndicated %}
-    <li><a href="{{ syndilink | url_encode }}" class="u-syndication" rel="syndication">{{ syndilink | url_encode }}</a></li>
+    <li><a href="{{ syndilink }}" class="u-syndication" rel="syndication">{{ syndilink }}</a></li>
     {% endfor %}
 </ul>
 </section>

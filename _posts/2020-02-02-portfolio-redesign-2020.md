@@ -53,7 +53,7 @@ Transforms are used extensively to rotate the logo and highlight project images 
 
 5 redesigns and 4 platforms (Mr. Site > WordPress > Kirby > Jekyll), [since 2006](/blog/early-days/).
 
-I was using Kirby, a static-file PHP CMS. My content was already in Markdown with Front Matter-ish metadata and been happily database-free. 
+I was [using Kirby](/blog/portfolio-redesign/), a static-file PHP CMS. My content was already in Markdown with Front Matter-ish metadata and been happily database-free. 
 
 Through [my side projects](/blog/side-project-learning/), I have used GitHub and GitHub Pages, so I have familiarity with that platform. 
 

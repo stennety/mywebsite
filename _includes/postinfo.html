@@ -1,6 +1,16 @@
 {% if page.date %}
 <p><small>Posted <time class="dt-published" datetime="{{ page.date }}">{{ page.date | date: "%d/%m/%Y" }}</time></small></p>
 {% endif %}
+{% if page.syndicated %}
+<section>
+<h2 class="h3">Syndicated To</h2>
+<ul>
+    {% for syndilink in page.syndicated %}
+    <li><a href="{{ syndilink | url_encode }}" class="u-syndication" rel="syndication">{{ syndilink | url_encode }}</a></li>
+    {% endfor %}
+</ul>
+</section>
+{% endif %}
 <footer>
     <p class="invisible" aria-hidden="true"><small>&lsquo;<a href="{{ page.url }}" class="p-name u-url">{{ page.title }}</a>&rsquo; published by <a href="https://www.paulfosterdesign.co.uk" class="p-author h-card">Paul Foster</a> (www.paulfosterdesign.co.uk), a web designer / front-end developer, based in Cambridgeshire, UK.</small></p>
 </footer>

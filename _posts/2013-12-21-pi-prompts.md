@@ -4,7 +4,7 @@ description: Pi Prompts is a crib-sheet of basic Pi commands for a beginner to g
 date: 2013-12-31
 source: http://plfstr.github.io/pi-prompts/
 tags: [ paulfosterdesign, web, personal]
-syndicated: [https://paulfosterdesign.wordpress.com/2013/12/30/pi-prompts-getting-to-grips-with-the-raspberry-pi/]
+syndicated: ['https://paulfosterdesign.wordpress.com/2013/12/30/pi-prompts-getting-to-grips-with-the-raspberry-pi/']
 ---
 Getting to grips with the Raspberry Pi over the holidays and found it quickly became tiresome to keep having to resort to Googling and flicking through a guide to find basic commands, then later on a scribbled piece of paper.
 

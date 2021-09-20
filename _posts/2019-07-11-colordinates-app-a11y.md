@@ -4,7 +4,7 @@ description: An explainer of the accessibility(A11Y) features included in Colord
 date: 2019-07-11
 source: 
 tags: [a11y, app, colordinates, code, sideproject]
-syndicated: [https://codepen.io/plfstr/post/colordinates-app-a11y]
+syndicated: ['https://codepen.io/plfstr/post/colordinates-app-a11y']
 ---
 I continue to update [Colordinates](/blog/colordinates/) from time to time as part of my [side project learning](/blog/side-project-learning/) to improve my knowledge and coding.
 

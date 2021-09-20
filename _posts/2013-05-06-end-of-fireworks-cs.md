@@ -4,7 +4,7 @@ description: Lamenting on the demise of Adobe Fireworks web design software pack
 date: 2013-05-06
 source: 
 tags: [paulfosterdesign, fireworks, web design, tools]
-syndicated: [https://paulfosterdesign.wordpress.com/2013/05/06/the-end-of-fireworks-cs/]
+syndicated: ['https://paulfosterdesign.wordpress.com/2013/05/06/the-end-of-fireworks-cs/']
 ---
 ## Surely you saw this coming?
 

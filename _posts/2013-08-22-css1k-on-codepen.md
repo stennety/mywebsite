@@ -4,6 +4,7 @@ description: CSS 1k is a styling challenge using - you guessed it - less than 1k
 date: 2013-08-22
 source: https://codepen.io/plfstr/pen/izswy
 tags: [ paulfosterdesign, web, codepen, css, twitter]
+syndicated: ['https://paulfosterdesign.wordpress.com/2013/08/22/when-you-accidentally-start-a-thing-less-than-a/']
 ---
 {% include codepen.html codepen="izswy" height="500" %}
 

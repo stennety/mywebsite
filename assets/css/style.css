@@ -165,7 +165,7 @@ code,pre,kbd {
 }
 
 p>code,kbd {
-    padding: .125em .25em;
+    padding: 0.0625rem .125rem;
     border: 0.0625rem solid var(--col-lowlight)
 }
 

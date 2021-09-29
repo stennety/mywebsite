@@ -93,7 +93,7 @@ blockquote p:first-child:before {
 
 .wrap-logo--link {
     display: block;
-    transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.5);
+    transform: translate(.75rem, 3.5rem) rotate(-18deg) scale(1.4)
 }
 
 @media only screen and (min-width:1200px) {

@@ -240,15 +240,15 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 }*/
 
-@media (max-width: 48em) {
+/*@media (max-width: 48em) {
     /* Only apply this when the window is small. Otherwise, the following
     case results in extra padding on the left:
         * Make the window small.
         * Tap the menu to trigger the active state.
         * Make the window large again.
     */
-    #layout.active {
+ /*   #layout.active {
         position: relative;
         left: 150px;
     }
-}
+}*/

@@ -23,7 +23,7 @@ And that is before you take into account the influence on their judgement from p
 
 So, the product is judged based on it's Goodness, Usefulness and Correctness alongside other external influences. As such any measurement of quality is only a snapshot of the current sentiment of the group of people who you have been able to gather at the point feedback is collected.
 
-For example Windows XP was considered by many as a huge leap forward in quality when it was first released in October 2001. But how would you feel if I gave you XP to use now?
+For example Windows XP was considered by many as a huge leap forward in quality when it was first released in 2001. But how would you feel if I gave you XP to use now?
 
 So, the code many not change, the product is the same, but the quality may be reduced over time as context changes.
 
@@ -38,6 +38,10 @@ I also took part in a [Quality Panel](https://www.ministryoftesting.com/dojo/ser
 ### Quality Aspects
 
 In the last few months, I've started making use of [Risk Storming,](https://riskstormingonline.com/) and I love it! The focus the Test Sphere cards can give you on Quality Aspects (aka Quality Characteristics) are really powerful.
+
+If we take a single Characteristic, say **Installability**, now we can focus not on the risks to the whole product, not on the quality of the whole product. We can focus just on this one aspect.
+
+When we break down product quality into smaller parts, and prioritize them, it can make it much more tangible and we can make more useful assessments.
 
 ### Implicit and Explicit asks
 
@@ -68,3 +72,5 @@ To be clear, I don't have the answer here, I'm still working on it.
 [Modern Testing Principles](https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles)
 
 [WHY CHECKING AN AC ISN’T ENOUGH](https://callumakehurstryansblog.wordpress.com/2021/08/25/why-checking-an-ac-isnt-enough/)
+
+[Windows XP](https://en.wikipedia.org/wiki/Windows_XP)

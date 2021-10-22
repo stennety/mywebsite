@@ -31,7 +31,7 @@ This was my favourite response (and good approach):
 + Dev Awesome newsletter, [issue #49](https://devawesome.io/archive/49).
 + [CSS Memory Test](https://www.bram.us/2021/01/21/css-properties-memory-test/), a fork by Bram\.us - only 650+ properties to recall!
 + [Element Diversity](https://www.matuzo.at/blog/element-diversity/), Manuel Matuzovic lamenting inaccessible div-filled components use, instead of HTML elements.
-
++ [A short guide to help you pick the correct HTML tag](https://dev.to/polgarj/a-short-guide-to-help-you-pick-the-correct-html-tag-56l9) by Jozsef Polgar, on dev\.to.
 ## HTML Tags Recalled
 
 Most pleasing, was the number of people mentioning discovering new HTML tags and elements they had forgotten or overlooked before. So the face-palming frustration of this _game_, may have some beneficial effect afterall.

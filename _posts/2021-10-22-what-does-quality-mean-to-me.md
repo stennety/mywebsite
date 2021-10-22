@@ -9,15 +9,19 @@ Over the last 3+ years I've massively increased my external communication with t
 
 Now, I'm approaching a point I've got some kind of grasp of software quality, in a way that can be usefully and concisely defined.
 
-### My definition doesn't exist in isolation
+## What does quality mean to me? 
+
+### I posted this one Twitter:
+
+> What does quality mean to me? Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
+
+## My definition doesn't exist in isolation
 
 In order to come to this definition, I've spoke to, read and consumed from many great Testers. Notability [Dan Ashby](https://twitter.com/DanAshby04), whom I am now lucky enough to work with, and [Stu C](https://twitter.com/StooCrock).
 
+### Quality Panel
+
 I also took part in a [Quality Panel](https://www.ministryoftesting.com/dojo/series/the-ministry-of-testing-podcast-2021/lessons/mot-podcast-quality-panel) discussion for the MoT Podcast, alongside [Gem Hill](https://twitter.com/Gem_Hill), Alsa Tabatabei and [Lee Marshall]().
-
-### Then, I posted this one Twitter:
-
-> What does quality mean to me? Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
 
 ### Quality Aspects
 
@@ -41,7 +45,7 @@ Details are great, for communicating with Engineers and the team, but are hard t
 
 To be clear, I don't have the answer here, I'm still working on it.
 
-### References
+## References
 
 [Dan Ashby's Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/)
 

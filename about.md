@@ -6,7 +6,7 @@ permalink: "/about/"
 ---
 I recently got more involved in the testing community, signing up to the Ministry of Test and getting on the Slack Channels. From this I learned two things:
 
-1. My 6 years of experience do not mean I know everything, in fact a bunch of my knowledge is plain out of date!
+1. My 9 years of experience do not mean I know everything, in fact a bunch of my knowledge is plain out of date!
 2. As with Software Development, modern testing is developing and changing rapidly, and I need to get involved and innovate to keep up.
 
 ### More Information
@@ -15,4 +15,4 @@ The excellent folks on the MoT slack channels encouraged and inspired me to fina
 
 ### Contact me
 
-[https://twitter.com/dowenb](https://twitter.com/dowenb "https://twitter.com/dowenb")
+[https://twitter.com/fullsnacktester](https://twitter.com/fullsnacktester "https://twitter.com/fullsnacktester")

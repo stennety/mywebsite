@@ -15,4 +15,4 @@ The excellent folks on the MoT slack channels encouraged and inspired me to fina
 
 ### Contact me
 
-[https://twitter.com/dowenb](https://twitter.com/fullsnacktester "https://twitter.com/fullsnacktester")
+[https://twitter.com/fullsnacktester](https://twitter.com/fullsnacktester "FullSnackTester on Twitter")

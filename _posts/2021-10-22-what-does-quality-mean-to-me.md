@@ -9,9 +9,11 @@ Over the last 3+ years I've massively increased my external communication with t
 
 Now, I'm approaching a point I've got some kind of grasp of software quality, in a way that can be usefully and concisely defined.
 
-## What does quality mean to me? 
+## What does quality mean to me?
 
 ### I posted this one Twitter:
+
+![](/uploads/quality-tweet.PNG)
 
 > What does quality mean to me? Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
 
@@ -39,6 +41,8 @@ I also took part in a [Quality Panel](https://www.ministryoftesting.com/dojo/ser
 
 In the last few months, I've started making use of [Risk Storming,](https://riskstormingonline.com/) and I love it! The focus the Test Sphere cards can give you on Quality Aspects (aka Quality Characteristics) are really powerful.
 
+![](/uploads/risk-storming-installability.PNG)
+
 If we take a single Characteristic, say **Installability**, now we can focus not on the risks to the whole product, not on the quality of the whole product. We can focus just on this one aspect.
 
 When we break down product quality into smaller parts, and prioritize them, it can make it much more tangible and we can make more useful assessments.
@@ -53,7 +57,7 @@ A really great explanation of this is written up by another fantastic tester, an
 
 OK, so now I've defined what quality means to me. But, is this useful?
 
-I feel that this short definition hides a huge amount of detail, of course it does, it's only a single Tweet. It also assumes you already have a really clear idea what I mean by Goodness, Usefulness and Correctness, and if you have consumed anything from Dan Ashby in the last year or two, you probably have this context, some links below if you don't.
+I feel that this short definition hides a huge amount of detail, of course it does, it's only a single Tweet. It also assumes you already have a really clear idea what I mean by Goodness, Usefulness and Correctness, and if you have consumed anything from Dan Ashby, you probably have this context, if not go and read [Dan Ashby's Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/).
 
 What I'm missing, still, is a way to strike a balance on how to measure and describe the current quality of a product, and report on that usefully. On one side, there is the huge amount of valuable and highly contextual detail you can gain from detailed testing notes and detailed reports. On the other, the "gut feel" RAG rating, or star rating.
 

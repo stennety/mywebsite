@@ -3,15 +3,13 @@ title: New Post
 date: 2021-10-22 00:00:00 +0100
 
 ---
-# Where else to find me online
-
 Since starting this site and blog, I have expanded my online presence with a number of other sites that I post on. While I should probably consolidate my content in one place, for now let me tell you where else you can find me!
 
 ### Full Snack Tester
 
 The home page of my Full Snack Tester website has links to the majority of my social media and projects:
 
-[https://www.fullsnacktester.com/](https://www.fullsnacktester.com/ "https://www.fullsnacktester.com/") 
+[https://www.fullsnacktester.com/](https://www.fullsnacktester.com/ "https://www.fullsnacktester.com/")
 
 My current Twitter account is also [@fullsnacktester](https://twitter.com/FullSnackTester)
 

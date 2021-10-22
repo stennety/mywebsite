@@ -15,6 +15,18 @@ Now, I'm approaching a point I've got some kind of grasp of software quality, in
 
 > What does quality mean to me? Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
 
+### Context, at a point in time
+
+In my experience, users and other people who matter make their judgement on the quality of your product taking into account external influences, such as current competition and competing solutions. They are also likely to be influenced based on current local, national or global situations, such as Brexit or the COVID-19 Pandemic.
+
+And that is before you take into account the influence on their judgement from personal factors, such as fanatical independence, levels of stress, mood and any other thing you could possibly think of. These individual influences are difficult to take into account, and realistically we probably won't be able to account for them all, but instead simply accept the risks this raises in many cases.
+
+So, the product is judged based on it's Goodness, Usefulness and Correctness alongside other external influences. As such any measurement of quality is only a snapshot of the current sentiment of the group of people who you have been able to gather at the point feedback is collected.
+
+For example Windows XP was considered by many as a huge leap forward in quality when it was first released in October 2001. But how would you feel if I gave you XP to use now?
+
+So, the code many not change, the product is the same, but the quality may be reduced over time as context changes.
+
 ## My definition doesn't exist in isolation
 
 In order to come to this definition, I've spoke to, read and consumed from many great Testers. Notability [Dan Ashby](https://twitter.com/DanAshby04), whom I am now lucky enough to work with, and [Stu C](https://twitter.com/StooCrock).

@@ -9,10 +9,15 @@ Over the last 3+ years I've massively increased my external communication with t
 
 Now, I'm approaching a point I've got some kind of grasp of software quality, in a way that can be usefully and concisely defined.
 
-I recently posted on Twitter:
+### My definition doesn't exist in isolation
 
-> What does quality mean to me?
-> Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
+In order to come to this definition, I've spoke to, read and consumed from many great Testers. Notability [Dan Ashby](https://twitter.com/DanAshby04), whom I am now lucky enough to work with, and [Stu C](https://twitter.com/StooCrock).
+
+I also took part in a [Quality Panel](https://www.ministryoftesting.com/dojo/series/the-ministry-of-testing-podcast-2021/lessons/mot-podcast-quality-panel) discussion for the MoT Podcast, alongside [Gem Hill](https://twitter.com/Gem_Hill), Alsa Tabatabei and [Lee Marshall]().
+
+### Then, I posted this one Twitter:
+
+> What does quality mean to me? Goodness, Usefulness and Correctness at a point of time, with a context that takes into account ethics, customer success, business success, competitor products and the wider industry. That allows for "good enough" in that context to be enough!
 
 ### References
 

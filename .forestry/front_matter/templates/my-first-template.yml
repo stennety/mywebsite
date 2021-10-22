@@ -3,7 +3,7 @@ label: My First Template
 hide_body: false
 fields:
 - type: text
-  hidden: true
+  hidden: false
   label: Title
   name: title
   description: Post title

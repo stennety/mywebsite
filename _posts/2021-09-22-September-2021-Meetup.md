@@ -22,3 +22,4 @@ title: September 2021 Meetup
 
 For the diehards, listen as the gang yammers on about all things MicroPython.
 
+<iframe width="960" height="569" src="https://www.youtube.com/embed/_L_a5xNrGTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

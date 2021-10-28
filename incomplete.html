@@ -26,9 +26,17 @@
       gtag('js', new Date());
       gtag('config', 'UA-165022482-1');
   </script>
-  <meta name="Description" CONTENT="Golf Course New Construction Renovation Restoration Design Incomplete Property Commercial Real Estate">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" CONTENT="Golf Course Architecture New Construction Renovation Restoration Design Bunker Country Club GC CC Doak Hanse Coore Crenshaw Nuzzo Hawtree Nicklaus Mackenzie MacDonald Raynor Ebert Norman Kidd Jones Mingay Whitman Axland Cutten Rae Klein Franz Frye Straka Phillips Gaunt Illonen Eckenrode Clayton Pont Devries Lohmann Quitno King Collins Woods Lobb Dye Top 100 RTJ Ross">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+
   <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-  <title>Golf Course Incomplete Property</title>
+  <title>Golf Course Architecture New Construction Renovation Restoration</title>
   
     <style>
         table { border-collapse: collapse; }
@@ -61,7 +69,6 @@
 <p>&nbsp;</p>
 -->
 
-<p><a href="https://fescue.github.io">Back to Home</a></p>
 
 <div class="container">
 <!--
@@ -75,44 +82,47 @@
      <table id="golf" class="display table-striped table-bordered" cellspacing="1" width="99%">
           <thead>
               <tr> 
-                <th>Region</th>
-                <th>Country</th> 
-                <th>Location</th> 
-                <th>Course</th> 
+                <th>Region</th> 
+                <th>Country</th>
+                <th>Location</th>
+                <th>Course</th>
                 <th>Date</th>
-                <th>Architect</th>
-                <th>History</th> 
+                <th>Architect</th> 
+                <th>Construction</th>
+                <th>History</th>
                 <th>Type of Job</th>
                 <th>Status</th>
                 <th>Past 100</th>
                 <th>Bob's Travel</th>
-                <th>YouTube</th> 
-                <th>Instagram</th> 
-                <th>Twitter</th> 
+                <th>YouTube</th>
+                <th>Instagram</th>
+                <th>Twitter</th>
+                <th>Cost</th>
                 <th>Comments</th>
-                <th>Data Curated</th>
+                <th>Data Curated</th> 
               </tr>
           </thead>
           <tbody>
-            
-              {% for item in site.data.allI %}
+              {% for item in site.data.allGolf %}
                   <tr>
-                    <td>{{ item.Region }}</td> 
+                    <td>{{ item.Region }}</td>
                     <td>{{ item.Country }}</td>
                     <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }} </a></td>
                     <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
-                    <td>{{ item.Date }}</td> 
-                    <td>{{ item.Architect }}</td> 
-                    <td>{{ item.History }}</td> 
+                    <td>{{ item.Date }}</td>
+                    <td>{{ item.Architect }}</td>
+                     <td>{{ item.Construction }}</td>
+                    <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td> 
                     <td>{{ item.Status }}</td>
                     <td>{{ item.i100 }}</td>
-                    <td>{{ item.Bob }}</td> 
+                    <td>{{ item.Bob }}</td>
                     <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
-                    <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.Instagram }}</a> </td>
+                    <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.InstaCaption }}</a> </td>
                     <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
+                    <td>{{ item.Budget }}</td>
                     <td>{{ item.Comments }} </td>
-                    <td>{{ item.DataCurated }} </td>
+                    <td>{{ item.DataCurated }} </td> 
                   </tr>
               {% endfor %}
             </tbody>
@@ -154,6 +164,7 @@
         "bFilter": false
     } );    
   });
+  document.interestCohort();
 </script>
 
 <H4>
@@ -163,6 +174,8 @@
 Data Curated is the most recent date a golf course project has been reviewed.
 </H4>
 <H4>
+<p><a href="https://fescue.github.io/2019">2019 archive</a></p>
+  <p><a href="https://fescue.github.io/incomplete">Abandoned</a></p>
 #Past 100: Previous Top 100 listing. Short: 9-hole and/or par-3 course.
 </H4>
 <footer>

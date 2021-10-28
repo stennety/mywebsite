@@ -31,11 +31,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" CONTENT="Golf Course Architecture New Construction Renovation Restoration Design Bunker Sand Country Club GC CC Doak Hanse Wagner Coore Crenshaw Nuzzo Hawtree Nicklaus Mackenzie MacDonald Raynor Ebert Norman Kidd Jones Mingay Whitman Axland Cutten Rae Klein Franz Frye Straka Phillips Ross Gaunt Illonen Eckenrode Clayton Pont Devries Lohmann Quitno King Collins Woods Labar Lobb Dye Top 100 RTJ Ross Bermuda Kikuyu Bentgrass stimpmeter">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-
   <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
   <title>Golf Course Architecture New Construction Renovation Restoration</title>
   
@@ -99,8 +94,8 @@
                 <th>Instagram</th>
                 <th>Twitter</th>
                 <th>Cost</th> 
-                <th>Comments</th>
-                <th>Data Curated</th> 
+                <th>Comments</th> 
+                <th>Data Curated</th>  
               </tr>
           </thead>
           <tbody>
@@ -122,7 +117,7 @@
                     <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.InstaCaption }}</a> </td>
                     <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
                     <td>{{ item.Budget }}</td>
-                    <td>{{ item.Comments }} </td>
+                    <td>{{ item.Comments }} </td> 
                     <td>{{ item.DataCurated }} </td> 
                   </tr>
               {% endfor %}

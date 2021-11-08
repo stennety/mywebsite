@@ -37,7 +37,7 @@ A short list, and longer mind-map, of initial thoughts for topics. Please feel f
 * Building successful Dev/Test relationships
 * Metrics and how they can help or hinder
 
-![](/uploads/testing-for-dev-topics.jpg)
+![](/uploads/testing4devs_topics_compact.jpg)
 
 ## Follow along
 

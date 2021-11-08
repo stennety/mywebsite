@@ -27,6 +27,18 @@ I like to think, we can all benefit from learning more about testing and assessi
 * Where work is created with others, it will primarily or additionally be posted and there accounts, and will be linked to or reproduced here
 * Credit will always be given to all contributors for work done together, wherever it's published
 
+## Topics
+
+A short list, and longer mind-map, of initial thoughts for topics. Please feel free to contribute more!
+
+* Myths about Testing
+* Skills overlap between Testers and Developers
+* Working together to assess quality
+* Building successful Dev/Test relationships
+* Metrics and how they can help or hinder
+
+![](/uploads/testing-for-dev-topics.jpg)
+
 ## Follow along
 
 This is work in progress, I will eventually make a permanent link and ways to follow along on social media.

@@ -35,4 +35,4 @@ This is work in progress, I will eventually make a permanent link and ways to fo
 
 Want to add to the series, help out with ideas or co-author some work? Get in touch!
 
-You can find me [ben@dowen.me.uk](mailto:ben@dowen.me.uk), [@FullSnackTester](https://twitter.com/FullSnackTester "Full Snack Tester on Twitter") on Twitter or [dowenb ](https://www.linkedin.com/in/dowenb/ "Ben Dowen on LinkedIn")on LinkeIn.
+You can find me [ben@dowen.me.uk](mailto:ben@dowen.me.uk), [@FullSnackTester](https://twitter.com/FullSnackTester "Full Snack Tester on Twitter") on Twitter or [dowenb ](https://www.linkedin.com/in/dowenb/ "Ben Dowen on LinkedIn")on LinkedIn.

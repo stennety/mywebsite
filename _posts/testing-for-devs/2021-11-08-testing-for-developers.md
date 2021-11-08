@@ -31,6 +31,8 @@ I like to think, we can all benefit from learning more about testing and assessi
 
 This is work in progress, I will eventually make a permanent link and ways to follow along on social media.
 
+For now, you can link back here: [https://www.dowen.me.uk/testing-for-developers/](https://www.dowen.me.uk/testing-for-developers/ "https://www.dowen.me.uk/testing-for-developers/")
+
 ## Get involved
 
 Want to add to the series, help out with ideas or co-author some work? Get in touch!

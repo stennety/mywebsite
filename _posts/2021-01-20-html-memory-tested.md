@@ -37,3 +37,5 @@ This was my favourite response (and good approach):
 Most pleasing, was the number of people mentioning discovering new HTML tags and elements they had forgotten or overlooked before. So the face-palming frustration of this _game_, may have some beneficial effect afterall.
 
 It's quite topical that HTML and it's benefits be shown. There is a recent trend with some of the numerous JS frameworks and web components, where all markup is a `<div>` and we are losing any helpful semantics - a sentiment I saw in some of the tweets. Glad to help shining some light on HTML again.
+
+{% include mentions.html %}

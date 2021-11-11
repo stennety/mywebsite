@@ -46,7 +46,7 @@ function Mentionslist(props) {
       } = mention) => {return html`
     <li>
       <p class="${wmproperty}">
-          <a href="${mentionurl(url, authorurl)}" rel="nofollow ugc">${mentionname(authorname, url)}</a> (${url}), <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+          <a href="${url}" rel="nofollow ugc">${mentionname(authorname, url)}</a> (${mentionurl(url, authorurl)}), <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
       </p>
     </li>
     `})}

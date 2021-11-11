@@ -27,3 +27,5 @@ _To create the initial elements array, before I found a list of HTML elements, I
 It's the time-sink 2020 needs.
 
 [HTML Elements Memory Test](https://codepen.io/plfstr/full/zYqQeRw)
+
+{% include mentions.html %}

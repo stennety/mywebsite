@@ -1,4 +1,4 @@
-import { html, Component, render } from './bundle.js';
+import { html, Component, render } from './bundle.min.js';
 
 function numberIntl(count) {
   return 'Intl' in window ? new Intl.NumberFormat().format(count) : Number(count)

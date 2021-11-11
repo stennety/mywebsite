@@ -27,6 +27,7 @@ function mentionurl(url, authorurl) {
 // <Mentionslist/>
 function Mentionslist(props) {
   let mentions = props.mentions;
+  if (!props.mentions.length) return null;
   return html`
   <ul>
     ${mentions.map((
@@ -56,7 +57,7 @@ function Mentionslist(props) {
 // <Mentionsmessage/>
 function Mentionmessage(props) {
   if (!props.msg) return null;
-  return html`<p>${props.msg}</p>`;
+  return html`<p role="alert">${props.msg}</p>`;
 }
 
 // <Mentionable/>
@@ -82,6 +83,8 @@ class Mentionable extends Component {
       this._fetchCount().then(() => {
         if (this.state.mentioncount) {
           this.setState({msg: `Load ${this.state.mentioncount} webmentions?`});
+          document.querySelector('#mentions').setAttribute('aria-live', 'polite');
+          document.querySelector('#mentions').setAttribute('aria-atomic', 'true');
         } else {
           this.setState({msg: "Sorry, 0 webmentions found"});
         }
@@ -141,12 +144,12 @@ class Mentionable extends Component {
     return html`
       <section>
         <h2 id="webmentions">Webmentions <${Mentioncount} count=${this.state.mentioncount} /></h2>
-        <div ref=${this.mentions} aria-live="polite" aria-atomic="true">
+        <div id="mentions">
           <${Mentionslist} mentions=${this.state.mentions} />
           <${Mentionmessage} msg=${this.state.msg} />
         </div>
         ${this.state.lazyload ? 
-          html`<input type="button" value="Load Webmentions" aria-controls="" onClick=${this.fetchNow} />` : ``
+          html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : ``
         }
       </section>
     `

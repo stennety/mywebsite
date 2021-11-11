@@ -154,4 +154,4 @@ class Mentionable extends Component {
 
 }
 
-render(html`<${Mentionable} />`, document.querySelector('#article'));
+render(html`<${Mentionable} />`, document.querySelector('#mentionable'));

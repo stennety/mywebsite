@@ -282,7 +282,7 @@ dt {
     display: none
 }
 
-.wrap-preview {
+.wrap-preview, #mentionable {
     margin-bottom: 1.5rem;
     padding: .75rem;
     background-color: var(--col-secondary);

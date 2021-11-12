@@ -19,9 +19,13 @@ function mentiondate(published, wmreceived) {
     return new Date(published ? published : wmreceived).toLocaleString();
 }
 
-// Check url, fallback to author url...
-function mentionurl(url, authorurl) {
-    return new URL(url ? url : authorurl).host;
+// Check authorname, show url...
+function mentionurl(authorname, url) {
+  if (authorname) {
+    return ` (${new URL(url).host})`;
+  } else {
+    return null;
+  }
 }
 
 // <Mentionslist/>
@@ -46,7 +50,7 @@ function Mentionslist(props) {
       } = mention) => {return html`
     <li>
       <p class="${wmproperty}">
-          <a href="${url}" rel="nofollow ugc">${mentionname(authorname, url)}</a> (${mentionurl(url, authorurl)}), <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+          <a href="${url}" rel="nofollow ugc">${mentionname(authorname, url)}</a>${mentionurl(authorname, url)}, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
       </p>
     </li>
     `})}

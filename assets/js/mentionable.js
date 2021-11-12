@@ -104,7 +104,7 @@ class Mentionable extends Component {
 
   isDatasaving() {
     try {
-      return window.matchMedia('(prefers-reduced-data:reduce)').matches;
+      return "connection" in navigator && navigator.connection.saveData === true;
     } catch(err) {
       return false;
     }

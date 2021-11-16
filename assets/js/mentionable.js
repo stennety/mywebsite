@@ -153,7 +153,7 @@ class Mentionable extends Component {
           <${Mentionmessage} msg=${this.state.msg} />
         </div>
         ${this.state.lazyload ? 
-          html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : ``
+          html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : null
         }
       </section>
     `

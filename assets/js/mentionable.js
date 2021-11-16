@@ -73,17 +73,20 @@ class Mentionable extends Component {
       ev.preventDefault();
       this._fetchMentions();
       this.setState({lazyload: false});
-    }
+    }    
     this.state = {
       lazyload: false,
       mentioncount: 0,
       msg: "",
       mentions: []      
-    };
+    }
+    if (this.state.lazyload === false) {
+      this.state.lazyload = this.isDatasaving();
+    }
   }
 
   componentDidMount() {
-    if (this.state.lazyload || this.isDatasaving()) {
+    if (this.state.lazyload) {
       this._fetchCount().then(() => {
         if (this.state.mentioncount) {
           this.setState({msg: `Load ${this.state.mentioncount} webmentions?`});

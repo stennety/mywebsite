@@ -5,7 +5,7 @@ date: 2021-11-17
 tags: [codepen, animation, svg, js, pickedpen]
 ---
 
-{% include codepen.html codepen="XWaaZRW" %}
+{% include codepen.html codepen="XWaaZRW" height="500" %}
 
 A fork of the [original Chicken Swing](/blog/chicken-swing-svg/), this pen uses the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to allow dynamic updating of the animations keyframes via user input.
 

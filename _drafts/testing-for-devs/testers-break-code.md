@@ -30,7 +30,7 @@ Hold on. We got this far, let us dig a little deeper.
 
 ## Testers break illusions about code
 
-This can be split up into two parts, what working looks like, and how we learn if it's broken and then break the bad news!
+This can be split up into two parts, what working looks like, and how we learn if it's broken and then breaking the bad news, aka debriefs and bugs!
 
 ### How do we know if it is working or broken?
 
@@ -47,6 +47,12 @@ The results of running these experiments (Testing) help us to disprove part or a
 ### Breaking the bad news
 
 Now we have broken the illusion, what are we going to do about it?
+
+Actually, this again depends on what we found and context. What we don't do is always raise a bug, not everything we don't expect is wrong and not everything that is wrong is a bug to be fixed. Although some of them definitively are, and should be!
+
+While we are testing ideas we may have the opportunity to suggest alternative designs, discuss ways around possible problems, advise on how to reduce risks. Here we have an opportunity to prevent a bug and improve the end product.
+
+Again, this is where I can refer to [Callum Akehurst-Ryan](https://twitter.com/CAkehurstRyan "Callum Akehurst-Ryan"), who covers Debreifs multiple times in the post [ASK ME ANYTHING: EXPLORATORY TESTING](https://callumakehurstryansblog.wordpress.com/2021/09/17/ask-me-anything-exploratory-testing/) and AMA Recording of the same name, available with Club membership of MoT, [here](https://www.ministryoftesting.com/dojo/lessons/testing-ask-me-anything-exploratory-testing-callum-akehurst-ryan).
 
 ## Testers manipulate and push systems to learn more
 

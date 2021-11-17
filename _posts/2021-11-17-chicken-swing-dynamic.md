@@ -1,5 +1,7 @@
+---
 title: Chicken Swing Dynamic
 description: Chicken Swing revamp of the original, using the Web Animation API to dynamically change the power of the swing.
+date: 2021-11-17
 tags: [codepen, animation, svg, js, pickedpen]
 ---
 

@@ -34,7 +34,12 @@ This can be split up into two parts, what working looks like, and how we learn i
 
 ### How do we know if it is working or broken?
 
-This comes down to a combination of explicit and implicit requirements. Layered onto this are any quality characteristics, also known as quality aspects, that are a priority to us.
+Before we can break any illusions, we must do at least two things:
+
+* Have some understanding of what we hope good looks like
+* Run one or more experiments to determine what is really going on 
+
+Our understanding of the system prior to Testing can include a combination of explicit and implicit requirements. Layered onto this are any quality characteristics, also known as quality aspects, that are a priority to us.
 
 We need to build a shared understanding, a mental or recorded model of what "good enough" looks like. This might be expressed in acceptance criteria in a story, some kind of service level agreement. This could also come from quality aspects and risks we identified using techniques such as Risk Storming.
 
@@ -52,7 +57,9 @@ Actually, this again depends on what we found and context. What we don't do is a
 
 While we are testing ideas we may have the opportunity to suggest alternative designs, discuss ways around possible problems, advise on how to reduce risks. Here we have an opportunity to prevent a bug and improve the end product.
 
-Again, this is where I can refer to [Callum Akehurst-Ryan](https://twitter.com/CAkehurstRyan "Callum Akehurst-Ryan"), who covers Debreifs multiple times in the post [ASK ME ANYTHING: EXPLORATORY TESTING](https://callumakehurstryansblog.wordpress.com/2021/09/17/ask-me-anything-exploratory-testing/) and AMA Recording of the same name, available with Club membership of MoT, [here](https://www.ministryoftesting.com/dojo/lessons/testing-ask-me-anything-exploratory-testing-callum-akehurst-ryan).
+Again, this is where I can refer to [Callum Akehurst-Ryan](https://twitter.com/CAkehurstRyan "Callum Akehurst-Ryan"), who covers Debriefs multiple times in the post [ASK ME ANYTHING: EXPLORATORY TESTING](https://callumakehurstryansblog.wordpress.com/2021/09/17/ask-me-anything-exploratory-testing/) and AMA Recording of the same name, available with Club membership of MoT, [here](https://www.ministryoftesting.com/dojo/lessons/testing-ask-me-anything-exploratory-testing-callum-akehurst-ryan).
+
+It's all a cycle, so when we learn new things from testing we build continue to build our model of what we expect, and what we know to be true at the time.
 
 ## Testers manipulate and push systems to learn more
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /https://rtoax.github.io/
+permalink: /https://rtoax.github.io//
 ---
 
 ### Contact me

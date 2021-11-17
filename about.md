@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
+Some information about you!
+
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
 ### Contact me
 
-Rong Tao
-
-* CSDN博客: [RToax](https://rtoax.blog.csdn.net/)
-* GitHub: [Rtoax](https://github.com/Rtoax)
-* Gitee: [Rtoax](https://gitee.com/Rtoax)
-* 微信公众号: [全波形反演](https://mp.weixin.qq.com/s/bENgHzsBzARYPdWiDvLitQ)
+[email@domain.com](mailto:email@domain.com)

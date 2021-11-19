@@ -113,7 +113,7 @@ article {
 }
 
 ul, ol {
-    padding-left: 1.5em
+    padding-inline-start: 1.5em
 }
 
 ul {
@@ -348,6 +348,7 @@ h2 em, h3 em {
 .list--cvskills li {
     display: inline-block;
     margin: .125rem 0;
+    margin-block: .125rem;
     padding: .25rem;
     line-height: 1;
     color: var(--col-primary);
@@ -387,6 +388,7 @@ h2 em, h3 em {
         display: inline-block;
         width: auto !important;
         margin-left: .5em !important;
+        margin-inline-start: .5em !important;
         word-wrap: break;
         white-space: normal;
     }

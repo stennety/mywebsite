@@ -92,10 +92,10 @@
                 <th>Bob's Travel</th>
                 <th>YouTube</th> 
                 <th>Instagram</th>
-                <th>Twitter</th>
+                <th>Twitter</th> 
                 <th>Cost</th>
                 <th>Comments</th>
-                <th>Data Curated</th>
+                <th>Data Curated</th> 
               </tr>
           </thead>
           <tbody>
@@ -121,7 +121,7 @@
                     {% else %} <td></td>
                     {% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
-                    {% else %} <td></td>
+                    {% else %} <td></td> 
                     {% endif %}              
                     <td>{{ item.Budget }}</td>
                     <td>{{ item.Comments }} </td> 

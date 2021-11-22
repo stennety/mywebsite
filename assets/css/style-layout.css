@@ -59,7 +59,7 @@ blockquote p:first-child:before {
         grid-row-start: 2;
     }
 
-    @media only screen and (min-width:1024px) {
+    @media (min-width: 1024px) {
         .wrap-all{
             margin-top: 1.5rem;
             grid-template-columns: 1fr 700px;

@@ -59,16 +59,12 @@ h1, h2, p {
     z-index: 77;
 }
 
-.figure--hover:hover, .figure--hover:focus {
-    transform: scale(1.05);
-}
-
 .figure--hover:hover figcaption, .figure--hover:focus figcaption {
     opacity: 1;
 }
 
-.figure--hover:hover .figure__featimg, .figure--hover:focus .figure__featimg {					
-    filter: grayscale();
+.figure--hover:is(:hover, :focus) {
+    transform: scale(1.05);
 }
 
 .wrap-preview {

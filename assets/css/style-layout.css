@@ -139,8 +139,9 @@ blockquote p:first-child:before {
 .wrap-preview--image {
     float: right;
     float: inline-end;
-    margin: .5rem;
-    max-width: 33%
+    margin-inline-start: .5rem;
+    margin-bottom: 0;
+    max-width: 40%;
 }
 
 @supports (display: grid) {

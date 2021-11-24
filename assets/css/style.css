@@ -335,6 +335,11 @@ dt {
     }
 }
 
+:matches(#ideal-world, #game-group, #thomas-cook) + p {
+    margin: -1em 0 .75rem;
+    color: var(--col-highlight);
+}
+
 h2 em, h3 em {
     font-size: .875em;
     font-family: var(--font-body);

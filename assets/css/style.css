@@ -335,7 +335,7 @@ dt {
     }
 }
 
-:matches(#ideal-world, #game-group, #thomas-cook) + p {
+:is(#ideal-world, #game-group, #thomas-cook) + p {
     margin: -1em 0 .75rem;
     color: var(--col-highlight);
 }

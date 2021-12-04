@@ -325,13 +325,12 @@ dt {
         display: flex;
         flex-flow: row wrap;
         padding: 0;
-        list-style-position: inside;
     }
 
     #skills-i-bring + ul li {
-        flex: 1 48%;
-        margin-right: 2%;
-        margin-inline-end: 2%;
+        flex: 1 45%;
+        margin-left: 1.5rem;
+        margin-inline-start: 1.5rem;
     }
 }
 

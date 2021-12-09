@@ -295,18 +295,12 @@ dt {
 
 .codepen {
     padding: .75rem;
-    font-family: monospace, monospace    
-}
-
-.codepen,
-.cp_embed_wrapper {
-    background-color: var(--col-secondary)
+    background-color: var(--col-secondary);
+    font-family: monospace, monospace;
 }
 
 .cp_embed_wrapper,
 .figure__featimg {
-    display: block;
-    margin-bottom: 1.5rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
 

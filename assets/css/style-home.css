@@ -17,8 +17,7 @@ h1, h2, p {
 .grid--projects {
     grid-column: 1/span 2;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template: 1fr / 1fr 1fr 1fr;
     grid-gap: 1rem;
     gap: 1rem;
     margin-bottom: 0;

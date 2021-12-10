@@ -301,6 +301,9 @@ dt {
 
 .cp_embed_wrapper,
 .figure__featimg {
+    display: block;
+    margin-bottom: 1.5rem;
+    background-color: var(--col-secondary);
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
 

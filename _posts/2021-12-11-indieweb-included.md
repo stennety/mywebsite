@@ -5,7 +5,7 @@ date: 2021-12-11
 tags: [html, code, blogging, indieweb, microformats, seo, paulfosterdesign]
 ---
 
-In my [2017 year review](/blog/year-review-2017/), I expressed my frustration: 
+In my [2017 year review](/blog/year-review-2017/), I expressed my frustration with content discovery via third-party sites.
 
 > Content takes time to put together and it has become a little frustrating that algorithms are now firmly in the middle, deciding to show content that I have shared and made available. The non-chronological feed is a lottery.
 
@@ -45,7 +45,7 @@ With search engines and social networks all increasingly limiting the amount rea
 
 [Webmentions](https://indieweb.org/webmentions/) use microformats to allow you to contribute to [discussions across websites](/blog/mobile-browser-choice/). With compatible sites, when you link to or respond to posts, the author is notified of your post and can include a link back or excerpt to your post. Think, a more detailed pingback. Plus, as your content is represented elsewhere, you should ensure it’s accurate and displays well.
 
-_My post [HTML Elements Test](https://www.paulfosterdesign.co.uk/blog/html-elements-test/#mentions) has webmentions._
+_My post [HTML Elements Test](/blog/html-elements-test/) has webmentions._
 
 ### Syndication
 
@@ -65,4 +65,4 @@ My site is a lot more indie than before. I have sent and received webmentions an
 
 Ultimately you have to take ownership of your content because third parties have proven unreliable or willing to change the game many times. Use your site as the source of truth and your content can always be found as long as you want it to be.
 
-For further info to be more indie, indieweb.org is the place to start.
+For further info to be more indie, [indieweb.org](https://indieweb.org) is the place to start.

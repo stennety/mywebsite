@@ -9,7 +9,7 @@ In my [2017 year review](/blog/year-review-2017/), I expressed my frustration wi
 
 > Content takes time to put together and it has become a little frustrating that algorithms are now firmly in the middle, deciding to show content that I have shared and made available. The non-chronological feed is a lottery.
 
-This year I decided to make my site further compatible with the wider web and let my content by found and shared more organically.
+This year I decided to make my site further compatible with the wider web and let my content be found and shared more organically.
 
 The IndieWeb is a community that advocates for the individual (hence indie) web. Personal places for your content before third-parties outside of your control. 
 
@@ -19,11 +19,11 @@ Looking to go more indie, I soon discovered I had taken some of the steps withou
 
 * Copied previous blog content from [my Tumblr](/work/print-theme/) across, when I added a blog to this portfolio site.
 * Cross-posted my posts, by syndicating to CodePen Posts and my personal WordPress blog.
-* I've had an RSS feed since ~2007! I hand-coded it back in those static site days.
+* I’ve had an RSS feed since ~2007! I hand-coded it back in those static site days.
 
 ## Added IndieWeb
 
-I wanted to be more indie and there were a few layers to the process. Here's what I added:
+I wanted to be more indie and there were a few layers to the process. Here’s what I added:
 
 ### Rel Me
 
@@ -57,7 +57,7 @@ I always included links back to my original posts for this reason and to convinc
 
 ### Notes
 
-I haven’t yet implemented them, but I'm intrigued by the idea of notes (a status or reply) posts which cross-post to Twitter or other select networks.
+I haven’t yet implemented them, but I’m intrigued by the idea of notes (a status or reply) posts which cross-post to Twitter or other select networks.
 
 ## Indie Outcome
 

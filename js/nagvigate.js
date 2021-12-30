@@ -9,6 +9,7 @@ var html_insert_blog = `<ul class="nav-detail-content">
 var html_insert_book = `<ul class="nav-detail-content">
                                 <li><a href="https://andrewlee1807.github.io/books/Cheat Sheets for AI.pdf">Cheat Sheets for AI - <i>BecommingHuman.AI</i></a></li>
                                 <li><a href="https://andrewlee1807.github.io/books/Sách Deep Learning cơ bản.pdf">Deep learning (vi) - <i>Tran Thanh Tuan</i> </a></li>
+                                <li><a href="https://andrewlee1807.github.io/books/Survey of Neural Transfer Functions.pdf">Survey of Neural Transfer Functions - <i>Włodzisław Duch & Norbert Jankowski</i> </a></li>
                             </ul>`;
 var html_insert_project = `<ul class="nav-detail-content">
                                 <li><a href="#">Project 1</a></li>

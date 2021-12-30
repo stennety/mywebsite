@@ -32,17 +32,14 @@ h1 {
 }
 
 /*Can change to another font in here*/
-p {
+p, .nav-detail-content, .nav-detail-content a {
     font-family: 'Poiret One', serif;
     font-weight: 300;
     margin-top: 1px;
+    text-decoration-color: white;
     color: #FFFFFF;	
 }
 
-ul,
-li {
-    color: #666;
-}
 section {
     padding-top: 185px;
     padding-bottom: 185px;

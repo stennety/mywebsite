@@ -7,38 +7,16 @@ https://templatemo.com/tm-510-letter
 */
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 24px;
-	font-weight: 300;
-	overflow-x: hidden;
-	
+	overflow-x: hidden;	
 }
 
-a, button {
+button {
 	transition: all 0.3s ease;
 	color: #FFFFFF;
 }
 
 button:focus {
     outline: none;
-}
-
-a:hover {
-	color: #FFFF00;
-	text-decoration: underline;
-}
-a:focus {
-	text-decoration: none;
-	outline: none;
-}
-
-h1 {
-	color: #FFFFFF;
-	font-size: 4rem;	
-}
-
-p {
-	color: #FFFFFF;	
 }
 
 #particles-js {
@@ -80,7 +58,7 @@ p {
 .form-control {  
     color: #FFFFFF;
     border-radius: .5rem;
-    background-color: transparent;
+/*    background-color: transparent;*/
     border: 1px solid #FFFFFF;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -91,7 +69,7 @@ p {
 
 .form-section {  
     color: #FFFFFF;
-    background-color: transparent;
+/*    background-color: transparent;*/
     margin-bottom: 100px;
     
 }
@@ -159,7 +137,7 @@ p {
     position: absolute;
     top: 0px;
     left: 0px;
-    color: transparent;
+/*    color: transparent;*/
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: none;

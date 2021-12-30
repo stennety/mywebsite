@@ -1,0 +1,111 @@
+nav {
+  width: 300px;
+/*  background: white;*/
+  -webkit-clip-path: circle(24px at 30px 24px);
+/*  clip-path: circle(24px at 32px 24px);*/
+  -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+  transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+    backdrop-filter:blur(20px) brightness(110%);
+   -webkit-backdrop-filter: blur(20px) saturate(100%) contrast(60%) brightness(130%);
+    
+/*
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+*/
+
+}
+
+nav:hover {
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  -webkit-clip-path: circle(390px at 225px 24px);
+  clip-path: circle(390px at 150px 24px);
+}
+
+nav a {
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: 'Jura', Helvetica, Arial, sans-serif; 
+  color: inherit;
+  cursor: pointer;
+  color: rgba(256,256,256,0.95);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+nav a:hover { 
+/*    color: #800080;*/
+   color: #3CB371;
+   color: white;
+    
+    font-size: 16.5px;
+  animation: pulsate 1.5s infinite alternate;  
+
+}
+
+nav a:active { background: #000000; }
+
+.navicon {
+  padding: 23px 20px;
+  cursor: pointer;
+  -webkit-transform-origin: 32px 24px;
+  -ms-transform-origin: 32px 24px;
+  transform-origin: 32px 24px;
+}
+
+.navicon div {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: rgba(256, 256, 256, 1);
+}
+
+.navicon div:before,
+.navicon div:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: rgba(256, 256, 256, 1);
+  position: absolute;
+}
+
+.navicon div:before { top: -7px; }
+
+.navicon div:after { top: 7px; }
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe,
+      0 0 100px #bc13fe,
+      0 0 150px #bc13fe;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe,
+    0 0 70px #bc13fe,
+    0 0 80px #bc13fe;
+
+}

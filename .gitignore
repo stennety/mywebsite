@@ -13,3 +13,4 @@ package.json
 *.tfstate
 *.tfstate.backup
 packaged.yaml
+etc/packaged.yaml

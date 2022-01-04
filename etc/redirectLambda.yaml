@@ -1,0 +1,66 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: |
+  Lambda to 301 redirect from domainname to www.domainname
+Parameters:
+  DomainName:
+    Description: Website domain name, without www
+    Type: String
+Resources:
+  RedirectLambdaRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Path: '/'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - 'lambda.amazonaws.com'
+                - 'edgelambda.amazonaws.com'
+            Action: 'sts:AssumeRole'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
+  RedirectLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Handler: 'index.handler'
+      Runtime: 'nodejs12.x'
+      Description: !Sub 'Redirect function for ${DomainName}'
+      Role: !GetAtt 'RedirectLambdaRole.Arn'
+      Timeout: 3
+      Code:
+        ZipFile: |
+          'use strict';
+          exports.handler = (event, context, callback) => {
+              // Extract the request from the CloudFront event that is sent to Lambda@Edge
+              var request = event.Records[0].cf.request;
+
+              var params = '';
+              if(('querystring' in request) && (request.querystring.length>0)) {
+                  params = '?'+request.querystring;
+              }
+
+              var miduri = request.uri.replace(/(\/[\w\-_]+)$/, '$1/');
+              var newuri = "https://www.david-merrick.com" + miduri + params;
+
+              const response = {
+                  status: '301',
+                  statusDescription: 'Moved Permanently',
+                      headers: {
+                        location: [{
+                            key: 'Location',
+                            value: newuri
+                        }]
+                      }
+                  };
+              return callback(null, response);
+          };
+  RedirectLambdaVersion:
+    Type: 'AWS::Lambda::Version'
+    Properties:
+      FunctionName: !Ref 'RedirectLambda'
+Outputs:
+  LambdaArn:
+    Description: ARN of Lambda version
+    Value: !Ref 'RedirectLambdaVersion'

@@ -1,0 +1,119 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: |
+  CloudFormation templates for plumbing david-merrick.com.
+  Includes bucket and CloudFront distribution.
+Parameters:
+  DomainName:
+    Description: Website domain name, without www
+    Type: String
+    Default: 'david-merrick.com'
+Resources:
+  WebsiteBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Ref 'DomainName'
+      WebsiteConfiguration:
+        IndexDocument: 'index.html'
+        ErrorDocument: 'error.html'
+  Route53:
+    Type: 'AWS::CloudFormation::Stack'
+    Properties:
+      TemplateURL: 'route53.yaml'
+      Parameters:
+        SourceDomainName: !Ref 'DomainName'
+        WwwDistroDomain: !GetAtt 'CloudFrontDistribution.Outputs.DistributionDomainName'
+        NonWwwDistroDomain: !GetAtt 'NonWwwCloudFrontDistribution.DomainName'
+  ReadPolicy:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties:
+      Bucket: !Ref WebsiteBucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Sid: CloudFrontOrigin
+            Action: 's3:GetObject'
+            Effect: Allow
+            Resource: !Sub 'arn:aws:s3:::${WebsiteBucket}/*'
+            Principal:
+              CanonicalUser: !GetAtt 'CloudFrontOriginAccessIdentity.S3CanonicalUserId'
+  Certificate:
+    Type: 'AWS::CertificateManager::Certificate'
+    Properties:
+      DomainName: !Ref 'DomainName'
+      ValidationMethod: 'DNS'
+  WwwCertificate:
+    Type: 'AWS::CertificateManager::Certificate'
+    Properties:
+      DomainName: !Sub 'www.${DomainName}'
+      ValidationMethod: 'DNS'
+  CloudFrontOriginAccessIdentity:
+    Type: 'AWS::CloudFront::CloudFrontOriginAccessIdentity'
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: !Ref WebsiteBucket
+  CloudFrontDistribution:
+    Type: 'AWS::CloudFormation::Stack'
+    Properties:
+      TemplateURL: 'wwwDistro.yaml'
+      Parameters:
+        BucketUri: !GetAtt 'WebsiteBucket.DomainName'
+        CertArn: !Ref 'WwwCertificate'
+        DomainName: !Ref 'DomainName'
+        OAI: !Ref 'CloudFrontOriginAccessIdentity'
+  NonWwwCloudFrontDistribution:
+    Type: 'AWS::CloudFront::Distribution'
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - !Ref DomainName
+        ViewerCertificate:
+          AcmCertificateArn: !Ref Certificate
+          SslSupportMethod: 'sni-only'
+        DefaultCacheBehavior:
+          ViewerProtocolPolicy: 'redirect-to-https'
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          CachedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          TargetOriginId: myOrigin
+          LambdaFunctionAssociations:
+            - EventType: 'viewer-request'
+              LambdaFunctionARN: !GetAtt 'RedirectLambda.Outputs.LambdaArn'
+          Compress: true
+          DefaultTTL: 3600
+          ForwardedValues:
+            Cookies:
+              Forward: none
+            QueryString: false
+        Enabled: true
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 404
+            ResponsePagePath: '/404.html'
+        DefaultRootObject: 'index.html'
+        HttpVersion: http2
+        Origins:
+          # Placeholder value. Origin is all handled by Lambda
+          - DomainName: 'aws.amazon.com'
+            Id: myOrigin
+            CustomOriginConfig:
+              HTTPPort: 80
+              OriginProtocolPolicy: 'match-viewer'
+        PriceClass: 'PriceClass_All'
+  RedirectLambda:
+    Type: 'AWS::CloudFormation::Stack'
+    Properties:
+      TemplateURL: 'redirectLambda.yaml'
+      Parameters:
+        DomainName: !Ref 'DomainName'
+Outputs:
+  WwwDistro:
+    Description: Domain name of www distribution
+    Value: !GetAtt 'CloudFrontDistribution.Outputs.DistributionDomainName'
+  NonWwwDistro:
+    Description: Domain name of non-www distribution
+    Value: !GetAtt 'NonWwwCloudFrontDistribution.DomainName'

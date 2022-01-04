@@ -1,0 +1,152 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: "CloudFormation templates for plumbing david-merrick.com.\nIncludes\
+  \ bucket and CloudFront distribution.\n"
+Parameters:
+  DomainName:
+    Description: Website domain name, without www
+    Type: String
+    Default: david-merrick.com
+Resources:
+  WebsiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName:
+        Ref: DomainName
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+  Route53:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.us-east-1.amazonaws.com/merrick-cf-templates-east/899983278c803194bb3cab59688944ad.template
+      Parameters:
+        SourceDomainName:
+          Ref: DomainName
+        WwwDistroDomain:
+          Fn::GetAtt:
+          - CloudFrontDistribution
+          - Outputs.DistributionDomainName
+        NonWwwDistroDomain:
+          Fn::GetAtt:
+          - NonWwwCloudFrontDistribution
+          - DomainName
+  ReadPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket:
+        Ref: WebsiteBucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+        - Sid: CloudFrontOrigin
+          Action: s3:GetObject
+          Effect: Allow
+          Resource:
+            Fn::Sub: arn:aws:s3:::${WebsiteBucket}/*
+          Principal:
+            CanonicalUser:
+              Fn::GetAtt:
+              - CloudFrontOriginAccessIdentity
+              - S3CanonicalUserId
+
+  Certificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName:
+        Ref: DomainName
+      ValidationMethod: DNS
+  WwwCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName:
+        Fn::Sub: www.${DomainName}
+      ValidationMethod: DNS
+  CloudFrontOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment:
+          Ref: WebsiteBucket
+  CloudFrontDistribution:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.us-east-1.amazonaws.com/merrick-cf-templates-east/a75918b01773e4bab0c3c98864e96e0b.template
+      Parameters:
+        BucketUri:
+          Fn::GetAtt:
+          - WebsiteBucket
+          - DomainName
+        CertArn:
+          Ref: WwwCertificate
+        DomainName:
+          Ref: DomainName
+        OAI:
+          Ref: CloudFrontOriginAccessIdentity
+  NonWwwCloudFrontDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Aliases:
+        - Ref: DomainName
+        ViewerCertificate:
+          AcmCertificateArn:
+            Ref: Certificate
+          SslSupportMethod: sni-only
+        DefaultCacheBehavior:
+          ViewerProtocolPolicy: redirect-to-https
+          AllowedMethods:
+          - GET
+          - HEAD
+          - OPTIONS
+          CachedMethods:
+          - GET
+          - HEAD
+          - OPTIONS
+          TargetOriginId: myOrigin
+          LambdaFunctionAssociations:
+          - EventType: viewer-request
+            LambdaFunctionARN:
+              Fn::GetAtt:
+              - RedirectLambda
+              - Outputs.LambdaArn
+          Compress: true
+          DefaultTTL: 3600
+          ForwardedValues:
+            Cookies:
+              Forward: none
+            QueryString: false
+        Enabled: true
+        CustomErrorResponses:
+        - ErrorCode: 403
+          ResponseCode: 404
+          ResponsePagePath: /404.html
+        DefaultRootObject: index.html
+        HttpVersion: http2
+        Origins:
+        - DomainName: aws.amazon.com
+          Id: myOrigin
+          CustomOriginConfig:
+            HTTPPort: 80
+            OriginProtocolPolicy: match-viewer
+        PriceClass: PriceClass_All
+  RedirectLambda:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.us-east-1.amazonaws.com/merrick-cf-templates-east/0c2f2fd44bf9c5ffd9f2b23319f2fc4e.template
+      Parameters:
+        DomainName:
+          Ref: DomainName
+
+Outputs:
+  WwwDistro:
+    Description: Domain name of www distribution
+    Value:
+      Fn::GetAtt:
+      - CloudFrontDistribution
+      - Outputs.DistributionDomainName
+  NonWwwDistro:
+    Description: Domain name of non-www distribution
+    Value:
+      Fn::GetAtt:
+      - NonWwwCloudFrontDistribution
+      - DomainName

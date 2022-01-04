@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  CloudFormation templates for a Route53 domain that maps to
+  both www and non-www CloudFront distros
+Parameters:
+  CertArn:
+    Description: ARN for certificate
+    Type: String
+  DomainName:
+    Description: Domain name
+    Type: String
+  BucketUri:
+    Description: Uri for website bucket
+    Type: String
+  OAI:
+    Description: Origin access identity
+    Type: String
+Resources:
+  CloudFrontDistribution:
+    Type: 'AWS::CloudFront::Distribution'
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - !Sub 'www.${DomainName}'
+        ViewerCertificate:
+          AcmCertificateArn: !Ref CertArn
+          SslSupportMethod: 'sni-only'
+        DefaultCacheBehavior:
+          ViewerProtocolPolicy: 'redirect-to-https'
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          CachedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          TargetOriginId: s3Origin
+          Compress: true
+          DefaultTTL: 3600
+          ForwardedValues:
+            Cookies:
+              Forward: none
+            QueryString: false
+        Enabled: true
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 404
+            ResponsePagePath: '/404.html'
+        DefaultRootObject: 'index.html'
+        HttpVersion: http2
+        Origins:
+          - DomainName: !Ref 'BucketUri'
+            Id: s3Origin # Just needs to be unique within the distribution
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub 'origin-access-identity/cloudfront/${OAI}'
+        PriceClass: 'PriceClass_All'
+Outputs:
+  DistributionDomainName:
+    Description: Domain name of distribution
+    Value: !GetAtt 'CloudFrontDistribution.DomainName'

@@ -21,7 +21,7 @@ Package the templates:
 `aws cloudformation package --template-file etc/root.yaml --output-template packaged.yaml --s3-bucket merrick-cf-templates-east`
 
 Deploy the templates:
-`aws cloudformation deploy --template-file packaged.yaml --stack-name davidmerrickdotcom`
+`aws cloudformation deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --stack-name davidmerrickdotcom`
 
 # Gotchas
 - Lambda@Edge doesn't allow env vars, so gotta hardcode that domain name.

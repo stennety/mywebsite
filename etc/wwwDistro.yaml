@@ -52,8 +52,10 @@ Resources:
         Origins:
           - DomainName: !Ref 'BucketUri'
             Id: s3Origin # Just needs to be unique within the distribution
-            S3OriginConfig:
-              OriginAccessIdentity: !Sub 'origin-access-identity/cloudfront/${OAI}'
+            CustomOriginConfig:
+              HTTPPort: 80
+              HTTPSPort: 443
+              OriginProtocolPolicy: https-only
         PriceClass: 'PriceClass_All'
 Outputs:
   DistributionDomainName:

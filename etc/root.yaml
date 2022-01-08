@@ -34,8 +34,7 @@ Resources:
             Action: 's3:GetObject'
             Effect: Allow
             Resource: !Sub 'arn:aws:s3:::${WebsiteBucket}/*'
-            Principal:
-              CanonicalUser: !GetAtt 'CloudFrontOriginAccessIdentity.S3CanonicalUserId'
+            Principal: '*'
   Certificate:
     Type: 'AWS::CertificateManager::Certificate'
     Properties:
@@ -56,7 +55,7 @@ Resources:
     Properties:
       TemplateURL: 'wwwDistro.yaml'
       Parameters:
-        BucketUri: !GetAtt 'WebsiteBucket.DomainName'
+        BucketUri: !Sub '${WebsiteBucket}.s3-website.us-east-1.amazonaws.com'
         CertArn: !Ref 'WwwCertificate'
         DomainName: !Ref 'DomainName'
         OAI: !Ref 'CloudFrontOriginAccessIdentity'

@@ -55,7 +55,7 @@ Resources:
             CustomOriginConfig:
               HTTPPort: 80
               HTTPSPort: 443
-              OriginProtocolPolicy: https-only
+              OriginProtocolPolicy: http-only
         PriceClass: 'PriceClass_All'
 Outputs:
   DistributionDomainName:

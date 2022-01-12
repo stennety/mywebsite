@@ -34,10 +34,13 @@ I started my own tech consulting company - [Scarlette AI](https://www.scarlettea
 And that is where we are now.
 
 1) Wana hire me? [Scarlette AI](https://www.scarletteai.com)
+
 2) Wana work with me? Go ahead. [Pick a project](https://github.com/93tilinfinity), fork and commit.
+
 3) Wana contact me? twitter: [@HikeTyson](https://twitter.com/HikeTyson)
+
 4) Wana work out with me? [Westbourne Green Open Space](https://goo.gl/maps/fGDWMmBfxvb7JaP46), 1:30pm - 2:30pm Wed - Fri.
 
-Apart from that, I have no reason to keep you online so no need to follow me just live your life in the real world :earth_africa:.
+Apart from that, I have no reason to keep you online so no need to follow me on any platforms. Just live your life in the real world :earth_africa:.
 
 That’s all.

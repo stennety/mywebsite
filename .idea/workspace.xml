@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/bio.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="390">
-                <caret line="26" column="135" selection-start-line="26" selection-start-column="135" selection-end-line="26" selection-end-column="135" />
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -505,8 +505,8 @@
     <entry file="file://$PROJECT_DIR$/bio.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="135" selection-start-line="26" selection-start-column="135" selection-end-line="26" selection-end-column="135" />
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

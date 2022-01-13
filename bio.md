@@ -16,7 +16,7 @@ and my masters topic was about approximating difficult integrals using [Markov C
 Whilst at university, I read [Reminiscences of a Stock Operator](https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf),
  got hooked and decided to become a trader. So I moved back to London and soon began trading interest rate options at Barclays. 
  
-There, I didn't find strippers nor cocaine. But I did find something better. Programming. 
+There, I didn't find strippers or cocaine. But I did find something better. Programming. 
 
 Building my own systems was easier than attending IT prioritisation calls so that's what I did. Pretty soon it was clear that data displayed 
 in just the right format made my life easier. That meant more black numbers :chart_with_upwards_trend: and less [red](https://twitter.com/GSElevator/status/143459992618545152)

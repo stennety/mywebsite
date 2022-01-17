@@ -3,17 +3,20 @@ Description: |
   CloudFormation templates for a Route53 domain that maps to
   both www and non-www CloudFront distros
 Parameters:
+  BucketUri:
+    Description: Uri for website bucket
+    Type: String
   CertArn:
     Description: ARN for certificate
     Type: String
   DomainName:
     Description: Domain name
     Type: String
-  BucketUri:
-    Description: Uri for website bucket
-    Type: String
   OAI:
     Description: Origin access identity
+    Type: String
+  Referer:
+    Description: Secret referer string for restricting access to the buckets
     Type: String
 Resources:
   CloudFrontDistribution:
@@ -56,6 +59,9 @@ Resources:
               HTTPPort: 80
               HTTPSPort: 443
               OriginProtocolPolicy: http-only
+            OriginCustomHeaders:
+              - HeaderName: Referer
+                HeaderValue: !Ref Referer
         PriceClass: 'PriceClass_All'
 Outputs:
   DistributionDomainName:

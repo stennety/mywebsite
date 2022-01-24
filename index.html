@@ -79,9 +79,9 @@
      <table id="golf" class="display table-striped table-bordered" cellspacing="1" width="99%">
           <thead>
               <tr> 
-                <th>Region</th>
+                <th>Region</th> 
                 <th>Country</th>
-                <th>Location</th>
+                <th>Location</th> 
                 <th>Course</th> 
                 <th>Date</th> 
                 <th>Architect</th>
@@ -112,9 +112,9 @@
                     <td>{{ item.Architect }}</td>
                      <td>{{ item.Construction }}</td> 
                     <td>{{ item.History }}</td>
-                    <td>{{ item.TypeOfJob }}</td> 
+                    <td>{{ item.TypeOfJob }}</td>
                     <td>{{ item.Status }}</td>
-                    <td>{{ item.i100 }}</td> 
+                    <td>{{ item.i100 }}</td>
                     <td>{{ item.Bob }}</td>
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}

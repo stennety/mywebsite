@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: San Juan Islands Bike Trip 2021
 ---
 Posting this a few months late, but wanted to share a few photos and stories from a bike trip my dad and I took in October in the San Juan Islands.

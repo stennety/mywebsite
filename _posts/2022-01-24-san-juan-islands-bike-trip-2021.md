@@ -1,10 +1,14 @@
 ---
 published: true
-title: San Juan Islands Bike Trip 2021
+title: 'San Juan Islands Bike Trip, October 2021'
 ---
-Posting this a few months late, but wanted to share a few photos and stories from a bike trip my dad and I took in October in the San Juan Islands.
+Posting this a few months late, but wanted to share a few photos and stories from a bike trip my dad and I took in October in the San Juan Islands. 
 
 ![]({{site.cdn_path}}/2022/01/24/dad-david-orcas.jpeg)
+
+My dad retired in the spring of 2021, and I'm grateful for the extra time it's given us to go on bike trips together. We both bought carbon Trek Checkpoint gravel bikes over the summer.
+
+When we were scoping out this trip, we enjoyed watching [this video](https://www.youtube.com/watch?v=-WklwIuoF3k&ab_channel=PathLessPedaled) from the Path Less Pedaled YouTube channel. Unlike the Path Less Pedaled crew, we did not, in fact, watercolor paint along the way. But in true Merrick style, we did a ton of reading during our downtime.
 
 # Day 1: Orcas Island
 

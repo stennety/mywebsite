@@ -12,7 +12,7 @@ In my [2017 year review](/blog/year-review-2017/), I expressed my frustration wi
 
 This year I decided to make my site further compatible with the wider web and let my content be found and shared more organically.
 
-The IndieWeb is a community that advocates for the individual (hence indie) web. Personal places for your content before third-parties outside of your control. 
+The IndieWeb is a community that advocates for the individual (hence indie) web. Personal places for your content before third-party silos, outside of your control. 
 
 ## Indie Already
 

@@ -3,7 +3,7 @@ title: IndieWeb Included
 description: I detail the IndieWeb approach I have made with my website to make it more compatible with the wider web.
 date: 2021-12-11
 tags: [html, code, blogging, indieweb, microformats, seo, paulfosterdesign]
-syndicated: ['https://news.indieweb.org/en']
+syndicated: ['https://news.indieweb.org/en/www.paulfosterdesign.co.uk/blog/indieweb-included/']
 ---
 
 In my [2017 year review](/blog/year-review-2017/), I expressed my frustration with content discovery via third-party sites.

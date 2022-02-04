@@ -75,6 +75,7 @@ class Mentionable extends Component {
       this.setState({lazyload: false});
     }    
     this.state = {
+      error: null,
       lazyload: false,
       mentioncount: 0,
       msg: "",
@@ -84,7 +85,17 @@ class Mentionable extends Component {
       this.state.lazyload = this.isDatasaving();
     }
   }
+  
+  static getDerivedStateFromError(error) {
+    return { error: error.message }
+  }
 
+  componentDidCatch(error) {
+    console.error(error);
+    this.setState({ error: error.message });
+    this.setState({ msg: "Sorry, there has been an error"});
+  }
+  
   componentDidMount() {
     if (this.state.lazyload) {
       this._fetchCount().then(() => {

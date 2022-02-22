@@ -62,8 +62,10 @@ h1, h2, p {
     opacity: 1;
 }
 
-.figure--hover:is(:hover, :focus) {
-    transform: scale(1.05);
+@media (prefers-reduced-motion: no-preference) {
+    .figure--hover:is(:hover, :focus) {
+        transform: scale(1.05);
+    }
 }
 
 .wrap-preview {

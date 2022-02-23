@@ -1,7 +1,7 @@
 :root {
     --col-body: #fafafa;
-    --col-primary: #1f2345;
-    --col-secondary: rgba(10,0,10,.2);
+    --col-primary: #222a55;
+    --col-secondary: rgba(0,10,0,.2);
     --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
     --font-body: "Segoe UI", Tahoma, Arial, sans-serif;

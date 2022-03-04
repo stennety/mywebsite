@@ -3,7 +3,7 @@ title: Semantically Integrated CSS
 description: A personal example using ARIA state roles to progressively enhance and style an interactive element
 date: 2016-05-18
 source: 
-tags: [css, semantics, framework, theory, personal]
+tags: [css, semantics, framework, theory, personal, pickedpost]
 syndicated: ['https://codepen.io/plfstr/post/semantically-integrated-css']
 ---
 A recent A List Apart article [Meaningful CSS: Style Like You Mean It](http://alistapart.com/article/meaningful-css-style-like-you-mean-it), by Tim Baxter has caused a lot of furious posts in the frontend community. Personally, I think the subtext of the article is a response to class-happy and div-tastic reinvention of the wheel using non-semantic markup, rather than a call to abandon current CSS approaches that its been taken as.
@@ -27,3 +27,5 @@ This method reduced duplication in JS too. No need to toggle both a ARIA state a
 Ambiguity is less problematic too in a larger project. No wondering if you settled on .show/.hide, .is-open, .is-active, .is-toggled for active menus, tabs, forms etc.
 
 When applied to interactive components it is self policing and encourages accessibility. Styling and functionality are progressive and integrated. You gain the maximum accessible web component for your site, with the minimal markup.
+
+_Semantically Integrated CSS was chosen as a Picked Post on CodePen._

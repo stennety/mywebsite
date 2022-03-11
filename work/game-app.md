@@ -4,7 +4,7 @@ description: GAME App icon design and banners for the UI of GAME's iOS app.
 tags: [design, game, ios]
 alt: Game App
 ---
-{% include image.html image="gameapp.jpg" alt="Game App" %}
+{% include image.html image="gameapp.jpg" webp="gameapp.webp" alt="Game App" %}
 
 Because of my interest in mobile applications, I was asked to assist in providing representative icons for the UI and in-app banners for GAME’s first iOS application.
 

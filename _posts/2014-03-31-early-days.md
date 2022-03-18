@@ -12,7 +12,7 @@ In 2003 for something that was so revolutionary - and was trumpeted as being so 
 
 ## But then I got it
 
-I got into web design in 2006 when I finished university and was looking to start a career. I wanted a portfolio to show off my [product design degree work](/about/), I had Photoshop and a good eye for layout in hand, but I realised I hadn't the faintest idea how anything online actually got there. I'm sure I had probably seen the basics explained on Tomorrows World or the news reports about the dot com boom but that was it. 
+I got into web design in 2006 when I finished university and was looking to start a career. I wanted a portfolio to show off my [product design degree work](/productdesign/), I had Photoshop and a good eye for layout in hand, but I realised I hadn't the faintest idea how anything online actually got there. I'm sure I had probably seen the basics explained on Tomorrows World or the news reports about the dot com boom but that was it. 
 
 I started out on Notepad with W3Schools (i know right) with the very basics and built up from there. My web presence began with a [Mr Site](//uk.mrsite.com/) page, a custom header image and tweaking a template. When I started my first job I was still building pages in Dreamweaver using tables for layout! It wasn't until 2007 that I began learning CSS, uploaded my own site and here this is the forth major overhaul from then.
 

@@ -90,7 +90,9 @@
                 <th>Type of Job</th>
                 <th>Status</th>
                 <th>Past 100</th> 
+<!--
                 <th>Bob's Travel</th>
+-->
                 <th>YouTube</th> 
                 <th>Instagram</th>
                 <th>Twitter</th>
@@ -115,7 +117,9 @@
                     <td>{{ item.TypeOfJob }}</td> 
                     <td>{{ item.Status }}</td>
                     <td>{{ item.i100 }}</td>
+<!--
                     <td>{{ item.Bob }}</td>
+-->
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.Instagram }}</a> </td>

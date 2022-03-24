@@ -39,4 +39,4 @@ Then how do I answer this question? Meaningful relationships and meaningful work
 Meaningful relationships are easier to judge than meaningful work because the feedback loop for relationships are short. Every conversations builds or breaks the meaningfulness of the relationship between two people. Does every push to github build or break the meaningfulness of work? Hm, not for me. 
 
 So, the search for a good way to judge meaningful work continues. Ran Prieur wrote an article on [judging technology](https://www.ranprieur.com/tech.html). 
-It’s important. I’ve run out of time now but in the next post I’ll adapt some of the criteria for the context of deciding what to work on. If nothing else, it’s advice to myself to stop building shitty systems.
+It’s important. I’ve run out of time now but in the next post I’ll adapt some of the criteria for the context of deciding what to work on. If nothing else, it’s advice to myself on how to stop building shitty systems.

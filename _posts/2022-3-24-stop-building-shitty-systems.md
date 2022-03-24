@@ -8,7 +8,7 @@ In late 2019, I had dinner with two good friends in a dimly lit London bar. The 
 
 We were discussing an opportunity to do some consulting work together. One friend asked, “Sometimes when consulting, you don’t know the next job you’ll have to take. Are you willing to take a project and do whatever is needed to complete it?”
 
-“No”, I answered. I’m no mercenary. Would anyone give a shit about The Batman if he fought for payment? JaaS. Justice as a Service. And there’s already movie for that, The Hitman. And even then the plot is really about how dooming it is to be a hitman. Mercenaries don’t have character. 
+“No”, I answered. I’m no mercenary. Would anyone give a shit about The Batman if he fought for payment? Nobody cares about Justice as a Service (JaaS). And there’s already movie for that, The Hitman. And even then the plot is really about how dooming it is to be a hitman. Mercenaries don’t have character. 
 
 In 2021 I tried to be a mercenary, just to test it out. I started a consultancy firm but mainly did work for a single client. 0 marketing. That felt natural. I’m still not a mercenary.
 
@@ -16,7 +16,11 @@ In 2021 I tried to be a mercenary, just to test it out. I started a consultancy 
 
 ![can build vs should build](/images/2022_03/Screenshot_20220324-175540.png)
 
-Most interviews steer the conversation towards what you can do for them not what you should do for them. They wouldn’t dare entertain doubts over their existence whilst trying to hire. For any creative, exploring what you can do is a massively expansive adventure. Software engineering is creative - I don’t care who says otherwise. Along this adventure, you learn 3 fundamental things (especially if you take this adventure on by yourself). 
+Most interviews steer the conversation towards what you can do for them not what you should do for them. They wouldn’t dare entertain doubts over their existence whilst trying to hire. 
+
+For any creative, exploring what you can do is a massively expansive adventure. Software engineering is creative - I don’t care who says otherwise. 
+
+Along this adventure, you learn 3 fundamental things - especially if you take this adventure on by yourself.
 
 1. How to do research
 2. Coping with being a noob

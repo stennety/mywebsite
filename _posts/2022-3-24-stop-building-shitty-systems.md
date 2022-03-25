@@ -28,15 +28,15 @@ Along this adventure, you learn 3 fundamental things - especially if you take th
 
 This isn’t a conscious syllabus. I’d say about 3 years of side/main projects should be enough. It might take longer or shorter depending on what else you are dealing with in your life. If it takes longer so what, enjoy it.
 
-These 3 things are important because together they fortify the idea that you can build anything. Which you can. It’s just a phrase as a kid, but here’s the framework for actually being able to carry it out. 
+These 3 things are important because together they fortify the idea that you can build anything. Which you can. Now you have a framework for actually being able to carry it out. 
 
 At this point life looks different. You aren’t afraid to pick up something new, you aren’t overwhelmed by the fact that you know nothing, and you have confidence you can manifest reality around you. True power.
 
-Today, I look at job postings on linkedin and I feel nothing. That’s because a tech stack list, some obscure set of responsibilities and if you’re lucky, a salary contribute a grand total of 0 to the leading question in my head - “should I build this?”.
+Today, I look at job postings on linkedIn and I feel nothing. That’s because a tech stack list, some obscure set of responsibilities and a salary contribute a grand total of 0 to the leading question - “should I build this?”.
 
-Then how do I answer this question? Meaningful relationships and meaningful work is Dalio’s answer. I like it but it’s too vague. 
+How do I answer this question? Meaningful relationships and meaningful work is Dalio’s answer. I like it but it’s vague. 
 
-Meaningful relationships are easier to judge than meaningful work because the feedback loop for relationships are short. Every conversations builds or breaks the meaningfulness of the relationship between two people. Does every push to github build or break the meaningfulness of work? Hm, not for me. 
+Meaningful relationships are easier to judge than meaningful work because the feedback loop for relationships are short. Every conversations builds or breaks the meaningfulness of the relationship between two people. Does every push to github build or break the meaningfulness of work? Hmm. 
 
 So, the search for a good way to judge meaningful work continues. Ran Prieur wrote an article on [judging technology](https://www.ranprieur.com/tech.html). 
 It’s important. I’ve run out of time now but in the next post I’ll adapt some of the criteria for the context of deciding what to work on. If nothing else, it’s advice to myself on how to stop building shitty systems.

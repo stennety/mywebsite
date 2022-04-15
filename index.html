@@ -110,13 +110,13 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td> 
+                    <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>
                      <td>{{ item.Construction }}</td>
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td>
                     <td>{{ item.Status }}</td> 
-                    <td>{{ item.i100 }}</td>
+                    <td>{{ item.i100 }}</td> 
 <!--
                     <td>{{ item.Bob }}</td>
 -->
@@ -128,7 +128,7 @@
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
                     {% else %} <td></td>
                     {% endif %}              
-                    <td>{{ item.Budget }}</td> 
+                    <td>{{ item.Budget }}</td>
                     <td>{{ item.Comments }} </td>
                     <td>{{ item.DataCurated }} </td>
                   </tr>

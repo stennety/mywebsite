@@ -79,7 +79,7 @@
      <table id="golf" class="display table-striped table-bordered" cellspacing="1" width="99%">
           <thead>
               <tr> 
-                <th>Region</th>
+                <th>Region</th> 
                 <th>Country</th>
                 <th>Location</th>
                 <th>Course</th> 
@@ -126,7 +126,7 @@
                     {% else %} <td></td>
                     {% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
-                    {% else %} <td></td>
+                    {% else %} <td></td> 
                     {% endif %}              
                     <td>{{ item.Budget }}</td>
                     <td>{{ item.Comments }} </td> 

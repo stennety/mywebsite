@@ -1,8 +1,9 @@
 ---
 layout: post
 title: HackTheBox's Ropme pwn challenge writeup 
+description: "Ropme is a retired PWN challenge from Hack The Box. Here's how I solved it"
 ---
-Ropme is a retired PWN challenge from Hack The Box. Here's how I solved it:
+
 
 ### Binary Analysis
 First of all, I try to find the main function of the binary and then try to find a vulnerability that I can exploit. We see a rather simple main.
@@ -444,11 +445,11 @@ Sounds like a lot of work right? Well, luckily for us, we can use a tool that wi
 
 So, we could just plug the virtual address we see for `puts` and libc database will suggest what versions are possible that will yield such virtual address.
 
-![libc_db_input_1](./ropme/ld_1.png)
+![libc_db_input_1](/images/ropme/ld_1.png)
 
 Then we see the suggestions:
 
-![libc_db_input_2](./ropme/ld_2.png)
+![libc_db_input_2](/images/ropme/ld_2.png)
 
 Naturally, the more addresses we provide, the amount of possible versions shrinks.
 
@@ -560,11 +561,11 @@ server responded:
 
 Great! we have successfully leaked the address of `puts` on the remote machine. Let's look at that in libc database to maybe learn the version of libc on the remote machine:
 
-![libc_db_second_1](./ropme/libc_1.png)
-![libc_sb_second_2](./ropme/libc_2.png)
+![libc_db_second_1](/images/ropme/libc_1.png)
+![libc_sb_second_2](/images/ropme/libc_2.png)
 We got 2 matches, but both indicate the same libc version so the offset of the important stuff is the same (I checked). You can try as an exercise to call the server again and have it leak the location of `puts` again if you feel uncertain, or have the process return again to `puts` and this time also print the location of `fflush` and `fgets`. Clicking on one of the versions we see:
 
-![libc_sb_second_3](./ropme/libc_3.png)
+![libc_sb_second_3](/images/ropme/libc_3.png)
 
 Awesome! offsets of everything we look for! so in this leak, the virtual address we have for `puts` was `0x7f53bed07690`, which according to the table above, means that the libc base was at `0x7f53bed07690 - 0x67690 = 0x7f53beca0000`.
 

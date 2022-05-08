@@ -1,6 +1,8 @@
 ---
 layout: post
 title: HackTheBox's Oldbridge pwn challenge writeup 
+description: "Oldbridge is a retired PWN challenge from Hack The Box. Here's how I solved it"
+
 ---
 
 Oldbridge is a retired PWN challenge from Hack The Box. Here's how I solved it:

@@ -76,7 +76,7 @@ class Mentionable extends Component {
     }    
     this.state = {
       error: null,
-      lazyload: false,
+      lazyload: true,
       mentioncount: 0,
       msg: "",
       mentions: []      

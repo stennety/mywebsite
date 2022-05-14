@@ -6,7 +6,7 @@ function numberIntl(count) {
 
 // <Mentioncount/>
 function Mentioncount(props) {
-  return html`<span>(${ numberIntl(props.count) })</span>`;
+  return html`<span aria-label="webmentions" role="status">(${ numberIntl(props.count) })</span>`;
 }
 
 // Check author.name, fallback to using host name instead...

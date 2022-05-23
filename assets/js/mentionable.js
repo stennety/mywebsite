@@ -60,8 +60,7 @@ function Mentionslist(props) {
 
 // <Mentionsmessage/>
 function Mentionmessage(props) {
-  if (!props.msg) return null;
-  return html`<p role="alert">${props.msg}</p>`;
+  return props.msg ? html`<p role="alert">${props.msg}</p>` : null;
 }
 
 // <Mentionable/>

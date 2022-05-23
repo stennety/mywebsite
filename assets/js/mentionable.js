@@ -9,22 +9,22 @@ function Mentioncount(props) {
   return html`<span aria-label="webmentions" role="status">(${ numberIntl(props.count) })</span>`;
 }
 
-// Check author.name, fallback to using host name instead...
-function mentionname(name, url) {
-    return name ? name : new URL(url).host;
-}
-
 // Check published, fallback to webmention.io received date...
 function mentiondate(published, wmreceived) {
     return new Date(published ? published : wmreceived).toLocaleString();
 }
 
-// Check authorname, show url...
-function mentionurl(authorname, url) {
-  if (authorname) {
-    return ` (${new URL(url).host})`;
+// Return url host...
+function mentionurl(url) {
+  return new URL(url).host;
+}
+
+// <Mentionby/>
+function Mentionby(mentioner) {
+  if (mentioner.name) {
+    return html`<a href="${mentioner.url}" rel="nofollow ugc">${mentioner.name}</a> (${ mentionurl(mentioner.url) })`;
   } else {
-    return null;
+    return html`<a href="${mentioner.url}" rel="nofollow ugc">${ mentionurl(mentioner.url) }</a>`;
   }
 }
 
@@ -50,7 +50,7 @@ function Mentionslist(props) {
       } = mention) => {return html`
     <li>
       <p class="${wmproperty}">
-          <a href="${url}" rel="nofollow ugc">${mentionname(authorname, url)}</a>${mentionurl(authorname, url)}, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+        <${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
       </p>
     </li>
     `})}

@@ -20,11 +20,11 @@ function mentionurl(url) {
 }
 
 // <Mentionby/>
-function Mentionby(mentioner) {
-  if (mentioner.name) {
-    return html`<a href="${mentioner.url}" rel="nofollow ugc">${mentioner.name}</a> (${ mentionurl(mentioner.url) })`;
+function Mentionby(props) {
+  if (props.name) {
+    return html`<a href="${props.url}" rel="nofollow ugc">${props.name}</a> (${ mentionurl(props.url) })`;
   } else {
-    return html`<a href="${mentioner.url}" rel="nofollow ugc">${ mentionurl(mentioner.url) }</a>`;
+    return html`<a href="${props.url}" rel="nofollow ugc">${ mentionurl(props.url) }</a>`;
   }
 }
 

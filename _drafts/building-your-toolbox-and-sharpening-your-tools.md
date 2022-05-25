@@ -7,9 +7,12 @@ tags:
 date: 2022-05-25 00:00:00 +0100
 
 ---
-TL;DR;
+Tool long, didn't read:
 
-* 
+* Tools can include mental models, methods or software
+* Get inspired by following people on social media, read blogs and attend conferences
+* Learn new tools from resources such as presentations, blogs. books, tutorials and courses
+* Create regular opportunities to practice using tools, so you can be comfortable using them and even teaching others
 
 Tester? Quality Engineer? QA? There rare many named roles in Software Testing, that can imply different work and scope, but often involve some of the same core skills.
 
@@ -28,6 +31,11 @@ As I have grown in software testing over my career, I like to think I've made pr
 So how did I build by tool box? I can split this down into two parts:
 
 ### Learn from resources
+
+Resources I've learned from include:
+
+* \[Book\] [Explore It!](https://www.amazon.co.uk/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025) -[ Elisabeth Hendrickson](https://twitter.com/testobsessed)
+* 
 
 ### Learn by experimentation
 

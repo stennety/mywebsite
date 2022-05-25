@@ -22,7 +22,9 @@ What is your bag? People, Process, or Product? This is the question that has led
 
 In response I gleefully welcome Meg to my world, where I attempt to blend all of these things into my current role as a Quality Engineer.
 
-![](/uploads/screenshot-from-2022-05-25-18-16-29.png)
+![Tweet about Quality Engineering](/uploads/screenshot-from-2022-05-25-18-27-24.png "Tweet")
+
+[https://twitter.com/FullSnackTester/status/1529206878793871361](https://twitter.com/FullSnackTester/status/1529206878793871361 "https://twitter.com/FullSnackTester/status/1529206878793871361")
 
 Think about this a bit more, what did I mean and how can it be helpful for others?
 

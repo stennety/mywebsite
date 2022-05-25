@@ -35,7 +35,9 @@ So how did I build by tool box? I can split this down into two parts:
 Resources I've learned from include:
 
 * \[Book\] [Explore It!](https://www.amazon.co.uk/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025) -[ Elisabeth Hendrickson](https://twitter.com/testobsessed)
-* 
+* \[Course\] [Test Automation University](https://testautomationu.applitools.com/)
+* \[Blog\] [QA Hiccups](https://qahiccupps.blogspot.com/) - [James Thomas](https://twitter.com/qahiccupps)
+* \[Blog\] [A Tester's Journey]() -[ Lisi Hocke](https://twitter.com/lisihocke)
 
 ### Learn by experimentation
 

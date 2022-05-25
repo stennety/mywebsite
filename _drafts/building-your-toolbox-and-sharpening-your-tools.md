@@ -14,6 +14,8 @@ Tool long, didn't read:
 * Learn new tools from resources such as presentations, blogs. books, tutorials and courses
 * Create regular opportunities to practice using tools, so you can be comfortable using them and even teaching others
 
+## Quality Engineering
+
 Tester? Quality Engineer? QA? There rare many named roles in Software Testing, that can imply different work and scope, but often involve some of the same core skills.
 
 What is your bag? People, Process, or Product? This is the question that has led Meg to have a Job role existential crisis!
@@ -38,8 +40,13 @@ Resources I've learned from include:
 * \[Course\] [Test Automation University](https://testautomationu.applitools.com/)
 * \[Blog\] [QA Hiccups](https://qahiccupps.blogspot.com/) - [James Thomas](https://twitter.com/qahiccupps)
 * \[Blog\] [A Tester's Journey]() -[ Lisi Hocke](https://twitter.com/lisihocke)
+* \[Newsletter\] [Software Testing Weekly](https://softwaretestingweekly.com/)
 
 ### Learn by experimentation
+
+Another excellent way of learning new tools, techniques and methods I've used is by finding opportunities to try things out.
+
+By running short experiments, we can quickly find out if something is worth further effort to learn deeper. While I have tried out many tools and run many short experiments, I don't have a useful example to share.
 
 ## Sharpen your tools
 

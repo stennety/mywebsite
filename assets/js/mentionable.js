@@ -96,7 +96,7 @@ class Mentionable extends Component {
     if (this.state.lazyload) {
       this._fetchCount().then(() => {
         if (this.state.mentioncount) {
-          this.setState({msg: `Load ${this.state.mentioncount} webmentions?`});
+          this.setState({msg: `Load ${this.state.mentioncount} ${this.state.mentioncount !== 1 ? 'webmentions' : 'webmention'}?`});
           document.querySelector('#mentions').setAttribute('aria-live', 'polite');
           document.querySelector('#mentions').setAttribute('aria-atomic', 'true');
         } else {

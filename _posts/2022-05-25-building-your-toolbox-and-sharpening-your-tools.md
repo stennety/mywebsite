@@ -38,7 +38,7 @@ If you want a toolbox that covers People, Process and Product, you will need to 
 
 ### Learn from resources
 
-The primary way to learn new things, is to start by consuming resources. You may already be familiar with learning from Books, Courses, Blogs and other resources. 
+The primary way to learn new things, is to start by consuming resources. You may already be familiar with learning from Books, Courses, Blogs and other resources.
 
 Resources I've learned from include:
 

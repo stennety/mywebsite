@@ -30,9 +30,15 @@ Think about this a bit more, what did I mean and how can it be helpful for other
 
 As I have grown in software testing over my career, I like to think I've made progress becoming a better Tester. A large part of what that means to me, is that I have expanded my toolbox. I know more ways to solve problems, so not every problem looks like a nail and I reach for my hammer less and less.
 
-So how did I build by tool box? I can split this down into two parts:
+### What are tools?
+
+In this context, as well as software tools such as Postman, I also mean thinking tools like MindMaps, and techniques like Exploratory Testing.
+
+If you want a toolbox that covers People, Process and Product, you will need to collect a broad range of tools.
 
 ### Learn from resources
+
+The primary way to learn new things, is to start by consuming resources. You may already be familiar with learning from Books, Courses, Blogs and other resources. 
 
 Resources I've learned from include:
 

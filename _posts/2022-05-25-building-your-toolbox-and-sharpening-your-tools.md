@@ -7,7 +7,7 @@ tags:
 date: 2022-05-25 00:00:00 +0100
 
 ---
-Tool long, didn't read:
+Too long, didn't read:
 
 * Tools can include mental models, methods or software
 * Get inspired by following people on social media, read blogs and attend conferences
@@ -16,7 +16,7 @@ Tool long, didn't read:
 
 ## Quality Engineering
 
-Tester? Quality Engineer? QA? There rare many named roles in Software Testing, that can imply different work and scope, but often involve some of the same core skills.
+Tester? Quality Engineer? QA? There are many named roles in Software Testing, that can imply different work and scope, but often involve some of the same core skills.
 
 What is your bag? People, Process, or Product? This is the question that has led Meg to have a Job role existential crisis!
 
@@ -46,7 +46,7 @@ Resources I've learned from include:
 
 * \[Book\] [Explore It!](https://www.amazon.co.uk/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025) -[ Elisabeth Hendrickson](https://twitter.com/testobsessed)
 * \[Course\] [Test Automation University](https://testautomationu.applitools.com/)
-* \[Blog\] [QA Hiccups](https://qahiccupps.blogspot.com/) - [James Thomas](https://twitter.com/qahiccupps)
+* \[Blog\] [QA Hiccupps](https://qahiccupps.blogspot.com/) - [James Thomas](https://twitter.com/qahiccupps)
 * \[Blog\] [A Tester's Journey]() -[ Lisi Hocke](https://twitter.com/lisihocke)
 * \[Newsletter\] [Software Testing Weekly](https://softwaretestingweekly.com/)
 

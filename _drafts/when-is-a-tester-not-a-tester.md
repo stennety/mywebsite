@@ -78,6 +78,28 @@ Food for thought: Does this mean I've been doing loads of "not Tester" work? Or 
 
 Besides Scrum Master and Developer, many of these roles are also not defined in the Scrum guide.
 
-## Testing by non-Testers
+## So who is doing all the testing?
+
+So, if it's not being done by Software Testers, whatever their role and title, who is going to do all that testing?
+
+Are we really going to take a huge step backwards in the Software industry, and stop testing?
+
+This is where we need to have a think about context and maturity. Some teams may well do just fine with testing being done wholly by people who are titled as Developers.
+
+What about when your existing Software Developers don't have experience in testing software? Or maybe their idea of testing is no more advanced then checking against the acceptance criteria and maybe some unit tests.
+
+A Product Owner might take on some parts of what a Software Tester does. Some people I've worked with that have Product in their title have wanted to try things out for themselves, they have asked great questions in demos and given team good feedback. This works great when your team is making Websites or other software that can be demoed visually. It's less useful for teams working on back-end APIs or libraries.
+
+What about automation, you might say? Automation is great, and should be a health part of your software development process. In my experience automation is not sufficient to evaluate the usefulness of software, access its value or experience the usability, emotional response or goodness. I've also seen some pretty awful automation, that hasn't covered risks and has missed the key, high priority parts of what a product should do.
+
+When developing automation myself, I've often found it is the analysis and testing I've done on the journey to build it, that has found the bugs, not the automation itself. In my experience, automation is not the answer in and of itself.
+
+## Quality Engineering
+
+The return of the Software Tester! But this time, we are more likely to be called Quality Coach, or as I am Quality Engineer.
+
+So, is Quality Engineer just another way of saying Tester? Maybe. I hope not. I've had some very interesting conversations about Quality Engineering with [Stu Crock](https://twitter.com/StooCrock "Stu Crock on Twitter"), [Neil Younger](https://www.linkedin.com/in/neil-younger/ "Neil Younger on LinkedIn"), [Jessica Bane](https://www.linkedin.com/in/jessica-bane-testing-mermaid/ "Jessica Bane on LinkedIn") and [Dan Ashby](https://twitter.com/DanAshby04 "Dan Ashby on Twitter"). Full disclosure, I currently work with Dan at [Ada Health](https://ada.com/ "Ada Health Website").
 
 ## Testing Advocacy
+
+## Long live Software Testers

@@ -126,6 +126,16 @@ I have my own reasons for considering myself a Testing Advocate:
 
 * I support and promote the craft of software testing, at work and in the community
 * I support the community to recognize contributions to software testing
-* I 
+* I coach others in the joy of testing
 
 ## Long live Software Testers
+
+[Nicola Lindgren](https://twitter.com/NicolaLindgren "Nicola Lindgren on Twitter") recently [asked on Twitter ](https://twitter.com/NicolaLindgren/status/1530504214547505155 "Nicola's post on Twitter")if a job tittle matters. At the time of writing, the poll is on 55% Yes, 45% No with 88 votes cast and 17 hours to go.
+
+The context of her question was about seniority, and if you would take a job with a less senior title when moving jobs. But another way to think about the question is if job role matters to you?
+
+To me, it matters. It matters because it helps shape the way I think about the role, and therefore the way I set myself expectations and this influences actions I take. It matters because it shapes the way others see the role, and their expectations.
+
+Job title and role are not the only thing that matter, and both can be overcome or outgrown by context and communication.
+
+In summary, I have always been, and never been, and always will be a Software Tester.

@@ -58,6 +58,7 @@ In all these roles, I have tested software. With the exception of my first few y
 
 As part of agile teams, I have:
 
+* Written user stories and set acceptance criteria
 * Refined work items (stories, tasks, etc) and added estimates
 * Managed backlogs and prioritized work
 * Taken part in and run stand-ups and retrospectives
@@ -70,7 +71,12 @@ In some of my roles, I've also done some very technical tasks, that you may or m
 * Developed automated checking frameworks
 * Fixed bugs in configuration and code
 * Built infrastructure, software and hardware for test labs
-* 
+
+Some of the things I've done, could of been done by a Product Manager, a Business Analyst,  a Scrum Master, a Designer, a Software Developer, a Solutions Architect or one of many other roles.
+
+Food for thought: Does this mean I've been doing loads of "not Tester" work? Or does it mean the role of a Tester has wide and varied, and can be flexible enough to fill gaps that could be taken on by other roles?
+
+Besides Scrum Master and Developer, many of these roles are also not defined in the Scrum guide.
 
 ## Testing by non-Testers
 

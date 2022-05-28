@@ -13,3 +13,17 @@ There are many competing thoughts on Software Testing and especially the roles w
 How much is too much?  Are there any boundaries, and should they exist? If Testing is an activity, and Quality is a whole team responsibility, who are the Testers?
 
 I'm going to indulge in discussing some thoughts and asking some questions. What I won't do is give definitive answers, because as it should be, your context will be different to mine.
+
+## Agile Teams
+
+For the approximately the first two years of my 
+
+## Modern Software Testing Principles
+
+blah
+
+## The many roles of the Software Tester
+
+## Testing by non-Testers
+
+## Testing Advocacy

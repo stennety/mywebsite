@@ -24,7 +24,7 @@ I'm confident independent Test teams still exist, and some companies will still 
 
 ## Modern Software Testing Principles
 
-blah
+The [Modern Testing Principles](https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles) - by [Alan Page](https://twitter.com/alanpage "Alan Page on Twitter") and [Brent Jensen](https://twitter.com/BrentMJensen "Brent Jensen on Twitter") have gained some popularity, and caused some controversy in the Software Testing and Development communities.
 
 ## The many roles of the Software Tester
 

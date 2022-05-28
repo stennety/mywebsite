@@ -96,10 +96,36 @@ When developing automation myself, I've often found it is the analysis and testi
 
 ## Quality Engineering
 
-The return of the Software Tester! But this time, we are more likely to be called Quality Coach, or, as I am, Quality Engineer.
+The return of the Software Tester! But this time, we are more likely to be called Quality Coach, or as I am a Quality Engineer.
+
+I'm still learning about Quality Engineering, and what it is like to be a Quality Engineer. I've been a QE now for about 11 months at time of writing. And so far, it feels a lot like being a Software Tester, but with a wider scope and some opportunities for coaching.
 
 So, is Quality Engineer just another way of saying Tester? Maybe. I hope not. I've had some very interesting conversations about Quality Engineering with [Stu Crock](https://twitter.com/StooCrock "Stu Crock on Twitter"), [Neil Younger](https://www.linkedin.com/in/neil-younger/ "Neil Younger on LinkedIn"), [Jessica Bane](https://www.linkedin.com/in/jessica-bane-testing-mermaid/ "Jessica Bane on LinkedIn") and [Dan Ashby](https://twitter.com/DanAshby04 "Dan Ashby on Twitter"). Full disclosure, I currently work with Dan at [Ada Health](https://ada.com/ "Ada Health Website").
 
+All agree that Quality Engineering is about more then simply the act of doing all the testing, within the context of a single team. The topic of coaching and supporting teams comes up often, and the idea of teaching by doing.
+
+Quality Engineering could easily include building frameworks to support other people to do testing. Advocating for a whole team approach to quality, and considering quality issues beyond the immediate deliverable of the team, software. Quality Engineering also includes work to improve Processes, Designs, and generally improve the support for teams to produce better products.
+
+Like Testing, Quality Engineering is not the same to all people. The main question is still the same: Does Quality Engineering, mean we need people with the role of Quality Engineer? This is where there is some disagreement, and again it comes down to context and maturity.
+
+Can you do Quality Engineering without having any Quality Engineers or Testers? Yes! At least Stu is currently doing just that right now in his context. He is in a context where he is the Head of Quality Engineering in a company that has no Testers, no Quality Engineers. And last I checked in with Stu, it was going very well.
+
+In another context, Neil and Jessica are at Omnipresent. They are currently scaling quickly, with new teams coming on board often. Neil started as the only Quality Engineer, [but is now hiring](https://www.linkedin.com/feed/update/urn:li:activity:6927559055351672832/ "Neil is hiring QEs") others to support him as the number of teams that get value from a QE is growing faster then he scan scale the support he alone gives.
+
+Finally to my own context. I work at Ada Health, a health technology company operating in a world where our software is classified as a medical device, and such requires compliance with regulation. Dan started two years ago at Ada Health as Director of Quality Services, and has proceeded to build an amazing team of Quality Engineers, that I am proud to be part of. In my context, most teams have their own Quality Engineer.
+
+As a Quality Engineer at Ada Health, I belong to an agile team. It has been an interesting journey finding my feet as a QE, working with Developers some of whom had never worked with a Tester (of any role or title) before.
+
+As well as supporting my immediate team, I have the pleasure of extending my scope and working with other teams in my group to support their testing activities. I am having a huge amount of success working with the Medical Knowledge Engineers (Doctors) to bring practices from Software Testing to their world of testing for medical correctness and safety.
+
 ## Testing Advocacy
+
+[Karen Todd](https://www.linkedin.com/in/karen-todd-48b242114/ "Karen Todd on LinkedIn") has been doing an amazing job talking about Testing Advocacy, and working with the community to define the term. If you haven't already seen it, I highly recommend you check out [@KarenTestsStuff on YouTube](https://www.youtube.com/channel/UCaILiR0XEzf0Y1QvibzybCQ "Karen Tests Stuff on YouTube"), where she has a number of great interviews discussing the topic.
+
+I have my own reasons for considering myself a Testing Advocate:
+
+* I support and promote the craft of software testing, at work and in the community
+* I support the community to recognize contributions to software testing
+* I 
 
 ## Long live Software Testers

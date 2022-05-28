@@ -16,7 +16,11 @@ I'm going to indulge in discussing some thoughts and asking some questions. What
 
 ## Agile Teams
 
-For the approximately the first two years of my 
+For the approximately the first two years of my career I worked in an independent Test team, working on a Waterfall project. All work was estimated, and planned and was assigned to me. There was some comfort in this, I didn't have to spend time figuring out if I was doing valuable work, I just did as I was told as well as I could.
+
+Every since Citrix, where I was working in my early career, went though an "Agile Transformation", I have joined teams and worked alongside Developers.
+
+I'm confident independent Test teams still exist, and some companies will still be working in Waterfall. My context, is that Agile and indeed being agile, is now how I expect to work and where I have experience.
 
 ## Modern Software Testing Principles
 

@@ -62,6 +62,16 @@ As part of agile teams, I have:
 * Managed backlogs and prioritized work
 * Taken part in and run stand-ups and retrospectives
 
+I've also done many other communication and glue work type of tasks. In one role, when working for a small consultancy, I worked very closely with clients. Reproducing bugs and even helping to determine if things where not bugs, but in fact missing requirements that may need extra payments.
+
+In some of my roles, I've also done some very technical tasks, that you may or may not consider part of Software Testing:
+
+* Developed testing tools
+* Developed automated checking frameworks
+* Fixed bugs in configuration and code
+* Built infrastructure, software and hardware for test labs
+* 
+
 ## Testing by non-Testers
 
 ## Testing Advocacy

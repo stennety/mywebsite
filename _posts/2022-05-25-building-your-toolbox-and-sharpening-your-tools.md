@@ -60,7 +60,7 @@ By running short experiments, we can quickly find out if something is worth furt
 
 Now you know a bunch of new things, you have new tools in your toolbox! This is a great start, because it expands your knowledge base and helps you choose more specific tools for the problems you encounter.
 
-What I find, is that however much knowledge I consume, however much theory I ingest, I don't feel comfortable using tools until I've spent a good amount of time being uncomfortable and practising using them.
+What I find, is that however much knowledge I consume, however much theory I ingest, I don't feel comfortable using tools until I've spent a good amount of time being uncomfortable and practice using them.
 
 Around the start of the year I had done some good learning Exploratory Testing form resources, but I was not comfortable using it regularly.
 

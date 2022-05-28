@@ -96,7 +96,7 @@ When developing automation myself, I've often found it is the analysis and testi
 
 ## Quality Engineering
 
-The return of the Software Tester! But this time, we are more likely to be called Quality Coach, or as I am Quality Engineer.
+The return of the Software Tester! But this time, we are more likely to be called Quality Coach, or, as I am, Quality Engineer.
 
 So, is Quality Engineer just another way of saying Tester? Maybe. I hope not. I've had some very interesting conversations about Quality Engineering with [Stu Crock](https://twitter.com/StooCrock "Stu Crock on Twitter"), [Neil Younger](https://www.linkedin.com/in/neil-younger/ "Neil Younger on LinkedIn"), [Jessica Bane](https://www.linkedin.com/in/jessica-bane-testing-mermaid/ "Jessica Bane on LinkedIn") and [Dan Ashby](https://twitter.com/DanAshby04 "Dan Ashby on Twitter"). Full disclosure, I currently work with Dan at [Ada Health](https://ada.com/ "Ada Health Website").
 

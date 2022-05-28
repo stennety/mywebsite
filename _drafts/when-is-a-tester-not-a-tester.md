@@ -42,6 +42,8 @@ But wait a moment, this also lines up with the Scrum Guide! So, what is there le
 
 ## The many roles of the Software Tester
 
+For 
+
 ## Testing by non-Testers
 
 ## Testing Advocacy

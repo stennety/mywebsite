@@ -49,7 +49,18 @@ Roles I have held are:
 * Software Test Engineer
 * Software Quality Analyst
 * Quality Manager
-* Software Quality Assurance Test Engineer
+* QA Engineer
+* Quality Engineer
+
+In all of these roles, I have done some things that are similar, and some things that are wildly different.
+
+In all these roles, I have tested software. With the exception of my first few years at Citrix, I have always been a member of an agile team. The different teams I've been on have all done agile differently, but I've always joined in with whatever ceremonies and activities the team as done as part of building software.
+
+As part of agile teams, I have:
+
+* Refined work items (stories, tasks, etc) and added estimates
+* Managed backlogs and prioritized work
+* Taken part in and run stand-ups and retrospectives
 
 ## Testing by non-Testers
 

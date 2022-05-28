@@ -42,7 +42,14 @@ But wait a moment, this also lines up with the Scrum Guide! So, what is there le
 
 ## The many roles of the Software Tester
 
-For 
+While I identify as a Software Tester, that has never been my exact job title.
+
+Roles I have held are:
+
+* Software Test Engineer
+* Software Quality Analyst
+* Quality Manager
+* Software Quality Assurance Test Engineer
 
 ## Testing by non-Testers
 

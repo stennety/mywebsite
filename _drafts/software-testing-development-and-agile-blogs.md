@@ -26,3 +26,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://www.zeljkovic.sh/blog/](https://www.zeljkovic.sh/blog/ "https://www.zeljkovic.sh/blog/") - [**Aleksandar Zeljković**](https://twitter.com/a_zeljkovic)
 
 [https://cristianomcunha.com/](https://cristianomcunha.com/ "https://cristianomcunha.com/") - [**Cristiano Cunha**](https://twitter.com/Melioth)
+
+[https://dev.to/ashleygraf_](https://dev.to/ashleygraf_ "https://dev.to/ashleygraf_") - [**Ashley Graf**](https://twitter.com/ashleygraf_)

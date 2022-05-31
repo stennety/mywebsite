@@ -76,3 +76,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://rieckpil.de/](https://rieckpil.de/ "https://rieckpil.de/") - [**Philip Riecks**](https://twitter.com/rieckpil)
 
 [https://www.mariedrake.com/](https://www.mariedrake.com/ "https://www.mariedrake.com/") - [**Marie Drake**](https://twitter.com/mcruzdrake)
+
+[https://testandanalysis.home.blog/](https://testandanalysis.home.blog/ "https://testandanalysis.home.blog/") - [**Mike Harris**](https://twitter.com/TestAndAnalysis)

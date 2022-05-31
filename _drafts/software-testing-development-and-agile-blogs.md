@@ -56,3 +56,7 @@ date: 2022-05-31 00:00:00 +0100
 [https://testersdigest.blogspot.com/](https://testersdigest.blogspot.com/ "https://testersdigest.blogspot.com/?m=1") - [**Dheeraj Gambhir**](https://twitter.com/dheerajgambhir)
 
 [https://flynnbops.github.io/](https://flynnbops.github.io/ "https://flynnbops.github.io/") - [**Aaron Flynn**](https://twitter.com/flynnbops)
+
+[https://typeshare.co/vernonrichards](https://typeshare.co/vernonrichards "https://typeshare.co/vernonrichards") - [**Vernon Richards**](https://twitter.com/TesterFromLeic)
+
+[https://qualitybits.tech/](https://qualitybits.tech/ "https://qualitybits.tech/") - [**Lina Zubyte**](https://twitter.com/buggylina)

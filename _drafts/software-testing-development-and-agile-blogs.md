@@ -36,3 +36,9 @@ date: 2022-05-31 00:00:00 +0100
 [https://emnaayadi.com/](https://emnaayadi.com/ "https://emnaayadi.com/") - [**Emna Ayadi**](https://twitter.com/emna__ayadi)
 
 [https://randomtechthoughts.blog/](https://randomtechthoughts.blog/ "https://randomtechthoughts.blog/") - [**Bob Salmon**](https://twitter.com/BobTechThoughts)
+
+[https://jlottosen.wordpress.com/](https://jlottosen.wordpress.com/ "https://jlottosen.wordpress.com/") - [**Jesper**](https://twitter.com/jlottosen)
+
+[https://critical-qa.info/](https://critical-qa.info/ "https://critical-qa.info/") - [**Loivado**](https://twitter.com/Loivado)
+
+[https://automationpanda.com/](https://automationpanda.com/ "https://automationpanda.com/") - [**Pandy Knight**](https://twitter.com/AutomationPanda)

@@ -20,3 +20,7 @@ date: 2022-05-31 00:00:00 +0100
 [http://agiletester.ca/blog](http://agiletester.ca/blog "http://agiletester.ca/blog") - [**Janet Gregory**](https://twitter.com/janetgregoryca) and [**Lisa Crispin**](https://twitter.com/lisacrispin)
 
 [http://lisacrispin.com](http://lisacrispin.com "http://lisacrispin.com") - [**Lisa Crispin**](https://twitter.com/lisacrispin)
+
+[https://www.lisihocke.com/](https://www.lisihocke.com/ "https://www.lisihocke.com/") - [**Lisi Hocke**](https://twitter.com/lisihocke)
+
+[https://www.zeljkovic.sh/blog/](https://www.zeljkovic.sh/blog/ "https://www.zeljkovic.sh/blog/") - [**Aleksandar Zeljković**](https://twitter.com/a_zeljkovic)

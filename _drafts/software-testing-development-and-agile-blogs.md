@@ -30,3 +30,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://dev.to/ashleygraf_](https://dev.to/ashleygraf_ "https://dev.to/ashleygraf_") - [**Ashley Graf**](https://twitter.com/ashleygraf_)
 
 [https://g33klady.com/](https://g33klady.com/ "https://g33klady.com/") - [**Hilary aka H-Bomb**](https://twitter.com/g33klady)
+
+[https://fishouthebox.medium.com/](https://fishouthebox.medium.com/ "https://fishouthebox.medium.com/") - [**Melissa Fisher**](https://twitter.com/fishouthebox)

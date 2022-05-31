@@ -42,3 +42,15 @@ date: 2022-05-31 00:00:00 +0100
 [https://critical-qa.info/](https://critical-qa.info/ "https://critical-qa.info/") - [**Loivado**](https://twitter.com/Loivado)
 
 [https://automationpanda.com/](https://automationpanda.com/ "https://automationpanda.com/") - [**Pandy Knight**](https://twitter.com/AutomationPanda)
+
+[https://mindfultester.com/](https://mindfultester.com/ "https://mindfultester.com/") - [**ir. Han Toan Lim**](https://twitter.com/MIndfulTester)
+
+[https://www.softwaretester.blog/](https://www.softwaretester.blog/ "https://www.softwaretester.blog/") - [**Benjamin Bischoff**](https://twitter.com/BischoffDev)
+
+[http://www.eliasnogueira.com/](http://www.eliasnogueira.com/ "http://www.eliasnogueira.com/") - [**Elias Nogueira**](https://twitter.com/eliasnogueira)
+
+[https://testingtitbits.com/](https://testingtitbits.com/ "https://testingtitbits.com/") - [**Rahul Parwal**](https://twitter.com/parwalrahul)
+
+[https://seasidetesting.com/](https://seasidetesting.com/ "https://seasidetesting.com/") - [**Stephan Kämper**](https://twitter.com/S_2K)
+
+[https://testersdigest.blogspot.com/](https://testersdigest.blogspot.com/ "https://testersdigest.blogspot.com/?m=1") - [**Dheeraj Gambhir**](https://twitter.com/dheerajgambhir)

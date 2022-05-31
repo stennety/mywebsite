@@ -67,8 +67,12 @@ date: 2022-05-31 00:00:00 +0100
 
 [https://callumakehurstryansblog.wordpress.com/](https://callumakehurstryansblog.wordpress.com/ "https://callumakehurstryansblog.wordpress.com/") - [**Callum Akehurst-Ryan**](https://twitter.com/CAkehurstRyan)
 
-[https://medium.com/@iamfaisalkhatri](https://medium.com/@iamfaisalkhatri "https://medium.com/@iamfaisalkhatri") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)
+[https://medium.com/@iamfaisalkhatri](https://medium.com/@iamfaisalkhatri "https://medium.com/@iamfaisalkhatri") - [**Faisal Khatri**](https://twitter.com/mfaisal_khatri)
 
-[https://mfaisalkhatri.github.io/](https://mfaisalkhatri.github.io/ "https://mfaisalkhatri.github.io/") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)
+[https://mfaisalkhatri.github.io/](https://mfaisalkhatri.github.io/ "https://mfaisalkhatri.github.io/") - [**Faisal Khatri**](https://twitter.com/mfaisal_khatri)
 
-[https://mfaisalkhatri.hashnode.dev/](https://mfaisalkhatri.hashnode.dev/ "https://mfaisalkhatri.hashnode.dev/") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)
+[https://mfaisalkhatri.hashnode.dev/](https://mfaisalkhatri.hashnode.dev/ "https://mfaisalkhatri.hashnode.dev/") - [**Faisal Khatri**](https://twitter.com/mfaisal_khatri)
+
+[https://rieckpil.de/](https://rieckpil.de/ "https://rieckpil.de/") - [**Philip Riecks**](https://twitter.com/rieckpil)
+
+[https://www.mariedrake.com/](https://www.mariedrake.com/ "https://www.mariedrake.com/") - [**Marie Drake**](https://twitter.com/mcruzdrake)

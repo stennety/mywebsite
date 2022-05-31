@@ -78,3 +78,7 @@ date: 2022-05-31 00:00:00 +0100
 [https://www.mariedrake.com/](https://www.mariedrake.com/ "https://www.mariedrake.com/") - [**Marie Drake**](https://twitter.com/mcruzdrake)
 
 [https://testandanalysis.home.blog/](https://testandanalysis.home.blog/ "https://testandanalysis.home.blog/") - [**Mike Harris**](https://twitter.com/TestAndAnalysis)
+
+[https://thetesttherapist.com/](https://thetesttherapist.com/ "https://thetesttherapist.com/") - [**Mohamed Tarek**](https://twitter.com/motareksamir)
+
+[https://wiert.me/](https://wiert.me/ "https://wiert.me/") - [**Jeroen Wiert Pluimers**](https://twitter.com/jpluimers)

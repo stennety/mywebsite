@@ -94,3 +94,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://github.com/NoriSte/all-my-contributions#articles](https://github.com/NoriSte/all-my-contributions#articles "https://github.com/NoriSte/all-my-contributions#articles") - [**Stefano Magni**](https://twitter.com/NoriSte)
 
 [https://bjtestingtalks.wordpress.com/](https://bjtestingtalks.wordpress.com/ "https://bjtestingtalks.wordpress.com/") - [**Balaji Santhanagopalan**](https://www.linkedin.com/in/balaji-santhanagopalan-82a63a108/)
+
+[https://russmorley.net/](https://russmorley.net/ "https://russmorley.net/") - [**Russell Morley**](https://www.linkedin.com/in/russell-morley/)

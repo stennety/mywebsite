@@ -82,3 +82,11 @@ date: 2022-05-31 00:00:00 +0100
 [https://thetesttherapist.com/](https://thetesttherapist.com/ "https://thetesttherapist.com/") - [**Mohamed Tarek**](https://twitter.com/motareksamir)
 
 [https://wiert.me/](https://wiert.me/ "https://wiert.me/") - [**Jeroen Wiert Pluimers**](https://twitter.com/jpluimers)
+
+[https://filiphric.com/](https://filiphric.com/ "https://filiphric.com/") - [**Filip Hric**](https://twitter.com/filip_hric)
+
+[https://sowmyasridharamurthy.blogspot.com/](https://sowmyasridharamurthy.blogspot.com/ "https://sowmyasridharamurthy.blogspot.com/") - [**Sowmya Sridharamurthy**](https://twitter.com/Someoooww)
+
+[https://scrolltest.com/](https://scrolltest.com/ "https://scrolltest.com/") - [**Pramod Dutta**](https://twitter.com/itstechmode)
+
+[https://dev.to/walmyrlimaesilv](https://dev.to/walmyrlimaesilv "https://dev.to/walmyrlimaesilv") - [**Walmyr Filho**](https://twitter.com/walmyrlimaesilv)

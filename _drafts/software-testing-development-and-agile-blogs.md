@@ -90,3 +90,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://scrolltest.com/](https://scrolltest.com/ "https://scrolltest.com/") - [**Pramod Dutta**](https://twitter.com/itstechmode)
 
 [https://dev.to/walmyrlimaesilv](https://dev.to/walmyrlimaesilv "https://dev.to/walmyrlimaesilv") - [**Walmyr Filho**](https://twitter.com/walmyrlimaesilv)
+
+[https://github.com/NoriSte/all-my-contributions#articles](https://github.com/NoriSte/all-my-contributions#articles "https://github.com/NoriSte/all-my-contributions#articles") - [**Stefano Magni**](https://twitter.com/NoriSte)

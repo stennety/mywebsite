@@ -13,6 +13,8 @@ I learn a lot from blogs. So I was very excited when a thread I started on [Twit
 
 At the time of writing, there are 44 blogs shared in total across the two threads, I've gathered the full list together here so I can find them later. I hope it is also a useful resource for others.
 
+The list is ordered alphabetically by URL and is otherwise an unordered list.
+
 [http://agiletester.ca/blog](http://agiletester.ca/blog "http://agiletester.ca/blog") - [**Janet Gregory**](https://twitter.com/janetgregoryca) and [**Lisa Crispin**](https://twitter.com/lisacrispin)
 [http://agiletestingfellow.com/blog](http://agiletestingfellow.com/blog "http://agiletestingfellow.com/blog") - [**Janet Gregory**](https://twitter.com/janetgregoryca) and [**Lisa Crispin**](https://twitter.com/lisacrispin)
 [http://lisacrispin.com](http://lisacrispin.com "http://lisacrispin.com") - [**Lisa Crispin**](https://twitter.com/lisacrispin)

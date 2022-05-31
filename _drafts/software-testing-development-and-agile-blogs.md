@@ -60,3 +60,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://typeshare.co/vernonrichards](https://typeshare.co/vernonrichards "https://typeshare.co/vernonrichards") - [**Vernon Richards**](https://twitter.com/TesterFromLeic)
 
 [https://qualitybits.tech/](https://qualitybits.tech/ "https://qualitybits.tech/") - [**Lina Zubyte**](https://twitter.com/buggylina)
+
+[https://responsibleautomation.wordpress.com/](https://responsibleautomation.wordpress.com/ "https://responsibleautomation.wordpress.com/") - [**Paul Grizzaffi**](https://twitter.com/pgrizzaffi)

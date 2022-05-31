@@ -64,3 +64,11 @@ date: 2022-05-31 00:00:00 +0100
 [https://responsibleautomation.wordpress.com/](https://responsibleautomation.wordpress.com/ "https://responsibleautomation.wordpress.com/") - [**Paul Grizzaffi**](https://twitter.com/pgrizzaffi)
 
 [https://agile-and-testing.chriss-baumann.de/](https://agile-and-testing.chriss-baumann.de/ "https://agile-and-testing.chriss-baumann.de/") - [**Christian Baumann**](https://twitter.com/chrissbaumann)
+
+[https://callumakehurstryansblog.wordpress.com/](https://callumakehurstryansblog.wordpress.com/ "https://callumakehurstryansblog.wordpress.com/") - [**Callum Akehurst-Ryan**](https://twitter.com/CAkehurstRyan)
+
+[https://medium.com/@iamfaisalkhatri](https://medium.com/@iamfaisalkhatri "https://medium.com/@iamfaisalkhatri") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)
+
+[https://mfaisalkhatri.github.io/](https://mfaisalkhatri.github.io/ "https://mfaisalkhatri.github.io/") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)
+
+[https://mfaisalkhatri.hashnode.dev/](https://mfaisalkhatri.hashnode.dev/ "https://mfaisalkhatri.hashnode.dev/") - [Faisal Khatri](https://twitter.com/mfaisal_khatri)

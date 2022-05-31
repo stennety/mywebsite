@@ -62,3 +62,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://qualitybits.tech/](https://qualitybits.tech/ "https://qualitybits.tech/") - [**Lina Zubyte**](https://twitter.com/buggylina)
 
 [https://responsibleautomation.wordpress.com/](https://responsibleautomation.wordpress.com/ "https://responsibleautomation.wordpress.com/") - [**Paul Grizzaffi**](https://twitter.com/pgrizzaffi)
+
+[https://agile-and-testing.chriss-baumann.de/](https://agile-and-testing.chriss-baumann.de/ "https://agile-and-testing.chriss-baumann.de/") - [**Christian Baumann**](https://twitter.com/chrissbaumann)

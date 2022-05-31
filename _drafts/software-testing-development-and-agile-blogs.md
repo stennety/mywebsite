@@ -24,3 +24,5 @@ date: 2022-05-31 00:00:00 +0100
 [https://www.lisihocke.com/](https://www.lisihocke.com/ "https://www.lisihocke.com/") - [**Lisi Hocke**](https://twitter.com/lisihocke)
 
 [https://www.zeljkovic.sh/blog/](https://www.zeljkovic.sh/blog/ "https://www.zeljkovic.sh/blog/") - [**Aleksandar Zeljković**](https://twitter.com/a_zeljkovic)
+
+[https://cristianomcunha.com/](https://cristianomcunha.com/ "https://cristianomcunha.com/") - [**Cristiano Cunha**](https://twitter.com/Melioth)

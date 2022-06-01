@@ -1,5 +1,5 @@
 ---
-title: Creating software is a team sport
+title: Building software is a team sport
 tags:
 - agile
 - software
@@ -9,6 +9,8 @@ date: 2022-06-01 00:00:00 +0100
 
 ---
 As I recently [posted on Twitter](https://twitter.com/FullSnackTester/status/1531900848955174912?s=20&t=brWbrVy_OYBSqPrVSCh5xQ), I really believe that building great software products, services and solutions is a team sport. In some team sports, teams are made up of a fixed number of people, playing fixed roles. In others, squads of multidisciplinary players swap in and out for each game, even mid game.
+
+![](/uploads/pexels-neosiam-595229-1.jpg)
 
 Photo by NEOSiAM 2021: [https://www.pexels.com/photo/selective-focus-photography-of-foosball-table-595229/](https://www.pexels.com/photo/selective-focus-photography-of-foosball-table-595229/ "https://www.pexels.com/photo/selective-focus-photography-of-foosball-table-595229/")
 

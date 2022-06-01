@@ -18,26 +18,6 @@ h1:before {
     }
 }
 
-blockquote {
-    position: relative;
-    margin-inline-start: 0;
-    padding-inline-start: 3rem;
-    border: 0;
-}
-
-blockquote p:first-child:before {
-    content: '>';
-    position: absolute;
-    left: 0;
-    top: -0.25em;
-    inset-inline-start: 0;
-    inset-block-start: -0.25em;
-    font-size: 2.25em;
-    font-style: normal;
-    line-height: 1;
-    color: var(--col-highlight);
-}
-
 .wrap-banner--pfd {
     display: block
 }

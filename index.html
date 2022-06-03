@@ -81,14 +81,14 @@
               <tr> 
                 <th>Region</th>
                 <th>Country</th>
-                <th>Location</th> 
-                <th>Course</th> 
+                <th>Location</th>
+                <th>Course</th>
                 <th>Date</th>
                 <th>Architect</th>
-                <th>Construction</th> 
-                <th>History</th> 
+                <th>Construction</th>
+                <th>History</th>
                 <th>Type of Job</th>
-                <th>Status</th> 
+                <th>Status</th>
                 <th>Past 100</th>
 <!--
                 <th>Bob's Travel</th>
@@ -110,13 +110,13 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td> 
-                    <td>{{ item.Architect }}</td> 
-                     <td>{{ item.Construction }}</td> 
+                    <td>{{ item.Date }}</td>
+                    <td>{{ item.Architect }}</td>
+                     <td>{{ item.Construction }}</td>
                     <td>{{ item.History }}</td>
-                    <td>{{ item.TypeOfJob }}</td> 
+                    <td>{{ item.TypeOfJob }}</td>
                     <td>{{ item.Status }}</td>
-                    <td>{{ item.i100 }}</td> 
+                    <td>{{ item.i100 }}</td>
 <!--
                     <td>{{ item.Bob }}</td>
 -->

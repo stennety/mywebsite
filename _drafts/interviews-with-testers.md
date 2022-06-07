@@ -28,3 +28,5 @@ In this short post I will introduce you to the Tester of The Day winner and comm
 [https://nicolalindgren.com/categories/interviews/](https://nicolalindgren.com/categories/interviews/ "https://nicolalindgren.com/categories/interviews/")
 
 ## Testing Tales with The Pirate Tester
+
+[https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35](https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35 "https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35")

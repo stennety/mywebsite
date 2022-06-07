@@ -30,3 +30,11 @@ In this short post I will introduce you to the Tester of The Day winner and comm
 ## Testing Tales with The Pirate Tester
 
 [https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35](https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35 "https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35")
+
+## Testing Advocacy with Karen Tests Stuff
+
+[https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V](https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V "https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V")
+
+## But what about???
+
+Did I miss some other places Testers are being interviewed? Let me know! I'll add em on.

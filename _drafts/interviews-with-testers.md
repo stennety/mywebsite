@@ -23,6 +23,8 @@ Are you a winner of Tester of The Day? why not add your interview, simply fill o
 
 ## Tester of The Day Community Interviews
 
+Want to join in and add your own interview? Simply fill out this form [https://testeroftheday.com/forms/community-interview](https://testeroftheday.com/forms/community-interview "https://testeroftheday.com/forms/community-interview")
+
 [https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html](https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html "https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html")
 
 [https://interviews.testeroftheday.com/interviews/2021/04/18/andrew-palmer.html](https://interviews.testeroftheday.com/interviews/2021/04/18/andrew-palmer.html "https://interviews.testeroftheday.com/interviews/2021/04/18/andrew-palmer.html")

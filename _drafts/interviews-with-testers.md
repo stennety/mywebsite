@@ -11,6 +11,8 @@ What better way to learn about the amazing people in the Software Testing Commun
 
 In this short post I will introduce you to the Tester of The Day winner and community interviews, and direct you to some other great hosts who interview amazing testers!
 
+Photo by fauxels: [https://www.pexels.com/photo/top-view-photo-of-people-near-wooden-table-3183150/](https://www.pexels.com/photo/top-view-photo-of-people-near-wooden-table-3183150/ "https://www.pexels.com/photo/top-view-photo-of-people-near-wooden-table-3183150/")
+
 ## Tester of The day Winners Interviews
 
 The Tester of The Day winners interviews are a great way to get a little more insight into the amazing contributors to the Software Testing Community.

@@ -29,7 +29,7 @@ Want to join in and add your own interview? Simply fill out this form [https://t
 
 ## Nicola Lindgren Interviews
 
-Nicola has been interviewing Testers since 2013! Starting with [an interview with Markus Gaertner](https://nicolalindgren.com/2013/05/30/interview-with-markus-gaertner/), with hard hitting questions like "Where do you see software testing going in the next 5 years?" and "When your friends (outside of IT) ask you “What do you do as a software tester?”, what do you tell them?" it's worth a read to learn what Markus has to say.
+[Nicola](https://twitter.com/NicolaLindgren) has been interviewing Testers since 2013! Starting with [an interview with Markus Gaertner](https://nicolalindgren.com/2013/05/30/interview-with-markus-gaertner/), with hard hitting questions like "Where do you see software testing going in the next 5 years?" and "When your friends (outside of IT) ask you “What do you do as a software tester?”, what do you tell them?" it's worth a read to learn what Markus has to say.
 
 And don't let the early start fool you, Nicola is still active in 2022, if anything more so with 7 interviews so far this year, phew! The [latest interview is with the amazing Lisi Hocke](https://nicolalindgren.com/2022/05/14/interview-with-lisi-hocke/), discussing ensemble testing.
 
@@ -37,11 +37,17 @@ You can check out all of Nicola's interviews here: [https://nicolalindgren.com/c
 
 ## Testing Tales with The Pirate Tester
 
-[https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35](https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35 "https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35")
+[Lee "Ahoy there" Marshall](https://twitter.com/ThePirateTester), aka The Pirate Tester, takes on a different approach with video series [Testing Tales](https://twitter.com/ThePirateTester). Lee has already posted interviews with 5 amazing people, including at least one "not a tester", [Bob Salmon](https://www.youtube.com/watch?v=0LhwCzsYDco&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35&index=2).
+
+Full disclosure, I've done an interview with Lee myself, spoiler alert it maybe some weeks before it is posted as he has a terrific backlog of videos to edit and post. So make sure you like and subscribe, as the YouTubers love to say.
+
+You can find the [Testing Tales Playlist here](https://www.youtube.com/watch?v=vwofmO1CmyE&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35).
 
 ## Testing Advocacy with Karen Tests Stuff
 
-[https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V](https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V "https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V")
+More video interviews, this time Karen Todd, aka @KarenTestsStuff on [Twitter](https://twitter.com/KarenTestsStuff) and [YouTube](https://www.youtube.com/channel/UCaILiR0XEzf0Y1QvibzybCQ). Karen is taking on the topic of Software Testing Advocacy, and has now discussed it with some really great members of the community including [Beth Marshall](https://www.youtube.com/watch?v=W4d_s52FdPg&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V&index=3), [Erin Hess](https://www.youtube.com/watch?v=Dtuy4HYWDdM&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V&index=6) and [Simon Tomes](https://www.youtube.com/watch?v=isQCYFmbNUw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V&index=5).
+
+[Check out the full playlist of here.](https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V)
 
 ## But what about???
 

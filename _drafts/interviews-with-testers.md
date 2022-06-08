@@ -1,5 +1,5 @@
 ---
-title: Interviews with Testers
+title: Meet the Testers
 tags:
 - testing
 - community
@@ -11,11 +11,17 @@ What better way to learn about the amazing people in the Software Testing Commun
 
 In this short post I will introduce you to the Tester of The Day winner and community interviews, and direct you to some other great hosts who interview amazing testers!
 
-## Meet the winners
+## Tester of The day Winners Interviews
 
-[https://interviews.testeroftheday.com/](https://interviews.testeroftheday.com/ "https://interviews.testeroftheday.com/")
+The Tester of The Day winners interviews are a great way to get a little more insight into the amazing contributors to the Software Testing Community.
 
-## Meet the community
+We have classics, like the [interview from winner number 1, Chris McMahon](https://interviews.testeroftheday.com/interviews/2021/02/13/chris-mcmahon.html). Chris goes into some really excellent depth and his story about his favorite bug is not to be missed!
+
+Make sure to check out the full list of interviews: [https://interviews.testeroftheday.com/](https://interviews.testeroftheday.com/ "https://interviews.testeroftheday.com/")
+
+Are you a winner of Tester of The Day? why not add your interview, simply fill out this form: [https://testeroftheday.com/forms/interview](https://testeroftheday.com/forms/interview "https://testeroftheday.com/forms/interview")
+
+## Tester of The Day Community Interviews
 
 [https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html](https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html "https://interviews.testeroftheday.com/interviews/2021/04/18/rahul-singh.html")
 

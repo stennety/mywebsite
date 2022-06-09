@@ -263,6 +263,9 @@ dt {
     color: var(--col-highlight);
     background-color: var(--col-secondary);
     cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .125rem
 }
 
 .icon {

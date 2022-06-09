@@ -39,6 +39,8 @@ And don't let the early start fool you, Nicola is still active in 2022, if anyth
 
 You can check out all of Nicola's interviews here: [https://nicolalindgren.com/categories/interviews/](https://nicolalindgren.com/categories/interviews/ "https://nicolalindgren.com/categories/interviews/")
 
+**BONUS**: Nicola is now doing video interviews and posting them on her [new YouTube channel](https://youtube.com/playlist?list=PLY8Q7oWc4F1TqgsggrzoCTRPcJ4NZzO--).
+
 ## Testing Tales with The Pirate Tester
 
 [Lee "Ahoy there" Marshall](https://twitter.com/ThePirateTester), aka The Pirate Tester, takes on a different approach with video series [Testing Tales](https://twitter.com/ThePirateTester). Lee has already posted interviews with 5 amazing people, including at least one "not a tester", [Bob Salmon](https://www.youtube.com/watch?v=0LhwCzsYDco&list=PLk1f2uumbghTWUgX8KKE5qwy7mxIMFa35&index=2).
@@ -53,6 +55,21 @@ More video interviews, this time Karen Todd, aka @KarenTestsStuff on [Twitter](h
 
 [Check out the full playlist of here.](https://www.youtube.com/watch?v=sOGaYJgnQVw&list=PLoGM4JmbNY0yLVNOdyWUttA8sCnBPlQ-V)
 
+## Contract Testing Podcast with Lewis Prescott
+
+Lewis hosts a [podcast focusing on contract testing](https://www.pactman.co.uk/contract-testing-podcast), and interviews fantastic testers who are on their contract testing journey, and also bring other interesting insights to the table.
+
+Lewis recently [interviewed AJ Wilson](https://www.pactman.co.uk/contract-testing-podcast/episode/ac0227b7/exploratory-testing-apis-with-aj-wilson) and discussed Exploratory Testing API's, definitely worth checking out!
+
+You can listen to all of the episodes at: [https://www.pactman.co.uk/contract-testing-podcast](https://www.pactman.co.uk/contract-testing-podcast "https://www.pactman.co.uk/contract-testing-podcast")
+
 ## But what about???
 
 Did I miss some other places Testers are being interviewed? Let me know! I'll add em on.
+
+#### Updated
+
+2022-06-09:
+
+* Added Contract Testing Podcast with Lewis Prescott
+* Added Nicola's YouTube channel

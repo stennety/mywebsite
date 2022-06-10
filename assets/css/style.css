@@ -178,6 +178,7 @@ pre {
     padding: .75rem;
     overflow: auto;
     word-wrap: normal;
+    border-radius: .125rem;
     background-color: var(--col-secondary)
 }
 
@@ -290,6 +291,7 @@ dt {
 .wrap-preview, #mentionable {
     margin-bottom: 1.5rem;
     padding: .75rem;
+    border-radius: .125rem;
     background-color: var(--col-secondary);
 }
 

@@ -15,4 +15,4 @@ Each iteration of the swings animation, checks to see if the input slider has mo
 
 [Chicken Swing (Dynamic)](https://codepen.io/plfstr/full/XWaaZRW/) was chosen for _CodePen Picked_ pens.
 
-_Due to CodePens embed, the animation may stop. If this happens click ‘rerun’ (lower right corner) and then use the slider, or visit the pen on CodePen._
+_Due to CodePens embed, the animation may stop. If this happens click ‘Rerun’ (lower right corner) and then use the slider, or visit the pen on CodePen._

@@ -83,10 +83,6 @@ h1:before {
         content: "";
         position: absolute;
         display: block;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
         inset: 0;
         z-index: -1;
         transform: translate(12%,30%) scaleY(.5) skew(-15deg);

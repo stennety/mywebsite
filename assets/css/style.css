@@ -35,10 +35,6 @@ main,picture,iframe,img {
     display: block
 }
 
-figure {
-    margin: 0 0 1.5rem
-}
-
 .visually-hidden,[hidden] {
     display: none
 }

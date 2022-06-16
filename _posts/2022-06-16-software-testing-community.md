@@ -48,7 +48,7 @@ Twitter: [https://twitter.com/ministryoftest](https://twitter.com/ministryoftest
 
 LinkedIn: [https://www.linkedin.com/company/ministry-of-testing/](https://www.linkedin.com/company/ministry-of-testing/ "https://www.linkedin.com/company/ministry-of-testing/")
 
-### Ministry of Testing Meet-Ups
+### Ministry of Testing Meetups
 
 You can't get much more local testing community then the MoT meet-ups! They are a great way to meet Testers in your local area, and an amazing opportunity to present.
 

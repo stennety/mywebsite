@@ -12,6 +12,10 @@ The community helps me to learn, challenges me, lifts my mood and even supports 
 
 So, what is out there, and how can you get involved?
 
+![](/uploads/pexels-dio-hasbi-saniskoro-3280130.jpg)
+
+Photo by Dio Hasbi Saniskoro: [https://www.pexels.com/photo/people-doing-group-hand-cheer-3280130/](https://www.pexels.com/photo/people-doing-group-hand-cheer-3280130/ "https://www.pexels.com/photo/people-doing-group-hand-cheer-3280130/")
+
 ## Association for Software Testing
 
 > The Association for Software Testing (AST) is a professional organization for software testers. We strive to build a testing community that views the role of testing as skilled, relevant, and essential to the production of faster, better, and less expensive software products. We value a scientific approach to developing and evaluating techniques, processes, and tools. We believe that a self-aware, self-critical attitude is essential to understanding and assessing the impact of new ideas on the practice of testing.
@@ -64,7 +68,7 @@ Twitter: [https://twitter.com/TestAutomationU](https://twitter.com/TestAutomatio
 
 LinkedIn: [https://www.linkedin.com/company/testautomationu/](https://www.linkedin.com/company/testautomationu/ "https://www.linkedin.com/company/testautomationu/")
 
-LinkedIn: 
+LinkedIn:
 
 ## Test Tribe
 

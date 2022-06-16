@@ -36,16 +36,62 @@ Source: [https://www.ministryoftesting.com/about](https://www.ministryoftesting.
 
 Website: [https://www.ministryoftesting.com/](https://www.ministryoftesting.com/ "https://www.ministryoftesting.com/")
 
-Forum: 
+Forum: [https://club.ministryoftesting.com/](https://club.ministryoftesting.com/t/welcome-to-the-club-by-ministry-of-testing/8?u=fullsnacktester "https://club.ministryoftesting.com/")
 
-Slack:
+Slack: [https://www.ministryoftesting.com/slack_invite](https://www.ministryoftesting.com/slack_invite "https://www.ministryoftesting.com/slack_invite")
 
-Twitter:
+Twitter: [https://twitter.com/ministryoftest](https://twitter.com/ministryoftest "https://twitter.com/ministryoftest")
 
 LinkedIn: [https://www.linkedin.com/company/ministry-of-testing/](https://www.linkedin.com/company/ministry-of-testing/ "https://www.linkedin.com/company/ministry-of-testing/")
 
+### Ministry of Testing Meet-Ups
+
+You can't get much more local testing community then the MoT meet-ups! They are a great way to meet Testers in your local area, and an amazing opportunity to present.
+
+Many of the best in the industry started by presenting at meet-ups such as these, and they still often bring their talks to meet-ups first, to test their ideas and practice ahead of larger conferences.
+
+List of meetups: [https://www.ministryoftesting.com/meetups](https://www.ministryoftesting.com/meetups "https://www.ministryoftesting.com/meetups")
+
 ## Test Automation University
+
+TAU is an amazing resource to learn, for free, about Test Automation! There is also an active slack community, with channels focusing around each course and more generally helping each-other learn.
+
+Website: [https://testautomationu.applitools.com/](https://testautomationu.applitools.com/ "https://testautomationu.applitools.com/")
+
+Slack: [https://tauslacksignupapp.herokuapp.com/](https://tauslacksignupapp.herokuapp.com/ "https://tauslacksignupapp.herokuapp.com/")
+
+Twitter: [https://twitter.com/TestAutomationU](https://twitter.com/TestAutomationU "https://twitter.com/TestAutomationU")
+
+LinkedIn: [https://www.linkedin.com/company/testautomationu/](https://www.linkedin.com/company/testautomationu/ "https://www.linkedin.com/company/testautomationu/")
+
+LinkedIn: 
 
 ## Test Tribe
 
+> This is a story of passion for Software Testing. A story of making change happen. A story of sincere attempt to bring more glory to the craft of Testing.
+
+The Test Tribe run a regular events and have a thriving [community on Discord](https://discord.gg/4qcSKMjVhY).
+
+Website: [https://www.thetesttribe.com/](https://www.thetesttribe.com/ "https://www.thetesttribe.com/")
+
+Join the community: [https://www.thetesttribe.com/community/](https://www.thetesttribe.com/community/ "https://www.thetesttribe.com/community/")
+
+Twitter: [https://twitter.com/the_test_tribe](https://twitter.com/the_test_tribe "https://twitter.com/the_test_tribe")
+
+LinkedIn: [https://www.linkedin.com/company/thetesttribe/](https://www.linkedin.com/company/thetesttribe/ "https://www.linkedin.com/company/thetesttribe/")
+
 ## The Test Chat
+
+The Test Chat is primarily a large group on Telegram, and I do mean large! At time of writing there are over 4500 members.
+
+Telegram: [https://t.me/joinchat/UKDuiCJi-pPpv_9a](https://t.me/joinchat/UKDuiCJi-pPpv_9a)
+
+Twitter: [https://twitter.com/TheTestChat](https://twitter.com/TheTestChat "https://twitter.com/TheTestChat")
+
+## Testers Hangout
+
+Started by [Lee "The Pirate Tester" Marshall](https://twitter.com/ThePirateTester) as a support network around the start of the UK Lock-down in 2020. The Testers Hangout has grown organically and has been a great way for me to meet some really amazing human beings from the world of Software Testing!
+
+Google Hangout: [https://bit.ly/testerhangout](https://bit.ly/testerhangout "https://bit.ly/testerhangout")
+
+Discord Group: [https://discord.gg/Nu64rg3EC2](https://discord.gg/Nu64rg3EC2 "https://discord.gg/Nu64rg3EC2")

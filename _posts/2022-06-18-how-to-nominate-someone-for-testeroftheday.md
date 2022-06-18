@@ -14,6 +14,8 @@ Winners are also listed on the Tester of The Day website, in the [Testers Hall o
 
 Started in 2020, the award is now in the 3rd year. You can view the complete 2020 and 2021 hall of fames at [https://2020.testeroftheday.com/](https://2020.testeroftheday.com/ "https://2020.testeroftheday.com/") and [https://2021.testeroftheday.com/](https://2021.testeroftheday.com/ "https://2021.testeroftheday.com/").
 
+![](/uploads/hall-of-fame-header-2022-44a83f12.png)
+
 ## Who can be nominated
 
 Quality is everyone's responsibility, and the craft of testing can be practiced by anyone, regardless of their designated role in their current job. So naturally anyone can be nominated to win Tester of The Day.

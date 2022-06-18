@@ -24,8 +24,14 @@ Past winners have made impactful contributions, at their place of work, to the w
 
 Please include Twitter and LinkedIn social media links for yourself and the person you're nominating if at all possible. One of the benefits to the winner is the opportunity to gain followers, and for the community that they can discover great people to follow!
 
-For the Nomination text, please give some insight into how the nominee made an impact 
+For the Nomination text, please give some insight into how the nominee made an impact on you, their teammates or the wider community. This is your chance to celebrate their success, as the nomination text is used on the Hall of Fame, Twitter and Linkedin.
+
+Note, if the nomination text is too long, it will be truncated on Twitter, I will do my best to cut the text down in a way that makes sense.
 
 ## Fill out the form
 
+The key form to make a nomination can be found here:
+
 [https://testeroftheday.com/forms/nominate](https://testeroftheday.com/forms/nominate "https://testeroftheday.com/forms/nominate")
+
+Please fill out all the fields you can, including your own details so I can credit you for your nomination!

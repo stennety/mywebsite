@@ -12,7 +12,7 @@ date: 2022-06-18 00:00:00 +0100
 
 Winners are also listed on the Tester of The Day website, in the [Testers Hall of Fame](https://www.testeroftheday.com/)!
 
-Started in 2020, the award is now in the 3rd year. You can view the complete 2020 and 2021 hall of fames at [https://2020.testeroftheday.com/](https://2020.testeroftheday.com/ "https://2020.testeroftheday.com/") and [https://2021.testeroftheday.com/](https://2021.testeroftheday.com/ "https://2021.testeroftheday.com/"). 
+Started in 2020, the award is now in the 3rd year. You can view the complete 2020 and 2021 hall of fames at [https://2020.testeroftheday.com/](https://2020.testeroftheday.com/ "https://2020.testeroftheday.com/") and [https://2021.testeroftheday.com/](https://2021.testeroftheday.com/ "https://2021.testeroftheday.com/").
 
 ## Who can be nominated
 

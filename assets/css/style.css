@@ -75,7 +75,7 @@ body {
 
 @supports (padding: max(0px)) {
     body {
-        padding: max(.75rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(.75rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
+        padding: max(1.5rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
     }
 }
 

@@ -12,12 +12,6 @@ h1:before {
     color: var(--col-highlight)
 }
 
-@media (min-width: 1200px) {
-    h3, .h3 {
-        font-size: 1.625em;
-    }
-}
-
 .wrap-banner--pfd {
     display: block
 }

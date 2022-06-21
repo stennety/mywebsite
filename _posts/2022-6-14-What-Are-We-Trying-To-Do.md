@@ -11,7 +11,7 @@ That demand, however, is putting a lot of pressure on the electricity grids arou
 
 ![Power Usage](https://blog.greencloudcomputing.io/images/power_usage.jpg)
 
-Taken from this BBC Report ( https://www.bbc.co.uk/news/av/world-57108641 )
+Taken from this [BBC Report](https://www.bbc.co.uk/news/av/world-57108641)
 
 At the inaugral Green Software Foundation Summit event in London (June 2022) a presentation given by one of the delegates stating there would be a considerable of power increase - not decrease for data centers in the forseeable future.This isn't to say that the Data Center designers and engineers are being frivilous - the problem is a tough one!
 

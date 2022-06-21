@@ -9,7 +9,7 @@ The GreenCloud idea started off just over 12 months ago. Cloud computing has bec
 
 That demand, however, is putting a lot of pressure on the electricity grids around the world. I've always found this image a great source of context as to just what we are talking about -:
 
-![Power Usage](images/power_usage.jpg)
+![Power Usage](https://blog.greencloudcomputing.io/images/power_usage.jpg)
 
 Taken from this BBC Report ( https://www.bbc.co.uk/news/av/world-57108641 )
 

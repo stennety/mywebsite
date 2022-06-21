@@ -22,7 +22,7 @@ h1:before {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 2.5fr 7.5fr;
-        grid-template-columns: 2.5fr minmax(min-content, 7fr);
+        grid-template-columns: 2.5fr minmax(50%, 700px);
         grid-gap: 2rem;
         gap: 2rem;
         gap: clamp(2rem, 3.5vw, 5rem);

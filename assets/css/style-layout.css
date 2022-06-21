@@ -121,10 +121,6 @@ h1:before {
 	max-width: none;
 }
 
-.wrap-cards .wrap-preview--title {
-	font-size: 1.85rem;
-	word-break: break-word;
-}
 @supports (grid-template-rows: subgrid) {
 	.wrap-cards .wrap-preview {       
 	    display: inline-grid;

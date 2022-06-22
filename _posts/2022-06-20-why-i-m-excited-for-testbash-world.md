@@ -15,7 +15,7 @@ A free online Software Testing conference, that will go for 24 full hours run by
 
 When? June 22nd 22:00 BST (GMT+1) for 24 hours
 
-Where? Oline, go sign up now it's free:
+Where? Online, go sign up now it's free:
 
 [https://www.ministryoftesting.com/events/testbash-world-2022](https://www.ministryoftesting.com/events/testbash-world-2022 "https://www.ministryoftesting.com/events/testbash-world-2022")
 

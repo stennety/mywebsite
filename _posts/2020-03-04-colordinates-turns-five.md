@@ -1,7 +1,7 @@
 ---
 title: Colordinates Turns Five
 description: Colordinates, a web app which gives a colour value based on your geographic location, has turned 5
-date: 20-03-04
+date: 2020-03-04
 tags: [colordinates, sideproject, milestone, app, pwa]
 ---
 

@@ -10,6 +10,8 @@ date: 2022-07-10 00:00:00 +0100
 ---
 So, you've just found how you've won [#TesterOfTheDay](https://www.testeroftheday.com/)? Congratulations!
 
+Photo by Nataliya Vaitkevich: [https://www.pexels.com/photo/golden-statuette-and-stars-on-yellow-background-6532373/](https://www.pexels.com/photo/golden-statuette-and-stars-on-yellow-background-6532373/ "https://www.pexels.com/photo/golden-statuette-and-stars-on-yellow-background-6532373/")
+
 ## What does it mean?
 
 It means someone has recognised your contribution to the world of Software Testing. This may have been because of work you did to help the person who nominated you directly, their team or your contributions to the software testing community. Whatever you did, thank you!

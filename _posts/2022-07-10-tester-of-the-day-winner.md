@@ -8,7 +8,7 @@ tags:
 date: 2022-07-10 00:00:00 +0100
 
 ---
-So, you've just found how you've won [#TesterOfTheDay](https://www.testeroftheday.com/)? Congratulations!
+So, you've just found out you've won [#TesterOfTheDay](https://www.testeroftheday.com/)? Congratulations!
 
 ![](/uploads/pexels-nataliya-vaitkevich-6532373-1.jpg)
 

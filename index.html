@@ -80,14 +80,14 @@
           <thead>
               <tr> 
                 <th>Region</th>
-                <th>Country</th> 
+                <th>Country</th>
                 <th>Location</th> 
-                <th>Course</th> 
+                <th>Course</th>
                 <th>Date</th>
                 <th>Architect</th>
                 <th>Construction</th>
                 <th>History</th>
-                <th>Type of Job</th> 
+                <th>Type of Job</th>
                 <th>Status</th>
                 <th>Past 100</th>
 <!--
@@ -126,7 +126,7 @@
                     {% else %} <td></td>
                     {% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
-                    {% else %} <td></td> 
+                    {% else %} <td></td>
                     {% endif %}              
                     <td>{{ item.Budget }}</td> 
                     <td>{{ item.Comments }} </td> 

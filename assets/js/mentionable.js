@@ -113,7 +113,7 @@ class Mentionable extends Component {
   }
 
   async _fetchCount() {
-    return await fetch(`https://webmention.io/api/count?target=${ encodeURIComponent(window.location.href) }`).then(
+    return await fetch(`https://webmention.io/api/count?target=${ encodeURIComponent(window.location.href) }`, {priority: 'low'}).then(
       response => response.json()
     ).then(
       data => {

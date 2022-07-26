@@ -5,9 +5,7 @@ layout: cv
 ---
 In a four year professional career, I have worked for three household name e-commerce retailers in the retail and leisure markets and I am ready to take my career further with a fresh challenge.
 
-I want to form a key part of a team and actively participate in moving a company forward through great creative, technical improvement and enhanced user experience.
-
-Efficiency, clean semantic markup and accessibility are my benchmarks. I am a passionate enthusiast for new and disruptive technology and have a great interest in the mobile, social networking spaces and the direction the future web is taking.
+I want to form a key part of a team and actively participate in moving a company forward through great creative, technical improvement and enhanced user experience. Efficiency, clean semantic markup and accessibility are my benchmarks. 
 
 ## Career Break - Personal Projects
 

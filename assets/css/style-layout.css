@@ -64,7 +64,7 @@ h1:before {
 
 @media (min-width: 1200px) {
     .wrap-logo--link {
-        transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.4)
+        scale: 1.1;
     }
 	
     .figure__featimg {

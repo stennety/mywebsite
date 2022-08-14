@@ -31,4 +31,34 @@ I'm also thrilled to be able to learn from an amazing group of fellow Quality En
 
 I'm well aware it's a privilege to work in such a role, and I hope more and more people get the opportunity to move into such roles if they want them in the future.
 
-## The Future
+## The Future, for me
+
+So, what is my future looking like? Well, currently I have a very broad range of skills, some deep and some shallow. And I want to grow in multiple dimensions, I want to pick up more specialisations, such as Security, and go deeper with some of my shallow skills like Performance testing.
+
+Ultimately, the more I mature into my career the more I realise it's all about the people. The people I work with, and support directly in my role. The people who use the software that my team creates, internally, and then people who ultimately use our products.
+
+As such, my main growth area for the future, is to further focused on my impact on people, using my technical skills as a foundation to make this possible.
+
+What might this look like?
+
+* Deeper exploration, with more concise summaries and debriefs
+* Focus on definitive, actionable information discovery
+* Teaching and Coaching others, so they can make use of testing skills themselves
+* Testing beyond code, working closer with product to make sure we build the right thing
+
+## The Future, for the role
+
+My predictions for the role of the Software Tester in the future, let's say 5-10 years scale:
+
+* Tooling and frameworks will continue to reduce the need for some parts of testing
+* Developers will be expected to pick up more testing skills and do more testing
+* Experienced Testers will be expected to work across multiple teams
+* As test automation gets easier with better tooling, and testers get more experienced, the lines between Tester and Dev blur further
+* Exploratory Testing grows in popularity as a compliment to automation, and scripted step-based testing is limited in regulated industries and those orgs who traditionally move slower
+* Due to the cyclical nature of the industry, centralised test teams make comeback
+
+## When is a Tester, Not a Tester
+
+If you enjoyed this post, you might like another one I wrote a little while back:
+
+[https://www.dowen.me.uk/when-is-a-tester-not-a-tester/](https://www.dowen.me.uk/when-is-a-tester-not-a-tester/ "https://www.dowen.me.uk/when-is-a-tester-not-a-tester/")

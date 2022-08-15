@@ -45,7 +45,7 @@ The goal here is to explore to learn useful information, where to focus is going
 
 Your model will have gaps, open questions, fill those knowledge gaps with exploration. You can run your exploratory testing in many ways, use your current model as a guide about what is important, and how you think the system should behave.
 
-Remember to speak to your team about what you find during your exploration, discuss surprises. 
+It's very important you take good notes as you explore, so you can discuss your findings with your team and use the outcome of that conversation to update your model.
 
 ## Update
 

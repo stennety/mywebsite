@@ -94,15 +94,8 @@ class Mentionable extends Component {
   
   componentDidMount() {
     if (this.state.lazyload) {
-      this._fetchCount().then(() => {
-        if (this.state.mentioncount) {
-          this.setState({msg: `Load ${this.state.mentioncount} ${this.state.mentioncount !== 1 ? 'webmentions' : 'webmention'}?`});
-          document.querySelector('#mentions').setAttribute('aria-live', 'polite');
-          document.querySelector('#mentions').setAttribute('aria-atomic', 'true');
-        } else {
-          this.setState({msg: "Sorry, 0 webmentions found"});
-        }
-      });
+      this.setState({msg: "Loading..."});
+		  this._fetchCount();
     } else {
         this.setState({msg: "Loading..."})
         this._fetchMentions();
@@ -112,13 +105,22 @@ class Mentionable extends Component {
   componentWillUnmount() {
   }
 
+  mentionlist(types) {
+        let list = [];
+        let mens = types;
+        for (const [key, value] of Object.entries(mens)) {
+          list.push(`${value} ${value !== 1 ? key + 's' : key}`);
+        }
+        return new Intl.ListFormat('en-GB', { style: 'long', type: 'conjunction' }).format(list) ?? null;
+  }
+  
   async _fetchCount() {
     return await fetch(`https://webmention.io/api/count?target=${ encodeURIComponent(window.location.href) }`, {priority: 'low'}).then(
       response => response.json()
     ).then(
       data => {
           this.setState({mentioncount: data.count});
-          console.log(this.state.mentioncount);
+          this.setState({ msg: this.mentionlist(data.type) });
         }
     ).catch(error => {
       console.warn("Request failed", error);

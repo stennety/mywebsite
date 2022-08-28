@@ -6,6 +6,6 @@ title: Hello World
 _Praise the fool
 Who, pure of heart,
 Leaps off your fingers
-and into grace
+and into grace_
 
-![icarus]({{ site.baseurl }}/images/ssl87tnh4pt81.jpg "icarus")
+<img src="{{ site.baseurl }}/images/ssl87tnh4pt81.jpg" alt="icaros" width="200"/>

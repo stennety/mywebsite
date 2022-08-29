@@ -1,3 +1,8 @@
+---
+layout: post
+title: Certbot Auto Renew
+---
+
 Ok. We need to authenticate Certbot with Cloudflare API credentials. In this context, the authentication mechanism exists on the DNS layer. 
 
 Check certificate

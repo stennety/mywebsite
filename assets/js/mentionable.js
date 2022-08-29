@@ -6,7 +6,7 @@ function numberIntl(count) {
 
 // <Mentioncount/>
 function Mentioncount(props) {
-  return html`<span aria-label="webmentions" role="status">(${ numberIntl(props.count) })</span>`;
+  return html`<span aria-labelledby="webmentions" role="status">(${ numberIntl(props.count) })</span>`;
 }
 
 // Check published, fallback to webmention.io received date...
@@ -60,7 +60,7 @@ function Mentionslist(props) {
 
 // <Mentionsmessage/>
 function Mentionmessage(props) {
-  return props.msg ? html`<p role="alert">${props.msg}</p>` : null;
+  return props.msg ? html`<p role="status">${props.msg}</p>` : null;
 }
 
 // <Mentionable/>

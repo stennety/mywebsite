@@ -9,7 +9,7 @@ Cloudflare needs credentials.
 ```
 mkdir /root/.secrets && chmod 700 /root/.secrets
 touch /root/.secrets/cloudflare.ini && chmod 400 /root/.secrets/cloudflare.ini
-echo "dns_cloudflare_email = randall@decortinteractive.com" >> /root/.secrets/cloudflare.ini
+echo "dns_cloudflare_email = icarostangent@email.com" >> /root/.secrets/cloudflare.ini
 echo "dns_cloudflare_api_key = redacted" >> /root/.secrets/cloudflare.ini
 ```
 

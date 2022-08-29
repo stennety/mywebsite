@@ -39,3 +39,4 @@ Cron job
 sudo crontab -e
 0 0 * * * certbot renew --dns-cloudflare --dns-cloudflare-credentials /root/.secrets/cloudflare.ini --preferred-challenges dns-01 && service lsws condrestart
 ```
+

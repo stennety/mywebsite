@@ -155,7 +155,7 @@ class Mentionable extends Component {
     return html`
       <section>
         <h2 id="webmentions">Webmentions <${Mentioncount} count=${this.state.mentioncount} /></h2>
-        ${this.state.lazyload ? 
+        ${!this.state.mentions.length ? 
           html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : null
         }
 	<div id="mentions">

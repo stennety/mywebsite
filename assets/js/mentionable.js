@@ -33,7 +33,7 @@ function Mentionslist(props) {
   let mentions = props.mentions;
   if (!props.mentions.length) return null;
   return html`
-  <ul>
+  <ul id="mentionsoutput" tabindex="0">
     ${mentions.map((
       {
         url, 
@@ -49,9 +49,11 @@ function Mentionslist(props) {
         'wm-received': wmreceived
       } = mention) => {return html`
     <li>
-      <p class="${wmproperty}">
-        <${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
-      </p>
+    	<article tabindex="0">
+	      <p class="${wmproperty}">
+        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+	      </p>
+	</article>
     </li>
     `})}
   </ul>
@@ -71,6 +73,7 @@ class Mentionable extends Component {
     this.fetchNow = (ev) => {
       ev.preventDefault();
       this._fetchMentions();
+      document.querySelector('#mentionsoutput').focus();
       this.setState({lazyload: false});
     }    
     this.state = {
@@ -152,13 +155,13 @@ class Mentionable extends Component {
     return html`
       <section>
         <h2 id="webmentions">Webmentions <${Mentioncount} count=${this.state.mentioncount} /></h2>
-        <div id="mentions">
-          <${Mentionslist} mentions=${this.state.mentions} />
-          <${Mentionmessage} msg=${this.state.msg} />
-        </div>
         ${this.state.lazyload ? 
           html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : null
         }
+	<div id="mentions">
+          <${Mentionslist} mentions=${this.state.mentions} />
+          <${Mentionmessage} msg=${this.state.msg} />
+        </div>        
       </section>
     `
   }

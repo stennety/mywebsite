@@ -50,7 +50,7 @@ function Mentionslist(props) {
       } = mention) => {return html`
     <li>
     	<article tabindex="0">
-	      <p class="${wmproperty}">
+	      <p class="${wmproperty}" lang="auto" dir="auto">
         	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
 	      </p>
 	</article>

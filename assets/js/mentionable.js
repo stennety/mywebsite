@@ -33,7 +33,7 @@ function Mentionslist(props) {
   let mentions = props.mentions;
   if (!props.mentions.length) return null;
   return html`
-  <ul id="mentionsoutput" tabindex="0">
+  <ul id="mentionsoutput" aria-labelledby="webmentions" tabindex="0">
     ${mentions.map((
       {
         url, 

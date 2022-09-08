@@ -122,8 +122,12 @@ class Mentionable extends Component {
       response => response.json()
     ).then(
       data => {
-          this.setState({mentioncount: data.count});
-          this.setState({ msg: this.mentionlist(data.type) });
+          if (data.count) {
+	        this.setState({mentioncount: data.count});
+        	this.setState({ msg: this.mentionlist(data.type) });
+	  } else {
+	  	this.setState({ msg: "No webmentions found" });
+	  }
         }
     ).catch(error => {
       console.warn("Request failed", error);

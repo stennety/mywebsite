@@ -1,3 +1,8 @@
+---
+layout: post
+title: Wordpress Docker Compose
+---
+
 Starting with the official Quickstart, located at https://docs.docker.com/samples/wordpress/, we have a `docker-compose.yml` that looks like so:
 
 ```

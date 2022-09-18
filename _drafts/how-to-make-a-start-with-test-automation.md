@@ -29,6 +29,18 @@ If you're already working in Software Testing, but haven't yet written any autom
 
 Of course, as well as your desire, you will need the opportunities, if you don't already know what is available with your current employer it might be worth finding out by asking around.
 
+If you've never written code, then instead of learning test automation right off the bat, you might want to pick a language and learn the fundamentals first. There are many free, and paid ways to learn how to code.
+
+Some great places to start:
+
+* [https://www.freecodecamp.org](https://www.freecodecamp.org/ "https://www.freecodecamp.org/")
+* [https://www.codecademy.com/](https://www.codecademy.com/ "https://www.codecademy.com/")
+* [https://www.w3schools.com/](https://www.w3schools.com/ "https://www.w3schools.com/")
+
+If you don't have a background in computer science, you may also get a kick out of the [Base.cs podcast](). In each episode the co-hosts [**Vaidehi Joshi **]()and[ **Saron Yitbarek **]()introduce and discuss a topic in an approachable way, with great anecdotes, many of them food related and you know I dig that!
+
+Finally, if you have the opportunity to pair with a developer or existing test automation engineer, take it! If you don't already have this opportunity, seek it out. Learning by doing, with the help of others is super valuable and will speed up your learning no end.
+
 ## Use automation to aid testing
 
 blah

@@ -51,7 +51,16 @@ And of course, there is [**Mark Winteringham**](https://twitter.com/2bittester) 
 
 ## Best language to learn for automation
 
-blah
+So, where to start? Java, Python, JavaScript, C#? Tell me damnit!
+
+While I can totally understand why you would want a general answer as to what language to use, there isn't one definitive answer.
+
+So, I will ask you to consider the following:
+
+1. What do you want to learn first? If you haven't got any experience in any language, go spend some time looking at what is available and if any of them make good sense to you. If you already know a bit of something , start there!
+2. Are you looking to grow yourself within your current role in your current job? If so, speak to your team, see what would be useful for you to learn next
+3. If you're looking to grow skills to pick up a new role, look at what is popular in your target area of the world. The popularity of one language over another might be different for the places you are considering working for. Try and find people working in the geographical location you're targeting, recruiters or hiring managers, and ask them.
+4. Careers are long, if you spend time learning the fundamentals of coding, testing, and automating checks using code then you can apply much of those skills across multiple tools and languages. Yes, there is a learning curve to picking up a new thing, but it gets easier with every new one you try.
 
 ## Resources for learning
 
@@ -61,4 +70,12 @@ If you don't have a background in computer science, you may also get a kick out 
 
 ## Practice apps and challenges
 
-blah
+The [**Restful Booker**](https://automationintesting.online/#/) is a great practice app for exploration or automation. It's a REST API and a frontend for a functional Bed & Breakfast, Shady Meadows.
+
+The [**Evil Tester,**](https://www.eviltester.com/) [**Alan Richardson**](https://twitter.com/eviltester) has created a series of [**API Challenges**]() that help you explore many of the aspects ot APIs that you might want to test, and therefore automate. While this isn't strictly an automation challenge, you could turn it into one by writing code to beat the challenge! I've started to give this a go myself, but it's work in progress.
+
+Want more? There is a great [**post on The Club **](https://club.ministryoftesting.com/t/products-and-sites-to-practice-testing-on/1242)where loads of people have shared products and sites they have used to practice testing on. You can even go add your own!
+
+## Just start
+
+Finally, It's way better to [**start**](https://www.dowen.me.uk/Automation-Just-do-it!/), then spend too much time worrying about where to start. You can also change your mind and try something else later if you don't like where you end up! I'm looking forward to hearing how your automation journey progresses, make sure to hit me up on Twitter, [**@FullsnackTester**](https://twitter.com/FullSnackTester), and let me know!

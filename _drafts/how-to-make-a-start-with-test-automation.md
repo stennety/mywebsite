@@ -37,13 +37,9 @@ Some great places to start:
 * [https://www.codecademy.com/](https://www.codecademy.com/ "https://www.codecademy.com/")
 * [https://www.w3schools.com/](https://www.w3schools.com/ "https://www.w3schools.com/")
 
-If you don't have a background in computer science, you may also get a kick out of the [Base.cs podcast](). In each episode the co-hosts [**Vaidehi Joshi **]()and[ **Saron Yitbarek **]()introduce and discuss a topic in an approachable way, with great anecdotes, many of them food related and you know I dig that!
-
 Finally, if you have the opportunity to pair with a developer or existing test automation engineer, take it! If you don't already have this opportunity, seek it out. Learning by doing, with the help of others is super valuable and will speed up your learning no end.
 
 ## Use automation to aid testing
-
-blah
 
 ## Best language to learn for automation
 
@@ -51,7 +47,9 @@ blah
 
 ## Resources for learning
 
-blah
+One of the absolute best resources for learning Test Automation in my experience is the [**Test Automation University**](https://testautomationu.applitools.com/)**.** Not only is it free, but the content is written by and for testers, so it's way more relevant then the odd testing focused chapter in a code course otherwise written for developers. The are even some introductions into coding on there, for example this course on [**Java Programming**](https://testautomationu.applitools.com/java-programming-course/) by [**Angie Jones**](https://twitter.com/techgirl1908) and this [**Introduction to JavaScript**](https://testautomationu.applitools.com/javascript-tutorial/) by **Mark Thompson.** There is even a whole learning path for [**Codeless automation**](https://testautomationu.applitools.com/learningpaths.html?id=codeless-path)**.**
+
+If you don't have a background in computer science, you may also get a kick out of the [Base.cs podcast](). In each episode the co-hosts [**Vaidehi Joshi **]()and[ **Saron Yitbarek **]()introduce and discuss a topic in an approachable way, with great anecdotes, many of them food related and you know I dig that!
 
 ## Practice apps and challenges
 

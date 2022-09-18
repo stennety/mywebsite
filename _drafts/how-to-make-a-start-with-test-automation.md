@@ -41,6 +41,12 @@ Finally, if you have the opportunity to pair with a developer or existing test a
 
 ## Use automation to aid testing
 
+There is no need to limit your use of automation and tools to a suite of automated checks that you might typically consider test automation. In fact if you do, you are probably doing automation and testing a disservice.
+
+There are multiple proponents of using code and tools to support exploratory testing in different ways, one of them who I am lucky enough to work with presently is James Thomas. You can learn more about how James [**Explores with Automation**](https://www.ministryoftesting.com/dojo/series/meetups/lessons/exploring-with-automation-with-james-thomas).
+
+A champion on using code in testing is [**Maaret Pyhäjärvi**](https://twitter.com/maaretp)**,** just one fine example of her work is [Exploratory Testing on Computer Interfaces (APIs) ]()- Keynote - API Conference 2019
+
 ## Best language to learn for automation
 
 blah

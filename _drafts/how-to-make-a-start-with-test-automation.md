@@ -21,6 +21,14 @@ Learning to code can also bring a bunch of other benefits, like better understan
 
 ## Transition from manual to automation
 
+If you're already working in Software Testing, but haven't yet written any automation and want to make a start, there are a few questions to ask yourself:
+
+1. Are you looking to skill up to add automation as part of your current role at your current employer?
+2. Are you looking to take on a new role, at your current employer or elsewhere?
+3. Do you already know how to code, and are simply looking to gain experience in new tool or framework to start your journey?
+
+Of course, as well as your desire, you will need the opportunities, if you don't already know what is available with your current employer it might be worth finding out by asking around.
+
 ## Use automation to aid testing
 
 blah

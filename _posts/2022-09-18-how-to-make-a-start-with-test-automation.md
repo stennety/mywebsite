@@ -9,6 +9,10 @@ date: 2022-09-18 00:00:00 +0100
 ---
 Sometimes, people ask me how to make a start in Test Automation, or as you might correctly hear it called automated checks. While there is no one answer, because of course it depends, I can pose some questions for you to ask yourself and point you to some great resources, so lets goooo!
 
+![](/uploads/pexels-tara-winstead-8386440.jpg)
+
+Photo by Tara Winstead: [https://www.pexels.com/photo/robot-pointing-on-a-wall-8386440/](https://www.pexels.com/photo/robot-pointing-on-a-wall-8386440/ "https://www.pexels.com/photo/robot-pointing-on-a-wall-8386440/")
+
 ## Do I need to learn to code to build automation?
 
 No, but yes, well it depends!

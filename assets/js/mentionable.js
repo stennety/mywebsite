@@ -1,5 +1,5 @@
 //@ts-check
-import { html, Component, render } from './bundle.js';
+import { html, Component, render } from './bundle.min.js';
 
 /**
  * @function numberIntl - Returns a locally formated count number

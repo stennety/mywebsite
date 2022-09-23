@@ -152,11 +152,7 @@ class Mentionable extends Component {
      * @returns {string | null}
      */
     mentionlist(types) {
-        let list = [];
-        let mens = types;
-        for (const [key, value] of Object.entries(mens)) {
-            list.push(`${value} ${value !== 1 ? key + 's' : key}`);
-        }
+        let list = Array.from(Object.entries(types), type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
         return new Intl.ListFormat('en-GB', { style: 'long', type: 'conjunction' }).format(list) ?? null;
     }
 

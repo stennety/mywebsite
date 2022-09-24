@@ -1,6 +1,10 @@
 //@ts-check
 import { html, Component, render } from './bundle.min.js';
 
+/** * @type {HTMLElement} */
+const mentiondom = document.querySelector('#mentionable');
+if (!mentiondom) throw new Error('No output DOM found');
+
 /**
  * @function numberIntl - Returns a locally formated count number
  * @param {number} count 
@@ -212,4 +216,4 @@ class Mentionable extends Component {
 
 }
 
-render(html`<${Mentionable} />`, document.querySelector('#mentionable'));
+render(html`<${Mentionable} />`, mentiondom);

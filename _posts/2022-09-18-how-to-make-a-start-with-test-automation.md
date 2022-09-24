@@ -17,7 +17,7 @@ Photo by Tara Winstead: [https://www.pexels.com/photo/robot-pointing-on-a-wall-8
 
 No, but yes, well it depends!
 
-There are many tools that exist that do not require explicit programming language knowledge to build automation. Most of these tools do benefit from knowledge of how [**control flow**](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow) and [**conditions** ]( "https://developer.mozilla.org/en-US/docs/Glossary/Conditional")work, even if they don't need you to understand the syntax for a language.
+There are many tools that exist that do not require explicit programming language knowledge to build automation. Most of these tools do benefit from knowledge of how [**control flow**](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow) and [**conditions**]( "https://developer.mozilla.org/en-US/docs/Glossary/Conditional")work, even if they don't need you to understand the syntax for a language.
 
 Concepts like [**if and else statements**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement) and [**loops** ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)are pretty much unavoidable, and if you want to automate web pages you're going to need some idea about [**locators**](https://www.selenium.dev/documentation/webdriver/elements/finders/), and it wouldn't hurt to understand the [**Document Object Model**](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) (DOM).
 
@@ -49,7 +49,7 @@ There is no need to limit your use of automation and tools to a suite of automat
 
 There are multiple proponents of using code and tools to support exploratory testing in different ways, one of them who I am lucky enough to work with presently is James Thomas. You can learn more about how James [**Explores with Automation**](https://www.ministryoftesting.com/dojo/series/meetups/lessons/exploring-with-automation-with-james-thomas).
 
-A champion on using code in testing is [**Maaret Pyhäjärvi**](https://twitter.com/maaretp)**,** just one fine example of her work is [**Exploratory Testing on Computer Interfaces (APIs)**](), a Keynote from API Conference in 2019.
+A champion on using code in testing is [**Maaret Pyhäjärvi**](https://twitter.com/maaretp), just one fine example of her work is [**Exploratory Testing on Computer Interfaces (APIs)**](https://youtu.be/CjS3wVXQt34), a Keynote from API Conference in 2019.
 
 And of course, there is [**Mark Winteringham**](https://twitter.com/2bittester) and [**Richard Bradshaw**](https://twitter.com/FriendlyTester) who coined the term [**Automation in Testing**](https://automationintesting.com/)**,** and have produced fantastic courses, workshops and tools for learning how to get the best out of Automation, well beyond automated checks.
 

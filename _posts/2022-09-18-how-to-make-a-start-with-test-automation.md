@@ -76,9 +76,9 @@ If you don't have a background in computer science, you may also get a kick out 
 
 The [**Restful Booker**](https://automationintesting.online/#/) is a great practice app for exploration or automation. It's a REST API and a frontend for a functional Bed & Breakfast, Shady Meadows.
 
-The [**Evil Tester,**](https://www.eviltester.com/) [**Alan Richardson**](https://twitter.com/eviltester) has created a series of [**API Challenges**]() that help you explore many of the aspects ot APIs that you might want to test, and therefore automate. While this isn't strictly an automation challenge, you could turn it into one by writing code to beat the challenge! I've started to give this a go myself, but it's work in progress.
+The [**Evil Tester,**](https://www.eviltester.com/) [**Alan Richardson**](https://twitter.com/eviltester) has created a series of [**API Challenges**](https://www.eviltester.com/page/tools/apichallenges/) that help you explore many of the aspects ot APIs that you might want to test, and therefore automate. While this isn't strictly an automation challenge, you could turn it into one by writing code to beat the challenge! I've started to give this a go myself, but it's work in progress.
 
-Want more? There is a great [**post on The Club **](https://club.ministryoftesting.com/t/products-and-sites-to-practice-testing-on/1242)where loads of people have shared products and sites they have used to practice testing on. You can even go add your own!
+Want more? There is a great [**post on The Club **](https://club.ministryoftesting.com/t/products-and-sites-to-practice-testing-on/1242), where loads of people have shared products and sites they have used to practice testing on. You can even go add your own!
 
 ## Just start
 

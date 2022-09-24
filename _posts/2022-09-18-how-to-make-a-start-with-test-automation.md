@@ -51,7 +51,7 @@ There are multiple proponents of using code and tools to support exploratory tes
 
 A champion on using code in testing is [**Maaret Pyhäjärvi**](https://twitter.com/maaretp), just one fine example of her work is [**Exploratory Testing on Computer Interfaces (APIs)**](https://youtu.be/CjS3wVXQt34), a Keynote from API Conference in 2019.
 
-And of course, there is [**Mark Winteringham**](https://twitter.com/2bittester) and [**Richard Bradshaw**](https://twitter.com/FriendlyTester) who coined the term [**Automation in Testing**](https://automationintesting.com/)**,** and have produced fantastic courses, workshops and tools for learning how to get the best out of Automation, well beyond automated checks.
+And of course, there is [**Mark Winteringham**](https://twitter.com/2bittester) and [**Richard Bradshaw**](https://twitter.com/FriendlyTester) who coined the term [**Automation in Testing**](https://automationintesting.com/), and have produced fantastic courses, workshops and tools for learning how to get the best out of Automation, well beyond automated checks.
 
 ## Best language to learn for automation
 
@@ -68,9 +68,9 @@ So, I will ask you to consider the following:
 
 ## Resources for learning
 
-One of the absolute best resources for learning Test Automation in my experience is the [**Test Automation University**](https://testautomationu.applitools.com/)**.** Not only is it free, but the content is written by and for testers, so it's way more relevant then the odd testing focused chapter in a code course otherwise written for developers. The are even some introductions into coding on there, for example this course on [**Java Programming**](https://testautomationu.applitools.com/java-programming-course/) by [**Angie Jones**](https://twitter.com/techgirl1908) and this [**Introduction to JavaScript**](https://testautomationu.applitools.com/javascript-tutorial/) by **Mark Thompson.** There is even a whole learning path for [**Codeless automation**](https://testautomationu.applitools.com/learningpaths.html?id=codeless-path)**.**
+One of the absolute best resources for learning Test Automation in my experience is the [**Test Automation University**](https://testautomationu.applitools.com/). Not only is it free, but the content is written by and for testers, so it's way more relevant then the odd testing focused chapter in a code course otherwise written for developers. The are even some introductions into coding on there, for example this course on [**Java Programming**](https://testautomationu.applitools.com/java-programming-course/) by [**Angie Jones**](https://twitter.com/techgirl1908) and this [**Introduction to JavaScript**](https://testautomationu.applitools.com/javascript-tutorial/) by **Mark Thompson.** There is even a whole learning path for [**Codeless automation**](https://testautomationu.applitools.com/learningpaths.html?id=codeless-path).
 
-If you don't have a background in computer science, you may also get a kick out of the [**Base.cs podcast**]()**.** In each episode the co-hosts [**Vaidehi Joshi**]() and [**Saron Yitbarek**]() introduce and discuss a topic in an approachable way, with great anecdotes, many of them food related and you know I dig that!
+If you don't have a background in computer science, you may also get a kick out of the [**Base.cs podcast**](https://www.codenewbie.org/basecs). In each episode the co-hosts [**Vaidehi Joshi**](https://twitter.com/vaidehijoshi) and [**Saron Yitbarek**](https://twitter.com/saronyitbarek) introduce and discuss a topic in an approachable way, with great anecdotes, many of them food related and you know I dig that!
 
 ## Practice apps and challenges
 

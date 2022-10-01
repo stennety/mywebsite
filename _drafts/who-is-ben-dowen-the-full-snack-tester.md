@@ -18,13 +18,13 @@ You can find out more about Software Testing communities [here](https://www.dowe
 
 ## Technical, full stack, background
 
-I have a technical background, built up throughout my career that enables me to test systems at many different levels. I explore from the infrastructure, when software lives, backend services, APIs and persistence, right the way up to where users interact with the end product.
+I have a technical background, built up throughout my career that enables me to test systems at many different levels. I explore systems from the infrastructure, where software lives, backend services, APIs, and persistence layers (database), right the way up to where users interact with the end product.
 
 You can read more about my thoughts about how this applies to test automation in my post [Anatomy of test automation](https://dev.to/dowenb/anatomy-of-test-automation-e9o).
 
 ## System and team boundaries
 
-In my experience, I find the most impactful bugs are typically found at system and team boundaries. I find integrations and hand offs that are prone to miscommunication, and unnecessary friction.
+In my experience, I find the most impactful bugs are typically found at system and team boundaries. I find the integrations and hand offs are prone to miscommunication, and unnecessary friction.
 
 I believe strongly that [building software is a team sport](https://www.dowen.me.uk/creating-software-is-a-team-sport/), and experienced software quality and testing practitioners can play a very valuable role as they contribute to a teams overall success in shipping great software.
 

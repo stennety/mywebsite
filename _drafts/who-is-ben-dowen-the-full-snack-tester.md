@@ -8,6 +8,10 @@ tags:
 date: 2022-10-01 00:00:00 +0100
 
 ---
+Find out a bit more about Ben Dowen, the Full Snack Tester.
+
+![](/uploads/pexels-mo-abrahim-3537844.jpg)
+
 ## Celebrating the Community of Software Testing
 
 I celebrate those who contribute to the craft and community of software testing. I encourage a collaborative, whole team approach to testing and strongly believe everyone involved in building software should contribute to testing it.
@@ -33,3 +37,5 @@ I believe strongly that [building software is a team sport](https://www.dowen.me
 I understand quality as the combination of usefulness, goodness and correctness, observed from a perspective at a point in time. I also find the definition of quality as the absence of unnecessary friction useful, although I'm yet to combine these two definitions.
 
 Find out more about what quality means to me [here](https://www.dowen.me.uk/what-does-quality-mean-to-me/ "What quality means to me blog post").
+
+Over Photo by Mo Abrahim: [https://www.pexels.com/photo/popcorn-in-ceramic-bowl-3537844/](https://www.pexels.com/photo/popcorn-in-ceramic-bowl-3537844/ "https://www.pexels.com/photo/popcorn-in-ceramic-bowl-3537844/")

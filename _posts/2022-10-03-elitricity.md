@@ -10,6 +10,6 @@ Energy is probably in a lot of peoples minds now. It's interesting to see where 
 
 Its a simple dashboard which displays the Carbon Intensity API by National Grid. Since Lit updated to 2.0, I have revisited the project and refactored the previous Lit-HTML template approach with Lit components instead. I like how Lit is close to writing native web components, the template is effectively JS template literals.
 
-_I have experimented in a CodePen [X-tricity](https://codepen.io/collection/nxmmwb) collection of forks built with different frameworks: Preact, Preact and Vue, so far._
-
 See the [current grid sources](/elitricity/).
+
+_I have other experiments in an [X-tricity](https://codepen.io/collection/nxmmwb) CodePen collection of forks built with different frameworks: Preact, Preact and Vue, so far._

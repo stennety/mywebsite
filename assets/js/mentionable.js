@@ -5,13 +5,16 @@ import { html, Component, render } from './bundle.min.js';
 const mentiondom = document.querySelector('#mentionable');
 if (!mentiondom) throw new Error('No output DOM found');
 
+/** * @type {string} */
+const lang = window.navigator.language ?? 'en';
+
 /**
  * @function numberIntl - Returns a locally formated count number
  * @param {number} count 
  * @returns {string | number}
  */
 function numberIntl(count) {
-    return 'Intl' in window ? new Intl.NumberFormat().format(count) : Number(count)
+    return 'Intl' in window ? new Intl.NumberFormat(lang).format(count) : Number(count)
 }
 
 /**
@@ -157,7 +160,7 @@ class Mentionable extends Component {
      */
     mentionlist(types) {
         let list = Array.from(Object.entries(types), type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
-        return new Intl.ListFormat('en-GB', { style: 'long', type: 'conjunction' }).format(list) ?? null;
+        return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list) ?? null;
     }
 
     async _fetchCount() {

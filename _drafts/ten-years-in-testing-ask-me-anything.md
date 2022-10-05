@@ -21,11 +21,7 @@ So, finally, after months of delay, here are my responses to your original quest
 ## Question 1
 
 [  
-𝑫𝒂𝒏 𝑨𝒔𝒉𝒃𝒚](https://twitter.com/DanAshby04)
-
-[@DanAshby04](https://twitter.com/DanAshby04)
-
-Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+𝑫𝒂𝒏 𝑨𝒔𝒉𝒃𝒚, @DanAshby04](https://twitter.com/DanAshby04)
 
 > Question: _Have you ever felt the urge to move out of testing?_
 
@@ -63,11 +59,7 @@ _"Computers don't have problems, people have problems. When solving a problem, r
 
 ## Question 2
 
-[Karen Tests Stuff](https://twitter.com/KarenTestsStuff)
-
-[@KarenTestsStuff](https://twitter.com/KarenTestsStuff)
-
-Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+[Karen Tests Stuff, @KarenTestsStuff](https://twitter.com/KarenTestsStuff)
 
 > Question: What piece of advice would have saved you the most heartache, had you known it earlier in your career?
 
@@ -75,11 +67,7 @@ Answer: I am technical, and when developers called me non-technical, what they m
 
 ## Question 3
 
-[James Thomas](https://twitter.com/qahiccupps)
-
-[@qahiccupps](https://twitter.com/qahiccupps)
-
-Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+[James Thomas, @qahiccupps](https://twitter.com/qahiccupps)
 
 > Question: Most significant perspective change.
 
@@ -113,3 +101,43 @@ Answer:
 * The Testing Community give me a lot of energy
 * I'm still learning new things, ten years in
 * I strongly believe in making software better for people
+
+## Question 4
+
+[Adrian Yorke, @adrian_yorke](https://twitter.com/adrian_yorke)
+
+> Question: What advice would you give your 10 years younger self?
+
+Answer: 
+
+## Question 5
+
+[Richard Forjoe 费乔](https://twitter.com/rforjoe)
+
+[@rforjoe](https://twitter.com/rforjoe)
+
+Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+
+> Question: What has changed / improved in the industry during that period? How have you improved your testing craft?
+
+Answer:
+
+> Question: Where do you feel you’ve added the most value to companies & yourself ?
+
+Answer:
+
+> Question: Top 2 mental health challenges you’ve overcome/still deal with, testing related?
+
+Answer:
+
+## Question 6
+
+[𓂆 Aya Mohamed Fouad](https://twitter.com/AyaMFouad)
+
+[@AyaMFouad](https://twitter.com/AyaMFouad)
+
+Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+
+> Question: Did you ever have to deal with imposter syndrome? If yes, how do you handle that?
+
+Answer: 

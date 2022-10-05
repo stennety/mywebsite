@@ -108,19 +108,21 @@ Answer:
 
 > Question: What advice would you give your 10 years younger self?
 
-Answer: 
+Answer: You don't need to put in extra hours at work to impress your manager to progress your career. Instead, make the most of the time you spend at work and look at ways to avoid waste.
 
 ## Question 5
 
-[Richard Forjoe 费乔](https://twitter.com/rforjoe)
-
-[@rforjoe](https://twitter.com/rforjoe)
+[Richard Forjoe 费乔](https://twitter.com/rforjoe), [@rforjoe](https://twitter.com/rforjoe)
 
 Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
 
-> Question: What has changed / improved in the industry during that period? How have you improved your testing craft?
+> Question: What has changed / improved in the industry during that period?
 
-Answer:
+Answer: Two complementary things, the raise of good automation tools and frameworks that are easy to pick up and use, and the rise of the Exploratory Testing movement, where investigative testing is valued as complementary to automation.
+
+> How have you improved your testing craft?
+
+Answer: In 10 years? I've learned everything I know! Most recently, this year, I've focused on growing how I do Exploratory Testing, and how I collaborate and pair with others to do testing together.
 
 > Question: Where do you feel you’ve added the most value to companies & yourself ?
 

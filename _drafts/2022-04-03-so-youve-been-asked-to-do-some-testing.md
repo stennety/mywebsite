@@ -33,7 +33,7 @@ Scope is another what if saying, what is and isn't included. It is a very differ
 
 If the scope of what you are being asked to do isn't clear, start by making some assumptions and then check these against whomever passed you on this work.
 
-You can ask things like:
+**You can ask things like:**
 
 * Who is the testing for?
 * Who will want to hear about what I find?
@@ -47,7 +47,7 @@ You can ask things like:
 
 As well as the scope, trying to understand what you will and won't be expected to do, you may want to get other context.
 
-You should find out:
+**You should find out:**
 
 * Are there any rules, regulations or standards that need to be met?
 * Who makes the judgement on if we are compliant with these standards?

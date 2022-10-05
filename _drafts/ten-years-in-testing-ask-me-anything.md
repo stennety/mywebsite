@@ -60,3 +60,31 @@ A 3 highlights include:
 Going way back to college, when I was interning in the IT Department, one very big lesson that has helped me in my whole career in technology, especially testing, is this one thing:
 
 _"Computers don't have problems, people have problems. When solving a problem, remember to think about the person before you think about the computer." - L. Coxall_
+
+## Question 2
+
+[Karen Tests Stuff](https://twitter.com/KarenTestsStuff)
+
+[@KarenTestsStuff](https://twitter.com/KarenTestsStuff)
+
+Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+
+> Question: What piece of advice would have saved you the most heartache, had you known it earlier in your career?
+
+Answer: I am technical, and when developers called me non-technical, what they might really meant was "I don't want to be challenged about this bit, because I'm not confident about it myself".
+
+## Question 3
+
+[James Thomas](https://twitter.com/qahiccupps)
+
+[@qahiccupps](https://twitter.com/qahiccupps)
+
+Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
+
+> Question: Most significant perspective change.
+
+> Question: Stuff you did that you wouldn't do again
+
+> Question: Most useful defaults based on your experience
+
+> Question: Why you stayed in testing

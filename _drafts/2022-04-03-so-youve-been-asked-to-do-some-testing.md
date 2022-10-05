@@ -1,6 +1,6 @@
 ---
 title: So you've been asked to do some testing, where do you start?
-date: 2022-04-03 00:00:00 +0000
+date: 2022-04-03T00:00:00.000+00:00
 
 ---
 So, you're minding your own business, enjoying life. Maybe you're working as a Project Manager, a Product Owner, a Team Lead, or maybe you just happen to work for a University and are the one who knows your Excel from your USB port.
@@ -116,7 +116,37 @@ Investigative testing can take different forms, typically [Exploratory Testing](
 
 ### Take notes
 
-Taking testing notes is a skill, and one worth practicing and learning more about.
+Taking testing notes is a skill, and one worth practicing and learning more about. It is a great start to make notes for yourself, to document what you did for future reference, and help you answer questions when people ask you what you covered in your testing.
+
+For exploratory sessions, where you are not looking at "pass / fail" but instead doing investigative testing to discover information, notes are even more important, because they will form  part of the communication back to the team, or others in the project.
+
+For taking notes of exploration, I like to use a very simple template:
+
+***
+
+**Mission**
+
+What was the intention of this testing session. You could put a charter here, like "Explore <target>, using <resources> to discover <information>", but equally you could use any format that makes sense for you. This is simply your statement of intent.
+
+**Summary**
+
+* Write this last
+* Use bullet points
+* Cover findings, outcomes and actions
+* This should help make notes more consumable for folks who won't read the detail
+
+**Notes**
+
+Free form notes, that includes thoughts, questions, answers, things you did and found.
+
+I also like to capture snippets of log messages, any commands I typed, screenshots of things I found interesting.
+
+***
+
+You can read more about testing notes, and other more structure templates like Session Based Testing:
+
+* [Notes on notes, James Thomas](https://qahiccupps.blogspot.com/2022/04/notes-on-testing-notes.html)
+* [Testing IRL - Session Based Test Management, Cassandra H. Leung](https://www.cassandrahl.com/blog/how-to-document-testing-with-sbtm-testing-irl-part-2/)
 
 ## What to avoid
 

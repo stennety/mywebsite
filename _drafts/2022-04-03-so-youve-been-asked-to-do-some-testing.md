@@ -1,6 +1,6 @@
 ---
 title: So you've been asked to do some testing, where do you start?
-date: 2022-04-03T00:00:00.000+00:00
+date: 2022-10-05 01:00:00 +0100
 
 ---
 So, you're minding your own business, enjoying life. Maybe you're working as a Project Manager, a Product Owner, a Team Lead, or maybe you just happen to work for a University and are the one who knows your Excel from your USB port.
@@ -51,7 +51,7 @@ You should find out:
 
 * Are there any rules, regulations or standards that need to be met?
 * Who makes the judgement on if we are compliant with these standards?
-* Are aspects like security, performance and accessability already being considered by others?
+* Are aspects like security, performance and accessibility already being considered by others?
 * Are there other parts of the company that need to get involved in accepting or releasing this software?
 
 ### Choosing what to test
@@ -96,7 +96,7 @@ As well as identifying those things that higher impact if they go wrong, also co
 
 You may be asking by now, [what do tests look like](https://www.ministryoftesting.com/dojo/lessons/what-do-tests-look-like)? And the answer, of course, is it depends.
 
-There are many different types of tests, the mainly fit into two basic catagories:
+There are many different types of tests, the mainly fit into two basic categories:
 
 * Checks for what we know to expect
 * Investigations to learn
@@ -150,7 +150,32 @@ You can read more about testing notes, and other more structure templates like S
 
 ## What to avoid
 
+### Being forced to play gatekeeper
+
+It is very likely, now you have assumed the role of Tester, willingly or otherwise, that you will be asked to pass judgement on the release of the product, or acceptance of the service.  
+
+If you can resist the pressure to make this choice alone, instead focus on gathering facts (use your testing notes!) and having discussions with the team. Together, you can make an informed choice as to if you should proceed.
+
+### Beleving misconceptions about testing
+
+There are many myths, legends and misconceptions about Software Testing. Don't fall for it!
+
+Here are some great place to go for some myth busting:
+
+* [Ten Misconceptions About Software Testing - That Non-Testers Share, Kate Paulk]()
+
 ## Where to end
+
+### When is testing done, done?
+
+I like the way Callum talks about being done, in his Exploratory Testing AMA, and I paraphrase "You're done when you stop learning useful information".
+
+* [Ask Me Anything: Exploratory Testing, Callum Akehurst-Ryan](https://cakehurstryan.com/2021/09/17/ask-me-anything-exploratory-testing/)
+* [Ask Me Anything: Exploratory Testing \[Recording\], Callum Akehurst-Ryan]()
+
+Of course, you may have a time-box or a deadline for testing a feature. In this case, you may need to set expectations, communicate what you would like to do, and how much you might expect to do within the time available.
+
+This can be especially tricky if you're also holding down a different role, and testing is just yet another task with urgent priority. Be kind to yourself, learn what you can and work with others make the choice to finish.
 
 ## Resources
 

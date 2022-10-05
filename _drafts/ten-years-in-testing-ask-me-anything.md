@@ -83,8 +83,26 @@ Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
 
 > Question: Most significant perspective change.
 
+Answer: My perspective on why I should test software has changed from:  
+Then: "to find defects, before the customers do",
+
+Now: "to discover information, to support better choices and build a better product"
+
 > Question: Stuff you did that you wouldn't do again
 
+Answer: OK, I think this calls for a list, no particular order:
+
+* Write BDD Given, When, Then style test cases, that are only ever executed by a human
+* Manage a team of testers, while also still having full-time duty as a tester
+* Spend 6 months modelling and writing tests, before I got my hands on the feature
+* Work in the Betting and Gambling space, I want to focus on domains with positive outcomes for users
+* Wait until I'm angry and frustrated for a prolonged period of time before I start looking for another job
+
 > Question: Most useful defaults based on your experience
+
+Answer: Another list:
+
+* Test in public, by this I mean tell the team what I'm testing and when, and share my notes openly
+* Favor pairing and group working, over doing it myself and working in isolation
 
 > Question: Why you stayed in testing

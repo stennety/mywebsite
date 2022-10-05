@@ -106,3 +106,10 @@ Answer: Another list:
 * Favor pairing and group working, over doing it myself and working in isolation
 
 > Question: Why you stayed in testing
+
+Answer:
+
+* Interesting, challenging, and varied work
+* The Testing Community give me a lot of energy
+* I'm still learning new things, ten years in
+* I strongly believe in making software better for people

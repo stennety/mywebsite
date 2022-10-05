@@ -181,40 +181,40 @@ This can be especially tricky if you're also holding down a different role, and 
 
 ### Books
 
-[Agile Testing Condensed - by Janet Gregory and Lisa Crispin](https://leanpub.com/agiletesting-condensed)
-[Explore it! By Elisabeth Hendrickson](https://www.amazon.co.uk/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025)
-[Would Heu-Risk it? by Lena Wiberg](https://leanpub.com/wouldheuriskit)
-[Exploratory Testing by Maaret Pyhäjärvi](https://leanpub.com/exploratorytesting)
-[Testing Stories - by Melissa Fisher and an ensemble of great testers](https://leanpub.com/testing_stories)
+* [Agile Testing Condensed - by Janet Gregory and Lisa Crispin](https://leanpub.com/agiletesting-condensed)
+* [Explore it! By Elisabeth Hendrickson](https://www.amazon.co.uk/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025)
+* [Would Heu-Risk it? by Lena Wiberg](https://leanpub.com/wouldheuriskit)
+* [Exploratory Testing by Maaret Pyhäjärvi](https://leanpub.com/exploratorytesting)
+* [Testing Stories - by Melissa Fisher and an ensemble of great testers](https://leanpub.com/testing_stories)
 
 ### Blog posts and articles
 
-[How to Test Anything - James Thomas](https://qahiccupps.blogspot.com/2020/05/how-to-test-anything.html)
-[Why do they test software - James Thomas](https://qahiccupps.blogspot.com/2022/03/why-do-they-test-software.html)
-[What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/what-does-quality-mean-to-me/)
-[Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/)
-[Testing is an underrated skill in Testing (Test Automation isn’t everything) - Louise Gibbs](https://louisegibbstest.wordpress.com/2022/03/24/testing-is-an-underrated-skill-in-testing-test-automation-isnt-everything/)
-[What Is Exploratory Testing? An Alternative To Scripted Testing And Try To Break It Testing - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/what-is-exploratory-testing-an-alternative-to-scripted-testing-and-try-to-break-it-testing)
+* [How to Test Anything - James Thomas](https://qahiccupps.blogspot.com/2020/05/how-to-test-anything.html)
+* [Why do they test software - James Thomas](https://qahiccupps.blogspot.com/2022/03/why-do-they-test-software.html)
+* [What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/what-does-quality-mean-to-me/)
+* [Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/)
+* [Testing is an underrated skill in Testing (Test Automation isn’t everything) - Louise Gibbs](https://louisegibbstest.wordpress.com/2022/03/24/testing-is-an-underrated-skill-in-testing-test-automation-isnt-everything/)
+* [What Is Exploratory Testing? An Alternative To Scripted Testing And Try To Break It Testing - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/what-is-exploratory-testing-an-alternative-to-scripted-testing-and-try-to-break-it-testing)
 
 ### Testing Communities
 
-[Ministry of Testing Club](https://club.ministryoftesting.com)
-[The Test Chat - Telegram](https://bit.ly/TTCTelegram)
-[The Test Tribe](https://www.thetesttribe.com)
-[Testers Hangout - Discord](https://discord.gg/Nu64rg3EC2)
-[Testers Hangout - Google Hangouts](https://bit.ly/testerhangout)
+* [Ministry of Testing Club](https://club.ministryoftesting.com)
+* [The Test Chat - Telegram](https://bit.ly/TTCTelegram)
+* [The Test Tribe](https://www.thetesttribe.com)
+* [Testers Hangout - Discord](https://discord.gg/Nu64rg3EC2)
+* [Testers Hangout - Google Hangouts](https://bit.ly/testerhangout)
 
 ### Cheat sheets
 
-[Software Test Planning Checklist - Ministry of Testing](https://www.ministryoftesting.com/dojo/series/the-testing-planet-2019/lessons/the-software-testing-planning-checklist)
-[Test Heuristics Cheat Sheet - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/test-heuristics-cheat-sheet)
-[Testing Guid - Chris Kenst](https://guides.kenst.com/)
+* [Software Test Planning Checklist - Ministry of Testing](https://www.ministryoftesting.com/dojo/series/the-testing-planet-2019/lessons/the-software-testing-planning-checklist)
+* [Test Heuristics Cheat Sheet - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/test-heuristics-cheat-sheet)
+* [Testing Guid - Chris Kenst](https://guides.kenst.com/)
 
 ### Tools
 
-[FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
-[Miro](https://miro.com/)
-[Postman](https://www.postman.com)
-[Insomnia](https://insomnia.rest/)
-[Chrome Dev tools Docs](https://developer.chrome.com/docs/devtools/)
-[Resources for Software Testers - Ministry of Testing](https://www.ministryoftesting.com/dojo/series/resources) - Requires free login.
+* [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
+* [Miro](https://miro.com/)
+* [Postman](https://www.postman.com)
+  [Insomnia](https://insomnia.rest/)
+* [Chrome Dev tools Docs](https://developer.chrome.com/docs/devtools/)
+* [Resources for Software Testers - Ministry of Testing](https://www.ministryoftesting.com/dojo/series/resources) - Requires free login.

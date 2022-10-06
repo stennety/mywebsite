@@ -26,7 +26,7 @@ You might also want to consider some definitions of Software Quality, here are a
 
 ## Where to start
 
-### Start to figure our scope and context
+### Start to figure your scope and context
 
 It can be overwhelming starting to test software if you haven't done it before. One great thing to do early on is to start mapping out your context and understand the scope of what you're being asked to do.
 Scope is another what if saying, what is and isn't included. It is a very different prospect if you are being asked to test a single new feature, or assess the suitability of an entire application or hosted solution.
@@ -88,7 +88,7 @@ There are many free and paid tools to help build Mind Maps. [Miro](https://miro.
 
 A [Risk Based Testing](https://www.guru99.com/risk-based-testing.html) approach can be very useful, and it is about understanding what might go wrong, how likely it is to go wrong and what impact it will have if it does go wrong.
 
-If you followed the steps about, you have a mind map of some things you could test. Have a think what the impact would be if you found a defect in one of the areas you identified? What impact would it have?
+If you followed the steps above, you have a mind map of some things you could test. Have a think what the impact would be if you found a defect in one of the areas you identified? What impact would it have?
 
 As well as identifying those things that higher impact if they go wrong, also consider how easy or even possible it will be to test. Try and choose something that would be bad if it went wrong, and you have a fair chance of being able to do!
 
@@ -152,11 +152,11 @@ You can read more about testing notes, and other more structure templates like S
 
 ### Being forced to play gatekeeper
 
-It is very likely, now you have assumed the role of Tester, willingly or otherwise, that you will be asked to pass judgement on the release of the product, or acceptance of the service.  
+It is very likely, now you have assumed the role of Tester, willingly or otherwise, that you will be asked to pass judgement on the release of the product, or acceptance of the service.
 
 If you can resist the pressure to make this choice alone, instead focus on gathering facts (use your testing notes!) and having discussions with the team. Together, you can make an informed choice as to if you should proceed.
 
-### Beleving misconceptions about testing
+### Believing misconceptions about testing
 
 There are many myths, legends and misconceptions about Software Testing. Don't fall for it!
 
@@ -164,7 +164,33 @@ Here are some great place to go for some myth busting:
 
 * [Ten Misconceptions About Software Testing - That Non-Testers Share, Kate Paulk]()
 
-## Where to end
+## Starting and finishing on time
+
+### How long will it take?
+
+You may well be asked, how long will testing take? While this sounds like an innocent question, there is no one right answer, so don't feel bad if you don't have one!
+
+Unless you have prior art, that is you have done a similar thing before, you're very unlikely to be able to produce an accurate estimation as to how long work will take.
+
+I'm sorry I'm not being much help on this one, mainly because while I've been working in testing for 10 years, and tried loads of ways to try and do estimates, they are all awful and they rarely stand up to reality.
+
+I appreciate this may not be very helpful, and if I get some better advice for you I'll come back and update this article!
+
+### When to stop testing
+
+So, you may not know how long it was going to take, but when do you stop?
+
+The answer for this is, again, tricky but you can consider a few things:
+
+* Does your team have confidence they understand enough about the change, and how it will impact users?
+* Do you have more open questions you need to answer?
+* Do you have any good ideas left on what testing could be done?
+* Is there a good way to know if the change has been successfully received by users?
+  * Monitoring of the system
+  * Feedback loop with real users
+* Can you roll back the change, or or get it fixed quickly, if there is a problem?
+
+Finally I will mention, testing is never really _done_, until the system you are testing is used for the last time by it's last user. But what is important, is are you done testing for now, enough to give it to the users to start using?
 
 ### When is testing done, done?
 
@@ -176,6 +202,17 @@ I like the way Callum talks about being done, in his Exploratory Testing AMA, an
 Of course, you may have a time-box or a deadline for testing a feature. In this case, you may need to set expectations, communicate what you would like to do, and how much you might expect to do within the time available.
 
 This can be especially tricky if you're also holding down a different role, and testing is just yet another task with urgent priority. Be kind to yourself, learn what you can and work with others make the choice to finish.
+
+## Other unanswered questions for another day
+
+I'm confident, because I've had good feedback (Thanks sis!) that this won't answer all your questions. And I appreciate, I may of gone way too deep in some areas if you truly are jumping in for the first time, or in a non-testing role.
+
+Here are some topics I may visit in the future, and when I do I'll update this article, or link to the new one:
+
+* Testing terms explained, what is a defect anyway, and is it the same as a bug?
+* What is the difference between a _product_, a _system_ and _software_?
+* How to test a system we didn't build, say one provided by a vendor?
+* Example testing session, what does testing really LOOK like?
 
 ## Resources
 

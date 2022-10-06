@@ -5,7 +5,7 @@ tags:
 - testing
 - quality
 - questions and answers
-date: 2022-10-05 00:00:00 +0100
+date: 2022-10-06 00:00:00 +0100
 
 ---
 July 2012, now a little over ten years ago I started as a Software Test Engineer at Citrix Systems, in the model village of Cambourne in Cambridgeshire, UK.

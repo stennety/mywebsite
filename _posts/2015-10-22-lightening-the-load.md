@@ -5,7 +5,7 @@ date: 2015-10-22
 source: 
 tags: [personal, perf, web, js]
 ---
-So my sites been through a mild overhaul recently behind the scenes. Hopefully you experienced it in an even briefer gap while the page loaded.
+So [my sites](/blog/portfolio-redesign/) been through a mild overhaul recently behind the scenes. Hopefully you experienced it in an even briefer gap while the page loaded.
 
 Speed was a goal from the start of the site in its current guise, flat design lends itself well to faster loading. I launched with a minimum viable site and have refined from there, but there were just a few  areas I needed to finally finesse. 
 

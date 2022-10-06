@@ -18,6 +18,10 @@ I didn't answer those questions at the time, and then [I asked you to AMA again]
 
 So, finally, after months of delay, here are my responses to your original questions.
 
+![](/uploads/pexels-pixabay-208494.jpg)
+
+Photo by Pixabay: [https://www.pexels.com/photo/questions-answers-signage-208494/](https://www.pexels.com/photo/questions-answers-signage-208494/ "https://www.pexels.com/photo/questions-answers-signage-208494/")
+
 ## Question 1
 
 [  

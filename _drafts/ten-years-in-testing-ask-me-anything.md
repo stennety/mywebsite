@@ -126,11 +126,16 @@ Answer: In 10 years? I've learned everything I know! Most recently, this year, I
 
 > Question: Where do you feel you’ve added the most value to companies & yourself ?
 
-Answer:
+Answer: To companies, I like to think that my value can be measured in both better outcomes for users, and increased enthusiasm for testing in the teams I've worked with.
+
+Value for myself? I've become much more confident, technically and in my communication with others. I've grown a real love for the craft of testing, and gained a huge online community that I value deeply.
 
 > Question: Top 2 mental health challenges you’ve overcome/still deal with, testing related?
 
 Answer:
+
+1. I want to change the world, by doing all the things and making colossal impact. And I constantly have to fight my urge to do all the things, otherwise I lose myself to hours of extra work, mostly in my own time, investing in projects I'll never finish. And then I carry the mental load of that unfinished work with me. I need to give myself a break more often, and learn to disconnect.
+2. I bring my work frustration and stress back into my family life, and my family suffer for it. This puts strain on my relationship, yes there is a theme here!
 
 ## Question 6
 
@@ -142,4 +147,6 @@ Replying to [@FullSnackTester](https://twitter.com/FullSnackTester)
 
 > Question: Did you ever have to deal with imposter syndrome? If yes, how do you handle that?
 
-Answer: 
+Answer: A few times, I've found myself working with (at work, or in the community) absolute legends from the testing world. And I've sometimes fallen into the trap of comparing myself to others, instead of the me from yesterday. And this has on occasion knocked my confidence and distracted me.
+
+I've thankfully never suffered as badly with imposter syndrome as I know some others have, nor can I pinpoint one thing I've done to track and handle it. While I would like to think I handled it by being kind to myself, and appreciating how far I've come and what I've accomplished, in reality I probably rather pushed myself to try and emulate the success of others, sometimes more successfully than others.

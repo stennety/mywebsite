@@ -2,6 +2,7 @@
 layout: post
 title: Dark new look and feel
 description: Announcing a new look and feel to the website, now with dark mode!
+header: /uploads/pexels-junior-teixeira-2047905.jpg
 image: /uploads/pexels-junior-teixeira-2047905.jpg
 category: Announcement
 tags:

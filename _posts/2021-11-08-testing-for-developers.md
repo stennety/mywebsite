@@ -1,7 +1,12 @@
 ---
 title: Testing for Developers
-tags: []
+tags:
+- Testing
+- Teams
+- Industry
 date: 2021-11-08 00:00:00 +0000
+categories:
+- Testing for Developers
 
 ---
 ## Developers can't test and other lies

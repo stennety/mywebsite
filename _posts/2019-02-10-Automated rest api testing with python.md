@@ -1,12 +1,13 @@
 ---
 title: 'Automated REST API Testing with Python'
 date: 2019-02-19 00:00:00 +0000
-
+categories:
+- Automation
 ---
 
 Last time out I introduced you to the start of my journey to automate all the "test" things in Python. I continue that journey now by switching focus away from frontend, to Restful Web APIs. You can look back at my last post [here](https://www.dowen.me.uk/posts/how-I-am-learning-to-test-the-internet-with-seleniumbase/ "How I am learning to test The Internet with SeleniumBase").
 
-# Explore, Request, Assert
+## Explore, Request, Assert
 
 For this leg of the Journey, I will be using the python modules [requests](https://pypi.org/project/requests/ "Requests: HTTP for Humans") and [pyassert](https://pypi.org/project/pyassert/ "pyassert is an assertion library for the Python programming language.").
 
@@ -20,7 +21,7 @@ If, like me, you want to develop your API testing skills in a safe place, outsid
 
 Ministry of Testing has a resource page listing some of those options [Websites To Practice Testing](https://www.ministryoftesting.com/dojo/lessons/websites-to-practice-testing "Here's a handy list of websites for software testers to practice their testing on that you might find it useful."). The one I am using is [Restful Booker](https://restful-booker.herokuapp.com "An API playground created by Mark Winteringham for those wanting to learn more about API testing and tools") by [Mark Winteringham](https://www.mwtestconsultancy.co.uk "MW Test Consultancy").
 
-Start your exploration using API documentation. For Restful booker, you can find that [here](https://restful-booker.herokuapp.com/apidoc/index.html "API documentation for the playground API restful-booker."). 
+Start your exploration using API documentation. For Restful booker, you can find that [here](https://restful-booker.herokuapp.com/apidoc/index.html "API documentation for the playground API restful-booker.").
 
 To learn more about testing APIs and using Postman, I suggest the free course [Exploring Service APIs through Test Automation](https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/ "Exploring Service APIs through Test Automation") by [Amber Race](https://twitter.com/ambertests "Amber Race on Twitter").
 
@@ -34,7 +35,7 @@ You can take a closer look at my API Library for Restful Booker, and my rest cod
 
 ![basic example](../images/basic&#32;example&#32;py.png)
 
-This basic example makes a GET request to the URL https://restful-booker.herokuapp.com/booking/1/, and prints the resulting JSON response body into the Python console. Running it gives us:
+This basic example makes a GET request to the URL <https://restful-booker.herokuapp.com/booking/1/>, and prints the resulting JSON response body into the Python console. Running it gives us:
 
 ![example output](../images/basic&#32;exaple&#32;output.png)
 

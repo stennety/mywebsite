@@ -6,6 +6,8 @@ tags:
 - winner
 - testoftheday
 date: 2022-07-10 00:00:00 +0100
+categories:
+- Tester of The Day
 
 ---
 So, you've just found out you've won [#TesterOfTheDay](https://www.testeroftheday.com/)? Congratulations!

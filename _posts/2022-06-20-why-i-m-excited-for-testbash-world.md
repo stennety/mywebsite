@@ -4,7 +4,10 @@ tags:
 - community
 - conference
 - MoT
+- Minastry of Testing
 date: 2022-06-20 00:00:00 +0100
+categories:
+- Conferences
 
 ---
 I'm getting really excited now for [TestBash World](https://www.ministryoftesting.com/events/testbash-world-2022)! Let me tell you why.

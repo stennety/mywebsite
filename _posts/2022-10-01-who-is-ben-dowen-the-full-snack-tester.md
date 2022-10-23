@@ -6,6 +6,8 @@ tags:
 - ben dowen
 - full snack tester
 date: 2022-10-01 00:00:00 +0100
+categories:
+- About Ben
 
 ---
 Find out a bit more about Ben Dowen, the Full Snack Tester.

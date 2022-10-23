@@ -5,6 +5,9 @@ tags:
 - automation
 - tools
 date: 2022-05-25 00:00:00 +0100
+categories:
+- Tools
+- HowTo
 
 ---
 Too long, didn't read:

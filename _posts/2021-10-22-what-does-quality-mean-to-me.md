@@ -1,6 +1,12 @@
 ---
 title: What does quality mean to me?
 date: 2021-10-22 00:00:00 +0100
+tags:
+- Quality
+- Testing
+categories:
+- About Ben
+- Quality
 
 ---
 There are many definitions of Software and Product "Quality". For a long time, earlier in my career, I did much to ignore the topic and felt it was intangible. The definitions that I had at the time were all about only the Correctness, the strict conformance to well specified requirements.

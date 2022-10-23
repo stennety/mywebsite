@@ -6,6 +6,9 @@ tags:
 - quality
 - quality engineer
 date: 2022-05-28 00:00:00 +0100
+categories:
+- About Ben
+- Industry
 
 ---
 ![](/uploads/time.jpg)

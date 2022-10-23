@@ -1,6 +1,12 @@
 ---
 title: So you've been asked to do some testing, where do you start?
 date: 2022-10-05 01:00:00 +0100
+tags:
+- Testing
+- Beginner
+categories:
+- HowTo
+- Testing
 
 ---
 So, you're minding your own business, enjoying life. Maybe you're working as a Project Manager, a Product Owner, a Team Lead, or maybe you just happen to work for a University and are the one who knows your Excel from your USB port.

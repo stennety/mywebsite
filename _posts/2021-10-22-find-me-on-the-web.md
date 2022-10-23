@@ -1,6 +1,12 @@
 ---
 title: Places you can find me online
 date: 2021-10-22 00:00:00 +0100
+tags:
+- Twitter
+- Social Media
+- Links
+categories:
+- About Ben
 
 ---
 Since starting this site and blog, I have expanded my online presence with a number of other sites that I post on. While I should probably consolidate my content in one place, for now let me tell you where else you can find me!

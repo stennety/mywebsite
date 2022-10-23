@@ -5,6 +5,9 @@ tags:
 - quality
 - process
 date: 2022-08-15 00:00:00 +0100
+categories:
+- Testing
+- Process
 
 ---
 How to test anything:

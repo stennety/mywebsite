@@ -5,7 +5,8 @@ tags:
 - Questions
 - About
 date: 2022-10-06 00:00:00 +0100
-
+categories:
+- About Ben
 ---
 July 2012, now a little over ten years ago I started as a Software Test Engineer at Citrix Systems, in the model village of Cambourne in Cambridgeshire, UK.
 

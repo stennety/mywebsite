@@ -1,6 +1,10 @@
 ---
 title: How I am learning to test The Internet with SeleniumBase
 date: 2019-02-10 14:00:00 +0000
+categories:
+- Automation
+- Testing
+- HowTo
 
 ---
 Goal: I have a simple, ambitious big hairy goal Learn how to "Automate all the (test) things, in Python". This is Part 1 on my journey towards this goal.

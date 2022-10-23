@@ -10,7 +10,7 @@ It can be a daunting task to create an automation strategy, get resources signed
 
 But what is the alternative, and is it a good idea?
 
-# "Just do it!"
+## "Just do it!"
 
 ### What might this look like?
 

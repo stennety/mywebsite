@@ -1,9 +1,9 @@
 ---
 title: Building your toolbox and sharpening your tools
 tags:
-- testing
-- automation
-- tools
+- Testing
+- Tutomation
+- Tools
 date: 2022-05-25 00:00:00 +0100
 categories:
 - Tools

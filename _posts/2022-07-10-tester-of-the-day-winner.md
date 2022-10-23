@@ -1,10 +1,8 @@
 ---
 title: Tester of The Day Winner
 tags:
-- recognition
-- testing
-- winner
-- testoftheday
+- Recognition
+- Tester of The Day
 date: 2022-07-10 00:00:00 +0100
 categories:
 - Tester of The Day

@@ -1,7 +1,7 @@
 ---
 title: The Future of Software Testing
 tags:
-- testing
+- Testing
 - Ministry of Testing
 - Bloggers Club
 date: 2022-08-14 00:00:00 +0100

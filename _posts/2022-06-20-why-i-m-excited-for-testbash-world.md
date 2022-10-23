@@ -1,8 +1,8 @@
 ---
 title: Why I'm excited for TestBash World
 tags:
-- community
-- conference
+- Community
+- Conference
 - MoT
 - Minastry of Testing
 date: 2022-06-20 00:00:00 +0100

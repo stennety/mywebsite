@@ -1,10 +1,10 @@
 ---
 title: Building software is a team sport
 tags:
-- agile
-- software
-- devops
-- quality
+- Agile
+- Software
+- Devops
+- Quality
 date: 2022-06-01 00:00:00 +0100
 categories:
 - Teams

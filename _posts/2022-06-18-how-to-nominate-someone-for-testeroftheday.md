@@ -1,10 +1,8 @@
 ---
 title: 'How to nominate someone for #TesterOfTheDay'
 tags:
-- community
-- awards
-- tester of the day
-- nomination
+- Community
+- Tester of The Day
 date: 2022-06-18 00:00:00 +0100
 categories:
 - Tester of The Day

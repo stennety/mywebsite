@@ -1,8 +1,8 @@
 ---
 title: Software Testing Community
 tags:
-- community
-- software testing
+- Community
+- Testing
 date: 2022-06-16 00:00:00 +0100
 categories:
 - Community

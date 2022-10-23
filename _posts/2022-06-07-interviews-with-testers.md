@@ -1,9 +1,9 @@
 ---
 title: Meet the Testers
 tags:
-- testing
-- community
-- interview
+- Testing
+- Community
+- Interview
 date: 2022-06-07 00:00:00 +0100
 categories:
 - Community

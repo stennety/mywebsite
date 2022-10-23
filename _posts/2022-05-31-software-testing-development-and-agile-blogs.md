@@ -1,11 +1,11 @@
 ---
 title: Software Testing, Development and Agile Blogs
 tags:
-- software
-- testing
-- development
-- agile
-- blogs
+- Software
+- Sesting
+- Development
+- Agile
+- Blogs
 date: 2022-05-31 00:00:00 +0100
 categories:
 - Community

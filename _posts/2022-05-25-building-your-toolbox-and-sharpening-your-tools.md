@@ -1,12 +1,12 @@
 ---
 title: Building your toolbox and sharpening your tools
 tags:
-- Testing
-- Tutomation
-- Tools
+- testing
+- automation
+- tools
 date: 2022-05-25 00:00:00 +0100
 categories:
-- howto
+- How to
 redirect_from:
 - /building-your-toolbox-and-sharpening-your-tools/
 ---

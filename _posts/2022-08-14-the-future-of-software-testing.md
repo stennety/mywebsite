@@ -6,7 +6,7 @@ tags:
 - bloggers club
 date: 2022-08-14 00:00:00 +0100
 categories:
-- testing
+- Testing
 redirect_from:
 - /the-future-of-software-testing/
 ---

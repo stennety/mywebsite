@@ -203,3 +203,18 @@ jekyll-archives:
 plugins:
   - jekyll-redirect-from
   
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
+      

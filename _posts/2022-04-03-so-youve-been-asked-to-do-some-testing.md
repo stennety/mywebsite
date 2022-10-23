@@ -5,7 +5,7 @@ tags:
 - testing
 - beginner
 categories:
-- HowTo
+- How to
 redirect_from:
 - /so-youve-been-asked-to-do-some-testing/
 ---

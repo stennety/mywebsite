@@ -5,7 +5,7 @@ tags:
 - Testing
 - Introduction
 date: 2022-09-18 00:00:00 +0100
-categories
+categories:
 - Automation
 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Dark new look and feel
 date: 2022-10-26T00:00:00.000+00:00
-description:
+description: Announcing a new look and feel to the website, now with dark mode!
 image: /uploads/pexels-junior-teixeira-2047905.jpg
 category: Announcement
 tags: [website, announcement]

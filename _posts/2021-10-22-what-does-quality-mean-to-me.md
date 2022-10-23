@@ -7,7 +7,8 @@ tags:
 categories:
 - About Ben
 - Quality
-
+redirect_from:
+- /what-does-quality-mean-to-me/
 ---
 There are many definitions of Software and Product "Quality". For a long time, earlier in my career, I did much to ignore the topic and felt it was intangible. The definitions that I had at the time were all about only the Correctness, the strict conformance to well specified requirements.
 

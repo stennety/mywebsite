@@ -7,7 +7,8 @@ tags:
 date: 2022-06-07 00:00:00 +0100
 categories:
 - Community
-
+redirect_from:
+- /interviews-with-testers/
 ---
 What better way to learn about the amazing people in the Software Testing Community then reading and watching their interviews.
 

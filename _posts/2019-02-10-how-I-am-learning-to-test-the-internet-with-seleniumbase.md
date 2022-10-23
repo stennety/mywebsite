@@ -5,7 +5,8 @@ categories:
 - Automation
 - Testing
 - HowTo
-
+redirect_from:
+- /how-I-am-learning-to-test-the-internet-with-seleniumbase/
 ---
 Goal: I have a simple, ambitious big hairy goal Learn how to "Automate all the (test) things, in Python". This is Part 1 on my journey towards this goal.
 

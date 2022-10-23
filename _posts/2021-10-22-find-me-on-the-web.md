@@ -7,7 +7,8 @@ tags:
 - Links
 categories:
 - About Ben
-
+redirect_from:
+- /find-me-on-the-web/
 ---
 Since starting this site and blog, I have expanded my online presence with a number of other sites that I post on. While I should probably consolidate my content in one place, for now let me tell you where else you can find me!
 

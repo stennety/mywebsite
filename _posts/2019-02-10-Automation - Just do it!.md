@@ -4,7 +4,8 @@ date: 2019-02-10 10:00:00 +0000
 categories:
 - Automation
 - Testing
-
+redirect_from:
+- /Automation-Just-do-it!/
 ---
 It can be a daunting task to create an automation strategy, get resources signed off, heir or train automation engineers.
 

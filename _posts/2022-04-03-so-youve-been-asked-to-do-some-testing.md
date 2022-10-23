@@ -7,7 +7,8 @@ tags:
 categories:
 - HowTo
 - Testing
-
+redirect_from:
+- /so-youve-been-asked-to-do-some-testing/
 ---
 So, you're minding your own business, enjoying life. Maybe you're working as a Project Manager, a Product Owner, a Team Lead, or maybe you just happen to work for a University and are the one who knows your Excel from your USB port.
 

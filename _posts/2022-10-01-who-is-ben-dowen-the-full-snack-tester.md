@@ -8,7 +8,8 @@ tags:
 date: 2022-10-01 00:00:00 +0100
 categories:
 - About Ben
-
+redirect_from:
+- /who-is-ben-dowen-the-full-snack-tester/
 ---
 Find out a bit more about Ben Dowen, the Full Snack Tester.
 

@@ -3,7 +3,8 @@ title: It works on my machine
 date: 2018-10-26T00:00:00.000+00:00
 categories:
 - Testing
-
+redirect_from:
+- /it-works-on-my-machine/
 ---
 So, you just found this great bug and it's returned "cannot reproduce", or you have been told "it works on my machine", classic right?
 

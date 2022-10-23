@@ -7,7 +7,8 @@ tags:
 date: 2021-11-08 00:00:00 +0000
 categories:
 - Testing for Developers
-
+redirect_from:
+- /testing-for-developers/
 ---
 ## Developers can't test and other lies
 

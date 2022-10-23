@@ -9,7 +9,8 @@ tags:
 date: 2022-05-31 00:00:00 +0100
 categories:
 - Community
-
+redirect_from:
+- /software-testing-development-and-agile-blogs/
 ---
 I learn a lot from blogs. So I was very excited when a thread I started on [Twitter](https://twitter.com/FullSnackTester/status/1531181120859123714) and then [LinkedIn](https://www.linkedin.com/posts/dowenb_softwaretesting-activity-6937332208307200000-V1dP?utm_source=linkedin_share&utm_medium=member_desktop_web) asking for blogs on Software Testing and Development I could follow, there was a truly excellent response.
 

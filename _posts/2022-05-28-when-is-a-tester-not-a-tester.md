@@ -9,7 +9,8 @@ categories:
 - About Ben
 - Industry
 - Testing for Developers
-
+redirect_from:
+- /when-is-a-tester-not-a-tester/
 ---
 ![](/uploads/time.jpg)
 

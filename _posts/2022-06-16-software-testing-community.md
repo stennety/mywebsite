@@ -6,7 +6,8 @@ tags:
 date: 2022-06-16 00:00:00 +0100
 categories:
 - Community
-
+redirect_from:
+- /software-testing-community/
 ---
 I have a lot to thank the Software Testing Community for, you are all a really amazing bunch of human beings!
 

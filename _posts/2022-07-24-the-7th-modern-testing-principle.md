@@ -1,7 +1,7 @@
 ---
 title: The 7th Principle of Modern Testing
 tags:
-- Testing
+- testing
 date: 2022-07-24 00:00:00 +0100
 categories:
 - Testing

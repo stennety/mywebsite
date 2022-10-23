@@ -1,14 +1,12 @@
 ---
 title: When is a Tester not a Tester?
 tags:
-- Testing
-- Quality
-- Quality Engineer
+- testing
+- quality
+- quality Engineer
 date: 2022-05-28 00:00:00 +0100
 categories:
 - About Ben
-- Industry
-- Testing for Developers
 redirect_from:
 - /when-is-a-tester-not-a-tester/
 ---

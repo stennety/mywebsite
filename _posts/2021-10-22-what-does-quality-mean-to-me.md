@@ -2,11 +2,10 @@
 title: What does quality mean to me?
 date: 2021-10-22 00:00:00 +0100
 tags:
-- Quality
-- Testing
+- quality
+- testing
 categories:
 - About Ben
-- Quality
 redirect_from:
 - /what-does-quality-mean-to-me/
 ---

@@ -1,9 +1,9 @@
 ---
 title: Ten years in testing, ask me anything!
 tags:
-- AMA
-- Questions
-- About
+- ama
+- questions
+- about
 date: 2022-10-06 00:00:00 +0100
 categories:
 - About Ben

@@ -7,7 +7,6 @@ tags:
 - Quality
 date: 2022-06-01 00:00:00 +0100
 categories:
-- Teams
 - Quality
 redirect_from:
 - /creating-software-is-a-team-sport/

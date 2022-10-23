@@ -1,13 +1,12 @@
 ---
 title: How to test anything in 5 steps
 tags:
-- Testing
-- Quality
-- Process
+- testing
+- quality
+- process
 date: 2022-08-15 00:00:00 +0100
 categories:
 - Testing
-- Process
 redirect_from:
 - /how-to-test-anything-in-5-steps/
 ---

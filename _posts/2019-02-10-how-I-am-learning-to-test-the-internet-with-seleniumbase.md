@@ -3,8 +3,6 @@ title: How I am learning to test The Internet with SeleniumBase
 date: 2019-02-10 14:00:00 +0000
 categories:
 - Automation
-- Testing
-- HowTo
 redirect_from:
 - /how-I-am-learning-to-test-the-internet-with-seleniumbase/
 ---

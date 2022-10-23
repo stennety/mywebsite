@@ -1,9 +1,9 @@
 ---
 title: Testing for Developers
 tags:
-- Testing
-- Teams
-- Industry
+- testing
+- teams
+- industry
 date: 2021-11-08 00:00:00 +0000
 categories:
 - Testing for Developers

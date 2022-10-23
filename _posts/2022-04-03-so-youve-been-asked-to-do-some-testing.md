@@ -2,11 +2,10 @@
 title: So you've been asked to do some testing, where do you start?
 date: 2022-10-05 01:00:00 +0100
 tags:
-- Testing
-- Beginner
+- testing
+- beginner
 categories:
 - HowTo
-- Testing
 redirect_from:
 - /so-youve-been-asked-to-do-some-testing/
 ---

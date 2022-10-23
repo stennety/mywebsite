@@ -3,7 +3,6 @@ title: Automation - Just do it!
 date: 2019-02-10 10:00:00 +0000
 categories:
 - Automation
-- Testing
 redirect_from:
 - /Automation-Just-do-it!/
 ---

@@ -1,10 +1,9 @@
 ---
 title: Ten years in testing, ask me anything!
 tags:
-- ama
-- testing
-- quality
-- questions and answers
+- AMA
+- Questions
+- About
 date: 2022-10-06 00:00:00 +0100
 
 ---
@@ -39,7 +38,7 @@ For now, I can satisfy both of these desires by pushing the boundaries of my rol
 
 Will I still be testing software? Yes, 100%. Will my role still be "Software Tester"? I doubt it, and in some ways it never has, but always will be.
 
-See my post [When is a Tester not a Tester?](https://www.dowen.me.uk/when-is-a-tester-not-a-tester/)
+See my post [When is a Tester not a Tester?](https://www.dowen.me.uk/posts/posts/when-is-a-tester-not-a-tester/)
 
 > Question: What's been your biggest "high" in testing in your 10 year career so far?
 

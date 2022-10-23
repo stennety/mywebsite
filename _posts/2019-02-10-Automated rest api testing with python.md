@@ -4,7 +4,7 @@ date: 2019-02-19 00:00:00 +0000
 
 ---
 
-Last time out I introduced you to the start of my journey to automate all the "test" things in Python. I continue that journey now by switching focus away from frontend, to Restful Web APIs. You can look back at my last post [here](https://www.dowen.me.uk/how-I-am-learning-to-test-the-internet-with-seleniumbase/ "How I am learning to test The Internet with SeleniumBase").
+Last time out I introduced you to the start of my journey to automate all the "test" things in Python. I continue that journey now by switching focus away from frontend, to Restful Web APIs. You can look back at my last post [here](https://www.dowen.me.uk/posts/how-I-am-learning-to-test-the-internet-with-seleniumbase/ "How I am learning to test The Internet with SeleniumBase").
 
 # Explore, Request, Assert
 

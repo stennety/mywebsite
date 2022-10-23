@@ -82,4 +82,4 @@ Want more? There is a great [**post on The Club **](https://club.ministryoftesti
 
 ## Just start
 
-Finally, It's way better to [**start**](https://www.dowen.me.uk/Automation-Just-do-it!/), then spend too much time worrying about where to start. You can also change your mind and try something else later if you don't like where you end up! I'm looking forward to hearing how your automation journey progresses, make sure to hit me up on Twitter, [**@FullsnackTester**](https://twitter.com/FullSnackTester), and let me know!
+Finally, It's way better to [**start**](https://www.dowen.me.uk/posts/Automation-Just-do-it!/), then spend too much time worrying about where to start. You can also change your mind and try something else later if you don't like where you end up! I'm looking forward to hearing how your automation journey progresses, make sure to hit me up on Twitter, [**@FullsnackTester**](https://twitter.com/FullSnackTester), and let me know!

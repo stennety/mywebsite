@@ -61,4 +61,4 @@ My predictions for the role of the Software Tester in the future, let's say 5-10
 
 If you enjoyed this post, you might like another one I wrote a little while back:
 
-[https://www.dowen.me.uk/when-is-a-tester-not-a-tester/](https://www.dowen.me.uk/when-is-a-tester-not-a-tester/ "https://www.dowen.me.uk/when-is-a-tester-not-a-tester/")
+[https://www.dowen.me.uk/posts/when-is-a-tester-not-a-tester/](https://www.dowen.me.uk/posts/when-is-a-tester-not-a-tester/ "https://www.dowen.me.uk/posts/when-is-a-tester-not-a-tester/")

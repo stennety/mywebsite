@@ -21,7 +21,7 @@ You might also want to consider some definitions of Software Quality, here are a
 
 * "Quality is value to some person." - Gerald Marvin Weinberg
 * [The Quality and Testing Information Model - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/the-quality-and-testing-information-model)
-* [What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/what-does-quality-mean-to-me)
+* [What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/posts/what-does-quality-mean-to-me)
 * [Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/)
 
 ## Where to start
@@ -228,7 +228,7 @@ Here are some topics I may visit in the future, and when I do I'll update this a
 
 * [How to Test Anything - James Thomas](https://qahiccupps.blogspot.com/2020/05/how-to-test-anything.html)
 * [Why do they test software - James Thomas](https://qahiccupps.blogspot.com/2022/03/why-do-they-test-software.html)
-* [What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/what-does-quality-mean-to-me/)
+* [What does quality mean to me? - Ben Dowen](https://www.dowen.me.uk/posts/what-does-quality-mean-to-me/)
 * [Adapting Crosby’s 4 absolutes of quality into a software context](https://danashby.co.uk/2019/09/30/adapting-crosbys-4-absolutes-of-quality-into-a-software-context/)
 * [Testing is an underrated skill in Testing (Test Automation isn’t everything) - Louise Gibbs](https://louisegibbstest.wordpress.com/2022/03/24/testing-is-an-underrated-skill-in-testing-test-automation-isnt-everything/)
 * [What Is Exploratory Testing? An Alternative To Scripted Testing And Try To Break It Testing - Ministry of Testing](https://www.ministryoftesting.com/dojo/lessons/what-is-exploratory-testing-an-alternative-to-scripted-testing-and-try-to-break-it-testing)

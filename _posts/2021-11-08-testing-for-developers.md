@@ -43,7 +43,7 @@ A short list, and longer mind-map, of initial thoughts for topics. Please feel f
 
 This is work in progress, I will eventually make a permanent link and ways to follow along on social media.
 
-For now, you can link back here: [https://www.dowen.me.uk/testing-for-developers/](https://www.dowen.me.uk/testing-for-developers/ "https://www.dowen.me.uk/testing-for-developers/")
+For now, you can link back here: [https://www.dowen.me.uk/posts/testing-for-developers/](https://www.dowen.me.uk/posts/testing-for-developers/ "https://www.dowen.me.uk/posts/testing-for-developers/")
 
 ## Get involved
 
@@ -59,7 +59,7 @@ You can find me [ben@dowen.me.uk](mailto:ben@dowen.me.uk), [@FullSnackTester](ht
 
 > The idea that programmers and testers are different kinds of people with different kinds of skills is sometimes helpful, but not always. It can help to match people to jobs or show where people have different strengths. But it can also lead to [tribalism](https://randomtechthoughts.blog/2019/06/26/competence-vs-tribalism/) – you’re different from me so you’re worse than me. In this article I’ll go into a few areas where I think programmers use skills in their normal day-to-day activities that overlap with the skills that testers often use in theirs. I hope that this helps to break down unhelpful barriers between the groups, and improves mutual appreciation for the skills others have.
 >
-> This was inspired by a conversation with [Ben Dowen](https://twitter.com/FullSnackTester), who is a tester and active member of the wider testing community. He was looking for a tame developer to work with on some blogging, I volunteered, and this is a result of the conversation that followed. It’s part of a bigger project he’s running, that’s trying to [help bring developers and testers closer together](https://www.dowen.me.uk/testing-for-developers/).
+> This was inspired by a conversation with [Ben Dowen](https://twitter.com/FullSnackTester), who is a tester and active member of the wider testing community. He was looking for a tame developer to work with on some blogging, I volunteered, and this is a result of the conversation that followed. It’s part of a bigger project he’s running, that’s trying to [help bring developers and testers closer together](https://www.dowen.me.uk/posts/testing-for-developers/).
 
 Read the full article on Bob's blog:
 

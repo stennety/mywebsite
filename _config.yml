@@ -26,7 +26,7 @@ title: Ben Dowen                          # the main title
 tagline: Software Adventurer, Quality Explorer, Testing Advocate    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Ben Dowen, the Full Snack Tester, blogs about Software Testing.
+  Ben Dowen, the Full Snack Tester, blogs about Software Testing, Quality and Agile Software Development.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.dowen.me.uk'

@@ -76,17 +76,19 @@ Okay, the big one, once we have our environment all setup and supporting our SUT
 
 ### Prerequisites
 
-In addition to all the setup you've done to get this far you might still need a big more. Maybe some users with appropriate access.
+In addition to all the setup you've done to get this far you might still need a bit more. Maybe you need some Customers, and Stock, so you can exercise Orders?
+
+![](/uploads/system-state.jpg)
 
 ### Test data
 
-If your inputs and outputs are static, this might be trivial.
-
-For me, I often work with non trivial test data that requires some level of templating.
+If your inputs and outputs are static, this might be trivial. For me, I often work with non trivial test data that requires some level of templating.
 
 I often need to make sure dates represent today, even if I wrote the test and captured the data months ago.
 
 In some cases test data can be generated automatically using libraries like faker. I know some tools, like Mockoon include Faker out the box.
+
+Once you know what shape your test data may take, you might want to create scripts to pre-seed databases if you are using isolated environments. You may also wan to reset data to a known state, if you are using shared environments.
 
 ### System state (Given)
 
@@ -94,13 +96,11 @@ Now your going to want to get your system into the starting state.
 
 Some examples:
 
-* User is logged in
-* A the right page is loaded
-* An entry doesn't already exist for new TODO item you are about to create
+* A customer exists
+* Stock is available
+* The customer has no outstanding orders
 
-This is something your automation framework, code or otherwise really should handle.
-
-Finally, something we can recognise as Test Automation.
+This is something your automation framework really should handle.
 
 ### Action (When)
 
@@ -108,23 +108,19 @@ This is the core of the test. Stimulating the users action or a sequence of mult
 
 Examples:
 
-* User clicks a button
-* API call is made
-* File is changed
+* New customer is registered
+* Order is placed
+* Stock is allocated
 
 ### Assertion of expected result (Then)
 
-This is where most of the debate comes in about Automated Checks and Human testing. Ignoring any Ai for a moment.
-
 This is where we have a coded assertion. I don't mean we need to be using a programming language, but we need to have an unambiguous way to choose if the actual results we got are what we expect.
 
-If they match our coded expectations the test passed, otherwise it falls.
+If they match our coded expectations the test passed, otherwise it falls. The term for the source of knowledge you used to determine if a test past is often called an oracle, you can learn more about oracles in this Ministry of Testing 99 second introduction:
+
+[https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-oracles](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-oracles "https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-oracles")
 
 While we can make test smart to an extent and we can look for shapes and ranges, ultimately we can only assert on what we can expect.
-
-This can definitely be done by any automation framework, whatever the language, low-code or no-code.
-
-If we got this far we are winning, provided of course we did our Test Analysis right and we are checking for useful things.
 
 ## Logging and reporting
 

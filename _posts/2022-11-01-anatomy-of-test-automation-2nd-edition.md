@@ -76,7 +76,9 @@ Okay, the big one, once we have our environment all setup and supporting our SUT
 
 ### Problem solving
 
-You likely have some kind of motivation for introducing test automation. Take some time to make your 
+You likely have some kind of motivation for introducing test automation. Take some time to make your desired outcomes explicit, and figure out how you might measure your success.
+
+Maybe you are hoping to release faster? or you might be interested in providing faster feedback for problems that are normally caught late, or not caught at all!
 
 ### Risks and choosing what to test
 
@@ -89,6 +91,8 @@ It has often been said before, that simply trying to automate a stack of existin
 3. Identify tests where automation can bring value due to an expanded range of inputs, or simulate realistic load
 4. Identify the path though your system under test that gives the most business value, for example completing an order, the critical paths that must work, and focus there
 5. Play [The Nightmare Headline Game](https://www.oreilly.com/library/view/explore-it/9781941222584/f_0022.html) from [Explore It!](https://www.oreilly.com/library/view/explore-it/9781941222584/) by [Elisabeth Hendrickson](https://twitter.com/testobsessed)
+
+Once you have identified some risks, or high value focus areas, you will need to prioritise where to start. If you don't already have your own generic approach to prioritisation, fear not! As James Thomas has kindly shared his, in this blog post [Order, Order!](https://qahiccupps.blogspot.com/2019/04/order-order.html)
 
 ### Prerequisites
 

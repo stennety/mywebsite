@@ -20,48 +20,53 @@ A year or so ago, I had some ideas about the broader topic of Automation, and ho
 
 Rather then bring the original post over to my personal blog as is, I'm going to attempt to update it and make it easier to consume.
 
-## System under test
+## System under test and supporting environment
 
-In the begining, you need the correct version of the System Under Test.
+In the beginning, you need the correct version of the System Under Test.
 
-This maybe as simple as taking the latest build of a single isolated service.
+This maybe as simple as taking the latest build of a single isolated service. More likely, this will involve getting matching versions of multiple services that work together to form a system.
 
-More likely, this will involve getting matching versions of multiple services that work together to form a system.
+This task alone may not be trivial, more than likely it can be automated with help of a Continuous Integration (CI) platform. Something like Jenkins that can be configured to kick off builds when you commit changes to source control.
 
-This task alone may not be trivial, more then likely it can be automated with help of a Continuous Integration (CI) platform.
+There are many useful technologies you can use to help you here, such as Docker, to spin up environments built of one or many components.
 
-Something like Jenkins that can be configured to kick off builds when you commit changes to source control.
+There are a few different approaches you can take to test environments, these generally fall into shared or isolated. Each has different advantages, let's take a look.
 
-All CI systems I know of require at least minimal code, or at least a configuration file of some sort that gives instructions on how to build the Software.
+### Use shared, long lived environments
 
-Likely this is a wider concern then Test Automation, you won't be the only one who wants software built.
+Shared environments are useful because they can often support being used by multiple people at once. This means the whole team, or even multiple teams can be looking at the same consistent snapshot of the system, and it's different builds at once. This means you can have a shared experience of the system, and it can avoid the "works on my machine" problems when reproducing issues.
 
-But I've worked in consultancies who still build the odd thing by hand and FTP it to a server.
+You can also use shared environments to work with external teams or customers, these are sometimes called integration environments and may be abbreviated to int.
 
-So if you don't already have a slick answer for this, it's a barrier to automation straight away.
+Another advantage of such shared, longer lived environments is they may look closer to a production setup, although typically they are scaled down for cost purposes.
 
-## The supporting environment
+The downside of shared environments are:
 
-The SUT will seldom live on it's own, unsupported by dependencies. This might e mean having the right Node or Java versions available.
+* Difficult or impossible to isolate test date and shared state
+* Requires maintenance if test data nears clearing out or it gets corrupt
+* Needs updating with latest versions as new things get release and when taking a new version this may interrupt testing in progress 
 
-It could also mean setting up:
+Shared environments that have shared state, e.g databases, are typically sub-optimal for use in automation, but can support exploratory testing.
 
-* Databases
-* Storage
-* Queues
-* Proxies
-* Load balancers
-* Third party API or appropriate mocks
+The cost consideration for long-lived environments, is that depending on hosting they may be costing money while they are not being used. This can be somewhat mitigated, if they can be shutdown automatically outside of hours of use.
 
-Each of these may also need special configuration or base data seeding that isn't specific to any given scenario.
+### Isolated, on demand environments
 
-If you are lucky you can get some or all of your dependencies deployed using some type of automation. Maybe Docker images that can be Deployed by your CI System.
+Isolated environments that are created on demand, live for only as long as they are needed and are then destroyed offer huge advantages to test automation.
 
-Living the dream. More automation, definitely some code, hopefully some Infrastructure as code.
+On demand environments that are built as needed, often supported by container technology such as Docker, can consist of multiple services. This maybe a combination of software build by your team, other teams in the company, and supporting services such as Databases, Queuing, Proxies, Load balancers, and mocks of third party systems.
 
-Failing that, you might have some static servers. hopefully managed by a friendly Ops engineer. Otherwise another job for you.
+On demand environments may also be used for exploratory testing, where experiments can be run against a configured set of versions for the various components of the system under test.
 
-Again, if this isn't already slick and automated, another barrier to entry.
+The cost consideration for isolated environments, is that each new environment adds  cost, because all parts of the system under test and supporting services are spun up together. This is why typically, isolated environments are created on-demand and are short lived. They serve their purpose, and are then removed. This can be very cost effective overall.
+
+One disadvantage of on-demand environments is the extra time it takes to spin up, this can add minutes to your automation run, before tests have even started.
+
+### Isolated or Shared Environments?
+
+The two are not mutually exclusive, you could have isolated environments for automation, and shared environments to aid exploration. It really depends if you are optimising for cost, freedom of configuration, isolation or speed.
+
+However you approach it, getting the environment and setup for the system under test right is not a trivial task, and requires investment. If you have infrastructure, ops or devops type folk at work, make use of them. If you're really lucky, you might have a platform engineering team that can set-up some of this magic for you.
 
 ## Test scenario
 

@@ -11,15 +11,14 @@ categories:
 description: Test automation is about more than code, it takes infrastructure, process
   and strategy
 image:
-  path: ''
-  height: 
-  width: ''
+  path: "/uploads/pexels-karolina-grabowska-7269622.jpg"
+  height: 1000
+  width: "420"
 
 ---
+A year or so ago, I had some ideas about the broader topic of Automation, and how it takes more than a sequence of steps with some assertions to make it successful. My original post can be found here: [https://dev.to/dowenb/anatomy-of-test-automation-e9o](https://dev.to/dowenb/anatomy-of-test-automation-e9o "https://dev.to/dowenb/anatomy-of-test-automation-e9o")
 
-With the rise of low-code and no-code solutions, I've been thinking about the problem they are trying to solve.
-
-This lead me to think wider about the parts of Testing that can be supported by tools and automation.
+Rather then bring the original post over to my personal blog as is, I'm going to attempt to update it and make it easier to consume.
 
 ## System under test
 
@@ -145,3 +144,5 @@ In my opinion, and I am making some assumptions, low-code or no code only attemp
 In fact, I would go further and say Test Automation Frameworks only try and solve part of the problem. And that's OK.
 
 Building software is a team game, and Software Quality even more so.
+
+Cover Photo by [Karolina Grabowska](https://www.pexels.com/photo/models-of-organs-7269622/)

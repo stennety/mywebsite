@@ -70,7 +70,7 @@ However you approach it, getting the environment and setup for the system under 
 
 ## Test scenario
 
-Okay, the big one. Let's assume we overcame all the hurdles above. Now let's break down our Test cases.
+Okay, the big one, once we have our environment all setup and supporting our SUT, we can focus on what to test. Before we break down our tests, let us take a moment to consider what 
 
 ### Prerequisites
 

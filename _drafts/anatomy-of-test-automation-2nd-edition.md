@@ -22,7 +22,9 @@ Rather then bring the original post over to my personal blog as is, I'm going to
 
 ## System under test and supporting environment
 
-In the beginning, you need the correct version of the System Under Test.
+![Environment diagram showing a system environment with multiple services connected via a controller. Each service has a database.](/uploads/anatomy-of-automation-environment.jpg "Environment and SUT")
+
+In the beginning, you need the correct version of the System Under Test. In this example diagram, we can see a hypothetical systems diagram that shows the environment, if the System Under Test, was the Audit Service.
 
 This maybe as simple as taking the latest build of a single isolated service. More likely, this will involve getting matching versions of multiple services that work together to form a system.
 

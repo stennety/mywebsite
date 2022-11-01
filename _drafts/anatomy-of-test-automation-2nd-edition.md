@@ -72,7 +72,23 @@ However you approach it, getting the environment and setup for the system under 
 
 ## Test scenario
 
-Okay, the big one, once we have our environment all setup and supporting our SUT, we can focus on what to test. Before we break down our tests, let us take a moment to consider what 
+Okay, the big one, once we have our environment all setup and supporting our SUT, we can focus on what to test.
+
+### Problem solving
+
+You likely have some kind of motivation for introducing test automation. Take some time to make your 
+
+### Risks and choosing what to test
+
+ Before we break down our tests, let us take a moment to consider what problem we are trying to solve, and what risks we want to address.
+
+It has often been said before, that simply trying to automate a stack of existing regression test scripts is a receipt for a failed automation effort. But what alternatives exist?
+
+1. Take a risk-based approach, use techniques such as [Risk Storming](https://www.ministryoftesting.com/testsphere/riskstorming) to identify key quality aspects and the risks to them, and focus your efforts there
+2. Identify tests that are error prone or difficult to run by hand, and focus there
+3. Identify tests where automation can bring value due to an expanded range of inputs, or simulate realistic load
+4. Identify the path though your system under test that gives the most business value, for example completing an order, the critical paths that must work, and focus there
+5. Play [The Nightmare Headline Game](https://www.oreilly.com/library/view/explore-it/9781941222584/f_0022.html) from [Explore It!](https://www.oreilly.com/library/view/explore-it/9781941222584/) by [Elisabeth Hendrickson](https://twitter.com/testobsessed)
 
 ### Prerequisites
 
@@ -130,22 +146,22 @@ This might take the form of some Console output that can be captured by your CI 
 
 What you will probably miss is the contextual logging. The logs from the dependencies and more distant parts of your SUT. This can also be captured and logged, but takes a fair amount more thought.
 
-## Tools and supporting script's
+## Minimal Experiment
 
 Of course this maximalist description describes pretty much an end to end or system integration test.
 
-As I'm sure expert's like Mark Winteringham, Richard Bradshaw and Alan Richardson would tell you, you can get great value from Automation and Tools to support your testing way short of an end to end test.
+As expert's like [Mark Winteringham](https://twitter.com/2bittester), [Richard Bradshaw](https://twitter.com/FriendlyTester) and [Alan Richardson](https://twitter.com/eviltester) would tell you, you can get great value from Automation and Tools to support your testing way short of an end to end test.
 
 I've done this myself on plenty of occasions by creating tools to capture or generate test data, of by mocking APIs to support my Exploratory Testing.
 
-## Conclusion final thoughts
+I would encourage you to start with the smallest possible experiment that brings you value, and then build up to a more complete suite of test automation over time. Your team will benefit from faster feedback from tooling quickly, before you finish a full setup.
 
-If you were not convinced already that to succeed, an automation strategy need support and buy in from many people in various roles, I hope you are now a convert.
+## Automation strategy requires support
 
-In my opinion, and I am making some assumptions, low-code or no code only attempts to solve.
+[Building software is a team game](https://www.dowen.me.uk/posts/creating-software-is-a-team-sport/), and Software Quality even more so. I encourage you to work with teams and individuals across your company to share expertise and get help. If you're lucky, you maybe have some type of platform engineering team who can help you with the CI/CD setup and building test environments.
 
-In fact, I would go further and say Test Automation Frameworks only try and solve part of the problem. And that's OK.
+Getting investment to support an automation strategy takes effort, especially, as I hope you can now see, it takes a lot more to get right then simply writing a few tests in a framework and hoping for the best.
 
-Building software is a team game, and Software Quality even more so.
+If you were not convinced already that to succeed, an automation strategy needs support and buy in from many people in various roles, I hope you're now a convert. And I wish you luck getting the help and support you need to make automation a success in your team.
 
 Cover Photo by [Karolina Grabowska](https://www.pexels.com/photo/models-of-organs-7269622/)

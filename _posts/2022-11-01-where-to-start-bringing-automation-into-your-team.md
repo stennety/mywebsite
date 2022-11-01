@@ -16,10 +16,6 @@ image:
 
 > You advocated to have automation added to your test team... and somehow got it approved with no idea what framework or tools you want to use, let alone an automation strategy. What is the first step you take?
 
-![Header Photo by Tara Winstead, robot hand touching human hand](/uploads/pexels-tara-winstead-8386434-10x14.jpg)
-
-Header Photo by [Tara Winstead](https://www.pexels.com/photo/person-reaching-out-to-a-robot-8386434/)
-
 And this was my response:
 
 ### 1. Set a foundation
@@ -43,3 +39,5 @@ Maybe write one small test, and experiment how to get it running, progressively 
 * Locally, your machine
 * Locally, anyone in the team
 * In a shared environment, part of a CI pipeline
+
+Header Photo by [Tara Winstead](https://www.pexels.com/photo/person-reaching-out-to-a-robot-8386434/)

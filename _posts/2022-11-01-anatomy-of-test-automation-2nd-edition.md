@@ -92,7 +92,7 @@ It has often been said before, that simply trying to automate a stack of existin
 4. Identify the path though your system under test that gives the most business value, for example completing an order, the critical paths that must work, and focus there
 5. Play [The Nightmare Headline Game](https://www.oreilly.com/library/view/explore-it/9781941222584/f_0022.html) from [Explore It!](https://www.oreilly.com/library/view/explore-it/9781941222584/) by [Elisabeth Hendrickson](https://twitter.com/testobsessed)
 
-Once you have identified some risks, or high value focus areas, you will need to prioritise where to start. If you don't already have your own generic approach to prioritisation, fear not! As James Thomas has kindly shared his, in this blog post [Order, Order!](https://qahiccupps.blogspot.com/2019/04/order-order.html)
+Once you have identified some risks, or high value focus areas, you will need to prioritise where to start. If you don't already have your own generic approach to prioritisation, fear not! As [James Thomas](https://twitter.com/qahiccupps) has kindly shared his, in this blog post [Order, Order!](https://qahiccupps.blogspot.com/2019/04/order-order.html)
 
 ### Prerequisites
 

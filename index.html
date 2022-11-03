@@ -107,7 +107,7 @@
                     <td>{{ item.Country }}</td>
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
-                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ itm.Website }}">{{ item.Course }}</a> </td>
+                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
                     <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>

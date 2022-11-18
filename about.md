@@ -31,6 +31,3 @@ while(x=eval(x));
 //-->
 //]]>
 </script>
-
-### Microblog
-<a rel="me" href="https://linuxrocks.online/@nitbuntu">@Nitbuntu</a>

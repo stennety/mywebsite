@@ -80,9 +80,8 @@ function Mentionslist(props) {
                 name: authorname,
                 url: authorurl
             },
-            content: {
-                text
-            },
+            content,
+	    summary = "",
             'wm-property': wmproperty,
             'wm-received': wmreceived
         } = mention) => {
@@ -90,7 +89,7 @@ function Mentionslist(props) {
     <li>
     	<article tabindex="0">
 	      <p class="${wmproperty}" lang="auto" dir="auto">
-        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${content?.text ? content.text : summary.value}
 	      </p>
 	</article>
     </li>

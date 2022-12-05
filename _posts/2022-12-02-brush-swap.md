@@ -11,6 +11,8 @@ Three months is too long for me to remember when I last changed the brush and my
 
 ## When did you last change your toothbrush?
 
+![Brush Swap App](/assets/images/brushswap.jpg)
+
 Brush Swap app gives a start date (when the brush changed), the number of days remaining until you need to change and the end date when your brush should be replaced. 
 
 When you replace your brush, press the ‘Brush Swapped’ button to reset the dates and the countdown begins again. 

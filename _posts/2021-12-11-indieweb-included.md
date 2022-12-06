@@ -67,3 +67,5 @@ My site is a lot more indie than before. I have sent and received webmentions an
 Ultimately you have to take ownership of your content because third parties have proven unreliable or willing to change the game many times. Use your site as the source of truth and your content can always be found as long as you want it to be.
 
 For further info to be more indie, [indieweb.org](https://indieweb.org) is the place to start.
+
+{% include mentions.html %}

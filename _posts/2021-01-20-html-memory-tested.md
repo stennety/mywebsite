@@ -33,7 +33,7 @@ This was my favourite response (and good approach):
 + [Element Diversity](https://www.matuzo.at/blog/element-diversity/), Manuel Matuzovic lamenting inaccessible div-filled components use, instead of HTML elements.
 + [A short guide to help you pick the correct HTML tag](https://dev.to/polgarj/a-short-guide-to-help-you-pick-the-correct-html-tag-56l9) by Jozsef Polgar, on dev\.to.
 + Featured [behind door No.5](https://www.htmhell.dev/adventcalendar/2021/5/) in the HTMHell Advent Calendar!
-+ [‘Lost in Translation’ talk](https://youtu.be/Wno1IhEBTxc?t=570) (@ 9m30s) by Manuel Matuzović at Beyond Tellerrand, Düsseldorf.
++ [‘Lost in Translation’ talk](https://youtu.be/Wno1IhEBTxc?t=570) (@ 9m30s) by Manuel Matuzović at Beyond Tellerrand, Smashing Conference Freiburg 2022 and Paris Web.
 + A quiz on [The Meaning of Web Accessibility: Accessible HTML & Assistive Technologies w/ Nic Steenhout](https://youtu.be/k8k_6MBtBas?t=2607) on YouTube (~43min, 25sec)
 
 ## HTML Tags Recalled

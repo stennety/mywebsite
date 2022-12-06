@@ -25,7 +25,7 @@ h1:before {
         grid-template-columns: 2.5fr minmax(50%, 700px);
         grid-gap: 2rem;
         gap: 2rem;
-        gap: clamp(2rem, 3.5vw, 5rem);
+        row-gap: clamp(2rem, 3.5vw, 5rem);
     }
 
     .wrap-content {

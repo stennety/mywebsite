@@ -1,6 +1,6 @@
 ---
 published: true
-title: Advent of Code 2022 in Kotlin
+title: 'Advent of Code 2022 in Kotlin'
 ---
 It's been a great year to do [Advent of Code](https://adventofcode.com/) in Kotlin. The JetBrains team released a [series of YouTube streams](https://www.youtube.com/playlist?list=PLlFc5cFwUnmwxQlKf8uWp-la8BVSTH47J) for the first 12 days. Every day, a different Kotlin programmer shared their solution. It was a great way to get exposure to standard library features that were either new or that I was less familiar with, and I added several new methods to my [Advent of Code utils library](https://github.com/davidmerrick/advent-of-code-utils).
 

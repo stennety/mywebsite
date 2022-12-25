@@ -86,7 +86,7 @@
                 <th>Golf Architect</th>
                 <th>Golf Construction</th>
                 <th>History</th>
-                <th>Build</th>
+                <th>Build</th> 
                 <th>Status</th>
                 <th>Past 100</th>
 <!--
@@ -104,7 +104,7 @@
               {% for item in site.data.allGolf %}
                   <tr>
                     <td>{{ item.Region }}</td> 
-                    <td>{{ item.Country }}</td>
+                    <td>{{ item.Country }}</td> 
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>

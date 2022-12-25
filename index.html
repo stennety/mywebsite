@@ -81,12 +81,12 @@
                 <th>Region</th>
                 <th>Country</th>
                 <th>Location</th>
-                <th>Golf Course</th> 
+                <th>Golf Course</th>
                 <th>Date</th>
-                <th>Golf Architect</th> 
+                <th>Golf Architect</th>
                 <th>Golf Construction</th>
                 <th>History</th>
-                <th>Build</th> 
+                <th>Build</th>
                 <th>Status</th>
                 <th>Past 100</th>
 <!--
@@ -96,7 +96,7 @@
                 <th>Instagram</th>
                 <th>Twitter</th>
                 <th>Budget</th>
-                <th>Comments</th> 
+                <th>Comments</th>
                 <th>Last Curated</th>
               </tr>
           </thead>
@@ -109,9 +109,9 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td> 
+                    <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>
-                     <td>{{ item.Construction }}</td> 
+                     <td>{{ item.Construction }}</td>
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td>
                     <td>{{ item.Status }}</td> 

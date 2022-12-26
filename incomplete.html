@@ -80,9 +80,9 @@
           <thead>
               <tr> 
                 <th>Region</th>
-                <th>Country</th> 
+                <th>Country</th>
                 <th>Location</th>
-                <th>Course</th> 
+                <th>Course</th>
                 <th>Date</th>
                 <th>Architect</th>
                 <th>History</th>
@@ -100,7 +100,7 @@
             
               {% for item in site.data.allI %}
                   <tr>
-                    <td>{{ item.Region }}</td> 
+                    <td>{{ item.Region }}</td>
                     <td>{{ item.Country }}</td>
                     <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }} </a></td>
                     <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>

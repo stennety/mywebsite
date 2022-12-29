@@ -12,4 +12,4 @@ Its a simple dashboard which displays the Carbon Intensity API by National Grid.
 
 See the [current grid sources](/elitricity/).
 
-_I have other experiments in an [X-tricity](https://codepen.io/collection/nxmmwb) CodePen collection of forks built with different frameworks: Preact, Preact and Vue, so far._
+_I have other experiments in an [X-tricity](https://codepen.io/collection/nxmmwb) CodePen collection of forks built with different frameworks: React, Preact and Vue, so far._

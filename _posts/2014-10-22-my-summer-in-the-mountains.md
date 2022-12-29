@@ -1,11 +1,10 @@
 ---
-
 published: true
-title: My summer in the mountains
+title: My summer at Holden Village
 ---
 ![]({{site.cdn_path}}/2014/10/22/1.jpg)
 
-Between graduating college and starting work at Jive, I spent two months working as an IT sysadmin at Holden Village, a remote, former mining town in Northern Washington. And by "remote" I mean VERY remote. The only ways to get there are by either hiking in 40 miles or by taking a boat 50 miles to a landing and then being transported 11 miles up steep switchbacks in one of the village's fleet of old schoolbuses.
+Between graduating college and starting work at Jive, I spent two months working as a sysadmin at Holden Village, a remote, former mining town in Northern Washington. And by "remote" I mean VERY remote. The only ways to get there are by either hiking in 40 miles or by taking a boat 50 miles to a landing and then being transported 11 miles up steep switchbacks in one of the village's fleet of old schoolbuses.
 
 ![]({{site.cdn_path}}/2014/10/22/2.jpg)
 ![]({{site.cdn_path}}/2014/10/22/3.jpg)

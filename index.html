@@ -78,16 +78,16 @@
      <table id="golf" class="display table-striped table-bordered" cellspacing="1" width="99%">
           <thead>
               <tr> 
-                <th>Region</th> 
+                <th>Region</th>
                 <th>Country</th>
-                <th>Location</th> 
+                <th>Location</th>
                 <th>Golf Course</th>
                 <th>Date</th>
-                <th>Golf Architect</th> 
+                <th>Golf Architect</th>
                 <th>Golf Construction</th>
-                <th>History</th> 
+                <th>History</th>
                 <th>Build</th>
-                <th>Status</th>
+                <th>Status</th> 
                 <th>Past 100</th> 
 <!--
                 <th>Bob's Travel</th>
@@ -103,7 +103,7 @@
           <tbody>
               {% for item in site.data.allGolf %}
                   <tr>
-                    <td>{{ item.Region }}</td> 
+                    <td>{{ item.Region }}</td>
                     <td>{{ item.Country }}</td>
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
@@ -115,7 +115,7 @@
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td>
                     <td>{{ item.Status }}</td>
-                    <td>{{ item.i100 }}</td> 
+                    <td>{{ item.i100 }}</td>
 <!--
                     <td>{{ item.Bob }}</td>
 -->

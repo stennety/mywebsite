@@ -1,9 +1,11 @@
 ---
 layout: single
-title: Personal Projects
+title: Side Projects
 permalink: /projects/
 published: true
 ---
+
+For my latest projects, please check out my [GitHub](https://github.com/davidmerrick)!
 
 ## 2019
 
@@ -63,7 +65,7 @@ To deploy the app and add a public URL, I used Resin.io.
 
 [Resin.io Sonos API](https://github.com/davidmerrick/rpi-node-sonos-http-api)
 
-This is a fork of a Sonos API app written in NodeJS. I enabled HTTP auth by default, and 
+This is a fork of a Sonos API app written in NodeJS. I enabled HTTP auth by default, and
 added a Dockerfile so that it could be deployed to a Raspberry Pi via Resin.io.
 
 > Tech Used: AWS Lambda, Docker, NodeJS, Raspberry Pi.
@@ -94,11 +96,11 @@ Prank Chrome extension that flips web pages upside down.
 
 [Raspberry Pi Kubernetes Cluster](https://www.david-merrick.com/2016/02/16/building-a-raspberry-pi-powered-kubernetes-cluster/)
 
-I built a Raspberry Pi-powered Kubernetes cluster based on HypriotOS. 
+I built a Raspberry Pi-powered Kubernetes cluster based on HypriotOS.
 
-> Tech Used: Raspberry Pi, Docker, Kubernetes. 
+> Tech Used: Raspberry Pi, Docker, Kubernetes.
 
-## 2015 
+## 2015
 
 [Monkeys to let guests in](https://www.youtube.com/watch?v=AVWJAWrHDKI)
 
@@ -111,7 +113,7 @@ monkey sounds and then send the DTMF code to let guests in to my building:
 [Google Street View Hyperlapse](https://github.com/davidmerrick/Street-View-Hyperlapse)
 
 I forked a really cool project I'd found that renders hyperlapses from Google Street View imagery.
-I added the ability to export the images from the canvas element the hyperlapse was rendered in, 
+I added the ability to export the images from the canvas element the hyperlapse was rendered in,
 in order to create my own YouTube video from it.
 
 ## Previous

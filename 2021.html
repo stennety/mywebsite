@@ -91,7 +91,7 @@
                 <th>Past 100</th>
                 <th>Bob's Travel</th>
                 <th>YouTube</th> 
-                <th>Instagram</th>
+                <th>Instagram</th> 
                 <th>Twitter</th> 
                 <th>Cost</th> 
                 <th>Comments</th> 
@@ -101,7 +101,7 @@
           <tbody>
               {% for item in site.data.all2021 %}
                   <tr>
-                    <td>{{ item.Region }}</td>
+                    <td>{{ item.Region }}</td> 
                     <td>{{ item.Country }}</td>
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}

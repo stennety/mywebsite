@@ -2,7 +2,8 @@
 published: true
 title: What is Type Erasure?
 ---
-Type erasure means to remove explicit typing from a program at compile time. In other words, type constraints are only enforced at runtime and discarded at compile time.
+Type erasure means to remove explicit typing from a program at compile time. 
+In other words, type constraints are only enforced at compile time and discarded at runtime.
 
 Here's an example, borrowed from [this post](http://www.baeldung.com/java-type-erasure):
 
@@ -32,9 +33,11 @@ public boolean containsElement(Object [] elements, Object element){
 }
 ```
 
-Why Object? Does type erasure always revert back to Object?
+# Why Object? Does type erasure always revert back to Object?
 
-No; in this case, E was a generic element, so its type was unbound. In the case where E is bound as a subclass of a type, it would be replaced with that type. Let's say, instead of being a generic, E extended a class called *Foo*.
+No; in this case, E was a generic element, so its type was unbound. 
+In the case where E is bound as a subclass of a type, it would be replaced with that type. 
+Let's say, instead of being a generic, E extended a class called *Foo*.
 
 Pre-compilation:
 
@@ -66,7 +69,7 @@ Notice how the bound generic E was replaced with Foo.
 
 # Why type erasure?
 
-Type erasure first appeared in Java along with [generics](https://en.wikipedia.org/wiki/Generics_in_Java) in [release 5.0](https://en.wikipedia.org/wiki/Criticism_of_Java#Language_syntax_and_semantics). The reason for using type erasure for this was to allow for backwards compatibility for migrating code and to allow for reuse of existing classes.  The Java compiler uses type erasure to replace all type parameters in generic types with their bounds or ```Object``` if the type parameters are unbounded. In this way, type erasure makes sure that no new classes are created for parameterized types, resulting in generics incurring no runtime overhead.
+Type erasure first appeared in Java along with [generics](https://en.wikipedia.org/wiki/Generics_in_Java) in [5.0](https://en.wikipedia.org/wiki/Criticism_of_Java#Language_syntax_and_semantics). The reason for using type erasure for this was to allow for backwards compatibility for migrating code and to allow for reuse of existing classes.  The Java compiler uses type erasure to replace all type parameters in generic types with their bounds or ```Object``` if the type parameters are unbounded. In this way, type erasure makes sure that no new classes are created for parameterized types, resulting in generics incurring no runtime overhead.
 
 # Benefits
 

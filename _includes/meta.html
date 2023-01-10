@@ -8,6 +8,9 @@
 <link rel="preload" href="https://static.codepen.io/assets/embed/ei.js" as="script" importance="low">
 <link rel="preconnect" href="https://cpwebassets.codepen.io">
 <link rel="preconnect" href="https://shots.codepen.io">
+{% if page.source %}
+<link rel="preload" href="{{ page.source | replace: 'https://codepen.io', 'https://shots.codepen.io' | append: '-800.jpg' }}" as="image">
+{% endif %}
 {% endif %}
 {% feed_meta %}
 <link rel="webmention" href="https://webmention.io/www.paulfosterdesign.co.uk/webmention">

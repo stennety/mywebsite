@@ -177,6 +177,7 @@ pre {
     padding: .75rem;
     overflow: auto;
     word-wrap: normal;
+    tab-size: 4;
     border-radius: .125rem;
     background-color: var(--col-secondary)
 }

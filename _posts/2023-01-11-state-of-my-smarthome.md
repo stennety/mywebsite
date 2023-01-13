@@ -1,6 +1,6 @@
 ---
 published: true
-title: State of my smart home, 2023
+title: 'State of my smart home, 2023'
 ---
 
 Several friends have visited and asked about my setup, so I thought it would be easiest to 
@@ -17,6 +17,10 @@ I don't have any Z-Wave devices, but I like having the flexibility to add them d
 
 I have a subscription to [Nabu Casa](https://www.nabucasa.com/) so I can access my Home Assistant instance remotely and through the iOS app.
 It runs $5/month, which is totally reasonable, and it feels good to help fund development. 
+
+## Plugins
+
+Google Drive backup plugin for backing up snapshots to Google Drive.
 
 # Control
 
@@ -86,3 +90,10 @@ any false positives or negatives with it.
 
 There's even a home automation YouTuber who built his own sensor called [Everything Presence One](https://shop.everythingsmart.io/en-us/products/everything-presence-one-kit) 
 which combines these two technologies for this reason.
+
+# Future Plans
+
+* As mentioned earlier, I'm looking forward to the voice control Home Assistant is rolling out this year.
+* I tried installing [Node-RED](https://nodered.org/) on the Raspberry Pi I use for Home Assistant, but it keeps crashing. I'd like to transition off the Pi to a more powerful computer (thinking something Intel NUC-based) and migrate my automations to Node-RED.
+* I'd like to eventually have a security system. I might just go for something turnkey, like Ring or SimplySafe. But I should mention that Home Assistant does have some security functionality.
+* [Frigate](https://frigate.video/) looks really clutch. It's local NVR that you can run on [Google Coral TPUs](https://coral.ai/) with custom models for object detection. I like this idea of edge computing and I've thought about taking that for a spin. You could create some pretty interesting automations off of object detections, I'd imagine.

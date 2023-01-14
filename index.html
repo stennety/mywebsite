@@ -80,9 +80,9 @@
               <tr> 
                 <th>Region</th>
                 <th>Country</th>
-                <th>Location</th>
+                <th>Location</th> 
                 <th>Golf Course</th> 
-                <th>Date</th>
+                <th>Date</th> 
                 <th>Golf Architect</th> 
                 <th>Golf Construction</th>
                 <th>History</th> 
@@ -127,8 +127,8 @@
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
                     {% else %} <td></td> 
                     {% endif %}              
-                    <td>{{ item.Budget }}</td> 
-                    <td>{{ item.Comments }} </td> 
+                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.Comments }} </td>
                     <td>{{ item.DataCurated }} </td>
                   </tr>
               {% endfor %}

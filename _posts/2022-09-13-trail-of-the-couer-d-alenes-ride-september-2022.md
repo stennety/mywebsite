@@ -8,7 +8,7 @@ the [Trail of the Couer d'Alenes](https://parksandrecreation.idaho.gov/parks/tra
 This trail is a rails-to-trails paved ride that has been on our list ever since we first got our gravel bikes just over
 a year ago.
 
-![]({{site.cdn_path}}/2022/09/13/dadAndI.jpg.jpg)
+![]({{site.cdn_path}}/2022/09/13/dadAndI.jpg)
 
 We lucked out with a clear, sunny day; wildfires in the area caused hazardous air quality on the prior and 
 subsequent days. We had plans the day afterwards to explore the town of Couer d'Alenes, but the 

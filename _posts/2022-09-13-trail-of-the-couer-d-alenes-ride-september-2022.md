@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Trail of the Couer d''Alenes Ride, September 2022'
+title: 'Ride Report: Trail of the Couer d''Alenes, September 2022'
 ---
 My dad and I spent September 10 cycling
 the [Trail of the Couer d'Alenes](https://parksandrecreation.idaho.gov/parks/trail-coeur-d-alenes/).

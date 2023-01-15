@@ -3,12 +3,14 @@ published: true
 title: 'State of my smart home, 2023'
 ---
 
-Several friends have visited and asked about my setup, so I thought it would be easiest to 
+Several friends have visited my place and asked about my setup, so I thought it would be easiest to 
 consolidate that explanation in a blog post. And hopefully it's useful to the wider Internet, as well 🙂.
+
+Here's the current state of my smarthome in 2023, and a few future plans with it.
 
 # The Hub: Home Assistant
 
-The brains of my operation is powered by [Home Assistant](https://www.home-assistant.io/), running on a rack-mounted Raspberry Pi 3.
+The brains of the operation is powered by [Home Assistant](https://www.home-assistant.io/), running on a rack-mounted Raspberry Pi 3.
 
 ![]({{site.cdn_path}}/2023/01/11/rack-pi.jpg)
 
@@ -20,7 +22,22 @@ It runs $5/month, which is totally reasonable, and it feels good to help fund de
 
 ## Plugins
 
-Google Drive backup plugin for backing up snapshots to Google Drive.
+Here are a few Home Assistant plugins I've found most useful.
+
+### Backups
+
+The first thing you should do after setting up Home Assistant is to get a backup strategy in place,
+for that inevitable moment when you bork your configuration file.
+
+I found the [Google Drive backup plugin](https://github.com/sabeechen/hassio-google-drive-backup) to be really easy to set up. 
+I configured it to back up nightly and keep the last 10 backups in Google Drive, just to give me a buffer
+if I need to roll back.
+
+### TailScale
+
+[TailScale](https://tailscale.com) is this really useful zero-configuration VPN with native apps for 
+most platforms. I use it for remote access if I need to SSH into the Pi. Use [this plugin](https://www.home-assistant.io/integrations/tailscale/)
+to add it to your Home Assistant setup.
 
 # Control
 
@@ -58,6 +75,10 @@ For my non-Hue lights, I have a few of TP-Link's Kasa switches, and have been ha
 
 # Sensors
 
+> One accurate measurement is worth a thousand expert opinions.
+> 
+> -- Grace Hopper
+
 I have just over a dozen Zigbee sensors, mostly from Aqara. I picked this brand just because it seemed to have the 
 most positive reviews on Amazon. I've been pretty happy with them overall. I do wish there were more options out there 
 with wall power; it's annoying having to change sensor batteries occasionally. I'm hoping someday in the 
@@ -93,7 +114,29 @@ which combines these two technologies for this reason.
 
 # Future Plans
 
-* As mentioned earlier, I'm looking forward to the voice control Home Assistant is rolling out this year.
-* I tried installing [Node-RED](https://nodered.org/) on the Raspberry Pi I use for Home Assistant, but it keeps crashing. I'd like to transition off the Pi to a more powerful computer (thinking something Intel NUC-based) and migrate my automations to Node-RED.
-* I'd like to eventually have a security system. I might just go for something turnkey, like Ring or SimplySafe. But I should mention that Home Assistant does have some security functionality.
-* [Frigate](https://frigate.video/) looks really clutch. It's local NVR that you can run on [Google Coral TPUs](https://coral.ai/) with custom models for object detection. I like this idea of edge computing and I've thought about taking that for a spin. You could create some pretty interesting automations off of object detections, I'd imagine.
+## Circadian lighting
+
+I'd like it if lights in certain rooms shifted to the red end of the spectrum
+as the sun set. It's a more natural feel to the lighting, and would make it 
+easier to wind down at the end of the day. There is a Home Assistant
+[circadian lighting](https://github.com/claytonjn/hass-circadian_lighting) component you can install
+via [HACS](https://hacs.xyz/) which enables this, and [this blog post by 
+Tyler Cipriani](https://tylercipriani.com/blog/2022/10/17/whole-house-circadian-lighting-with-home-assistant/) is a great
+explanation of it.
+
+## Voice control
+
+As mentioned earlier, I'm looking forward to the voice control Home Assistant is rolling out this year. 
+
+## Node-RED
+
+[Node-RED](https://nodered.org/) is a visual programming tool reminiscent of YAHOO Pipes (RIP Yahoo Pipes 🪦). 
+I tried installing it on the Pi I use for Home Assistant, but it keeps crashing. I'd like to transition off the Pi to a more powerful computer (thinking something Intel NUC-based) and migrate my automations to Node-RED. 
+
+## Security System
+
+I'd like to eventually have a security system. I might just go for something turnkey, like Ring or SimplySafe. But I should mention that Home Assistant does have some security functionality.
+
+## Frigate
+
+[Frigate](https://frigate.video/) looks really slick. It's local NVR that you can run on [Google Coral TPUs](https://coral.ai/) with custom models for object detection. I like this idea of edge computing and I've thought about taking that for a spin. You could create some pretty interesting automations off of object detections, I'd imagine.

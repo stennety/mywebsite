@@ -26,6 +26,11 @@ So the requirements for the solution were:
 
 After doing some research, the [Epson FastFoto scanner](https://www.amazon.com/Epson-FastFoto-FF-680W-Wireless-High-Speed/dp/B07DLX26BB/ref=sr_1_3?crid=2JZWCOFTDF6QU&keywords=epson+fastfoto&qid=1672699932&sprefix=epson+fastfot%2Caps%2C198&sr=8-3&ufe=app_do%3Aamzn1.fos.ac2169a1-b668-44b9-8bd0-5ec63b24bcb5)
 fit the bill perfectly.
+
+![]({{site.cdn_path}}/2023/01/02/epson_fastfoto.jpg)
+
+_It is endorsed by Shaq, but unlike Shaq's FTX endorsement, is actually worth your money. Too soon?_
+
 It seemed to be the most popular of the consumer bulk scanners out there, could scan as quickly as one photo per second, 
 had a price point that made it actually cheaper than sending the photos off to be scanned, 
 and came with software that would timestamp the photo batches. As a bonus, my mom could use it after we completed the project

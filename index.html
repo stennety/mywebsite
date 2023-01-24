@@ -82,9 +82,9 @@
                 <th>Country</th>
                 <th>Location</th> 
                 <th>Golf Course</th>
-                <th>Date</th> 
-                <th>Golf Architect</th> 
-                <th>Golf Construction</th> 
+                <th>Date</th>
+                <th>Golf Architect</th>
+                <th>Golf Construction</th>
                 <th>History</th>
                 <th>Build</th> 
                 <th>Status</th>
@@ -103,14 +103,14 @@
           <tbody>
               {% for item in site.data.allGolf %}
                   <tr>
-                    <td>{{ item.Region }}</td> 
+                    <td>{{ item.Region }}</td>
                     <td>{{ item.Country }}</td> 
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z"> {{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
                     <td>{{ item.Date }}</td>
-                    <td>{{ item.Architect }}</td> 
+                    <td>{{ item.Architect }}</td>
                      <td>{{ item.Construction }}</td>
                     <td>{{ item.History }}</td>
                     <td>{{ item.TypeOfJob }}</td>

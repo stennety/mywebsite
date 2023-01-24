@@ -1,6 +1,6 @@
 ---
 published: true
-title: Pro Tip: Boolean Searches in the Google Photos Web UI
+title: Pro Tip - Boolean Searches in the Google Photos Web UI
 ---
 
 I'm an Apple fanboy, but Google Photos is my primary service for organizing photos. I love that it

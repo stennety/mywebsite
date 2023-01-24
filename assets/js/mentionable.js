@@ -152,14 +152,18 @@ class Mentionable extends Component {
     }
 
     /**
-     * @private
+     * @private - Text summary list of mentions, N type(s)
      * @function mentionlist
      * @param {object} types 
-     * @returns {string | null}
+     * @returns {string}
      */
     mentionlist(types) {
-        let list = Array.from(Object.entries(types), type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
-        return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list) ?? null;
+        let list = Object.entries(types).map(type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
+        try{
+          return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list);
+        } catch(err) {
+          return list.join(', ');
+        }
     }
 
     async _fetchCount() {

@@ -34,7 +34,7 @@ function Mentioncount(props) {
  * @returns {string}
  */
 function mentiondate(published, wmreceived) {
-    return new Date(published ? published : wmreceived).toLocaleString();
+    return new Date(published ? published : wmreceived).toLocaleDateString();
 }
 
 /**

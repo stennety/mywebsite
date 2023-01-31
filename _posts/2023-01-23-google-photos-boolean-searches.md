@@ -48,3 +48,17 @@ This searches only for photos of me which are selfies:
 And this search _excludes_ photos which are selfies:
 
 ![]({{site.cdn_path}}/2023/01/23/no_selfie_filter.png)
+
+## Find photos which are not in any albums?
+
+This has been a [long-requested](https://support.google.com/photos/forum/AAAAzDQC9KEYao5yh8z-us/?hl=en&gpf=%23!topic%2Fphotos%2FYao5yh8z-us)
+feature that has unfortunately not been implemented at the time of this writing.
+
+I think it would be immensely useful to be able to search, for example, of 
+old family photos which are not in any of my family albums yet.
+
+# gapi-querier
+
+A clever engineer wrote [this tool](https://github.com/jonagh/gapi-querier) for 
+hitting the Google Photos API directly. I may start using this for my more advanced search 
+needs. For example, it can iterate over all your photos and find ones that aren't in any albums.

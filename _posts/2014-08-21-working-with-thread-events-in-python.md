@@ -1,5 +1,4 @@
 ---
-
 published: true
 title: Working with thread events in Python
 ---

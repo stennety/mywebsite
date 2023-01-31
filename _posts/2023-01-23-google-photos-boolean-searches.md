@@ -4,40 +4,47 @@ title: Pro Tip - Boolean Searches in the Google Photos Web UI
 ---
 
 I'm an Apple fanboy, but Google Photos is my primary service for organizing photos. I love that it
-supports group albums that others can contribute to, and it's got some slick features like
+supports group albums that others can contribute to, and it has some slick features like
 rotating photos in batch when it detects they're askew.
 
 That being said, it's not without its shortcomings. One of which is searching in the web UI, which is what I mainly use.
 
-Let's say I want to find photos of my dad and I.
+I'm a huge fan of [The Last of Us](https://www.imdb.com/title/tt2140553/),
+and have been digging the HBO adaptation, so I'll use characters from it for my examples.
 
-In the mobile app, you can do this. I can search photos that have my dad and I in them, or photos of _only_
-my dad and I.
+Let's say I want to find photos of Joel and Ellie.
 
-![]({{site.cdn_path}}/2023/01/23/mobile_search.jpg)
+In the mobile app, you can do this. I can search for photos that have Joel and Ellie in them, or photos of _only_
+Joel and Ellie.
 
 No such option in the UI, just this open-ended search bar.
 
-I proxied the calls the mobile app makes and...it uses a custom [gRPC](https://grpc.io/) endpoint 🤦🏼‍♂️️.
+After a bit of experimentation, however, I discovered that you can do
+these searches in the web UI with boolean operators.
 
-After some experimenting, though, I discovered that you can do these searches in the web UI with boolean operators.
+Searching for `"Joel Miller" AND "Ellie Williams"` results in photos with both of them (note that you need both people's names in
+quotes).
 
-Searching for photos of me AND my dad results in photos with both of us (note that you need both people's names in quotes):
+Searching for photos of `"Joel Miller" OR "Ellie Williams"` results in photos that feature either or both of them.
 
-![]({{site.cdn_path}}/2023/01/23/david_and_dad.png)
+Note that you can chain these as much as you want. i.e. `"Joel Miller" AND "Ellie Williams" AND "Tess Servopoulos"`.
 
-Searching for photos of me OR my dad results in photos that have either or both of us in them.
+This doesn't totally have parity with the mobile app; there doesn't seem to be a query that gives me photos with
+only us in it in the way that the mobile app does. But it gets us most of the way there. 
+I do hope they ultimately bring the web UI more into parity with mobile, since web is mainly what I use.
 
-![]({{site.cdn_path}}/2023/01/23/david_or_dad.png)
+# Other search parameters
 
-Note that you can chain these as much as you want. i.e. "David AND Dad AND Mom":
+Note: This is a short list for now. I'll update it as I find other
+hidden search parameters. Leave a comment if you know of any and I'll 
+add them!
 
-![]({{site.cdn_path}}/2023/01/23/david_and_dad_and_mom.png)
+## Filter selfies
 
-This doesn't totally have parity with the mobile app; there doesn't seem to be a query that gives me photos with 
-only us in it in the way that the mobile app does. But it gets us most of the way there. I do hope they bring the 
-web UI more into parity with the mobile one.
+This searches only for photos of me which are selfies:
 
-For more on advanced search in Google Photos, I had mixed results with the queries in [this Reddit thread](https://www.reddit.com/r/googlephotos/comments/rxthdo/advanced_google_photos_search_syntax/).
-I'll keep experimenting and will update this post with new finds. Feel free to comment with any advanced Google Photos 
-search params you're aware of.
+![]({{site.cdn_path}}/2023/01/23/selfie_filter.png)
+
+And this search _excludes_ photos which are selfies:
+
+![]({{site.cdn_path}}/2023/01/23/no_selfie_filter.png)

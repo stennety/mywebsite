@@ -2,15 +2,6 @@
 
 ---
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<script src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
-
-<script src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/dt-1.10.9/datatables.min.css"/>
-<script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
@@ -35,33 +26,43 @@
   <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
   <title>Golf Course Incomplete Property</title>
   
-    <style>
-        table { border-collapse: collapse; }
-        th { border: 1px solid #999;
-                padding: 0.5rem;
-                text-align: left;
-                font-size: 12px; }
-      td { border: 1px solid #999;
-                padding: 0.5rem;
-                text-align: left; 
-                font-size: 11px; }
-      footer { background-color: #c5e6f1; text-align: justify;} 
-      aside {background-color: ; text-align: justify;}
-    </style>
-    <style type="text/css">
-      .ui-datatable,
-      .ui-datatable .ui-datatable-tablewrapper table { font-size: 11px !important; }
-              
-      /* For Paginator */
-      .ui-datatable .ui-paginator .ui-paginator-first, 
-      .ui-datatable .ui-paginator .ui-paginator-prev,
-      .ui-datatable .ui-paginator .ui-paginator-pages .ui-paginator-page, 
-      .ui-datatable .ui-paginator .ui-paginator-next, 
-      .ui-datatable .ui-paginator .ui-paginator-last,
-      .ui-datatable .ui-paginator .ui-paginator-rpp-options { font-size: 9px !important; }
-      .ui-datatable .ui-paginator .ui-paginator-current { font-size: 9px !important; }
-    </style>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>DataTables example - With FixedHeader</title>
+	<link rel="shortcut icon" type="image/png" href="/media/images/favicon.png">
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
+	<link rel="stylesheet" type="text/css" href="/media/css/site-examples.css?_=0771ef576c9d13b959c1b9f1347f44991">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.3.1/css/fixedHeader.dataTables.min.css">
+	<style type="text/css" class="init">
+	
+	div.container { max-width: 1200px }
+
+	</style>
+	<script type="text/javascript" src="/media/js/site.js?_=2ebf5030ecffebb7a95961b9ac27790c" data-domain="datatables.net" data-api="https://plausible.sprymedia.co.uk/api/event"></script>
+	<script src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+	<script type="text/javascript" src="/media/js/dynamic.php?comments-page=extensions%2Fresponsive%2Fexamples%2Fcolumn-control%2FfixedHeader.html" async></script>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
+	<script type="text/javascript" class="init">
+	
+
+
+    $(document).ready(function() {
+	      var table = $('#example').DataTable( {
+		      responsive: true,
+		      paging: false
+	  } );
+  
+	    new $.fn.dataTable.FixedHeader( table );
+    } );
+
+	</script>
 </head>
+
 <!--
 <p>&nbsp;</p>
 -->
@@ -81,7 +82,7 @@
      <figure>
 
 -->
-     <table id="golf" class="display table-striped table-bordered" cellspacing="1" width="99%">
+     <table id="golf" class="display nowrap" cellspacing="1" width="100%">
           <thead>
               <tr> 
                 <th>Region</th> 

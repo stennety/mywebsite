@@ -106,7 +106,11 @@
 		var table = $('#golf').DataTable( {
 			responsive: true,
 			order: [[0, "desc"],[1,"desc"]],
-			columnDefs: [[responsivePriority: 1, targets: 4],[responsivePriority: 2, targets: 3],[responsivePriority: 3, targets: 6]]
+			columnDefs: [
+			 	{ targets: [4], responsivePriority: 1 },
+			  	{ targets: [3], responsivePriority: 2 },
+			  	{ targets: [6], responsivePriority: 3 }
+			  ],
 			paging: false
 		} );
 	 

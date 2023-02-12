@@ -52,11 +52,11 @@
                 <th>Country</th>
                 <thdata-priority="2">Location</th>
                 <th data-priority="1">Golf Course</th>
-                <th data-priority="5">Date</th>
+                <th>Date</th>
                 <thd ata-priority="3">Architect</th>
-                <th data-priority="6">Construction</th>
+                <th>Construction</th>
                 <th>Build</th>
-                <th data-priority="4">Status</th>
+                <th>Status</th>
                 <th>YouTube</th> 
                 <th>Twitter</th>
                 <th>Budget</th>
@@ -106,6 +106,7 @@
 		var table = $('#golf').DataTable( {
 			responsive: true,
 			order: [[0, "desc"],[1,"desc"]],
+			columnDefs: [[responsivePriority: 1, targets: 4],[responsivePriority: 2, targets: 3],[responsivePriority: 3, targets: 6]]
 			paging: false
 		} );
 	 

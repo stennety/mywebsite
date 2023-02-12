@@ -49,13 +49,13 @@
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th>
-                <th>Architect</th>
+                <th>Architect</th> 
                 <th>Construction</th>
                 <th>Build</th>
                 <th>Status</th> 
                 <th>YouTube</th> 
                 <th>Twitter</th>
-                <th>Budget</th>
+                <th>Budget</th> 
                 <th>History</th> 
                 <th>Curated</th>
                 <th>Comments</th>
@@ -84,7 +84,7 @@
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}">{{ item.TwitterCaption }}</a> </td>
                     {% else %} <td></td> 
                     {% endif %}     
-                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.Budget }}</td> 
                     <td>{{ item.History }}</td>
                     <td>{{ item.DataCurated }} </td>
                     <td>{{ item.Comments }} </td>

@@ -1,27 +1,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 <loc>http://fescue.github.io</loc>
-<lastmod>2023-02-12T073:00:00+00:00</lastmod>
 <priority>1</priority>
 </url>
 <url>
 <loc>http://fescue.github.io/incomplete</loc>
-<lastmod>2023-02-12T073:00:00+00:00</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://fescue.github.io/2021</loc>
-<lastmod>2023-02-12T073:00:00+00:00</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
 <loc>http://fescue.github.io/2020</loc>
-<lastmod>2023-02-12T073:00:00+00:00</lastmod>
 <priority>0.5</priority>
 </url>
 <url>
 <loc>http://fescue.github.io/2019</loc>
-<lastmod>2023-02-12T073:00:00+00:00</lastmod>
 <priority>0.2</priority>
 </url>
 </urlset>

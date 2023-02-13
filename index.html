@@ -51,8 +51,8 @@
                 <th>Date</th>
                 <th>Architect</th> 
                 <th>Construction</th>
-                <th>Build</th>
-                <th>Status</th> 
+                <th>Build</th> 
+                <th>Status</th>
                 <th>YouTube</th> 
                 <th>Twitter</th>
                 <th>Budget</th> 
@@ -85,7 +85,7 @@
                     {% else %} <td></td> 
                     {% endif %}     
                     <td>{{ item.Budget }}</td> 
-                    <td>{{ item.History }}</td>
+                    <td>{{ item.History }}</td> 
                     <td>{{ item.DataCurated }} </td>
                     <td>{{ item.Comments }} </td>
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}">{{ item.Instagram }}</a> </td>

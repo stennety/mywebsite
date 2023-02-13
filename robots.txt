@@ -1,1 +1,4 @@
+User-agent: CCBot
+Disallow: /
+
 Sitemap: https://www.paulfosterdesign.co.uk/sitemap.xml

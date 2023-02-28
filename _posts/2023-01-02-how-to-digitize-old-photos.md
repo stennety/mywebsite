@@ -29,7 +29,7 @@ fit the bill perfectly.
 
 ![]({{site.cdn_path}}/2023/01/02/epson_fastfoto.jpg)
 
-_It is endorsed by Shaq, but unlike Shaq's FTX endorsement, is actually worth your money. Too soon?_
+_It is endorsed by Shaq, but unlike Shaq's [FTX endorsement](https://en.wikipedia.org/wiki/FTX), Epson is not a massive Ponzi scheme. Too soon?_
 
 It seemed to be the most popular of the consumer bulk scanners out there, could scan as quickly as one photo per second, 
 had a price point that made it actually cheaper than sending the photos off to be scanned, 

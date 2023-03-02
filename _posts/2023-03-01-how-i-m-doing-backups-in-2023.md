@@ -48,6 +48,10 @@ Originally, I thought I could put all of our computers on a Tailscale VPN and th
 
 So I opted to instead sync files between our NASes. This way, we could each access the files quickly, and any changes on either end would eventually sync. [Resilio sync](https://www.resilio.com/) fit the bill really nicely, and they already had a package for Synology. As icing on the cake, they have an iPhone app that I can also use to download any files from there. This made it really trivial to share our family photos as raw files between locations.
 
+![]({{site.cdn_path}}/2023/03/01/harry-potter-spell.jpeg)
+
+_Though it sounds like a Harry Potter spell, Resilio is actually a peer-to-peer service which syncs files between devices. Which I think is pretty magical._
+
 # What's left?
 
 I still need to figure out a better workflow for photos. Right now, I have photos in Google Photos, iCloud, and a bunch of raw files on the NASes. If I wanted to migrate to a different photo service, it would be a huge pain, as I've made some metadata changes in each one. So I'd like to unify that more, now that I have the storage to keep all of those offline. But that'll be a story for another post 😄️.

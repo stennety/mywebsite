@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'How I''m doing backups in 2023 '
 ---
 ![]({{site.cdn_path}}/2023/03/01/backups.png)

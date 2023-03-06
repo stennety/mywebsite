@@ -1,0 +1,45 @@
+<html lang="en">
+		<link rel="stylesheet" type="text/css" href="https://fescue.github.io/iMap.css">
+		
+		
+<div id="storyMap"></div>
+
+	  <script>
+		// JSON file containing data for the Story Map
+		const storymap_data =
+		  "https://raw.githubusercontent.com/pmacMaps/storymapsJS-pamagic-board/master/assets/data/pamagicBoard.json";
+
+		// Options for Story Map
+		const storymap_options = {
+		  language: "en",
+		  map_type: "osm:standard",
+		  calculate_zoom: false
+		};
+
+		// the Story Map object
+		const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+
+		// Leaflet Zoom control
+		const zoomControl = L.control.zoom({ position: "topleft" });
+
+		// Leaflet Full-Screen control
+		const fullscreenControl = new L.Control.Fullscreen({
+		  position: "topleft"
+		});
+
+		// grouping of controls
+		const leafletControlsToAdd = [zoomControl, fullscreenControl];
+
+		// event for when the Story Map is loaded
+		storymap.on("loaded", function() {
+		  // leaflet.js web map object
+		  const leafletMap = storymap.map;
+
+		  // add controls to Leaflet web map
+		  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
+		});
+	  </script>
+
+	<script type="text/javascript" class="init"></script>
+
+

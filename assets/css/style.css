@@ -367,6 +367,10 @@ h2 em, h3 em {
     background-color: var(--col-body);
 }
 
+.copyright {
+    text-align: end;
+}
+
 @media print {
     *, * :before, * :after, ::marker {
         color: initial !important;

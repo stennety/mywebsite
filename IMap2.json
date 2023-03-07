@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>7 Mile Beach</p><p>Tree Farm</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>7 Mile Beach</p><p>Tree Farm</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p><p>Cabot St. Lucia</p>"
 				 }
 			},{
 				"text": {
@@ -43,7 +43,7 @@
 					"zoom": 10
 				},
 				"media": {
-					"url": "https://www.instagram.com/the_tree_farm_golf"
+					"url": "https://www.instagram.com/p/CZmVgWfOujv/?utm_source=ig_web_copy_link"
 				}
 			},{
 				"text": {
@@ -95,9 +95,23 @@
 					"zoom": 10
 				},
 				"media": {
-					"url": "https://www.instagram.com/comporta.dunes"
+					"url": "https://twitter.com/hashtag/ComportaDunes?src=hash&amp;ref_src=twsrc%5Etfw"
+				}
+			},{
+				"text": {
+					"headline": "Cabot St. Lucia",
+					"text": "<p>Cabot St. Lucia built by Coore Crenshaw in St. Lucia expected in 2023</p>"
+				},
+				"location": {
+					"lat": 14.074383,
+					"lon": -60.935679,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://t.co/0Kt1hpo6x8"
 				}
 			}
+			
 		]
     }
 }

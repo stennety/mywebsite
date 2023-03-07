@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Cabot St. Lucia</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Cabot Citrus Farms - Barrens</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -21,6 +21,19 @@
 				}
 			},{
 				"text": {
+					"headline": "Cabot Citrus Farms - Barrens",
+					"text": "<p>Cabot Barrens built by Kyle Franz in Florida and expected late 2024.  Adjacent golf course Cabot Oaks built by Kyle Franze, Mike Nuzzo, Ran Morrissett.  Cabot 21 short course and practice range will be designed by Mike Nuzzo.</p>"
+				},
+				"location": {
+					"lat": 28.6829807,
+					"lon": -82.4815757,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=hRDq0PHq4HE"
+				}
+			},{
+				"text": {
 					"headline": "Cabot St. Lucia",
 					"text": "<p>Cabot St. Lucia built by Coore Crenshaw in St. Lucia expected in November 2023</p>"
 				},
@@ -31,6 +44,19 @@
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=FT1An-ycess"
+				}
+			},{
+				"text": {
+					"headline": "Pinehurst #10",
+					"text": "<p>Pinehurst Resort's 10th course routed by Tom Doak, built by Angela Moser is expected to open in spring 2024.  Rich LaBar leads site construction under firm LaBar Golf Renovations.</p>"
+				},
+				"location": {
+					"lat": 35.1467958,
+					"lon": -79.4512055,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=R-P7peWhNwM"
 				}
 			},{
 				"text": {
@@ -48,7 +74,7 @@
 			},{
 				"text": {
 					"headline": "7 Mile Beach",
-					"text": "<p>7 Mile Beach built by Clayton DeVries Pont in Hobart, Tasmania, Australia expected in December, 2023</p>"
+					"text": "<p>7 Mile Beach built by Clayton DeVries Pont in Hobart, Tasmania, Australia expected in December 2023</p>"
 				},
 				"location": {
 					"lat": -42.848042,

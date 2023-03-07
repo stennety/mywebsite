@@ -1,42 +1,83 @@
 ---
 
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-<div id="storyMap"></div>
-	  <script> 
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/iMap2.json";
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-		// Options for Story Map
-		const storymap_options = {
-		  language: "en",
-		  map_type: "osm:standard",
-		  calculate_zoom: false
-		};
+		  gtag('config', 'G-CE7ZF0C1GD');
+		</script>
 
-		// the Story Map object
-		const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+		<head  <!-- Global site tag (gtag.js) - Google Analytics -->
+			<!--
+		<meta http-equiv="refresh" content="0; url=https://fescue.github.io">
+			<link rel="canonical" href="http://fescue.github.io" />
+		-->
 
-		// Leaflet Zoom control
-		const zoomControl = L.control.zoom({ position: "topleft" });
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165022482-1"></script>
+		<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+			  gtag('config', 'UA-165022482-1');
+		</script>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<meta name="Description" CONTENT="Golf Course Architecture New Golf Course Openings Doak Hanse Coore Crenshaw Kidd Franz Clayton King Collins">
+		<meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
+	   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+		  
+		<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
+		<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
+	</head>
 
-		// Leaflet Full-Screen control
-		const fullscreenControl = new L.Control.Fullscreen({
-		  position: "topleft"
-		});
 
-		// grouping of controls
-		const leafletControlsToAdd = [zoomControl, fullscreenControl];
+	<body> 
+		<H1>New Golf Course Openings - Travel Plan</H1>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		<div id="storyMap" class="container-fluid"></div>
+			  <script> 
+				// JSON file containing data for the Story Map
+				const storymap_data =  "https://fescue.github.io/iMap2.json";
 
-		// event for when the Story Map is loaded
-		storymap.on("loaded", function() {
-		  // leaflet.js web map object
-		  const leafletMap = storymap.map;
+				// Options for Story Map
+				const storymap_options = {
+				  language: "en",
+				  map_type: "osm:standard",
+				  calculate_zoom: false
+				};
 
-		  // add controls to Leaflet web map
-		  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-		});
-	  </script> 
-	<script type="text/javascript" class="init"></script> 
+				// the Story Map object
+				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+
+				// Leaflet Zoom control
+				const zoomControl = L.control.zoom({ position: "topleft" });
+
+				// Leaflet Full-Screen control
+				const fullscreenControl = new L.Control.Fullscreen({
+				  position: "topleft"
+				});
+
+				// grouping of controls
+				const leafletControlsToAdd = [zoomControl, fullscreenControl];
+
+				// event for when the Story Map is loaded
+				storymap.on("loaded", function() {
+				  // leaflet.js web map object
+				  const leafletMap = storymap.map;
+
+				  // add controls to Leaflet web map
+				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
+				});
+			  </script> 
+		<script type="text/javascript" class="init"></script> 
+	</body>
+</html>

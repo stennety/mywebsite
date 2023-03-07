@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>7 Mile Beach</p><p>Tree Farm</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p><p>Cabot St. Lucia</p>"
+					"text": "<p>Te Arai - South</p><p>7 Mile Beach</p><p>La Réserve Golf Links</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p><p>Cabot St. Lucia</p><p>Tree Farm</p><p>McArthur West</p><p>Sand Valley - Lido</p>"
 				 }
 			},{
 				"text": {
@@ -34,42 +34,16 @@
 				}
 			},{
 				"text": {
-					"headline": "Tree Farm",
-					"text": "<p>Tree Farm built by Goalby Blair Doak in South Carolina, USA opened in 2023</p>"
+					"headline": "La Réserve Golf Links",
+					"text": "<p>La Réserve Golf Links built in Bel Ombre, Mauritius by Peter Matkovich with co-design credit to Louis Oosthuizen opened September 2022.  La Reserve will be the new host venue for the DP World Tour’s AfrAsia Bank Mauritius Open.</p>"
 				},
 				"location": {
-					"lat": 33.539347,
-					"lon": -81.746414,
-					"zoom": 10
+					"lat": -20.10175,
+					"lon": 57.701072,
+					"zoom": 9
 				},
 				"media": {
-					"url": "https://www.instagram.com/p/CZmVgWfOujv/?utm_source=ig_web_copy_link"
-				}
-			},{
-				"text": {
-					"headline": "McArthur West",
-					"text": "<p>McArthur West built by Coore Crenshaw in Florida, USA expected in 2023</p>"
-				},
-				"location": {
-					"lat": 27.094252,
-					"lon": -80.169722,
-					"zoom": 10
-				},
-				"media": {
-					"url": "https://www.youtube.com/watch?v=vkOCIOJV__s"
-				}
-			},{
-				"text": {
-					"headline": "Sand Valley Lido",
-					"text": "<p>Sand Valley Lido built by Doak Schneider Slawnik in Wisconsin, USA opneed in 2023</p>"
-				},
-				"location": {
-					"lat": 44.171728,
-					"lon": -89.857699,
-					"zoom": 10
-				},
-				"media": {
-					"url": "https://www.youtube.com/watch?v=hq7Zl82hkFY"
+					"url": "https://heritagegolfclub.mu/golf/la-reserve-golf-links/"
 				}
 			},{
 				"text": {
@@ -110,8 +84,46 @@
 				"media": {
 					"url": "https://t.co/0Kt1hpo6x8"
 				}
+			},{
+				"text": {
+					"headline": "Tree Farm",
+					"text": "<p>Tree Farm built by Goalby Blair Doak in South Carolina, USA opened in 2023</p>"
+				},
+				"location": {
+					"lat": 33.539347,
+					"lon": -81.746414,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://www.instagram.com/p/CZmVgWfOujv/?utm_source=ig_web_copy_link"
+				}
+			},{
+				"text": {
+					"headline": "McArthur West",
+					"text": "<p>McArthur West built by Coore Crenshaw in Florida, USA expected in 2023</p>"
+				},
+				"location": {
+					"lat": 27.094252,
+					"lon": -80.169722,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=vkOCIOJV__s"
+				}
+			},{
+				"text": {
+					"headline": "Sand Valley Lido",
+					"text": "<p>Sand Valley Lido built by Doak Schneider Slawnik in Wisconsin, USA opneed in 2023</p>"
+				},
+				"location": {
+					"lat": 44.171728,
+					"lon": -89.857699,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=hq7Zl82hkFY"
+				}
 			}
-			
 		]
     }
 }

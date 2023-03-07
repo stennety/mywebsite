@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Cabot Citrus Farms - Barrens</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -31,6 +31,19 @@
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=hRDq0PHq4HE"
+				}
+			},{
+				"text": {
+					"headline": "PGA Frisco - Fields Ranch East",
+					"text": "<p>PGA Frisco - Fields Ranch East is built by Gil Hanse in Frisco, Texas and opening spring 2023.  Adjacent golf course PGA Frisco - Fields Ranch West is built by Beau Welling.</p>"
+				},
+				"location": {
+					"lat": 33.2124296,
+					"lon": -96.8572536,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=FXtltDZo3kg"
 				}
 			},{
 				"text": {

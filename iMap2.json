@@ -4,12 +4,12 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>7 Mile Beach</p><p>Tree Farm</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p><p>Cabot St. Lucia</p>"
+					"text": "<p>Te Arai - South</p><p>Cabot St. Lucia</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
 					"headline": "Te Arai - South",
-					"text": "<p>Te Arai - South built by Coore Crenshaw in New Zealand opened in 2023.</p>"
+					"text": "<p>Te Arai - South built by Coore Crenshaw in New Zealand opened in March 2023.</p>"
 				},
 				"location": {
 					"lat": -36.1967176,
@@ -21,8 +21,21 @@
 				}
 			},{
 				"text": {
+					"headline": "Cabot St. Lucia",
+					"text": "<p>Cabot St. Lucia built by Coore Crenshaw in St. Lucia expected in November 2023</p>"
+				},
+				"location": {
+					"lat": 14.074383,
+					"lon": -60.935679,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=FT1An-ycess"
+				}
+			},{
+				"text": {
 					"headline": "7 Mile Beach",
-					"text": "<p>7 Mile Beach built by Clayton DeVries Pont in Hobart, Tasmania, Australia expected in 2023</p>"
+					"text": "<p>7 Mile Beach built by Clayton DeVries Pont in Hobart, Tasmania, Australia expected in December, 2023</p>"
 				},
 				"location": {
 					"lat": -42.848042,
@@ -34,21 +47,8 @@
 				}
 			},{
 				"text": {
-					"headline": "Tree Farm",
-					"text": "<p>Tree Farm built by Goalby Blair Doak in South Carolina, USA opened in 2023</p>"
-				},
-				"location": {
-					"lat": 33.539347,
-					"lon": -81.746414,
-					"zoom": 10
-				},
-				"media": {
-					"url": "https://thefriedegg.com/zac-blair-the-buck-club-hires-tom-doak-kye-goalby-to-design-the-tree-farm/"
-				}
-			},{
-				"text": {
 					"headline": "McArthur West",
-					"text": "<p>McArthur West built by Coore Crenshaw in Florida, USA expected in 2023</p>"
+					"text": "<p>McArthur West built by Coore Crenshaw in Florida, USA expected in December 2023</p>"
 				},
 				"location": {
 					"lat": 27.094252,
@@ -61,7 +61,7 @@
 			},{
 				"text": {
 					"headline": "Sand Valley Lido",
-					"text": "<p>Sand Valley Lido built by Doak Schneider Slawnik in Wisconsin, USA opneed in 2023</p>"
+					"text": "<p>Sand Valley Lido built by Doak Schneider Slawnik in Wisconsin, USA open summer 2023</p>"
 				},
 				"location": {
 					"lat": 44.171728,
@@ -73,8 +73,21 @@
 				}
 			},{
 				"text": {
+					"headline": "Tree Farm",
+					"text": "<p>Tree Farm built by Goalby Blair Doak in South Carolina, USA opened in March 2023</p>"
+				},
+				"location": {
+					"lat": 33.539347,
+					"lon": -81.746414,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://thefriedegg.com/zac-blair-the-buck-club-hires-tom-doak-kye-goalby-to-design-the-tree-farm/"
+				}
+			},{
+				"text": {
 					"headline": "Ban Rakat Club - Ballyshear",
-					"text": "<p>Ban Rakat Club - Ballyshear built by Hanse in Thailand opened in 2022</p>"
+					"text": "<p>Ban Rakat Club - Ballyshear built by Hanse in Thailand opened in January 2022</p>"
 				},
 				"location": {
 					"lat": 13.609653,
@@ -87,7 +100,7 @@
 			},{
 				"text": {
 					"headline": "Terras da Comporta Dunas",
-					"text": "<p>Terras da Comporta Dunas built by David Kidd in Portugal opens in 2022</p>"
+					"text": "<p>Terras da Comporta Dunas built by David Kidd in Portugal opens in May 2023</p>"
 				},
 				"location": {
 					"lat": 38.324931,
@@ -97,21 +110,7 @@
 				"media": {
 					"url": "https://www.comporta.com/en/eco-friendly-real-estate-comporta-portugal/golf/"
 				}
-			},{
-				"text": {
-					"headline": "Cabot St. Lucia",
-					"text": "<p>Cabot St. Lucia built by Coore Crenshaw in St. Lucia expected in 2023</p>"
-				},
-				"location": {
-					"lat": 14.074383,
-					"lon": -60.935679,
-					"zoom": 9
-				},
-				"media": {
-					"url": "https://www.youtube.com/watch?v=FT1An-ycess"
-				}
-			}
-			
+			}			
 		]
     }
 }

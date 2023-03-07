@@ -2,38 +2,34 @@
         "slides": [{
             "type": "overview",
             "text": {
-                "headline": "Meet the PaMAGIC Leadership Team",
-                "text": "<p>The PaMAGIC Leadership Team is comprised of the nine-member Board of Directors, Pennsylvania Geoboard representative, Membership Chair, and Webmaster.</p><p>Each board member is elected for a three year term and is eligible to be elected to serve consecutive terms. The terms overlap and three positions are elected each year. Elections are held each May.</p><p>Visit the <a href='https://pamagic.org/' target='_blank' rel='noopener'>PaMAGIC website</a> to learn more about our organization.</p>"
-            },
-            "media": {
-                    "url": "//maps.pamagic.org/meet-the-board/assets/images/pamagic-blue-whitespace.png",
-                    "caption": "Pennsylvania Mapping and Geographic Information Consortium"
+                "headline": "Candidates",
+                "text": "<P>Te Arai - South		Oceania		NZ		North Island	Open</P><P>	Te Arai - North		Oceania		NZ		North Island				Oct-23	</P><P>	7 Mile Beach		Oceania		Australia		TAS				Dec-23	</P><P>	Wicker Point		N Amer		USA		AL		Sep-23	</P><P>	Brambles		N Amer		USA		CA				Jun-23	</P><P>	Ladera		N Amer		USA		CA		Open</P><P>	MacArthur-West		N Amer		USA		FL				Sep-23	</P><P>	White Oak		N Amer		USA		FL		Open</P><P>	Cabot Citrus Farms		N Amer		USA		FL				Dec-23	</P><P>	Park West Palm Beach		N Amer		USA		FL	May-23	</P><P>	Pinehurst #10		N Amer		USA		NC				May-24	</P><P>	Lost Rail		N Amer		USA		NE		Open			</P><P>	Landmand		N Amer		USA		NE		Open		</P><P>	Tree Farm		N Amer		USA		SC		Open			</P><P>	Old Barnwell		N Amer		USA		SC				Oct-23	</P><P>	Palmetto Bluff		N Amer		USA		SC					</P<P>	Golf Club of Tennessee		N Amer		USA		TN				Oct-23	</P><P>	Fields-West		N Amer		USA		TX				Jun-23	</P><P>	Fields-East		N Amer		USA		TX				Jun-23	</P><P>	Red Feather		N Amer		USA		TX				Oct-23	</P><P>	Lido		N Amer		USA		WI		Open			</P><P>	Sedge Valley		N Amer		USA		WI				May-24	</P><P>	Cabot St Lucia		N Amer		St Lucia						Dec-23	</P><P>	Terras da Comporta Dunas		Europe		Portugal		Lisbon				May-23	</P><P>	Costa Terra		Europe		Portugal		Lisbon				May-24	</P><P>	Ballyshear		Asia		Thailand		Bangkok		Open			</P><P>	Stone Hill		Asia		Thailand		Bangkok		Open			</P><P>	La Reserve		Africa		Mauritius				Open			</P>"		
             }
         },{
             "text": {
-                "headline": "James Whitacre (President)",
-                "text": "<p>James Whitacre is the GIS Research Scientist for Carnegie Museum of Natural History, where he primarily manages the GIS Lab at Powdermill Nature Reserve, the Museum’s environmental research center. For over a decade, the GIS Lab at Powdermill has produced numerous geospatial projects on the Nature Reserve and throughout the region in forest ecology, stream ecology, and avian research, among other topics. The GIS Lab also maintains numerous geospatial datasets that can be used for geospatial research and analysis. Additionally, Whitacre supports museum staff and affiliated researchers with geospatial technologies and needs.</p><p>This is Whitacre’s second appointment at the Museum as he was formerly the GIS Manager from 2011 to 2014. During that time, he was instrumental in developing the Pennsylvania Unconventional Natural Gas Wells dataset, which has been used in numerous research projects and publications. Whitacre’s professional interests include sUAS, photogrammetry, and Lidar applications for forest ecology; Python development and education in GIS; and the nexus of GIS and citizen science.</p><p>Before returning to the Museum in 2018, Whitacre was the GIS Specialist for the Main Library at the University of Illinois at Urbana-Champaign, where he provided GIS consultations for researchers and scholars, taught GIS workshops, managed the Library’s geospatial data, and served as a central resource for the University’s GIS community to promote the use of GIS in research. While in Illinois, Whitacre served as the Co-Chair of the University of Illinois GIS Day Planning Committee from 2014 to 2017. He was also an active member in the Illinois GIS Association (ILGISA) and served on the Education Committee in 2016. Whitacre holds a Bachelor of Arts in Zoology from Ohio Wesleyan University, and a Master of Science in Geography, concentrating on GIS and cartography, from Indiana University of Pennsylvania.</p>"
+                "headline": "Te Arai - South",
+                "text": "<p>Te Arai - South built by Coore Crenshaw.  Open.</p>"
             },
             "location": {
-                "lat": 40.160,
-                "lon": -79.272,
+                "lat": -36.1967176,
+                "lon": 174.616897,
                 "zoom": 11
             },
             "media": {
-                "url": "//maps.pamagic.org/meet-the-board/assets/images/2017_Whitacre_James.png"
+                "url": "https://tearai.com/golf/south-course/"
             }
         },{
             "text": {
-                "headline": "Patrick McKinney (Webmaster)",
-                "text": "<p>Patrick is a GIS Analyst for Cumberland County.  His responsibilities include maintaining enterprise datasets, providing technical assistance to county staff and municipal partners, and developing web and desktop mapping applications.  He is active presenting at professional conferences.  Working with Harrisburg University, Patrick founded the annual GeoDev Summit, a one-day event geared toward GIS developers.</p><p>Prior to working with Cumberland County, Patrick was a Planner with Lancaster County.  He has also worked with Indiana County’s Planning and Parks & Trails offices.  He is also a skilled musician, with a focus on bass and guitar.  He blogs regularly with his wife at <a href='https://mckinneypartyof5.life/' rel='noopener' target='_blank'>https://mckinneypartyof5.life/</a>.  If you’re ever in downtown Carlisle over the lunch hour, you may find Patrick running around town.</p>"
+                "headline": "Matt Mercurio (Vice President)",
+                "text": "<p>7 Mile Beach built by Clayton DeVries Pont expected Dec. 2023</p>"
             },
             "location": {
-                "lat": 40.201557,
-                "lon": -77.189026,
+                "lat": -42.848042,
+                "lon": 147.479254,
                 "zoom": 11
             },
             "media": {
-                "url": "//maps.pamagic.org/meet-the-board/assets/images/patrick-mckinney.jpg"
+                "url": "https://7milegolf.com.au/updates/"
             }
         }]
     }

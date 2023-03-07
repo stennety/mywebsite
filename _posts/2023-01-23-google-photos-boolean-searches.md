@@ -1,6 +1,7 @@
 ---
 published: true
 title: Pro Tip - Boolean Searches in the Google Photos Web UI
+excerpt: Google Photos's web UI isn't always great for people searches, but there are hidden parameters you can pass to make it behave more like it does on mobile.
 ---
 
 I'm an Apple fanboy, but Google Photos is my primary service for organizing photos. I love that it

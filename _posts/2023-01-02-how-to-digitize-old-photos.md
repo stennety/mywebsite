@@ -1,6 +1,7 @@
 ---
 published: true
 title: How to digitize old family photos with the Epson FastFoto
+excerpt: The Epson FastFoto is a blazing-fast scanner for digitizing your family's memories. Here's why I recommend it.
 ---
 
 # The Problem

@@ -1,6 +1,7 @@
 ---
 published: true
-title: 'How I''m doing backups in 2023 '
+title: 'How I''m doing backups in 2023'
+excerpt: I decided to create a more robust data backup strategy for my family in early 2023. Here's what I put into place.
 ---
 ![]({{site.cdn_path}}/2023/03/01/backups.png)
 

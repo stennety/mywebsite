@@ -1,6 +1,7 @@
 ---
 published: true
 title: How to quickly convert HEIC to JPEG in macOS
+excerpt: Use macOS's quick right-click action to convert HEIC to JPEG.
 ---
 
 HEIC has been the default format for iOS photos since 2011.

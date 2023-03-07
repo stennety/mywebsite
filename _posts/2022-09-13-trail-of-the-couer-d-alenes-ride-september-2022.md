@@ -1,6 +1,7 @@
 ---
 published: true
 title: 'Ride Report: Trail of the Couer d''Alenes, September 2022'
+excerpt: In September 2022, my dad and I did rode the length of the Trail of the Couer d'Alenes, in Idaho. 
 ---
 My dad and I spent September 10 cycling
 the [Trail of the Couer d'Alenes](https://parksandrecreation.idaho.gov/parks/trail-coeur-d-alenes/).

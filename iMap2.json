@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Cabot St. Lucia</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Cabot St. Lucia</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -31,6 +31,19 @@
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=FT1An-ycess"
+				}
+			},{
+				"text": {
+					"headline": "La Réserve Golf Links",
+					"text": "<p>La Réserve Golf Links built in Bel Ombre, Mauritius by Peter Matkovich with co-design credit to Louis Oosthuizen opened September 2022.  La Reserve will be the new host venue for the DP World Tour’s AfrAsia Bank Mauritius Open.</p>"
+				},
+				"location": {
+					"lat": -20.10175,
+					"lon": 57.701072,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://heritagegolfclub.mu/golf/la-reserve-golf-links/"
 				}
 			},{
 				"text": {

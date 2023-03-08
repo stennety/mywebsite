@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -18,6 +18,19 @@
 				},
 				"media": {
 					"url": "https://tearai.com/golf/south-course/"
+				}
+			},{
+				"text": {
+					"headline": "Te Arai - North",
+					"text": "<p>Te Arai - North built by Doak with construction assistance by Angela Moser in New Zealand expected in November 2023.</p>"
+				},
+				"location": {
+					"lat": -36.1967176,
+					"lon": 174.616897,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://tearai.com/golf/north-course/"
 				}
 			},{
 				"text": {

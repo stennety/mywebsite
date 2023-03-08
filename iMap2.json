@@ -125,7 +125,7 @@
 				}
 			},{
 				"text": {
-					"headline": "Sand Valley Lido",
+					"headline": "Sand Valley - Lido",
 					"text": "<p>Sand Valley Lido built by Doak Schneider Slawnik in Wisconsin, USA open summer 2023</p>"
 				},
 				"location": {
@@ -156,7 +156,7 @@
 				},
 				"location": {
 					"lat": 32.7947244,
-					"lon": ,-85.992651,
+					"lon": -85.992651,
 					"zoom": 8
 				},
 				"media": {

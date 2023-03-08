@@ -99,6 +99,19 @@
 				}
 			},{
 				"text": {
+					"headline": "El Desafío",
+					"text": "<p>El Desafío in San Martin de los Andes, Argentina was built by Greg Norman with assistance from Matthew Dusenberry completing 9 holes in 2011.  The Patagonia course is one of the few Western properties planted in fescue grass and was featured in <a href="https://www.nytimes.com/2020/09/11/realestate/golf-argentina-patagonia.html">The New York Times</a>.  The back nine is currently under construction now with an anticipated opening in late 2024.</p>"
+				},
+				"location": {
+					"lat": -40.1258034,
+					"lon": -71.1854148,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=O3IEXVlPJkQ"
+				}
+			},{
+				"text": {
 					"headline": "McArthur West",
 					"text": "<p>McArthur West built by Coore Crenshaw in Florida, USA expected in December 2023</p>"
 				},

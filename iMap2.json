@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Sand Valley - Lido</p><p>Old Barnwell</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -151,13 +151,26 @@
 				}
 			},{
 				"text": {
+					"headline": "Old Barnwell",
+					"text": "<p>Old Barnwell built by Brian Schneider, Blake Conannt and MacCurrach construction in South Carolina, USA estimated opening October 2023</p>"
+				},
+				"location": {
+					"lat": 33.4569422,
+					"lon": -81.5602724,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://oldbarnwell.com/"
+				}
+			},{
+				"text": {
 					"headline": "Tree Farm",
 					"text": "<p>Tree Farm built by Goalby Blair Doak in South Carolina, USA opened in March 2023</p>"
 				},
 				"location": {
 					"lat": 33.539347,
 					"lon": -81.746414,
-					"zoom": 9
+					"zoom": 8
 				},
 				"media": {
 					"url": "https://thefriedegg.com/zac-blair-the-buck-club-hires-tom-doak-kye-goalby-to-design-the-tree-farm/"

@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'How I digitized a bunch of old MiniDV tapes'
-excerpt: Dongles all the way down: A lesson in how quickly a technology can become obsolete.
+excerpt: Dongles all the way down - A lesson in how quickly a technology can become obsolete.
 ---
 Back in 2001, I saved up my paper route money for several months
 and bought a shiny new [Canon ZR30MC camcorder](https://global.canon/en/c-museum/product/dvc675.html). For the next several years,

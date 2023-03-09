@@ -10,4 +10,4 @@ To do this, I use a combination of Photoshop and Lightroom. In Lightroom, I sele
 
 I then use layer masks to blend them in, like so:
 
-{% youtube GTyf4nC8a4w %}
+{% include video id="GTyf4nC8a4w" provider="youtube" %}

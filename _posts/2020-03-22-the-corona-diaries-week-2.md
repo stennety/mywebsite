@@ -6,7 +6,7 @@ Week 2 under quarantine in Portland has been really good, overall.
 
 I ran into this group of people the other day who had rigged up their Jeep into a mobile karaoke station:
 
-{% youtube M51nJaHESFE %}
+{% include video id="M51nJaHESFE" provider="youtube" %}
 
 During regular life, my coworkers and I do a game night on Thursdays. This past Thursday, we experimented with a remote game night over Zoom. Initially, I couldn't hear them because the game volume was too high, but I solved it with this macOS app called [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic), which lets you control the volume for individual apps. After getting that sorted out, it worked great. We played several rounds of QuipLash. My run club friends and I are going to try out some other remote games on Tues.
 

@@ -58,7 +58,7 @@ We were pretty beat as we approached Lake Viviane, and decided to just set up ca
 
 It was a cold night, probably in the mid-teens. I found myself shivering at several points even in a 20-degree mummy bag in full layers on top of my R-value 5 sleeping pad. I emerged from my tent to find it covered in ice. Michael’s jacket was literally frozen solid. 
 
-{% youtube SRqUsb6TL4k %}
+{% include video id="SRqUsb6TL4k" provider="youtube" %}
 
 But alas, there was sun, glorious sun! We hung out at camp until around 10 am to dry some of our wet gear off. 
 

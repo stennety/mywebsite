@@ -7,8 +7,7 @@ I set up an [AWS IoT button](https://www.amazon.com/All-New-AWS-IoT-Button-Gener
 to trigger a Lambda which toggles the play/pause state on my Sonos speakers.
 
 Demo:
-{% youtube xUQ8kxjlXlA %}
-
+{% include video id="xUQ8kxjlXlA" provider="youtube" %}
 
 Here's how this works:
 

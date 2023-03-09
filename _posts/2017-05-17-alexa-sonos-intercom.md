@@ -7,7 +7,7 @@ This is a recent weekend project I built.
 I had a Sonos system, and thought I'd turn it into an intercom using Alexa as the input. 
 Here's a demo:
 
-{% youtube 476RDRVSzSI %}
+{% include video id="476RDRVSzSI" provider="youtube" %}
 
 Here's how I put this together:
 

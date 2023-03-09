@@ -5,7 +5,7 @@ title: Useful git aliases
 ---
 After watching this talk from the 2017 Git Merge conference, I got inspired to start integrating more git aliases into my workflow. 
 
-{% youtube 3IIaOj1Lhb0 %}
+{% include video id="3IIaOj1Lhb0" provider="youtube" %}
 
 Here are a few handy ones I've been using.
 

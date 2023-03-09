@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Lost Rail</p><p>Landmand</p><p>Sand Valley - Lido</p><p>Old Barnwell</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>Cabot St. Lucia</p><p>Barbuda Ocean Club</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>PGA Frisco - Fields Ranch East</p><p>McArthur West</p><p>Lost Rail</p><p>Landmand</p><p>Sand Valley - Lido</p><p>Pinehurst #10</p><p>Old Barnwell</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -47,42 +47,29 @@
 				}
 			},{
 				"text": {
-					"headline": "PGA Frisco - Fields Ranch East",
-					"text": "<p>PGA Frisco - Fields Ranch East is built by Gil Hanse in Frisco, Texas and opening spring 2023.  Adjacent golf course PGA Frisco - Fields Ranch West is built by Beau Welling.</p>"
-				},
-				"location": {
-					"lat": 33.2124296,
-					"lon": -96.8572536,
-					"zoom": 8
-				},
-				"media": {
-					"url": "https://www.youtube.com/watch?v=FXtltDZo3kg"
-				}
-			},{
-				"text": {
 					"headline": "Cabot St. Lucia",
 					"text": "<p>Cabot St. Lucia built by Coore Crenshaw in St. Lucia expected in November 2023</p>"
 				},
 				"location": {
 					"lat": 14.074383,
 					"lon": -60.935679,
-					"zoom": 7
+					"zoom": 5
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=FT1An-ycess"
 				}
 			},{
 				"text": {
-					"headline": "Pinehurst #10",
-					"text": "<p>Pinehurst Resort's 10th course routed by Tom Doak, built by Angela Moser is expected to open in spring 2024.  Rich LaBar leads site construction under firm LaBar Golf Renovations.</p>"
+					"headline": "Barbuda Ocean Club",
+					"text": "<p>Barbuda Ocean Club built by Tom Fazio under Discovery Land opened 2022.</p>"
 				},
 				"location": {
-					"lat": 35.1467958,
-					"lon": -79.4512055,
-					"zoom": 9
+					"lat": 17.549588,
+					"lon": -61.765555,
+					"zoom": 5
 				},
 				"media": {
-					"url": "https://www.youtube.com/watch?v=R-P7peWhNwM"
+					"url": "https://vimeo.com/716161120"
 				}
 			},{
 				"text": {
@@ -92,7 +79,7 @@
 				"location": {
 					"lat": -20.10175,
 					"lon": 57.701072,
-					"zoom": 7
+					"zoom": 5
 				},
 				"media": {
 					"url": "https://heritagegolfclub.mu/golf/la-reserve-golf-links/"
@@ -105,7 +92,7 @@
 				"location": {
 					"lat": -42.848042,
 					"lon": 147.479254,
-					"zoom": 10
+					"zoom": 8
 				},
 				"media": {
 					"url": "https://7milegolf.com.au/2023/01/10/progress-report-09-01-23/"
@@ -118,7 +105,7 @@
 				"location": {
 					"lat": -40.1258034,
 					"lon": -71.1854148,
-					"zoom": 6
+					"zoom": 5
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=O3IEXVlPJkQ"
@@ -135,6 +122,19 @@
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=vkOCIOJV__s"
+				}
+			},{
+				"text": {
+					"headline": "PGA Frisco - Fields Ranch East",
+					"text": "<p>PGA Frisco - Fields Ranch East is built by Gil Hanse in Frisco, Texas and opening spring 2023.  Adjacent golf course PGA Frisco - Fields Ranch West is built by Beau Welling.</p>"
+				},
+				"location": {
+					"lat": 33.2124296,
+					"lon": -96.8572536,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=FXtltDZo3kg"
 				}
 			},{
 				"text": {
@@ -177,13 +177,26 @@
 				}
 			},{
 				"text": {
+					"headline": "Pinehurst #10",
+					"text": "<p>Pinehurst Resort's 10th course routed by Tom Doak, built by Angela Moser is expected to open in spring 2024.  Rich LaBar leads site construction under firm LaBar Golf Renovations.</p>"
+				},
+				"location": {
+					"lat": 35.1467958,
+					"lon": -79.4512055,
+					"zoom": 6
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=R-P7peWhNwM"
+				}
+			},{
+				"text": {
 					"headline": "Old Barnwell",
 					"text": "<p>Old Barnwell built by Brian Schneider, Blake Conannt and MacCurrach construction in South Carolina, USA estimated opening October 2023</p>"
 				},
 				"location": {
 					"lat": 33.4569422,
 					"lon": -81.5602724,
-					"zoom": 7
+					"zoom": 6
 				},
 				"media": {
 					"url": "https://oldbarnwell.com/"

@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Digitizing a bunch of old MiniDV tapes'
+title: 'How I digitized a bunch of old MiniDV tapes'
 excerpt: Dongles all the way down: A lesson in how quickly a technology can become obsolete.
 ---
 Back in 2001, I saved up my paper route money for several months

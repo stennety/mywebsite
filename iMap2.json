@@ -4,7 +4,7 @@
 				"type": "overview",
 				"text": {
 					"headline": "Candidates",
-					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Lost Rail</p><p>Sand Valley - Lido</p><p>Old Barnwell</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
+					"text": "<p>Te Arai - South</p><p>Te Arai - North</p><p>Cabot Citrus Farms - Barrens</p><p>PGA Frisco - Fields Ranch East</p><p>Cabot St. Lucia</p><p>Pinehurst #10</p><p>La Réserve Golf Links</p><p>7 Mile Beach</p><p>El Desafío</p><p>McArthur West</p><p>Lost Rail</p><p>Landmand</p><p>Sand Valley - Lido</p><p>Old Barnwell</p><p>Tree Farm</p><p>Wicker Point</p><p>Ban Rakat Club - Ballyshear</p><p>Terras da Comporta Dunas</p>"
 				 }
 			},{
 				"text": {
@@ -40,7 +40,7 @@
 				"location": {
 					"lat": 28.6829807,
 					"lon": -82.4815757,
-					"zoom": 9
+					"zoom": 8
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=hRDq0PHq4HE"
@@ -53,7 +53,7 @@
 				"location": {
 					"lat": 33.2124296,
 					"lon": -96.8572536,
-					"zoom": 9
+					"zoom": 8
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=FXtltDZo3kg"
@@ -131,7 +131,7 @@
 				"location": {
 					"lat": 27.094252,
 					"lon": -80.169722,
-					"zoom": 10
+					"zoom": 9
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=vkOCIOJV__s"
@@ -144,10 +144,23 @@
 				"location": {
 					"lat": 41.172158,
 					"lon": -96.282254,
-					"zoom": 7
+					"zoom": 6
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=dHZZXSr74Nc"
+				}
+			},{
+				"text": {
+					"headline": "Landmand",
+					"text": "<p>Landmand built by Rob Collins and Tad King in Nebraska, USA opened in August 2022.  2023 tee times are sold out.  The 17th hole green is a modern interpretation of Alister Mackenzie's lost NLE Sitwell Park green.</p>"
+				},
+				"location": {
+					"lat": 42.3675785,
+					"lon": ,-96.5259281,
+					"zoom": 6
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=8zEc4lsdLms"
 				}
 			},{
 				"text": {
@@ -157,7 +170,7 @@
 				"location": {
 					"lat": 44.171728,
 					"lon": -89.857699,
-					"zoom": 8
+					"zoom": 6
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=hq7Zl82hkFY"
@@ -170,7 +183,7 @@
 				"location": {
 					"lat": 33.4569422,
 					"lon": -81.5602724,
-					"zoom": 8
+					"zoom": 7
 				},
 				"media": {
 					"url": "https://oldbarnwell.com/"
@@ -183,7 +196,7 @@
 				"location": {
 					"lat": 33.539347,
 					"lon": -81.746414,
-					"zoom": 8
+					"zoom": 7
 				},
 				"media": {
 					"url": "https://thefriedegg.com/zac-blair-the-buck-club-hires-tom-doak-kye-goalby-to-design-the-tree-farm/"
@@ -196,7 +209,7 @@
 				"location": {
 					"lat": 32.7947244,
 					"lon": -85.992651,
-					"zoom": 8
+					"zoom": 7
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=I_6HTfBFq9Q"
@@ -209,7 +222,7 @@
 				"location": {
 					"lat": 13.609653,
 					"lon": 100.882831,
-					"zoom": 7
+					"zoom": 6
 				},
 				"media": {
 					"url": "https://www.youtube.com/watch?v=xR9IHesKJ5I"
@@ -222,7 +235,7 @@
 				"location": {
 					"lat": 38.324931,
 					"lon": -8.785595,
-					"zoom": 9
+					"zoom": 7
 				},
 				"media": {
 					"url": "https://www.comporta.com/en/eco-friendly-real-estate-comporta-portugal/golf/"
@@ -231,4 +244,3 @@
 		]
     }
 }
-

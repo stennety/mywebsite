@@ -58,7 +58,6 @@
                 <th>Country</th>
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
-                <th>Date</th>
                 <th>Architect</th>
                 <th>Construction</th>
                 <th>Build</th>
@@ -66,6 +65,10 @@
                 <th>Twitter</th>
                 <th>Budget</th>
                 <th>History</th>
+                <th>Curated</th> 
+                <th>Comments</th>
+                <th>Instagram</th>
+                <th>Past 100</th>
               </tr>
           </thead>
           <tbody>
@@ -77,16 +80,20 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td> 
                     <td>{{ item.Construction }}</td>
-                    <td>{{ item.TypeOfJob }}</td> 
+                    <td>{{ item.TypeOfJob }}</td>
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}     
                     <td>{{ item.Budget }}</td> 
                     <td>{{ item.History }}</td> 
+                    <td>{{ item.DataCurated }} </td> 
+                    <td>{{ item.Comments }} </td>
+		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
+                    {% else %} <td></td> {% endif %}
+                    <td>{{ item.i100 }}</td> 
                   </tr>
               {% endfor %}
             </tbody>

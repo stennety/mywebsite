@@ -15,7 +15,7 @@ This is Cloudy Pass. In my totally-not-biased-or-limited opinion, it's one of th
 
 Hart Lake is about 4.5 miles from Holden. During the summer I worked at the village, I did a trail run here every other day and the view never got old. It was spectacular to see it from the air.
 
-{% youtube axFG1_F1dJ4 %}
+{% include video id="axFG1_F1dJ4" provider="youtube" %}
 
 ## Holden Lake
 

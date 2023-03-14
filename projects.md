@@ -59,7 +59,7 @@ I wired up an AWS IoT button to a Lambda function that plays/pauses Sonos speake
 This required a Raspberry Pi running on my local network to control the speakers.
 To deploy the app and add a public URL, I used Resin.io.
 
-{% youtube xUQ8kxjlXlA %}
+{% include video id="xUQ8kxjlXlA" provider="youtube" %}
 
 > Tech Used: AWS Lambda, Docker, NodeJS, Resin.io, Raspberry Pi.
 
@@ -106,7 +106,7 @@ I built a Raspberry Pi-powered Kubernetes cluster based on HypriotOS.
 
 I used the Twilio API and Heroku to build an automated phone number that would play
 monkey sounds and then send the DTMF code to let guests in to my building:
-{% youtube AVWJAWrHDKI %}
+{% include video id="AVWJAWrHDKI" provider="youtube" %}
 
 ## 2014
 

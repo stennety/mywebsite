@@ -59,3 +59,34 @@ And this worked for me! Both video and audio are now capturing ✅️. The one d
 neither of them has a GUI, so they require some terminal commands. If you're comfortable with that, though,
 the capture process was pretty straightforward.
 
+For posterity, the commands to set up those tools are:
+
+```shell
+brew tap amiaopensource/amiaos
+brew tap mediaarea/homebrew-mediaarea
+brew install ffmpegdecklink dvrescue mediainfo
+brew link --force ffmpegdecklink
+```
+
+To use them, list the input devices with:
+
+```shell
+ffmpeg -f avfoundation -list_devices true -i ""
+```
+
+In my case, I found that the camera was called `FV20`.
+
+Then, capture the raw DV footage with:
+
+```shell
+ffmpeg-dl -f avfoundation -capture_raw_data true -i "FV20" -c copy -map 0 -f rawvideo video.dv
+```
+
+I've found that an hour of raw DV footage uses up 12-14GB. I'm thinking that I probably won't re-encode it, as storage
+is cheap. I've got on the order of about 100 tapes to capture, so at worst, that's 1TB. 
+
+To split the raw footage into clips, use:
+
+```shell
+dvpackager -e mov -s video.dv
+```

@@ -28,6 +28,34 @@ In subsequent years, before the whole [Firewall interface was scrapped](https://
 Firewire 800 was introduced as the successor to 400. Luckily,
 it's backwards-compatible with 400. So I'd need to convert from Firewire 400 to 800 to Thunderbolt 2.
 
-I was able to find all the cables and converters I needed from [B&H](https://www.bhphotovideo.com/). 
+So, essentially, I needed:
+* Firewire 400 4-pin to 6-pin cable
+* Firewire 400 to 800 adapter
+* Firewire 800 to Thunderbolt 2 adapter
 
-They arrive next week and I'll update this post with results. 
+I was able to find all the cables and converters I needed from [B&H](https://www.bhphotovideo.com/).
+
+![]({{site.cdn_path}}/2023/03/08/donglesForDays.jpg)
+
+# The software
+
+This is where things got a little hairy. I was able to get the camera connected to the computer fine, and even
+see a video feed via Quicktime. Quicktime kept pausing recording if there were any gaps on the tape. I tried
+capturing via Premiere and, while it could control the camera, there was no video output or a way to record it.
+I subsequently discovered that Premiere [just doesn't support MiniDV at all anymore](https://helpx.adobe.com/x-productkb/multi/video-applications-macos-catalina-compatibility.html#:~:text=no%20longer%20support,over%20FireWire), 
+as of January 2022.
+
+I was able to get iMovie to capture video, but there was no audio.
+
+🤦🏼‍♂️️
+
+Then I stumbled across [this post](https://leolabs.org/blog/capture-minidv-on-macos) by Léo Bernard, who solved a similar
+problem using a set of open-source tools. In particular:
+
+* [ffmpeg-decklink](https://github.com/amiaopensource/homebrew-amiaos/blob/master/ffmpegdecklink.rb) for video capture.
+* [DV Packager](https://git.io/JqT1O) for splitting the video into clips post-capture.
+
+And this worked for me! Both video and audio are now capturing ✅️. The one downside to these tools is that 
+neither of them has a GUI, so they require some terminal commands. If you're comfortable with that, though,
+the capture process was pretty straightforward.
+

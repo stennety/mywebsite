@@ -26,9 +26,9 @@ that to my 2015 iMac, which takes either USB or Thunderbolt 2 as input.
 
 In subsequent years, before the whole [Firewall interface was scrapped](https://arstechnica.com/gadgets/2017/06/the-rise-and-fall-of-firewire-the-standard-everyone-couldnt-quite-agree-on/#:~:text=The%20decision%2Dmakers%20in%20the,be%20first%20to%20push%20it.), 
 Firewire 800 was introduced as the successor to 400. Luckily,
-it's backwards-compatible with 400. So I'd need to convert from Firewire 400 to 800 to Thunderbolt 2.
+it's backwards-compatible with 400. So I realized I'd need to convert from Firewire 400 to 800 to Thunderbolt 2.
 
-So, essentially, I needed:
+The cables and adapters I went with:
 * Firewire 400 4-pin to 6-pin cable
 * Firewire 400 to 800 adapter
 * Firewire 800 to Thunderbolt 2 adapter
@@ -36,6 +36,14 @@ So, essentially, I needed:
 I was able to find all the cables and converters I needed from [B&H](https://www.bhphotovideo.com/).
 
 ![]({{site.cdn_path}}/2023/03/08/donglesForDays.jpg)
+
+As the process progressed, I realized that the tape heads would get dirty after digitizing 10-20 tapes, resulting in 
+video artifacts and the hardware making squeaking noises as it played back tapes. I was grateful to find that I still have 
+a DV head cleaner. I definitely recommend having one handy. I see a few of them available on eBay for $10-$30. 
+
+It's easy to clean the heads; just pop it in like any other tape and press play for 10 seconds. 
+
+![]({{site.cdn_path}}/2023/03/08/dv_head_cleaner.jpeg)
 
 # The software
 
@@ -89,4 +97,15 @@ To split the raw footage into clips, use:
 
 ```shell
 dvpackager -e mov -s video.dv
+```
+
+I also found Léo Bernard's script for prepending dates to the filenames really useful:
+
+```shell
+for f in *.mov
+do
+  DATE=$(mediainfo --Output="General;%Recorded_Date%" "$f" | cut -c1-19)
+  SAFE_DATE=$(echo "$DATE" | sed -e 's/://g' -e 's/ /_/g')
+  mv "$f" "$SAFE_DATE"_"$f"
+done
 ```

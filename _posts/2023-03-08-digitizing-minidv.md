@@ -50,8 +50,8 @@ It's easy to clean the heads; just pop it in like any other tape and press play 
 # The software
 
 This is where things got a little hairy. I was able to get the camera connected to the computer fine, and even
-see a video feed via Quicktime. Quicktime kept pausing recording if there were any gaps on the tape. I tried
-capturing via Premiere and, while it could control the camera, there was no video output or a way to record it.
+could see a video feed via Quicktime. Unfortunately, Quicktime kept pausing recording if there were any gaps on the tape. 
+I tried capturing via Premiere and, while it could control the camera, there was no video output or a way to record it.
 I subsequently discovered that Premiere [just doesn't support MiniDV at all anymore](https://helpx.adobe.com/x-productkb/multi/video-applications-macos-catalina-compatibility.html#:~:text=no%20longer%20support,over%20FireWire), 
 as of January 2022.
 
@@ -92,8 +92,12 @@ Then, capture the raw DV footage with:
 ffmpeg-dl -f avfoundation -capture_raw_data true -i "FV20" -c copy -map 0 -f rawvideo video.dv
 ```
 
-I've found that an hour of raw DV footage uses up 12-14GB. I'm thinking that I probably won't re-encode it, as storage
-is cheap. I've got on the order of about 100 tapes to capture, so at worst, that's 1TB. 
+I've found that an hour of raw DV footage uses up 12-14GB. I'm thinking that I probably won't re-encode it for storage, 
+as I've got plenty of room on my NAS. I've got on the order of about 100 tapes to capture, so at worst, that's 1TB. 
+
+There also might be a valid use case for having it raw down the road. I've heard of some AI video processors that 
+can [upscale footage to 1080p](https://www.theverge.com/2019/4/18/18311287/ai-upscaling-algorithms-video-games-mods-modding-esrgan-gigapixel), for example.
+So I'm intentionally erring on the side of storing more data.
 
 To split the raw footage into clips, use:
 
@@ -111,3 +115,17 @@ do
   mv "$f" "$SAFE_DATE"_"$f"
 done
 ```
+
+# Encoding and exporting
+
+Some of the raw DV clips, even after being split up, ended up being on the order of 5-10 GB. I mentioned earlier
+that I didn't mind storing them on disk like this, but uploading many files of that size to Google Photos would
+take a long time and burn quota there. For smaller files, I didn't bother, but for larger ones, I decided to encode them.
+
+I've been a [Handbrake](https://handbrake.fr/) user for many years and decided to use that. 
+Under the hood, it runs ffmpeg, but having the GUI is nice, and you can queue things up for batch processing.
+
+I used its 480p30 fast encoder for my footage. This compressed a 2GB file down to 246MB without a visible loss in quality.
+Make sure you pass through the metadata, so your footage is dated correctly upon upload.
+
+![]({{site.cdn_path}}/2023/03/08/handbrake480p30.png)

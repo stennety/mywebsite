@@ -125,7 +125,24 @@ take a long time and burn quota there. For smaller files, I didn't bother, but f
 I've been a [Handbrake](https://handbrake.fr/) user for many years and decided to use that. 
 Under the hood, it runs ffmpeg, but having the GUI is nice, and you can queue things up for batch processing.
 
-I used its 480p30 fast encoder for my footage. This compressed a 2GB file down to 246MB without a visible loss in quality.
-Make sure you pass through the metadata, so your footage is dated correctly upon upload.
+I used its 480p30 fast encoder for my footage. 
+This compressed a 2GB file down to 246MB without a visible loss in quality.
 
 ![]({{site.cdn_path}}/2023/03/08/handbrake480p30.png)
+
+Here's what I'm using for video settings. Peak framerate doesn't really matter; it allows you to have
+an input video source with a mix of different framerates, but mine is 30FPS. I have that set because it's the default
+and maximizes compatibility.
+
+RF is short for "Constant Rate Factor," and is essentially a measure of video quality.
+Handbrake recommends an [RF of 18-22 for 480p video](https://handbrake.fr/docs/en/latest/workflow/adjust-quality.html#:~:text=Recommended%20quality%20settings&text=RF%2019%2D23%20for%20720p%20High%20Definition&text=RF%2020%2D24%20for%201080p%20Full%20High%20Definition&text=RF%2022%2D28%20for%202160p%204K%20Ultra%20High%20Definition),
+so I set mine to 22.
+
+![]({{site.cdn_path}}/2023/03/08/handbrake_video_settings.png)
+
+_Update, 3/17/23_: I noticed that my Handbrake output files didn't have the correct metadata.
+I looked into it and that checkbox is misleading; Handbrake doesn't support passing through video recording 
+date and there's an [open ticket](https://github.com/HandBrake/HandBrake/issues/3588) to handle this.
+
+I'm not an expert in video metadata, but, in any case, Google Photos isn't correctly sorting my Handbrake-encoded 
+files. I'm going to look into how viable this is with just ffmpeg directly.

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The **Gaming Wiki Network** (GWN) was founded on October 15, 2020 by Results May Vary (RMV), who has since been expelled, is a network of independently-hosted wikis about video game franchises. Originally with six wikis and three affiliates, the Gaming Wiki Network aims to support all gaming communities in building independently-hosted wikis. The GWN currently has [{{site.data.members.size}} members]({{site.baseurl}}/members) and [{{site.data.affiliates.size}} affiliates]({{site.baseurl}}/affiliates).
+The **Gaming Wiki Network** (GWN) was founded on October 15, 2020 by Results May Vary and has since been expelled. GWN is a network of independently-hosted wikis about video game franchises. Originally with six wikis and three affiliates, the Gaming Wiki Network aims to support all gaming communities in building independently-hosted wikis. The GWN currently has [{{site.data.members.size}} members]({{site.baseurl}}/members) and [{{site.data.affiliates.size}} affiliates]({{site.baseurl}}/affiliates).
 
 As of March 11, 2022, GWN has been led by new leadership comprised of various representative staff members from the member wikis of the GWN.
 

@@ -59,5 +59,5 @@ Next, I'll add date expressions to default those variables.
 
 Et voila. When I expand that text, those are automatically filled in.
 
-![]({{site.cdn_path}}/2023/03/23/live_template_variables.png)
+![]({{site.cdn_path}}/2023/03/23/live_template_in_action.png)
 

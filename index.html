@@ -54,10 +54,10 @@
           <thead>
               <tr> 
                 <th>Region</th>
-                <th>Country</th>
+                <th>Country</th> 
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
-                <th>Date</th>
+                <th>Date</th> 
                 <th>Architect</th>
                 <th>Construction</th>
                 <th>Build</th>
@@ -90,8 +90,8 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}     
-                    <td>{{ item.Budget }}</td> 
-                    <td>{{ item.History }}</td> 
+                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.History }}</td>
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td>
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>

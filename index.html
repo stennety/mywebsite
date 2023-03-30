@@ -59,8 +59,8 @@
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th> 
                 <th>Architect</th>
-                <th>Construction</th>
-                <th>Build</th> 
+                <th>Construction</th> 
+                <th>Build</th>
                 <th>Status</th> 
                 <th>YouTube</th>
                 <th>Twitter</th> 
@@ -68,14 +68,14 @@
                 <th>History</th> 
                 <th>Curated</th> 
                 <th>Comments</th>
-                <th>Instagram</th>
+                <th>Instagram</th> 
                 <th>Past 100</th>
               </tr>
           </thead>
           <tbody>
               {% for item in site.data.allGolf %}
                   <tr>
-                    <td>{{ item.Region }}</td>
+                    <td>{{ item.Region }}</td> 
                     <td>{{ item.Country }}</td>
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}

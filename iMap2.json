@@ -60,6 +60,19 @@
 				}
 			},{
 				"text": {
+					"headline": "Terras da Comporta Dunas",
+					"text": "<p>Terras da Comporta Dunas built by David Kidd in Portugal opens in May 2023</p>"
+				},
+				"location": {
+					"lat": 38.324931,
+					"lon": -8.785595,
+					"zoom": 7
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=yFKLopBaevc"
+				}
+			},{
+				"text": {
 					"headline": "Barbuda Ocean Club",
 					"text": "<p>Barbuda Ocean Club built by Tom Fazio under Discovery Land opened 2023</p>"
 				},
@@ -240,20 +253,7 @@
 				"media": {
 					"url": "https://www.youtube.com/watch?v=xR9IHesKJ5I"
 				}
-			},{
-				"text": {
-					"headline": "Terras da Comporta Dunas",
-					"text": "<p>Terras da Comporta Dunas built by David Kidd in Portugal opens in May 2023</p>"
-				},
-				"location": {
-					"lat": 38.324931,
-					"lon": -8.785595,
-					"zoom": 7
-				},
-				"media": {
-					"url": "https://www.youtube.com/watch?v=yFKLopBaevc"
-				}
-			}			
+			}		
 		]
     }
 }

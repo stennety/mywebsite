@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The **Gaming Wiki Network** (GWN) was founded on October 21, 2022 by [{{site.data.members.size}} members]({{site.baseurl}}/members) and [{{site.data.affiliates.size}} affiliates]({{site.baseurl}}/affiliates). GWN is a network of independently-hosted wikis about video game franchises and aims to support all gaming communities in building independently-hosted wikis.
+The **Gaming Wiki Network** (GWN) was founded on October 21, 2022 by 11 members and 3 affiliates. GWN is a network of independently-hosted wikis about video game franchises and aims to support all gaming communities in building independently-hosted wikis. The GWN has [{{site.data.members.size}} members]({{site.baseurl}}/members) and [{{site.data.affiliates.size}} affiliates]({{site.baseurl}}/affiliates)
 
 ### Join us
 

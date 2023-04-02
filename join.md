@@ -5,7 +5,7 @@ permalink: /join/
 ---
 
 
-The GWN is always looking for new wikis to join it either as [members]({{site.baseurl}}/members) or [affiliates]({{site.baseurl}}/affiliates). If you'd like to join, please inquire in our [Discord server](https://discord.com/invite/pCfH7uk9jh) or on the [JiggyWikki talk page here](https://banjokazooiewiki.com/wiki/Jiggywikki_talk:Gaming_Wiki_Network).
+The GWN is always looking for new wikis to join it either as [members]({{site.baseurl}}/members) or [affiliates]({{site.baseurl}}/affiliates). If you'd like to join, please inquire in our [Discord server](https://discord.com/invite/pCfH7uk9jh).
 
 ### Who can apply?
 - Our members need to be independently-hosted wikis about video games.

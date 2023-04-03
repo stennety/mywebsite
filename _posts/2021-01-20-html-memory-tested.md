@@ -36,6 +36,7 @@ This was my favourite response (and good approach):
 + [‘Lost in Translation’ talk](https://youtu.be/Wno1IhEBTxc?t=570) (@ 9m30s) by Manuel Matuzović at Beyond Tellerrand, Smashing Conference Freiburg 2022 and Paris Web.
 + A quiz on [The Meaning of Web Accessibility: Accessible HTML & Assistive Technologies w/ Nic Steenhout](https://youtu.be/k8k_6MBtBas?t=2607) on YouTube (~43min, 25sec)
 + [10 HTML Elements You May Have Never Heard Of](https://dev.to/jenndiaz/10-html-elements-you-may-have-never-heard-of-2bhb) by Jennifer Grenier Diaz.
++ [Web Weekly #96](https://www.stefanjudis.com/blog/web-weekly-96/), highlighting the new search tag in a newsletter by Stefan Judis.
 
 ## HTML Tags Recalled
 

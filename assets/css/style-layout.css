@@ -9,6 +9,7 @@ h1,h2 {
 
 h1:before {
     content: "/";
+    font-weight: 700;
     color: var(--col-highlight)
 }
 

@@ -1,7 +1,7 @@
 ---
 published: true
-title: 'How I digitized a bunch of old MiniDV tapes'
-excerpt: Dongles all the way down - A lesson in how quickly a technology can become obsolete.
+title: 'How I digitized hundreds of old MiniDV tapes'
+excerpt: I returned home from a recent trip to my parents' place with a box full of old tapes. Here's how I digitized them.
 ---
 Back in 2001, I saved up my paper route money for several months
 and bought a [Canon ZR30MC camcorder](https://global.canon/en/c-museum/product/dvc675.html). For the next several years,

@@ -1,8 +1,7 @@
 ---
 published: true
 title: 'Working with text in IntelliJ'
-excerpt: Some useful tips for working with text in IntelliJ. Bulk-editing, alphabetizing, text-substitution, text
-expansion, etc.
+excerpt: Some useful tips for working with text in IntelliJ. Bulk-editing, alphabetizing, text-substitution, text expansion, etc.
 ---
 
 The following are some useful approaches I've found to performing bulk changes on text in IntelliJ.

@@ -4,7 +4,7 @@ title: 'How to upscale video with AI'
 excerpt: Upscaling old 480p video to 4k using Topaz Labs Video AI.  
 ---
 
-I've been in the process of [digitizing a bunch of old MiniDV and VHS tapes]({% post_url 2023-03-08-digitizing-minidv.md %}).
+I've been in the process of [digitizing a bunch of old MiniDV and VHS tapes]({% post_url 2023-03-08-digitizing-minidv %}).
 
 Along the way, with AI at maximum hype this year, I've wondered if it were possible to use it to upscale the footage to 4k. 
 

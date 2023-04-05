@@ -62,6 +62,22 @@ function Mentionby(props) {
 }
 
 /**
+ * @function mentiontype - Returns an appropriate message for the mentions type
+ * @param {string} type - Mention type
+ * @returns {string}
+ */
+ function mentiontype(type = "mention-of") {
+    const types = {
+        "mention-of": "Mentioned",
+        "like-of": "Liked",
+        "bookmark-of": "Bookmarked",
+        "in-reply-to": "Replied to",
+        "repost-of": "Reposted"
+    }
+    return `${types[type]} this post`;
+ }
+
+/**
  * @function Mentionslist - Generate mentions
  * @param {object} props
  * @param {object} props.mentions
@@ -89,7 +105,7 @@ function Mentionslist(props) {
     <li>
     	<article tabindex="0">
 	      <p class="${wmproperty}" lang="auto" dir="auto">
-        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${content?.text ? content.text : summary.value}
+        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${ content?.text ?? mentiontype(wmproperty) }
 	      </p>
 	</article>
     </li>

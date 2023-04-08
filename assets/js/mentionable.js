@@ -174,7 +174,7 @@ class Mentionable extends Component {
      * @returns {string}
      */
     mentionlist(types) {
-        let list = Object.entries(types).map(type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
+        let list = Object.entries(types).map(([type, count] = type) => `${count} ${count !== 1 ? type + 's' : type}`);
         try{
           return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list);
         } catch(err) {

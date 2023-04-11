@@ -9,6 +9,7 @@ h1,h2 {
 
 h1:before {
     content: "/";
+    font-weight: 700;
     color: var(--col-highlight)
 }
 
@@ -88,9 +89,7 @@ h1:before {
 }
 
 .wrap-preview {
-    padding: 0;
-    overflow: auto;
-    background-color: transparent;
+    all: revert;
 }
 
 @supports (display:flow-root) {

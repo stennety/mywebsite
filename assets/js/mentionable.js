@@ -34,7 +34,7 @@ function Mentioncount(props) {
  * @returns {string}
  */
 function mentiondate(published, wmreceived) {
-    return new Date(published ? published : wmreceived).toLocaleString();
+    return new Date(published ? published : wmreceived).toLocaleDateString();
 }
 
 /**
@@ -62,6 +62,22 @@ function Mentionby(props) {
 }
 
 /**
+ * @function mentiontype - Returns an appropriate message for the mentions type
+ * @param {string} type - Mention type
+ * @returns {string}
+ */
+ function mentiontype(type = "mention-of") {
+    const types = {
+        "mention-of": "Mentioned",
+        "like-of": "Liked",
+        "bookmark-of": "Bookmarked",
+        "in-reply-to": "Replied to",
+        "repost-of": "Reposted"
+    }
+    return `${types[type]} this post`;
+ }
+
+/**
  * @function Mentionslist - Generate mentions
  * @param {object} props
  * @param {object} props.mentions
@@ -80,9 +96,8 @@ function Mentionslist(props) {
                 name: authorname,
                 url: authorurl
             },
-            content: {
-                text
-            },
+            content,
+	    summary = "",
             'wm-property': wmproperty,
             'wm-received': wmreceived
         } = mention) => {
@@ -90,7 +105,7 @@ function Mentionslist(props) {
     <li>
     	<article tabindex="0">
 	      <p class="${wmproperty}" lang="auto" dir="auto">
-        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${text}
+        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${ content?.text ?? mentiontype(wmproperty) }
 	      </p>
 	</article>
     </li>
@@ -153,14 +168,18 @@ class Mentionable extends Component {
     }
 
     /**
-     * @private
+     * @private - Text summary list of mentions, N type(s)
      * @function mentionlist
      * @param {object} types 
-     * @returns {string | null}
+     * @returns {string}
      */
     mentionlist(types) {
-        let list = Array.from(Object.entries(types), type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
-        return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list) ?? null;
+        let list = Object.entries(types).map(([type, count] = type) => `${count} ${count !== 1 ? type + 's' : type}`);
+        try{
+          return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list);
+        } catch(err) {
+          return list.join(', ');
+        }
     }
 
     async _fetchCount() {

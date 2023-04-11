@@ -1,13 +1,16 @@
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self' https://static.codepen.io; img-src 'self'; child-src https://codepen.io; manifest-src 'self'; connect-src https://webmention.io">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self' https://static.codepen.io; img-src 'self' https://shots.codepen.io; child-src https://codepen.io; manifest-src 'self'; connect-src https://webmention.io">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <title>{{ page.title }} - paulfosterdesign.co.uk</title>
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/style-layout.css" media="only screen and (min-width: 800px)">
 {% if page.tags contains "codepen" %}
-<link rel="preload" href="https://static.codepen.io/assets/embed/ei.js" as="script" importance="low">
+<link rel="preload" href="https://static.codepen.io/assets/embed/ei.js" as="script">
 <link rel="preconnect" href="https://cpwebassets.codepen.io">
 <link rel="preconnect" href="https://shots.codepen.io">
+{% if page.source %}
+<link rel="preload" href="{{ page.source | replace: 'https://codepen.io', 'https://shots.codepen.io' | append: '-800.jpg' }}" as="image">
+{% endif %}
 {% endif %}
 {% feed_meta %}
 <link rel="webmention" href="https://webmention.io/www.paulfosterdesign.co.uk/webmention">
@@ -15,7 +18,7 @@
 <link rel="icon" href="/assets/images/pfd-favicon.svg" sizes="any" type="image/svg+xml">
 <link rel="icon" href="/assets/images/pfd-webclip-196x196.jpg" sizes="196x196">
 <link rel="icon" href="/assets/images/pfd-webclip-128x128.jpg" sizes="128x128">
-<meta name="theme-color" content="#6099af">
+<meta name="theme-color" content="#70b5c5">
 <meta name="theme-color" content="#33778c" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-title" content="Paul Foster">
 <meta name="application-name" content="Paul Foster Portfolio">
@@ -31,6 +34,10 @@
 <meta property="og:url" content="{{ page.url }}">
 <meta property="og:site-name" content="{{ site.url }}">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://www.paulfosterdesign.co.uk/assets/images/pfd-webclip-196x196.jpg">
+<meta property="og:image:width" content="196">
+<meta property="og:image:height" content="196">
+<meta property="og:image:alt" content="PF logo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@plfstr">
 <meta name="twitter:domain" content="{{ site.url }}">

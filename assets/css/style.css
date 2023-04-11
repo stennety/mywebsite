@@ -177,6 +177,7 @@ pre {
     padding: .75rem;
     overflow: auto;
     word-wrap: normal;
+    tab-size: 4;
     border-radius: .125rem;
     background-color: var(--col-secondary)
 }
@@ -223,7 +224,8 @@ dt {
 .flex--row {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center
+    align-items: center;
+    gap: .5rem
 }
 
 .flex--spacebetween {
@@ -287,14 +289,20 @@ dt {
     display: none
 }
 
+.wrap-content {
+    container-type: inline-size;
+}
+
 .wrap-preview, #mentionable {
     margin-bottom: 1.5rem;
-    padding: 1rem .75rem .5rem;
+    margin-trim: block;
+    padding: .75rem;
     border-radius: .125rem;
     background-color: var(--col-secondary);
 }
 
 .wrap-preview--title {
+    margin-block-end: .75rem;
     font-size: 2em;
     line-height: 1
 }
@@ -324,11 +332,11 @@ dt {
     }
 }
 
-@media only screen and (min-width: 481px) {
+@container (min-width: 481px) {
     #skills-i-bring + ul {
         display: flex;
         flex-flow: row wrap;
-        column-gap: .75rem
+        column-gap: 1rem
     }
 
     #skills-i-bring + ul li {
@@ -359,6 +367,10 @@ h2 em, h3 em {
     line-height: 1;
     color: var(--col-primary);
     background-color: var(--col-body);
+}
+
+.copyright {
+    text-align: end;
 }
 
 @media (hover: none), print {

@@ -5,7 +5,7 @@ date: 2013-08-21
 source: https://codepen.io/plfstr/pen/cgsGH
 tags: [css, codepen, animation, html5]
 ---
-{% include codepen.html codepen="cgsGH" height="250" %}
+{% include codepen.html codepen="cgsGH" height="300" %}
 
 My latest Pen ‘[Hop Over Notification Badge](https://codepen.io/plfstr/pen/cgsGH)’, over on CodePen is a subtle z-index based CSS animation, creating a notification-type badge hop over effect.
 

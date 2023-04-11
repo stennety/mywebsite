@@ -373,6 +373,12 @@ h2 em, h3 em {
     text-align: end;
 }
 
+@media (hover: none), print {
+    abbr[title]::after {
+      content: "(" attr(title) ")";
+    }
+}
+
 @media print {
     *, * :before, * :after, ::marker {
         color: initial !important;
@@ -409,9 +415,5 @@ h2 em, h3 em {
         margin-inline-start: .5em !important;
         word-wrap: break;
         white-space: normal;
-    }
-
-    abbr[title]:after {
-        content: "[" attr(title) "]"
     }
 }

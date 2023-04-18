@@ -53,12 +53,12 @@
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
-                <th>Region</th>
-                <th>Country</th> 
-                <th>Location</th> 
+                <th>Region</th> 
+                <th>Country</th>
+                <th>Location</th>
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th>
-                <th>Architect</th>
+                <th>Architect</th> 
                 <th>Construction</th>
                 <th>Build</th>
                 <th>Status</th>
@@ -84,8 +84,8 @@
                     <td>{{ item.Date }}</td> 
                     <td>{{ item.Architect }}</td>
                     <td>{{ item.Construction }}</td>  
-                    <td>{{ item.TypeOfJob }}</td>
-                    <td>{{ item.Status }}</td> 
+                    <td>{{ item.TypeOfJob }}</td> 
+                    <td>{{ item.Status }}</td>
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>

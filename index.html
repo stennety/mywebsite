@@ -53,7 +53,7 @@
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
-                <th>Region</th> 
+                <th>Region</th>
                 <th>Country</th>
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
@@ -64,11 +64,11 @@
                 <th>Status</th> 
                 <th>YouTube</th> 
                 <th>Twitter</th> 
-                <th>Budget</th> 
+                <th>Budget</th>
                 <th>History</th>
-                <th>Curated</th> 
+                <th>Curated</th>
                 <th>Comments</th>
-                <th>Instagram</th> 
+                <th>Instagram</th>
                 <th>Past 100</th>
               </tr>
           </thead>
@@ -81,11 +81,11 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td> 
+                    <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>
                     <td>{{ item.Construction }}</td>  
                     <td>{{ item.TypeOfJob }}</td>  
-                    <td>{{ item.Status }}</td> 
+                    <td>{{ item.Status }}</td>
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>

@@ -14,7 +14,7 @@ I’ve got a huge mix of thoughts swirling in my brain about the trip. Firstly, 
 central and northern part of the country. Our trip in 2000 was more abbreviated by necessity, and we were somewhat
 limited in our activities with a new toddler in tow. We primarily visited Da Nang and Ho Chi Minh City (formerly Saigon)
 . Hoi An was my favorite place we visited on a day trip, and I remember wanting more time there. Nicole and I are going
-to spend the better part of a week there and visit the [My Son ruins](https://whc.unesco.org/en/list/949/) that date
+to spend the better part of a week there and visit the [Mỹ Sơn ruins](https://whc.unesco.org/en/list/949/) that date
 from the Champa Kingdom in the 4th century. We’re also very much looking forward to taking boats around Ha Long Bay.
 
 I reached out to the adoption agency to try to make contact with Julie’s birth mother while I’m there. It’s always been
@@ -22,7 +22,7 @@ a mystery to us who she is and what her life has been like. There are no guarant
 but I wanted to make a best effort. I know Julie has a lot of complex feelings about the adoption, so I checked in with
 her first, and am being conscientious about the level of engagement she wants in the process.
 
-I’ve been reading a few books lately on the subject of adoption and highly recommend “Somewhere Sisters” by Erika
+I’ve been reading a few books lately on the subject of adoption and highly recommend [Somewhere Sisters](https://www.goodreads.com/en/book/show/59891842) by Erika
 Hayasaki. She captures so many of the complexities of the adoption experience and provides a lot of history of the
 politics of Vietnamese/American adoption. The Harvard Book Store recently hosted
 an [insightful conversation with her and sociologist Indigo Willing](https://www.youtube.com/watch?v=Y1_Z4H6DllU) that I

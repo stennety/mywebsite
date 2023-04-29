@@ -17,6 +17,12 @@ I'm perpetually curious and dig science. You can usually find me reading some ki
 sciencey nonfiction book in my downtime, and I've been a longtime listener of the 
 [Skeptic's Guide to the Universe](https://www.theskepticsguide.org/).
 
+Despite working in tech and tending to be an enthusiastic early adopter of new devices and apps,
+I try to maintain a healthy dose of skepticism and objectivity around it. 
+I've never owned crypto, I think (in the near term, at least) that AI will be evolutionary and not revolutionary,
+and I [deleted most of my social media profiles in 2019](/2019/06/15/digital-minimalism-review/). I draw a lot of my views on tech and society 
+from people like [Cal Newport](https://calnewport.com/), [Steven Johnson](https://stevenberlinjohnson.com/), and [Nassim Nicholas Taleb](https://www.fooledbyrandomness.com/).
+
 I’m also the second* [coolest guy in America](https://www.coolestguyinamerica.com/){:target="_blank"} (according to
 Google). * I used to be the first coolest, but some random Internet guy who was better at SEO recently unseated me.
 

@@ -72,7 +72,7 @@
                 <th data-priority="1">Golf Course</th>
                 <th>Architect</th>
                 <th>Build</th>
-                <th>YouTube</th>
+                <th>YouTube</th> 
                 <th>Twitter</th>
                 <th>Curated</th>
                 <th>Comments</th>
@@ -82,13 +82,13 @@
               {% for item in site.data.allI %}
                  <tr>
                     <td>{{ item.Region }}</td>
-                    <td>{{ item.Country }}</td>
+                    <td>{{ item.Country }}</td> 
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
                     <td>{{ item.Architect }}</td>
-                    <td>{{ item.TypeOfJob }}</td>
+                    <td>{{ item.TypeOfJob }}</td> 
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>

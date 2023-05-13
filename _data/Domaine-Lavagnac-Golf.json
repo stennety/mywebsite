@@ -1,0 +1,19 @@
+{"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Anticipation for Domaine Lavagnac Golf",
+					"text": "<p>Domaine Lavagnac will be a luxury golf resort development located in the South of France with an 18 hole golf course designed by Nicklaus Design. The project is being developed by French investors and international investors.</p>  <p>The Domaine Lavagnac golf course will be set in the heart of the Languedoc region, and will feature a classic design with views of the countryside.</p>  <p>The Domaine Lavagnac resort will also feature a 5-star hotel, a spa, a tennis club, and a number of other amenities. The property is planning to attract a wide range of visitors, including golfers, families, and business travelers.</p>  <p>The Domaine Lavagnac project is an investment in the South of France, and is expected to create an economic boost for the region with additional housing. The project will promote golf tourism in France and make the country a more attractive destination for international golfers.</p>"
+				},
+				"location": {
+					"lat": 43.4616146,
+					"lon": 3.3828538,
+					"zoom": 10
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=CwhqJXwy3iI"
+				}
+			}
+		]
+    }
+}

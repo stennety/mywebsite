@@ -6,7 +6,7 @@
 name: fescue
 
 # Short bio or description (displayed in the header)
-description: Golf Course Architecture construction and renovation projects
+description: New Golf Course Architecture renovation restoration
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: 
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-165022482-1
+google_analytics: G-CE7ZF0C1GD
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -78,6 +78,12 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+theme: minima
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
 
 # Exclude these files from your production _site
 exclude:

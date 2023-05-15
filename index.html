@@ -65,7 +65,7 @@
                 <th>Construction</th> 
                 <th>Build</th> 
                 <th>Status</th> 
-                <th>YouTube</th>
+                <th>YouTube</th> 
                 <th>Twitter</th> 
                 <th>Budget</th> 
                 <th>History</th>
@@ -86,7 +86,7 @@
                     {% else %}<td> {{ item.Course }} </td>{% endif %}
                     <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td>
-                    <td>{{ item.Construction }}</td> 
+                    <td>{{ item.Construction }}</td>
                     <td>{{ item.TypeOfJob }}</td> 
                     <td>{{ item.Status }}</td> 
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td>
@@ -99,7 +99,7 @@
                     <td>{{ item.Comments }} </td> 
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
                     {% else %} <td></td> {% endif %}
-                    <td>{{ item.i100 }}</td> 
+                    <td>{{ item.i100 }}</td>
                   </tr>
               {% endfor %}
             </tbody>

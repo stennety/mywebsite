@@ -1,0 +1,21 @@
+
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Vaquero Club",
+					"text": "<p>The Vaquero Club in Westlake, Texas, is undergoing a major renovation by golf course architect Andrew Green. The project, which began in 2022 will be completed in 2023, including a number of changes to the course, namely shaping and widening fairways, remodel greens, adding bunker reconstruction, removing trees, and improving drainage.  The goal of the renovation is to create a more challenging and strategic course that will be more enjoyable for all levels of golfers. Green is a highly respected golf course architect who has a reputation for creating courses that are both challenging and playable.  Trip Kuehne is involved in the Vaquero Club renovation.</p><p>The original Vaquero Club golf course was designed by Tom Fazio and opened in 2001. The course is located in Westlake, Texas, on the former Circle T Ranch. The course is known for its rolling hills, lush fairways, and challenging greens. The course has been ranked as one of the top 100 courses in the country by Golf Digest and Golfweek.The course played to par 72 at 7,369 yards from the back tees. The course had a slope rating of 138 with rating of 74.4. The course is known for its variety of holes, with each hole offering a different challenge. Some of the most notable holes on the course include the par-4 10th hole, which is a long, uphill hole with a narrow fairway and a large green, and the par-3 17th hole, which is a downhill hole with a large green that is surrounded by bunkers.</p>"
+			},
+			"location": {
+					"lat": 32.9646319,
+					"lon": -97.1946605,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://vimeo.com/826325166"
+				}
+			}
+		]
+    }
+}

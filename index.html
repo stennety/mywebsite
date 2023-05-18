@@ -52,12 +52,11 @@
 
 <BODY>
      <H1>  <p><a href="https://fescue.github.io/iMap">Preview Play - Next Golf Trip</a></p> </H1>
-
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
                 <th>Region</th>
-                <th>Country</th>
+                <th>Country</th> 
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th>
@@ -79,7 +78,7 @@
               {% for item in site.data.allGolf %}
                   <tr>
                     <td>{{ item.Region }}</td> 
-                    <td>{{ item.Country }}</td>
+                    <td>{{ item.Country }}</td> 
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>

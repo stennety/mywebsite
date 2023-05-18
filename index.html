@@ -51,6 +51,7 @@
 </head>
 
 <BODY>
+	
      <H1>  <p><a href="https://fescue.github.io/iMap">Preview Play - Next Golf Trip</a></p> </H1>
      <table id="golf" class="display" width="100%">
           <thead>
@@ -60,11 +61,11 @@
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th>
-                <th>Architect</th>
+                <th>Architect</th> 
                 <th>Construction</th>
                 <th>Build</th> 
                 <th>Status</th>
-                <th>YouTube</th>
+                <th>YouTube</th> 
 		<th>Twitter</th> 
                 <th>Budget</th> 
                 <th>History</th>
@@ -94,7 +95,7 @@
                     {% else %}<td></td>{% endif %}     
                     <td>{{ item.Budget }}</td>
                     <td>{{ item.History }}</td> 
-                    <td>{{ item.DataCurated }} </td> 
+                    <td>{{ item.DataCurated }} </td>  
                     <td>{{ item.Comments }} </td> 
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
                     {% else %} <td></td> {% endif %}

@@ -1,0 +1,18 @@
+
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Twin Bridges",
+					"text": "<p>Twin Bridges, Montana is the location for a new golf course being built by James Duncan and Mark Lampert.  James Duncan has a long history in building golf courses for Coore Crenshaw and Renaissance Golf Design.</p>"
+			},
+			"location": {
+					"lat": 45.5427433,
+					"lon": -112.3388206,
+					"zoom": 7
+				}
+			}
+		]
+    }
+}

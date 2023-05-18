@@ -67,7 +67,7 @@
                 <th>Status</th> 
                 <th>YouTube</th>
 		<th>Twitter</th> 
-                <th>Budget</th>
+                <th>Budget</th> 
                 <th>History</th>
                 <th>Curated</th> 
                 <th>Comments</th> 
@@ -94,7 +94,7 @@
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}     
                     <td>{{ item.Budget }}</td>
-                    <td>{{ item.History }}</td>
+                    <td>{{ item.History }}</td> 
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td> 
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>

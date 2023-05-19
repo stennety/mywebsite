@@ -36,3 +36,10 @@
   url: "https://spongebobwiki.org/"
   mainpage: "Main_Page"
   discord: "https://discord.com/invite/RgzmUBMPGP"
+- affiliate:
+  id: "sanriowiki"
+  name: "Sanrio Wiki"
+  description: "SpongeBob Wiki is an independently-hosted wiki for the SpongeBob SquarePants franchise. It was founded on March 20, 2020."
+  logo: "/images/logos/SanrioWiki.png"
+  url: "https://sanriowiki.com"
+  mainpage: "Sanrio_Wiki"

@@ -36,3 +36,10 @@
   url: "https://spongebobwiki.org/"
   mainpage: "Main_Page"
   discord: "https://discord.com/invite/RgzmUBMPGP"
+- affiliate:
+  id: "sanriowiki"
+  name: "Sanrio Wiki"
+  description: "Sanrio Wiki is an independently-hosted wiki for the Hello Kitty and Sanrio franchise. It was founded on April 14, 2015."
+  logo: "/images/logos/SanrioWiki.png"
+  url: "https://sanriowiki.com"
+  mainpage: "Sanrio_Wiki"

@@ -48,11 +48,14 @@
 				  language: "en",
 				  map_type: "osm:standard",
 				  calculate_zoom: false,
-				  swipe: false
+				  swipe: false,
+		  		  swipe_to_navigate: false
 				};
 
 				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+				storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+		  		storymap.swipe = false;
+		  		storymap.swipe_to_navigate = false;
 
 				// Leaflet Zoom control
 				const zoomControl = L.control.zoom({ position: "topleft" });

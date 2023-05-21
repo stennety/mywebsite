@@ -22,7 +22,7 @@
 	
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">	
-	  <meta name="Description" CONTENT="Golf Course Architecture New Renovation Restoration Design Construction Bunker Doak Hanse Coore Crenshaw Nicklaus Kidd Franz Clayton King Collins">
+	  <meta name="Description" CONTENT="Golf Course - On Hold Projects, No Longer Exists NLE">
 	  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
 	  <title>New Golf Course - Golf Architecture - Routing Renovation Restoration</title>
 		<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
@@ -66,17 +66,17 @@
                 <th>Architect</th>
                 <th>Build</th>
                 <th>YouTube</th>
-                <th>Twitter</th>
+                <th>Twitter</th> 
                 <th>Curated</th> 
-                <th>Comments</th>
+                <th>Comments</th> 
               </tr>
           </thead>
           <tbody>
               {% for item in site.data.allI %}
                  <tr>
                     <td>{{ item.Region }}</td>
-                    <td>{{ item.Country }}</td> 
-                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
+                    <td>{{ item.Country }}</td>
+                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.googe.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
                     {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td>
                     {% else %}<td> {{ item.Course }} </td>{% endif %}

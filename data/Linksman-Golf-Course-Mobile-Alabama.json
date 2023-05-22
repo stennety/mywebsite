@@ -1,0 +1,20 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Municipal Golf - Mobile, Alabama",
+					"text": "<p>Linksman Golf Course will be a public municipal golf course located in Mobile, Alabama. It was designed by Ralph Sharp opening in 1972. The course is 6,275 yards from the back tees and has a par of 72.  The course is also known for location in view of the Dog River and Mobile Bay.</p><p>Linksman Golf Course has been closed since 2006. In 2021, Mobile County purchased the land with plans to rebuild the course.</p><p>Jerry Pate is the golf architect selected for the renovation of Linksman Golf Course. Pate is a former professional golfer who won the 1976 U.S. Open. He has also designed or renovated more than 20 golf courses, including the Country Club of Mobile and the Pensacola Country Club.  Pate's design for Linksman Golf Course will retain the original character of the course, rebuilding greens to USGA Specification, flatten tees, and a new irrigation system.</p>"
+				},
+			"location": {
+					"lat": 30.6145576,
+					"lon": -88.1300733,
+					"zoom": 7
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=aJsWLfgB4hE"
+				}
+			}
+		]
+    }
+}

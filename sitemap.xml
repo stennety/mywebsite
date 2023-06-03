@@ -8,6 +8,10 @@
   <priority>1</priority>
 </url>   
 <url>
+  <loc>https://fescue.github.io/privacy/</loc>
+  <priority>1</priority>
+</url>
+<url>
   <loc>https://fescue.github.io/Great-Keppel-Island</loc>
   <priority>1</priority>
 </url>

@@ -1,6 +1,7 @@
 
 {
 "storymap": {
+	"call_to_action": false,
         "slides": [
 			{
 				"text": {
@@ -13,7 +14,9 @@
 					"zoom": 11
 				},
 				"media": {
-					"url": "https://vimeo.com/826325166"
+					"url": "https://vimeo.com/830350055"
+					"caption": "Back 9 Flyover, May 2023",
+					"credit": "V.C. channel on Vimeo.com"
 				}
 			}
 		]

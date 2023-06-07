@@ -2,11 +2,7 @@
 
 ---
 <html lang="en">
- <head  <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!--
-	<meta http-equiv="refreh" content="0; url=https://fescue.github.io">
-        <link rel="canonical" href="http://fescue.github.io" />
-	-->
+ <head>
  <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
  <script>
@@ -19,13 +15,15 @@
    <title>Municipal Golf - Boca National in South Florida</title>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <meta http-equiv='content-language' content='en-us'>
-  <meta name="description" CONTENT="Golf course rebuild in South Florida with potentially Nick Price as golf architect">
+  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
+  <meta name="msvalidate.01" content="F27967019E01C1777A8C10B926D4619A" />
+  <meta name="description" CONTENT="Golf course rebuild in South Florida PGA Nick Price golf architect">
 </head>
 <body>
 	
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
 <H1>Municipal Golf - Boca National in South Florida</H1> 
+	
 <link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
 <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
@@ -39,8 +37,14 @@
     // Options for Story Map
     const storymap_options = {
       language: "en",
+      scenes: scenes,
       map_type: "osm:standard",
       calculate_zoom: false,
+      legend: false,
+      loader: true,
+      scalebar: false,
+      flyo: true,
+      navwidget: true,
       width: 600,
       height: 400,
     };
@@ -59,6 +63,7 @@
     // grouping of controls
     const leafletControlsToAdd = [zoomControl, fullscreenControl];
 
+	  
     // event for when the Story Map is loaded
     storymap.on("loaded", function() {
       // leaflet.js web map object
@@ -68,9 +73,8 @@
       leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
     });
   </script>
-  
+ 
   <script type="text/javascript" class="init"></script> 
-
 </body>
   <footer>
     <p><a href="https://www.bocamag.com/bocas-big-plans-for-former-ocean-breeze-golf-course-more/">Boca Magazine - Ocean Breeze</a></p>

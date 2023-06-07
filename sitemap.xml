@@ -6,7 +6,11 @@
 <url>
   <loc>https://fescue.github.io/iMap</loc>
   <priority>1</priority>
-</url>   
+</url>
+<url>
+  <loc>https://fescue.github.io/incomplete</loc>
+  <priority>1</priority>
+</url>
 <url>
   <loc>https://fescue.github.io/privacy/</loc>
   <priority>1</priority>
@@ -69,10 +73,6 @@
 </url>
 <url>
   <loc>https://fescue.github.io/Stonebridge-Country-Club-Naples-Florida</loc>
-  <priority>1</priority>
-</url>
-<url>
-  <loc>https://fescue.github.io/incomplete</loc>
   <priority>1</priority>
 </url>
 <url>

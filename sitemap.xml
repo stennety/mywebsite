@@ -13,8 +13,12 @@
 </url>
 <url>
   <loc>https://fescue.github.io/privacy/</loc>
-  <priority>1</priority>
+  <priority>0.5</priority>
 </url>
+<url>
+  <loc>https://fescue.github.io/Club-Campestre-Tijuana</loc>
+  <priority>1</priority>
+</url>  
 <url>
   <loc>https://fescue.github.io/Great-Keppel-Island</loc>
   <priority>1</priority>

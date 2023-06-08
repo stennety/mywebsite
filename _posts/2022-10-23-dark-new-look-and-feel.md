@@ -7,7 +7,6 @@ image:
   width: 1000
   height: 420
   alt: Laptop with dark background
-image: 
 category: Announcement
 tags:
 - website

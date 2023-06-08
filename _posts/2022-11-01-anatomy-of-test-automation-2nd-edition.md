@@ -7,7 +7,7 @@ tags:
 - automation
 date: 2022-11-01 00:00:00 +0000
 categories:
-- automation
+- Automation
 description: Test automation is about more than code, it takes infrastructure, process
   and strategy
 image:

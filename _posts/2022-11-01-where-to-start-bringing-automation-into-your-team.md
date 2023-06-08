@@ -4,7 +4,7 @@ tags:
 - automation
 date: 2022-11-01 00:00:00 +0000
 categories:
-- automation
+- Automation
 description: '3 steps to get started bringing test automation into your team'
 image:
   path: "/uploads/pexels-tara-winstead-8386434-10x14.jpg"

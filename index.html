@@ -72,7 +72,6 @@
                 <th>Curated</th> 
                 <th>Comments</th> 
                 <th>Instagram</th>
-                <th>Past 100</th>
               </tr>
           </thead>
           <tbody>
@@ -99,7 +98,6 @@
                     <td>{{ item.Comments }} </td> 
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
                     {% else %} <td></td> {% endif %}
-                    <td>{{ item.i100 }}</td>
                   </tr>
               {% endfor %}
             </tbody>

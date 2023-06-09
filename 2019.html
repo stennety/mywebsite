@@ -36,14 +36,6 @@
 		<script type="text/javascript">
 		    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"><\/script>');
 		</script>
-
-		<!-- IF THAT FAILS , JQUERY FROM MICROSOFT -->
-		<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"><\/script>');
-		</script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
 		<script src="https://cmp.osano.com/Azqae7Tg5rIXKJsl/a6843304-e87a-485e-aabb-2b21be3ed691/osano.js"></script>
 		<script type="text/javascript" class="init"></script>
 	</head>
@@ -55,7 +47,7 @@
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
-                <th>Region</th>
+		<th>iSort</th>
                 <th>Country</th>
                 <th>Location</th>
                 <th data-priority="1">Golf Course</th>
@@ -71,13 +63,12 @@
                 <th>Curated</th> 
                 <th>Comments</th>
                 <th>Instagram</th>
-                <th>Past 100</th>
-              </tr>
+               </tr>
           </thead>
           <tbody>
               {% for item in site.data.all2019 %}
                   <tr>
-                    <td>{{ item.Region }}</td>
+                    <td>{{ item.iSort }}</td>
                     <td>{{ item.Country }}</td>
                     {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td>
                     {% else %}<td></td>{% endif %}
@@ -97,8 +88,7 @@
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td>
 		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
-                    {% else %} <td></td> {% endif %}
-                    <td>{{ item.i100 }}</td> 
+                    {% else %} <td></td> {% endif %} 
                   </tr>
               {% endfor %}
             </tbody>
@@ -108,9 +98,10 @@
 	$(document).ready(function() {
 		var table = $('#golf').DataTable( {
 			responsive: true,
-			order: [[0, "desc"],[1,"desc"]],
+			order: [[0, "asc"]],
 			columnDefs: [
-			 	{ targets: [4], responsivePriority: 1 }
+			 	{ targets: [5], responsivePriority: 1 },
+				{ targets: [0], visible: false, searchable: false }
 			  ],
 			  stateSave: true,
 			paging: false

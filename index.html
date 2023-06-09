@@ -59,7 +59,7 @@
               <tr> 
                 <th>Region</th>
                 <th>Country</th>
-                <th>Location</th>
+                <th>Location</th> 
                 <th data-priority="1">Golf Course</th>
                 <th>Date</th>
                 <th>Architect</th> 
@@ -70,7 +70,7 @@
 		<th>Twitter</th>
                 <th>Budget</th>
                 <th>History</th>
-                <th>Curated</th> 
+                <th>Curated</th>
                 <th>Comments</th> 
                 <th>Instagram</th>
                 <th>Past 100</th>
@@ -94,7 +94,7 @@
                     {% else %}<td></td>{% endif %}
                     {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}     
-                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.Budget }}</td> 
                     <td>{{ item.History }}</td>
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td> 

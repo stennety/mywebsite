@@ -93,24 +93,21 @@
               {% endfor %}
             </tbody>
      </table>
-
-	<script>
-		$(document).ready(function() {
-			var table = $('#golf').DataTable( {
-				responsive: true,
-				ordering: false,
-				orderable: true,
-				sort: true,
-				columnDefs: [
-					{ targets: [4], responsivePriority: 1 }
-				  ],
-				  stateSave: true,
-				paging: false
-			} );
-
-			new $.fn.dataTable.FixedHeader( table );
+     <script>
+	$(document).ready(function() {
+		var table = $('#golf').DataTable( {
+			responsive: true,
+			order: [[0, "desc"],[1,"desc"]],
+			columnDefs: [
+			 	{ targets: [4], responsivePriority: 1 }
+			  ],
+			  stateSave: true,
+			paging: false
 		} );
-	</script>
+	 
+		new $.fn.dataTable.FixedHeader( table );
+	} );
+    </script>
 
 	<H3>  	<p><a href="https://fescue.github.io/incomplete">Waiting Room - Permitting - NLE</a></p>
 		<p><a href="https://fescue.github.io/2021">2021 archive - Construction complete</a></p>

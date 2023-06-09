@@ -7,8 +7,8 @@ const token = process.env.TINA_TOKEN || null;
 
 export default defineConfig({
   branch,
-  token: '<Your Read Only Token>', // generated on app.tina.io,
-  clientId: '<Your Client ID>', // generated on app.tina.io
+  token: token, // generated on app.tina.io,
+  clientId: clientId, // generated on app.tina.io
 
   build: {
     outputFolder: "admin",

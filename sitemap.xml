@@ -26,7 +26,11 @@
 <url>
   <loc>https://fescue.github.io/Club-Campestre-Tijuana</loc>
   <priority>1</priority>
-</url>  
+</url> 
+<url>
+  <loc>https://fescue.github.io/Musselroe-Bay-Golf-Course</loc>
+  <priority>1</priority>
+</url> 
 <url>
   <loc>https://fescue.github.io/Great-Keppel-Island</loc>
   <priority>1</priority>

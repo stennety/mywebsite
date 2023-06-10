@@ -1,0 +1,22 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Early Design from Tom Doak",
+					"text": "<p>Apache Stronghold Golf Course was a golf course located in San Carlos, Arizona. It was designed by Tom Doak and opened in 1999. The course was 7,519 yards long and had a par of 72. It was closed in 2021. The course was known for its challenging layout and its beautiful views of the surrounding desert landscape.</p><p>Apache Stronghold Golf Course closed in 2021 due to operating costs and maintenance issues in turfgrass management.  One year before closure, the property was recognized as the 34th best course in <a href='https://golfweek.usatoday.com/lists/golfweeks-best-2020-top-50-casino-courses/' target='_blank' rel='nofollow'>Golfweek's 2020 Best Casino Golf Courses</a>.</p><p>The future of Apache Stronghold Golf Course is uncertain. The San Carlos Apache Tribe owners have said that it is considering various options for the property, including selling it or developing it into a different type of recreation facility.</p>"
+				},
+			"location": {
+					"lat": 33.3611122,
+					"lon": -110.6730157,
+					"zoom": 6
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=plen-KLJOMk",
+					"credit": "Apache Gold"
+				}
+			}
+		]
+    }
+}
+

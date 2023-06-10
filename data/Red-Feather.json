@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Rob King and Tad Collins ",
+					"text": "<p>Red Feather Golf and Social Club is a private golf club in Lubbock, Texas and was designed by Rob King and Tad Collins.  The course will open in August 2023.  The property covers 135 acres of land featuring 18 holes of championship golf with 7000+ yards from the back tees.</p><p>Owner Brad Ralston invested in sustainable measures for water collection in the 6 acre lake onsite.  Additional wells off-site are available as well.<p>Fairways are Innovation Zoysia grass.  Greens were seeded in T-1 Bentgrass.</p><p>Garrett Holt is the grow-in superintendent and will stay on as the club's permanent course manager overseeing the grounds.</p><p>Lubbock's turfgrass growing conditions are a semi-arid climate with a hot and dry summer vs. generally a mild winter. Average temperature in Lubbock ranges from 34°F in January vs. 93°F in July. Red Feather should average about 18 inches of rainfall per season, mostly during spring and summer.</p>"
+			},
+			"location": {
+					"lat": 33.591351,
+					"lon": -102.028532,
+					"zoom": 7
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=becUcLJGxZc",
+					"credit": "KCBD NewsChannel 11 - Lubbock, TX"
+				}
+			}
+		]
+    }
+}

@@ -24,6 +24,10 @@
   <priority>1</priority>
 </url>
 <url>
+  <loc>https://fescue.github.io/Apache-Stronghold-Golf</loc>
+  <priority>1</priority>
+</url> 
+<url>
   <loc>https://fescue.github.io/privacy/</loc>
   <priority>0.5</priority>
 </url>

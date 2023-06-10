@@ -63,12 +63,12 @@
                 <th>Date</th>
                 <th>Architect</th>
                 <th>Construction</th>
-                <th>Build</th>
+                <th>Build</th> 
                 <th>Status</th>
                 <th>YouTube</th>
-		<th>Social</th> 
+		<th>Social</th>
                 <th>Budget</th>
-                <th>History</th> 
+                <th>History</th>
                 <th>Curated</th> 
                 <th>Comments</th> 
               </tr>
@@ -95,8 +95,8 @@
 		    {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td>
                     {% else %}<td></td>{% endif %}
 			  
-                    <td>{{ item.Budget }}</td> 
-                    <td>{{ item.History }}</td> 
+                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.History }}</td>
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td> 
                   </tr>

@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Sand Hills in Georgia",
+					"text": "<p>Fall Line Golf Club is a private golf course being designed by <a href='https://www.ocm.golf/' target='_blank' rel='nofollow'>Oglivy Cocking Mead (OCM)</a> in Georgia.  The course is scheduled to open in 2024. Fall Line is located in the Georgia Sandhills region, near Butler, Georgia.  OCM have designed 36 holes and a 12 hole short course.  Additionally, a Himalayas putting green is built resembling the putting course in St. Andrews, Scotland.</p><p>  Matthew Oggero, CCM(Club Managers Association of America), will be General Manager.  August Rocco is the Golf Course Superintendent at Fall Line Golf Club. He has been with the club since April 2023. Rocco has a degree in Turfgrass Management from the University of Georgia and has over 10 years of experience in the golf course industry. He is a certified Golf Course Superintendent by the Golf Course Superintendents Association of America.  He is responsible for the care and maintenance of a golf course during the initial stages of the project, including seeding, watering, and fertilizing the turf, as well as controlling pests and diseases.  Grow-in superintendents play a critical role in ensuring that a new golf course is able to establish itself and provide a high quality playing surfaces.</p><p>  The property is adjacent to the Sandhills Wildlife Management Area (WMA), a 4,200-acre property located in Taylor County, Georgia managed by the Georgia Department of Natural Resources (DNR). The area is known for its sandy hills, pine forests, and diverse wildlife. The WMA offers a variety of recreational opportunities, including hunting, fishing, hiking, and camping.</p>"
+					},
+			"location": {
+					"lat": 32.5454419,
+					"lon": -84.3769734,
+					"zoom": 6
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=LRUhjYnG2aY",
+					"credit": "Georgia Outdoors"
+				}
+			}
+		]
+    }
+}

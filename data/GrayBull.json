@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "David McLay Kidd in the Sand Hills",
+					"text": "<p><a href='https://www.dormienetwork.com/graybull' target='_blank' rel='nofollow'>GrayBull Golf Course</a> is a new 18 hole private golf course designed by David McLay Kidd.  It is located in the Nebraska Sandhills. The course is located about 30 minutes north of North Platte and 2 hours west of Omaha.  The course is situated on 600 acres of land in the Nebraska Sandhills. The Sandhills are a unique geographic region in the western part of the state. The area is characterized by rolling hills, sandy soil, and few trees.</p><p>Michael Sheely is the grow-in superintedent and Director of Agronomy at GrayBull.</p><p>Permits were filed with Lincoln County for the construction of GrayBull Golf Course on March 8, 2022 with approval quickly returned on March 22, 2022.  The permit allows for the construction of an 18-hole golf course with clubhouse, practice range, and other amenities.  Seeding goal completion is autumn 2023 with opening in late 2024.  The golf course and overall property is designed to minimize the impact on the environment.</p>"		
+				},
+			"location": {
+					"lat": 41.196591	
+					"lon": -100.484189,
+					"zoom": 5
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=mEuV1vhqgME",
+					"credit": "Dormie Network"
+				}
+			}
+		]
+    }
+}

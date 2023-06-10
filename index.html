@@ -72,12 +72,11 @@
                 <th>Build</th>
                 <th>Status</th> 
                 <th>YouTube</th>
-		<th>Twitter</th>
+		<th>Social</th>
                 <th>Budget</th>
                 <th>History</th>
                 <th>Curated</th>
                 <th>Comments</th> 
-                <th>Instagram</th>
               </tr>
           </thead>
           <tbody>
@@ -106,8 +105,6 @@
                     <td>{{ item.History }}</td> 
                     <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td> 
-		    {% if item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.Instagram }}</a> </td>
-                    {% else %} <td></td> {% endif %}
                   </tr>
               {% endfor %}
             </tbody>

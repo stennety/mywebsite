@@ -63,7 +63,6 @@
                 <th>Architect</th>
                 <th>Construction</th>
                 <th>Build</th>
-                <th>Status</th>
                 <th>YouTube</th>
 		<th>Social</th>
                 <th>Budget</th>
@@ -73,7 +72,6 @@
               </tr>
           </thead>
           <tbody>
-		  
 		  <tr>
                     <td>England</td>
                      <td><a href="https://www.google.com/maps/@51.2956354,1.3686571,14z">Kent</a> </td>
@@ -82,13 +80,12 @@
                     <td>Martin Ebert</td> 
                     <td></td>
                     <td>Renovation</td>
-                    <td>Open</td> 	  
 		   <td class="style24">
 			<div id='outerdiv' style="width:400px; overflow-x:hidden;">
 				<iframe width="300" height="200" src="https://www.youtube.com/embed/pAL09ayzfkE?start=55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 		   </td>	
-		   <td><td><a href="https://www.instagram.com/princesgolfclub/">Prince's</a> </td></td>				  
+		   <td><a href="https://www.instagram.com/princesgolfclub/">Prince's</a> </td>			  
                     <td></td>
                     <td>Campbell Morrison</td>
                     <td>2020-05-02 </td> 
@@ -103,8 +100,7 @@
                     <td>{{ item.Date }}</td>
                     <td>{{ item.Architect }}</td> 
                     <td>{{ item.Construction }}</td>
-                    <td>{{ item.TypeOfJob }}</td>
-                    <td>{{ item.Status }}</td> 			  
+                    <td>{{ item.TypeOfJob }}</td>	  
                     {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
 		    {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}			  
                     <td>{{ item.Budget }}</td>

@@ -110,6 +110,28 @@
 		  });
 		});
 	  	$('#golf').DataTable().column(1).visible(true);
+		
+		$(document).ready(function() {
+		  var table = $('#golf').DataTable({
+		    responsive: true,
+		    initComplete: function() {
+		      // This code will be executed when the table is initialized.
+		      // We can use it to change the table to show cards on mobile phones.
+		      var $table = $(this);
+		      var isMobile = /Mobi/.test(navigator.userAgent) || /Android/.test(navigator.userAgent);
+		      if (isMobile) {
+			$table.find('tbody tr').each(function() {
+			  var $tr = $(this);
+			  $tr.addClass('card');
+			  $tr.find('td').each(function() {
+			    var $td = $(this);
+			    $td.addClass('card-body');
+			  });
+			});
+		      }
+		    }
+		  });
+		});
 	</script>
 		
 		

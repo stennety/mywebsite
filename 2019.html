@@ -102,17 +102,7 @@
 
 	<script>
 		$(document).ready(function() {
-		  $('#myTable').DataTable({
-		    columnDefs: [{
-			targets: [1],
-			visible: false
-		      }]
-		  });
-		});
-	  	$('#golf').DataTable().column(1).visible(true);
-		
-		$(document).ready(function() {
-		  var table = $('#myTable').DataTable({
+		  var table = $('#golf').DataTable({
 		    responsive: true,
 		    initComplete: function() {
 		      // This code will be executed when the table is initialized.

@@ -35,6 +35,22 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "datetime",
+            "name": "date",
+            "label": "Date"
+          },
+          {
+            "type": "string",
+            "name": "categories",
+            "label": "Categories"
+          },
+          {
+            "type": "string",
+            "name": "tags",
+            "label": "Tags",
+            "list": true
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

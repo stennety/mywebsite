@@ -1,14 +1,15 @@
 ---
-title: So you've been asked to do some testing, where do you start?
-date: 2022-10-05 01:00:00 +0100
+title: 'So you''ve been asked to do some testing, where do you start?'
+date: '2022-10-05 01:00:00 +0100'
 tags:
-- testing
-- beginner
+  - testing
+  - beginner
 categories:
-- How to
+  - How to
 redirect_from:
-- /so-youve-been-asked-to-do-some-testing/
+  - /so-youve-been-asked-to-do-some-testing/
 ---
+
 So, you're minding your own business, enjoying life. Maybe you're working as a Project Manager, a Product Owner, a Team Lead, or maybe you just happen to work for a University and are the one who knows your Excel from your USB port.
 
 And then it happens. You have the need to Test some software. Maybe it is the new version of a system being rolled out in the office, or it might be the product your team is working on, depending on your context.

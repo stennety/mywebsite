@@ -1,15 +1,16 @@
 ---
 title: When is a Tester not a Tester?
 tags:
-- testing
-- quality
-- quality Engineer
-date: 2022-05-28 00:00:00 +0100
+  - testing
+  - quality
+  - quality Engineer
+date: '2022-05-28 00:00:00 +0100'
 categories:
-- About Ben
+  - About Ben
 redirect_from:
-- /when-is-a-tester-not-a-tester/
+  - /when-is-a-tester-not-a-tester/
 ---
+
 ![](/uploads/time.jpg)
 
 There are many competing thoughts on Software Testing and especially the roles we take on for those of us, as I do, who self define as Software Testers.

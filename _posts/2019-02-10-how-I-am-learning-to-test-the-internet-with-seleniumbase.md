@@ -1,11 +1,12 @@
 ---
 title: How I am learning to test The Internet with SeleniumBase
-date: 2019-02-10 14:00:00 +0000
+date: '2019-02-10 14:00:00 +0000'
 categories:
-- Automation
+  - Automation
 redirect_from:
-- /how-I-am-learning-to-test-the-internet-with-seleniumbase/
+  - /how-I-am-learning-to-test-the-internet-with-seleniumbase/
 ---
+
 Goal: I have a simple, ambitious big hairy goal Learn how to "Automate all the (test) things, in Python". This is Part 1 on my journey towards this goal.
 
 For context I consider myself experienced as a tester, but a relative newbie as a developer. I have been involved in one successful automation project using Powershell, and one failed automation project using .NET Framework and Selenium.

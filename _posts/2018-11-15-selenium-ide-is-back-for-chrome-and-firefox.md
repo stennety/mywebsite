@@ -1,11 +1,12 @@
 ---
-title: "Selenium IDE is back for Chrome and Firefox!"
-date: 2018-11-15 01:09
+title: Selenium IDE is back for Chrome and Firefox!
+date: '2018-11-15 01:09'
 categories:
-- Automation
+  - Automation
 redirect_from:
-- /selenium-ide-is-back-for-chrome-and-firefox/
+  - /selenium-ide-is-back-for-chrome-and-firefox/
 ---
+
 Selenium's official IDE is back! with a "Record/Playback session overhaul". The old Selenium IDE Firefox plugin version from "back in the day", before it became unusable in 2017, with version 55 of Firefox ([https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/](https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/ "https://seleniumhq.wordpress.com/2017/08/09/firefox-55-and-selenium-ide/")).
 
 Selenium IDE "Next Generation", has current Chrome and Firefox plugins, that work with the latest versions of the browsers.

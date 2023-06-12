@@ -1,14 +1,15 @@
 ---
 title: Tester of The Day Winner
 tags:
-- recognition
-- tester of the day
-date: 2022-07-10 00:00:00 +0100
+  - recognition
+  - tester of the day
+date: '2022-07-10 00:00:00 +0100'
 categories:
-- Tester of The Day
+  - Tester of The Day
 redirect_from:
-- /tester-of-the-day-winner/
+  - /tester-of-the-day-winner/
 ---
+
 So, you've just found out you've won [#TesterOfTheDay](https://www.testeroftheday.com/)? Congratulations!
 
 ![](/uploads/pexels-nataliya-vaitkevich-6532373-1.jpg)

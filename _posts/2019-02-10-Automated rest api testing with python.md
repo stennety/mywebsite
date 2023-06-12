@@ -1,13 +1,14 @@
 ---
-title: 'Automated REST API Testing with Python'
-date: 2019-02-19 00:00:00 +0000
+title: Automated REST API Testing with Python
+date: '2019-02-19 00:00:00 +0000'
 categories:
-- Automation
+  - Automation
 tags:
-- automation
+  - automation
 redirect_from:
-- /Automated-rest-api-testing-with-python/
+  - /Automated-rest-api-testing-with-python/
 ---
+
 
 Last time out I introduced you to the start of my journey to automate all the "test" things in Python. I continue that journey now by switching focus away from frontend, to Restful Web APIs. You can look back at my last post [here](https://www.dowen.me.uk/posts/how-I-am-learning-to-test-the-internet-with-seleniumbase/ "How I am learning to test The Internet with SeleniumBase").
 

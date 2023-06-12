@@ -1,15 +1,16 @@
 ---
-title: Ten years in testing, ask me anything!
+title: 'Ten years in testing, ask me anything!'
 tags:
-- ama
-- questions
-- about
-date: 2022-10-06 00:00:00 +0100
+  - ama
+  - questions
+  - about
+date: '2022-10-06 00:00:00 +0100'
 categories:
-- About Ben
+  - About Ben
 redirect_from:
-- /ten-years-in-testing-ask-me-anything/
+  - /ten-years-in-testing-ask-me-anything/
 ---
+
 July 2012, now a little over ten years ago I started as a Software Test Engineer at Citrix Systems, in the model village of Cambourne in Cambridgeshire, UK.
 
 Since then, I've had the pleasure of testing a lot of great software, covering a huge range of technologies and business domains.

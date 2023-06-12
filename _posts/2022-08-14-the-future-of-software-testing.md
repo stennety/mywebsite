@@ -1,15 +1,16 @@
 ---
 title: The Future of Software Testing
 tags:
-- testing
-- ministry of testing
-- bloggers club
-date: 2022-08-14 00:00:00 +0100
+  - testing
+  - ministry of testing
+  - bloggers club
+date: '2022-08-14 00:00:00 +0100'
 categories:
-- Testing
+  - Testing
 redirect_from:
-- /the-future-of-software-testing/
+  - /the-future-of-software-testing/
 ---
+
 This post is part of the Ministry of Testing Bloggers Club, the August topic is "[The Future Of The Tester Role](https://club.ministryoftesting.com/t/bloggers-club-august-2022-the-future-of-the-tester-role/61680?u=fullsnacktester)".
 
 I will give you a brief insight into my Past and Present as a Software Tester, and make some predictions for my future. Will this translate into the future for others? I guess we will have to wait and see.

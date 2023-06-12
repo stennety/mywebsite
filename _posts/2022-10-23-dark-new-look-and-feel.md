@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dark new look and feel
-description: Announcing a new look and feel to the website, now with dark mode!
+description: 'Announcing a new look and feel to the website, now with dark mode!'
 image:
   path: /uploads/pexels-junior-teixeira-2047905.jpg
   width: 1000
@@ -9,10 +9,11 @@ image:
   alt: Laptop with dark background
 category: Announcement
 tags:
-- website
-- announcement
-date: 2022-10-23 22:58 +0100
+  - website
+  - announcement
+date: '2022-10-23 22:58 +0100'
 ---
+
 ![Laptop with dark background, Photo by Junior Teixeira](/uploads/pexels-junior-teixeira-2047905.jpg)
 
 If you're a returning visitor, first of all, Thank You!, you might have already noticed things look a little different.

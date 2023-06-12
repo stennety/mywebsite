@@ -29,6 +29,17 @@ export default defineConfig({
         fields: [
           {
             type: "string",
+            name: "layout",
+            label: "Layout",
+            required: true,
+            options: [
+              {
+                value: 'post',
+                label: 'Post',
+              }]
+          },
+          {
+            type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
@@ -42,7 +53,41 @@ export default defineConfig({
           {
             "type": "string",
             "name": "categories",
-            "label": "Categories"
+            "label": "Categories",
+            options: [
+              {
+                value: 'About ben',
+                label: 'About Ben',
+              },
+              {
+                value: 'Announcement',
+                label: 'Announcement',
+              },
+              {
+                value: 'Community',
+                label: 'Community',
+              },
+              {
+                value: 'Conferences',
+                label: 'Conferences',
+              },              {
+                value: 'How to',
+                label: 'How to',
+              },              {
+                value: 'Quality',
+                label: 'Quality',
+              },              {
+                value: 'Tester of The Day',
+                label: 'Tester of The Day',
+              },              {
+                value: 'Testing',
+                label: 'Testing',
+              },
+              {
+                value: 'Testing for Developers',
+                label: 'Testing for Developers',
+              }
+            ]
           },
           {
             "type": "string",

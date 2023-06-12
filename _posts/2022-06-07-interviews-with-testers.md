@@ -1,15 +1,16 @@
 ---
 title: Meet the Testers
 tags:
-- testing
-- community
-- interview
-date: 2022-06-07 00:00:00 +0100
+  - testing
+  - community
+  - interview
+date: '2022-06-07 00:00:00 +0100'
 categories:
-- Community
+  - Community
 redirect_from:
-- /interviews-with-testers/
+  - /interviews-with-testers/
 ---
+
 What better way to learn about the amazing people in the Software Testing Community then reading and watching their interviews.
 
 In this short post I will introduce you to the Tester of The Day winner and community interviews, and direct you to some other great hosts who interview amazing testers!

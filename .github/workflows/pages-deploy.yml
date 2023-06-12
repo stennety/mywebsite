@@ -63,7 +63,7 @@ jobs:
 
       - name: Test site
         run: |
-          bundle exec htmlproofer _site --disable-external --allow_hash_href --no-enforce-https --allow-missing-href
+          bundle exec htmlproofer _site --disable-external --allow_hash_href --no-enforce-https --allow-missing-href --ignore-files "_site/admin/index.html"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1

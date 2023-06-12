@@ -1,15 +1,16 @@
 ---
 title: How to test anything in 5 steps
 tags:
-- testing
-- quality
-- process
-date: 2022-08-15 00:00:00 +0100
+  - testing
+  - quality
+  - process
+date: '2022-08-15 00:00:00 +0100'
 categories:
-- Testing
+  - Testing
 redirect_from:
-- /how-to-test-anything-in-5-steps/
+  - /how-to-test-anything-in-5-steps/
 ---
+
 How to test anything:
 
 1. **Capture** what you know so far and build a model

@@ -1,14 +1,15 @@
 ---
 title: Software Testing Community
 tags:
-- community
-- testing
-date: 2022-06-16 00:00:00 +0100
+  - community
+  - testing
+date: '2022-06-16 00:00:00 +0100'
 categories:
-- Community
+  - Community
 redirect_from:
-- /software-testing-community/
+  - /software-testing-community/
 ---
+
 I have a lot to thank the Software Testing Community for, you are all a really amazing bunch of human beings!
 
 The community helps me to learn, challenges me, lifts my mood and even supports me when I'm looking for new opportunities. I've made friends, and been inspired. For this I'm very grateful.

@@ -1,16 +1,21 @@
 ---
 layout: post
 title: Collaborating to build better software
-description: A journey talking about testing and building better software though collaboration
+description: >-
+  A journey talking about testing and building better software though
+  collaboration
 image:
-  path: "/uploads/ben_ensemble_talk_header_1000x337.jpg"
+  path: /uploads/ben_ensemble_talk_header_1000x337.jpg
   width: 1000
   height: 337
-  alt: Ben dressed as an elf with a santa hat giving his talk at Automation Advocates
+  alt: >-
+    Ben dressed as an elf with a santa hat giving his talk at Automation
+    Advocates
 category: Testing
-tags:
-date: 2022-12-23 10:50 +0000
+tags: null
+date: '2022-12-23 10:50 +0000'
 ---
+
 
 ## A goal for growth
 

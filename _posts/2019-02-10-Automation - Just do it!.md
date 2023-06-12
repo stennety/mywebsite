@@ -1,11 +1,12 @@
 ---
 title: Automation - Just do it!
-date: 2019-02-10 10:00:00 +0000
+date: '2019-02-10 10:00:00 +0000'
 categories:
-- Automation
+  - Automation
 redirect_from:
-- /Automation-Just-do-it!/
+  - /Automation-Just-do-it!/
 ---
+
 It can be a daunting task to create an automation strategy, get resources signed off, heir or train automation engineers.
 
 But what is the alternative, and is it a good idea?

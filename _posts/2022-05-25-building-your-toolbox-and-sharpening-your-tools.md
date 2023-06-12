@@ -1,15 +1,16 @@
 ---
 title: Building your toolbox and sharpening your tools
 tags:
-- testing
-- automation
-- tools
-date: 2022-05-25 00:00:00 +0100
+  - testing
+  - automation
+  - tools
+date: '2022-05-25 00:00:00 +0100'
 categories:
-- How to
+  - How to
 redirect_from:
-- /building-your-toolbox-and-sharpening-your-tools/
+  - /building-your-toolbox-and-sharpening-your-tools/
 ---
+
 Too long, didn't read:
 
 * Tools can include mental models, methods or software

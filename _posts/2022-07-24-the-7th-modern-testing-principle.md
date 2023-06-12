@@ -1,13 +1,14 @@
 ---
 title: The 7th Principle of Modern Testing
 tags:
-- testing
-date: 2022-07-24 00:00:00 +0100
+  - testing
+date: '2022-07-24 00:00:00 +0100'
 categories:
-- Testing
+  - Testing
 redirect_from:
-- /the-7th-modern-testing-principle/
+  - /the-7th-modern-testing-principle/
 ---
+
 [Huib Schoots](https://twitter.com/huibschoots) recently Tweeted from [RTC - Romanian Testing Conference](https://twitter.com/RomaniaTesting), about a talk by [Conor Fitzgerald](https://twitter.com/conorfi), where he spoke about the Modern Testing Principles.
 
 ![](/uploads/tweet-about-principles-of-software-testing.PNG)

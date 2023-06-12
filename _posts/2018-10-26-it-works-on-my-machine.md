@@ -1,11 +1,12 @@
 ---
 title: It works on my machine
-date: 2018-10-26T00:00:00.000+00:00
+date: '2018-10-26T00:00:00.000Z'
 categories:
-- Testing
+  - Testing
 redirect_from:
-- /it-works-on-my-machine/
+  - /it-works-on-my-machine/
 ---
+
 So, you just found this great bug and it's returned "cannot reproduce", or you have been told "it works on my machine", classic right?
 
 As a tester, in this situation, it can be easy to get defensive. Am I being told I am making it up? Am I being disrespected, why should I raise bugs if they are not important enough to fix?

@@ -1,17 +1,17 @@
 ---
 title: Where to start bringing automation into your team
 tags:
-- automation
-date: 2022-11-01 00:00:00 +0000
+  - automation
+date: '2022-11-01 00:00:00 +0000'
 categories:
-- Automation
-description: '3 steps to get started bringing test automation into your team'
+  - Automation
+description: 3 steps to get started bringing test automation into your team
 image:
-  path: "/uploads/pexels-tara-winstead-8386434-10x14.jpg"
+  path: /uploads/pexels-tara-winstead-8386434-10x14.jpg
   height: 420
-  width: "1000"
-
+  width: '1000'
 ---
+
 [Krystina Prendergast](https://twitter.com/RuinAerlin) asked on Twitter:
 
 > You advocated to have automation added to your test team... and somehow got it approved with no idea what framework or tools you want to use, let alone an automation strategy. What is the first step you take?

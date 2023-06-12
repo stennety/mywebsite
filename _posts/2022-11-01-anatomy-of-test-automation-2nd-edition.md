@@ -1,21 +1,22 @@
 ---
 title: Anatomy of test automation 2nd Edition
 tags:
-- devops
-- cicd
-- infrastructure
-- automation
-date: 2022-11-01 00:00:00 +0000
+  - devops
+  - cicd
+  - infrastructure
+  - automation
+date: '2022-11-01 00:00:00 +0000'
 categories:
-- Automation
-description: Test automation is about more than code, it takes infrastructure, process
-  and strategy
+  - Automation
+description: >-
+  Test automation is about more than code, it takes infrastructure, process and
+  strategy
 image:
-  path: "/uploads/pexels-karolina-grabowska-7269622.jpg"
+  path: /uploads/pexels-karolina-grabowska-7269622.jpg
   height: 1000
-  width: "420"
-
+  width: '420'
 ---
+
 A year or so ago, I had some ideas about the broader topic of Automation, and how it takes more than a sequence of steps with some assertions to make it successful. My original post can be found here: [https://dev.to/dowenb/anatomy-of-test-automation-e9o](https://dev.to/dowenb/anatomy-of-test-automation-e9o "https://dev.to/dowenb/anatomy-of-test-automation-e9o")
 
 Rather then bring the original post over to my personal blog as is, I'm going to attempt to update it and make it easier to consume.

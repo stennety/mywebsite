@@ -1,15 +1,16 @@
 ---
 title: Why I'm excited for TestBash World
 tags:
-- community
-- conference
-- minastry of testing
-date: 2022-06-20 00:00:00 +0100
+  - community
+  - conference
+  - minastry of testing
+date: '2022-06-20 00:00:00 +0100'
 categories:
-- Conferences
+  - Conferences
 redirect_from:
-- /why-i-m-excited-for-testbash-world/
+  - /why-i-m-excited-for-testbash-world/
 ---
+
 I'm getting really excited now for [TestBash World](https://www.ministryoftesting.com/events/testbash-world-2022)! Let me tell you why.
 
 ## What is TestBash World?

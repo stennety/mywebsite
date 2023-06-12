@@ -1,14 +1,15 @@
 ---
 title: 'How to nominate someone for #TesterOfTheDay'
 tags:
-- community
-- tester of the day
-date: 2022-06-18 00:00:00 +0100
+  - community
+  - tester of the day
+date: '2022-06-18 00:00:00 +0100'
 categories:
-- Tester of The Day
+  - Tester of The Day
 redirect_from:
-- /how-to-nominate-someone-for-testeroftheday/
+  - /how-to-nominate-someone-for-testeroftheday/
 ---
+
 [Tester of The Day](https://www.testeroftheday.com/) is a daily celebration of the excellent contributions made to the [testing community](https://www.dowen.me.uk/posts/interviews-with-testers/). Winners are announced on Twitter and LinkedIn using the hash-tag #TesterOfTheday. On Twitter the [@TesterOfTheDay](https://twitter.com/testeroftheday) bot also re-tweets that hashtag.
 
 Winners are also listed on the Tester of The Day website, in the [Testers Hall of Fame](https://www.testeroftheday.com/)!

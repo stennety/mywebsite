@@ -1,15 +1,16 @@
 ---
 title: Testing for Developers
 tags:
-- testing
-- teams
-- industry
-date: 2021-11-08 00:00:00 +0000
+  - testing
+  - teams
+  - industry
+date: '2021-11-08 00:00:00 +0000'
 categories:
-- Testing for Developers
+  - Testing for Developers
 redirect_from:
-- /testing-for-developers/
+  - /testing-for-developers/
 ---
+
 ## Developers can't test and other lies
 
 Developers can't test, testers just break code and don't even use tools in their testing! After all Testers are just failed Developers, right?

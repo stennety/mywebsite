@@ -1,16 +1,17 @@
 ---
-title: Who is Ben Dowen, The Full Snack Tester?
+title: 'Who is Ben Dowen, The Full Snack Tester?'
 tags:
-- quality
-- bio
-- ben dowen
-- full snack tester
-date: 2022-10-01 00:00:00 +0100
+  - quality
+  - bio
+  - ben dowen
+  - full snack tester
+date: '2022-10-01 00:00:00 +0100'
 categories:
-- About Ben
+  - About Ben
 redirect_from:
-- /who-is-ben-dowen-the-full-snack-tester/
+  - /who-is-ben-dowen-the-full-snack-tester/
 ---
+
 Find out a bit more about Ben Dowen, the Full Snack Tester.
 
 ![](/uploads/pexels-mo-abrahim-3537844.jpg)

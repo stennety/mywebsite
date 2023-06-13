@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Golf in North Augusta, Georgia",
+					"text": "<p>New golf course <a href='https://cypressshoals.com/' target='_blank' rel='nofollow'>Cypress Shoals</a> in North Augusta, Georgia is currently under construction. The course is being designed by Tom Watson with an anticipated opening in 2024.  The property is adjacent to the Savannah River.  The greens will be made of miniverde, a type of grass that is known for its fast and firm conditions.</p><p>The new course is near the Augusta National Golf Club.  Also nearby is the Sumter National Forest and the Savannah River National Wildlife Refuge.</p>"
+				},
+			"location": {
+					"lat": 33.5375164,
+					"lon": -82.04204,
+					"zoom": 7
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=M9u4rAyet14",
+					"credit": "WRDW News 12"
+				}
+			}
+		]
+    }
+}

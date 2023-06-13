@@ -98,11 +98,11 @@
 		<th>Architect</th>
 		<th>Location</th>
                 <th>Country</th>               
-                <th>Date</th>
+                <th>Date</th> 
                 <th>Construction</th>
                 <th>Build</th> 
                 <th>Status</th>
-                <th>YouTube</th>
+                <th>YouTube</th> 
 		<th>Social</th>
                 <th>Budget</th> 
                 <th>History</th>
@@ -125,8 +125,8 @@
 		  {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
                   <td>{{ item.Budget }}</td>
                   <td>{{ item.History }}</td>
-                  <td>{{ item.DataCurated }} </td>
-                  <td>{{ item.Comments }} </td> 
+                  <td>{{ item.DataCurated }} </td> 
+                  <td>{{ item.Comments }} </td>
               </tr>
               {% endfor %}
             </tbody>

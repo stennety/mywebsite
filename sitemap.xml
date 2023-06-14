@@ -20,6 +20,10 @@
   <priority>1</priority>
 </url>
 <url>
+  <loc>https://fescue.github.io/Fox-Resort-Nova-Scotia</loc>
+  <priority>1</priority>
+</url>
+<url>
   <loc>https://fescue.github.io/Cayo-Largo/</loc>
   <priority>1</priority>
 </url>
@@ -30,9 +34,17 @@
 <url>
   <loc>https://fescue.github.io/Golf-La-Tempête</loc>
   <priority>1</priority>
-</url>    
+</url>   
+<url>
+  <loc>https://fescue.github.io/Cypress-Shoals-North-Augusta</loc>
+  <priority>1</priority>
+</url>   
 <url>
   <loc>https://fescue.github.io/TPC-Wisconsin/</loc>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://fescue.github.io/Trout-National/</loc>
   <priority>1</priority>
 </url>
 <url>
@@ -53,10 +65,6 @@
 </url>
 <url>
   <loc>https://fescue.github.io/Westport-Golf-Links/</loc>
-  <priority>1</priority>
-</url>
-<url>
-  <loc>https://fescue.github.io/Bohol-Golf/</loc>
   <priority>1</priority>
 </url>
 <url>

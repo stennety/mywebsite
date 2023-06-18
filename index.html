@@ -104,9 +104,9 @@
                 <th>Status</th>
                 <th>YouTube</th>
 		<th>Social</th>
-                <th>Budget</th> 
+                <th>Budget</th>
                 <th>History</th>
-                <th>Curated</th> 
+                <th>Curated</th>
                 <th>Comments</th>
               </tr>
           </thead>
@@ -118,7 +118,7 @@
                   {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %} 
 		      <td>{{ item.Country }}</td>
                   <td>{{ item.Date }}</td>
-		  <td>{{ item.Construction }}</td>
+		  <td>{{ item.Construction }}</td> 
 		  <td>{{ item.TypeOfJob }}</td>
                   <td>{{ item.Status }}</td>
                   {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}

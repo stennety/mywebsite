@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Cricket Replaces Golf",
+					"text": "<p><a href='https://www.facebook.com/p/Golf-Country-Club-of-Coxs-Bazar-100083363143981/' target='_blank' rel='nofollow'>Cox Bazar</a> currently has 9 holes in play.  The golf course is be designed by <a href='https://www.jansengolfdesign.com/blog/ramu-golf-coxs-bazar-gc-part-1/' target='_blank' rel='nofollow'>Paul Jansen</a>.  Jansen has been a longtime design associate for Nick Faldo Deisgn.  Turfgrass choice was paspalum.<p><a href='https://www.daily-sun.com/post/536632/A-tale-of-a-nearly-forgotten-int%E2%80%99l-stadium' target='_blank' rel='nofollow'>Cricket</a> has replaced the golf course as the grounds have been leased out to construction of a new stadium.</p>"
+				},
+			"location": {
+					"lat": 46.8901706,	
+					"lon": -124.129763,
+					"zoom": 7
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=0scCZur0bnU",
+					"credit": "Golf Bangladesh"
+				}
+			}
+		]
+    }
+}

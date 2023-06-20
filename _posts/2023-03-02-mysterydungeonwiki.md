@@ -5,7 +5,7 @@ title: The Mystery Dungeon Franchise Wiki joins the GWN
 published: true
 ---
 ![Mystery Dungeon Franchise Wiki]({{site.baseurl}}/images/mysterydungeon.png)
-Update: membership has been resigned.
+Update: The MDFW has resigned their membership of the GWN.
 
 We are pleased to welcome the **Mystery Dungeon Franchise Wiki** as the newest member of the Gaming Wiki Network.
 

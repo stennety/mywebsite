@@ -5,6 +5,8 @@ title: The Mystery Dungeon Franchise Wiki joins the GWN
 published: true
 ---
 ![Mystery Dungeon Franchise Wiki]({{site.baseurl}}/images/mysterydungeon.png)
+Update: The MDFW has resigned their membership of the GWN.
+
 We are pleased to welcome the **Mystery Dungeon Franchise Wiki** as the newest member of the Gaming Wiki Network.
 
 The Mystery Dungeon Franchise Wiki originated as the "Shiren the Wanderer Wiki" on Gamepedia.com, a fork of the original Shiren the Wanderer Wikifoundry Wiki (née Wetpaint Wiki), founded by karmarogue on Wetpaint.com on March 11, 2008. 

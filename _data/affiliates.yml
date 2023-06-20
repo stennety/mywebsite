@@ -21,6 +21,13 @@
   logo: "/images/logos/PaRappa.party.png"
   url: "https://parappa.party/"
 - affiliate:
+  id: "sanriowiki"
+  name: "Sanrio Wiki"
+  description: "Sanrio Wiki is an independently-hosted wiki for the Hello Kitty and Sanrio franchise. It was founded on April 14, 2015."
+  logo: "/images/logos/SanrioWiki.png"
+  url: "https://sanriowiki.com"
+  mainpage: "Sanrio_Wiki"
+- affiliate:
   id: "seiwa"
   name: "Square Enix Independent Wiki Alliance (SEIWA)"
   description: "The Square Enix Indpendent Wiki Alliance, or SEIWA, is a network of independent wikis established in 2011 and focused on providing high-quality coverage of Square Enix and its content."
@@ -36,10 +43,3 @@
   url: "https://spongebobwiki.org/"
   mainpage: "Main_Page"
   discord: "https://discord.com/invite/RgzmUBMPGP"
-- affiliate:
-  id: "sanriowiki"
-  name: "Sanrio Wiki"
-  description: "Sanrio Wiki is an independently-hosted wiki for the Hello Kitty and Sanrio franchise. It was founded on April 14, 2015."
-  logo: "/images/logos/SanrioWiki.png"
-  url: "https://sanriowiki.com"
-  mainpage: "Sanrio_Wiki"

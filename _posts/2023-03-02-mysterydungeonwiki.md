@@ -2,7 +2,7 @@
 layout: post
 date: 2023-03-02
 title: The Mystery Dungeon Franchise Wiki joins the GWN
-published: true
+published: false
 ---
 ![Mystery Dungeon Franchise Wiki]({{site.baseurl}}/images/mysterydungeon.png)
 We are pleased to welcome the **Mystery Dungeon Franchise Wiki** as the newest member of the Gaming Wiki Network.

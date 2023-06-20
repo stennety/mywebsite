@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Resort Golf in Egypt",
+					"text": "<p>Somabay Golf Resort is adding a second 18-hole championship golf course designed by Tim Lobb, EIGCA.  The property is located in Somabay, Egypt, on the Red Sea coast.  The second course is on the inland portion of the resort on desert and mountain view terrain.</p><p>Tim Lobb is a British golf course architect and a member of the European Institute of Golf Course Architects (EIGCA). Tim Lobb's design philosophy focuses on sustainability by routing golf courses through the natural environment while providing an enjoyable playing experience for golfers of all golf handicap skill levels.  Unique, memorable golf courses with the preservation of natural resources minimizing water usage preserving native flora and fauna are all design impacts from Lobb.</p>"
+				},
+			"location": {
+					"lat": 26.7342848,
+					"lon": 34.0006773,
+					"zoom": 4
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=5l9PTphGnac",
+					"credit": "Soma Bay Red Sea"
+				}
+			}
+		]
+    }
+}

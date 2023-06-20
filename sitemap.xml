@@ -50,7 +50,11 @@
 <url>
   <loc>https://fescue.github.io/Golf-La-Tempête</loc>
   <priority>1</priority>
-</url>   
+</url>
+<url>
+  <loc>https://fescue.github.io/Golf-National-Romania</loc>
+  <priority>1</priority>
+</url>
 <url>
   <loc>https://fescue.github.io/Cypress-Shoals-North-Augusta</loc>
   <priority>1</priority>

@@ -1,0 +1,21 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Avanzada Golf & Ranch Club",
+					"text": "<p>Avanzada Golf & Ranch Club is a private golf club in Aledo, Texas, about 20 miles west of downtown Fort Worth.  The golf course is designed by golf course architect <a href='https://asgca.org/architect/jlipe/' target='_blank' rel='nofollow'>Jim Lipe, ASGCA</a> and <a href='https://www.pgatour.com/player/23353/j.j-henry' target='_blank' rel='nofollow'>JJ Henry from the PGA Tour</a>.  The course is an 18 hole championship golf course with rolling topography.</p><p>The residential community at Avanzada Golf & Ranch Club are designed to blend in with the natural surroundings and offer views of the golf course and surrounding countryside.  The club has a variety of family amenities, including a pool, tennis courts, and a playground.</p><p>Jim Lipe was a senior design associate with Nicklaus Design for many years including golf courses at Cabo del Sol, Castle Pines, Punta Mita, Southern Trace.</p>"
+			},
+			"location": {
+					"lat": 32.7771101,
+					"lon": -97.7648794,
+					"zoom": 6
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=1AmTlrnGDQ4",
+					"credit": "Avanzada Golf"
+				}
+			}
+		]
+    }
+}

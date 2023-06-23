@@ -1,0 +1,20 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Panther National",
+					"text": "<p>Panther National is a private golf club in Palm Beach Gardens, Florida.  The golf course is designed by <a href='https://www.nicklaus.com/' target='_blank' rel='nofollow'>Jack Nicklaus</a> with <a href='https://en.wikipedia.org/wiki/Justin_Thomas' target='_blank' rel='nofollow'>Justin Thomas</a> and is set on 200 acres of land.  The professional tees stretch past 8,000 yards.  The topography has movement and steep elevation changes.</p><p>Justin Thomas is a professional golfer on the PGA Tour who has also become a golf course architect. He has collaborated with Jack Nicklaus on his first design at Panther National. Jack Nicklaus is one of the most prolific golf course architects, designing over 425 courses in 45 countries.  His design strategy/style is known for their beauty, challenge, and fairness.</p>"
+				},
+				"location": {
+					"lat": 26.683846,
+					"lon": -80.179803,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=q0A_-vxsefI"
+				}
+			}
+		]
+    }
+}

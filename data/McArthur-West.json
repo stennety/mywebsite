@@ -1,0 +1,20 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "McArthur West",
+					"text": "<p><a href='https://www.mcarthurgolf.com/' target='_blank' rel='nofollow'>McArthur Golf Club</a> is a private golf club in Hobe Sound, Florida. The first golf course was designed by Tom Fazio with Nick Price opening in 2002.  Greens are Tifeagle ultra-dwarf bermudagrass.  Fairways are Tifway 419 bermudagrass.</p><p>The 2nd golf course at McArthur is named McArthur West and is being built by <a href='https://www.cooreandcrenshaw.com/current-projects.html' target='_blank' rel='nofollow'>Bill Coore and Ben Crenshaw</a>.  Coore Crenshaw is known for their minimalist design approach.  The course is natural and being designed to blend in with the natural surroundings utilizing sand dunes and native wetlands.  McArthur is close to nearby Medalist Club.</p>"
+			},
+			"location": {
+					"lat": 27.1050263,
+					"lon": -80.1728431,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=Xr0Bf9kfhxA"
+				}
+			}
+		]
+    }
+}

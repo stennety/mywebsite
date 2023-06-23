@@ -102,7 +102,7 @@
                 <th>Construction</th> 
                 <th>Build</th> 
                 <th>Status</th> 
-                <th>YouTube</th>
+                <th>YouTube</th> 
 		<th>Social</th> 
                 <th>Budget</th>
                 <th>History</th> 
@@ -117,7 +117,7 @@
                   <td>{{ item.Architect }}</td> 
                   {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %} 
 		      <td>{{ item.Country }}</td>
-                  <td>{{ item.Date }}</td> 
+                  <td>{{ item.Date }}</td>
 		  <td>{{ item.Construction }}</td>
 		  <td>{{ item.TypeOfJob }}</td>
                   <td>{{ item.Status }}</td>
@@ -167,3 +167,4 @@
    	 <p><a href="https://fescue.github.io/Contact-Us">Contact Us</a></p>
 	</nav>
 </footer>
+</html>

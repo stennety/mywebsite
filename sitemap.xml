@@ -28,6 +28,10 @@
   <priority>1</priority>
 </url>
 <url>
+  <loc>https://fescue.github.io/Rodeo-Dunes-Golf</loc>
+  <priority>1</priority>
+</url>    
+<url>
   <loc>https://fescue.github.io/Panther-National</loc>
   <priority>1</priority>
 </url>  

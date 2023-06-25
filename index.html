@@ -71,55 +71,54 @@
 		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
 		<script type="text/javascript" class="init"></script>
 </head>
-
 <BODY>	
-     <H1>  <p><a href="https://fescue.github.io/iMap">Preview Play - New Course</a></p> </H1>
-      <div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
-				<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
-			</div>
-			<div class="col-md-4">
-				<iframe width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
-				<h4>Tom Doak - Pinehurst #10</h4>
-			</div>
-			<div class="col-md-4">
-				<iframe width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
-				<h4>Gil Hanse - PGA Frisco</h4>
-			</div>
-		</div>
-     </div>
+<H1>  <p><a href="https://fescue.github.io/iMap">Preview Play - New Course</a></p> </H1>
+ <div class="container">
+  <div class="row">
+   <div class="col-md-4">
+	<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
+	<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
+   </div>
+   <div class="col-md-4">
+	<iframe width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
+	<h4>Tom Doak - Pinehurst #10</h4>
+   </div>
+   <div class="col-md-4">
+	<iframe width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
+ 	<h4>Gil Hanse - PGA Frisco</h4>
+   </div>
+  </div>
+</div>
 	
-     <table id="golf" class="display" width="100%">
-          <thead>
-              <tr> 
-		<th data-priority="1">Golf Course</th>
-		<th>Architect</th>
-		<th>Location</th>
-                <th>Country</th>
-                <th>Date</th>
-                <th>Construction</th>
-                <th>Build</th>
-                <th>Status</th>
-                <th>YouTube</th>
-		<th>Social</th>
-                <th>Budget</th> 
-                <th>History</th>
-                <th>Curated</th>
-                <th>Comments</th>
-              </tr>
-          </thead>
-          <tbody>
-              {% for item in site.data.allGolf %}<tr>
-                {% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td> {% else %}<td></td>{% endif %}
-		{% if item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td> {% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
-	      </tr>{% endfor %}
-            </tbody>
-     </table>
+<table id="golf" class="display" width="100%">
+<thead>
+ <tr> 
+ <th data-priority="1">Golf Course</th>
+ <th>Architect</th>
+ <th>Location</th>
+ <th>Country</th>
+ <th>Date</th>
+ <th>Construction</th>
+ <th>Build</th>
+ <th>Status</th>
+ <th>YouTube</th>
+ <th>Social</th>
+ <th>Budget</th> 
+ <th>History</th>
+ <th>Curated</th>
+ <th>Comments</th>
+</tr>
+</thead>
+<tbody>
+ {% for item in site.data.allGolf %}<tr>
+ {% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td> {% else %}<td></td>{% endif %}
+ {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td> {% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
+ </tr>{% endfor %}
+</tbody>
+</table>
 
 		 
-	<script>
+<script>
 	$(document).ready(function() {
 		var table = $('#golf').DataTable( {
 			responsive: true,
@@ -135,16 +134,14 @@
 	 
 		new $.fn.dataTable.FixedHeader( table );
 	} );
-	</script>
+</script>
 
-	<H3>  	<p><a href="https://fescue.github.io/incomplete">Waiting Room - Permits - NLE</a></p>
+<H3>  	<p><a href="https://fescue.github.io/incomplete">Waiting Room - Permits - NLE</a></p>
 		<p><a href="https://fescue.github.io/2021">2021 archive - Construction complete</a></p>
 		<p><a href="https://fescue.github.io/2020">2020 archive - Construction complete</a></p> 
 		<p><a href="https://fescue.github.io/2019">2019 archive - Construction complete</a></p>
-	</H3>
-
-	<!-- <H4>* denotes planning stage, i.e. start construction date, not opening date.</H4> -->
-	<H4>Data Curated is the most recent date a golf course project has been reviewed.</H4>
+</H3>
+<H4>Data Curated is the most recent date a golf course project has been reviewed.</H4>
 </BODY>
 <footer>
 	  <!-- <p></p> -->

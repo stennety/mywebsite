@@ -14,13 +14,33 @@
 		  gtag('config', 'G-CE7ZF0C1GD');
   </script>
   <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
-	
+	 <style>
+		.container {
+		  width: 100%;
+		  max-width: 960px;
+		  margin: 0 auto;
+		}
+
+		.row {
+		  display: flex;
+		  flex-wrap: wrap;
+		}
+
+		.col-md-6 {
+		  flex: 1 0 25%;
+		  max-width: 25%;
+		  margin-left: 50px;
+		  margin-right: 50px;
+		  padding: 0 10px;
+		}
+	</style> 
+	 
   	  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">	
-	  <meta name="description" CONTENT="2021 archive Golf Courses Architecture New Renovation Restoration Design Construction">
+	  <meta name="description" CONTENT="2019 archive Golf Courses Architecture New Renovation Restoration Design Construction">
 	  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
  	  <meta name="msvalidate.01" content="F27967019E01C1777A8C10B926D4619A" />
-	  <title>2021 Golf Courses - Golf Architecture - Routing Renovation Restoration</title>
+	  <title>2019 Golf Courses - Golf Architecture - Routing Renovation Restoration</title>
 		<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
@@ -50,49 +70,58 @@
 		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
 		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
 		<script type="text/javascript" class="init"></script>
+
 </head>
 
-<BODY>	
-	
+ <BODY>	
      <H1>Golf Courses Opened in 2021</H1>
 	<div class="container">
 		<div class="row">
-			<div class="video-container">
+			<div class="col-md-6">
 				<iframe title="Congressional Blue" width="270" height="200" src="https://www.youtube.com/embed/2sSosWXHeoI" frameborder="150" allowfullscreen></iframe>
 				<h4>TheGCSAATV - Congressional Blue</h4>
 			</div>
-			<div class="video-container">
+			<div class="col-md-6">
 				<iframe title="Marco Simone" width="270" height="200" src="https://www.youtube.com/embed/lG-OAQfUFGQ" frameborder="150" allowfullscreen></iframe>
 				<h4>European Golf Design - Marco Simone</h4>
 			</div>
 		</div>
 	</div>
-		  
+
+	
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
+		<th data-priority="1">Golf Course</th>
+		<th>Architect</th>
+	        <th>YouTube</th> 
                 <th>Country</th>
-                <th>Location</th>
-                <th data-priority="1">Golf Course</th>
-                <th>Date</th>
-                <th>Architect</th>
+                <th>Location</th>               
                 <th>Construction</th>
                 <th>Build</th>
-                <th>YouTube</th>
 		<th>Social</th>
                 <th>Budget</th>
-                <th>History</th>
-                <th>Curated</th>
+                <th>History</th> 
                 <th>Comments</th>
               </tr>
           </thead>
           <tbody>
-
-              {% for item in site.data.all2021 %} <tr>
-                    <td>{{ item.Country }}</td> {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %} {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
-                    <td>{{ item.Date }}</td> <td>{{ item.Architect }}</td> <td>{{ item.Construction }}</td> <td>{{ item.TypeOfJob }}</td> {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
-		    {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
-                    <td>{{ item.Budget }}</td> <td>{{ item.History }}</td> <td>{{ item.DataCurated }} </td> <td>{{ item.Comments }} </td> </tr>
+		  <tr>
+		  
+              {% for item in site.data.all2021 %}
+		<tr>
+                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
+                    <td>{{ item.Architect }}</td> 
+	             {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
+                    <td>{{ item.Country }}</td>
+                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
+                    <td>{{ item.Construction }}</td>
+                    <td>{{ item.TypeOfJob }}</td>	  
+		    {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}			  
+                    <td>{{ item.Budget }}</td>
+                    <td>{{ item.History }}</td>
+                    <td>{{ item.Comments }} </td> 
+		</tr>
               {% endfor %}
             </tbody>
      </table>
@@ -117,20 +146,16 @@
 	</script>
 
 	<H3>  	
-		<p><a href="https://fescue.github.io/">Current Year</a></p>
 		<p><a href="https://fescue.github.io/incomplete">Waiting Room - Permits - NLE</a></p>
-		<p><a href="https://fescue.github.io/2021">2021 archive - Construction complete</a></p>
 		<p><a href="https://fescue.github.io/2020">2020 archive - Construction complete</a></p> 
 		<p><a href="https://fescue.github.io/2019">2019 archive - Construction complete</a></p>
 	</H3>
-
-	<!-- <H4>* denotes planning stage, i.e. start construction date, not opening date.</H4> -->
-	<H4>Data Curated is the most recent date a golf course project has been reviewed.</H4>
-</BODY>
-<footer>
+ </BODY>
+ <footer>
 	  <!-- <p></p> -->
 	<nav>
    	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy">Privacy Policy</a></p>
    	 <p><a href="https://fescue.github.io/about">Contact Us</a></p>
 	</nav>
-</footer>
+ </footer>
+</html>

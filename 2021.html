@@ -75,6 +75,23 @@
               </tr>
           </thead>
           <tbody>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/2sSosWXHeoI" frameborder="150" allowfullscreen></iframe>
+					<h4>Congressional Blue</h4>
+				</div>
+				<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/lG-OAQfUFGQ" frameborder="150" allowfullscreen></iframe>
+					<h4>Marco Simone</h4>
+				</div>
+				<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/watch?v=WfPlvjs2qZg" frameborder="150" allowfullscreen></iframe>
+					<h4>Royal North Devon Golf Club</h4>
+				</div>
+			</div>
+		</div>
+		  
               {% for item in site.data.all2021 %} <tr>
                     <td>{{ item.Country }}</td> {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %} {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
                     <td>{{ item.Date }}</td> <td>{{ item.Architect }}</td> <td>{{ item.Construction }}</td> <td>{{ item.TypeOfJob }}</td> {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}

@@ -102,7 +102,6 @@
 		<th>Social</th>
                 <th>Budget</th>
                 <th>History</th> 
-                <th>Curated</th>
                 <th>Comments</th>
               </tr>
           </thead>
@@ -123,7 +122,6 @@
 		   <td><a href="https://www.instagram.com/princesgolfclub/">Prince's</a> </td>			  
                     <td></td>
                     <td>Campbell Morrison</td>
-                    <td>2020-05-02 </td> 
                     <td>Dunes 9 & Shore 9 </td> 
                   </tr>
 		  
@@ -139,7 +137,6 @@
 		    {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}			  
                     <td>{{ item.Budget }}</td>
                     <td>{{ item.History }}</td>
-                    <td>{{ item.DataCurated }} </td> 
                     <td>{{ item.Comments }} </td> 
 		</tr>
               {% endfor %}

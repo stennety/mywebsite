@@ -6,10 +6,10 @@ layout: default
 <p>A place for new projects, code demos and general webby musings to appear for you to read. Subscribe to my posts via <abbr title="Really Simple Syndication">RSS</abbr>.</p>
 
 {% for post in paginator.posts %}
-<article class="wrap-preview">
+<section class="wrap-preview">
     <h1 class="wrap-preview--title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <p>{{ post.excerpt | strip_html | default: post.description }}</p>
-</article>
+</section>
 {% endfor %}
 
 <nav>

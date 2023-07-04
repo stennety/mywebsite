@@ -344,7 +344,7 @@ dt {
     }
 }
 
-:is(#ideal-world, #game-group, #thomas-cook) + p {
+p:has(> em > strong) {
     margin: -1em 0 .75rem;
     color: var(--col-highlight);
 }

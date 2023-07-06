@@ -349,7 +349,7 @@ p:has(> em > strong) {
     color: var(--col-highlight);
 }
 
-h2 em, h3 em {
+:is(h2, h3) em {
     font-size: .875em;
     font-family: var(--font-body);
 }

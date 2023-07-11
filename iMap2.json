@@ -35,7 +35,7 @@
 			},{
 				"text": {
 					"headline": "Cabot Citrus Farms - Barrens",
-					"text": "<p>Cabot Barrens built by Kyle Franz in Florida and expected late 2024.  Adjacent golf course Cabot Oaks built by Kyle Franze, Mike Nuzzo, Ran Morrissett.  Cabot 21 short course and practice range will be designed by Mike Nuzzo.</p>"
+					"text": "<p>Cabot Barrens built by Kyle Franz in Florida and expected late 2024.  Adjacent golf course <a href='https://fescue.github.io/Cabot-Oaks-Golf/'>Cabot Oaks</a> built by Kyle Franze, Mike Nuzzo, Ran Morrissett.  Cabot 21 short course and practice range will be designed by Mike Nuzzo.</p>"
 				},
 				"location": {
 					"lat": 28.6829807,
@@ -230,7 +230,7 @@
 			},{
 				"text": {
 					"headline": "Wicker Point",
-					"text": "<p><a href='https://fescue.github.io/Lake-Martin-Wicker-Point-Golf/' target='_blank' rel='nofollow'>Wicker Point Golf Club</a> on Lake Martin in Alabama, USA designed by Coore Crenshaw with construction services provided by Landscapes Unlimited opens in September 2023</p>"
+					"text": "<p><a href='https://fescue.github.io/Lake-Martin-Wicker-Point-Golf/'>Wicker Point Golf Club</a> on Lake Martin in Alabama, USA designed by Coore Crenshaw with construction services provided by Landscapes Unlimited opens in September 2023</p>"
 				},
 				"location": {
 					"lat": 32.7947244,

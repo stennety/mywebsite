@@ -11,9 +11,13 @@ As a research assistant, I have gained extensive experience in data collection, 
 In addition to my academic work, I have practical experience as a database management intern, where I utilized tools like MySQL and Microsoft Visio to streamline data processes and create impactful business analytics reports. I have led and collaborated on diverse group projects, ranging from designing payroll management systems to handling big geospatial data using Hadoop and Spark.
 
 **TECHNICAL SKILLS**
+
 Programming & Tools: Python, R, SQL, SAS, Stata, Tableau, Alteryx, Appian, UiPath, ACCELQ
+
 Database & Big Data: MySQL, PostgreSQL, Mango DB, Amazon RDS, Hadoop, Sqoop, Hive, Impala, Pig, Spark
+
 Certification: Graduate Certificate in Applied Machine Learning at UTD, AWS Certified Cloud Practitioner, Google Data Analytics, Alteryx Designer Core Certificate, Appian Certified Associate Developer, ACCELQ Automation Engineer
+
 Languages: English, Chinese, Japanese
 
 Please learn more about me and my projects via [my resume](https://minshimia.github.io/Resume_Min_Shi.pdf), [my LinkedIn profile](https://www.linkedin.com/in/min-mia-shi/) and [GitHub website](https://minshimia.github.io).

@@ -20,18 +20,6 @@ Please learn more about me and my projects via [my resume](https://minshimia.git
 
 If you're interested in connecting or discussing potential collaborations, I would love to hear from you. Let's leverage the power of data to drive meaningful insights and make a positive impact together.
 
-
-### TECHNICAL SKILLS
-Programming: Python, R, SQL, Stata, SAS
-
-Visualization: Tableau, Jupyter Notebook, Excel Charts, R Shiny
-
-Database & Big Data: MySQL, PostgreSQL, Mango DB, Amazon RDS, Hadoop, Sqoop, Hive, Impala, Pig, Spark
-
-Certification: Graduate Certificate in Applied Machine Learning at UTD, AWS Certified Cloud Practitioner Certification, Alteryx Designer Core Certification
-
-Languages: English, Chinese, Japanese
-
 ### Contact me
 
 [minmiashi@gmail.com](mailto:minmiashi@gmail.com)

@@ -47,6 +47,47 @@ function mentionurl(url) {
 }
 
 /**
+ * @function validUrl
+ * @param {URL} link
+ * @returns {Boolean}
+ */
+function validUrl(link) {
+  if (typeof URL.canParse === 'function') {
+    return URL.canParse(link) && validProtocol(link);
+  } else { 
+    try {
+      return new URL(link) && validProtocol(link);
+    } catch(err) {
+      console.error(err);
+      return false;
+    };
+  }
+}
+
+/**
+ * Test protocol becase canParse() doesnt catch javascript: links
+ * @function validProtocol
+ * @param {URL} link
+ * @returns {Boolean}
+ */
+function validProtocol(link) {
+  return ['https:', 'http:'].includes(new URL(link).protocol);
+}
+
+/**
+ * @function cleanUrl - returns a cleaned URL
+ * @param {URL} url
+ * @returns {string | null}
+ */
+function cleanUrl(url) {
+  if ( validUrl(url) ) {
+    return encodeURI(url);
+  } else {
+    return null;
+  }
+}
+
+/**
  * @function Mentionby - Return mention name OR URL host name
  * @param {object} props 
  * @param {string} props.name
@@ -54,11 +95,11 @@ function mentionurl(url) {
  * @returns {string}
  */
 function Mentionby(props) {
-    if (props.name) {
-        return html`<a href="${props.url}" rel="nofollow ugc">${props.name}</a> (${mentionurl(props.url)})`;
-    } else {
-        return html`<a href="${props.url}" rel="nofollow ugc">${mentionurl(props.url)}</a>`;
-    }
+  if (props.name) {
+    return html`<a href="${cleanUrl(props.url)}" rel="nofollow ugc">${props.name}</a> (${mentionurl(props.url)})`;
+  } else {
+    return html`<a href="${cleanUrl(props.url)}" rel="nofollow ugc">${mentionurl(props.url)}</a>`;
+  }
 }
 
 /**

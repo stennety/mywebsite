@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /short
+Disallow: /about

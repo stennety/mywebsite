@@ -4,14 +4,16 @@ title: Sabbatical Week 1 - Vietnam Visa Nightmares and Salvaging the Trip
 excerpt: My Vietnam visa was denied at the gate, but I managed to salvage the trip and spend a few days in Japan and Taiwan while waiting for a new one to get processed.
 ---
 
+# Days 1-2: Shit hits the fan
+
 I was so prepared for this trip. In February, I applied for and got my visa, booked my flights,
 made a rough itinerary, and booked a few days in a hotel. What could go wrong?
 
 I had an uneventful flight to LAX, grabbed dinner there, then leisurely made my way to the gate.
 
 "Passport and visa, please," the gate agent said. I handed them over. 
-She looked for a moment, then a puzzled look came over her face.
-She pulled a coworker over, asked him something quietly, he looked, and nodded.
+She looked at them for a moment, then a puzzled expression came over her face.
+She pulled a coworker over and asked him something quietly. He looked at my documents, and nodded in agreement.
 
 "Your birthday doesn't match your passport," she said. She showed me.
 
@@ -45,6 +47,8 @@ pretty early. As I drifted off, I felt grateful for everyone who had
 helped me today--from the library security guards who got me the library card to the guy at the hotel who upgraded my room for free.
 I slept like a rock.
 
+# Day 3: Tokyo, Japan
+
 The flight to Japan was about 10 hours. It was during the day, so I didn't get much sleep. I mostly
 read and played Advance Wars on my Switch.
 
@@ -70,6 +74,8 @@ I was tempted to visit a maid cafe, a staple of Akihabara, for the novelty of it
 6 hours, which is about what I expected, given the jetlag. I grabbed a surprisingly delicious breakfast
 at the hotel before heading back to the airport.
 
+# Days 3-7: Taipei, Taiwan
+
 I landed in Taipei around 11:30 am. I originally planned to stash my luggage somewhere and hunt for a hotel, but saw that
 the lockers cost 80 dollars. I learned, to my slight embarrassment, shortly thereafter that Taiwan's currency is also called the dollar
 and is much less valuable than the US dollar. I found a cheap hotel about half a mile away and set off for it on foot with all my stuff.
@@ -86,9 +92,9 @@ I spent the next few days exploring Taipei while waiting for my visa to get proc
 * Meeting Mickael for dinner a couple times and hearing about his experience living here.
 * Hiking up to Elephant Mountain and getting a great view of the city.
 * Visiting Daan Nature Park. There was some amazing wildlife here.
-* Eating stinky tofu at Shenkeng Old Street. It tasted like it smelled. Essence of dirty socks.
+* Eating stinky tofu at Shenkeng Old Street. It tasted like it smelled: Essence of dirty socks.
 * Accidentally setting off the fire alarm at my hotel with my shower.
-* Learning like two words of Chinese (hello and thank you).
+* Learning all of two words of Chinese (hello and thank you).
 
 On Nicole's flight, she sat next to someone who'd had the exact same visa issues as I had, and had found a private company 
 which expedited the visa. I'd seen things along these lines on Google, but it always struck me as a scam. But having this validation
@@ -96,28 +102,27 @@ from someone else, I decided to give it a shot. I paid $300 for the expedited vi
 I was so grateful for this, as it had been nearly impossible to get ahold of anyone at Vietnam immigration. They promised to have 
 my visa processed by the next business day. I was so relieved and immediately booked a budget flight with Tigerair to Da Nang.
 
-Getting on the flight ended up being a total headache. They needed my visa printed, so I ran to 711 and struggled to get the printer to work.
-It was completely in Chinese with no English option. Finally got it with help from a cashier. Then, my luggage ended up being over the weight limit,
+Getting on the flight ended up being a headache. They needed my visa printed, so I ran down the escalator to 7/11 
+and struggled to get the printer to work. It was completely in Chinese with no English option. Finally got it with help from a cashier. Then, my luggage ended up being over the weight limit,
 resulting in a $150 fee on a $200 flight. I was hemorrhaging so much money by this point to just fucking get to Vietnam that I just
 shrugged exasperatedly and paid it. Then they needed return flights booked, so I hurriedly booked those. The transaction ended up 
 going through twice on my phone. I got it refunded later, but yeah, headache.
 
-I landed in Da Nang at 5:30 pm. Nicole was already in Hoi An and had booked a driver for me. It was a relaxing, 45-minute drive down there.
-Nicole and I got happy hour and spent the evening wandering around the beautiful, lantern-lit Hoi An waterfront. We ate some delicious streed food for dinner.
+# Day 8: Hoi An, Vietnam
 
-The next morning, our driver took us up to Da Nang and I met with Julie's birth family. It was 
+I landed in Da Nang at 5:30 pm. Nicole was already in Hoi An and had booked a driver for me. It was a relaxing, 45-minute drive down there.
+We spent the evening wandering around the beautiful, lantern-lit Hoi An waterfront and ate some delicious street food for dinner.
+
+The next morning, our driver took me up to Da Nang and I met with Julie's birth family. It was 
 an incredibly emotional, loving, meaningful time with them, one that I'll remember the rest of my life.
 I was able to set up a FaceTime call with Julie. This was the first time she had seen her mom since she was 18 months old.
 We learned during this conversation that her mother lived on some farmland about 45 minutes' drive from Da Nang. She kept chickens.
 As a child, her mother struggled with mental illness, and she herself had been adopted by her aunt and uncle. The farmland she
 lived on belonged to them.
 
-Nicole and I spent the afternoon exploring Marble Mountain, a favorite spot from my last visit to Vietnam.
+We spent the afternoon exploring Marble Mountain, a favorite spot from my last visit to Vietnam.
 One of the things I remembered most starkly was climbing all of the stairs to get to the temples. Funnily enough, they
-had built an elevator in 2011. It totally felt like cheating, so we took the stairs.
+had built an elevator in 2011. It totally felt like cheating, so I took the stairs.
 
 We grabbed drinks in Hoi An that evening. Afterwards, we wandered around more of the shops in the old town. We stumbled 
-across a shop that had some good-looking tailored clothing. I ordered a shirt made, and Nicole ordered a couple dresses.
-
-
-To be continued...
+across a shop called the "Man Emporium" that had some good-looking tailored clothing. I ordered two shirts, and Nicole ordered a couple dresses.

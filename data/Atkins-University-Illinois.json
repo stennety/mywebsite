@@ -3,17 +3,17 @@
         "slides": [
 			{
 				"text": {
-						“headline”: “Atkins Golf Club at the University of Illinois”, 
-						“text”: “<p>Atkins Golf Club, formerly Stone Creek Golf Club, is the home of the University of Illinois NCAA Athletics Fighting Illini Men’s and Women’s golf teams.  The original Dick Nugent design was enhanced in 2021 by <a href='https://www.jdrewrogers.com/' target='_blank' rel='nofollow'>Drew Rogers</a> with a $5 million renovation to create an 18-hole public championship golf course.  Construction decisions were bentgrass greens and fairways with make Atkins Golf Club a good training ground for collegiate golfers.</p>"
+					“headline”: “Atkins Golf Club”,
+					“text”: “<p>Atkins Golf Club, formerly Stone Creek Golf Club, is the home of the University of Illinois NCAA Athletics Fighting Illini Men’s and Women’s golf teams.  The original Dick Nugent design was enhanced in 2021 by <a href='https://www.jdrewrogers.com/' target='_blank' rel='nofollow'>Drew Rogers</a> with a $5 million renovation to create an 18-hole public championship golf course.  Construction decisions were bentgrass greens and fairways with make Atkins Golf Club a good training ground for collegiate golfers.</p>"
 				},
 				"location": {
-						“lat”: 40.0936, 
-						“lon”: -88.2272, 
-						“zoom”: 10 
+					“lat”: 40.0936,
+					“lon”: -88.2272,
+					“zoom”: 8
 				},
 				"media": {
-						“url”: “https://www.youtube.com/watch?v=Gem3aqYS808”, 
-						“credit”: “Fighting Illini Athletics” 
+					“url”: “https://www.youtube.com/watch?v=Gem3aqYS808”,
+					“credit”: “Fighting Illini Athletics”
 				}
 			}
 		]

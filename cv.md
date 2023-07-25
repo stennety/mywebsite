@@ -46,7 +46,7 @@ I want to form a key part of a team and actively participate in moving a company
 
 ## Ideal Shopping Direct - Web Designer _29 months_
 
-**idealworld.tv, createandcraft.com**
+**[idealworld.tv](https://en.wikipedia.org/wiki/Ideal_World), createandcraft.com**
 
 *	Present through two major site redesigns involving the creation of page templates, design and mockup of basket and checkout process, working with development team, user acceptance testing (UAT).
 *	Creation of web advertising for [events and promotions](/work/christmas-cracker/). Generation of high distribution email shots and relevant landing pages, microsites, competition pages, [customer buying guides](/work/ringsize-guide/) and [direct mail](/work/christmas-cracker/).

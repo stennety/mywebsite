@@ -4,7 +4,8 @@
   "description": "When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jekyll build && tinacms build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/dowenb/dowenb.github.io#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.5.17",
-    "tinacms": "^1.5.8"
+    "@tinacms/cli": "^1.5.26",
+    "tinacms": "^1.5.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
   }
 }

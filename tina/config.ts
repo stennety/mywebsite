@@ -26,6 +26,16 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts",
+        format: "md",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: values => {
+              return `${(new Date()).toISOString().split('T')[0]}-${values?.topic ||
+                'no-topic'}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
         fields: [
           {
             type: "string",
@@ -70,16 +80,16 @@ export default defineConfig({
               {
                 value: 'Conferences',
                 label: 'Conferences',
-              },              {
+              }, {
                 value: 'How to',
                 label: 'How to',
-              },              {
+              }, {
                 value: 'Quality',
                 label: 'Quality',
-              },              {
+              }, {
                 value: 'Tester of The Day',
                 label: 'Tester of The Day',
-              },              {
+              }, {
                 value: 'Testing',
                 label: 'Testing',
               },

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jekyll build && tinacms build"
+    "build": "jekyll build && tinacms build",
+    "update": "npm update && bundle update"
   },
   "repository": {
     "type": "git",

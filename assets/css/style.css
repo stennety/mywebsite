@@ -132,10 +132,6 @@ ul ul {
     color: var(--col-highlight, currentColor)
 }
 
-mark,::selection,::target-text {
-    background: var(--col-highlight)
-}
-
 a:link,a:visited {
     color: var(--col-highlight, currentColor);
     text-decoration: none;

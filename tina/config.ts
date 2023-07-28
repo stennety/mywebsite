@@ -31,7 +31,7 @@ export default defineConfig({
           filename: {
             readonly: false,
             slugify: values => {
-              return `${(new Date()).toISOString().split('T')[0]}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+              return `_draft_${(new Date()).toISOString().split('T')[0]}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
             }
           }
         },

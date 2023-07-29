@@ -176,11 +176,11 @@ Overall, the Hang Tien cave adventure was an unforgettable experience.
 The unique rock formations and scenery, coupled with the challenging hike and refreshing swim, 
 made for a great day. It was easy to make conversation with others on the tour, and the guides were hilarious.
 
-10/10, wound Hang Tien again.
+10/10, would Hang Tien again.
 
 Here's a YouTube video I put together of it: 
 
-{% include video id="RfubHgSd7zo" provider="youtube" JrP66mf9iFk %}
+{% include video id="JrP66mf9iFk" provider="youtube" %}
 
 # Day 15: Misadventures on the sleeper train
 

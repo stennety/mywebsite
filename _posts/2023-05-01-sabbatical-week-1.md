@@ -63,7 +63,7 @@ through all of the arcades there. I stumbled across this drumming game that I'd 
 which I was surprised to see. There seemed to be several multiplayer games that people would play on banks of computers right next to each other. 
 A few of the gamers had their phones on tripods and were streaming themselves playing.
 
-I had dinner at a sushi train restaurant. Afterwards, I grabbed some green tea ice cream, a favorite treat. I was struck, 
+I had dinner at a sushi train restaurant. Afterward, I grabbed some green tea ice cream, a favorite treat. I was struck, 
 especially having come from the particularly dirty city of Portland, by how 
 Tokyo seemed to simultaneously have zero public trash cans and zero trash. I Googled it and discovered 
 that this had been a change [due to the 1995 sarin gas attacks on the Tokyo subway](https://www.bloomberg.com/news/articles/2019-05-23/where-are-all-the-trash-cans-in-japanese-cities). Apparently people are 
@@ -96,6 +96,8 @@ I spent the next few days exploring Taipei while waiting for my visa to get proc
 * Accidentally setting off the fire alarm at my hotel with my shower.
 * Learning all of two words of Chinese (hello and thank you).
 
+![]({{site.cdn_path}}/2023/05/01/stinky_tofu.jpeg)
+
 On Nicole's flight, she sat next to someone who'd had the exact same visa issues as I had, and had found a private company 
 which expedited the visa. I'd seen things along these lines on Google, but it always struck me as a scam. But having this validation
 from someone else, I decided to give it a shot. I paid $300 for the expedited visa and was immediately contacted by an employee there.
@@ -124,5 +126,8 @@ We spent the afternoon exploring Marble Mountain, a favorite spot from my last v
 One of the things I remembered most starkly was climbing all of the stairs to get to the temples. Funnily enough, they
 had built an elevator in 2011. It totally felt like cheating, so I took the stairs.
 
-We grabbed drinks in Hoi An that evening. Afterwards, we wandered around more of the shops in the old town. We stumbled 
-across a shop called the "Man Emporium" that had some good-looking tailored clothing. I ordered two shirts, and Nicole ordered a couple dresses.
+![]({{site.cdn_path}}/2023/05/01/marble_mountain.jpeg)
+
+We grabbed drinks in Hoi An that evening. Afterward, we wandered around more of the shops in the old town. We stumbled 
+across a shop called the "Man Emporium" that had some good-looking tailored clothing. 
+I ordered two shirts, and Nicole ordered a couple dresses.

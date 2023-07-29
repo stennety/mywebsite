@@ -1,6 +1,6 @@
 ---
 published: true
-title: Sabbatical Week 2 - Hoi An, Hue, and Phong Nha
+title: Sabbatical Week 2 - Hoi An, Hue, Phong Nha, and Ninh Binh
 excerpt: A week of exploring central Vietnam
 ---
 
@@ -30,6 +30,8 @@ The jungle was slowly reclaiming the ruins. I wondered what the ruins would look
 There was a group of women there in beautiful blue dresses. They shared fruit with us as we waited for the shuttle. Two tiny kittens played.
 A thunderstorm rolled in with lightning and rain just as we were leaving. We were grateful for our timing.
 
+![]({{site.cdn_path}}/2023/05/07/my_son.jpg)
+
 Bao dropped us off a short walk away from the tailors so I could pick up my extra shirt. 
 
 We had a delicious dinner with some Hoi An specialty cuisines at a place that made the food right in front of us, then 
@@ -40,6 +42,8 @@ then headed back to the hotel. It was a beautiful way to spend the last night in
 
 Bao picked us up at 10:30 and drove us the 3 hours to Hue. I found myself unexpectedly tired and slept for most of the ride.
 We stopped at this beautiful fishing village called Lang Co to take a few photos. 
+
+![]({{site.cdn_path}}/2023/05/07/lang_co.jpeg)
 
 Our hotel, the Hue River Villa, was tucked into this little alleyway and was right along the river. 
 The people working there were so nice and helpful. 
@@ -95,10 +99,14 @@ A church service was in progress in the distance as we ate. Everyone was dressed
 clothes and singing. I found it fascinating seeing how Catholicism had taken on a distinctly Vietnamese flavor.
 Even the Virgin Mary and Jesus statues had a Buddhist aesthetic.
 
+![]({{site.cdn_path}}/2023/05/07/catholic_service.jpeg)
+
 We arrived in Phong Nha around 11:30 and got lunch at the Treehouse Cafe. Long, the manager at the Phong Nha Farmstay,
 picked us up to drive the 10 min to the hotel.
 
 Our room was huge, with two bathrooms, two hammocks, and a balcony on both sides, and featured a stunning view of the verdant rice fields.
+
+![]({{site.cdn_path}}/2023/05/07/phong_nha_hammock.JPG)
 
 We took a long bike ride around the rice fields on some of the hotel bikes. 
 We crossed a bridge into a local neighborhood. It was so cute seeing all the kids running around playing. 
@@ -125,5 +133,91 @@ We arranged a private driver from the hotel to get us to Paradise Cave instead, 
 It was stunning--A massive, ancient cavern with some really interesting rock formations. I wondered what it must've been like to 
 have first discovered and explored it.
 
-Afterwards, we went on a hike at the Phong Nha Botanical Garden. It was a slightly cooler day, plus the hike was shaded, 
+Afterward, we went on a hike at the Phong Nha Botanical Garden. It was a slightly cooler day, plus the hike was shaded, 
 so it was a nice way to spend the afternoon. We even got a swim in under a waterfall in the park.
+
+# Day 14: Hang Tien Cave Tour
+
+![]({{site.cdn_path}}/2023/05/07/oxalis.jpeg)
+
+We woke up early and had breakfast at the hotel before being picked up by the tour company. 
+Our Eurocentric group of spelunkers included people from France, the UK, Finland, Austria, and Switzerland; Nicole 
+and I were the only Americans.
+
+On the way to the Oxalis office, we passed by a village full of "floating houses." These are essentially small houses
+that are built on top of barrels and tethered to poles. This area floods heavily every year, so people stash their 
+possessions in the houses, migrate to the mountains during the rainy season, and then return to their houses when the 
+floodwaters recede. I found this such a fascinating way to live. A life of extremes, of constant change and adaptation.
+Of being in rhythm with the natural cycles of the seasons, rather than fighting against them. 
+
+Before entering the cave, we were asked to wear long-sleeved shirts to protect ourselves from stinging plants. 
+Apparently Vietnam has some pretty gnarly variants of poison ivy. Having had a previous exposure to that, I was not in 
+a hurry to repeat the experience. I showed up in a short-sleeved tee but was able to buy a long-sleeved high-viz 
+shirt from the tour company for $16. 
+The punishingly hot and humid weather made the hike to the cave entrance challenging, but we took frequent water breaks 
+and had access to water filters if needed.
+
+The cave itself was breathtaking. It's part of a massive network of caves that was only recently discovered and is still 
+being mapped out. We walked about 300m into the cave, passing several pretty otherworldly rock formations. We eventually 
+arrived at an underground river. They had us turn our headlamps off and do a short meditation session in total darkness.
+It reminded me of sensory deprivation tanks, which I've always wanted to try. 
+
+After the cave, we hiked to a camp in the jungle where we were treated to a filling lunch of banh mi, veggie rolls, 
+and watermelon. The camp was impressive, complete with composting toilets and changing rooms. 
+During the rainy season, the whole thing is torn down and stashed away.
+
+We also got a refreshing swim in the river near the camp before making our way back. 
+The hike back was still brutally humid, with a lot of elevation, and I was soaked with sweat by the time we 
+reached the van. Thankfully, they had cold beers waiting for us. We did a Vietnamese cheers to a successful day of caving.
+
+"Mot, Hai, Ba, Yo!" (One, two, three, cheers!)
+
+Overall, the Hang Tien cave adventure was an unforgettable experience. 
+The unique rock formations and scenery, coupled with the challenging hike and refreshing swim, 
+made for a great day. It was easy to make conversation with others on the tour, and the guides were hilarious.
+
+10/10, wound Hang Tien again.
+
+Here's a YouTube video I put together of it: 
+
+{% include video id="RfubHgSd7zo" provider="youtube" JrP66mf9iFk %}
+
+# Day 15: Misadventures on the sleeper train
+
+After getting back from the cave tour, we booked an overnight bus to Hanoi via our hotel.
+
+I was a little curious about this bus, so I started reading up on the company that ran it and pretty
+quickly realized that I was feeling horrified to get on it. The reviews were mostly 1-star, mentioning people being yelled at,
+cockroaches running around everywhere, bathrooms that didn't work, and some aggressive driving.
+
+By sheer luck, there were a few women from India who were also departing the hotel that night and waiting in the lobby.
+I asked them what their plan was, and they mentioned that they were taking the sleeper train. We decided to join them.
+Around midnight, we shared a taxi to Dong Hoi and boarded the train.
+
+Long story short, our night on the sleeper train was pretty comically bad. We had the hardest time even locating the car 
+we were supposed to be in. When we opened the door, we discovered that there were already two people in the lower bunks 
+who had four cats in small cat backpacks who were super not happy we were there and meowed off and on through the night. 
+The AC wasn't working, so it was hot and stuffy, and the cat dander was just floating around in the air. I have pretty bad 
+cat allergies, and they immediately flared up. 
+
+We weren't sure where to put our luggage, so we crammed it under the beds and table. We quickly noticed that the car was 
+full of cockroaches. At some point during the night, the AC did kick in, and I somehow managed to sleep almost five hours.
+
+Definitely if I ever take another sleeper car, I'd probably just book the whole car to have some privacy. 
+But it makes for a funny story. Like, it was such a bad experience that it was funny even in the moment.
+
+We weren't totally sure where to get off the train, but I had cell service so I just kept watching the map as we approached
+Ninh Binh. We got off and left the train station, bleary-eyed and blinded by the bright sunlight. We were about to book 
+a Grab taxi, but found this really kind taxi driver in front of the train station and booked a ride with him.
+
+At the hotel, we unpacked, did laundry, and made plans for the day.
+
+We caught a Grab to Hang Mua and hiked to the top. It was a brutally hot, 98-degree day with 80% humidity. We stopped 
+probably every 10 steps on the climb up the mountain. The view from the top was worth it, though. A pretty stunning 
+view of the surrounding area and the river.
+
+![]({{site.cdn_path}}/2023/05/07/hang_mua_1.jpeg)
+![]({{site.cdn_path}}/2023/05/07/hang_mua_2.jpeg)
+
+We went to Trung Tuyet restaurant for lunch. It was this really charming, small family restaurant with the sweetest woman
+running it. We were the only ones there, and lunch was delicious.

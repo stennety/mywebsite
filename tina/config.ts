@@ -60,6 +60,13 @@ export default defineConfig({
             label: "Date"
           },
           {
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
+            required: true,
+            description: "If this is checked the post will not be published",
+          },
+          {
             type: "image",
             name: "image",
             label: "Hero Image",

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What makes up a software stack
-date: 2023-07-30T23:00:00.000Z
+date: 2023-07-28T23:00:00.000Z
 categories: Testing
 tags:
   - technical

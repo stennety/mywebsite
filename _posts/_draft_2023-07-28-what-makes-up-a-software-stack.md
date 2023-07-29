@@ -88,3 +88,5 @@ A bunch of links to learn more about software stacks:
 * [LAMP software bundle (Wikipedia)](https://en.wikipedia.org/wiki/LAMP_\(software_bundle\))
 * [MEAN solution stack (Wikipedia)](https://en.wikipedia.org/wiki/MEAN_\(solution_stack\))
 * [MERN Stack Explained](https://www.mongodb.com/mern-stack)
+
+Header image: [Photo by Christina Petsos](https://www.pexels.com/photo/cake-with-colorful-layers-11753327/)

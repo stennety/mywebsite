@@ -18,7 +18,7 @@ When I started learning about web development, in the early 2000's if you must k
 
 And if you were to test an application running on a classic LAMP stack, you would need an environment where you could deploy these technologies. You also need to choose how deep to go, and what risks you might want to test for at in each part of the stack.
 
-It would be totally understandable to stop short of testing the Linux OS itself, however I can think of more than one time a misconfigured or out of date Linux installation has cause a compatability issue or security bug.
+It would be totally understandable to stop short of testing the Linux OS itself, however I can think of more than one time a misconfigured or out of date Linux installation has cause a compatibility issue or security bug.
 
 ## Modern Web Development Stacks
 

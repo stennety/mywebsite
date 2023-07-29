@@ -6,6 +6,7 @@ categories: Testing
 tags:
   - technical
   - full-stack-testing
+image: /uploads/pexels-christina-petsos-11753327.jpg
 ---
 
 I like to think of a software stack, also referred to as a technology stack, as the different layers of technology that build on top of eachother in order to make a functioning system.

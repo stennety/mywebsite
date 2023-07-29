@@ -56,13 +56,18 @@ export default defineConfig({
           },
           {
             type: "datetime",
-            "name": "date",
-            "label": "Date"
+            name: "date",
+            label: "Date"
           },
           {
-            "type": "string",
-            "name": "categories",
-            "label": "Categories",
+            type: "image",
+            name: "image",
+            label: "Hero Image",
+          },
+          {
+            type: "string",
+            name: "categories",
+            label: "Categories",
             options: [
               {
                 value: 'About ben',
@@ -99,10 +104,10 @@ export default defineConfig({
             ]
           },
           {
-            "type": "string",
-            "name": "tags",
-            "label": "Tags",
-            "list": true
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true
           },
           {
             type: "rich-text",

@@ -13,6 +13,8 @@ tags:
 
 ## What does it mean, to say your feature is complete?
 
+![Man kneeling down, wearing work gloves and using a power grill to attach a bracket to some word, intended to represent the idea of work under construction.](/uploads/pexels-bidvine-1249611.jpg "Photo by Bidvine: https://www.pexels.com/photo/person-using-dewalt-cordless-impact-driver-on-brown-board-1249611/")
+
 In software delivery teams I've worked in, we have often been responsible for parts of products. Sometimes this means we have been responsible for one or more services, and nothing beyond the responsibility of that service. Other times, the team has been responsible for a vertical stripe of functionality that crosses one or more backend services and the frontend that goes with it.
 
 In almost all cases, we haven't been responsible for the whole system at once, the responsibility has been split up across multiple teams in some way. This means there has been times the team I've been in has declared a feature as complete, and then handed it over to another team. And the other way, our team has had to handle features implemented by other teams, that now change the product our services of features operate in.
@@ -59,9 +61,17 @@ The key thing is, to make space to speak to each other, be that via a chat chann
 
 You can also make sure of structures you might already have on a cross-team, or group level, to discuss upcoming planned work, and see what other teams think about it.
 
+## In summary
+
+* Done for you might not mean done for everyone involved in getting your work in front of users
+* Considering the wider context of your teams work, will help you identify blockers to delivering value
+* It all comes down to humans, get to know the humans involved in getting your code in front of users
+
 ## One more thing
 
-A friend at work sent me a link to this, it made me chuckle more than a little bit, and it felt very relevant to this blog, so I'm including it here.
+I hope you found this insight interesting, and my suggestions for improvement useful. I'd love to hear about your experiences.
+
+As I sign off, I wanted to share this. A friend at work sent me a link, and it made me chuckle more than a little bit, and it felt very relevant to this blog, so I'm including it here.
 
 [https://youtu.be/y8OnoxKotPQ](https://youtu.be/y8OnoxKotPQ)
 

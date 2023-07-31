@@ -2,7 +2,7 @@
 layout: post
 title: 'That shiny new feature works, so what?'
 date: 2023-08-06T23:00:00.000Z
-draft: true
+draft: false
 image: /uploads/cube-small.jpg
 categories: Quality
 tags:

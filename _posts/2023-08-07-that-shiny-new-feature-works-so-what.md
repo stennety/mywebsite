@@ -3,7 +3,7 @@ layout: post
 title: 'That shiny new feature works, so what?'
 date: 2023-08-06T23:00:00.000Z
 draft: true
-image: /uploads/pexels-pixabay-54101.jpg
+image: /uploads/cube-small.jpg
 categories: Quality
 tags:
   - quality engineering
@@ -13,7 +13,7 @@ tags:
 
 ## What does it mean, to say your feature is complete?
 
-![Man kneeling down, wearing work gloves and using a power grill to attach a bracket to some word, intended to represent the idea of work under construction.](/uploads/pexels-bidvine-1249611.jpg "Photo by Bidvine: https://www.pexels.com/photo/person-using-dewalt-cordless-impact-driver-on-brown-board-1249611/")
+![](</uploads/pexels-bidvine-1249611 (1).jpg>)
 
 In software delivery teams I've worked in, we have often been responsible for parts of products. Sometimes this means we have been responsible for one or more services, and nothing beyond the responsibility of that service. Other times, the team has been responsible for a vertical stripe of functionality that crosses one or more backend services and the frontend that goes with it.
 

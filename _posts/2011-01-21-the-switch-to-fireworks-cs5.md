@@ -6,7 +6,7 @@ tags: [fireworks, photoshop, design, tools]
 syndicated: ['https://paulfosterdesign.wordpress.com/2011/01/21/the-switch-to-fireworks-cs5/']
 ---
 
-I have recently [made the switch](/blog/switch-to-fireworks-cs5/) from a longtime user of Photoshop [7 years] to Fireworks CS5.
+I have recently made the switch from a longtime user of Photoshop [7 years] to Fireworks CS5.
 
 Articles like these turned me around to the idea and the more I looked the more sensible it seemed to become:
 
@@ -16,14 +16,6 @@ Articles like these turned me around to the idea and the more I looked the more 
 So read on about my experience so far with Fireworks CS5…
 
 This isn’t a guide to Fireworks CS5, it is simply my impression of the programme as I used it [in no particular order] and my opinion of it now. It’s not a straight out Photoshop vs Fireworks grudge match but you may learn some pitfalls and hopefully avoid them if you come to use it. No promises though.
-
-There are quite a few sections I have commented about so you can jump to them from here:
-
-* [Batch Processing](#Batch%20Processing)
-* [Vector Drawing](#Vector%20Drawing)
-* [Site Export](#Site%20Export)
-* [Other Issues](#Small%20Issues)
-* [Roundup](#Round%20Up)
 
 I was feeling creatively challenged when I first fired Fireworks up so I decided to set up some batch processing actions needed imminently for a gallery page I help maintain. It’s is a linear process it should show any differences pretty obviously.
 

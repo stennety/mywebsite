@@ -37,6 +37,8 @@ Your feature doesn't live in isolation, so doing a good job means taking into ac
 
 ## Now what can you do next to make it a success?
 
+![A number of interconnected hands from different people of different colors, to represent teamwork and success](/uploads/pexels-monstera-5384623.jpg "Photo by Monstera: https://www.pexels.com/photo/faceless-multiracial-sport-team-stacking-hands-on-court-5384623/")
+
 Okay, we've looked at some details into why a feature being complete doesn't really mean it's done, done. Now, some thoughts on how we can turn this into a success.
 
 ### Identify team dependencies

@@ -25,6 +25,8 @@ I find it very valuable to explore what complete means for the team I'm in, and 
 
 ## So what does this mean in context of the whole product?
 
+![Hand with golden pen, looking out over multiple question marks on paper. Intended to describe asking a question, what does it mean?](</uploads/pexels-leeloo-thefirst-5428833 (1).jpg> "Photo by Leeloo Thefirst: https://www.pexels.com/photo/question-marks-on-paper-crafts-5428833/")
+
 So, your feature is complete. Time to celebrate, are ship parties still a thing? But wait, does this mean the value has been delivered? I've recently been working in a team that relies on the efforts of another team to release a new version of our mobile app, including all the other features that are going into the release, before users get their hands on our efforts. If they they are prevented from releasing for any reason, tough luck, our changes won't get out yet.
 
 OK so it isn't so bad waiting for another team before our code gets into the hands of customers, typically they ship every 2 weeks. As we share a code base or two, there is some scope of us to support each other, but also to step on each others toes.

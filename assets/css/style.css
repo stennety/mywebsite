@@ -353,7 +353,7 @@ p:has(> em > strong) {
 
 .list--cvskills {
     content-visibility: auto;
-    contain-intrinsic-size: 5rem;
+    contain-intrinsic-size: auto 5rem;
 }
 
 .list--cvskills li {

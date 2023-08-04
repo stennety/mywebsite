@@ -43,6 +43,10 @@ There are 3 main test environments you will need for mobile:
 2. On a PC or Mac, using a simulator or emulator
 3. Via CI/CD to run automated build, test and deployments of your apps
 
+CI/CD can be especially painful, especially for Apple devices where you still can't escape the need for an Apple device at some point in the chain. Hosted platforms do exist to solve this problem, at a price, such as [bitrise](https://bitrise.io/).
+
+Oh did I mention, web will run on almost anything, so CI/CD can run pretty much anywhere, a win for web.
+
 ## 5 Risks
 
 While web and mobile maybe share a bunch of common risks to quality, both need to be fast, secure and usable, mobile does have some unique risks.

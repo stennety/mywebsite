@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 5 ways testing mobile is different from web
-date: '2023-08-13T23:00:00.000Z'
-draft: true
+date: 2023-08-13T23:00:00.000Z
+draft: false
 categories: Testing
 tags:
   - specialist
@@ -10,8 +10,6 @@ tags:
   - mobile
 image: /uploads/pexels-jessica-lewis-583842.jpg
 ---
-
-
 
 ## 1 Hardware
 

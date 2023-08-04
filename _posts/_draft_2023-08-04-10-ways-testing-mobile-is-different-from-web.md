@@ -29,6 +29,12 @@ One tool I've been learning recently is [Maestro](https://maestro.mobile.dev/), 
 
 ## 3 Accessibility
 
+Testing for web accessibility is way easier, not least before the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) is written with Web in mine. Two difficulties I've found so far with testing for mobile accessibility is the frustrating inconsistency in accessibility features and tooling to test on each platform.
+
+Google's Android has [Accessibility Scanner](https://support.google.com/accessibility/android/answer/6376570?hl=en-GB), and Apple iOS has  the [Accessibility Inspector,](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html) one comes as an app to install on your device, real or emulatored, and the other is a tool build into Apple MacOS you use together with the iPhone Simulator.
+
+In contrast, web has a ton of tools, from Axe based inspectors and automation to browser extensions to simulate different colour blindness types, or even simulate cognitive and physical impairments.
+
 ## 4 Running locally
 
 ## 5 Running in CI/CD

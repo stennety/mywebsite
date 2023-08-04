@@ -15,7 +15,7 @@ image: /uploads/pexels-jessica-lewis-583842.jpg
 
 Web runs on almost any device from a games console to a tricked out multi-core desktop PC with a huge high resolution screen. In contrast, mobile apps typically run on Android, iOS or both across many generations of mobile phones, tablets and smart watches.
 
-Locally running simulators and hosted device farms do exist, and can be very helpful to get device coverage. However really test the user experience of mobile apps, having physical devices is a huge advantage, although it can get expensive fast.
+Really test the user experience of mobile apps, having physical devices is a huge advantage, although it can get expensive fast. Locally running simulators and hosted device farms do exist, and can be very helpful to get device coverage, but is less ideal for really feeling the experience users will get.
 
 ## 2 Automation
 
@@ -37,6 +37,18 @@ In contrast, web has a ton of tools, from Axe based inspectors and automation to
 
 ## 4 Running locally
 
-## 5 Running in CI/CD
+## 5 Risks
+
+While web and mobile maybe share a bunch of common risks to quality, both need to be fast, secure and usable, mobile does have some unique risks.
+
+Is your app something people might try and use while driving? Therefore you might need to introduce a driving mode to reduce the risk users feel the need to get hands-on with their device.
+
+Hogging too much processing power and battery? Risk the automated management tools in Android and Apple laying the smack down on your Candy-Crushing ass and counting 1, 2, 3.
+
+Not totally unique to mobile, especially as progressive web apps are a thing, but having a sudden lack of internet connection, or change of network is way more common on mobile, as is using VPN and switching between locations on a whim.
+
+## That's all folks
+
+I hope you fond this interesting and useful. What other differences, or similarities, between Web and Mobile apps can you think about? how might they impact your testing?
 
 Hero image: [Photo by Jessica Lewis](< https://www.pexels.com/photo/iphone-6-earpods-and-macbook-on-flat-lay-photography-583842/>)

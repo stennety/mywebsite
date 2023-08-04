@@ -35,7 +35,13 @@ Google's Android has [Accessibility Scanner](https://support.google.com/accessib
 
 In contrast, web has a ton of tools, from Axe based inspectors and automation to browser extensions to simulate different colour blindness types, or even simulate cognitive and physical impairments.
 
-## 4 Running locally
+## 4 Up and running
+
+There are 3 main test environments you will need for mobile:
+
+1. On a real mobile device, you can touch and hold
+2. On a PC or Mac, using a simulator or emulator
+3. Via CI/CD to run automated build, test and deployments of your apps
 
 ## 5 Risks
 
@@ -49,6 +55,6 @@ Not totally unique to mobile, especially as progressive web apps are a thing, bu
 
 ## That's all folks
 
-I hope you fond this interesting and useful. What other differences, or similarities, between Web and Mobile apps can you think about? how might they impact your testing?
+I hope you found this interesting and useful. What other differences, or similarities, between Web and Mobile apps can you think about? how might they impact your testing?
 
 Hero image: [Photo by Jessica Lewis](< https://www.pexels.com/photo/iphone-6-earpods-and-macbook-on-flat-lay-photography-583842/>)

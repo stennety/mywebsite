@@ -65,7 +65,7 @@ The key thing is, to make space to speak to each other, be that via a chat chann
 
 You can also make sure of structures you might already have on a cross-team, or group level, to discuss upcoming planned work, and see what other teams think about it.
 
-## In summary
+## Summary
 
 * Done for you might not mean done for everyone involved in getting your work in front of users
 * Considering the wider context of your teams work, will help you identify blockers to delivering value

@@ -19,7 +19,7 @@ In software delivery teams I've worked in, we have often been responsible for pa
 
 In almost all cases, we haven't been responsible for the whole system at once, the responsibility has been split up across multiple teams in some way. This means there has been times the team I've been in has declared a feature as complete, and then handed it over to another team. And the other way, our team has had to handle features implemented by other teams, that now change the product our services of features operate in.
 
-All this means, that the concept of complete exists within the boundaries of responsibility, and it can mean different things to different people. So, when do we stop testing? When "out bit" is done? When the feature is available to customers? When we start collecting and analysing the first days, week, months worth of tracking data?
+All this means, that the concept of complete exists within the boundaries of responsibility, and it can mean different things to different people. So, when do we stop testing? When *our bit* is done? When the feature is available to customers? When we start collecting and analysing the first days, week, months worth of tracking data?
 
 I find it very valuable to explore what complete means for the team I'm in, and to communicate this concept of completeness for us, and see how that fits with other teams who work on the same product. Inevitability, releases have gone better when the relationship between the teams has been strong, and we've worked together to avoid a hard hand-off, aka "throwing it over the wall".
 

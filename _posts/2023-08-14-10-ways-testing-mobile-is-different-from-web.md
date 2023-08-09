@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 ways testing mobile is different from web
-date: 2023-08-13T23:00:00.000Z
+date: 2023-08-08T23:00:00.000Z
 draft: false
 categories: Testing
 tags:
@@ -15,7 +15,7 @@ image: /uploads/pexels-jessica-lewis-583842.jpg
 
 Web runs on almost any device from a games console to a tricked out multi-core desktop PC with a huge high resolution screen. In contrast, mobile apps typically run on Android, iOS or both across many generations of mobile phones, tablets and smart watches.
 
-Really test the user experience of mobile apps, having physical devices is a huge advantage, although it can get expensive fast. Locally running simulators and hosted device farms do exist, and can be very helpful to get device coverage, but is less ideal for really feeling the experience users will get.
+For really testing the user experience for mobile apps, having physical devices is a huge advantage, although it can get expensive fast. Locally running simulators and hosted device farms do exist, and can be very helpful to get device coverage, but is less ideal for really feeling the experience users will get.
 
 ## 2 Automation
 

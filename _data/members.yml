@@ -61,6 +61,14 @@
   discord: "https://discord.gg/PBDCHYq"
   twitter: "theFFWiki"
 - member:
+  id: "mamiyawiki"
+  name: "Mamiya Wiki"
+  description: "Mamiya Wiki is a very small fan-hosted wiki for the visual novel Mamiya: A Shared Illusion of the World's End. The wiki, in its current form, was founded on April 16, 2023."
+  logo: "/images/logos/mamiyawikilogo.png"
+  url: "https://mamiyawiki.com/"
+  mainpage: "Main_Page"
+  discord: "https://discord.com/invite/tNYTQpMd4h"
+- member:
   id: "rarewiki"
   name: "Rare Wiki"
   description: "Rare Wiki is a wiki dedicated to covering Rare Ltd. and their franchises (except for Banjo-Kazooie and Conker, as in-depth coverage of these two franchises can be found at Jiggywikki and Conker Wiki respectively)."

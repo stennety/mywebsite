@@ -51,10 +51,25 @@ We spent the day exploring Cuc Phuong National Park, which was about an hour and
 * The Turtle Conservation Center. We saw several species of turtles. The center is working to breed them and release them back into the wild.
 * There were butterflies everywhere. [Butterfly season](https://vietnam-online.org/index.php/butterflies-season-in-cuc-phuong-national-park/) lasts from April to mid-May, and it was in full swing. It was magical.
 
-In the early afternoon, we caught a small tour bus to Hanoi, arriving around 5 pm. We checked into our hotel, 
-which was in the Old Quarter. We spent some time wandering around the neighborhood. The traffic and crowds were a bit 
-of a sensory overload from the relative quiet of Ninh Binh and Phong Nha where we'd spent the past week. We had dinner at a 
+In the early afternoon, we caught a small tour bus to Hanoi, arriving around 5 pm. We checked into our hotel, a lovely, fancy 
+place called Scent Premium in the heart of the Old Quarter. We spent some time wandering around the neighborhood. 
+The traffic and crowds were a bit of a sensory overload from the relative quiet of Ninh Binh and Phong Nha 
+where we'd spent the past week. We had dinner at a 
 small restaurant in the Old Quarter, got a beer at Hanoi's famous Bia Hoi (Beer Street), people-watched for a bit, then 
 wandered back to the hotel. On the way back, I impulse-purchased a goofy banana-print outfit I'd seen several people wearing
 around Vietnam.
+
+# Day 18-21: Ha Long Bay Cruise
+
+We booked a 3-day, 2-night cruise through a company called Dragon Legend. We'd done our homework and chosen that company
+because the reviews mentioned that their route was off the beaten path, and the boat was smaller than most of the others.
+This all bore out and we were really happy with our decision! The cruise was a highlight of the trip. 
+
+Coincidentally, some of the first people we met were a couple from Portland who had just gotten married in Hawaii and were on their honeymoon.
+The passengers were mostly couples, but there was one group of friends from Australia and a mom and her son from Florida.
+Everyone was super friendly and we had a great time getting to know each other over the course of the cruise.
+
+The first day, we took a shuttle from Hanoi to Ha Long Bay. We boarded the boat around noon and they had a delicious lunch prepared for us.
+Naturally, I wore my ridiculous banana-print outfit all day.
+
 

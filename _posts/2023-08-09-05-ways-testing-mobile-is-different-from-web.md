@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 ways testing mobile is different from web
-date: '2023-08-08T23:00:00.000Z'
+date: 2023-08-08T23:00:00.000Z
 draft: false
 categories: Testing
 tags:
@@ -10,8 +10,6 @@ tags:
   - mobile
 image: /uploads/pexels-jessica-lewis-583842.jpg
 ---
-
-
 
 ## 1 Hardware
 
@@ -31,7 +29,7 @@ One tool I've been learning recently is [Maestro](https://maestro.mobile.dev/), 
 
 ## 3 Accessibility
 
-Testing for web accessibility is way easier, not least before the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) is written with Web in mine. Two difficulties I've found so far with testing for mobile accessibility is the frustrating inconsistency in accessibility features and tooling to test on each platform.
+Testing for web accessibility is way easier, not least before the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) is written with Web in mind. Two difficulties I've found so far with testing for mobile accessibility is the frustrating inconsistency in accessibility features and tooling to test on each platform.
 
 Google's Android has [Accessibility Scanner](https://support.google.com/accessibility/android/answer/6376570?hl=en-GB), and Apple iOS has  the [Accessibility Inspector,](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html) one comes as an app to install on your device, real or emulatored, and the other is a tool build into Apple MacOS you use together with the iPhone Simulator.
 

@@ -70,6 +70,36 @@ The passengers were mostly couples, but there was one group of friends from Aust
 Everyone was super friendly and we had a great time getting to know each other over the course of the cruise.
 
 The first day, we took a shuttle from Hanoi to Ha Long Bay. We boarded the boat around noon and they had a delicious lunch prepared for us.
-Naturally, I wore my ridiculous banana-print outfit all day.
+Naturally, I wore my ridiculous banana-print outfit all day. I wanted to go for maximal tourist aesthetic.
 
+![]({{site.cdn_path}}/2023/05/14/banana_man.jpeg)
 
+After lunch, they took us on a tour of a floating village, which included a tour of a pearl farm. I found the whole thing pretty
+fascinating. I couldn't imagine living a majority of my life on the water with all the logistics involved; to name a few 
+challenges: procuring fresh water, getting food and electricity, dealing with trash, taking care of a family, and so on. 
+Yet, there was an entire thriving ecosystem to support the village. A large boat made the rounds every day with fresh water
+from the mainland. Some of the houses had solar panels. Others were close enough to the mainland to have electricity from 
+power lines that had been strung underwater (and hopefully well-insulated). A floating market supplied villagers with clothing and other goods.
+
+![]({{site.cdn_path}}/2023/05/14/oyster_farm.jpeg)
+
+I didn't journal very much for the rest of the cruise, as we were busy enjoying the experience, but here are some highlights:
+* We had a beach day on a small karst. It started with a barbequeue lunch cooked fresh on the beach. Afterwards, we had a couple hours to swim. It was a great chance to mingle and talk with the other passengers.
+* We went kayaking, which was pretty magical. Ha Long Bay is stunning and it was nice to be able to explore it at our own pace and see the karsts up close.
+* The food was incredible, at every meal. We got several options to choose from at each meal, and never went wrong.
+* One of the workers performed some traditional Hmong songs for us one night. It was beautiful.
+* We had a cooking class and learned how to make Vietnamese pancakes.
+* Sunsets on the bay were stunning. Every night, we'd gather on the top deck and watch the sun go down with drinks in hand.
+
+![]({{site.cdn_path}}/2023/05/14/beach_day.jpeg)
+
+# Day 21: Cat Ba Island
+
+After getting back to the mainland, we decided to relocate to Cat Ba Island. That had been on our radar as it had been recommended
+as a place with a bunch of caves and active outdoor activities. The cruise company dropped us off in the Haiphong area. We caught a taxi to 
+the nearest dock that had boats to Cat Ba. Originally, we were going to wait for the ferry, but opted for a speedboat 
+since that would shave off a couple hours of travel time. We shared a boat with this sweet Vietnamese family. The daughter, who
+was probably 12 years old, had an old-school digital camera and showed me some pictures of her hamster, who she described as 
+"very lazy." The boat dropped us off at the north end of the island. We shared a 45-minute taxi with the family to Cat Ba Town.
+
+We checked into our hotel, the Quiri, and then wandered around the town for a bit.

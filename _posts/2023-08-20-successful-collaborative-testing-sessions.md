@@ -2,7 +2,7 @@
 layout: post
 title: Successful collaborative testing sessions
 date: 2023-08-19T23:00:00.000Z
-draft: true
+draft: false
 image: /uploads/pexels-canva-studio-3153201.jpg
 categories: Testing
 tags:
@@ -105,7 +105,7 @@ Across a few months of working with a group of talented Medical Knowledge Engine
 
 ## Go forth, and test together!
 
-In summary, I strongly encourage you to go forth and form some groups and practice collaborative testing. 
+In summary, I strongly encourage you to go forth and form some groups and practice collaborative testing.
 
 * Agree on a mission
 * Invite 2-5 people

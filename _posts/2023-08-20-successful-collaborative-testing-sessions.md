@@ -116,7 +116,7 @@ In summary, I strongly encourage you to go forth and form some groups and practi
 
 ## Other resources
 
-Not for the first time, I'm going to call out Lisi Hocke's excellent list of collaboration resources, especially the section on working in an Ensemble.
+Not for the first time, I'm going to call out [Lisi Hocke's](https://www.linkedin.com/in/lisihocke/) excellent list of collaboration resources, especially the section on working in an Ensemble.
 
 [https://www.lisihocke.com/p/collaboration.html#ensemble](https://www.lisihocke.com/p/collaboration.html#ensemble)
 

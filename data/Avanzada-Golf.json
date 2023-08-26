@@ -15,6 +15,20 @@
 					"url": "https://www.youtube.com/watch?v=1AmTlrnGDQ4",
 					"credit": "Avanzada Golf"
 				}
+			},{
+				"text": {
+					"headline": "Construction of a New Golf Course",
+					"text": "<p>Construction of the new golf course at <a style='font-weight:bold' href='https://avanzadagolf.com/' target='_blank' rel='nofollow'>Avanzada Golf & Ranch Club</a> is being built by Texas company <a style='font-weight:bold' href='https://www.facebook.com/MatrixDemolition/' target='_blank' rel='nofollow'>Matrix</a>.  Matrix is hired to follow Jim Lipe's design plans and work with Lipe and JJ Henry onsite in the field.</p>"
+				},
+				"location": {
+					"lat": 32.7771101,
+					"lon": -97.7648794,
+					"zoom": 8
+				},
+				"media": {
+					"url": "https://vimeo.com/853342973",
+					"credit": "Matrix"
+				}
 			}
 		]
     }

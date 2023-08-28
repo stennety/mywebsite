@@ -1,0 +1,35 @@
+{
+"storymap": {
+        "slides": [
+			{
+				"text": {
+					"headline": "Golf on the Pacific Ocean",
+					"text": "<p><a href='https://www.facebook.com/puntabravagolfsurfclub/' target='_blank' rel='nofollow'>Punta Brava Golf & Surf Club</a> is a Tom Doak led design project located in Baja California, Mexico near Ensenada.  Doak is a well known golf course architect with a history in design of creating natural, playable courses with easy walkable transitions from hole to hole.</p><p>The property is located on the Punta Brava peninsula and will have dramatic oceanside shots.  Working onsite in design and shaping is <a href='https://www.instagram.com/benmalach/?hl=en' target='_blank' rel='nofollow'>Ben Malach</a>.</p>"
+				},
+				"location": {
+					"lat": 31.732204,
+					"lon": -117.844481,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=bNG2TDVfk5Q",
+					"credit": "Credit: Harris Kalinka"
+				}
+			},{
+				"text": {
+					"headline": "Baja California",
+					"text": "<p>On the Punta Brava peninsula is La Bufadora.  La Bufadora is a blowhole, a marine geyser up to 100 feet above the surface.  La Bufadora is the 2nd largest marine geyser in the world.  The best time to see the blowhole is during high tide, when the waves are strongest. The blowhole is also more active during the winter months.</p><p>Another nearby attraction are the vineyards and wineries in Valle de Guadalupe.  This region is home to over 100 wineries providing ample opportunity to sample at wine tastings.</p>"
+				},
+				"location": {
+					"lat": 31.732204,
+					"lon": -117.844481,
+					"zoom": 9
+				},
+				"media": {
+					"url": "https://www.youtube.com/watch?v=7DR00gLrcyw",
+					"credit": "Credit: 4K Travel Channel"
+				}
+			}
+		]
+    }
+}

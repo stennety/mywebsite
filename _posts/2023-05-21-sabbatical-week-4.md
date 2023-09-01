@@ -175,3 +175,21 @@ things for sale, everything from selfie sticks to knockoff Legos to fresh seafoo
 
 My hotel arranged a driver for Ba Na for early this morning. It was a 45-minute drive out to the cable car station through
 some beautiful lush jungle.
+
+This place was a BLAST. I shared a cable car up with this really fun group of friends who were a mix
+of doctors and surgeons. They had gone to medical school together and were out here for the day. They said it was a two-hour
+drive to Ba Na from where they lived. They spoke very little English, but we got by with passing the translator app back and forth. 
+I ended up spending the entire day with them.
+
+![]({{site.cdn_path}}/2023/05/21/ba_na_1.jpg)
+
+Ba Na Hills is this amusement park that's a mashup of Buddhism, Harry Potter, Disney, Jurassic Park, with a French Village 
+thrown in there for good measure. It was as if someone with severe ADHD in a place with no copyright laws 
+suddenly inherited a billion dollars, dropped some acid, and built a theme park in the jungle. And somehow it worked. It was 
+incredibly entertaining and a highlight of the trip when I look back on it.
+
+![]({{site.cdn_path}}/2023/05/21/ba_na_3.jpg)
+
+At the entrance, there's this Instagram-famous bridge held up by Buddha hands.
+
+![]({{site.cdn_path}}/2023/05/21/ba_na_hands.jpeg)

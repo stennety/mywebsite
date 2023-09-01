@@ -107,3 +107,71 @@ a place that looked like where it used to be, but it was hard to tell.
 
 _My Khe Beach: Then and now_
 
+# May 28: Da Nang
+
+I woke up pretty early, had a light breakfast at the hotel, and then took a long walk on the beach. It was relatively 
+quiet compared to the evening before; the massive crowds of people were gone. There was a corporate team-building 
+retreat of some sort happening at the part of the beach where I entered from the road, which served as a useful landmark. 
+Along the walk, I spotted a few jellyfish and starfish in the water and some fishermen setting up their boats for the day.
+
+After getting back from the beach, I caught a taxi to the Linh Ung Pagoda. It features a massive statue of Lady Buddha (the tallest 
+one in Vietnam) and I remembered seeing it from the beach as a kid and being curious about it. I'd also read that there were
+sometimes monkeys that roamed the grounds. When I got there, I spent maybe 20% of my time exploring the complex and 80% of the time
+watching the monkeys and people interacting.
+
+The monkeys were incredibly bold and very comfortable with people. I watched them steal at least a dozen popsicles, often 
+by running up and grabbing them out of people's hands. This was by no means unwitting on the part of the people; many of them 
+walked up with half-eaten popsicles in hand and laughed when the monkeys took them. The whole spectacle was 
+simultaneously fascinating and sad. There were signs everywhere to not feed the animals, and the monkeys were probably 
+horribly diabetic. I wished that they wouldn't sell ice cream at all so close to the monkeys, and at the very least to have 
+a security guard to enforce the rules. The trash cans were also completely open, and I also watched several monkeys raid those.
+For all of the things I love about Vietnam, they still don't have a very good culture around how they treat animals. 
+I know there are efforts being made to increase conservation, and I hope that continues to progress. I read and recommend
+this NYT article called [Vietnam's Empty Forests](https://www.nytimes.com/2019/04/01/travel/vietnam-wildlife-species-ecotravel-tourism.html) for more context on that.
+
+![]({{site.cdn_path}}/2023/05/21/monkey_popsicle_1.jpg)
+![]({{site.cdn_path}}/2023/05/21/monkey_popsicle_2.jpg)
+
+On a funnier note, I was walking toward the temple entrance when I heard a loud slap on the ground. I glanced down 
+just in time to see that a huge snake had fallen out of a tree and was slithering towards a boy. "Snake!" I yelled. The 
+kid jumped like 3 feet in the air and the snake darted off under a trash can. Then we both looked at each other and busted 
+up laughing.
+
+I caught a cab to the orphanage where we had adopted Julie. Or at least I hoped it was still an orphanage. I had found a picture of an 
+address in one of our old photos and looked it up. When I got there, I recognized it immediately. The entrance was blocked 
+by a gate, however. I was so curious to see what it was like now and how it had changed, but I felt uncomfortable just 
+walking in the gate even though it wasn't locked. I tried calling the phone number listed on Google Maps. No answer.
+I noticed a doorbell and rang that. A very confused elderly woman at the house next door answered, clearly having just awoken
+from her nap. I apologized profusely.
+After a few minutes, I gave up and walked to a nearby Vietnam War-themed coffee shop. I still found it so strange that the 
+war is used as an aesthetic in so many places here, given how brutal it was. I remembered what my dad had said about 
+2/3 of the current population being born after the war. Maybe that explains at least some of the phenomenon.
+
+I caught a cab to the Han Market. It was very crowded, hot, and I was still fighting my cold, so I didn't stay too long. 
+I wandered around the area in search of banh mi. There seems to be a siesta culture to some degree here, where a lot of 
+restaurants shut down during the heat of the day and reopen in the evenings, so I had kind of a hard time finding anything.
+Finally I stumbled across a couple who had a cart and ordered from them.
+
+I wandered across the dragon bridge to walk off lunch. It was brutally hot out. I decided to just catch a Grab back to my 
+hotel, crank the AC, and play Zelda for a few hours. I popped back out of the hotel around 7 pm to grab dinner. Thus far, I wasn't very 
+impressed with the food in Da Nang; it was mostly either fine dining and resorts, with not a lot of really good local spots
+that I was able to track down. I went to get pho at a place across the river near the dragon bridge. This was strategic, 
+as it was a Sunday, when the bridge shuts down to breathe fire. Yes, you read that right. They bridge has giant 
+flamethrowers and water hoses built in, and every week at 9 pm on Saturday and Sunday, hundreds of people gather to 
+watch the dragon shoot fire and water. 
+
+It was delightfully quirky and exceeded even my high expectations. I stood probably 100 feet away and could still feel the 
+intense heat of the flames. When it shot water, kids ran around in it. It felt like such a communal, unifying event for the city.
+It was basically a big block party. Even the boats on the river pull up near the bridge to view it. 
+It made me wish that Portland had some kind of weekly 
+event like this. Maybe really we just need to convert one of our 11 bridges into a dragon 🤷‍♂️🐲.
+
+{% include video id="FpoFUZZIZwM" provider="youtube" %}
+
+Afterwards, I wandered around the night market, which was also really entertaining. There was such a huge variety of 
+things for sale, everything from selfie sticks to knockoff Legos to fresh seafood. One vendor was singing karaoke to promote her booth.
+
+# May 29: Ba Na Hills
+
+My hotel arranged a driver for Ba Na for early this morning. It was a 45-minute drive out to the cable car station through
+some beautiful lush jungle.

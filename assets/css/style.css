@@ -5,7 +5,8 @@
     --col-secondary: rgba(0,10,0,.2);
     --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
-    --font-body: "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-body: sans-serif;
+    --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -85,6 +86,7 @@ article > * {
 }
 
 h1,h2,h3 {
+    font-family: var(--font-hero, inherit);
     font-weight: 900
 }
 

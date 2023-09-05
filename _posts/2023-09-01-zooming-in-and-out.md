@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zooming in and out
-date: '2023-09-04T23:00:00.000Z'
+date: 2023-09-04T23:00:00.000Z
 draft: false
 categories: Testing
 tags:
@@ -10,7 +10,6 @@ tags:
   - systems thinking
 image: /uploads/pexels-ethan-sees-2853432.jpg
 ---
-
 
 Over my career in Software Testing, I've had the pleasure to analyze and model a lot of systems. Some of them have had tons of formal architecture models and others have had little more than a few epics and user stories held together by smart engineers and sticky tape.
 

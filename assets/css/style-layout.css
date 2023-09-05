@@ -85,6 +85,7 @@ h1:before {
 
 .wrap-preview {
     all: revert;
+    overflow: auto;
 }
 
 @supports (display:flow-root) {

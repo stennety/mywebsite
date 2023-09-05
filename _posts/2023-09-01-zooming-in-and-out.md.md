@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Zooming in and out
-date: '2023-09-04T23:00:00.000Z'
-draft: true
+date: 2023-09-04T23:00:00.000Z
+draft: false
 categories: Testing
 tags:
   - models
@@ -11,9 +11,7 @@ tags:
 image: /uploads/pexels-ethan-sees-2853432.jpg
 ---
 
-
 Over my career in Software Testing, I've had the pleasure to analyze and model a lot of systems. Some of them have had tons of formal architecture models and others have had little more than a few epics and user stories held together by smart engineers and sticky tape.
-
 
 One of the things I've found useful over that time is zooming in and zooming out. That is, thinking about each part of the system to a different depth, and drawing different scopes that include more or less of the bigger picture.
 

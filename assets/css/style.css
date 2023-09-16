@@ -153,6 +153,7 @@ a[rel] {
 
 article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     content: " \2794";
+    content: " \2794" / "(external)";
     font-size: initial;
     color: currentColor
 }

@@ -156,13 +156,12 @@ function Mentionslist(props) {
 }
 
 /**
- * @function Mentionsmessage - Returns user message
- * @param {object} props
- * @param {string} props.msg
- * @returns {string | null}
+ * @function Mentionsmessage - Returns user message/errors
+ * @param {string} [props]
+ * @returns {html}
  */
 function Mentionmessage(props) {
-    return props.msg ? html`<p role="status">${props.msg}</p>` : null;
+    return html`<p role="status">${props.msg}</p>`;
 }
 
 // <Mentionable/>

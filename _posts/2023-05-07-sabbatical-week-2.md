@@ -141,8 +141,8 @@ so it was a nice way to spend the afternoon. We even got a swim in under a water
 ![]({{site.cdn_path}}/2023/05/07/oxalis.jpeg)
 
 We woke up early and had breakfast at the hotel before being picked up by the tour company. 
-Our Eurocentric group of spelunkers included people from France, the UK, Finland, Austria, and Switzerland; Nicole 
-and I were the only Americans.
+Our Eurocentric group of spelunkers included people from France, the UK, Finland, Austria, and Switzerland; 
+We were the only Americans.
 
 On the way to the Oxalis office, we passed by a village full of "floating houses." These are essentially small houses
 that are built on top of barrels and tethered to poles. This area floods heavily every year, so people stash their 

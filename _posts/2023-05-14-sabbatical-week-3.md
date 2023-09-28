@@ -13,7 +13,7 @@ we were hoping to be among them but expecting not to be.
 
 We knew it was going to be a hot day, so we got an early start. We woke up at 5:30 am and the driver 
 picked us up at 6 sharp. This put us at Van Long slightly early. We hung out on the hammocks in front of the 
-ticket office until they opened a little after 7. Nicole got tickets and I ordered us some cold coffee from the shop next door.
+ticket office until they opened a little after 7. She got tickets and I ordered us some cold coffee from the shop next door.
 As we left for the dock, the woman at the coffee shop smiled and said, "Good luck monkeys!" We were hopeful.
 
 The dock was a short walk up the road. Our boat driver was so kind and friendly, and the early morning water was placid 

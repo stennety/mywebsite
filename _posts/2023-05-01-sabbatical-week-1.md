@@ -98,8 +98,8 @@ I spent the next few days exploring Taipei while waiting for my visa to get proc
 
 ![]({{site.cdn_path}}/2023/05/01/stinky_tofu.jpeg)
 
-On Nicole's flight, she sat next to someone who'd had the exact same visa issues as I had, and had found a private company 
-which expedited the visa. I'd seen things along these lines on Google, but it always struck me as a scam. But having this validation
+I ran into someone who had the same visa issues I'd had with Vietnam, and they pointed me to a private company 
+which expedites visas that had helped them sort it out. I'd seen things along these lines on Google, but it always struck me as a scam. But having this validation
 from someone else, I decided to give it a shot. I paid $300 for the expedited visa and was immediately contacted by an employee there.
 I was so grateful for this, as it had been nearly impossible to get ahold of anyone at Vietnam immigration. They promised to have 
 my visa processed by the next business day. I was so relieved and immediately booked a budget flight with Tigerair to Da Nang.
@@ -112,22 +112,22 @@ going through twice on my phone. I got it refunded later, but yeah, headache.
 
 # Day 8: Hoi An, Vietnam
 
-I landed in Da Nang at 5:30 pm. Nicole was already in Hoi An and had booked a driver for me. It was a relaxing, 45-minute drive down there.
-We spent the evening wandering around the beautiful, lantern-lit Hoi An waterfront and ate some delicious street food for dinner.
+I landed in Da Nang at 5:30 pm and caught a ride to Hoi An. It was a relaxing, 45-minute drive down there.
+I spent the evening wandering around the beautiful, lantern-lit Hoi An waterfront and ate some delicious street food for dinner.
 
-The next morning, our driver took me up to Da Nang and I met with Julie's birth family. It was 
+The next morning, my driver Bao took me up to Da Nang and I met with Julie's birth family. It was 
 an incredibly emotional, loving, meaningful time with them, one that I'll remember the rest of my life.
 I was able to set up a FaceTime call with Julie. This was the first time she had seen her mom since she was 18 months old.
 We learned during this conversation that her mother lived on some farmland about 45 minutes' drive from Da Nang. She kept chickens.
 As a child, her mother struggled with mental illness, and she herself had been adopted by her aunt and uncle. The farmland she
 lived on belonged to them.
 
-We spent the afternoon exploring Marble Mountain, a favorite spot from my last visit to Vietnam.
+I spent the afternoon exploring Marble Mountain, a favorite spot from my last visit to Vietnam.
 One of the things I remembered most starkly was climbing all of the stairs to get to the temples. Funnily enough, they
 had built an elevator in 2011. It totally felt like cheating, so I took the stairs.
 
 ![]({{site.cdn_path}}/2023/05/01/marble_mountain.jpeg)
 
-We grabbed drinks in Hoi An that evening. Afterward, we wandered around more of the shops in the old town. We stumbled 
+I grabbed drinks in Hoi An that evening. Afterward, I wandered around more of the shops in the old town. I stumbled 
 across a shop called the "Man Emporium" that had some good-looking tailored clothing. 
-I ordered two shirts, and Nicole ordered a couple dresses.
+I ordered two shirts.

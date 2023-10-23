@@ -9,13 +9,13 @@ tags: [codepen, html, milestone]
 
 That many people have pitched themselves against the HTML Standard (and likely had their head in their hands at least once).
 
-## Tags to test you
-
 It never fails to surprise me the [places that have featured](/blog/html-memory-tested/) the tricky test:
 
 * People sharing their score and forgotten tags on social media. This viral effect probably accounts for many views.
 * Several web newsletters I subscribe to: CSS Tricks, Web Weekly and Front-end Focus.
 * Featured in the HTMHell Advent Calendar behind door #5.
+
+## Tags to test you
 
 Valid, well-structured HTML is important. How tags many do you know? 
 

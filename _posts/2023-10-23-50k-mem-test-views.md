@@ -15,8 +15,8 @@ It never fails to surprise me the [places that have featured](/blog/html-memory-
 * Several web newsletters I subscribe to: CSS Tricks, Web Weekly and Front-end Focus.
 * Featured in the HTMHell Advent Calendar behind door #5.
 
-## Tags to test you
+## HTML tags to test you
 
-Valid, well-structured HTML is important. How tags many do you know? 
+Valid, well-structured HTML is important. How many tags do you know? 
 
-Try [HTML test](https://codepen.io/plfstr/full/zYqQeRw)!
+Try [HTML test](https://codepen.io/plfstr/full/zYqQeRw)

@@ -169,6 +169,7 @@ class Mentionable extends Component {
 
     constructor(props) {
         super(props);
+	this.thisPost = new URL(document.location.pathname, document.location.origin).toString();
         this.fetchNow = (ev) => {
             ev.preventDefault();
             this._fetchMentions();
@@ -224,7 +225,7 @@ class Mentionable extends Component {
 
     async _fetchCount() {
         // @ts-ignore
-        return await fetch(`https://webmention.io/api/count?target=${encodeURIComponent(window.location.href)}`, { priority: 'low' }).then(
+        return await fetch(`https://webmention.io/api/count?target=${encodeURIComponent(this.thisPost)}`, { priority: 'low' }).then(
             response => response.json()
         ).then(
             data => {
@@ -242,7 +243,7 @@ class Mentionable extends Component {
     }
 
     async _fetchMentions() {
-        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(window.location.href)}`).then(
+        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(this.thisPost)}`).then(
             response => response.json()
         ).then(
             data => {

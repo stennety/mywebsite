@@ -92,6 +92,7 @@
   logo: "/images/logos/raywiki.png"
   url: "https://raymanpc.com/wiki/en/"
   mainpage: "Main_Page"
+  twitter: "RaymanPC"
 - member:
   id: "sagawiki"
   name: "SaGa Wiki"

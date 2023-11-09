@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I am an electronic engineer (2006 - Universidad Nacional de Rosario - Argentina) with posgraduates courses in embedded systems design (2012 - Instituto Universitario Aeronaútico - Córdoba) and Internet of Things (2023 - Universidad Buenos Aires - Buenos Aires).\
 During, the early years of my career, I worked in the industry mainly developing hardware (electronic design with pcb and firmware development).\
-Since 2015, I've working mostly in software development, from Linux BSP/drivers adaptation, to IoT designs with mobile/web and databases.
+Since 2015, I'am working mostly in software development, from Linux BSP/drivers adaptation, to IoT designs with mobile/web and databases.
 
 
 

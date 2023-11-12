@@ -36,7 +36,7 @@
             <a href="{{ site.baseurl }}/members">Members</a>
             <a href="{{ site.baseurl }}/affiliates">Affiliates</a>
             <a href="{{ site.baseurl }}/join">Join Us</a>
-            <a href="https://wiki.gamingwikinetwork.org/wiki/Main_Page">GWN Wiki</a>
+            <a href="https://wiki.gamingwikinetwork.org/wiki/Main_Page" target="_blank">GWN Wiki</a>
           </nav>
         </header>
       </div>
@@ -45,6 +45,22 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+    <!-- Pagination links -->
+    {% if page.layout == "default" %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="next">← Next</a>
+      {% else %}
+        <span class="previous">← Next</span>
+      {% endif %}
+      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="previous">Prev →</a>
+      {% else %}
+        <span class="next ">Prev →</span>
+      {% endif %}
+    </div>
+    {% endif %}
 
     <div class="wrapper-footer">
       <div class="container">

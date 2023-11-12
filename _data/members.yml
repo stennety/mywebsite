@@ -5,7 +5,7 @@
   logo: "/images/logos/conker.png"
   url: "https://conkerwiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/s7fyT4E"
+  discord: "s7fyT4E"
 - member:
   id: "crashbandicootwiki"
   name: "Crash Bandicoot Wiki"
@@ -13,7 +13,7 @@
   logo: "/images/logos/crash.png"
   url: "https://crashbandicootwiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/c4F2rRc"
+  discord: "c4F2rRc"
 - member:
   id: "falloutwiki"
   name: "Independent Fallout Wiki"
@@ -21,7 +21,7 @@
   logo: "/images/logos/fallout.png"
   url: "https://fallout.wiki/"
   mainpage: "Fallout_Wiki"
-  discord: "https://discord.gg/falloutwiki"
+  discord: "falloutwiki"
   twitter: "thefalloutwiki"
   instagram: "thefalloutwiki"
 - member:
@@ -31,7 +31,8 @@
   logo: "/images/logos/medievil.png"
   url: "https://medievil.wiki/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/S7PSNrVNxt"
+  facebook: Gallowpedia
+  discord: "S7PSNrVNxt"
   twitter: "MediEvilWiki"
   instagram: "MediEvilWiki"
 - member:
@@ -41,7 +42,7 @@
   logo: "/images/logos/hollowknight.png"
   url: "https://hollowknight.wiki/"
   mainpage: "Hollow_Knight_Wiki"
-  discord: "https://discord.com/invite/vNba7HW"
+  discord: "vNba7HW"
   twitter: "HollowKnightWik"
 - member:
   id: "jiggywikki"
@@ -50,7 +51,7 @@
   logo: "/images/logos/jiggywikki.png"
   url: "https://banjokazooiewiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/drvvy8f"
+  discord: "drvvy8f"
 - member:
   id: "khdatabase"
   name: "Kingdom Hearts Database"
@@ -58,7 +59,8 @@
   logo: "/images/logos/khdatabase.png"
   url: "https://www.khdatabase.com/"
   mainpage: "Main_Page"
-  discord: "http://discord.com/invite/Frt564B"
+  discord: "Frt564B"
+  facebook: "KHDatabase"
   twitter: "KHDatabase"
 - member:
   id: "finalfantasywiki"
@@ -67,7 +69,7 @@
   logo: "/images/logos/finalfantasy.png"
   url: "https://finalfantasywiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.gg/PBDCHYq"
+  discord: "PBDCHYq"
   twitter: "theFFWiki"
 - member:
   id: "mamiyawiki"
@@ -76,7 +78,7 @@
   logo: "/images/logos/mamiyawikilogo.png"
   url: "https://mamiyawiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/tNYTQpMd4h"
+  discord: "tNYTQpMd4h"
 - member:
   id: "rarewiki"
   name: "Rare Wiki"
@@ -84,7 +86,7 @@
   logo: "/images/logos/rare.png"
   url: "https://rarewiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/WdP7aXN"
+  discord: "WdP7aXN"
 - member:
   id: "raywiki"
   name: "RayWiki"
@@ -100,7 +102,7 @@
   logo: "/images/logos/saga.png"
   url: "https://sagawiki.org/"
   mainpage: "SaGa_Wiki"
-  discord: "https://discord.com/invite/QEUNvDM"
+  discord: "QEUNvDM"
 - member:
   id: "speedrunwiki"
   name: "Speedrunwiki"
@@ -108,7 +110,7 @@
   logo: "/images/logos/speedrunwiki.png"
   url: "https://www.speedrunwiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/XCazaEVNzT"
+  discord: "XCazaEVNzT"
 - member:
   id: "spyrowiki"
   name: "Spyro Wiki"
@@ -116,7 +118,7 @@
   logo: "/images/logos/spyro.png"
   url: "https://spyrowiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/c4F2rRc"
+  discord: "c4F2rRc"
 - member:
   id: "stowiki"
   name: "Star Trek Online Wiki"
@@ -124,7 +126,7 @@
   logo: "/images/logos/stowiki.png"
   url: "https://stowiki.net/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/hJ98RgJ"
+  discord: "hJ98RgJ"
   twitter: "trekonlinewiki"
 - member:
   id: "triforcewiki"
@@ -133,7 +135,7 @@
   logo: "/images/logos/triforcewiki.png"
   url: "https://triforcewiki.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/7Y9Hkhe"
+  discord: "7Y9Hkhe"
 - member:
   id: "wikiofmana"
   name: "Wiki of Mana"
@@ -141,4 +143,4 @@
   logo: "/images/logos/mana.png"
   url: "https://wikiofmana.com/"
   mainpage: "Main_Page"
-  discord: "https://discord.gg/Mt5UvGbuSH"
+  discord: "Mt5UvGbuSH"

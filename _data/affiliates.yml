@@ -12,7 +12,7 @@
   logo: "/images/logos/WimpyKidWiki.png"
   url: "https://wimpykidwiki.com/"
   mainpage: "Diary_of_a_Wimpy_Kid_Wiki"
-  discord: "https://discord.com/invite/2A57jGF"
+  discord: "2A57jGF"
 - affiliate:
   id: "parappaparty"
   name: "PaRappa.party"
@@ -33,7 +33,7 @@
   description: "The Square Enix Indpendent Wiki Alliance, or SEIWA, is a network of independent wikis established in 2011 and focused on providing high-quality coverage of Square Enix and its content."
   logo: "/images/logos/SEIWA.png"
   url: "https://seiwanetwork.org/"
-  discord: "https://discord.com/invite/tAHWTS8"
+  discord: "tAHWTS8"
   twitter: "SEIWANetwork"
 - affiliate:
   id: "spongebobwiki"
@@ -42,4 +42,4 @@
   logo: "/images/logos/SpongeBobWiki.png"
   url: "https://spongebobwiki.org/"
   mainpage: "Main_Page"
-  discord: "https://discord.com/invite/RgzmUBMPGP"
+  discord: "RgzmUBMPGP"

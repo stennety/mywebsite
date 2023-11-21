@@ -52,10 +52,23 @@
 		<script type="text/javascript" class="init"></script>
 </head>
 
-<BODY>
-
-	
+<BODY>	
      <H1>Golf Courses Opened in 2020</H1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			
+			<div class="col-md-4">
+				<iframe title="RTJ's Hoiana Shores" width="270" height="200" src="https://www.youtube.com/embed/mCB-8dH45RI?start=24" frameborder="150" allowfullscreen></iframe>
+				<h4>Robert Trent Jones II - Hoiana Shores</h4>
+			</div>
+			
+			<div class="col-md-4">
+			</div>
+		</div>
+	</div>
+
      <table id="golf" class="display" width="100%">
           <thead>
               <tr> 
@@ -74,25 +87,6 @@
               </tr>
           </thead>
           <tbody>            
-                  <tr>
-                    <td>Vietnam</td>
-                     <td><a href="https://www.google.com/maps/@15.823161,108.400988,14z">Hoi An</a> </td>
-                     <td><a href="https://www.hoiana.com/golf">Hoiana Shores</a> </td>
-                    <td>2020</td>
-                    <td>RTJ II</td>
-                    <td></td>
-                    <td>New</td> 
-		    <td class="style24">
-			<div id='outerdiv' style="width:400px; overflow-x:hidden;">
-			<iframe width="300" height="200" src="https://www.youtube.com/embed/mCB-8dH45RI?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-		    </td>	
-		    <td><a href="https://www.twitter.com/RTJ2GolfDesign/status/1304926532541050882" rel="nofollow">Land</a> </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>		  
-
               {% for item in site.data.all2020 %}
 		<tr>
                     <td>{{ item.Country }}</td> {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %} {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}

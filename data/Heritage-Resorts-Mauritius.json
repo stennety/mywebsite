@@ -9,8 +9,12 @@
                     "location": {
                         "lat": -20.4862359,
                         "lon": 57.3875944,
-                        "zoom": 3
-                    }
+                        "zoom": 4
+                    },
+				    "media": {
+					    "url": "https://www.youtube.com/watch?v=4-WBeIfIXWg",
+					    "credit": "Credit: Heritage Resorts"
+				    }
                 }
             ]
         }

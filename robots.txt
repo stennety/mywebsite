@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /short
+Disallow: /short/
 Disallow: /about
-Disallow: /Twin-Bridges-Montana
+Disallow: /about/

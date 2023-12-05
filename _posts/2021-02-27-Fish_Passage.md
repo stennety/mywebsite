@@ -1,6 +1,6 @@
 ---
 layout: post
-title: -
+title: Innovation
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/nge-full_black.png)

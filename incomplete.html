@@ -82,11 +82,11 @@
 			<tr> 
 				<th data-priority="1">Golf Course</th>
 				<th>Architect</th>
-				<th>YouTube</th> 
+				<th>Grow In</th> 
 				<th>Country</th>
 				<th>Location</th>               
 				<th>Build</th>
-				<th>Social</th>
+				<th>Status</th>
 				<th>History</th> 
 				<th>Comments</th>
 				<th>Curated</th> 
@@ -98,11 +98,11 @@
 			<tr>
 				{% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
 				<td>{{ item.Architect }}</td> 
-				{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
+				{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% else %}<td></td>{% endif %}
 				<td>{{ item.Country }}</td>
 				{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
-				<td>{{ item.TypeOfJob }}</td>	  
-				{% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}			  
+				<td>{{ item.TypeOfJob }}</td> 
+				<td>{{ item.Status }}</td> 
 				<td>{{ item.History }}</td>
 				<td>{{ item.Comments }} </td> 
 				<td>{{ item.DataCurated }} </td>
@@ -134,10 +134,10 @@
   <footer>   
 	<table style="width:100%">
 		<tr>
-			<th><a href="https://fescue.github.io/">All New Golf Courses</a></th>
-			<th><a href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
+			<th><a style='font-weight:bold' href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
+			<th><a style='font-weight:bold' href="https://fescue.github.io/2021/">2021 archive</a></th>
+			<th><a style='font-weight:bold' href="https://fescue.github.io/2020/">2020 archive</a></th> 
+			<th><a style='font-weight:bold' href="https://fescue.github.io/2019/">2019 archive</a></th>
 		</tr>
 	</table>
 	<nav>

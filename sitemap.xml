@@ -18,7 +18,11 @@
 <url>
   <loc>https://fescue.github.io/Bounty-Club/</loc>
   <priority>1</priority>
-</url>    
+</url>
+<url>
+  <loc>https://fescue.github.io/Kinsale-Golf-Club/</loc>
+  <priority>1</priority>
+</url>
 <url>
   <loc>https://fescue.github.io/incomplete/</loc>
   <priority>1</priority>

@@ -20,28 +20,9 @@
 	        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 	    })(window, document, "clarity", "script", "h4dgedaqyl");
 	</script>
-	<style>
-		.container {
-		  width: 100%;
-		  max-width: 960px;
-		  margin: 0 auto;
-		}
-
-		.row {
-		  display: flex;
-		  flex-wrap: wrap;
-		}
-
-		.col-md-4 {
-		  flex: 1 0 25%;
-		  max-width: 25%;
-		  margin-left: 30px;
-		  margin-right: 30px;
-		  padding: 0 10px;
-		}
-	</style> 
+	<link rel="stylesheet" href="/css/styles.css">
 	 
-  	 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<meta name="description" CONTENT="Golf Course Architecture New Renovation Restoration Construction Doak Hanse Coore Crenshaw Norman Nicklaus Kidd Franz Clayton King Collins">
 	<meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
@@ -79,68 +60,112 @@
 </head>
 
 <BODY>
-  <div class="container">
-  <div class="row">
-   	<div class="col-md-4">
-		<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
-		<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
-   	</div>
-   <div class="col-md-4">
-		<iframe width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
-		<h4>Tom Doak - Pinehurst #10</h4>
-   </div>
-	<div class="col-md-4">
-		<iframe width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
- 		<h4>Gil Hanse - PGA Frisco</h4>
-   	</div>
-  </div>
-</div>
-	
-<table id="golf" class="display" width="100%">
-	<thead>
-	 <tr> 
-		 <th data-priority="1">Golf Course</th>
-		 <th>Architect</th>
-		 <th>Location</th>
-		 <th>Country</th> 
-		 <th>In Play</th>
-		 <th>Construction</th>
-		 <th>Build</th>
-		 <th>Status</th> 
-		 <th>Coverage</th> 
-		 <th>Budget</th>
-		 <th>History</th>
-		 <th>Curated</th> 
-		 <th>Comments</th>
-	</tr>
-	</thead>
-<tbody>
- {% for item in site.data.allGolf %}<tr>
- 		{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>
- 		{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}
-		<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
- 	</tr>{% endfor %}
-</tbody>
-</table>
- 
-	<script>
-		$(document).ready(function() {
-			var table = $('#golf').DataTable( {
-				responsive: true,
-				order: [],
-				orderable: true,
-				sort: true,
-				columnDefs: [
-				 	{ targets: [4], responsivePriority: 1 }
-				  ],
-				  stateSave: true,
-				paging: false
-			} );
-		 
-			new $.fn.dataTable.FixedHeader( table );
-		} );
-	</script>
+	<div class="container">
+    		<!-- Content for Mobile Devices -->
+		<div class="mobile-content">
+			<table id="golf2" class="display" width="100%">
+		          <thead>
+		              <tr> 
+				<th data-priority="1">Golf Course</th>
+				<th>Architect</th>
+		                <th>Location</th>
+		              </tr>
+		          </thead>
+		          <tbody>		  
+		              {% for item in site.data.all2021 %}
+				<tr>
+		                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
+		                    <td>{{ item.Architect }}</td> 
+		                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
+				</tr>
+		              {% endfor %}
+		            </tbody>
+			</table>
 
+			<script>
+			$(document).ready(function() {
+				var table = $('#golf2').DataTable( {
+					responsive: true,
+					order: [],
+					orderable: true,
+					sort: true,
+					columnDefs: [
+					 	{ targets: [0], responsivePriority: 1 }
+					  ],
+					  stateSave: true,
+					paging: false
+				} );
+			 
+				new $.fn.dataTable.FixedHeader( table );
+			} );
+			</script>			
+		</div>
+		
+		<!-- Content for Desktop Devices -->
+		<div class="desktop-content">
+			<div class="row">
+			   	<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
+					<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
+			   	</div>
+			   	<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
+					<h4>Tom Doak - Pinehurst #10</h4>
+			   	</div>
+				<div class="col-md-4">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
+			 		<h4>Gil Hanse - PGA Frisco</h4>
+			   	</div>
+			</div>
+
+	
+			<table id="golf" class="display" width="100%">
+			 <thead>
+				 <tr> 
+					 <th data-priority="1">Golf Course</th>
+					 <th>Architect</th>
+					 <th>Location</th>
+					 <th>Country</th> 
+					 <th>In Play</th>
+					 <th>Construction</th>
+					 <th>Build</th>
+					 <th>Status</th> 
+					 <th>Coverage</th> 
+					 <th>Budget</th>
+					 <th>History</th>
+					 <th>Curated</th> 
+					 <th>Comments</th>
+				</tr>
+			 </thead>
+			 <tbody>
+			 	{% for item in site.data.allGolf %}<tr>
+			 		{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>
+			 		{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}
+					<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
+			 	</tr>{% endfor %}
+			 </tbody>
+			</table>
+		 
+			<script>
+				$(document).ready(function() {
+					var table = $('#golf').DataTable( {
+						responsive: true,
+						order: [],
+						orderable: true,
+						sort: true,
+						columnDefs: [
+						 	{ targets: [4], responsivePriority: 1 }
+						  ],
+						  stateSave: true,
+						paging: false
+					} );
+				 
+					new $.fn.dataTable.FixedHeader( table );
+				} );
+			</script>
+		</div>
+	</div>
+		
 	<H1><a href="https://fescue.github.io/iMap/">New Golf Course Bucket List Tour</a> </H1>
 	<table style="width:100%">
 		<tr>

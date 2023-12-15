@@ -104,7 +104,7 @@
 	<div class="container">
     		<!-- Content for Mobile Devices -->
 		<div class="mobile-content">
-		     <table id="golf" class="display" width="100%">
+		     <table id="golf2" class="display" width="100%">
 		          <thead>
 		              <tr> 
 				<th data-priority="1">Golf Course</th>
@@ -122,6 +122,29 @@
 		              {% endfor %}
 		            </tbody>
 		     </table>
+
+
+
+			<script>
+			$(document).ready(function() {
+				var table = $('#golf2').DataTable( {
+					responsive: true,
+					order: [],
+					orderable: true,
+					sort: true,
+					columnDefs: [
+					 	{ targets: [4], responsivePriority: 1 }
+					  ],
+					  stateSave: true,
+					paging: false
+				} );
+			 
+				new $.fn.dataTable.FixedHeader( table );
+			} );
+			</script>
+
+
+			
 		</div>
 		<!-- Content for Desktop Devices -->
 		<div class="desktop-content">
@@ -170,26 +193,29 @@
 		              {% endfor %}
 			</tbody>
 		     </table>
+
+			<script>
+			$(document).ready(function() {
+				var table = $('#golf').DataTable( {
+					responsive: true,
+					order: [],
+					orderable: true,
+					sort: true,
+					columnDefs: [
+					 	{ targets: [4], responsivePriority: 1 }
+					  ],
+					  stateSave: true,
+					paging: false
+				} );
+			 
+				new $.fn.dataTable.FixedHeader( table );
+			} );
+			</script>
+
+			
 		</div>
 	</div>
-		 
-	<script>
-	$(document).ready(function() {
-		var table = $('#golf').DataTable( {
-			responsive: true,
-			order: [],
-			orderable: true,
-			sort: true,
-			columnDefs: [
-			 	{ targets: [4], responsivePriority: 1 }
-			  ],
-			  stateSave: true,
-			paging: false
-		} );
-	 
-		new $.fn.dataTable.FixedHeader( table );
-	} );
-	</script>
+
 </BODY>
 
   <footer>   

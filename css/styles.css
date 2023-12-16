@@ -56,4 +56,10 @@
 	footer {
 		height: 8vh; /* vh (viewport height) unit, 3% of the viewport height */
 	}
+
+	img {
+	  height: auto;
+	  width: 100%;
+	}
+
 </style> 

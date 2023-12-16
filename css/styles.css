@@ -27,29 +27,33 @@
 	    padding: 0 5px;
 	}
 
-		/* CSS Media Query for Mobile Devices */
-	        /* Initially hide mobile content on all devices */
-	        .mobile-content {
-	            display: none;
-	        }
+	/* CSS Media Query for Mobile Devices */
+	/* Initially hide mobile content on all devices */
+	.mobile-content {
+	    display: none;
+	}
 
-        	/* CSS Media Query for Mobile Devices */
-	        @media only screen and (max-width: 768px) {
-	            .desktop-content {
-	                display: none;
-	            }
-	            .mobile-content {
-	                display: block;
-	            }
-	        }
-	
-	        /* CSS Media Query for Desktop Devices */
-	        @media only screen and (min-width: 769px) {
-	            .mobile-content {
-	                display: none;
-	            }
-	            .desktop-content {
-	                display: block;
-	            }
-	        }
+	/* CSS Media Query for Mobile Devices */
+	@media only screen and (max-width: 768px) {
+	    .desktop-content {
+		display: none;
+	    }
+	    .mobile-content {
+		display: block;
+	    }
+	}
+
+	/* CSS Media Query for Desktop Devices */
+	@media only screen and (min-width: 769px) {
+	    .mobile-content {
+		display: none;
+	    }
+	    .desktop-content {
+		display: block;
+	    }
+	}
+
+	footer {
+		height: 3vh; /* vh (viewport height) unit, 3% of the viewport height */
+	}
 </style> 

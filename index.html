@@ -63,15 +63,15 @@
 		<div class="desktop-content">
 			<div class="row">
 			   	<div class="col-md-4">
-					<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
+					<iframe title="Coore/Crenshaw - Cabot St. Lucia" width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
 					<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
 			   	</div>
 			   	<div class="col-md-4">
-					<iframe width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
+					<iframe title="Tom Doak - Pinehurst #10" width="270" height="200" src="https://www.youtube.com/embed/R-P7peWhNwM" frameborder="150" allowfullscreen></iframe>
 					<h4>Tom Doak - Pinehurst #10</h4>
 			   	</div>
 				<div class="col-md-4">
-					<iframe width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
+					<iframe title="Gil Hanse - PGA Frisco" width="270" height="200" src="https://www.youtube.com/embed/FXtltDZo3kg" frameborder="150" allowfullscreen></iframe>
 			 		<h4>Gil Hanse - PGA Frisco</h4>
 			   	</div>
 			</div>
@@ -138,6 +138,22 @@
 			<th><a style='font-weight:bold' href="https://fescue.github.io/2019/">2019 archive</a></th>
 		</tr>
 	</table>
+
+	<!-- bfcache -->
+	function beforeUnloadListener(event) {
+	  event.preventDefault();
+	  return event.returnValue = 'Are you sure you want to exit?';
+	};
+	
+	// A function that invokes a callback when the page has unsaved changes.
+	onPageHasUnsavedChanges(() => {
+	  window.addEventListener('beforeunload', beforeUnloadListener);
+	});
+	
+	// A function that invokes a callback when the page's unsaved changes are resolved.
+	onAllChangesSaved(() => {
+	  window.removeEventListener('beforeunload', beforeUnloadListener);
+	});
 </BODY>
 	
 <footer>

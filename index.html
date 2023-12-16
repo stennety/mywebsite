@@ -30,38 +30,33 @@
 	<title>New Golf Course - Golf Architecture - Routing Renovation Restoration</title>
 		<link rel="shortcut icon" type="image/jpg" href="/images/Fairway.jpg">
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.dataTables.min.css">
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.3.1/css/fixedHeader.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
 		<style type="text/css" class="init">	
 			div.container { max-width: 1200px }
 		</style>
+	 
 	       <!-- EMBED JQUERY USING GOOGLE APIs -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+		 
+	       <!-- EMBED JQUERY USING GOOGLE APIs 
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-		<!-- IF THAT FAILS CLOUDFLARE CDN -->
+		 IF THAT FAILS CLOUDFLARE CDN 
 		<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"><\/script>');
+		    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"><\/script>');
 		</script>
-
-		<!-- IF THAT FAILS , JQUERY FROM MICROSOFT -->
-		<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"><\/script>');
-		</script>
-
-		<!-- IF THAT FAILS, JQUERY.COM -->
-		<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"><\/script>');
-		</script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
-		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
+	-->
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
 		<script type="text/javascript" class="init"></script>
 </head>
 
 <BODY>
 	
-	<div>		
+	<div style="width: 100%; height: 600px;>		
 		<!-- Content for Desktop Devices --> 
 		<div class="desktop-content">
 			<div class="row">
@@ -99,11 +94,7 @@
 				</tr>
 			 </thead>
 			 <tbody>
-			 	{% for item in site.data.allGolf %}<tr>
-			 		{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>
-			 		{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}
-					<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
-			 	</tr>{% endfor %}
+			 	{% for item in site.data.allGolf %}<tr>{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td></tr>{% endfor %}
 			 </tbody>
 			</table>
 		 
@@ -149,8 +140,7 @@
 	
 <footer>
 	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a style='font-weight:bold' href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
+	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a>  <a style='font-weight:bold' href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
 	</nav>
 </footer>
 </html>

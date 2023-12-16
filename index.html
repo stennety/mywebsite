@@ -124,6 +124,16 @@
 					new $.fn.dataTable.FixedHeader( table );
 				} );
 			</script>
+		
+			<!-- JavaScript to asynchronously load the iframes for YouTube -->
+			<script>
+			        window.addEventListener('load', function() {
+			            document.querySelectorAll('iframe[data-src]').forEach(iframe => {
+			                iframe.src = iframe.getAttribute('data-src');
+			            });
+			        });
+			</script>
+
 	</div>
 		
 	<H1><a href="https://fescue.github.io/iMap/">New Golf Course Bucket List Tour</a> </H1>

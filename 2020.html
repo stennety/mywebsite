@@ -20,6 +20,23 @@
 	                display: none;
 	            }
 	        }
+
+		/* Desktop View */
+	        @media screen and (min-width: 768px) {
+	            .dataTable thead th, .dataTable tbody td {
+	                display: table-cell;
+	            }
+	        }
+	
+	        /* Mobile View */
+	        @media screen and (max-width: 767px) {
+	            .dataTable thead th, .dataTable tbody td {
+	                display: none; /* Initially hide all columns on mobile */
+	            }
+	            .dataTable thead th:nth-child(-n+3), .dataTable tbody td:nth-child(-n+3) {
+	                display: table-cell; /* Show only the first 3 columns on mobile */
+	            }
+	        }
 	</style> 
   	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">	
@@ -60,7 +77,8 @@
 
   <BODY>	
      <H1>Golf Courses Opened in 2020</H1>
-	<div class="col hide-on-mobile">
+<!--
+	  <div class="col hide-on-mobile">
 		<div class="row">
 			<div class="col-md-4">
 			</div>
@@ -74,8 +92,8 @@
 			</div>
 		</div>
 	</div>
-
-     <table id="golf" class="display" width="100%">
+-->
+     <table id="golf" class="display dataTable" width="100%">
           <thead>
               <tr> 
                 <th>Country</th>
@@ -113,9 +131,6 @@
 			order: [],
 			orderable: true,
 			sort: true,
-			columnDefs: [
-			 	{ targets: [4], responsivePriority: 1 }
-			  ],
 			  stateSave: true,
 			paging: false
 		} );

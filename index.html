@@ -60,51 +60,9 @@
 </head>
 
 <BODY>
-	<div>
-		<!-- Content for Mobile Devices 
-		<div class="mobile-content">
-			<table id="golf2" class="display" width="100%">
-		          <thead>
-		              <tr> 
-				<th data-priority="1">Golf Course</th>
-				<th>Architect</th>
-		                <th>Location</th>
-		              </tr>
-		          </thead>
-		          <tbody>		  
-		              {% for item in site.data.all2021 %}
-				<tr>
-		                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
-		                    <td>{{ item.Architect }}</td> 
-		                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
-				</tr>
-		              {% endfor %}
-		            </tbody>
-			</table>
-
-			<script>
-			$(document).ready(function() {
-				var table = $('#golf2').DataTable( {
-					responsive: true,
-					order: [],
-					orderable: true,
-					sort: true,
-					columnDefs: [
-					 	{ targets: [0], responsivePriority: 1 }
-					  ],
-					  stateSave: true,
-					paging: false
-				} );
-			 
-				new $.fn.dataTable.FixedHeader( table );
-			} );
-			</script>			
-		</div>
-		-->
-		
-		<!-- Content for Desktop Devices 
+	<div>		
+		<!-- Content for Desktop Devices --> 
 		<div class="desktop-content">
-		-->
 			<div class="row">
 			   	<div class="col-md-4">
 					<iframe width="270" height="200" src="https://www.youtube.com/embed/FT1An-ycess" frameborder="150" allowfullscreen></iframe>
@@ -119,7 +77,7 @@
 			 		<h4>Gil Hanse - PGA Frisco</h4>
 			   	</div>
 			</div>
-
+		</div>
 	
 			<table id="golf" class="display" width="100%">
 			 <thead>
@@ -165,9 +123,6 @@
 					new $.fn.dataTable.FixedHeader( table );
 				} );
 			</script>
-		<!--	
-		</div>
-		-->
 	</div>
 		
 	<H1><a href="https://fescue.github.io/iMap/">New Golf Course Bucket List Tour</a> </H1>

@@ -12,67 +12,40 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 	<style>
-	       body, html {
-	            margin: 0;
-	            padding: 0;
-	            height: 100%; /* Full height */
-	            display: flex;
-	            flex-direction: column; /* Stack children vertically */
-	        }
-	
-	        .main-container {
-	            display: flex;
-	            flex-direction: row; /* Side by side layout for map and content */
-	            flex-grow: 1; /* Fill available space */
-	            width: 100%; /* Full width */
-	        }
-	
-	        #map, .content {
-	            height: 100vh; /* Full viewport height */
-	            flex-grow: 1; /* Both children share the available space equally */
-	        }
-	
-	        #map {
-	            width: 50%; /* Half of the container */
-	        }
-	
-	        .content {
-	            width: 50%; /* Half of the container */
-	        }
-	
-	        footer {
-	            background-color: #f1f1f1;
-	            padding: 10px;
-	            text-align: center;
-	            width: 100%; /* Full width */
-	        }
-
-	        .video {
-	            height: 20%; /* 20% of the right side of the screen */
-	            padding: 20px;
-	            /* Additional styling for video */
-	        }
-	        .text {
-	            height: 80%; /* Remaining 80% of the right side of the screen */
-	            padding: 20px;
-	            overflow-y: auto; /* Enables scrolling for the text content */
-	            /* Additional styling for text */
-	        }
-	        /* Responsive adjustments */
-	        @media (max-width: 768px) {
-	            body, html {
-	                flex-direction: column;
-	            }
-	            #map, .content {
-	                width: 100%;
-	            }
-	            .video {
-	                height: 40vh; /* Adjusted height for smaller screens */
-	            }
-	            .text {
-	                height: 60vh; /* Adjusted height for smaller screens */
-	            }
-	        }
+		.main-container {
+		    display: flex;
+		    flex-direction: row;
+		    height: 100vh; /* Adjust height as needed */
+		}
+		
+		#map {
+		    width: 50%; /* Half of the container */
+		    /* Additional map styling */
+		}
+		
+		.content {
+		    width: 50%; /* Half of the container */
+		    overflow-y: auto; /* Enables scrolling for the text content */
+		    /* Additional content styling */
+		}
+		
+		footer {
+		    background-color: #f1f1f1;
+		    padding: 10px;
+		    text-align: center;
+		    width: 100%;
+		}
+		
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+		    .main-container {
+		        flex-direction: column;
+		    }
+		
+		    #map, .content {
+		        width: 100%;
+		    }
+		}
 	
 		/* Styling for custom overlay */
 		.leaflet-custom-overlay {

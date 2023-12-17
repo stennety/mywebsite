@@ -12,6 +12,7 @@
 	
         <link rel="shortcut icon" type="image/x-icon" href="/images/Fairway.jpg" />
 
+	<link rel="stylesheet" href="/css/lite-yt-embed.css" />
 	 
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -136,21 +137,11 @@
 	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
 		        L.DomUtil.setPosition(this._container, position);
 		    }
-
-        });
-
-
-
-			
 		});
-		
+
 		// Add the custom overlay to the map
 		var myCustomOverlay = new L.CustomOverlay();
 		myCustomOverlay.addTo(map);
-
-
-		
-
 	</script>
     </body>
 </html>

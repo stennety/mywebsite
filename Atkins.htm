@@ -18,34 +18,31 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 	<style>
-	        body, html {
+
+		body, html {
 	            height: 100%;
 	            margin: 0;
 	            display: flex;
+	            flex-direction: column; /* Stack children vertically */
 	        }
-	        #map {
-	            width: 50%;
-	            height: 100vh; /* Full height of the viewport */
-	        }
-	        .content {
-	            width: 50%;
-	            height: 100vh; /* Full height of the viewport */
-		    margin: 2px;
-	            display: flex;
-	            flex-direction: column;
-	        }
-	        /* New style for the main container */
+	
 	        .main-container {
 	            display: flex;
 	            flex-direction: row;
-	            min-height: 100vh; /* Ensure that the container fills the viewport height */
+	            flex-grow: 1; /* Allow this container to grow and fill available space */
+	        }
+	
+	        #map, .content {
+	            flex-grow: 1; /* Each child of main-container takes equal space */
+	            height: 100vh;
 	        }
 	
 	        footer {
-	            background-color: #f1f1f1; /* Example background color */
+	            background-color: #f1f1f1;
 	            padding: 10px;
 	            text-align: center;
 	        }
+
 	        .video {
 	            height: 20%; /* 20% of the right side of the screen */
 	            padding: 20px;

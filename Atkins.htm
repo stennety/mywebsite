@@ -143,6 +143,11 @@
 		// Add the custom overlay to the map
 		var myCustomOverlay = new L.CustomOverlay();
 		myCustomOverlay.addTo(map);
+
+		// Add a marker to the map at the same location as the map center
+		var marker = L.marker([40.0936, -88.2272]).addTo(map);
+		marker.bindPopup("<b>Atkins Golf Club</b><br>Home of the University of Illinois NCAA Athletics Fighting Illini</br>").openPopup();
+
 	</script>
     </body>
 </html>

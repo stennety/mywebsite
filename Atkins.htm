@@ -58,6 +58,19 @@
 	                height: 60vh; /* Adjusted height for smaller screens */
 	            }
 	        }
+	
+		/* Styling for custom overlay */
+		.leaflet-custom-overlay {
+	            position: absolute;
+	            top: 10px; /* Adjust as needed */
+	            left: 10px; /* Adjust as needed */
+	            z-index: 1000; /* Ensure it's above the map */
+	        }
+	
+	        .leaflet-custom-overlay lite-youtube {
+	            width: 300px; /* Adjust the size as needed */
+	            height: 168px; /* Adjust the size as needed */
+	        }
 	</style>
 			
         <meta charset="UTF-8">
@@ -118,14 +131,25 @@
 		
 		    _update: function() {
 		        // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
-		        var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+		        // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+			    
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
 		        L.DomUtil.setPosition(this._container, position);
 		    }
+
+        });
+
+
+
+			
 		});
 		
 		// Add the custom overlay to the map
 		var myCustomOverlay = new L.CustomOverlay();
 		myCustomOverlay.addTo(map);
+
+
+		
 
 	</script>
     </body>

@@ -93,6 +93,7 @@
     </head>
 	
     <body>
+	    
 	<div class="main-container">
 		<div id="map"></div>
 		<div class="content">
@@ -121,9 +122,9 @@
 	</footer>
 
 	<script>
-	                const map = L.map('map').setView([40.0936, -88.2272], 15);
+	                const map = L.map('map').setView([40.0936, -88.2272], 18);
 	                const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	                    maxZoom: 19,
+	                    maxZoom: 30,
 	                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	                }).addTo(map);
 	

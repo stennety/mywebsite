@@ -125,11 +125,6 @@ enableEmoji = true
     title = "Contact Us"
     url = "/contact/"
     weight = 4
-  [[menu.header]]
-    name = "Blog"
-    title = "My blog"
-    url = "/blog/"
-    weight = 5  
   
     
   # Configure footer  

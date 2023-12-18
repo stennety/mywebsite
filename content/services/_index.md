@@ -1,50 +1,31 @@
 ---
-title: A Blog That Works
+title: "What we do"
+subtitle: "A collection, minus the blog."
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
-author: "The R Markdown Team @RStudio"
+  We develop collaborative open-source programmatic water quality and fisheries analysis/reporting tools.
+author: Allan Irvine
 show_post_thumbnail: true
-thumbnail_left: true # for list-sidebar only
-show_author_byline: true
-show_post_date: true
-show_button_links: false
+thumbnail_left: false # for list-sidebar only
+show_author_byline: false
+show_post_date: false
 # for listing page layout
-layout: list-sidebar # list, list-sidebar, list-grid
+layout: list # list, list-sidebar
 
-# for list-sidebar layout
-sidebar: 
-  title: A Sidebar for Your Thoughts
-  description: |
-    This is a fully featured blog that supports categories,
-    tags, series, and pagination. Even this sidebar offers 
-    a ton of customizations.
-    
-    Check out the _index.md file in the /blog folder 
-    to edit this content. 
-  author: "The R Markdown Team @RStudio"
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
-  categories_link: true
-  series_link: true
-  tags_link: true
-  show_sidebar_adunit: true # show ad container
-
-# set up common front matter for all pages inside blog/
+# set up common front matter for all individual pages in series
 cascade:
-  author: "The R Markdown Team @RStudio"
-  show_author_byline: true
-  show_post_date: true
-  show_comments: true # see site config to choose Disqus or Utterances
-  # for single-sidebar layout
+  layout: single-series 
   sidebar:
-    text_link_label: View recent posts
-    text_link_url: /blog/
-    show_sidebar_adunit: false # show ad container
-    
-type: blog
-cascade:
-  type: blog
+    title: "Create a Collection"
+    author: Alison Hill
+    description: |
+      Sometimes you want a souped-up series- a bundle of related pages 
+      meant to be read in sequence. This section is like a blog series, 
+      minus the blog.
+    show_author_byline: true
+    show_post_date: true
+    text_link_label: ""
+    text_link_url: ""
+    show_sidebar_adunit: true # show ad container, first page only
+    text_series_label: "Outline" 
+    text_contents_label: "On this page" 
 ---
-
-** No content below YAML for the blog _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside blog/. You may still override any of these by changing them in a page's front matter.**

@@ -125,6 +125,7 @@ enableEmoji = true
     title = "Contact Us"
     url = "/contact/"
     weight = 4
+
   
     
   # Configure footer  

@@ -62,6 +62,12 @@
 		    text-align: center;
 		    width: 100%;
 		}
+
+		/* Make images responsive */
+		img {
+		        max-width: 100%;
+		        height: auto;
+		}
 		
 		/* Responsive adjustments */
 		@media (max-width: 768px) {
@@ -72,7 +78,19 @@
 		    #map, .content {
 		        width: 100%;
 		    }
+		
+		    /* Adjust font sizes and other elements for mobile */
+		    .content {
+		        font-size: 1em; /* Adjust as needed for mobile */
+		    }
+		
+		    /* Make images responsive */
+		    img {
+		        max-width: 100%;
+		        height: auto;
+		    }
 		}
+
 	
 		/* Styling for custom overlay */
 		.leaflet-custom-overlay {
@@ -95,6 +113,8 @@
     </head>
 	
     <body>
+
+	    
 	<div class="main-container" role="main">
 		<div id="map" aria-label="Map showing the location of Atkins Golf Club"></div>
 		<div class="content" tabindex="0"  aria-label="Golf Course Rebuild">

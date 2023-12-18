@@ -131,45 +131,7 @@
 	                    maxZoom: 30,
 	                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	                }).addTo(map);
-<!--
-			L.CustomOverlay = L.Layer.extend({
-			    onAdd: function(map) {
-			        this._map = map;
-			        this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-			        
-			        // Your lite-youtube HTML
-			        this._container.innerHTML = `
-			            <lite-youtube videoid="FT1An-ycess" style="background-image: url('https://i3.ytimg.com/vi/FT1An-ycess/hqdefault.jpg');">
-			                <a href="https://youtube.com/watch?v=FT1An-ycess" class="lty-playbtn" title="Play Video">
-			                    <span class="lyt-visually-hidden">Coore/Crenshaw - Cabot St. Lucia</span>
-			                </a>
-			            </lite-youtube>
-			        `;
-			
-			        // Add the container to the map
-			        map._panes.overlayPane.appendChild(this._container);
-			        
-			        // Update the position of the overlay on the map
-			        this._update();
-			    },
-			
-			    onRemove: function(map) {
-			        L.DomUtil.remove(this._container);
-			    },
-			
-			    _update: function() {
-			        // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
-			        // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
-				    
-		                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
-			        L.DomUtil.setPosition(this._container, position);
-			    }
-			});
-	
-			// Add the custom overlay to the map
-			var myCustomOverlay = new L.CustomOverlay();
-			myCustomOverlay.addTo(map);
--->	
+
 			// Add a marker to the map at the same location as the map center
 			var marker = L.marker([40.0936, -88.2272]).addTo(map);
 			marker.bindPopup("<b>Atkins Golf Club</b><br>Home of the University of Illinois Fighting Illini</br>").openPopup();

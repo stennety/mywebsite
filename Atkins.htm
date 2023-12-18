@@ -27,8 +27,33 @@
 		    width: 50%; /* Half of the container */
 		    overflow-y: auto; /* Enables scrolling for the text content */
 		    /* Additional content styling */
+	            color: #333; /* Darker text for better readability */
+	            background-color: #f9f9f9; /* Light background to contrast with the text */
+	            font-size: 1.1em; /* Slightly larger font size for readability */
+	            line-height: 1.6; /* Improved line spacing for readability */
 		}
-		
+
+	        .content a {
+	            color: #0056b3; /* Ensuring links are distinguishable */
+	            text-decoration: underline; /* Underline links for better visibility */
+	        }
+	
+	        .content a:hover, .content a:focus {
+	            color: #004299; /* Different color on hover/focus for better user interaction */
+	            background-color: #eef2f7; /* Background change on hover/focus for better visibility */
+	        }
+	
+	        /* High Contrast Mode for users with visual impairments */
+	        @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+	           .content {
+	               color: black;
+	               background-color: white;
+	           }
+	           .content a {
+	               color: blue;
+	           }
+	        }
+
 		footer {
 		    background-color: #f1f1f1;
 		    padding: 10px;
@@ -68,7 +93,6 @@
     </head>
 	
     <body>
-	    
 	<div class="main-container">
 		<div id="map"></div>
 		<div class="content">

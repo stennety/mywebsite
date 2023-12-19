@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "Who Are We"
 description: |
-  A website template for Hugo developed by RStudio & Formspree and available for free.
+  Research and consulting company working in biology and ecosystem restoration
 show_header: true
-sidebar_left: false
+sidebar_left: true
 # Keep this! Do not edit.
 cascade:
   headless: true

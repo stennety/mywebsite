@@ -28,4 +28,8 @@ cascade:
     show_sidebar_adunit: true # show ad container, first page only
     text_series_label: "Outline" 
     text_contents_label: "On this page" 
+    
+type: collection
+cascade:
+  type: collection
 ---

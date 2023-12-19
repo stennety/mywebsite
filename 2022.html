@@ -46,31 +46,30 @@
 </head>
 
 <BODY>
-	
 	<div style="width: 100%>		
 		<!-- Content for Desktop Devices --> 
 		<div class="desktop-content">
 			<div class="row">
 			   	<div class="col-md-4">
-					<lite-youtube videoid="FT1An-ycess" style="background-image: url('https://i3.ytimg.com/vi/FT1An-ycess/hqdefault.jpg');">
-					  <a href="https://youtube.com/watch?v=FT1An-ycess" class="lty-playbtn" title="Play Video">
-					    <span class="lyt-visually-hidden">Coore/Crenshaw - Cabot St. Lucia</span></a>
+					<lite-youtube videoid="og4Z2_vTxrs" style="background-image: url('https://i3.ytimg.com/vi/og4Z2_vTxrs/hqdefault.jpg');">
+					  <a href="https://youtube.com/watch?v=og4Z2_vTxrs" class="lty-playbtn" title="Play Video">
+					    <span class="lyt-visually-hidden">Lost Rail</span></a>
 					</lite-youtube>
-					<h4>Coore/Crenshaw - Cabot St. Lucia</h4>
+					<h4>Lost Rail</h4>
 			   	</div>
 			   	<div class="col-md-4">
-					<lite-youtube videoid="R-P7peWhNwM" style="background-image: url('https://i.ytimg.com/vi/R-P7peWhNwM/hqdefault.jpg');">
-					  <a href="https://youtube.com/watch?v=R-P7peWhNwM" class="lty-playbtn" title="Play Video">
-					    <span class="lyt-visually-hidden">Tom Doak - Pinehurst #10</span></a>
+					<lite-youtube videoid="8GdcN9iCxj8" style="background-image: url('https://i.ytimg.com/vi/8GdcN9iCxj8/hqdefault.jpg');">
+					  <a href="https://youtube.com/watch?v=8GdcN9iCxj8" class="lty-playbtn" title="Play Video">
+					    <span class="lyt-visually-hidden">Mustang, Nepal</span></a>
 					</lite-youtube>
-					<h4>Tom Doak - Pinehurst #10</h4>
+					<h4>Mustang, Nepal</h4>
 			   	</div>
 				<div class="col-md-4">
-					<lite-youtube videoid="FXtltDZo3kg" style="background-image: url('https://i3.ytimg.com/vi/FXtltDZo3kg/hqdefault.jpg');">
-					  <a href="https://youtube.com/watch?v=FXtltDZo3kg" class="lty-playbtn" title="Play Video">
-					    <span class="lyt-visually-hidden">Gil Hanse - PGA Frisco</span></a>
+					<lite-youtube videoid="TW8vNuIkfYs" style="background-image: url('https://i3.ytimg.com/vi/TW8vNuIkfYs/hqdefault.jpg');">
+					  <a href="https://youtube.com/watch?v=TW8vNuIkfYs" class="lty-playbtn" title="Play Video">
+					    <span class="lyt-visually-hidden">Mường Thanh Golf Club</span></a>
 					</lite-youtube>
-					<h4>Gil Hanse - PGA Frisco</h4>
+					<h4>Mường Thanh Golf Club</h4>
 			   	</div>
 			</div>
 		</div>
@@ -82,7 +81,6 @@
 					 <th scope="col">Architect</th>
 					 <th scope="col">Location</th>
 					 <th scope="col">Country</th> 
-					 <th scope="col">In Play</th>
 					 <th scope="col">Construction</th>
 					 <th scope="col">Build</th>
 					 <th scope="col">Status</th> 
@@ -95,7 +93,7 @@
 			 </thead>
 			 <tbody>
 			 	{% for item in site.data.all2022 %}<tr>
-					{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
+					{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
 				</tr>{% endfor %}
 			 </tbody>
 		</table>

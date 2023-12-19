@@ -67,52 +67,32 @@
 				</tr>
 			 </thead>
 			 <tbody>
-			 	{% for item in site.data.allGolf %}<tr>
+			 	{% for item in site.data.all2022 %}<tr>
 					{% if item.Website and item.Website != "" and item.Website != nil %}<td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %}<td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Country }}</td><td>{{ item.Date }}</td><td>{{ item.Construction }}</td><td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %}<td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a></td>{% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %}<td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td>{% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %}<td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a></td>{% else %}<td></td>{% endif %}<td>{{ item.Budget }}</td><td>{{ item.History }}</td><td>{{ item.DataCurated }} </td><td>{{ item.Comments }}</td>
 				</tr>{% endfor %}
 			 </tbody>
-			</table>
+		</table>
 		 
-			<script>
-				$(document).ready(function() {
-					var table = $('#golf').DataTable( {
-						responsive: true,
-						order: [],
-						orderable: true,
-						sort: true,
-						columnDefs: [
-						 	{ targets: [4], responsivePriority: 1 }
-						  ],
-						  stateSave: true,
-						paging: false
-					} );
-				 
-					new $.fn.dataTable.FixedHeader( table );
+		<script>
+			$(document).ready(function() {
+				var table = $('#golf').DataTable( {
+					responsive: true,
+					order: [],
+					orderable: true,
+					sort: true,
+					columnDefs: [
+						{ targets: [4], responsivePriority: 1 }
+					  ],
+					  stateSave: true,
+					paging: false
 				} );
-			</script>
-		
-    
-			<script>
-				$(document).ready(function() {
-					var table = $('#golf').DataTable( {
-						responsive: true,
-						order: [],
-						orderable: true,
-						sort: true,
-						columnDefs: [
-						 	{ targets: [4], responsivePriority: 1 }
-						  ],
-						  stateSave: true,
-						paging: false
-					} );
-				 
-					new $.fn.dataTable.FixedHeader( table );
-				} );
-			</script>		
+			 
+				new $.fn.dataTable.FixedHeader( table );
+			} );
+		</script>		
 	</div>
 		
 	<H1><a href="https://fescue.github.io/iMap/">New Golf Course Bucket List Tour</a> </H1>
-	<p id="done"></p>
 	<table style="width:100%">
 		<tr>
 			<th><a style='font-weight:bold' href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>

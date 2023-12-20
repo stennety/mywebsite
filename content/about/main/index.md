@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  We build productive relationships with First Nations, regulators, non-profits, proponents, scientists, and stewardship groups through sound science, open communication, integrity and value-added deliverables. 
+  With integrity, using sound science and open communication, we build productive relationships between First Nations, regulators, non-profits, proponents, scientists, and stewardship groups.  Our value-added deliverables include open-source, collaborative GIS environments and interactive online reporting.
   
 
 show_outro: false

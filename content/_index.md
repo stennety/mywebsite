@@ -1,13 +1,13 @@
 ---
 title: "New Graph Environment"
 subtitle: "Biology and Ecosystem Restoration"
-description: "At New Graph Environment we provide practical and innovative environmental research and consulting solutions."
+description: "Innovative environmental research and consulting solutions."
 
 images:
-  - img/river.jpg
+  - img/jasper_lake.JPG
 image_left: false
 text_align_left: true
-show_social_links: true # specify social accounts in site config
+show_social_links: false # specify social accounts in site config
 show_action_link: true
 action_link: /about
 action_label: "Read More &rarr;"

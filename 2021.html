@@ -4,101 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-	 <!-- Google tag (gtag.js) -->
-	 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
-	 <script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-			  gtag('config', 'G-CE7ZF0C1GD');
-	  </script>
-	  <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
-	  
-	<link rel="stylesheet" href="/css/styles.css">
-	 
-  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<meta name="description" CONTENT="2021 Golf Course Architecture New Renovation Restoration Design Construction Doak Coore Hanse Kidd">
-	<meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
- 	<meta name="msvalidate.01" content="F27967019E01C1777A8C10B926D4619A" />
-	<title>2021 Golf Courses - Golf Architecture - Routing Renovation Restoration</title>
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.dataTables.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.3.1/css/fixedHeader.dataTables.min.css">
-	<style type="text/css" class="init">	
-		div.container { max-width: 1200px }
-	</style>
-	<!-- EMBED JQUERY USING GOOGLE APIs -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-	<!-- IF THAT FAILS CLOUDFLARE CDN -->
-	<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"><\/script>');
-	</script>
-
-	<!-- IF THAT FAILS , JQUERY FROM MICROSOFT -->
-	<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"><\/script>');
-	</script>
-
-	<!-- IF THAT FAILS, JQUERY.COM -->
-	<script type="text/javascript">
-		    window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"><\/script>');
-	</script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
-	<script type="text/javascript" class="init"></script>
+	{% include header.html %}
+ 	<meta name="description" CONTENT="2021 Golf Course Architecture New Renovation Restoration Construction Doak Hanse Coore Crenshaw Norman Kidd Franz Clayton King Collins">
+	<title>New Golf Courses Completed 2021 - Golf Architecture - Renovation</title>
  </head>
 
  <BODY>
-	<H1>Golf Courses Opened in 2021</H1>
-	 
-	<div>
-    		<!-- Content for Mobile Devices -->
-		<div class="mobile-content">
-		     <table id="golf2" class="display" width="100%">
-		          <thead>
-		              <tr> 
-				<th data-priority="1">Golf Course</th>
-				<th>Architect</th>
-		                <th>Location</th>
-		              </tr>
-		          </thead>
-		          <tbody>		  
-		              {% for item in site.data.all2021 %}
-				<tr>
-		                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
-		                    <td>{{ item.Architect }}</td> 
-		                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
-				</tr>
-		              {% endfor %}
-		            </tbody>
-		     </table>
-
-
-
-			<script>
-			$(document).ready(function() {
-				var table = $('#golf2').DataTable( {
-					responsive: true,
-					order: [],
-					orderable: true,
-					sort: true,
-					columnDefs: [
-					 	{ targets: [0], responsivePriority: 1 }
-					  ],
-					  stateSave: true,
-					paging: false
-				} );
-			 
-				new $.fn.dataTable.FixedHeader( table );
-			} );
-			</script>			
-		</div>
-		
+ 	<div style="width: 100%>
 		<!-- Content for Desktop Devices -->
 		<div class="desktop-content">
 			<div class="row">
@@ -111,78 +23,12 @@
 					<h4>European Golf Design - Marco Simone</h4>
 				</div>
 			</div>
-			
-			<table id="golf" class="display" width="100%">
-			<thead>
-		              <tr> 
-				<th data-priority="1">Golf Course</th>
-				<th>Architect</th>
-			        <th>YouTube</th> 
-		                <th>Country</th>
-		                <th>Location</th>               
-		                <th>Construction</th>
-		                <th>Build</th>
-				<th>Social</th>
-		                <th>Budget</th>
-		                <th>History</th> 
-		                <th>Comments</th>
-		              </tr>
-			</thead>
-			<tbody>		  
-		              {% for item in site.data.all2021 %}
-				<tr>
-		                    {% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
-		                    <td>{{ item.Architect }}</td> 
-			             {% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil and item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}
-		                    <td>{{ item.Country }}</td>
-		                    {% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
-		                    <td>{{ item.Construction }}</td>
-		                    <td>{{ item.TypeOfJob }}</td>	  
-				    {% if item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% elsif item.Instagram and item.Instagram != "" and item.Instagram != nil %} <td><a href="https://www.instagram.com/{{ item.Instagram }}" rel="nofollow">{{ item.InstaCaption }}</a> </td> {% else %}<td></td>{% endif %}			  
-		                    <td>{{ item.Budget }}</td>
-		                    <td>{{ item.History }}</td>
-		                    <td>{{ item.Comments }} </td> 
-				</tr>
-		              {% endfor %}
-			</tbody>
-		     </table>
-
-			<script>
-			$(document).ready(function() {
-				var table = $('#golf').DataTable( {
-					responsive: true,
-					order: [],
-					orderable: true,
-					sort: true,
-					columnDefs: [
-					 	{ targets: [4], responsivePriority: 1 }
-					  ],
-					  stateSave: true,
-					paging: false
-				} );
-			 
-				new $.fn.dataTable.FixedHeader( table );
-			} );
-			</script>
-
-			
 		</div>
+		{% include pastYear2021.html %}	
 	</div>
-
-</BODY>
-
-  <footer>   
-	<table style="width:100%">
-		<tr>
-			<th><a href="https://fescue.github.io/">Current Golf Course Construction</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
-			<th><a href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-  </footer>
+		
+	{% include bodyFooter.html %}
+ </BODY>
+	
+ {% include footer.html %}
 </html>

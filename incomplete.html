@@ -4,81 +4,34 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
-	<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-			  gtag('config', 'G-CE7ZF0C1GD');
-	</script>
-	<script type="text/javascript">
-	    (function(c,l,a,r,i,t,y){
-	        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-	        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-	        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-	    })(window, document, "clarity", "script", "h4dgedaqyl");
-	</script>
-	<link rel="stylesheet" href="/css/styles.css">
-	 
-  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	{% include header.html %}
 	<meta name="description" CONTENT="New Golf Course Architecture On Hold Permits NLE Construction Doak Hanse Coore Crenshaw Norman Nicklaus Kidd">
-	<meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
- 	<meta name="msvalidate.01" content="F27967019E01C1777A8C10B926D4619A" />
 	<title>Golf Course on Hold, Incomplete, NLE</title>
-	<link rel="shortcut icon" type="image/jpg" href="/images/Fairway.jpg">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/lite-yt-embed.css" />
-	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.datatables.net/rss.xml">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
-	<style type="text/css" class="init">	
-			div.container { max-width: 1200px }
-	</style>
-	<script type="text/javascript" src="/js/jquery-3.7.1.slim.min.js"></script> 
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
-	<script type="text/javascript" class="init"></script>
 </head>
-
 <BODY>
-
     <H1>On Hold, Incomplete, Pending Approval, NLE(No Longer Exists)</H1>
     <H2>  <p><a href="https://fescue.github.io/">Return to active projects</a></p> </H2>
     <table id="golf" class="display" width="100%">
           <thead>
 			<tr> 
-				<th data-priority="1">Golf Course</th>
-				<th>Architect</th>
-				<th>Grow In</th> 
-				<th>Country</th>
-				<th>Location</th>               
-				<th>Build</th>
-				<th>Status</th>
-				<th>History</th> 
-				<th>Comments</th>
+				<th data-priority="1" scope="col">Golf Course</th>
+				<th scope="col">Architect</th>
+				<th scope="col">Grow In</th> 
+				<th scope="col">Country</th>
+				<th scope="col">Location</th>               
+				<th scope="col">Build</th>
+				<th scope="col">Status</th>
+				<th scope="col">History</th> 
+				<th scope="col">Comments</th>
 			</tr>
           </thead>
           <tbody>
-
               {% for item in site.data.allI %}
-			<tr>
-				{% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}
-				<td>{{ item.Architect }}</td>
-				{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% else %}<td></td>{% endif %}
-				<td>{{ item.Country }}</td>
-				{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}
-				<td>{{ item.TypeOfJob }}</td>
-				<td>{{ item.Status }}</td>
-				<td>{{ item.History }}</td>
-				<td>{{ item.Comments }} </td>
+			<tr>{% if item.Website and item.Website != "" and item.Website != nil %} <td><a href="{{ item.Website }}">{{ item.Course }}</a> </td> {% else %}<td> {{ item.Course }} </td>{% endif %}<td>{{ item.Architect }}</td>{% if item.YouTube and item.YouTube != "" and item.YouTube != nil %} <td><a href="https://www.youtube.com/watch?v={{ item.YouTube }}">{{ item.YouTubeCaption }}</a> </td> {% elsif item.Twitter and item.Twitter != "" and item.Twitter != nil %} <td><a href="https://www.twitter.com/{{ item.Twitter }}" rel="nofollow">{{ item.TwitterCaption }}</a> </td> {% else %}<td></td>{% endif %}<td>{{ item.Country }}</td>{% if item.Latitude and item.Latitude != "" and item.Latitude != nil %} <td><a href="https://www.google.com/maps/@{{item.Latitude}},{{item.Longitude}},14z">{{ item.Location }}</a> </td> {% else %}<td></td>{% endif %}<td>{{ item.TypeOfJob }}</td><td>{{ item.Status }}</td><td>{{ item.History }}</td><td>{{ item.Comments }} </td>
 			</tr>
               {% endfor %}
             </tbody>
-     </table>
+	</table>
 
 	<script>
 	$(document).ready(function() {
@@ -98,19 +51,7 @@
 	} );
 	</script>
 
-</BODY>
+ </BODY>
 	
-  <footer>   
-	<table style="width:100%">
-		<tr>
-			<th><a style='font-weight:bold' href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-			<th><a style='font-weight:bold' href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a style='font-weight:bold' href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a style='font-weight:bold' href="https://fescue.github.io/2019/">2019 archive</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-  </footer>
+ {% include footer.html %}
 </html>

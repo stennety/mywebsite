@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = ""
   description = "Biology and ecosystem restoration"
   #favicon = "/img/nge-full_black.png"
-  logo = "/img/nge-icon_name_white.png"
+  logo = "/img/nge-icon_white.png"
   mainSections = ["services", "project", "about"]
   navallcaps = true
   # show/hide social icons in site header & footer

@@ -2,6 +2,7 @@
 title: "Fisheries Data Analysis and Reporting"
 excerpt: "Fisheries Data Analysis and Reporting"
 layout: single
+weight: 3
 ---
 
 ## Duncan Reservoir Kokanee Stock Assessment

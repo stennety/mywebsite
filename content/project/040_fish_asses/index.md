@@ -2,6 +2,7 @@
 title: "Fish and Fish Habitat Assessments"
 excerpt: "Fish and Fish Habitat Assessments"
 layout: single
+weight: 4
 ---
 
 ## Stream assessment and classifications

@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "New Graph Environment Ltd."
+  orgName = "New Graph Environment"
   orgLocal = ""
   description = "Biology and ecosystem restoration"
   #favicon = "/img/nge-full_black.png"

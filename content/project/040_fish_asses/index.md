@@ -5,16 +5,15 @@ layout: single
 weight: 4
 ---
 
-## Stream assessment and classifications
-Stream assessments are important for the conservation and restoration of viable habitat for fish and other aquatic organisms. We perform assessments to maintain or improve opportunities to sustainably use ecosystem values for sustenance, social, ceremonial, recreational and commercial purposes.
-
-New Graph Environment's fish habitat assessment procedures are outlines [here](https://www.newgraphenvironment.com/fish_passage_elk_2022_reporting/methods.html#fish-habitat-assessment) and our results can be found [here](https://www.newgraphenvironment.com/fish_passage_elk_2022_reporting/results.html#weigert-creek---pscis-crossing-197534).
-
-Some example projects are:
-- [Tributaries to Revelstoke Lake Fisheries Assessments](https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=62500)
-- [Analysis and Priority Identification of Existing Fish Passage Data: Wahleach Creek Watershed](https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=54579)
-- More reports can be viewed [here](https://a100.gov.bc.ca/pub/acat/public/search.do)
+### Stream Classifications
+Stream assessments are important for the conservation and restoration of viable habitat for fish and other aquatic organisms. We perform assessments to maintain or improve opportunities to sustainably use ecosystem values for sustenance, social, ceremonial, recreational and commercial purposes. We have extensive experience conducting stream classification work related to riparian setbacks and stream crossing structure determination with an example project presented [here](https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=62500) 
 
 
-maybe some mention of fish movement and health tracking through PIT tagging (done in Skeena and Peace projects over multi-year periods)?
+### Fish Habitat Assesssment
+Our work includes numerous rapid and detailed habitat assessments for identifying needs and opportunities for fish habitat restoration.  In addition to inventory level standard habitat assessments we have extensive experience with detailed Fish Habitat Assessment Procedures that break habitat into meso-habitat features for detailed analysis of potential habitat for fish utilization.  An example of our work is presented [here](https://www.newgraphenvironment.com/fish_passage_elk_2022_reporting/results.html#weigert-creek---pscis-crossing-197534).
+
+
+### Fish Sampling and Tracking
+We commonly utilize electrofishing to determine fish presence and density with select projects tagging fish for health and movement analysis over time.  
+
 

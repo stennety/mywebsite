@@ -10,7 +10,7 @@ link_list:
 - name: Language
   url: https://www.firstvoices.com/
 - name: Coding
-  url: https://github.com/NewGraphEnvironment
+  url: https://github.com/NewGraphEnvironment?tab=repositories
 - name: Bayesian Statistics
   url: https://github.com/poissonconsulting
 - name: Ninjas

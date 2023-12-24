@@ -88,11 +88,11 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/NewGraphEnvironment"
-  [[params.social]]
-      icon      = "linkedin" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/newgraphenvironmentairvine/"
+      url       = "https://github.com/NewGraphEnvironment?tab=repositories"
+#  [[params.social]]
+#      icon      = "linkedin" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.linkedin.com/in/newgraphenvironmentairvine/"
 
 [taxonomies]
   category = "categories"

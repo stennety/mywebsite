@@ -20,18 +20,10 @@
 		box-sizing: border-box; /* Ensures padding and border are included in the element's width */
 	}
 	
+	/* General styles for desktop, applies when screen size is larger than 768px */
 	.col-md-6 {
-	    flex: 0 0 calc(25% - 100px); /* Adjusted to account for margins */
-	    margin: 0 50px;
-	    padding: 0 10px;
-	}
-
-	/* Styles for mobile devices */
-	@media (max-width: 768px) {
-	    .col-sm-6 {
-	        width: 100%;
-	        float: none;
-	    }
+	    width: 50%;
+	    float: left;
 	}
 
 	/* Styles for mobile devices */

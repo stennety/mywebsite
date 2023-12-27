@@ -22,6 +22,10 @@
 		</table>
 
 		<script>
+			function isMobile() {
+				return window.innerWidth <= 768; // You can adjust the width as needed
+			}
+			
 			$(document).ready(function() {
 				var table = $('#golf').DataTable( {
 					responsive: true,
@@ -29,11 +33,21 @@
 					orderable: true,
 					sort: true,
 					columnDefs: [
-					    { targets: [3, 4, 5, 6, 7, 8, 9, 10], className: 'desktop-content', orderable: true }
+						{ targets: [4], responsivePriority: 1 }
 					],
 					stateSave: true,
 					paging: false
 				} );
+
+				if (isMobile()) {
+					// Array of column indexes to hide
+					var columnsToHide = [3, 4, 5, 6, 7, 8, 9, 10]; // Example: hide columns at indexes 0, 2, and 4
+					
+					// Iterate over the array and hide each column
+					columnsToHide.forEach(function(index) {
+					        table.column(index).visible(false);
+					});
+				}
 				new $.fn.dataTable.FixedHeader( table );
 			} );
 		</script>

@@ -20,7 +20,7 @@
 				</tr>{% endfor %}
 			 </tbody>
 		</table>
-		 
+
 		<script>
 			$(document).ready(function() {
 				var table = $('#golf').DataTable( {
@@ -29,7 +29,9 @@
 					orderable: true,
 					sort: true,
 					columnDefs: [
-                				{ targets: [1, 2, 3], className: 'mobile-content', responsivePriority: 1 }
+					    { targets: [3, 4, 5, 6, 7, 8, 9, 10], className: 'desktop-content' },
+					    { targets: [0, 2], orderable: true }, // Enables sorting on columns 0 and 2
+					    { targets: [1, 3], orderable: false } // Disables sorting on columns 1 and 3
 					],
 					stateSave: true,
 					paging: false

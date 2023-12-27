@@ -29,12 +29,12 @@
 					orderable: true,
 					sort: true,
 					columnDefs: [
-						{ targets: [4], responsivePriority: 1 }
-					  ],
-					  stateSave: true,
+						{ targets: [4], responsivePriority: 1 },
+                				{ targets: [3, 4, 5, 6, 7, 8, 9, 10], className: 'none' }
+					],
+					stateSave: true,
 					paging: false
 				} );
-			 
 				new $.fn.dataTable.FixedHeader( table );
 			} );
 		</script>	

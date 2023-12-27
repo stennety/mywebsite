@@ -34,11 +34,7 @@
 	}
 
 	/* CSS Media Query for Mobile Devices */
-	@media only screen and (max-width: 768px) {
-	    #golf th:nth-child(n+4),
-            #golf td:nth-child(n+4) {
-                display: none;
-            }
+	@media screen and (max-width: 768px) {
 	    .desktop-content {
 		display: none;
 	    }
@@ -46,6 +42,7 @@
 		display: block;
 	    }
 	}
+	
 
 	/* CSS Media Query for Desktop Devices */
 	@media only screen and (min-width: 769px) {

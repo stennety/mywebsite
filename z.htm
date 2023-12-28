@@ -41,6 +41,10 @@
     $(document).ready(function() {
         $('#myTable').DataTable({
             "ajax": "https://fescue.github.io/data/g.json",
+            responsive: true,
+			order: [],
+			orderable: true,
+			sort: true,
             "columns": [
                 { "data": "Course" },
                 { "data": "Architect" },
@@ -55,7 +59,9 @@
                 { "data": "Updated" },
                 { "data": "Comments" },
                 { "data": "Coverage" }
-            ]
+            ],
+		    stateSave: true,
+			paging: false
         });
     });
     </script>

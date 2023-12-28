@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DataTables Example</title>
+    <!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+
+    <!-- Include jQuery Library -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- Include DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <!-- Table Structure -->
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Architect</th>
+                <th>Location</th>
+                <th>Country</th>
+                <th>Date</th>
+                <th>Construction</th>
+                <th>TypeOfJob</th>
+                <th>Status</th>
+                <th>Budget</th>
+                <th>History</th>
+                <th>Updated</th>
+                <th>Comments</th>
+                <th>Coverage</th>
+            </tr>
+        </thead>
+    </table>
+
+    <!-- JavaScript to Load Data -->
+    <script>
+    $(document).ready(function() {
+        $('#myTable').DataTable({
+            "ajax": "https://fescue.github.io/data/g.json",
+            "columns": [
+                { "data": "Course" },
+                { "data": "Architect" },
+                { "data": "Location" },
+                { "data": "Country" },
+                { "data": "Date" },
+                { "data": "Construction" },
+                { "data": "TypeOfJob" },
+                { "data": "Status" },
+                { "data": "Budget" },
+                { "data": "History" },
+                { "data": "Updated" },
+                { "data": "Comments" },
+                { "data": "Coverage", "render": function(data, type, row, meta) {
+                    if(type === 'display'){
+                        data = '<a href="' + data + '" rel="nofollow">Link</a>';
+                    }
+                    return data;
+                } }
+            ]
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-title: Our Projects
+title: 
 description: 
 show_post_thumbnail: true
 show_author_byline: false

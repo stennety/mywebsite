@@ -19,6 +19,10 @@ Past and current initiatives include fish passage restoration planning for over 
 
 ![](fishpassage_skeena_2023b.jpeg)
 
+  <br>
+  
+{{< hp5 "https://www.mapsmadeeasy.com/maps/public_3D/b836b49c8a014af68a2f81d500f3bb5d" >}}
+
 <br>
 
 ### Restoring Fish Passage in the Peace Region
@@ -30,6 +34,8 @@ Past and current initiatives include fish passage restoration planning for over 
  <br>
 
 ![](peace_fish_passage_2023.jpeg)
+  
+
   
   <br>
 
@@ -47,6 +53,10 @@ Past and current initiatives include fish passage restoration planning for over 
 
 ### Effectiveness Monitoring for Fish Passage Restoration
   - [Effectiveness Monitoring for Cross Creek, Bittner Creek and Five Mile Creek - 2022](https://www.newgraphenvironment.com/fish_passage_moti_2022_reporting/)
+  
+  <br>
+  
+  <iframe src="https://www.mapsmadeeasy.com/maps/public_3D/bc05b8efed3f42f28fced92614b08edd" scrolling="no" title="Maps Made Easy" width="100%" height="600" frameBorder ="0"></iframe>
 
 
 

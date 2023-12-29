@@ -112,8 +112,8 @@ enableEmoji = true
     url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "Contact Us"
-    title = "Contact Us"
+    name = "Contact"
+    title = "Contact"
     url = "/contact/"
     weight = 3
 

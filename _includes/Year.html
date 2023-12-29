@@ -21,21 +21,20 @@
 			    <script>
 			    $(document).ready(function() {
 			        var table = $('#myTable').DataTable({
-					"ajax": "https://fescue.github.io/data/g.json",
 					responsive: true,
 					order: [],
 					orderable: true,
 					sort: true,
 			        	"columns": [
 				                { "data": "Course" },
-				                { "data": "Architect" },
+				                { "data": "A" },
 				                { "data": "Location" },
 				                { "data": "Country" },
 				                { "data": "Date" },
-				                { "data": "Construction" },
+				                { "data": "C" },
 				                { "data": "TypeOfJob" },
 				                { "data": "Status" },
-				                { "data": "Coverage" },
+				                { "data": "M" },
 				                { "data": "Budget" },
 				                { "data": "History" },
 				                { "data": "Updated" },
@@ -45,6 +44,12 @@
 					paging: false,
 					deferRender: true
 			        });
+
+				fetch('https://fescue.github.io/data/g.json') // Replace with the path to your JSON file
+				        .then(response => response.json())
+				        .then(data => {
+				            table.rows.add(data).draw();
+				});
 				    
 			        // Initialize FixedHeader
 			        new $.fn.dataTable.FixedHeader(table);

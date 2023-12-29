@@ -102,8 +102,8 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "Who Are We"
-    title = "Who Are We"
+    name = "About"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]

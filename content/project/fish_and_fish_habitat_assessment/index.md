@@ -16,4 +16,8 @@ Our work includes numerous rapid and detailed habitat assessments for identifyin
 ### Fish Sampling and Tracking
 We commonly utilize electrofishing to determine fish presence and density with select projects tagging fish for health and movement analysis over time.  
 
+<br>
+
+![](sampling_results_screenshot.png)
+
 

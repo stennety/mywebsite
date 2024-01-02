@@ -1,6 +1,6 @@
 ---
 title: "Technical Support for Permitting Review and Aquatic Restoration"
-excerpt: "Technical Support for Permitting Review and Aquatic Restoration"
+excerpt: "We conduct the technical review of aquatic permitting applications for BC projects to enhance capacity, simplify technical data communication, and advocate for client interests."
 layout: single
 weight: 2
 ---

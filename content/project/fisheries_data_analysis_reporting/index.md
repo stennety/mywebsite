@@ -1,6 +1,6 @@
 ---
-title: "Fisheries Data Analysis and Reporting"
-excerpt: "Fisheries Data Analysis and Reporting"
+title: "Data Analysis, Mapping and Reporting"
+excerpt: "Enhance your comprehension of study data, results, discussions, and recommendations through our innovative data analysis, mapping, and reporting. We utilize cutting-edge tools to provide insightful solutions for informed decision-making."
 layout: single
 weight: 3
 ---

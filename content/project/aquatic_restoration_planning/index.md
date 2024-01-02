@@ -1,6 +1,6 @@
 ---
 title: "Aquatic Restoration Planning"
-excerpt: "Using fish passage to look at the big picture through numerous large scale aquatic restoration planning projects throughout BC."
+excerpt: "We utilize fish passage to examine the broader picture of watershed health. Through a network of interconnected large-scale aquatic restoration planning projects, we collaborate to leverage and advance cutting-edge modeling, mapping, and data presentation tools, driving restoration actions throughout the province."
 layout: single
 weight: 1
 ---

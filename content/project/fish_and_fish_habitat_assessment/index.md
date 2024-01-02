@@ -1,6 +1,6 @@
 ---
 title: "Fish and Fish Habitat Assessments"
-excerpt: "Fish and Fish Habitat Assessments"
+excerpt: "Extensive experience with stream classifications, fish habitat assessment and fish sampling to support restoration and responsible natural resource management."
 layout: single
 weight: 4
 ---

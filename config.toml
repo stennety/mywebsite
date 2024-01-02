@@ -88,11 +88,11 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/NewGraphEnvironment"
-  [[params.social]]
-      icon      = "linkedin" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/newgraphenvironmentairvine/"
+      url       = "https://github.com/NewGraphEnvironment?tab=repositories"
+#  [[params.social]]
+#      icon      = "linkedin" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.linkedin.com/in/newgraphenvironmentairvine/"
 
 [taxonomies]
   category = "categories"
@@ -102,8 +102,8 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "Who Are We"
-    title = "Who Are We"
+    name = "About"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -112,8 +112,8 @@ enableEmoji = true
     url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "Contact Us"
-    title = "Contact Us"
+    name = "Contact"
+    title = "Contact"
     url = "/contact/"
     weight = 3
 

@@ -21,6 +21,10 @@ Past and current initiatives include fish passage restoration planning for over 
 
   <br>
   
+![](robert_hatch_plan_20211023_k_.JPG)
+
+<br>
+  
 {{< hp5 "https://www.mapsmadeeasy.com/maps/public_3D/b836b49c8a014af68a2f81d500f3bb5d" >}}
 
 <br>

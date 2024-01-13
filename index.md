@@ -10,6 +10,7 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 - [Ποιες εταιρείες και επαγγελματίες δέχονται Bitcoin στην Ελλάδα;](#merchant-table)
 - [Ποιες γνωστές εταιρείες του εξωτερικού δέχονται Bitcoin;](#bluechips)
 - [Ποιες εισηγμένες σε χρηματιστήριο εταιρείες έχουν μετατρέψει τα αποθεματικά τους σε Bitcoin;](#treasuries)
+- [Υπάρχουν funds στο χρηματιστήριο που αντανακλούν την τιμή του Bitcoin;](#bitcoinetfs)
 - [Ποιές χώρες υιοθέτησαν το Bitcoin ως επίσημο νόμισμα;](#legaltender)
 - [Πώς μπορώ να αγοράσω ή να εξαργυρώσω Bitcoin στην Ελλάδα;](#buybitcoin)
 - [Υπάρχουν περιορισμοί στις Ελληνικές και Κυπριακές Τράπεζες;](#localbanks)
@@ -78,6 +79,10 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 ### <a name="treasuries"></a>Ποιες εισηγμένες σε χρηματιστήριο εταιρείες έχουν μετατρέψει τα αποθεματικά τους σε Bitcoin;
 
 Το Μάρτιο του 2021, 22 [εισηγμένες σε χρηματιστήριο εταιρείες είχαν μετατρέψει €3,5δις των αποθεματικών τους σε Bitcoin](https://bitcointreasuries.net). Ανάμεσά τους και η [Tesla](https://www.sec.gov/ix?doc=/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm).
+
+### <a name="bitcoinetfs"></a>Υπάρχουν funds στο χρηματιστήριο που αντανακλούν την τιμή του Bitcoin;
+
+Ναι, από το 2022 υπάρχουν 2 ETFs (Exchange Traded Funds) στον Καναδά, από το 2023 υπάρχει 1 ETF στη Βραζιλία και από το 2024 υπάρχουν 11 ETFs στις ΗΠΑ που έχουν 100% αντίκρυσμα σε Bitcoin (spot, physically settled ETFs). Υπάρχουν και άλλα ETFs που αντανακλούν την τιμή του Bitcoin μέσω παραγώγων.
 
 ### <a name="legaltender"></a>Ποιές χώρες υιοθέτησαν το Bitcoin ως επίσημο νόμισμα;
 
@@ -259,9 +264,7 @@ ii) στο πλαίσιο των Ε.Λ.Π. αποτιμάται στο αποσ�
 
 ### <a name="demo"></a>Πώς μπορώ να δω μια πληρωμή με Bitcoin από κοντά;
 
-Στο [Cardia Cafe](https://www.facebook.com/cardia.cafe/) στην Αθήνα, αφού επικοινωνήσετε με την ιστοσελίδα του πρώτα. 
-
-Ελάτε σε κάποια [συνάντησή μας στην Αθήνα](https://www.meetup.com/BlockchainGreece-0/) ή στη [Θεσσαλονίκη](https://www.meetup.com/BlockchainGreece-1/). Γράψτε στο [Ελληνικό τμήμα του Bitcoin Talk](https://bitcointalk.org/gr). Γραφτείτε στο [Slack](http://bitcoingreece.herokuapp.com) (online chat) μας. Δείτε αυτό το [βίντεο](https://www.youtube.com/watch?v=9qgqPvc6kgM) για το πως φτιάχνετε ένα πορτοφόλι και στέλνετε και λαμβάνετε Bitcoin.
+Ελάτε σε κάποια συνάντησή μας στην Ελλάδα ή στην Κύπρο που θα βρείτε στην κορυφή αυτής της σελίδας. Δείτε αυτό το [βίντεο]([https://www.youtube.com/watch?v=9qgqPvc6kgM](https://youtu.be/imMX7i4qpmg?feature=shared&t=145)) για το πως φτιάχνετε ένα πορτοφόλι και στέλνετε και λαμβάνετε Bitcoin.
 
 ### <a name="sepatobitcoin"></a> Πώς μπορώ να δεχτώ έμβασμα σε τράπεζα της Ευρωζώνης και να μετατρέψω τα Ευρώ σε Bitcoin;
 
@@ -322,14 +325,12 @@ ii) στο πλαίσιο των Ε.Λ.Π. αποτιμάται στο αποσ�
 - Η [TaxExperts](https://www.taxexperts.gr) ασχολείται με θέματα φορολογίας κρυπτονομισμάτων
 - Το [stampd](https://stampd.io)
 - Το [BitforTip](https://www.bitfortip.com)
-- <strike>Το CoinLib</strike>
 - Το [BlockHero](https://blockhero.ai) portfolio tracker
 - Ένα από τα τρία ερευνητικά κέντρα της [IOHK](https://iohk.io/team/) βρίσκεται στην Αθήνα
 - Η [Bcash Greece](https://bcash.gr) φτιάχνει Bitcoin ATMs
 - Η συμβουλευτική [SignedBlock](https://signedblock.com)
 - Η [mytracknet](https://www.mytracknet.com)
 - Η [BLOCK.CO](https://block.co)
-- Η [Retraced](https://retraced.co/) αναπτύσσει το προϊόν της στην Κύπρο
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Hellenic Blockchain Hub](http://blockchain.org.gr)
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Cyprus Blockchain Technologies](http://cybt.eu)
 

@@ -70,22 +70,6 @@
   location_gr: Αθήνα, Αττική, Ελλάδα
   location_en: Athens, Attica, Greece
 
-- company_gr: KEEN Organic Living
-  company_en: KEEN Organic Living
-  url: http://k33n.gr
-  category_gr: Παιδικά ενδύματα
-  category_en: Children's apparel
-  location_gr: Αθήνα, Αττική, Ελλάδα
-  location_en: Athens, Attica, Greece
-
-- company_gr: Bike Lounge
-  company_en: Bike Lounge
-  url: http://www.bikelounge.gr
-  category_gr: Κατάστημα ποδηλάτων. <a href="https://www.youtube.com/watch?v=xZmOHft7jz0">Βίντεο καταστηματάρχη για το Bitcoin</a>
-  category_en: Bicycle shop
-  location_gr: Μαρούσι, Αττική, Ελλάδα
-  location_en: Marousi, Attica, Greece
-
 - company_gr: Ηλεκτροδήλατο
   company_en: Electrodilato
   url: https://www.facebook.com/electrodilato/
@@ -99,14 +83,6 @@
   url: https://www.e-marmara.gr/
   category_gr: Εμπορία μαρμάρων
   category_en: Marble shop
-  location_gr: Μαρούσι, Αττική, Ελλάδα
-  location_en: Marousi, Attica, Greece
-
-- company_gr: Paramarketing SEO Agency
-  company_en: Paramarketing SEO Agency
-  url: https://paramarketing.gr
-  category_gr: SEO agency
-  category_en: SEO agency
   location_gr: Μαρούσι, Αττική, Ελλάδα
   location_en: Marousi, Attica, Greece
 
@@ -165,30 +141,6 @@
   category_en: Household items
   location_gr: Αθήνα, Αττική, Ελλάδα
   location_en: Athens, Attica, Greece
-
-- company_gr: Omega Gaming Center
-  company_en: Omega Gaming Center
-  url: http://www.ogamingcenter.com
-  category_gr: Ηλεκτρονικά παιχνίδια
-  category_en: Gaming center
-  location_gr: Άλιμος, Αττική, Ελλάδα
-  location_en: Alimos, Attica, Greece
-  
-- company_gr: u_m@d
-  company_en: u_m@d
-  url: https://www.facebook.com/U_mad-Internet-Sports-Cafe-856396714483027/
-  category_gr: Internet sports cafe
-  category_en: Internet sports cafe
-  location_gr: Νέα Σμύρνη, Αττική, Ελλάδα
-  location_en: Nea Smyrni, Attica, Greece
-  
-- company_gr: Inspot Μενίδι
-  company_en: Inspot Menidi
-  url: https://business.facebook.com/inspotmenidi/
-  category_gr: Internet cafe
-  category_en: Internet cafe
-  location_gr: Αχαρνές, Αττική, Ελλάδα
-  location_en: Acharnes, Attica, Greece
 
 - company_gr: Krav Maga Science Greece
   company_en: Krave Maga Science Greece

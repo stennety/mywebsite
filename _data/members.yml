@@ -24,6 +24,7 @@
   discord: "falloutwiki"
   twitter: "thefalloutwiki"
   instagram: "thefalloutwiki"
+  age: 18+
 - member:
   id: "medievilwiki"
   name: "Gallowpedia"
@@ -71,6 +72,7 @@
   mainpage: "Main_Page"
   discord: "PBDCHYq"
   twitter: "theFFWiki"
+  age: 18+
 - member:
   id: "mamiyawiki"
   name: "Mamiya Wiki"
@@ -128,6 +130,15 @@
   mainpage: "Main_Page"
   discord: "hJ98RgJ"
   twitter: "trekonlinewiki"
+- member:
+  id: "tcoaalwiki"
+  name: "The Coffin of Andy and Leyley Wiki"
+  description: "The Coffin of Andy and Leyley Wiki covers the hit game by Kit9Studio since December 31, 2023."
+  logo: "/images/logos/tcoaalwiki.jpg"
+  url: "https://tcoaal.wiki/"
+  mainpage: "Main_Page"
+  discord: "XyW8vJRjSX"
+  age: 18+
 - member:
   id: "triforcewiki"
   name: "Triforce Wiki"

@@ -12,7 +12,7 @@ The GWN currently consists of {{site.data.members.size}} member wikis. You can f
    <img src="{{member.logo}}" alt="{{member.name}}">
   </td>
   <td>
-    <a href="{{member.url}}">{{member.name}}</a><br>{{member.description}}
+    <a href="{{member.url}}">{{member.name}}</a>{% if member.age %} ({{member.age}}) {% endif%}<br>{{member.description}}
     {% if member.discord or member.twitter or member.instagram or member.facebook %}
         <br>
     {% endif %}

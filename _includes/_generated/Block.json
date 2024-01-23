@@ -1836,6 +1836,15 @@
     "Path": "_includes/_shared_block/Implement/Pivot.md"
   },
   {
+    "Name": "GitHubAction을 이용한 SharedBlock의 하위 디렉토리 및 파일의 색인 용 데이터 생성 자동화",
+    "Tag": [
+      "Implement",
+      "Project",
+      "20240123"
+    ],
+    "Path": "_includes/_shared_block/Implement/Project/20240123/GitHubAction을 이용한 SharedBlock의 하위 디렉토리 및 파일의 색인 용 데이터 생성 자동화.md"
+  },
+  {
     "Name": "Extention_StructToByte",
     "Tag": [
       "Implement",

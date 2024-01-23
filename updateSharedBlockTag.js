@@ -1,7 +1,3 @@
-/**
- * 폴더 목록을 업데이트하는 스크립트
- */
-
 const fs = require('fs');
 const path = require('path');
 
@@ -9,10 +5,9 @@ const folderPath = '_includes/_shared_block/'; // 업데이트하려는 폴더�
 const outputPath = '_includes/_generated/Tag.json'; // 결과를 저장할 Markdown 파일 경로
 
 /**
- * folderPath아래의 모든 폴더를 탐색하며 파일 목록을 반환하는 함수
  * 디렉토리들의 이름을 반환합니다.
  */
-function readFilesInDirectory(dir) {
+function circuiteReadDirectory(dir) {
     const files = fs.readdirSync(dir);
     const fileList = [];
 
@@ -34,12 +29,12 @@ function readFilesInDirectory(dir) {
 }
 
 /**
- * 폴더 목록을 업데이트하고 결과를 출력하는 함수
+ * 폴더 목록을 태그 파일에 json형태로 저장합니다.
  */
 try {
     //fileList를 json형태로 저장합니다.
     //json 데이터의 이름은 Tag
-    const fileList = readFilesInDirectory(folderPath);
+    const fileList = circuiteReadDirectory(folderPath);
     const json = JSON.stringify(fileList, null, 2);
     fs.writeFileSync(outputPath, json);
 

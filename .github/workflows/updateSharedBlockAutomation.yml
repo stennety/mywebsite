@@ -35,6 +35,6 @@ jobs:
 
           git add .
 
-          git commit -m "Update updateSharedBlockTag"
+          git commit -m "Update updateSharedBlockAutomation"
 
           git push

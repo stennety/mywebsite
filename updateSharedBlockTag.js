@@ -21,7 +21,7 @@ function circuiteReadDirectory(dir) {
             fileList.push(file);
 
             // 디렉토리 아래의 파일들을 재귀적으로 탐색합니다.
-            const subFiles = readFilesInDirectory(filePath);
+            const subFiles = circuiteReadDirectory(filePath);
             fileList.push(...subFiles.map(subFile => subFile));
         }
     });

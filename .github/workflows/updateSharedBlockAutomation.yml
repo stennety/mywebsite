@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run updateSharedBlockTag
-        run: node updateSharedBlockTag.js
+        run: node .github/updateSharedBlockTag.js
 
       - name: Run updateSharedBlockBlock
         run: node .github/updateSharedBlockBlock.js

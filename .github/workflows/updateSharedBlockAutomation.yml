@@ -25,7 +25,7 @@ jobs:
         run: node updateSharedBlockTag.js
 
       - name: Run updateSharedBlockBlock
-        run: node updateSharedBlockBlock.js
+        run: node .github/updateSharedBlockBlock.js
         
       - name: Commit and Push Changes
         run:

@@ -7,6 +7,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
   },
   {
+    "Name": "DirectedGraph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/DirectedGraph.md"
+  },
+  {
     "Name": "Graph",
     "Tag": [
       "AlgorithmAndDataStruct",

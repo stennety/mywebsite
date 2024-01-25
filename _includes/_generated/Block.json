@@ -7,6 +7,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
   },
   {
+    "Name": "Graph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Graph.md"
+  },
+  {
     "Name": "LinkedList",
     "Tag": [
       "AlgorithmAndDataStruct",

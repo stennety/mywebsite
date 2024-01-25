@@ -23,6 +23,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/SequentialList.md"
   },
   {
+    "Name": "Tree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Tree.md"
+  },
+  {
     "Name": "DivideAndConquer",
     "Tag": [
       "AlgorithmAndDataStruct"

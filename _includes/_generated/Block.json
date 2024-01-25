@@ -15,6 +15,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/AVLTree.md"
   },
   {
+    "Name": "BalancedTree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BalancedTree.md"
+  },
+  {
     "Name": "DirectedGraph",
     "Tag": [
       "AlgorithmAndDataStruct",

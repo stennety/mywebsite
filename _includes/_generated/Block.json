@@ -23,6 +23,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BalancedTree.md"
   },
   {
+    "Name": "BinarySearchTree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BinarySearchTree.md"
+  },
+  {
     "Name": "DirectedGraph",
     "Tag": [
       "AlgorithmAndDataStruct",

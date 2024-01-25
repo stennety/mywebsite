@@ -39,6 +39,14 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Tree.md"
   },
   {
+    "Name": "UndirectedGraph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/UndirectedGraph.md"
+  },
+  {
     "Name": "DivideAndConquer",
     "Tag": [
       "AlgorithmAndDataStruct"

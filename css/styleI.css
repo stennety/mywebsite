@@ -76,22 +76,40 @@
 	}
 
 	.instagram-frame {
-	  max-width: 500px; /* Maximum width of the Instagram frame */
-	  width: 100%; /* Responsive width */
-	  margin: auto; /* Center align if the frame is smaller than the container */
-	}
-	
-	.instagram-media {
+	  max-width: 500px;
 	  width: 100%;
-	  height: auto;
+	  margin: auto;
+	}
+
+	.instagram-media {
+	  position: relative;
+	  width: 100%;
+	  height: 0;
 	  overflow: hidden;
 	}
 	
-	/* If the iframe is inside the .instagram-media block */
+	/* Landscape aspect ratio (1.91:1) */
+	.instagram-landscape {
+	  padding-top: 52.36%; /* 100 / 1.91 */
+	}
+	
+	/* If you need other aspect ratios */
+	.instagram-square {
+	  padding-top: 100%; /* 100 / 1 for square */
+	}
+	
+	.instagram-portrait {
+	  padding-top: 125%; /* 100 / 0.8 for 4:5 ratio */
+	}
+	
 	.instagram-media iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
 	  width: 100%;
-	  height: auto;
+	  height: 100%;
 	  border: none;
 	}
+
 
 </style>

@@ -74,4 +74,24 @@
 	  height: auto;
 	  width: 100%;
 	}
+
+	.instagram-frame {
+	  max-width: 500px; /* Maximum width of the Instagram frame */
+	  width: 100%; /* Responsive width */
+	  margin: auto; /* Center align if the frame is smaller than the container */
+	}
+	
+	.instagram-media {
+	  width: 100%;
+	  height: auto;
+	  overflow: hidden;
+	}
+	
+	/* If the iframe is inside the .instagram-media block */
+	.instagram-media iframe {
+	  width: 100%;
+	  height: auto;
+	  border: none;
+	}
+
 </style>

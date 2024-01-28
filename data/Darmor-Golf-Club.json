@@ -11,10 +11,10 @@
                     "lon": -96.539693,
                     "zoom": 8
                 },
-				"media": {
-						"url": "https://www.youtube.com/watch?v=ipoJCqGoztE",
-						"credit": "Hal Sutton Golf Academy" 
-				}
+		"media": {
+		    "url": "https://www.youtube.com/watch?v=ipoJCqGoztE",
+		    "credit": "Hal Sutton Golf Academy" 
+		}
             }
         ]
     }

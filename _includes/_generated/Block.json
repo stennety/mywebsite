@@ -349,6 +349,13 @@
     "Path": "_includes/_shared_block/Concept/Camera_Infrared.md"
   },
   {
+    "Name": "CellularAutomaton",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/CellularAutomaton.md"
+  },
+  {
     "Name": "Chache",
     "Tag": [
       "Concept"

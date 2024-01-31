@@ -7,6 +7,102 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
   },
   {
+    "Name": "AVLTree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/AVLTree.md"
+  },
+  {
+    "Name": "BalancedTree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BalancedTree.md"
+  },
+  {
+    "Name": "BinarySearchTree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BinarySearchTree.md"
+  },
+  {
+    "Name": "DirectedGraph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/DirectedGraph.md"
+  },
+  {
+    "Name": "Graph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Graph.md"
+  },
+  {
+    "Name": "LinkedList",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/LinkedList.md"
+  },
+  {
+    "Name": "Queue",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Queue.md"
+  },
+  {
+    "Name": "SequentialList",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/SequentialList.md"
+  },
+  {
+    "Name": "Stack",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Stack.md"
+  },
+  {
+    "Name": "Tree",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Tree.md"
+  },
+  {
+    "Name": "UndirectedGraph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/UndirectedGraph.md"
+  },
+  {
+    "Name": "WeightedGraph",
+    "Tag": [
+      "AlgorithmAndDataStruct",
+      "DataStruct"
+    ],
+    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/WeightedGraph.md"
+  },
+  {
     "Name": "DivideAndConquer",
     "Tag": [
       "AlgorithmAndDataStruct"

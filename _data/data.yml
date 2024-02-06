@@ -462,6 +462,22 @@
   location_gr: Θεσσαλονίκη, Μακεδονία, Ελλάδα
   location_en: Thessaloniki, Macedonia, Greece
 
+- company_gr: The Athlete's Shop
+  company_en: The Athlete's Shop
+  url: https://theathletesshop.gr/
+  category_gr: Αθλητικά είδη
+  category_en: Sports goods
+  location_gr: Ορεστιάδα, Έβρος, Ελλάδα και online
+  location_en: Orestiada, Evros, Greece and online
+
+- company_gr: Intel Art
+  company_en: Intel Art
+  url: https://intelart.gr/
+  category_gr: Ιστοσελίδες, Eshop, γραφικά
+  category_en: Web & Eshop development, graphic design
+  location_gr: Ορεστιάδα, Έβρος, Ελλάδα και online
+  location_en: Orestiada, Evros, Greece and online
+
 - company_gr: Vulpes Zerda
   company_en: Vulpes Zerda
   url: https://vulpeszerda.com/

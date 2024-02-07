@@ -110,18 +110,4 @@
 	  height: 100%;
 	  border: none;
 	}
-
-	.vertical-ribbon {
-	      background-color: #ccc; /* Light gray color; adjust as needed */
-	      width: 1%; /* Ribbon width; adjust as needed */
-	      margin: 0 2%; /* Space between the text and the ribbon */
-	      height: auto; /* Adjust based on content height */
-	}
-	@media (max-width: 767px) {
-		.vertical-ribbon {
-	          display: none; /* Hide the ribbon on smaller screens */
-		}
-	}
-
-
 </style>

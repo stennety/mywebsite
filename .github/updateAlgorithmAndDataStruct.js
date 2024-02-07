@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const folderPath = '_includes/_shared_block'; // 업데이트하려는 폴더의 경로
-const outputPath = '_data/AlgorithmAndDataStruct'; // 결과를 저장할 Markdown 파일 경로
+const outputPath = '_data/AlgorithmAndDataStruct.json'; // 결과를 저장할 Markdown 파일 경로
 
 // 결과를 저장할 배열
 dataList = []; // 결과를 저장할 배열
@@ -49,10 +49,12 @@ function makeTitleData(depth, name, Path)
  */
 function makeContentData(depth, name, path)
 {
+    githubPath = "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/" + path;
+    
     dataList.push({
         Type: "Content",
         Name: name,
-        Path: path,
+        Path: githubPath,
     });
 }
 

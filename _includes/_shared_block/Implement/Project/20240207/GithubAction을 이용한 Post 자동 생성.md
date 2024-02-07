@@ -4,7 +4,8 @@
 
 생성될 포스트의 내용을 json파일로 github action에서 만들고 이를 jekyll에서 읽어 포스트를 만들도록 합니다.
 
-json파일은 다음과 같은 형태를 가집니다.
+![image](https://github.com/kbmhansungb/kbmhansungb.github.io/assets/56149613/5e7a79d7-2c52-48a7-883c-0620ff965b49)
+
 
 json파일은 다음과 같은 형태를 가집니다.
 

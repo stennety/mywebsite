@@ -62,7 +62,7 @@ function makeContentData(depth, name, path)
 try {
     console.log('updateSharedBlockBlock: Start \n');
 
-    circuitDirectory(folderPath, makeBlockData);
+    circuitDirectory(0, folderPath);
     const json = JSON.stringify(dataList, null, 2);
     fs.writeFileSync(outputPath, json);
 

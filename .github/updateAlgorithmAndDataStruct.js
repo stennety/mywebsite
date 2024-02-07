@@ -49,7 +49,7 @@ function makeTitleData(depth, name, Path)
  */
 function makeContentData(depth, name, path)
 {
-    githubPath = "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/" + path;
+    githubPath = "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/" + path;
     
     // name에서 .md를 제거합니다.
     name = name.replace(".md", "");

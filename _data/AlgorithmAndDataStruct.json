@@ -1,12 +1,167 @@
 [
-    {
-        "Type": "Title",
-        "Header": "##",
-        "Name": "AlgorithmAndDataStruct"
-    },
-    {
-        "Type": "Content",
-        "Name": "Graph",
-        "Path": "_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
-    }
+  {
+    "Type": "Content",
+    "Name": "AlgorithmAndDataStruct",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "DataStruct"
+  },
+  {
+    "Type": "Content",
+    "Name": "AVLTree",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/AVLTree.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "BalancedTree",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BalancedTree.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "BinarySearchTree",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/BinarySearchTree.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DirectedGraph",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/DirectedGraph.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Graph",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Graph.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "LinkedList",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/LinkedList.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Queue",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Queue.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "SequentialList",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/SequentialList.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Stack",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Stack.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Tree",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/Tree.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "UndirectedGraph",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/UndirectedGraph.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "WeightedGraph",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DataStruct/WeightedGraph.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DivideAndConquer",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/DivideAndConquer.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Graphics"
+  },
+  {
+    "Type": "Content",
+    "Name": "BooleanOperation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Graphics/BooleanOperation.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "InverseKinematics"
+  },
+  {
+    "Type": "Content",
+    "Name": "CCDIK",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/InverseKinematics/CCDIK.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CCDIK_Example_Unity",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/InverseKinematics/CCDIK_Example_Unity.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CCDIK_Example_Unreal",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/InverseKinematics/CCDIK_Example_Unreal.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FABRIK",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/InverseKinematics/FABRIK.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FABRIK_Example_Unity",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/InverseKinematics/FABRIK_Example_Unity.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Links",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Links.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Search"
+  },
+  {
+    "Type": "Content",
+    "Name": "AStar",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Search/AStar.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "AStart_Example_Cpp",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Search/AStart_Example_Cpp.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Sort"
+  },
+  {
+    "Type": "Content",
+    "Name": "BubbleSort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Sort/BubbleSort.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "InsertSort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Sort/InsertSort.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "MergeSort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Sort/MergeSort.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "QuickSort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Sort/QuickSort.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "SelectionSort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/_includes/_shared_block/AlgorithmAndDataStruct/Sort/SelectionSort.md"
+  }
 ]

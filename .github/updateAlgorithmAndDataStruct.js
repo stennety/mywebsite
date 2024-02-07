@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const folderPath = '_includes/_shared_block'; // 업데이트하려는 폴더의 경로
-const outputPath = '_data/AlgorithmAndDataStruct'; // 결과를 저장할 Markdown 파일 경로
+const folderPath = '_includes/_shared_block/AlgorithmAndDataStruct'; // 업데이트하려는 폴더의 경로
+const outputPath = '_data/AlgorithmAndDataStruct.json'; // 결과를 저장할 Markdown 파일 경로
 
 // 결과를 저장할 배열
 dataList = []; // 결과를 저장할 배열
@@ -16,11 +16,11 @@ function circuitDirectory(dirDepth, curruntPath) {
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
-            makeTitleData(dirDepth, name, filePath);
+            makeTitleData(dirDepth + 1, name, filePath);
 
-            circuitDirectory(dirDepth, filePath);
+            circuitDirectory(dirDepth + 1, filePath);
         } else {
-            makeContentData(dirDepth, name, filePath);
+            makeContentData(dirDepth + 1, name, filePath);
         }
     });
 }
@@ -49,10 +49,15 @@ function makeTitleData(depth, name, Path)
  */
 function makeContentData(depth, name, path)
 {
+    githubPath = "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/" + path;
+    
+    // name에서 .md를 제거합니다.
+    name = name.replace(".md", "");
+    
     dataList.push({
         Type: "Content",
         Name: name,
-        Path: path,
+        Path: githubPath,
     });
 }
 

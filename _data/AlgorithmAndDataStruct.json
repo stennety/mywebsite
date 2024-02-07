@@ -1,0 +1,12 @@
+[
+    {
+        "Type": "Title",
+        "Header": "##",
+        "Name": "AlgorithmAndDataStruct"
+    },
+    {
+        "Type": "Content",
+        "Name": "Graph",
+        "Path": "_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
+    }
+]

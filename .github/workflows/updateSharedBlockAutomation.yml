@@ -27,6 +27,11 @@ jobs:
       - name: Run updateSharedBlockBlock
         run: node .github/updateSharedBlockBlock.js
         
+      # post AlgorithmAndDataStructure
+      - name: Run updateAlgorithmAndDataStructure
+        run: node .github/updateAlgorithmAndDataStructure.js
+
+      # comit and push
       - name: Commit and Push Changes
         run:
           git config --local user.name actions-user

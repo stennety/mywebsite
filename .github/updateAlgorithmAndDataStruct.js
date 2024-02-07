@@ -16,11 +16,11 @@ function circuitDirectory(dirDepth, curruntPath) {
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
-            makeTitleData(dirDepth, name, filePath);
+            makeTitleData(dirDepth + 1, name, filePath);
 
-            circuitDirectory(dirDepth, filePath);
+            circuitDirectory(dirDepth + 1, filePath);
         } else {
-            makeContentData(dirDepth, name, filePath);
+            makeContentData(dirDepth + 1, name, filePath);
         }
     });
 }

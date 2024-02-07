@@ -2484,6 +2484,13 @@
     "Path": "_includes/_shared_block/Programming/Paradigm/ParallelProgramming_00.md"
   },
   {
+    "Name": "3DP chip",
+    "Tag": [
+      "Tool"
+    ],
+    "Path": "_includes/_shared_block/Tool/3DP chip.md"
+  },
+  {
     "Name": "Bing_ChatAI",
     "Tag": [
       "Tool"

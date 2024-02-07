@@ -28,8 +28,8 @@ jobs:
         run: node .github/updateSharedBlockBlock.js
         
       # post AlgorithmAndDataStructure
-      - name: Run updateAlgorithmAndDataStructure
-        run: node .github/updateAlgorithmAndDataStructure.js
+      - name: Run updateAlgorithmAndDataStruct
+        run: node .github/updateAlgorithmAndDataStruct.js
 
       # comit and push
       - name: Commit and Push Changes

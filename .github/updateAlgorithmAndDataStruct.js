@@ -51,6 +51,9 @@ function makeContentData(depth, name, path)
 {
     githubPath = "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/kbmhansungb-patch-2/" + path;
     
+    // name에서 .md를 제거합니다.
+    name = name.replace(".md", "");
+    
     dataList.push({
         Type: "Content",
         Name: name,

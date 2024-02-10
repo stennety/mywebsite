@@ -1,4 +1,4 @@
-힘들게 시간을 작성한 내용이 정리되지 않아 사라지는 것은 시간을 낭비하는 것이라 느꼈습니다. 따라서 SharedBlock의 특정 키워드로 작성되는 포스트를 목표로 하기로 했습니다.
+<!-- 목차 생성 자동화 -->
 
 정리된 내용은 SharedBlock에 분류에 따라 폴더를 나누고 해당 내용을 마크다운 형태로 추가하고 있었습니다. 또한 포스트의 제목들은 우측에 바로가기 링크가 만들어지도록 이전에 만들어 뒀습니다. 이를 이용하여 분류를 제목으로 하여 해당 목차로 바로 이동할 수 있도록 합니다. 마크다운 파일을 내용으로 하고 클릭하면 해당 마크다운 파일로 이동하도록 링크를 추가합니다.
 
@@ -36,7 +36,7 @@ layout: post
 title: Algorithm and data struct
 ---
 
-{% assign datas = site.data.AlgorithmAndDataStruct %}
+{% raw %}{% assign datas = site.data.AlgorithmAndDataStruct %}
 
 {% for data in datas %}
 
@@ -48,9 +48,8 @@ title: Algorithm and data struct
 {% include {{data.Path}} %}
 {% endif %}
 
-{% endfor %}
+{% endfor %}{% endraw %}
 ``` 
-
 
 ```js
 const fs = require('fs');

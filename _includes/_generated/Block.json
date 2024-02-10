@@ -1946,22 +1946,20 @@
     "Path": "_includes/_shared_block/Implement/Pivot.md"
   },
   {
-    "Name": "GitHubAction을 이용한 SharedBlock의 하위 디렉토리 및 파일의 색인 용 데이터 생성 자동화",
+    "Name": "20240123-UseGithubActionForAutomatedSharedBlockDatas",
     "Tag": [
       "Implement",
-      "Project",
-      "20240123"
+      "Project"
     ],
-    "Path": "_includes/_shared_block/Implement/Project/20240123/GitHubAction을 이용한 SharedBlock의 하위 디렉토리 및 파일의 색인 용 데이터 생성 자동화.md"
+    "Path": "_includes/_shared_block/Implement/Project/20240123-UseGithubActionForAutomatedSharedBlockDatas.md"
   },
   {
-    "Name": "GithubAction을 이용한 Post 자동 생성",
+    "Name": "20240207-AutomatingTableOfContentCreation",
     "Tag": [
       "Implement",
-      "Project",
-      "20240207"
+      "Project"
     ],
-    "Path": "_includes/_shared_block/Implement/Project/20240207/GithubAction을 이용한 Post 자동 생성.md"
+    "Path": "_includes/_shared_block/Implement/Project/20240207-AutomatingTableOfContentCreation.md"
   },
   {
     "Name": "Extention_StructToByte",

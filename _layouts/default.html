@@ -6,6 +6,7 @@
     {% include mathjax_support.html %}
     {% include meta.html %}
 
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -27,10 +28,11 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
+          <!-- 상단 우측 네비게이션 -->
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <!-- <a href="{{ site.baseurl }}/about">About</a> -->
-            <a href="https://github.com/kbmhansungb">GitHub</a>
+            <a href="{{ site.baseurl }}/">Project</a>
+            <a href="{{ site.baseurl }}/posts_knowledge/Knowledge">Knowledge</a>
+            <a href="{{ site.githuburl }}">GitHub</a>
           </nav>
         </header>
       </div>
@@ -46,9 +48,6 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    <!-- Div가 없으면 이상하게 나온다. 당연한건가.., Div랑 산관없이 ReadMe가 사라지지 않는다. -->
-    <!-- {_{ cont 주석이 안먹는 건가? ent }_} -->
 
     <!-- 밑에 하단 바와 아이콘을 나타내는 문장이네요. -->
     <div class="wrapper-footer">

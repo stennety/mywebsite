@@ -3,13 +3,14 @@
 #
 
 # Name of your site (displayed in the header)
-name: Blog
+name: CodeLog
 
 # Short bio or description (displayed in the header)
-description: Codes.
+description: A Space for a Life of Study
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+#avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: /images/site-logo.png
 
 #
 # Flags below are optional
@@ -42,6 +43,8 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url:
+githuburl: "https://github.com/kbmhansungb"
+githubbloburl: "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -90,32 +93,11 @@ theme: jekyll-theme-slate
 # add collections
 
 collections:
-- posts_math
-- posts_language
-- posts_study
-- posts_algorithm_and_data_struct
-- posts_optimize_life
-- posts_unreal_engine
-- posts_unity_engine
-- posts_implement
+- posts_knowledge
 
 collections:
-  posts_math:
-    output: true
-  posts_language:
-    output: true
-  posts_study:
-    output: true
-  posts_algorithm_and_data_struct:
-    output: true
-  posts_optimize_life:
-    output: true
-  posts_unreal_engine:
-    output: true
-  posts_unity_engine:
-    output: true
-  posts_implement:
-    output: true
+  posts_knowledge:
+    output: true 
 
 # Plugins (previously gems:)
 plugins:

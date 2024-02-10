@@ -1,12 +1,5 @@
 [
   {
-    "Name": "AlgorithmAndDataStruct",
-    "Tag": [
-      "AlgorithmAndDataStruct"
-    ],
-    "Path": "_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
-  },
-  {
     "Name": "AVLTree",
     "Tag": [
       "AlgorithmAndDataStruct",
@@ -417,6 +410,13 @@
     "Path": "_includes/_shared_block/Concept/AgileRetrospective.md"
   },
   {
+    "Name": "Algorithm",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/Algorithm.md"
+  },
+  {
     "Name": "Bandwidth",
     "Tag": [
       "Concept"
@@ -478,6 +478,13 @@
       "Concept"
     ],
     "Path": "_includes/_shared_block/Concept/DBDesigne.md"
+  },
+  {
+    "Name": "DataStruct",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/DataStruct.md"
   },
   {
     "Name": "DevelopmentTool_00",
@@ -1946,6 +1953,15 @@
       "20240123"
     ],
     "Path": "_includes/_shared_block/Implement/Project/20240123/GitHubAction을 이용한 SharedBlock의 하위 디렉토리 및 파일의 색인 용 데이터 생성 자동화.md"
+  },
+  {
+    "Name": "GithubAction을 이용한 Post 자동 생성",
+    "Tag": [
+      "Implement",
+      "Project",
+      "20240207"
+    ],
+    "Path": "_includes/_shared_block/Implement/Project/20240207/GithubAction을 이용한 Post 자동 생성.md"
   },
   {
     "Name": "Extention_StructToByte",

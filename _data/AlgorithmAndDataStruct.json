@@ -1,10 +1,5 @@
 [
   {
-    "Type": "Content",
-    "Name": "AlgorithmAndDataStruct",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/AlgorithmAndDataStruct/AlgorithmAndDataStruct.md"
-  },
-  {
     "Type": "Title",
     "Header": "#",
     "Name": "DataStruct"

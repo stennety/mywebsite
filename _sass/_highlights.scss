@@ -1,6 +1,6 @@
 
 pre.highlight {
-  background-color: #f8f8f8;
+  background-color: #1a1a1a;
   padding: 7px 7px 7px 10px;
   border: 1px solid rgb(0, 0, 0);
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -12,6 +12,7 @@ pre.highlight {
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  color: #586E75; /* 모든 코드 텍스트를 백색으로 변경 */
 }
 
 .highlight .c { color: #586E75 } /* Comment */

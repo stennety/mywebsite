@@ -414,7 +414,7 @@ $$c_{light}\left(d\right)=\frac{c_{light_0}}{a_0d^2+a_1d+a_2}$$
 
  이러한 문제의 가능한 해결책은 ambient 그리고 환경에 기반이 되는 빛을 가지는 것입니다. ambient lighting은 쉽게 추가될 수 있습니다. 쉐이딩 결과의 상수 값으로요. 신의 밝기를 위해서요. 하지만 이러한 접근은 매력적인 결과를 출력하지 못합니다.
 
- 다른 방법으로는, environment lighing techniques는 좋은 결과를 만들 수 있습니다. environment cube map(sky box)는 radiance map으로 다뤄질 수 있습니다. 각각의 radiance map의 픽셀은 무한히 멀리있는 빛으로 표현될 수 있습니다. 그리고 c_light는 픽셀의 칼라가 될 수 있습니다. 이 arguments와 lambert`s BRDF를 적용할 때, 반사 공식은 sourface normal에 대한 함수가 됩니다.(By applying these arguments and Lambert`s BRDF, the reflectance equation becomes a function of only the surface normal, 얼 추 비슷하게 번역했나????)
+ 다른 방법으로는, environment lighing techniques는 좋은 결과를 만들 수 있습니다. environment cube map(sky box)는 radiance map으로 다뤄질 수 있습니다. 각각의 radiance map의 픽셀은 무한히 멀리있는 빛으로 표현될 수 있습니다. 그리고 c_light는 픽셀의 칼라가 될 수 있습니다. 이 arguments와 lambert\`s BRDF를 적용할 때, 반사 공식은 sourface normal에 대한 함수가 됩니다.(By applying these arguments and Lambert\`s BRDF, the reflectance equation becomes a function of only the surface normal, 얼 추 비슷하게 번역했나????)
 
  I는 조사(irradiance)입니다. n의로 정의된 반구와 만나는 모든 들어오는 빛의 합입니다. 이 값은 다양한 값 n에 의해 미리 계산될 수 있습니다. 이 미리 계산된 결과는 irradiance map에 저장될 수 있습니다. 텍스처 좌표t에서 I(t)값을 갖는 큐브맵으로요. (a cube map that has the value of I(t)at texture coordinates t)
 

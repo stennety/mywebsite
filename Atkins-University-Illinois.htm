@@ -4,117 +4,12 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-	<base target="_top">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" CONTENT="Atkins Golf Drew Rogers University of Illinois NCAA Mike Small">
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta http-equiv='content-language' content='en-us'>
-        <title>Atkins Golf - Drew Rogers - University of Illinois</title>
-        <link rel="shortcut icon" type="image/x-icon" href="/images/Fairway.jpg" />	 
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-	<style>
-		.main-container {
-		    display: flex;
-		    flex-direction: row;
-		    height: 100vh; /* Adjust height as needed */
-		}
-		
-		#map {
-		    width: 35%; /* Half of the container */
-		    /* Additional map styling */
-		}
-		
-		.content {
-		    width: 65%; /* Half of the container */
-		    overflow-y: auto; /* Enables scrolling for the text content */
-		    /* Additional content styling */
-	            color: #333333; /* Darker text for better readability */
-	            background-color: #FFFFFF; /* Light background to contrast with the text */
-	            font-size: 1.1em; /* Slightly larger font size for readability */
-	            line-height: 1.6; /* Improved line spacing for readability */
-		}
-
-	        .content a {
-	            color: #0000EE; /* Ensuring links are distinguishable */
-	            text-decoration: underline; /* Underline links for better visibility */
-	        }
+	<title>Atkins Golf - Drew Rogers - University of Illinois</title>
+	{% include headerI.html %}
+</head>
 	
-	        .content a:hover, .content a:focus {
-	            color: #004299; /* Different color on hover/focus for better user interaction */
-	            background-color: #eef2f7; /* Background change on hover/focus for better visibility */
-	        }
-
-	        /* High Contrast Mode for users with visual impairments */
-	        @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
-	           .content {
-	               color: black;
-	               background-color: white;
-	           }
-	           .content a {
-	               color: blue;
-	           }
-	        }
-
-		footer {
-		    background-color: #f1f1f1;
-		    padding: 10px;
-		    text-align: center;
-		    width: 100%;
-		}
-
-		/* Make images responsive */
-		img {
-		        max-width: 100%;
-		        height: auto;
-		}
-		
-		/* Responsive adjustments */
-		@media (max-width: 768px) {
-		    .main-container {
-		        flex-direction: column;
-		    }
-		
-		    #map, .content {
-		        width: 100%;
-		    }
-		
-		    /* Adjust font sizes and other elements for mobile */
-		    .content {
-		        font-size: 1em; /* Adjust as needed for mobile */
-		    }
-		
-		    /* Make images responsive */
-		    img {
-		        max-width: 100%;
-		        height: auto;
-		    }
-		}
-
-	
-		/* Styling for custom overlay */
-		.leaflet-custom-overlay {
-	            position: absolute;
-	            top: 10px; /* Adjust as needed */
-	            left: 180px; /* Adjust as needed */
-	            z-index: 1000; /* Ensure it's above the map */
-	        }
-	
-	        .leaflet-custom-overlay lite-youtube {
-	            width: 300px; /* Adjust the size as needed */
-	            height: 168px; /* Adjust the size as needed */
-	        }
-	</style>
-			
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Map and Video Layout</title>
-        <link rel="stylesheet" href="/css/lite-yt-embed.css" />
-    </head>
-	
-    <body>
-
-	    
+<body>	    
 	<div class="main-container" role="main">
 		<div id="map" aria-label="Map showing the location of Atkins Golf Club"></div>
 		<div class="content" tabindex="0"  aria-label="Golf Course Rebuild">
@@ -150,48 +45,49 @@
                     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 }).addTo(map);
 
-        L.CustomOverlay = L.Layer.extend({
-            onAdd: function(map) {
-                this._map = map;
-                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-                
-                // Your lite-youtube HTML
-                this._container.innerHTML = `
-                    <lite-youtube videoid="h-BLM6eN3RM" style="background-image: url('https://i3.ytimg.com/vi/h-BLM6eN3RM/hqdefault.jpg');">
-                        <a href="https://youtube.com/watch?v=h-BLM6eN3RM" class="lty-playbtn" title="Play Video.  Credit: WCIA News">
-                            <span class="lyt-visually-hidden">Credit: WCIA News</span>
-                        </a>
-                    </lite-youtube>
-                `;
-        
-                // Add the container to the map
-                map._panes.overlayPane.appendChild(this._container);
-                
-                // Update the position of the overlay on the map
-                this._update();
-            },
-        
-            onRemove: function(map) {
-                L.DomUtil.remove(this._container);
-            },
-        
-            _update: function() {
-                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
-                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
-                
-                    var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
-                L.DomUtil.setPosition(this._container, position);
-            }
-        });
-
-        // Add the custom overlay to the map
-        var myCustomOverlay = new L.CustomOverlay();
-        myCustomOverlay.addTo(map);
-
-        // Add a marker to the map at the same location as the map center
-        var marker = L.marker([40.088368,-88.499609]).addTo(map);
-        marker.bindPopup("<b>Atkins Golf Club</b><br>Home of the University of Illinois Fighting Illini</br>").openPopup();
-
-    </script>
-</body>	
+	        L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+	                this._map = map;
+	                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	                
+	                // Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="h-BLM6eN3RM" style="background-image: url('https://i3.ytimg.com/vi/h-BLM6eN3RM/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=h-BLM6eN3RM" class="lty-playbtn" title="Play Video.  Credit: WCIA News">
+	                            <span class="lyt-visually-hidden">Credit: WCIA News</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+	        
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                    var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([40.088368,-88.499609]).addTo(map);
+	        marker.bindPopup("<b>Atkins Golf Club</b><br>Home of the University of Illinois Fighting Illini</br>").openPopup();
+  </script>
+  {% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
 </html>

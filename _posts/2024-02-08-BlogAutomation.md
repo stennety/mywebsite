@@ -8,9 +8,9 @@ GitHub Actions를 활용하여 SharedBlock 데이터를 자동으로 포스트�
 ### 2024 01 23
 #### GithubAction을 활용한 데이터 생성 자동화
 
-{% include _shared_block/Implement/Project/20240123-UseGithubActionForAutomatedDatas.md %}
+{% include _shared_block/Project/BlogAutomation/20240123-UseGithubActionForAutomatedDatas.md %}
 
 ### 2024 02 08
 #### 목차 생성 자동화
 
-{% include _shared_block/Implement/Project/20240207-AutomatingTableOfContentCreation.md %}
+{% include _shared_block/Project/BlogAutomation/20240207-AutomatingTableOfContentCreation.md %}

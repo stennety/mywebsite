@@ -6,9 +6,9 @@ title: Knowledge
 
 # Algorithm & Datastruct
 
-* [Algorithm]({{ site.githubbloburl }} /_includes/_shared_block/Concept/Algorithm.md)
+* [Algorithm]({{ site.githubbloburl }}/_includes/_shared_block/Concept/Algorithm.md)
 
-* [Datastruct]({{ site.githubbloburl }} /_includes/_shared_block/Concept/DataStruct.md)
+* [Datastruct]({{ site.githubbloburl }}/_includes/_shared_block/Concept/DataStruct.md)
 
 {% assign datas = site.data.AlgorithmAndDataStruct %}
 

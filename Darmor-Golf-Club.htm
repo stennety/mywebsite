@@ -21,7 +21,7 @@
     <script>
                 const map = L.map('map').setView([29.7175636,-96.219111], 10);
                 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    maxZoom: 30,
+                    maxZoom: 50,
                     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 }).addTo(map);
 
@@ -33,7 +33,7 @@
 	                // Your lite-youtube HTML
 	                this._container.innerHTML = `
 	                    <lite-youtube videoid="ipoJCqGoztE" style="background-image: url('https://i3.ytimg.com/vi/ipoJCqGoztE/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=ipoJCqGoztE" class="lty-playbtn" title="Play Video.  Credit: WCIA News">
+	                        <a href="https://youtube.com/watch?v=ipoJCqGoztE" class="lty-playbtn" title="Play Video.  Credit: Hal Sutton Golf Academy">
 	                            <span class="lyt-visually-hidden">Credit: Hal Sutton Golf Academy</span>
 	                        </a>
 	                    </lite-youtube>

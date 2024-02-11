@@ -12,7 +12,7 @@ unreal의 uproject를 복사하여, 다른 빌드 배치를 생성하는 배치�
 :: 언리얼 엔진과 프로젝트 주소, 저장할 주소를 입력합니다.
 @echo off
 set EngineDirectoryPath=D:\Unreal\UE_4.27\Engine
-set ProjectName=Korail_EMU_260_3RD
+set ProjectName=UnrealProjectName
 @echo on
 
 :: 현재 프로젝트와 폴더 경로에 
@@ -32,14 +32,14 @@ set BaseGameUserSettinginBuild=%ConfigPathInBuild%\BaseGameUserSettings.ini
 
 :: 해당 프로그램의 Config에 마지막으로 사용한 현지화 Config가 있을 경우 초기 설정이 적용되지 않을 수 있습니다.
 :Main
-call :RunUAT Korail_EMU_260_3RD_en
+call :RunUAT UnrealProjectName_en
 	@echo off
 	set BaseGameUserSettingPath=%StagingDirectoryPath%\%BaseGameUserSettinginBuild%
 	@echo on
 	:: 마지막 스테이징의 BaseGameuserSetting에 culture를 추가합니다.
 	echo. >> "%BaseGameUserSettingPath%"
 	echo culture=en >> "%BaseGameUserSettingPath%"
-call :RunUAT Korail_EMU_260_3RD_ko
+call :RunUAT UnrealProjectName_ko
 goto EOF
 
 :: .uproject를 복사하고 해당 프로젝트를 이용하여 빌드합니다.

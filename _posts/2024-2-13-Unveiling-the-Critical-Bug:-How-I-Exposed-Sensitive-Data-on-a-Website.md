@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unveiling the Critical Bug: How I Exposed Sensitive Data on a Website
+title: Unveiling the Critical Bug- How I Exposed Sensitive Data on a Website
 ---
 
 In the world of cybersecurity, uncovering vulnerabilities is a crucial aspect of maintaining the integrity and security of online platforms. Recently, I encountered a significant security flaw while exploring a website, one that highlights the importance of thorough testing and vigilant oversight. This blog post delves into my discovery of a critical bug, its implications, and the broader lessons it offers for website security.

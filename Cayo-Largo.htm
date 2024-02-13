@@ -1,59 +1,77 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Moncayo Four Seasons - Martin Ebert in Puerto Rico</title>
-  <meta name="description" CONTENT="Moncayo Cayo Largo Resort Martin Ebert Puerto Rico Four Seasons Hotel">
-  {% include headerI.html %}
+	<title>Moncayo Four Seasons - Martin Ebert in Puerto Rico</title>
+	<meta name="description" CONTENT="Moncayo Cayo Largo Resort Martin Ebert Puerto Rico Four Seasons Hotel">
+	{% include h50.html %}
 </head>
 
-<body>
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Moncayo"></div>
+		<div class="content" tabindex="0"  aria-label="Cayo Largo">
+			<H1>Moncayo Golf Resort - Martin Ebert - Puerto Rico</H1> 
+			<p>Moncayo(formerly Cayo Largo) is a newly proposed golf resort on a peninsula in Fajardo, Puerto Rico.  The golf course design will be led by <a style='font-weight:bold' href='https://www.mackenzieandebert.com/MartinEbert' target='_blank' rel='nofollow'>Martin Ebert</a> and is part of a 610 acre property that includes Four Seasons hotel with 315 luxury residences. As of July 2023, the property changed hands as reported by <a style='font-weight:bold' href='https://www.elnuevodia.com/negocios/turismo/notas/venden-el-hotel-cayo-largo-y-otros-terrenos-aledanos-en-fajardo-por-una-suma-multimillonaria/' target='_blank' rel='nofollow'> El Nuevo Dia</a>.  Computer generated imagery(CGI) for the design plan has been produced and approved.</p>
+			<p>Previously, the project was being developed by <a style='font-weight:bold' href='https://ardent-residential.com/projects/four-seasons-cayo-largo-master-plan' target='_blank' rel='nofollow'>Ardent Residential</a> and DLJ Real Estate Capital Partners. The golf course will be set clifftop on the edge of the El Yunque rainforest and features views of the Caribbean Sea.</p>
+			<p>Adjacent to the property is the Cabo Rojo Lighthouse, a historic lighthouse on the western tip of Cabo Rojo. Also nearby is Flamenco Beach, a beautiful white-sand beach located on the eastern tip of Cabo Rojo.</p>
+			<p>The resort property has a tropical climate with warm temperatures/high humidity. Average temperatures range from 75 degrees Fahrenheit (24 degrees Celsius) in winter vs. 85 degrees Fahrenheit (29 degrees Celsius) in summer. Peak season for the resort will be the coolest months of December through February.</p>
+		</div>
+	</div>
+
+    <script>	
+                const map = L.map('map').setView([18.3031891,-65.630926], 10);
+                const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 30,
+                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(map);
+
+	        L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+	                this._map = map;
+	                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+		            
+					// Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="wAaxoAcpT6E" style="background-image: url('https://i3.ytimg.com/vi/wAaxoAcpT6E/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=wAaxoAcpT6E" class="lty-playbtn" title="Play Video.  Credit: K-nep Images">
+	                            <span class="lyt-visually-hidden">Credit: K-nep Images</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;                
+	        
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
 	
-	<H1>Moncayo Golf Resort - Martin Ebert Tropical Golf in Puerto Rico</H1> 
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
-
-	<script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Cayo-Largo.json";
-
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([18.3031891,-65.630926]).addTo(map);
+	        marker.bindPopup("<b>Cayo Largo</b><br>Puerto Rico</br>").openPopup();
 	</script>
-	<script type="text/javascript" class="init"></script>  
-	{% include bodyFooter.html %} 
- </BODY>
+ 	<p><a href="https://fescue.github.io/Curracloe-Golf-Club/">Irish Seaside Golf - Curracloe Golf Club</a></p>
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

@@ -1,65 +1,75 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
-	<title>Coore Crenshaw - Montana</title>
+	<title>Coore Crenshaw - Crazy Mountain - Montana</title>
 	<meta name="description" CONTENT="Crazy Mountain Ranch Golf Course Coore Crenshaw Rocky Mountains Montana Environmental Sustainable">
-	{% include header.html %}
+	{% include h40.html %}
 </head>
+	
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Montana Ranch"></div>
+		<div class="content" tabindex="0"  aria-label="Crazy Mountain">
+				<H1>Coore Crenshaw - Crazy Mountain Ranch in Montana</H1> 
+				<div class="video-inner-container">
+					<iframe src="https://player.vimeo.com/video/734541819?h=e2b4c17b05" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+					<p><a href="https://vimeo.com/734541819">Crazy Mountain Ranch</a>  Credit:<a href="https://vimeo.com/user115007042">Lone Mountain Land Company</a></p>
+				</div>
+				<p></p>
+				<p>The new walkable 18-Hole Golf Course at <a style='font-weight:bold' href='https://crazymountainranch.com/' target='_blank' rel='nofollow'>Crazy Mountain Ranch</a> designed by  <a style='font-weight:bold' href='https://www.cooreandcrenshaw.com/portfolio.html' target='_blank' rel='nofollow'>Bill Coore & Ben Crenshaw</a>, will be exceptional in every regard. The golf course is anticipated to be a challenging, playable course that seamlessly blends with the landscape & takes full advantage of the exceptional mountain views, aspen groves & wide open spaces that surround the Ranch.</p>
+				<p>Bill Coore and World Golf Hall of Fame member Ben Crenshaw, the renowned architectural firm Coore & Crenshaw has been enlisted to create a Montana golf experience.  Bill & Ben have a shared philosophy that traditional, strategic golf in a natural environment is the most rewarding, creative form of golf design.</p><p>Currently under construction, this design will provide members with a walkable 18 holes of inspired golf. Comfort stations and a halfway house will be placed conveniently on the course. A par 3 short course is also being planned.  Fly fishing, skeet shooting and other activities are being planned as well over the 18,000 acre expanse.</p><p>The bedrock in the Crazy Mountains is formed by the Big Timber Stock, a large igneous intrusion. The stock is of the Tertiary age consisting of diorite and gabbro with zones of Quartz Monzodiorite which over time has been intruded by many dikes and sills.</p>
+				<p><a style='font-weight:bold' href='https://www.lonemountainland.com/' target='_blank' rel='nofollow'>Lone Mountain Land Company, LLC</a> is a company formed by CrossHarbor Capital Partners to manage the planning, entitlement, building, marketing, and sale of premier real estate communities in and around Big Sky, Montana and other locations worldwide.  Commitment to creating the ultimate Montana experience through thoughtful growth of their community is commendable.<p>
+			</div>
+	</div>
 
-<body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<H1>Coore Crenshaw - Crazy Mountain Ranch in Montana</H1> 
+    <script>		
+            const map = L.map('map').setView([45.8935508,-110.4923968], 10);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
-
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Crazy-Mountain-Ranch.json";
-
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-	<script type="text/javascript" class="init"></script> 
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([45.8935508,-110.4923968]).addTo(map);
+	        marker.bindPopup("<b>Crazy Mountain</b><br>Montana</br>").openPopup();
+	</script>
 	<p><a href="https://crazymountainranch.com/">Crazy Mountain Ranch</a></p>
 	<p><a href="https://www.bozemandailychronicle.com/news/business/crazy-mountain-ranch-near-clyde-park-sold-to-subsidiary-of-company-that-owns-the-yellowstone/article_7a37cef5-a6e4-5a4b-b718-2507bfa1e3e0.html">Bozeman Daily Chronicle - Land Acquisition</a></p>
 	<p><a href="https://fescue.github.io/Torch-Cay/">Coore Crenshaw's Torch Cay in the Bahamas</a></p>
 	<p><a href="https://fescue.github.io/Twin-Bridges-Golf/">Twin Bridges - Other Construction in Montana</a></p>
 	{% include bodyFooter.html %}
- </BODY>	
+ </body>	
  {% include footer.html %}
 </html>

@@ -90,11 +90,12 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 
 ### <a name="buybitcoin"></a>Πώς μπορώ να αγοράσω ή να εξαργυρώσω Bitcoin στην Ελλάδα;
 
-- Στα 60+ Bitcoin ATM που εμφανίζει ο χάρτης της [Coin ATM Radar](https://coinatmradar.com/country/83/bitcoin-atm-greece/). Τα περισσότερα από αυτά ανήκουν στην [Bcash Greece](https://bcash.eu/gr/) ([δείτε τα βίντεο με οδηγίες χρήσης](https://www.youtube.com/channel/UCo4WSs5gFgp9RgvR2f-1okg/videos)), στην [Kurant](https://www.kurant.at/) και στην [Bitcoinmat](https://bitcoinmat.sk/).
+- Στα 30+ Bitcoin ATM που εμφανίζει ο χάρτης της [Coin ATM Radar](https://coinatmradar.com/country/83/bitcoin-atm-greece/). Τα περισσότερα από αυτά ανήκουν στην [Bcash Greece](https://bcash.eu/gr/) ([δείτε τα βίντεο με οδηγίες χρήσης](https://www.youtube.com/channel/UCo4WSs5gFgp9RgvR2f-1okg/videos)) και στην [Bitcoinmat](https://bitcoinmat.sk/).
 - Σε οποιοδήποτε ανταλλακτήριο Bitcoin διεθνώς, μέσω τραπεζικού εμβάσματος. Αυτή η μέθοδος έχει και τα χαμηλότερα κόστη, εφόσον το έμβασμα γίνει με τη μέθοδο SEPA (ενδεικτικό κόστος μεταφοράς: €1). Παραδείγματα ανταλλακτηρίων που δέχονται εμβάσματα με SEPA είναι [Kraken](https://www.kraken.com), [Coinbase](https://www.coinbase.com/) και [BitStamp](https://www.bitstamp.net).
 - Σε ανταλλακτήρια που δέχονται πιστωτικές ή χρεωστικές κάρτες.
-- Από κάποιον ιδιώτη στην Ελλάδα που θα τον εντοπίσετε στο [Localbitcoins](https://localbitcoins.com/), στο [BitcoinTalk forum](https://bitcointalk.org/index.php?board=136.0), στο [HodlHodl](https://hodlhodl.com), στο [Bisq](https://bisq.network) ή στο [Paxful](https://paxful.com). Με αυτούς μπορείτε να ανταλλάξετε Ευρώ με όποιον τρόπο θέλετε π.χ. χέρι-με-χέρι, Paypal, Western Union, Πειραιώς Λεφτά Στο Λεπτό, τραπεζική μεταφορά κλπ.
+- Από κάποιον ιδιώτη στην Ελλάδα που θα τον εντοπίσετε στο [BitcoinTalk forum](https://bitcointalk.org/index.php?board=136.0), στο [HodlHodl](https://hodlhodl.com), στο [Bisq](https://bisq.network), στο [Vexl](https://vexl.it) ή στο [Peach Bitcoin](https://peachbitcoin.com). Με αυτούς μπορείτε να ανταλλάξετε Ευρώ με όποιον τρόπο θέλετε π.χ. χέρι-με-χέρι, Paypal, Western Union, Πειραιώς Λεφτά Στο Λεπτό, τραπεζική μεταφορά κλπ.
 - Από το ανταλλακτήριο [BCash](https://bcash.gr/en/exchange/) με κατάθεση σε Ελληνική τράπεζα μέχρι €1000 την ημέρα με προμήθεια 10%.
+- Κάποιο από τα ανταλλακτήρια που έχουν εγγραφεί στο [Μητρώο ανταλλακτηρίων κρυπτονομισμάτων της Ελληνικής Επιτροπής Κεφαλαιαγοράς](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Providers%20of%20Exchange%20Services_EL.pdf).
 
 ### <a name="localbanks"></a>Υπάρχουν περιορισμοί στις Ελληνικές και Κυπριακές Τράπεζες;
 
@@ -236,7 +237,7 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 
 ### <a name="regulator"></a>Ποιος εποπτεύει τα κρυπτονομίσματα στην Ελλάδα;
 
-Αυτή τη στιγμή στην Ελλάδα τα κρυπτονομίσματα εποπτεύονται μόνο από την σκοπιά του Ξεπλύματος Μαύρου Χρήματος (AML - Anti Money Laundering) σύμφωνα με το νόμο [4557/2018](https://www.taxheaven.gr/law/4557/2018) (το κείμενο του νόμου είναι πλήρως ενημερωμένο), όπως μεταβλήθηκε από το νόμο [4734/2020](https://www.taxheaven.gr/law/4734/2020). Ο τελευταίος είναι γνωστός και ως η [Οδηγία AMLD5 της Ευρωπαϊκής Ένωσης](https://www.sygna.io/blog/what-is-amld5-anti-money-laundering-directive-five-a-guide/). Επόπτης είναι η [Επιτροπή Κεφαλαιαγοράς](http://www.hcmc.gr/el_GR/web/portal/mlaundering1) η οποία διατηρεί το Μητρώο εποπτευόμενων ανταλλακτηρίων/ΑΤΜ (4 μέλη) και θεματοφυλάκων κρυπτονομισμάτων (κάνενα μέλος).
+Αυτή τη στιγμή στην Ελλάδα τα κρυπτονομίσματα εποπτεύονται μόνο από την σκοπιά του Ξεπλύματος Μαύρου Χρήματος (AML - Anti Money Laundering) σύμφωνα με το νόμο [4557/2018](https://www.taxheaven.gr/law/4557/2018) (το κείμενο του νόμου είναι πλήρως ενημερωμένο), όπως μεταβλήθηκε από το νόμο [4734/2020](https://www.taxheaven.gr/law/4734/2020). Ο τελευταίος είναι γνωστός και ως η [Οδηγία AMLD5 της Ευρωπαϊκής Ένωσης](https://www.sygna.io/blog/what-is-amld5-anti-money-laundering-directive-five-a-guide/). Επόπτης είναι η [Επιτροπή Κεφαλαιαγοράς](http://www.hcmc.gr/el_GR/web/portal/mlaundering1) η οποία διατηρεί το [Μητρώο εποπτευόμενων ανταλλακτηρίων/ΑΤΜ](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Providers%20of%20Exchange%20Services_EL.pdf) και το [Μητρώο θεματοφυλάκων κρυπτονομισμάτων](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Custodian%20Wallet%20Providers_EL.pdf).
 
 ### <a name="tax"></a>Πώς φορολογούνται τα κρυπτονομίσματα στην Ελλάδα;
 

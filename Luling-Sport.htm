@@ -33,14 +33,6 @@
 					this._map = map;
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
 	        
-	                this._container.innerHTML = `
-	                    <lite-youtube videoid="Zbv-V6kB1BY" style="background-image: url('https://i3.ytimg.com/vi/Zbv-V6kB1BY/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=Zbv-V6kB1BY" class="lty-playbtn" title="Play Video.  Credit: Charl TV">
-	                            <span class="lyt-visually-hidden">Credit: Charl TV</span>
-	                        </a>
-	                    </lite-youtube>
-	                `;
-			
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);
 	                

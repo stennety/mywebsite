@@ -35,11 +35,12 @@ Come to one of our meetups in [Athens](https://www.meetup.com/BlockchainGreece-0
 
 ### <a name="buybitcoin"></a>How can I buy Bitcoin in Greece?
 
-- At the 60+ Bitcoin ATMs listed on [Coin ATM Radar](https://coinatmradar.com/country/83/bitcoin-atm-greece/). Most of those Bitcoin ATMs belong to [Bcash Greece](https://bcash.eu/) ([see videos with instructions on how to use their ATMs](https://www.youtube.com/channel/UCo4WSs5gFgp9RgvR2f-1okg/videos)), to [Kurant](https://www.kurant.at/) and to [Bitcoinmat](https://bitcoinmat.sk/).
+- At the 30+ Bitcoin ATMs listed on [Coin ATM Radar](https://coinatmradar.com/country/83/bitcoin-atm-greece/). Most of those Bitcoin ATMs belong to [Bcash Greece](https://bcash.eu/) ([see videos with instructions on how to use their ATMs](https://www.youtube.com/channel/UCo4WSs5gFgp9RgvR2f-1okg/videos)) and to [Bitcoinmat](https://bitcoinmat.sk/).
 - At any Bitcoin exchange in the world, via a bank transfer. This method incurs the lowest fees, assuming you send the amount using a SEPA transfer (a Greek bank can charge as low as €1 for a SEPA transfer). Some exchanges that accept SEPA transfers are [Kraken](https://www.kraken.com), [Coinbase](https://www.coinbase.com/) and [BitStamp](https://www.bitstamp.net).
 - At a Bitcoin exchange that accepts debit or credit cards.
-- From a private Bitcoin trader you can find on [Localbitcoins](https://localbitcoins.com/), at the [BitcoinTalk forum](https://bitcointalk.org/index.php?board=136.0), on [HodlHodl](https://hodlhodl.com), on [Bisq](https://bisq.network) or on [Paxful](https://paxful.com). You can exchange Euros with them using any method you want, e.g. in person, via Paypal, Western Union, Piraeus Bank Instant Cash (Lefta Sto Lepto), bank transfer etc.
+- From a private Bitcoin trader you can find on the [BitcoinTalk forum](https://bitcointalk.org/index.php?board=136.0), on [HodlHodl](https://hodlhodl.com), on [Bisq](https://bisq.network), on [Vexl](https://vexl.it) or on [Peach Bitcoin](https://peachbitcoin.com). You can exchange Euros with them using any method you want, e.g. in person, via Paypal, Western Union, Piraeus Bank Instant Cash (Lefta Sto Lepto), bank transfer etc.
 - From the [BCash](https://bcash.gr/en/exchange/) Bitcoin exchange via deposit at a Greek bank. They sell up to €1000 of Bitcoin per person per day and charge a 10% fee.
+- From a cryptocurrency exchange on the [Hellenic Capital Markets Commission register](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Providers%20of%20Exchange%20Services_EN.pdf).
 
 ### <a name="localbanks"></a>Do Greek and Cypriot banks impose restrictions?
 
@@ -57,7 +58,7 @@ These restrictions exist because banks are afraid of the AML fines they face in 
 
 ### <a name="regulator"></a>Who regulates cryptocurrency in Greece?
 
-Cryptocurrency in Greece is currently only regulated from an AML (Anti Money Laundering) point of view, according to law [4557/2018](https://www.taxheaven.gr/law/4557/2018) (the linked law text is fully up-to-date), as modified by law [4734/2020](https://www.taxheaven.gr/law/4734/2020). The latter is known as the [European Union's AMLD5 Directive](https://www.sygna.io/blog/what-is-amld5-anti-money-laundering-directive-five-a-guide/). The regulator is the [Hellenic Capital Markets Commission](http://www.hcmc.gr/el_GR/web/portal/mlaundering1) that maintains a Registry of regulated exchanges (4 of them) and custodians (none).
+Cryptocurrency in Greece is currently only regulated from an AML (Anti Money Laundering) point of view, according to law [4557/2018](https://www.taxheaven.gr/law/4557/2018) (the linked law text is fully up-to-date), as modified by law [4734/2020](https://www.taxheaven.gr/law/4734/2020). The latter is known as the [European Union's AMLD5 Directive](https://www.sygna.io/blog/what-is-amld5-anti-money-laundering-directive-five-a-guide/). The regulator is the [Hellenic Capital Markets Commission](http://www.hcmc.gr/el_GR/web/portal/mlaundering1) that maintains a Registry of [AML-regulated cryptocurrency exchanges](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Providers%20of%20Exchange%20Services_EN.pdf) and [AML-regulated cryptocurrency custodians](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Custodian%20Wallet%20Providers_EN.pdf).
 
 ### <a name="projects"></a>What cryptocurrency and blockchain projects are there in Greece and Cyprus?
 

@@ -157,8 +157,8 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 
 ![](/images/Bitcoin_Stock-To-Flow_S2F_model.png)
 
-- Το [μοντέλο αποτίμησης του Bitcoin Stock-to-Flow](https://100trillionusd.github.io/#one), διαθέσιμο και στα Ελληνικά.
-- Οι [εκθέσεις αποτίμησης του Bitcoin των Greyscale, Paul Tudor Jones, MicroStrategy, Fidelity και VanEck](https://github.com/100trillionUSD/bitcoin).
+- Το [μοντέλο αποτίμησης του Bitcoin Stock-to-Flow](https://planbtc.com/), διαθέσιμο και στα Ελληνικά.
+- Οι εκθέσεις αποτίμησης του Bitcoin των Greyscale, Paul Tudor Jones, MicroStrategy, Fidelity και VanEck.
 
 ### <a name="wallet"></a>Πώς μπορώ να αποκτήσω ένα πορτοφόλι Bitcoin;
 
@@ -335,7 +335,7 @@ ii) στο πλαίσιο των Ε.Λ.Π. αποτιμάται στο αποσ�
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Hellenic Blockchain Hub](http://blockchain.org.gr)
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Cyprus Blockchain Technologies](http://cybt.eu)
 
-Τελευταία ενημέρωση: 2024-02-14
+Τελευταία ενημέρωση: 2024-02-16
 
 <!-- <div class="posts">
   {% for post in site.posts %}

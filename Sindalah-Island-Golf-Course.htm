@@ -1,61 +1,79 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
 	<title>NEOM - Sindalah Island Golf Course - New Golf Resort</title>
-	<meta name="description" CONTENT="Sindalah Island Golf Course NEOM Saudi Arabia New Golf Course Robert Trent Jones Four Seasons Private Yacht">
-	{% include headerSM.html %}
+	<meta name="description" CONTENT="Sindalah Island Golf Course NEOM Saudi Arabia New Golf Course Robert Trent Jones Four Seasons Marina Yacht">
+	{% include h40.html %}
 </head>
 	
 <body>	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>NEOM - Sindalah Island - New Four Seasons Golf Resort</H1> 
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
-	<script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Sindalah-Island-Golf-Course.json";
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Warmouth Sands"></div>
+			<div class="content" tabindex="0"  aria-label="NEOM">
+				<H1>NEOM - Sindalah Island - New Four Seasons Golf Resort</H1> 
+				
+				<p><a style='font-weight:bold' href='https://www.neom.com/en-us/regions/sindalah' target='_blank' rel='nofollow'>Sindalah Island</a> is an island resort golf course in Saudi Arabia.  <a style='font-weight:bold' href='https://www.rtj2.com/' target='_blank' rel='nofollow'>Robert Trent Jones II (RTJ Jr.)</a> is the golf architect who designed Sindalah Island layout.  The golf course is scheduled to open in 2024 as part of the <a style='font-weight:bold' part of the href='https://www.constructionweeksaudi.com/gigaprojects/saudi-crown-prince-announces-sindalah-neoms-first-luxury-island-destination' target='_blank' rel='nofollow'>Neom project</a>.  RTJ Jr. has designed an innovative dual tee system to add variety/different perspective into playing the course a second time for a full 18 holes.</p>
+				<p><a style='font-weight:bold' href='https://www.imgprestige.com/golf-club-management' target='_blank' rel='nofollow'>IMG</a> will oversee management of the golf course. Fairways on the golf course are planted in NorthBridge Bermudagrass and set on a slope overlooking overlooking the Red Sea.  General Manager <a href='mailto:daniel.naudo@neom.com'>Daniel Naudo</a>, CCM, will lead the property's management.  Construction was led by Nesma United.  The island will also have a marina with 86 berths for yachts up to 50 meters.</p><p>The <a style='font-weight:bold' href='https://press.fourseasons.com/news-releases/2023/new-four-seasons-in-neom/' target='_blank' rel='nofollow'>Four Seasons Resort Sindalah Island</a> will host guests on the island.  Luca Dini is the land planning designer of the island and the resort's architecture.  The Four Seasons will have capacity of 225 guest room suites with Red Sea beach views as well as 52 villas.  The Presidential and Royal Villas will have private swimming pools, gyms and access to private yacht docks.  Seawater temperatures are near 30 degrees Celsius.  The climate on Sindalah Island Golf Resort is dry year-round, and the golf course is likely to be playable during all months.  Temperatures are coolest in the winter months, generally around 25-30 degrees Celsius.</p>
+				<p>Grow in superintendent <a style='font-weight:bold' href='https://www.linkedin.com/in/jasonchennault/' target='_blank' rel='nofollow'>Jason Chennault</a></b> has international experience in United States, China, and other Asian countries overseeing the management of a perennial Top 100 Golf Course as Director of Grounds for one of the finest seaside golf courses in the world.  Design and build of a golf course is a team sport.  From the RTJ II team, Senior Project Architect <a style='font-weight:bold' href='https://www.linkedin.com/in/mike-gorman-151a367/' target='_blank' rel='nofollow'>Mike Gorman</a> was the design lead with Patrick Ryan as the daily onsite in the dirt hand and with experienced shapers Steve Page + Frazier Dye.  The golf course is designed by RTJ Jr. to feature a variety of tee boxes to accommodate players of different abilities. Landscape designer Dini is excited to be working on the Sindalah island project - he believes that it will be a well visited tourist destination on the golf trail for visitors from all over the world.  Recently in an interview, Dini exclaimed: 'Sindalah is a truly unique location, and I am honored to be working on this project. I believe that the golf course will be a special place for golfers to experience the beauty of the Red Sea and the unique design of my architecture'.</p>			
+			</div>
+	</div>
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+    <script>		
+            const map = L.map('map').setView([28.0469016,34.7117111], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});
-	</script> 
-	<script type="text/javascript" class="init"></script>
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="6LTEP9W_4YM" style="background-image: url('https://i3.ytimg.com/vi/6LTEP9W_4YM/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=6LTEP9W_4YM" class="lty-playbtn" title="Play Video.  Credit: NEOM">
+	                            <span class="lyt-visually-hidden">Credit: NEOM</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([28.0469016,34.7117111]).addTo(map);
+	        marker.bindPopup("<b>Warmouth Sands</b><br>Vidalia, Georgia</br>").openPopup();
+	</script>
 	<p><a style='font-weight:bold' href="https://www.neom.com/en-us/regions/sindalah">NEOM Sindalah</a></p>
 	<p><a href="https://press.fourseasons.com/news-releases/2023/new-four-seasons-in-neom/">Four Seasons</a></p>
 	<p><a href="https://fescue.github.io/Torch-Cay/">Torch Cay Island</a></p>
 	<p><a href="https://fescue.github.io/Three-Bridges-Golf-Utah/">RTJ's Three Bridges</a></p>
 	{% include bodyFooter.html %}
- </BODY>
+ </body>	
  {% include footer.html %}
 </html>

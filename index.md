@@ -82,7 +82,7 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 
 ### <a name="bitcoinetfs"></a>Υπάρχουν funds στο χρηματιστήριο που αντανακλούν την τιμή του Bitcoin;
 
-Ναι, από το 2022 υπάρχουν 2 ETFs (Exchange Traded Funds) στον Καναδά, από το 2023 υπάρχει 1 ETF στη Βραζιλία και από το 2024 υπάρχουν 11 ETFs στις ΗΠΑ που έχουν 100% αντίκρυσμα σε Bitcoin (spot, physically settled ETFs). Υπάρχουν και άλλα ETFs που αντανακλούν την τιμή του Bitcoin μέσω παραγώγων.
+Ναι, από το 2022 υπάρχουν 2 ETFs (Exchange Traded Funds) στον Καναδά, από το 2023 υπάρχει 1 ETF στη Βραζιλία και από το 2024 υπάρχουν 11 ETFs στις ΗΠΑ που έχουν 100% αντίκρυσμα σε Bitcoin (spot, physically settled ETFs) και μερικά [Bitcoin funds στην Ευρώπη](https://www.justetf.com/en/how-to/invest-in-bitcoin.html). Υπάρχουν και άλλα ETFs που αντανακλούν την τιμή του Bitcoin μέσω παραγώγων.
 
 ### <a name="legaltender"></a>Ποιές χώρες υιοθέτησαν το Bitcoin ως επίσημο νόμισμα;
 
@@ -90,12 +90,16 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 
 ### <a name="buybitcoin"></a>Πώς μπορώ να αγοράσω ή να εξαργυρώσω Bitcoin στην Ελλάδα;
 
+Να συγκρίνετε πάντα την ισοτιμία και τις χρεώσεις. Κάποιοι από τους παρακάτω τρόπους είναι πολύ ακριβοί.
+
 - Στα 30+ Bitcoin ATM που εμφανίζει ο χάρτης της [Coin ATM Radar](https://coinatmradar.com/country/83/bitcoin-atm-greece/). Τα περισσότερα από αυτά ανήκουν στην [Bcash Greece](https://bcash.eu/gr/) ([δείτε τα βίντεο με οδηγίες χρήσης](https://www.youtube.com/channel/UCo4WSs5gFgp9RgvR2f-1okg/videos)) και στην [Bitcoinmat](https://bitcoinmat.sk/).
 - Σε οποιοδήποτε ανταλλακτήριο Bitcoin διεθνώς, μέσω τραπεζικού εμβάσματος. Αυτή η μέθοδος έχει και τα χαμηλότερα κόστη, εφόσον το έμβασμα γίνει με τη μέθοδο SEPA (ενδεικτικό κόστος μεταφοράς: €1). Παραδείγματα ανταλλακτηρίων που δέχονται εμβάσματα με SEPA είναι [Kraken](https://www.kraken.com), [Coinbase](https://www.coinbase.com/) και [BitStamp](https://www.bitstamp.net).
 - Σε ανταλλακτήρια που δέχονται πιστωτικές ή χρεωστικές κάρτες.
 - Από κάποιον ιδιώτη στην Ελλάδα που θα τον εντοπίσετε στο [BitcoinTalk forum](https://bitcointalk.org/index.php?board=136.0), στο [HodlHodl](https://hodlhodl.com), στο [Bisq](https://bisq.network), στο [Vexl](https://vexl.it) ή στο [Peach Bitcoin](https://peachbitcoin.com). Με αυτούς μπορείτε να ανταλλάξετε Ευρώ με όποιον τρόπο θέλετε π.χ. χέρι-με-χέρι, Paypal, Western Union, Πειραιώς Λεφτά Στο Λεπτό, τραπεζική μεταφορά κλπ.
 - Από το ανταλλακτήριο [BCash](https://bcash.gr/en/exchange/) με κατάθεση σε Ελληνική τράπεζα μέχρι €1000 την ημέρα με προμήθεια 10%.
 - Κάποιο από τα ανταλλακτήρια που έχουν εγγραφεί στο [Μητρώο ανταλλακτηρίων κρυπτονομισμάτων της Ελληνικής Επιτροπής Κεφαλαιαγοράς](http://www.hcmc.gr/aweb/files/laundering/files/Register%20of%20Providers%20of%20Exchange%20Services_EL.pdf).
+- Μέσω κάποιου [Bitcoin fund στην Ευρώπη](https://www.justetf.com/en/how-to/invest-in-bitcoin.html).
+- Από τη Revolut.
 
 ### <a name="localbanks"></a>Υπάρχουν περιορισμοί στις Ελληνικές και Κυπριακές Τράπεζες;
 
@@ -114,9 +118,9 @@ title: Πως αγοράζω, πουλάω, ξοδεύω και δεχόμαι B
 ### <a name="revolutpaypal"></a>Μπορώ να αγοράσω ή να εξαργυρώσω Bitcoin μέσω Revolut και Paypal;
 
 - Μπορείτε να κάνετε συναλλαγές στα περισσότερα ανταλλακτήρια κάνοντας SEPA transfers από/προς τη Revolut.
+- Η ίδια η Revolut πουλάει Bitcoin και πλέον σας επιτρέπει να τα βγάλετε σε κάποιο προσωπικό σας πορτοφόλι.
 - Επειδή οι συναλλαγές μέσω Paypal είναι εύκολα αντιστρέψιμες, δεν θα βρείτε εύκολα κάποιον να σας πουλήσει Bitcoin μέσω Paypal.
 - Κάποια ανταλλακτήρια, όπως η [Coibase](https://help.coinbase.com/en/coinbase/getting-started/add-a-payment-method/paypal-faq) σας επιτρέπουν να κάνετε ανάληψη προς Paypal, σας επιτρέπουν δηλαδή να πουλήσετε Bitcoin σε αυτούς και σας πληρώνουν στο Paypal.
-- Η Revolut και η Paypal πουλάνε «Bitcoin» στους χρήστες τους (η Paypal όχι στην Ελλάδα ακόμη), αλλά είναι εικονικό, δεν μπορείτε να το στείλετε έξω από το σύστημά τους ή να το περάσετε στην πραγματική κατοχή σας. Είναι χρήσιμο μόνο σε κάποιον που επιθυμεί να στοιχηματίσει στην τιμή του Bitcoin.
 
 ### <a name="bitcoin.org"></a>Που μπορώ να μάθω περισσότερα για το Bitcoin;
 

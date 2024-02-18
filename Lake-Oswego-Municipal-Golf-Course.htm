@@ -1,65 +1,79 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Lake Oswego Muni Golf - Dan Hixson</title>
-  <meta name="description" CONTENT="Lake Oswego Golf Course Municipal Oregon">
-  {% include headerSM.html %}
+	<title>Lake Oswego Muni Golf - Dan Hixson</title>
+	<meta name="description" CONTENT="Lake Oswego Golf Course Municipal Oregon">
+	{% include h.html %}
 </head>
-
-<body>
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>Lake Oswego Muni Golf - Dan Hixson</H1> 
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Muni Golf"></div>
+			<div class="content" tabindex="0"  aria-label="Dan Hixson">
+				<H1>Lake Oswego Muni Golf - Dan Hixson</H1> 
+				<p>The City of Lake Oswego Municipal Golf Course is currently undergoing a 2 year renovation project with expected completion date in late 2024. The municipal project which was approved and funded by the 2019 Lake Oswego Bond Measure including the construction of a new maintenance grounds building, an updated driving range, and rebuild of the existing 18-hole Par 3 course to a full 9-hole executive course designed by <a style='font-weight:bold' href='https://www.linkedin.com/in/dan-hixson-3b2a25178/' target='_blank' rel='nofollow'>Dan Hixson</a>.</p>
+				<p>The new maintenance facility is being rebuilt on the north side of the property adjacent to Stafford Road.  A major part of the maintenanace budget and upgrade for the grounds is a new irrigation system.  Total cost of the municipal renovation project is estimated to be $12 million and is overseen by the City's Parks and Recreation Department.</p>
+				<p>Brian Henninger from the PGA Tour is helping with the renovation project by serving as a consultant to the project, providing input on the design of the new course. Henninger is an Oregon native and member of the Oregon Sports Hall of Fame.  He is familiar with the Lake Oswego course and is quoted: 'I'm excited to be involved in the renovation of the Lake Oswego Municipal Golf Course. It's a great course with a lot of potential, and I think we can make it even better. I'm looking forward to working with the City and the design team to create a course that's challenging and enjoyable for golfers of all skill levels.'</p>
+				<p><a style='font-weight:bold' href='https://www.ci.oswego.or.us/bids/milroy-golf-systems-inc' target='_blank' rel='nofollow'>Milroy Golf Systems</a> is the golf course construction awarded the contract to rebuild the course.  Milroy is a specialist golf construction and irrigation contractor based in Newberg, Oregon. The company was founded in 1997 by James Milroy.  Milroy Golf Systems specializes in the construction/renovation of golf courses.  Other projects that Milroy Golf Systems has completed include Meridian Valley Country Club in Washington and updating the irrigation system at the Bandon Dunes Golf Resort in Oregon.  Milroy Golf Systems is a member of <a style='font-weight:bold' href='https://www.gcbaa.org/' target='_blank' rel='nofollow'>Golf Course Builders Association of America, GCBAA</a>.</p>
+			</div>
+	</div>
 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+    <script>
+            const map = L.map('map').setView([45.3982171,-122.6890807], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Lake-Oswego-Municipal-Golf-Course.json";
-
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-		<script type="text/javascript" class="init"></script> 
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                // Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="kVnvkwt1ZQE" style="background-image: url('https://i3.ytimg.com/vi/kVnvkwt1ZQE/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=kVnvkwt1ZQE" class="lty-playbtn" title="Play Video.  Credit: City of Lake Oswego">
+	                            <span class="lyt-visually-hidden">Credit: City of Lake Oswego</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+					
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([45.3982171,-122.6890807]).addTo(map);
+			
+	        marker.bindPopup("<b>Lake Oswego Golf Course</b><br>Oregon</br>").openPopup();
+	</script>
     <p><a href="https://www.ci.oswego.or.us/parksrec/municipal-golf-course-renovation">Lake Oswego Project Update</a></p>
-    <p><a href="https://fescue.github.io/Westport-Golf-Links/">Westport Golf Links in Washington</a></p>
- {% include bodyFooter.html %}
- </BODY>	
+    <p><a href="https://fescue.github.io/Westport-Golf-Links/">Westport Golf Links in Washington</a></p>	
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

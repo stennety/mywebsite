@@ -1,94 +1,82 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
- <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'G-CE7ZF0C1GD');
-  </script>
-  <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
-  <title>McArthur Golf Club West - Coore Crenshaw, Florida</title>
-  <meta name="description" CONTENT="McArthur-West Bill Coore Ben Crenshaw New Golf Course Hobe Sound South Florida">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta http-equiv='content-language' content='en-us'>
-  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-  <meta name="msvalidate.01" content="C4EAECFC8175E41187A49DFC313FFC62" />
-  <script src="https://cmp.osano.com/Azqae7Tg5rIXKJsl/a6843304-e87a-485e-aabb-2b21be3ed691/osano.js"></script>
+	<title>McArthur Golf Club Backyard - Coore Crenshaw, Florida</title>
+	<meta name="description" CONTENT="McArthur-West Bill Coore Ben Crenshaw New Golf Course Hobe Sound South Florida">
+	{% include h.html %}
 </head>
-
-<body>
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>McArthur Golf Club, West Course - Coore Crenshaw, Florida</H1> 
+<body>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Backyard"></div>
+			<div class="content" tabindex="0"  aria-label="McArthur Golf">
+				<H1>McArthur Golf Club, Back Yard - Coore Crenshaw</H1>
+				<p><a style='font-weight:bold' href='https://www.mcarthurgolf.com/' target='_blank' rel='nofollow'>McArthur Golf Club</a> is a private golf club in Hobe Sound, Florida. The first golf course was designed by Tom Fazio with Nick Price opened in 2002.  Greens are Tifeagle ultra-dwarf bermudagrass.  Fairways are Tifway 419 bermudagrass.</p>
+				<p>The 2nd golf course at McArthur is named 'McArthur Back Yard' and was built by <a style='font-weight:bold' href='https://www.cooreandcrenshaw.com/' target='_blank' rel='nofollow'>Coore Crenshaw</a>.  The Bill Coore and Ben Crenshaw design pair is known for their minimalist design approach.  The course is natural and being designed to blend in with the natural surroundings utilizing sand dunes and native wetlands.  The 518 acre parcel is located west of the first golf course and will add to the approximate 456 developed acres west of US Highway One at the intersection of SE Osprey Street.  McArthur is close to nearby Medalist Club.</p>
+				<p>Part of the Martin County property includes a Preserve Area Management Plan (PAMP) for preservation and maintaining the designated section of the sit.  The Preserve area is maintained in its natural state with minimal disturbance.  Restoration includes removing exotic plants by replanting with native species and eliminating dead/diseased/hazardous plants. <a style='font-weight:bold' href='https://www.martin.fl.us/resources/m189-008-mcarthur-west-golf-club' target='_blank' rel='nofollow'>Martin County</a> permits non-native, exotic vegetation in the Preserve Areas to be removed using the least ecologically harmful methods by hand pulling, hand spading, cutting with hand or chain saws, and in-situ treatment with suitable herbicides.</p>
+				<p>The club's milk jug logo is related to the property history McArthur Dairy Farms.  McArthur Dairy Farms and the family started in the area in the 1920's as a dairy farm with Jersey cows.</p>
+				<p>The <a style='font-weight:bold' href='https://www.fsga.org/Club/Detail/c9e2de77-d41a-400c-bee8-462e578fd23e' target='_blank' rel='nofollow'>Florida State Golf Association (FSGA)</a> has given a scratch score course rating of 73.1 to the Black tees.  The slope rating from the Black tees is 134.  Eight other tee boxes have been scored by the FSGA.  The front nine plays a little more difficult than back nine.  Back tee yardages for the par 3 holes on the course range from 130 yards to 260 yards.</p>			
+			</div>
+	</div>
 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+    <script>
+            const map = L.map('map').setView([27.1050263,-80.1728431], 9);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/McArthur-West.json";
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+					
+					// Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="Xr0Bf9kfhxA" style="background-image: url('https://i3.ytimg.com/vi/Xr0Bf9kfhxA/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=Xr0Bf9kfhxA" class="lty-playbtn" title="Play Video.  Credit: McArthur Golf">
+	                            <span class="lyt-visually-hidden">Credit: McArthur Golf</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([27.1050263,-80.1728431]).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-		<script type="text/javascript" class="init"></script> 
-
-</body>
-  <footer>
-    <p><a href="https://www.palmbeachpost.com/story/sports/pga/2021/04/14/bill-coore-ben-crenshaw-building-golf-course-mcarthur-club-hobe-sound/7218019002/">Palm Beach Post</a></p>
-    <p><a href="https://owl.martin.fl.us/app/f?p=301:2:9510676890564::::P2_LIST_GROUP_ID,P2_LIST_ID:693,8247/">Martin County Approved Development Project Permit</a></p>
-    <p><a href="https://fescue.github.io/Fall-Line-Golf/">Georgia's Sand Hills - Fall Line Golf Club</a></p>
-    <p><a href="https://fescue.github.io/Ouli-Farms/">Ouli Farms in Hawaii</a></p>
-	<table style="width:100%">
-		<tr>
-			<th><a href="https://fescue.github.io/">All New Golf Courses</a></th>
-			<th><a href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
-			<th><a href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-</footer>
-  </footer>
+	        marker.bindPopup("<b>Ouli Farms</b><br>Kona, Hawaii</br>").openPopup();
+	</script>
+	<p><a href="https://www.palmbeachpost.com/story/sports/pga/2021/04/14/bill-coore-ben-crenshaw-building-golf-course-mcarthur-club-hobe-sound/7218019002/">Palm Beach Post 2021</a></p>
+	<p><a href="https://owl.martin.fl.us/app/f?p=301:2:9510676890564::::P2_LIST_GROUP_ID,P2_LIST_ID:693,8247/">Martin County Approved Development Project Permit</a></p>
+	<p><a href="https://fescue.github.io/Lake-Martin-Wicker-Point-Golf/">Lake Martin Golf in Alabama</a></p>
+	<p><a href="https://fescue.github.io/Ouli-Farms/">Ouli Farms in Hawaii</a></p>
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
 </html>

@@ -1,91 +1,70 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
- <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'G-CE7ZF0C1GD');
-  </script>
-  <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
-  <title>Ouli Farms - Kohala Coast in Kona, Hawaii</title>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta http-equiv='content-language' content='en-us'>
-  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-  <meta name="msvalidate.01" content="C4EAECFC8175E41187A49DFC313FFC62" />
-  <meta name="description" CONTENT="Ouli Farms New Golf Course Hawaii">
-  <script src="https://cmp.osano.com/Azqae7Tg5rIXKJsl/a6843304-e87a-485e-aabb-2b21be3ed691/osano.js"></script>
+	<title>Ouli Farms - Kohala Coast in Kona, Hawaii</title>
+	<meta name="description" CONTENT="Ouli Farms New Golf Course Kohala Coast Kona Hawaii">
+	{% include h.html %}
 </head>
-
+	
 <body>	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>Ouli Farms - Hawaii on Kohala, Kona Coast</H1> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Ouli Farms"></div>
+			<div class="content" tabindex="0"  aria-label="Kona Golf">
+				<H1>Ouli Farms - Hawaii on Kohala, Kona Coast</H1>				
+				<p><a style='font-weight:bold' href='https://www.oulifarms.com/' target='_blank' rel='nofollow'>Ouli Farms</a> is an 840 acre development located on the Kohala coast on Kona, the Big Island of Hawaii.  The property is just to the north of the Mauna Kea Resort. The site was part of the original parcel acquired by the Rockefeller family.  The development will include approximately 140 homes with planning for over 200 acres of active farms.  Each home includes an acre as an active farm contributing to the food production on the island.  The farms will be managed by a team of experienced farmers producing a variety of fruits, vegetables, and flowers.  In addition to the homes and farms, Ouli Farms will also include a community club. The club will offer a variety of amenities, such as a swimming pool, tennis courts, and a fitness center.</p>
+				<p>Ouli Farms is designed to prioritize sustainability and environmental stewardship.  Minimizing its impact on the environment, residents will use sustainable practices throughout.   Homes  will be built with energy-efficient materials, and the farms will be managed using organic methods.</p>
+				<p><a style='font-weight:bold' href="https://oulifarms.com/team/">Founders</a> Joe Root and <a style='font-weight:bold' href="https://www.linkedin.com/in/punoose/">George Punoose</a></p> have planned for the community to have a golf course integrated into the landscape.  Punoose was previously at Cabot St. Lucia's <a style='font-weight:bold' href="https://golf.com/travel/cabot-st-lucia-point-hardy-mythical-opening-2023/">Point Hardy</a> Golf Club, which has a Top 100 in the World golf course designed by Bill Coore and Ben Crenshaw.</p>
+				<p>The Kohala Coast of Kona is known for its sunny, pleasant weather with average annual rainfall of 10 inches. The climate is mild with average temperatures from 70 degrees Fahrenheit in the winter to 80 degrees Fahrenheit in the summer.</p>
+			</div>
+	</div>
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Ouli-Farms.json";
+    <script>
+            const map = L.map('map').setView([20.041203,-155.8341555], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-		<script type="text/javascript" class="init"></script> 
-
-</body>
-  <footer>
-    <p><a href="http://www.oulifarms.com/">Ouli Farms</a></p>
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([20.041203,-155.8341555]).addTo(map);
+			
+	        marker.bindPopup("<b>Ouli Farms</b><br>Kona, Hawaii</br>").openPopup();
+	</script>
     <p><a href="http://konakohalachamber.chambermaster.com/news/details/ouli-farms-inc-new-chamber-member">Welcome to new Chamber member ‘Ouli Farms Inc.</a></p>
-    <p><a href="https://www.linkedin.com/in/punoose/">George Punoose</a></p>
-    <p><a href="https://fescue.github.io/Rolling-Sands-Golf/">Tom Doak's New Golf Course in Florida - Rolling Sands</a></p>
-	<table style="width:100%">
-		<tr>
-			<th><a href="https://fescue.github.io/">All New Golf Courses</a></th>
-			<th><a href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
-			<th><a href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-</footer>
+    <p><a href="https://fescue.github.io/Muriwai-Downs-Golf/">Muriwai Downs in New Zealand</a></p>	
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
 </html>

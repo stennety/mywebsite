@@ -6,7 +6,7 @@
  <head>
 	<title>Hogans Gully - New Zealand Golf Resort</title>
 	<meta name="description" CONTENT="Hogans Gully New Zealand Golf Tourism Resort Greg Turner Golf Architect">
-	{% include h40.html %}
+	{% include h50.html %}
 </head>
 		
 <body>
@@ -14,7 +14,7 @@
 		<div id="map" aria-label="Stonebridge"></div>
 			<div class="content" tabindex="0"  aria-label="Kipp Schulties">
 				<H1>Hogans Gully - New Zealand Golf Resort</H1>
-				<p>A $30 million golf resort is set to enhance the landscape near Arrowtown, New Zealand has been permitted and approved by <a href="https://www.qldc.govt.nz/media/t2gbgyz2/pdp-chapter-48-hogans-gully-resort-zone-jun-2023.pdf">Queensland Lakes District Council</a>.  Development of the 300+ acres Hogan’s Gully property will feature an 18 hole golf course designed by <a style='font-weight:bold' href='http://www.gregturnergolf.com/' target='_blank' rel='nofollow'>Greg Turner</a>.  Additionally, 96 homes have been permitted.  The resort aligns with the Queenstown Lakes District Council's Proposed District Plan aiming to provide desirable international golf tourist visitor amenities while respecting the surrounding rural context.</p>
+				<p>A $30 million golf resort is set to enhance the landscape near Arrowtown, New Zealand has been permitted and approved by <a style='font-weight:bold' href="https://www.qldc.govt.nz/media/t2gbgyz2/pdp-chapter-48-hogans-gully-resort-zone-jun-2023.pdf">Queensland Lakes District Council</a>.  Development of the 300+ acres Hogan’s Gully property will feature an 18 hole golf course designed by <a style='font-weight:bold' href='http://www.gregturnergolf.com/' target='_blank' rel='nofollow'>Greg Turner</a>.  Additionally, 96 homes have been permitted.  The resort aligns with the Queenstown Lakes District Council's Proposed District Plan aiming to provide desirable international golf tourist visitor amenities while respecting the surrounding rural context.</p>
 				<p>The resort is proposed to be discreetly integrated into the environment minimizing its visibility from adjacent roads.  This careful blend of construction and nature is particularly important to the project, with ecological planting and protection programs planned to enhance the countryside.  The resort will include a walking/cycling trail that doesn't interfere with golf operations linking the property to the wider Wakatipu Trails network.  Other international standard golf courses neighbor Hogan's Gully, namely Millbrook Resort, The Hills, and Jack’s Point.</p>
 				<p>Golf architect Greg Turner is working alongside Queenstown's Baxter Design Group for landscape design and site plan.  The clubhouse will be designed by award-winning Auckland architect Andrew Patterson.  The site’s terrain is a unique, rocky landscape rich in natural features like schist to give the golf course its unique identity.  The lead project consultant is Ryan Brandeburg.  Brandeburg is the executive director of Golf Tourism New Zealand and brings his past experience as director of golf at North Island courses Kauri Cliffs and Cape Kidnappers to this ambitious project.</p>
 				<p><a style='font-weight:bold' href='https://nzpod.co.nz/podcast/the-yardage-book-podcast/greg-turner-discusses-his-career-on-and-off-the-co' target='_blank' rel='nofollow'>Yardage Book</a> podcast interviewed golf architect Greg Turner discussing the ongoing project's progress with a likely opening near the end of 2026.  Turner is also design and build of the nearby <a style='font-weight:bold' href='https://www.gibbstonvalley.com/' target='_blank' rel='nofollow'>Gibbston</a> 9 hole resort project.</p>
@@ -32,15 +32,6 @@
 	            onAdd: function(map) {
 					this._map = map;
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-					
-					// Your lite-youtube HTML
-	                this._container.innerHTML = `
-	                    <lite-youtube videoid="NWUzPSpRsPM" style="background-image: url('https://i3.ytimg.com/vi/NWUzPSpRsPM/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=NWUzPSpRsPM" class="lty-playbtn" title="Play Video.  Credit: Stonebridge Naples">
-	                            <span class="lyt-visually-hidden">Credit: Stonebridge Naples</span>
-	                        </a>
-	                    </lite-youtube>
-	                `;
 			
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);

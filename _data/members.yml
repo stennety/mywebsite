@@ -82,6 +82,14 @@
   mainpage: "Main_Page"
   discord: "tNYTQpMd4h"
 - member:
+  id: "oldworldblueswiki"
+  name: "Old World Blues Wiki"
+  description: "Old World Blues Wiki is about Old World Blues, a mod for the Paradox grand strategy game Hearts of Iron IV. The mod is set in the world of the Fallout video game series, featuring aspects from both the mainline games, the spin-offs, as well as fan-made expansions on regions and locations, to create a thematic exploration of post-nuclear ethics in a war-torn wasteland."
+  logo: "/images/logos/OldWorldBlues.png"
+  url: "https://oldworldblues.wiki.gg/"
+  mainpage: "Old_World_Blues_—_HOI4_total_conversion_mod_Wiki"
+  discord: "owb"
+- member:
   id: "rarewiki"
   name: "Rare Wiki"
   description: "Rare Wiki is a wiki dedicated to covering Rare Ltd. and their franchises (except for Banjo-Kazooie and Conker, as in-depth coverage of these two franchises can be found at Jiggywikki and Conker Wiki respectively)."

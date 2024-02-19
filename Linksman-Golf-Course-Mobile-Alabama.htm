@@ -1,61 +1,83 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
 	<title>Linksman Municipal Golf - Jerry Pate Re-Design Alabama</title>
-	<meta name="description" CONTENT="Linksman - Rebuild Municipal Golf - Jerry Pate Re-Design in Mobile, Alabama">
-	{% include headerSM.html %}
+	<meta name="description" CONTENT="Linksman Rebuild Municipal Golf Jerry Pate Re-Design Mobile Alabama">
+	{% include h.html %}
 </head>
+		
 <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>Linksman Municipal Golf - Jerry Pate Re-Design Alabama</H1> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
-	<script>
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Linksman-Golf-Course-Mobile-Alabama.json";
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Linksman Municipal"></div>
+			<div class="content" tabindex="0"  aria-label="Jerry Pate">
+				<H1>Linksman Municipal Golf - Jerry Pate Re-Design Alabama</H1> 
+				<p>Linksman Golf Course will be a public municipal golf course located in Mobile, Alabama. The original design was by Ralph Sharp opening in 1972.  Back tees on the course measured 6,275 yards and has a revised par of 70.  Forward tees measured 5416 yards.  The course had water in play on 14 holes and was known for its location with views of the Dog River and Mobile Bay.  Linksman Golf Course has been closed since 2006. In 2021, Mobile County purchased the land for $850,000 with plans to rebuild the course.</p>
+				<p>Project <a style='font-weight:bold' href='https://www.mobilecountyal.gov/uploads/2023-05-03MCCGolfCourseReAdvertisement-GolfCoursePhaseMCPI-GC001.pdf' target='_blank' rel='nofollow'>construction bids</a> are required to accept a timeline of 16 months to deliver the golf course re-construction.  The comprehensive golf course rebuild project encompasses a wide array of construction and landscaping tasks, aimed at enhancing both the aesthetic presentation with an additional emphasis on grassing and bunker finish.</p>
+				<p>Reconstruction requires all golf greens will be built in accordance with United States Golf Association (USGA) specification multiple layers approach guidelines.  New grass installation for all fairways and tees will be required. The bunkers will be reconstructed.  A pivotal component of the renovation is the installation of a completely new irrigation system across the entire golf course ensuring maintenance capabilities.  Landscape design will need to be environmentally sustainable, minimizing water waste while maintaining lush, healthy turf.  Demolition of pavement cart paths will make way for the construction of new, durable concrete cart paths.  Comprehensive drainage solutions throughout the golf course addressing water management and wetlands preservation are on the project timeline.</p>
+				<p>An extensive clearing and mass grading effort will facilitate the expansion of existing water features including the creation of new hazards adding to the course's beauty and the game's strategy and lateral hazards.  Jerry Pate Design has chosen seven new timber golf cart path bridges to blend seamlessly the natural environment.  To support this ambitious project, a timeline of four hundred and seventy-five (475) calendar days has been allocated for completion. This timeline reflects the project's complexity and the commitment to achieving a high-quality outcome that will significantly enhance the golfing experience at this prestigious location.</p>
+				<p><a style='font-weight:bold' href='https://www.jerrypatedesign.com/projects/' target='_blank' rel='nofollow'>Jerry Pate Design</a> is the golf architect selected for the renovation of Linksman Golf Course. Pate is a former professional golfer who won the 1976 U.S. Open. He has also designed or renovated more than 20 golf courses, including the Country Club of Mobile and the Pensacola Country Club.  Pate's design for Linksman Golf Course will retain the original character of the course, rebuilding to USGA specification greens, flatten tees, and a new irrigation system.</p>
+			</div>
+	</div>
+	
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+    <script>
+            const map = L.map('map').setView([30.6145576,-88.1300733], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+					
+					// Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="aJsWLfgB4hE" style="background-image: url('https://i3.ytimg.com/vi/aJsWLfgB4hE/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=aJsWLfgB4hE" class="lty-playbtn" title="Play Video.  Credit: NBC 15 / WPMI-TV">
+	                            <span class="lyt-visually-hidden">Credit: NBC 15 / WPMI-TV</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([30.6145576,-88.1300733]).addTo(map);
+			
+			
+			
+	        marker.bindPopup("<b>Linksman</b><br>Mobile, Alabama</br>").openPopup();
 	</script>
-	<script type="text/javascript" class="init"></script> 
-	<p><a href="https://www.mobilecountyal.gov/uploads/2023-05-03MCCGolfCourseReAdvertisement-GolfCoursePhaseMCPI-GC001.pdf">Golf Construction Bids</a></p>
-	<p><a href="https://www.constructionjournal.com/projects/details/3584bb1d63b6404ab5560465b5b8386f.html">Construction Journal</a></p>
 	<p><a href="https://fescue.github.io/es/Punta-Brava/">Tom Doak - Punta Brava in Mexico</a></p>
-	<p><a href="https://fescue.github.io/es/MNC-Lido-Trump-International/">Ernie Els MNC Lido</a></p>
-  {% include bodyFooter.html %}
- </BODY>	
+	<p><a href="https://fescue.github.io/MNC-Lido-Trump-International/">Ernie Els MNC Lido</a></p>
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Product in AI 
+excert: These posts are a chronicle of my journey in AI Product management. Here's some background;
 ---
 
-Here's a chronicle of my journey in AI Product management. I hope you find it helpful! 
+These posts are a chronicle of my journey in AI Product management. I hope you find it helpful! 
 
 Writing is valuable for me, but I get so much energy and joy from feedback and engagement. If anything I share here helps you - even if it's because you disagree - I'd love to hear from you. 
 

@@ -76,10 +76,10 @@ There are some interesting next steps
 Regardless, we’re pretty excited about how synthetic data can boost performance for a new use-case, or a new detection scenario!
 
 ### Credits 
-#### Papers referenced
-Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: https://doi.org/10.48550/arXiv.2312.17742.
+#### Read the original papers
+Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: [https://doi.org/10.48550/arXiv.2312.17742](https://doi.org/10.48550/arXiv.2312.17742).
 
-E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: https://doi.org/10.48550/arXiv.2109.15102
+E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
 
 #### Image Credits
-Casting innovative aerospace design case studies in the parameter analysis framework to uncover the design process of experts - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546 [accessed 20 Feb, 2024]
+Casting innovative aerospace design case studies in the parameter analysis framework to uncover the design process of experts - Scientific Figure on ResearchGate. Available from: [https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546](https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546) [accessed 20 Feb, 2024]

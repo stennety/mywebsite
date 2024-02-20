@@ -1,64 +1,86 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
+ 
 	  <title>Guenoc Valley Tom Doak Napa Golf Resort</title>
-	  <meta name="description" CONTENT="New Golf Course Tom Doak Northern California Napa">
-	   {% include headerSM.html %}
-  </head>
+	  <meta name="description" CONTENT="New Golf Course Resort Tom Doak Northern California Napa Valley">
+	{% include h.html %}
+</head>			
+		
+<body>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Stonebridge"></div>
+			<div class="content" tabindex="0"  aria-label="Kipp Schulties">
+				<H1>Guenoc Valley California - Tom Doak Napa Golf Resort</H1> 
+				<p><a style='font-weight:bold' href='https://guenocvalley.com/' target='_blank' rel='nofollow'>Guenoc Valley</a> is a proposed luxury resort and residential development adjacent to Napa Valley in Lake County, California.</p>
+				<p>The California Attorney General's Office has reached a settlement with the developers of the Guenoc Valley Project, a proposed luxury resort and residential development in Lake County. The settlement requires the developers to reduce the size of the project and to take steps to mitigate its environmental impact.   The settlement was completed in 2023.</p>
+				<p>The Guenoc Valley Project was originally proposed in 2016. The project includes a golf course, a spa, a hotel, and homes. However, the project faced opposition from environmental groups and local residents who were concerned about its environmental impact.  Nearby in Lake County, <a style='font-weight:bold' href='https://fescue.github.io/Brambles-Golf/' target='_blank' rel='nofollow'>Brambles Golf Club</a> is a new golf club which opened in 2023.</p>
+				<p>Under the terms of the settlement, the developers of the Guenoc Valley Project have agreed to reduce the size of the project by 50%. The project will now include a golf course, a spa, and a hotel, but no homes. The developers have also agreed to take steps to mitigate the project's environmental impact, including planting trees and shrubs to help protect the watershed.</p>
+				<p>Previous to the settlement, golf architect <a style='font-weight:bold' href='https://www.doakgolf.com/' target='_blank' rel='nofollow'>Tom Doak</a> has provided an innovative golf course routing plan over the land where the golfer starts in location on the property and finishes at the end of another part of the property.  How many golf courses have taken this approach to the journey?</p>
+			</div>
+	</div>
+	
 
-  <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>Guenoc Valley California - Tom Doak Napa Golf Resort</H1> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<div id="storyMap"></div>
+    <script>
+            const map = L.map('map').setView([38.6933,-122.6047], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Guenoc-Valley-Golf.json";
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+					
+					// Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="bMWgUHfOdtE" style="background-image: url('https://i3.ytimg.com/vi/bMWgUHfOdtE/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=bMWgUHfOdtE" class="lty-playbtn" title="Play Video.  Credit: County of Lake CA">
+	                            <span class="lyt-visually-hidden">Credit: County of Lake CA</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([38.6933,-122.6047]).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});		  
-	</script> 
-	<script type="text/javascript" class="init"></script> 
-	<p><a href="https://guenocvalley.com/">Guenoc Valley Project</a></p>
+	        marker.bindPopup("<b>Guenoc Valley</b><br>California</br>").openPopup();
+	</script>
+	
+		
 	<p><a href="https://www.doakgolf.com/maha-napa-resort/">Description of Maha Napa Resort Golf Resort Project Plan from Tom Doak</a></p>  
 	<p><a href="https://www.lakeconews.com/news/74690-attorney-general-s-office-reaches-settlement-on-guenoc-valley-project">Attorney General’s Office reaches settlement in 2023</a></p>
 	<p><a href="https://fescue.github.io/Roosevelt-Memorial-Golf-Course/">Restoration Donald Ross Golf Course - Roosevelt Memorial</a></p>
-  {% include bodyFooter.html %}
- </BODY>	
+	
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

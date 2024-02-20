@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-01-19
+date: 2024-02-19
 title: Old World Blues Wiki joins the GWN!
 published: true
 ---

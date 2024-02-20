@@ -1,64 +1,72 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Three Bridges - Robert Trent Jones II in Utah</title>
-  <meta name="description" CONTENT="Three Bridges Golf Resort Utah Robert Trent Jones II Bruce Charlton Surf Lake">
-  {% include headerSM.html %}
+	<title>Three Bridges - Robert Trent Jones II in Utah</title>
+	<meta name="description" CONTENT="Three Bridges Golf Resort Utah Robert Trent Jones II Bruce Charlton Surf Lake">
+	{% include h50.html %}
 </head>
-
+		
 <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>New Golf Course and Resort - Salem, Utah</H1> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Stonebridge"></div>
+			<div class="content" tabindex="0"  aria-label="Kipp Schulties">
+				<H1>New Golf Course and Resort - Salem, Utah</H1>
+				<p>The <a style='font-weight:bold' href='https://threebridgesutah.com/' target='_blank' rel='nofollow'>Three Bridges</a> development in the Woodland Hills area of Salem, Utah is a multi-year build over 532 acres with a new golf course designed by <a style='font-weight:bold' href='https://www.rtj2.com/' target='_blank' rel='nofollow'>Robert Trent Jones II(RTJ Jr.)</a> as a luxury residential and resort community.  This development is being created with a wide range of amenities including surf lake, pickleball, hiking, bike trails, spa, and event venue.  Central to the Three Bridges experience is the golf course designed by the renowned golf course architect Robert Trent Jones II.</p>
+				<p><a style='font-weight:bold' href='https://us06web.zoom.us/rec/play/YleYIociqENKi5rx8IN3Y-4v75oUgM4I2PwQl_IqaBLhUiEjItbBgRj9_b97uaYLboXSIFsWJ33m3q7E.71zS11xY3PEUZwCH?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2F_cMdbWqzqJ4DY1PfodDLc_zOiU-lF8rZN2_GkwARhD39Xjo8LLWkaicmtHgm9CgZ.iz31rdtuPS_ZPejr' target='_blank' rel='nofollow'>Salem City Planning and Zoning Commission</a> approved the community development plan in November 2023.  The golf course is segmented into 3 parcels with approximately 6 holes in each parcel surrounded by residential with the main resort/event facility in the middle of the 3 parcels.  Holes 1 through 5 in the first parcel have water in play on every hole.  The second parcel crosses through the residential neighborhood into holes 6-10.  Holes 11-18 finish across the road in the last area.  Hole 18 is a heroic par 5 finisher with a ravine carry in play.</p>
+				<p>The property setting is on the western foothills of the Wasatch Mountains.  Residences within Three Bridges offer various levels of custom estate homes. Project planning for the first nine holes on the golf course have a completion date by the summer of 2025.  The back nine will be fully grassed and grown in by 2026.  It is anticipated that RTJ's right hand man <a style='font-weight:bold' href='https://asgca.org/architect/bcharlton/' target='_blank' rel='nofollow'>Bruce Charlton</a> will be onsite for the planning and build of the golf course starting in April 2024.  Like RTJ design Chambers Bay, design style from the tee will be open fairway integrated short grass allowing for flexibility.  Hotel resort and event center are forecast to open in 2027.</p>
+				<p>Nearby, Wasatch Peaks Ranch is a private club in Utah with a golf course designed by Tom Fazio.</p>
+			</div>
+	</div>
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Three-Bridges-Golf-Utah.json";
+    <script>
+            const map = L.map('map').setView([40.013675,-111.634880], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+					
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([40.013675,-111.634880]).addTo(map);
 
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-	<script type="text/javascript" class="init"></script>
-	<p><a href="https://www.heraldextra.com/news/local/2023/nov/27/salem-city-approves-plan-for-proposed-532-acre-luxury-resort-and-golf-course/">Daily Herald</a></p>
-	<p><a href="https://fescue.github.io/Freestone-Lake-Golf-Club/">Beau Welling's project on Freestone Lake in Texas</a></p>
+	        marker.bindPopup("<b>Three Bridges</b><br>Salem, Utah</br>").openPopup();
+	</script>
+	<p><a href="https://www.heraldextra.com/news/local/2023/nov/27/salem-city-approves-plan-for-proposed-532-acre-luxury-resort-and-golf-course/">Daily Herald - Three Bridges Approval</a></p>
+	<p><a href="https://fescue.github.io/Freestone-Lake-Golf-Club/">Beau Welling's - Freestone Lake - Texas</a></p>
    	<p><a href="https://fescue.github.io/Ouli-Farms/">Ouli Farms - Kona, Hawaii</a></p>
-  {% include bodyFooter.html %}
- </BODY>	
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

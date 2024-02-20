@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Chronicles of Product in AI 
-excert: These posts are a chronicle of my journey in AI Product management. 
-Here's some background;
+excerpt: These posts are a chronicle of my journey in AI Product management. Here's some background.
 ---
 
 These posts are a chronicle of my journey in AI Product management. I hope you find it helpful! 

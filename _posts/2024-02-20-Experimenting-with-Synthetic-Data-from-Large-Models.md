@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Experimenting with Synthetic Data from Large Models 
-excerpt: Learning from models is surprisingly quick, and speed of experimentation is magical. 
-A practical example hackathon project
+title: Experimenting with Learning directly from Large Models 
+excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project
 ---
 
 How well can your phone detect that you are, in fact, wearing a helmet? This matters for [safety in shared micro-mobility](https://www.captur.ai/case-studies/micromobility-atom-mobility) (alongside parking compliance of course). 

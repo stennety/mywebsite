@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Product in AI 
+title: Chronicles of Product in AI 
 excert: These posts are a chronicle of my journey in AI Product management. Here's some background;
 ---
 

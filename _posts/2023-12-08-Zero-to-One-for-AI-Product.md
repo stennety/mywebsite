@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zero to One for AI PM
+title: Zero to One for AI Product
 ---
 
 ![Presentation Video - screenshot](/images/zero-to-one-video-fault-tolerant-UX-screenshot.png)

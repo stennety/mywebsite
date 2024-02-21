@@ -4,19 +4,15 @@ title: Hacking on "Learning directly from Large Models"
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
 ---
 
-At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot. As an AI Product manager at Captur (1), I can struggle to quickly & confidently assess key risks: how quickly can we build a production-quality model? The key challenge is in access to representative data. 
+At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot (1). We don't have access to representative data, so it's hard to assess the key product risks.
 
-I’m a huge fan of learning-by-doing, and especially early releases of models (2). There can be a huge blocker though, as getting representative data is hard, with genuine concerns about data privacy and a long tail of user behaviour.
+I’m a huge fan of learning-by-doing, and especially early releases of models (2). The game-changer is that we can now use synthetic data from Generative AI solutions to get a large amount of high-quality training images, including a long tail of user behaviours (3). 
 
-We can address feasability and technical risk with synthetic data from Generative AI solutions (3). In this post, I'll share our learnings trying to achieve this  based on the key paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
-
-The powerful insight is that we can 
-
+In this post, I'll share our learnings implementing the parts of "Learning Vision from Models Rivals Learning Vision from Data" (4). Even within the limited time of a hackathon, Isao (Ml Ops) and I (product) showed we can:
 - generate ground truth prompts for diffusion models like Stable Diffusion, 
 - use those generated images to train a new model, 
-and achieve state-of-the-art results.
 
-Here's the practical write-up of a January hackathon project, led by Isao from Captur ML Ops.
+and achieve state-of-the-art results.
 
 ### 1. Synthetic? Will it even work?
 Isao and I were pretty confident this would work. AI models have been using uncanny game character faces - see "Fake It Till You Make It", from Microsoft (5). 
@@ -30,11 +26,11 @@ In the context of a hackathon, we considered games engine, or public datasets li
 Setting scope relies on understanding user behaviour. What is the ideal behaviour? What does it look like when users are not being safe? What are the expected edge cases? 
 
 For a new problem, in the context of a hackathon, we used LLMs to generate these scenarios, which gave us a good view of breadth on the problem. We made some trade-offs to get good results in testing:
-- We would focus on "Wearing helmet" / "Not wearing a helmet"
-- We would leave "Safely fastened" to future discovery
-- We would target a breadth of users and scenes
-- We assumed logic for exceptions, would be handled outside the AI model
-- We assumed the model would be built as part of a fault tolerant release (6)
+- Focus on "Wearing helmet" / "Not wearing a helmet"
+- Leave "Safely fastened" to future discovery
+- Target a breadth of users and scenes
+- Assume logic for exceptions, would be handled outside the AI model
+- Assume the model would be built as part of a fault tolerant release (6)
 
 This test scope addresses the most important attributes of a prototype to answer the initial questions about feasibility & value. It means we can release a test model to your phone that should feel 'good enough', and start gathering practical feedback.
 

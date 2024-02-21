@@ -39,11 +39,13 @@ For a new problem, in the context of a hackathon, we used LLMs to generate these
 This test scope addresses the most important attributes of a prototype to answer the initial questions about feasibility & value. It means we can release a test model to your phone that should feel 'good enough', and start gathering practical feedback.
 
 ### 3. Generating Prompts
-The original paper used Llama 2 to create prompts directly. This makes sense when trying to generate millions of images, to detect thousands of different objects and relationships between them. 
+The original paper used Llama 2 to create prompts for stable diffusion. This makes sense when trying to generate millions of images, to detect thousands of different objects and relationships between them. 
 
 ![Learning from Models figure 3 - Generating Prompts](/images/synthetic-data-learning-from-models-fig3.png)
 
-Since we had a much more narrow scope, we were able to pick a single relationship (rider, helmet) and write a script with a simple template where we varied their context for skin color, light conditions, accessories and background images (e.g. ‘a dark skinned older woman in a coat at night’). 
+Since we had a much more narrow scope, we were able to pick a single relationship (rider, helmet) and write a script with a simple template where we varied their context for skin color, light conditions, accessories and background images
+
+> e.g. ‘a dark skinned older woman in a coat at night’. 
 
 Fast is better than perfect - with only a little python, and half a dozen variables we had hundreds of thousands of prompts to choose from!
 

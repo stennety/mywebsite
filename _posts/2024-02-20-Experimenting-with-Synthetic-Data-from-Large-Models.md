@@ -8,7 +8,9 @@ At Captur, we get asked questions like "how well can your phone detect that you'
 
 I’m a huge fan of learning-by-doing, and especially early releases of models (2). The game-changer is that we can now use synthetic data from Generative AI solutions to get a large amount of high-quality training images, including a long tail of user behaviours (3). 
 
-In this post, I'll share our learnings implementing the parts of the Google/MIT paper "Learning Vision from Models Rivals Learning Vision from Data" (4). Even within the limited time of a hackathon, Isao (Ml Ops) and I (Product) showed we can:
+In this post, I'll share our learnings implementing the parts of the Google/MIT paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
+
+Within the limited time of a hackathon, Isao (Ml Ops) and I (Product) showed we can:
 - generate ground truth prompts for diffusion models like Stable Diffusion, 
 - use those generated images to train a new model, 
 

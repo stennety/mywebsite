@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hacking on Learning directly from Large Models 
+title: Hacking on "Learning directly from Large Models"
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
 ---
 
@@ -19,22 +19,23 @@ and achieve state-of-the-art results.
 Here's the practical write-up of a January hackathon project, led by Isao from Captur ML Ops.
 
 ### 1. Synthetic? Will it even work?
-Isao and I were pretty confident this would work. I always refer back to "Fake It Till You Make It", the aptly named Microsoft paper (5). 
+Isao and I were pretty confident this would work. AI models have been using uncanny game character faces - see "Fake It Till You Make It", from Microsoft (5). 
 
 ![Fake It Till You Make It dataset illustration](/images/synthetic-data-fake-it-till-you-make-it-dataset.png)
-_Fake It Till You Make It dataset sample, showing uncanny training data of human faces_
+_Fake It Till You Make It dataset sample, showing mid-to-low realism in training data for human faces_
 
-We did consider synthetic data from a games engine, or using public datasets like COCO. We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale. 
+In the context of a hackathon, we considered games engine, or public datasets like COCO as alternative ways to prototype a model for "wearing a helmet". We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
 
 ### 2. Defining the Problem 
-When we look at a compliance problem at Captur, we analyse the guidance policy. What is being shared with the users to educate them on the correct behaviour? We then break it down into the key scenarios we’re looking for, and the level of risk. To be clear, our focus isn't legal enforcement; we care about encouraging responsible & safe behaviours. 
+Setting scope relies on understanding user behaviour. What is the ideal behaviour? What does it look like when users are not being safe? What are the expected edge cases? 
 
-For a new problem, in the context of a hackathon, we used LLMs to generate the policy itself. What scenarios should we look for? What real-world factors should we take into account? 
+For a new problem, in the context of a hackathon, we used LLMs to generate these scenarios, which gave us a good view of breadth on the problem. We made some trade-offs to get good results in testing:
+- We would focus on "Wearing Helmet" / "Not wearing a helmet"
+- We would target a breadth of users and scenes
+- We assumed logic for exceptions, would be handled outside the AI model
+- We assumed the model would be built as part of a fault tolerant release (6)
 
-For the scope of the test, we decided that we would keep the model simple (helmet vs no helmet), ignoring whether it was securely fastened. 
-
-We wanted to lean into the strength of synthetic data to generate diverse images of people and conditions. This is typically both hardest to do, and most impactful to end-users on the ground.
-
+This test scope addresses the most important attributes of a prototype to answer the initial questions about feasibility & value. It means we can release a test model to your phone that should feel 'good enough', and start gathering practical feedback.
 
 ### 3. Generating Prompts
 The original paper used Llama 2 to create prompts directly. This makes sense when trying to generate millions of images, to detect thousands of different objects and relationships between them. 
@@ -61,8 +62,6 @@ One of our product tenets at Captur is rapid iteration, and it was really gratif
 
 Getting results within the span of our one-day hackathon was great! Simple tests we threw at it worked well, and in head-to-head matchup with the COCO experiment both survived basic tyre-kicking.
 
-![Generated images examples](/images/synthetic-data-gossamer-condor.png)
-
 On the other hand, I felt a very real frustration that some of our best tools to evaluate model performance are still in progress. 
 
 ### 6. Findings and Conclusions
@@ -86,6 +85,4 @@ Regardless, we’re pretty excited about how synthetic data can boost performanc
 
 (5) E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
 
-
-#### Image Credits
-Casting innovative aerospace design case studies in the parameter analysis framework to uncover the design process of experts - Scientific Figure on ResearchGate. Available from: [https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546](https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546) [accessed 20 Feb, 2024]
+(6) This post about Fault Tolerant UX in AI is always relevant: The idea maze for AI startups [https://cdixon.org/2015/02/01/the-ai-startup-idea-maze](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze)

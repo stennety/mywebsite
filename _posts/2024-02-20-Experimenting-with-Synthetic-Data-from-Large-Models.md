@@ -30,7 +30,7 @@ In the context of a hackathon, we considered games engine, or public datasets li
 Setting scope relies on understanding user behaviour. What is the ideal behaviour? What does it look like when users are not being safe? What are the expected edge cases? 
 
 For a new problem, in the context of a hackathon, we used LLMs to generate these scenarios, which gave us a good view of breadth on the problem. We made some trade-offs to get good results in testing:
-- We would focus on "Wearing Helmet" / "Not wearing a helmet"
+- We would focus on "Wearing helmet" / "Not wearing a helmet"
 - We would leave "Safely fastened" to future discovery
 - We would target a breadth of users and scenes
 - We assumed logic for exceptions, would be handled outside the AI model
@@ -45,7 +45,7 @@ The original paper used Llama 2 to create prompts for stable diffusion. This mak
 
 Since we had a much more narrow scope, we were able to pick a single relationship (rider, helmet) and write a script with a simple template where we varied their context for skin color, light conditions, accessories and background images
 
-> e.g. ‘a dark skinned older woman in a coat at night’. 
+> e.g. ‘A dark skinned older woman in a coat at night, photoreal’. 
 
 Fast is better than perfect - with only a little python, and half a dozen variables we had hundreds of thousands of prompts to choose from!
 

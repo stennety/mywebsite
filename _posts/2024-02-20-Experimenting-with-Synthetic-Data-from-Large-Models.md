@@ -74,13 +74,13 @@ Regardless, we’re pretty excited about how synthetic data can boost performanc
 
 --
 
-(1) Captur has been working on safe parking, and we're used to thinking about similar scenarios like seated scooters, new geographies, etc. See more here:
-https://www.captur.ai/#how-captur-works
+(1) Captur has been working on safe parking, and we're used to thinking about similar scenarios like seated scooters, new geographies, etc. More info:
+[https://www.captur.ai/#how-captur-works](https://www.captur.ai/#how-captur-works)
 
 (2) I made a whole hour presentation on Zero-to-One in AI Product, available here:
-https://carolus4.github.io/Zero-to-One-for-AI-Product/.
+[https://carolus4.github.io/Zero-to-One-for-AI-Product/](https://carolus4.github.io/Zero-to-One-for-AI-Product/).
 
-(3) This Hugging Face post has a lot more interesting detail on the wider trends in synthetic data: https://huggingface.co/blog/synthetic-data-save-costs
+(3) This Hugging Face post has a lot more interesting detail on the wider trends in synthetic data: [https://huggingface.co/blog/synthetic-data-save-costs](https://huggingface.co/blog/synthetic-data-save-costs)
 
 (4) Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: [https://doi.org/10.48550/arXiv.2312.17742](https://doi.org/10.48550/arXiv.2312.17742).
 

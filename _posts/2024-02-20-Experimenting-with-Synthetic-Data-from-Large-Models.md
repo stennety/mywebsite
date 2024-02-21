@@ -23,7 +23,9 @@ AI models have been using uncanny game character faces for a while (5).
 
 _Fake It Till You Make It dataset sample, showing mid-to-low realism in training data for human faces_
 
-We considered alternative approaches to prototype a model for "wearing a helmet", including using a 3D engine, or public datasets like COCO. We opted for ground truth prompts -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
+We considered alternative approaches to prototype a model for "wearing a helmet", including using a 3D engine, or public datasets like COCO. 
+
+We opted for ground truth prompts -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
 
 ### 2. Defining the Problem 
 Setting scope relies on understanding user behaviour. What is the ideal behaviour? What does it look like when users are not being safe? What are the expected edge cases? 

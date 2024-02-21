@@ -8,7 +8,7 @@ At Captur, we get asked questions like "how well can your phone detect that you'
 
 I’m a huge fan of learning-by-doing, and especially early releases of models (2). The game-changer is that we can now use synthetic data from Generative AI solutions to get a large amount of high-quality training images, including a long tail of user behaviours (3). 
 
-In this post, I'll share our learnings implementing the parts of "Learning Vision from Models Rivals Learning Vision from Data" (4). Even within the limited time of a hackathon, Isao (Ml Ops) and I (product) showed we can:
+In this post, I'll share our learnings implementing the parts of "Learning Vision from Models Rivals Learning Vision from Data" (4). Even within the limited time of a hackathon, Isao (Ml Ops) and I (Product) showed we can:
 - generate ground truth prompts for diffusion models like Stable Diffusion, 
 - use those generated images to train a new model, 
 
@@ -18,6 +18,7 @@ and achieve state-of-the-art results.
 Isao and I were pretty confident this would work. AI models have been using uncanny game character faces - see "Fake It Till You Make It", from Microsoft (5). 
 
 ![Fake It Till You Make It dataset illustration](/images/synthetic-data-fake-it-till-you-make-it-dataset.png)
+
 _Fake It Till You Make It dataset sample, showing mid-to-low realism in training data for human faces_
 
 In the context of a hackathon, we considered games engine, or public datasets like COCO as alternative ways to prototype a model for "wearing a helmet". We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
@@ -49,6 +50,7 @@ Fast is better than perfect - with only a little python, and half a dozen variab
 Here, we hemmed pretty close to the paper recommendations, with only small changes to make sure the image dimensions defaulted to portrait selfie. 
 
 ![Generated images examples](/images/synthetic-data-generated-images-examples.png)
+
 _Generated images from Stable Diffusion on our prompts_
 
 A really interesting finding here is that model-generated images can be wrong, or very far out-of-sample compared to real life.  

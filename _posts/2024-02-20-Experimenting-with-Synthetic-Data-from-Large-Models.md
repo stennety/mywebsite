@@ -4,19 +4,13 @@ title: Hacking on Learning directly from Large Models
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
 ---
 
-How well can your phone detect that you are, in fact, wearing a helmet? This matters for [safety in shared micro-mobility](https://www.captur.ai/case-studies/micromobility-atom-mobility) (alongside parking compliance of course). 
+At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot. As an AI Product manager, I can struggle with quick & confident answers for technical risk: how quickly can we build a production-quality model? Related data on how we've done related in work parking safety only helps so much (1)
 
-At Captur, we get asked questions like this all the time. As an AI Product manager, I can struggle with quick & confident answers for technical risk - how quickly can we build a model to handle that? What factors should we consider? 
+I’m a huge fan of learning-by-doing, and especially early releases of models (2). There can be a huge blocker though, as getting representative data is hard, with genuine concerns about data privacy and a long tail of user behaviour.
 
-I’m a huge fan of quickly learning-by-doing, and that applies to [early releases of models too](https://carolus4.github.io/Zero-to-One-for-AI-Product/). 
+We can address feasability and technical risk with synthetic data (3). In this post, I'll share our learnings trying to achieve this  based on the key paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
 
-There's a huge blocker though - getting representative data is hard, with genuine concerns about data privacy and a long tail of user behaviour.
-
-But what if we could answer the feasibility question empirically, and address value risk in the same step? 
-
-We think that's possible - in this post, I'll share our learnings trying to achieve this with synthetic data from Large Models, as part of a January hackathon experiment, led by Isao from Captur ML Ops. 
-
-[Learning Vision from Models Rivals Learning Vision from Data](https://arxiv.org/html/2312.17742v1). 
+Here's the practical write-up of a January hackathon project, led by Isao from Captur ML Ops.
 
 ### 1. Synthetic? Will it even work?
 Isao and I were pretty confident this would work. [Fake it till you make it](https://microsoft.github.io/FaceSynthetics/) and [Simulation city](https://waymo.com/blog/2021/07/simulation-city/) are great examples of kick-starting or augmenting training data with high-quality generated ground-truth. 
@@ -75,9 +69,17 @@ There are some interesting next steps
 
 Regardless, we’re pretty excited about how synthetic data can boost performance for a new use-case, or a new detection scenario!
 
-### Credits 
-#### Read the original papers
-Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: [https://doi.org/10.48550/arXiv.2312.17742](https://doi.org/10.48550/arXiv.2312.17742).
+--
+
+(1) Captur has been working on safe parking, and we're used to thinking about similar scenarios like seated scooters, new geographies, etc. See more here:
+https://www.captur.ai/#how-captur-works
+
+(2) I made a whole hour presentation on Zero-to-One in AI Product, available here:
+https://carolus4.github.io/Zero-to-One-for-AI-Product/.
+
+(3) This Hugging Face post has a lot more interesting detail on the wider trends in synthetic data: https://huggingface.co/blog/synthetic-data-save-costs
+
+(4) Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: [https://doi.org/10.48550/arXiv.2312.17742](https://doi.org/10.48550/arXiv.2312.17742).
 
 E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
 

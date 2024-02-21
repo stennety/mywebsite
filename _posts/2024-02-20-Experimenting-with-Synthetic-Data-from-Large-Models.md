@@ -10,18 +10,20 @@ I’m a huge fan of learning-by-doing, and especially early releases of models (
 
 We can address feasability and technical risk with synthetic data (3). In this post, I'll share our learnings trying to achieve this  based on the key paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
 
+The powerful insight is that we can 
+
+- generate ground truth prompts for diffusion models like Stable Diffusion, 
+- use those generated images to train a new model, 
+and achieve state-of-the-art results.
+
 Here's the practical write-up of a January hackathon project, led by Isao from Captur ML Ops.
 
 ### 1. Synthetic? Will it even work?
-Isao and I were pretty confident this would work. [Fake it till you make it](https://microsoft.github.io/FaceSynthetics/) and [Simulation city](https://waymo.com/blog/2021/07/simulation-city/) are great examples of kick-starting or augmenting training data with high-quality generated ground-truth. 
+Isao and I were pretty confident this would work. A Microsoft paper showed uncanny facial data can be used for vision tasks (5). 
 
 ![Fake It Till You Make It dataset illustration](/images/synthetic-data-fake-it-till-you-make-it-dataset.png)
 
-![Simulation city journey illustration](/images/synthetic-data-simulation-city-example.png)
-
-We did discuss using Blender, or simpler augmentation through other generative techniques. And another project focused on getting real-world samples from public data like COCO.
-
-Since we didn't have 3D skill, as our designer went on another project too, we figured we'd prioritise scale and 2D options.
+We did consider synthetic data from a games engine, or using public datasets like COCO. We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale. 
 
 ### 2. Defining the Problem 
 When we look at a compliance problem at Captur, we analyse the guidance policy. What is being shared with the users to educate them on the correct behaviour? We then break it down into the key scenarios we’re looking for, and the level of risk. To be clear, our focus isn't legal enforcement; we care about encouraging responsible & safe behaviours. 
@@ -81,7 +83,8 @@ https://carolus4.github.io/Zero-to-One-for-AI-Product/.
 
 (4) Y. Tian, L. Fan, K. Chen, D. Katabi, D. Krishnan, and P. Isola, "Learning Vision from Models Rivals Learning Vision from Data," arXiv, 2312.17742. [Online]. Available: [https://doi.org/10.48550/arXiv.2312.17742](https://doi.org/10.48550/arXiv.2312.17742).
 
-E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
+(5) E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
+
 
 #### Image Credits
 Casting innovative aerospace design case studies in the parameter analysis framework to uncover the design process of experts - Scientific Figure on ResearchGate. Available from: [https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546](https://www.researchgate.net/figure/The-structure-of-the-Gossamer-Condor-Copyright-Don-Monroe_fig3_296484546) [accessed 20 Feb, 2024]

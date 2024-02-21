@@ -4,11 +4,11 @@ title: Hacking on "Learning directly from Large Models"
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
 ---
 
-At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot. As an AI Product manager, I can struggle with quick & confident answers for technical risk: how quickly can we build a production-quality model? Related data on how we've done related in work parking safety only helps so much (1)
+At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot. As an AI Product manager at Captur (1), I can struggle to quickly & confidently assess key risks: how quickly can we build a production-quality model? The key challenge is in access to representative data. 
 
 I’m a huge fan of learning-by-doing, and especially early releases of models (2). There can be a huge blocker though, as getting representative data is hard, with genuine concerns about data privacy and a long tail of user behaviour.
 
-We can address feasability and technical risk with synthetic data (3). In this post, I'll share our learnings trying to achieve this  based on the key paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
+We can address feasability and technical risk with synthetic data from Generative AI solutions (3). In this post, I'll share our learnings trying to achieve this  based on the key paper "Learning Vision from Models Rivals Learning Vision from Data" (4). 
 
 The powerful insight is that we can 
 
@@ -86,4 +86,4 @@ Regardless, we’re pretty excited about how synthetic data can boost performanc
 
 (5) E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
 
-(6) This post about Fault Tolerant UX in AI is always relevant: The idea maze for AI startups [https://cdixon.org/2015/02/01/the-ai-startup-idea-maze](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze)
+(6) This post about Fault Tolerant UX in AI is always relevant: [https://cdixon.org/2015/02/01/the-ai-startup-idea-maze](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze)

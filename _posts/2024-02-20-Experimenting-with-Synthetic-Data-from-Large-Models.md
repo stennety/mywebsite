@@ -22,6 +22,7 @@ Here's the practical write-up of a January hackathon project, led by Isao from C
 Isao and I were pretty confident this would work. A Microsoft paper showed uncanny facial data can be used for vision tasks (5). 
 
 ![Fake It Till You Make It dataset illustration](/images/synthetic-data-fake-it-till-you-make-it-dataset.png)
+_Fake It Till You Make It dataset, showing uncanny training data of human faces_
 
 We did consider synthetic data from a games engine, or using public datasets like COCO. We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale. 
 

@@ -15,13 +15,13 @@ In this post, I'll share our learnings implementing the parts of "Learning Visio
 and achieve state-of-the-art results.
 
 ### 1. Synthetic? Will it even work?
-Isao and I were pretty confident this would work. AI models have been using uncanny game character faces - see "Fake It Till You Make It", from Microsoft (5). 
+AI models have been using uncanny game character faces for a while (5). 
 
 ![Fake It Till You Make It dataset illustration](/images/synthetic-data-fake-it-till-you-make-it-dataset.png)
 
 _Fake It Till You Make It dataset sample, showing mid-to-low realism in training data for human faces_
 
-In the context of a hackathon, we considered games engine, or public datasets like COCO as alternative ways to prototype a model for "wearing a helmet". We focused on prompt -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
+We considered alternative approaches to prototype a model for "wearing a helmet", including using a 3D engine, or public datasets like COCO. We opted for ground truth prompts -> stable diffusion, on the basis that it would be quick to test, and work at scale for the variety of characters and conditions that we would want to support.
 
 ### 2. Defining the Problem 
 Setting scope relies on understanding user behaviour. What is the ideal behaviour? What does it look like when users are not being safe? What are the expected edge cases? 

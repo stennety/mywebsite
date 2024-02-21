@@ -31,6 +31,7 @@ Setting scope relies on understanding user behaviour. What is the ideal behaviou
 
 For a new problem, in the context of a hackathon, we used LLMs to generate these scenarios, which gave us a good view of breadth on the problem. We made some trade-offs to get good results in testing:
 - We would focus on "Wearing Helmet" / "Not wearing a helmet"
+- We would leave "Safely fastened" to future discovery
 - We would target a breadth of users and scenes
 - We assumed logic for exceptions, would be handled outside the AI model
 - We assumed the model would be built as part of a fault tolerant release (6)

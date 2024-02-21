@@ -53,10 +53,14 @@ Fast is better than perfect - with only a little python, and half a dozen variab
 Here, we hemmed pretty close to the paper recommendations, with only small changes to make sure the image dimensions defaulted to portrait selfie. 
 
 ![Generated images examples](/images/synthetic-data-generated-images-examples.png)
+_Generated images from Stable Diffusion on our prompts_
 
 A really interesting finding here is that model-generated images can be wrong, or very far out-of-sample compared to real life.  
 
 In the original Learning from Models data, we saw "mislabels" e.g. `electric locomotive` prompt led to what seems like images of steam locos. Give our dataset size, it’s really important to have clean labels. 
+
+![Mislabel examples](/images/synthetic-data-mislabel.png)
+_An example mis-label from "Figure 4:Random examples of synthetic captions and images generated in our SynCLR pipeline" in Learning from Models_
 
 As the authors called out, we can get even better results with even more targeted / curated approaches.
 

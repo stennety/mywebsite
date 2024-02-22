@@ -72,9 +72,7 @@ _An example mis-label from "Figure 4:Random examples of synthetic captions and i
 _An example generated image from our process that we would not use for training, as it contains unclear signal for a "helmet" vs "hat"_
 
 ### 5. Results & Next Steps
-One of our product tenets at Captur is rapid iteration, and it was really gratifying to see this made possible in our new pipelines. 
-
-Getting results within the span of our one-day hackathon was great! 
+One of our product tenets at Captur is rapid iteration, and it was really gratifying to see results within the span of one day. 
 
 I would love feedback on this post and this approach. Let me know if you would be interested in more insight on model performance metrics or a demo app, for this use case or another new example!
 

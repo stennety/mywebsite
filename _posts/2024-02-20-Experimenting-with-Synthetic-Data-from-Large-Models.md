@@ -59,26 +59,23 @@ _Generated images from Stable Diffusion on our prompts_
 
 A really interesting finding here is that model-generated images can be wrong, or very far out-of-sample compared to real life.  
 
-In the original Learning from Models data, we saw "mislabels" e.g. `electric locomotive` prompt led to what seems like images of steam locos. Give our dataset size, it’s really important to have clean labels. 
+In the original Learning from Models data, we saw "mislabels" e.g. `electric locomotive` prompt led to what seems like images of steam locos. 
+
+Given our dataset size, a small amount of human curation (clean-up) was also part of our process.
 
 ![Mislabel examples](/images/synthetic-data-mislabel.png)
+
 _An example mis-label from "Figure 4:Random examples of synthetic captions and images generated in our SynCLR pipeline" in Learning from Models_
 
-As the authors called out, we can get even better results with even more targeted / curated approaches.
+![Awkward example](/images/synthetic-bad-training.png)
+_An example confusing generated image from our process_
 
 ### 5. Model Training & Evaluation
 One of our product tenets at Captur is rapid iteration, and it was really gratifying to see this made possible in our new pipelines. 
 
-Getting results within the span of our one-day hackathon was great! Simple tests we threw at it worked well, and in head-to-head matchup with the COCO experiment both survived basic tyre-kicking.
+Getting results within the span of our one-day hackathon was great! 
 
-On the other hand, I felt a very real frustration that some of our best tools to evaluate model performance are still in progress. 
-
-### 6. Findings and Conclusions
-There are some interesting next steps
-- Generated images can be wrong, which might be especially bad where these are ambiguous.
-- As we productionise, we will be gathering better data about model performance (maybe a part 2 of this post?)
-
-Regardless, we’re pretty excited about how synthetic data can boost performance for a new use-case, or a new detection scenario!
+I would love feedback on this post and this approach. Let me know if you would be interested in more insight on model performance metrics or a demo app, for this use case or another new example!
 
 --
 

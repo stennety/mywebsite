@@ -46,7 +46,7 @@ The original paper used Llama 2 to create prompts for stable diffusion. This mak
 
 Since we had a much more narrow scope, we were able to pick a single relationship (rider, helmet) and write a script with a simple template where we varied their context for skin color, light conditions, accessories and background images, e.g.
 
-> ‘A dark skinned older woman in a coat at night, photoreal’. 
+> ‘A dark skinned older woman in a coat at night, on a bridge in Paris, photoreal’. 
 
 Fast is better than perfect - with only a little python, and half a dozen variables we had hundreds of thousands of prompts to choose from!
 

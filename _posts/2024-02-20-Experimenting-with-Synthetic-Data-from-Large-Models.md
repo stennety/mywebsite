@@ -76,7 +76,9 @@ One of our product tenets at Captur is rapid iteration, and it was really gratif
 
 I would love feedback on this post and this approach. Let me know if you would be interested in more insight on model performance metrics or a demo app, for this use case or another new example!
 
---
+
+
+**Notes**
 
 (1) Captur has been working on safe parking, and we're used to thinking about similar scenarios like seated scooters, new geographies, etc. More info:
 [https://www.captur.ai/#how-captur-works](https://www.captur.ai/#how-captur-works)
@@ -91,3 +93,7 @@ I would love feedback on this post and this approach. Let me know if you would b
 (5) E. Wood, T. Baltrušaitis, C. Hewitt, S. Dziadzio, M. Johnson, V. Estellers, T. J. Cashman, and J. Shotton, "Fake It Till You Make It: Face analysis in the wild using synthetic data alone," in ICCV, 2021. [Online]. Available: [https://doi.org/10.48550/arXiv.2109.15102](https://doi.org/10.48550/arXiv.2109.15102)
 
 (6) This post about Fault Tolerant UX in AI is always relevant: [https://cdixon.org/2015/02/01/the-ai-startup-idea-maze](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze)
+
+**Thanks** 
+
+Thanks to Isao Makabe, Juraj Tomori, Sara Saab, Marco Volina and Daniel Scholtz for early feedback on the idea and this post.

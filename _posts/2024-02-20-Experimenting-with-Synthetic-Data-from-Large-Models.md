@@ -96,4 +96,4 @@ I would love feedback on this post and this approach. Let me know if you would b
 
 **Thanks** 
 
-Thanks to Isao Makabe, Juraj Tomori, Sara Saab, Marco Volina and Daniel Scholtz for early feedback on the idea and this post.
+Thanks to Isao Makabe, Juraj Tomori, Sara Saab, Marco Volino and Daniel Scholtz for early feedback on the idea and this post.

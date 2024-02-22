@@ -68,7 +68,7 @@ Given our dataset size, a small amount of human curation (clean-up) was also par
 _An example mis-label from "Figure 4:Random examples of synthetic captions and images generated in our SynCLR pipeline" in Learning from Models_
 
 ![Awkward example](/images/synthetic-bad-training.png)
-_An example confusing generated image from our process_
+_An example generated image from our process that we would not use for training, as it contains unclear signal for a "helmet" vs "hat"_
 
 ### 5. Results & Next Steps
 One of our product tenets at Captur is rapid iteration, and it was really gratifying to see this made possible in our new pipelines. 

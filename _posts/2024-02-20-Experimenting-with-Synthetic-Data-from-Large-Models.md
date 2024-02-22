@@ -57,9 +57,9 @@ Here, we hemmed pretty close to the paper recommendations, with only small chang
 
 _Generated images from Stable Diffusion on our prompts_
 
-A really interesting finding here is that model-generated images can be wrong, or very far out-of-sample compared to real life.  
+An important thing to note here is that model-generated images can be wrong, or very far out-of-sample compared to real life.  
 
-In the original Learning from Models data, we saw "mislabels" e.g. `electric locomotive` prompt led to what seems like images of steam locos. 
+In the original "Learning from Models" data, we saw examples of incorrect ground truth e.g. a `electric locomotive` prompt led to what seems like images of steam engines. 
 
 Given our dataset size, a small amount of human curation (clean-up) was also part of our process.
 

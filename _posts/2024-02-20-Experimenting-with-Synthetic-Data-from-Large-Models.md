@@ -70,7 +70,7 @@ _An example mis-label from "Figure 4:Random examples of synthetic captions and i
 ![Awkward example](/images/synthetic-bad-training.png)
 _An example confusing generated image from our process_
 
-### 5. Model Training & Evaluation
+### 5. Results & Next Steps
 One of our product tenets at Captur is rapid iteration, and it was really gratifying to see this made possible in our new pipelines. 
 
 Getting results within the span of our one-day hackathon was great! 

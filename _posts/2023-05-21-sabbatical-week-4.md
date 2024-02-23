@@ -20,6 +20,10 @@ but he said he really enjoyed it.
 
 ![]({{site.cdn_path}}/2023/05/21/turtle_rock.jpeg)
 
+I put together this video of the kayak tour:
+
+{% include video id="learZ16fyq8" provider="youtube" %}
+
 Back at Quiri, I grabbed a quick shower and checked out of the hotel. I'd decided to switched to 
 staying at a hostel called Secret Garden because I liked the artsy aesthetic and 
 I wanted to meet some people. The host at Quiri was super friendly and gave me a ride

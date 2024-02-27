@@ -163,3 +163,12 @@
   url: "https://wikiofmana.com/"
   mainpage: "Main_Page"
   discord: "Mt5UvGbuSH"
+- member:
+  id: "wizardrywiki"
+  name: "Wizardry Wiki"
+  description: "The Wizardry Wiki is a wiki about the Wizardry video game franchise, a classic first-person dungeon crawler from 1981. It covers all things from the mainline series by Sirtech, the Japanese developed games, and related materials such as Blade & Bastard (except Wizardry BC). The wiki dates back to 2008 but was forked to wiki.gg in 2023."
+  logo: "/images/logos/WizardryWiki.png"
+  url: "https://wizardry.wiki.gg"
+  mainpage: "Wizardry_Wiki"
+  discord: "cknNfGG7YC"
+  twitter: "WizardryWiki"

@@ -15,6 +15,9 @@ avatar: https://raw.githubusercontent.com/MelbourneMicroPythonMeetup/MelbourneMi
 # Flags below are optional
 #
 
+# Allows publishing posts with a future date
+future: true
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:

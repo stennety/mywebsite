@@ -214,6 +214,13 @@
     "Path": "_includes/_shared_block/AlgorithmAndDataStruct/Sort/SelectionSort.md"
   },
   {
+    "Name": "LLM",
+    "Tag": [
+      "ArtificialIntelligence"
+    ],
+    "Path": "_includes/_shared_block/ArtificialIntelligence/LLM.md"
+  },
+  {
     "Name": "Blog_01_Purpose",
     "Tag": [
       "Blog"
@@ -417,6 +424,13 @@
     "Path": "_includes/_shared_block/Concept/Algorithm.md"
   },
   {
+    "Name": "Anaconda",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/Anaconda.md"
+  },
+  {
     "Name": "Bandwidth",
     "Tag": [
       "Concept"
@@ -429,6 +443,13 @@
       "Concept"
     ],
     "Path": "_includes/_shared_block/Concept/Batch.md"
+  },
+  {
+    "Name": "CICD",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/CICD.md"
   },
   {
     "Name": "CMake",
@@ -555,6 +576,13 @@
       "Concept"
     ],
     "Path": "_includes/_shared_block/Concept/Geometry.md"
+  },
+  {
+    "Name": "Handler",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/Handler.md"
   },
   {
     "Name": "Kanban",
@@ -2165,6 +2193,107 @@
       "Noise"
     ],
     "Path": "_includes/_shared_block/Math/Noise/PerlineNoise.md"
+  },
+  {
+    "Name": "Container",
+    "Tag": [
+      "Network",
+      "Container"
+    ],
+    "Path": "_includes/_shared_block/Network/Container/Container.md"
+  },
+  {
+    "Name": "Packet",
+    "Tag": [
+      "Network",
+      "Container",
+      "Packet.md"
+    ],
+    "Path": "_includes/_shared_block/Network/Container/Packet.md/Packet.md"
+  },
+  {
+    "Name": "Content",
+    "Tag": [
+      "Network"
+    ],
+    "Path": "_includes/_shared_block/Network/Content.md"
+  },
+  {
+    "Name": "HTTPCommunication",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "HTTP"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/HTTP/HTTPCommunication.md"
+  },
+  {
+    "Name": "HttpHandler",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "HTTP"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/HTTP/HttpHandler.cs"
+  },
+  {
+    "Name": "NetworkHandler",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/NetworkHandler.md"
+  },
+  {
+    "Name": "SocketCommunication",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "Socket"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/Socket/SocketCommunication.md"
+  },
+  {
+    "Name": "SocketHandler",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "Socket"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/Socket/SocketHandler.cs"
+  },
+  {
+    "Name": "WebSocketCommunication",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "WebSocket"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/WebSocket/WebSocketCommunication.md"
+  },
+  {
+    "Name": "WebSocketHandler",
+    "Tag": [
+      "Network",
+      "Implement",
+      "Handler",
+      "WebSocket"
+    ],
+    "Path": "_includes/_shared_block/Network/Implement/Handler/WebSocket/WebSocketHandler.cs"
+  },
+  {
+    "Name": "Protocol",
+    "Tag": [
+      "Network",
+      "Protocol"
+    ],
+    "Path": "_includes/_shared_block/Network/Protocol/Protocol.md"
   },
   {
     "Name": "blame",

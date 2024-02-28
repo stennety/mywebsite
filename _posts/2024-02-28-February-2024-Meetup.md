@@ -64,6 +64,7 @@ Laurens Valk [has showed off driving a remote control car](https://fosstodon.org
 ![2024-02-28_meetup_lego-xbox-pybricks.jpg](../images/2024-02-28_meetup_lego-xbox-pybricks.jpg)
 
 * We're going to try and get this running in the session today! We'll take photos if we get it working…
+* Check out [this video](https://www.youtube.com/watch?v=fxInp9cutNg)
 * [Pybricks](https://pybricks.com/) is MicroPython and block coding for LEGO hubs
 
 ### Crickets in (a northern hemisphere) February
@@ -83,6 +84,25 @@ Who _doesn't_ want a 3D printed walking mechanical insect??
 
 * [YouTube video series](https://www.youtube.com/makeyourpet) on making a robotic insect with a Pimoroni Servo2040, from Make Your Pet
 * [Lots of information available](https://github.com/MakeYourPet/hexapod), although doesn't seem like it's a full end-to-end guide – more of a starting point to customise your own creation
+
+### Notifications to water your pot plants
+
+WizNet have [published a quick project demo](https://maker.wiznet.io/viktor/projects/how-to-monitor-your-plant-with-w5100s-evb-pico/?page=3&serob=mv&serterm=all) using one of their Ethernet boards to get Telegram messages when your pot plants need to be watered
+
+![2024-02-28_meetup_watering.png](../images/2024-02-28_meetup_watering.png)
+
+* Uses the W5100S-EVB-Pico
+* And an undisclosed moisture sensor
+
+### Build-A-Thon Nigeria
+
+Nigerian government organised [an educational event](https://www.pulse.ng/news/local/build-a-thon-federal-government-concludes-student-centric-tech-program/1qk2j1s) in conjunction with the Raspberry Pi Foundation
+
+![2024-02-28_meetup_buildathon.jpg](../images/2024-02-28_meetup_buildathon.jpg)
+
+* 4-days program
+* Over 500 senior secondary school students
+* Introduction to embedded systems and maker culture using Raspberry Pi Pico and MicroPython
 
 ### Bus Pirate 5!
 
@@ -109,6 +129,30 @@ The [Daisy](https://electro-smith.com/products/daisy-seed) is an embedded system
 * 64MB of SDRAM for up to 10 minute long audio buffers, 8MB external flash
 * No specific MicroPython support, but the MCU is supported so shouldn't be that hard to make a new port
 * US$22, [from the Electrosmith website](https://electro-smith.com/products/daisy-seed?variant=45175761076516)
+
+### Waveshare RP2040-BLE
+
+Combines a Raspberry Pi RP2040 microcontroller with an unnamed Bluetooth 5.1 dual-mode chip
+
+![2024-02-28_meetup_waveshare-rp2040ble.jpg](../images/2024-02-28_meetup_waveshare-rp2040ble.jpg)
+
+* Raspberry Pi RP2040
+* Bluetooth 5.1 dual-mode function (BLE and classic)
+* Controlled by serial AT commands
+* Has [a wiki page with some examples](https://www.waveshare.com/wiki/RP2040-BLE)
+* Very inexpensive, like most Waveshare parts, US$6.50 [from their online shop](https://www.waveshare.com/rp2040-ble.htm)
+
+### Waveshare ESP32-H2-DEV-KIT-N4
+
+RISC-V 32-bit single-core processor with a clock speed of up to 96MHz
+
+![2024-02-28_meetup_ESP32-H2-DEV-KIT-N4.jpg](../images/2024-02-28_meetup_ESP32-H2-DEV-KIT-N4.jpg)
+
+* ESP32-H2-MINI-1 module
+* 320 KB SRAM, 128 KB ROM, 4 KB LP memory, 4MB Flash memory
+* Radios for Bluetooth, Zigbee, Thread
+* Lots of information [on the wiki page](https://www.waveshare.com/wiki/ESP32-H2-DEV-KIT-N4)
+* Only US$5.99 [from their online shop](https://www.waveshare.com/esp32-h2-dev-kit-n4.htm)
 
 ### Closing Thought
 

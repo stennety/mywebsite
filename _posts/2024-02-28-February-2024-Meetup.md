@@ -66,6 +66,24 @@ Laurens Valk [has showed off driving a remote control car](https://fosstodon.org
 * We're going to try and get this running in the session today! We'll take photos if we get it working…
 * [Pybricks](https://pybricks.com/) is MicroPython and block coding for LEGO hubs
 
+### Crickets in (a northern hemisphere) February
+
+Stewart C. Russell (scruss) has a new project guide on [using some Raspberry Pi Picos to make sounds like crickets](https://scruss.com/blog/2024/02/19/crickets-in-february/) do, including adapting the chirp rate depending on the temperature
+
+![2024-02-28_meetup_crickets.jpg](../images/2024-02-28_meetup_crickets.jpg)
+
+* Makes more sense when you know he lives in Canada! (it's cold there in February...)
+* Good as an introductory lesson on doing a simple algorithm in MicroPython and interfacing that to some hardware
+
+### Make Your Pet Hexapod
+
+Who _doesn't_ want a 3D printed walking mechanical insect??
+
+![2024-02-28_meetup_makeyourpet.png](../images/2024-02-28_meetup_makeyourpet.png)
+
+* [YouTube video series](https://www.youtube.com/makeyourpet) on making a robotic insect with a Pimoroni Servo2040, from Make Your Pet
+* [Lots of information available](https://github.com/MakeYourPet/hexapod), although doesn't seem like it's a full end-to-end guide – more of a starting point to customise your own creation
+
 ### Bus Pirate 5!
 
 Hackaday [have written up a very detailed hand-on review](https://hackaday.com/2024/02/12/hands-on-bus-pirate-5/) of [the new Bus Pirate 5](https://buspirate.com/bus-pirate-5-rev-10-now-available/)

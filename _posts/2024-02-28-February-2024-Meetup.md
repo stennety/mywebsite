@@ -3,9 +3,27 @@ layout: post
 title: February 2024 Meetup
 ---
 
-**Sean** to give Matt a bit of a break, Sean presented this month's news round-up
+To give Matt a bit of a break, **Sean** presented this month's news round-up
 
 ## News Round-up
+
+### MicroPython v1.22.2 Patch release for rp2 DMA, UART and BLE; esp32 BLE; renesas-ra I2C
+A few minor changes, [from the release notes](https://github.com/micropython/micropython/releases/tag/v1.22.2):
+
+> *   py/compile: fix potential Py-stack overflow in try-finally with return
+> *   extmod/asyncio: support gather of tasks that finish early
+> *   extmod/modssl\_mbedtls: fix cipher iteration in SSLContext.get\_ciphers
+> *   extmod/btstack: reset pending\_value\_handle before calling write-done cb
+> *   extmod/btstack: reset pending\_value\_handle before calling read-done cb
+> *   esp32/mpnimbleport: release the GIL while doing NimBLE port deinit
+> *   esp32: increase NimBLE task stack size and overflow detection headroom
+> *   mimxrt/modmachine: fix deepsleep wakeup pin ifdef
+> *   renesas-ra/ra: fix SysTick clock source
+> *   renesas-ra/boards/ARDUINO\_PORTENTA\_C33: fix the RTC clock source
+> *   renesas-ra/ra/ra\_i2c: fix 1 byte and 2 bytes read issue
+> *   rp2/rp2\_dma: fix fetching 'write' buffers for writing not reading
+> *   rp2/machine\_uart: fix event wait in uart.flush() and uart.read()
+> *   rp2: change machine.I2S and rp2.DMA to use shared DMA IRQ handlers
 
 ### Arduino Alvik
 
@@ -39,7 +57,16 @@ Can a vintage microcontroller from 1985 run MicroPython? Of course not! Especial
 * Thanks to Dave, [DavesCodeMusings on GitHub](https://github.com/DavesCodeMusings)
 * Have a look at [the GitHub repo](https://github.com/DavesCodeMusings/mpremote-vscode) or [detailed wiki page](https://github.com/DavesCodeMusings/mpremote-vscode/wiki) for more info
 
-### Bus Pirate 5
+### Driving a LEGO car with an Xbox controller
+
+Laurens Valk [has showed off driving a remote control car](https://fosstodon.org/@laurensvalk/111951571623325379) using LEGO Pybricks system attached to an Xbox controller
+
+![2024-02-28_meetup_lego-xbox-pybricks.jpg](../images/2024-02-28_meetup_lego-xbox-pybricks.jpg)
+
+* We're going to try and get this running in the session today! We'll take photos if we get it working…
+* [Pybricks](https://pybricks.com/) is MicroPython and block coding for LEGO hubs
+
+### Bus Pirate 5!
 
 Hackaday [have written up a very detailed hand-on review](https://hackaday.com/2024/02/12/hands-on-bus-pirate-5/) of [the new Bus Pirate 5](https://buspirate.com/bus-pirate-5-rev-10-now-available/)
 
@@ -52,6 +79,18 @@ Hackaday [have written up a very detailed hand-on review](https://hackaday.com/2
 * Programmable power supply, with current limiting
 * Open source firmware, still in its infancy, but is [under active development](https://github.com/DangerousPrototypes/BusPirate5-firmware)
 * I want one! Seems like it's US$38, [from their website](https://buspirate.com/get/)
+
+### Electrosmith Daisy Seed
+
+The [Daisy](https://electro-smith.com/products/daisy-seed) is an embedded system geared towards making music
+
+![2024-02-28_meetup_daisy-seed.jpg](../images/2024-02-28_meetup_daisy-seed.jpg)
+
+* Stereo audio I/O – 96kHz / 24-bit audio hardware
+* ARM Cortex-M7 MCU, running at 480MHz
+* 64MB of SDRAM for up to 10 minute long audio buffers, 8MB external flash
+* No specific MicroPython support, but the MCU is supported so shouldn't be that hard to make a new port
+* US$22, [from the Electrosmith website](https://electro-smith.com/products/daisy-seed?variant=45175761076516)
 
 ### Closing Thought
 

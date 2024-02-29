@@ -1,92 +1,77 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
- <head>
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
- <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'G-CE7ZF0C1GD');
-  </script>
-  <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
-  <title>GrayBull - David McLay Kidd - Sand Hills of Nebraska</title>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta http-equiv='content-language' content='en-us'>
-  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-  <meta name="msvalidate.01" content="C4EAECFC8175E41187A49DFC313FFC62" />
-  <meta name="description" CONTENT="New Golf Course GrayBull Sand Hills Dormie Network David Kidd">
-  <script src="https://cmp.osano.com/Azqae7Tg5rIXKJsl/a6843304-e87a-485e-aabb-2b21be3ed691/osano.js"></script>
+ <head>  
+    <title>GrayBull - David McLay Kidd - Sand Hills of Nebraska</title>
+    <meta name="description" CONTENT="New Golf Course GrayBull Sand Hills Dormie Network David Kidd">
+	{% include h50.html %}
 </head>
-
-<body>
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>GrayBull - David McLay Kidd - Sand Hills of Nebraska</H1> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-	<div id="storyMap"></div>
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Kidd"></div>
+			<div class="content" tabindex="0"  aria-label="GrayBull">
+				<H1>GrayBull - David McLay Kidd - Sand Hills of Nebraska</H1> 
+                <p><a style='font-weight:bold' href='https://www.dormienetwork.com/graybull' target='_blank' rel='nofollow'>GrayBull Golf Course</a> is a new 18 hole private golf course designed by David McLay Kidd under construction in 2023.  It is located in the Nebraska Sandhills, and a 73 mile drive from Sand Hills Golf Club in Mullen. The course is located about 30 minutes north of North Platte and 2 hours west of Omaha.  The course is situated on 600 acres of land in the Nebraska Sandhills. The Sandhills are a unique geographic region in the western part of the state. The area is characterized by rolling hills, sandy soil, and few trees.</p>
+                <p>Michael Sheely is the grow-in superintendent and Director of Agronomy at GrayBull.  <a style='font-weight:bold' href='https://www.linkedin.com/in/mark-ruhga-27702b7/' target='_blank' rel='nofollow'>Dormie Network's Mark Rugha</a> is a resident of Nebraska in Omaha and a vocal supporter of the project's initiative.  <a style='font-weight:bold' href='https://www.dormienetwork.com/news/graybull-club-preview' target='_blank' rel='nofollow'>Preview plans with topography maps (also known as topo maps)</a> show the design in the sand dunes of four holes.  Property acreage is 1,600.  Initial plans from the championship tees are for a Par 72 at 7,170 yards test.  The 17th hole playing at 170 yards from the back tee and the 18th tee playing at 480 yards from the back tee make for a strong finish with a familiar ring.</p>
+                <p>Permits were filed with Lincoln County for the construction of GrayBull Golf Course on March 8, 2022 with approval quickly returned on March 22, 2022.  Ground was broken in summer 2022 - Construction of the 18-hole golf course with clubhouse, practice range, and amenities for 15 cottages for a total of 60 bedrooms on property.  Seeding goal completion is autumn 2023 with opening in the latter half of 2024.  The golf course and overall property is designed to minimize the impact on the environment.  <a style='font-weight:bold' href='https://www.koontzjones.com/' target='_blank' rel='nofollow'>Koontz Jones Design</a> provided site planning and landscape architecture for GrayBull, including the Clubhouse, Party Barn, and 15 overnight guest cottages.</p>
+                <p>Golf Magazine's <a style='font-weight:bold' href='https://golf.com/news/wildfire-rages-across-nebraska-golf-course/' target='_blank' rel='nofollow'>Josh Sens</a> reported in February 2024 that GrayBull's irrigation system served as a firebreak from a wildfire moving eastwards.</p>
+			</div>
+	</div>
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/GrayBull.json";
+    <script>		
+            const map = L.map('map').setView([41.196591,-100.484189], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-		<script type="text/javascript" class="init"></script> 
-</body>
-  <footer>
-    <p><a href="https://www.dormienetwork.com/graybull">Dormie Network - GrayBull</a></p>
-    <p><a href="https://fescue.github.io/Freestone-Lake-Golf-Club/">Kidd's Freestone Lake Project in Texas</a></p>
-    <p><a href="https://fescue.github.io/Pines-Crossing-Golf/">Pines Crossing Golf Course - Georgia</a></p>
-    <p><a href="https://fescue.github.io/Childress-Hall/">Childress Hall</a></p>
-	<table style="width:100%">
-		<tr>
-			<th><a href="https://fescue.github.io/">All New Golf Courses</a></th>
-			<th><a href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
-			<th><a href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-</footer>
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="mEuV1vhqgME" style="background-image: url('https://i3.ytimg.com/vi/mEuV1vhqgME/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=mEuV1vhqgME" class="lty-playbtn" title="Play Video.  Credit: Dormie Network">
+	                            <span class="lyt-visually-hidden">Credit: Dormie Network</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([41.196591,-100.484189]).addTo(map);
+	        marker.bindPopup("<b>Lakeside Country Club</b><br>Houston, Texas</br>").openPopup();
+	</script>
+    	<p><a href="https://fescue.github.io/Bounty-Club/">Bounty Club by King Collins Design</a></p>        
+    	<p><a href="https://fescue.github.io/Austin-Beach-Club/">Austin Beach Club in Texas</a></p>
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
 </html>

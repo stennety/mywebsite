@@ -4,14 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dreat - Music & Code</title>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="styles.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <iframe hidden name=htmz onload="setTimeout(()=>document.querySelector(contentWindow.location.hash||null)?.replaceWith(...contentDocument.body.childNodes))"></iframe>
 <link rel="manifest" href="manifest.json">
 </head>
 <body>
+    <div role="tablist">
+    <a role="tab" href="/about_me.html#my-tab-panel" target=htmz>About me</a> |
+    <a role="tab" href="about_website.html#my-tab-panel">About website</a> |
+    <a role="tab" href="projects.html#my-tab-panel">Projects</a>
+    </div>
 
+    <div id="my-tab-panel" role="tabpanel">
+    </div>
+
+    <!--
 <div id="layout">
     <div id="menu">
         <div class="pure-menu">
@@ -56,7 +65,7 @@
 
         </div>
     </div>
-</div>
+</div>-->
 
 </body>
 </html>

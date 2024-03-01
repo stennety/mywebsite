@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <iframe hidden name="htmz" onload="setTimeout(()=>document.querySelector(contentWindow.location.hash||null)?.replaceWith(...contentDocument.body.childNodes))"></iframe>
     <link rel="manifest" href="manifest.json" />
     <div role="tablist">
         <a role="tab" href="/home.html#tab-panel" target=htmz>Home</a>
@@ -48,6 +47,7 @@
         </div>
     </div>
 
+    <iframe hidden name="htmz" onload="setTimeout(()=>document.querySelector(contentWindow.location.hash||null)?.replaceWith(...contentDocument.body.childNodes))"></iframe>
 </body>
 
 </html>

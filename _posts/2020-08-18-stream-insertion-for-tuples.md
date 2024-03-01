@@ -7,7 +7,7 @@ date: 2020-08-18
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'How Do I `cout` my `tuple` in C++17 ?'
+title: 'How Do I cout my tuple in C++17 ?'
 comments_id: 15
 ---
 
@@ -49,8 +49,7 @@ namespace detail
   {
       static_assert(sizeof...(Is)==sizeof...(Ts),"Indices must have same number of elements as tuple types!");
       static_assert(sizeof...(Ts)>0, "Cannot insert empty tuple into stream.");
-      auto last = sizeof...(Ts); // assuming index sequence 0,...,N-1
-
+      auto last = sizeof...(Ts)-1; // assuming index sequence 0,...,N-1
       
       return ((os << std::get<Is>(tuple) << (Is != last ? "\r\n" : "")),...);
   }

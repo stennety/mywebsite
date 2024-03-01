@@ -32,22 +32,22 @@
 					this._map = map;
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
 			
+			// Your lite-youtube HTML
+		        this._container.innerHTML = `
+		                    <lite-youtube videoid="8ewgDiyL6_k" style="background-image: url('https://i3.ytimg.com/vi/8ewgDiyL6_k/hqdefault.jpg');">
+		                        <a href="https://youtube.com/watch?v=8ewgDiyL6_k" class="lty-playbtn" title="Play Video.  Credit: Kolter Homes">
+		                            <span class="lyt-visually-hidden">Credit: Kolter Homes</span>
+		                        </a>
+		            </lite-youtube>
+		        `;
+			    
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);
 	                
 	                // Update the position of the overlay on the map
 	                this._update();
 	            },
-				
-				// Your lite-youtube HTML
-	            this._container.innerHTML = `
-	                    <lite-youtube videoid="8ewgDiyL6_k" style="background-image: url('https://i3.ytimg.com/vi/8ewgDiyL6_k/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=8ewgDiyL6_k" class="lty-playbtn" title="Play Video.  Credit: Kolter Homes">
-	                            <span class="lyt-visually-hidden">Credit: Kolter Homes</span>
-	                        </a>
-	            </lite-youtube>
-	            `;
-	        
+					        
 	            onRemove: function(map) {
 	                L.DomUtil.remove(this._container);
 	            },

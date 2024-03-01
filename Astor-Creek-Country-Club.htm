@@ -1,62 +1,79 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <title>Chris Wilczynski, ASGCA - New Championship Golf Course in Florida</title>
   <meta name="description" CONTENT="Chris Wilczynski ASGCA Housing Real Estate Development New Golf Course Florida ">
-  {% include header.html %}
-</head>
-
+  {% include h.html %}
+</head>			
+		
 <body>
-	<H1>Chris Wilczynski, ASGCA - New Championship Golf Course in Florida</H1>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
-	<script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Astor-Creek-Country-Club.json";
+	<div class="main-container" role="main">
+		<div id="map" aria-label="ASGCA"></div>
+			<div class="content" tabindex="0"  aria-label="Astor">
+				<H1>Chris Wilczynski, ASGCA - New Championship Golf Course in Florida</H1>
+				<p>Kolter Homes has hired Chris Wilczynski to design a new golf course at <a style='font-weight:bold' href='https://www.kolterhomes.com/new-homes/port-st-lucie-florida-golf-astor-creek-country-club/' target='_blank' rel='nofollow'>Astor Creek Country Club</a>. The new community golf course is located on southeast Florida's Treasure Coast and opened in October 2023.  <a style='font-weight:bold' href='https://asgca.org/architect/cwilczynski/' target='_blank' rel='nofollow'>Chris Wilczynski, ASGCA</a> received his Bachelor of Landscape Architecture from Michigan State University in 1994 and is a member of the American Society of Landscape Architects, United States Golf Association and the Michigan Golf Course Superintendents Association in addition to the ASGCA.</p>
+				<p>Wilczynski: 'We'll be moving nearly 850,000 cubic yards of soil excavated from lakes to create the dimension and character of the course, then layer in a variety of Florida vegetation to accentuate its lines, give it texture, and color. It's like the evolution of a painting.  Our vision is for golfers to enjoy a blend of tranquility and ease of playability.  We're designing a course for today's golfer – one who loves beauty and a challenge and wants to have fun.'</p>
+				<p>The community is located just minutes from the beach and is surrounded by nature preserves.  Astor Creek Country Club is sure to be a popular destination for golfers and nature lovers alike.  Designer Wilcynski was inspired by Seth Raynor templates and has named the 2nd hole as 'Surprise Redan', the 3rd hole as the 'Astor Biarritz', the 12th hole as 'Astoria Punchbowl', and the 15th hole as the 'Short Horseshoe'.  Native areas are meant for easy recovery shots and are accessible for golf cart traffic.  With its beautiful setting, challenging golf course, and amenities, it is the perfect place to relax, play, and enjoy the Florida lifestyle. Port St. Lucie has a tropical climate with warm/humid summers and mild winters. The average annual rainfall is 52 inches (132 cm).</p>
+			</div>
+	</div>
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+    <script>
+            const map = L.map('map').setView([27.3004846,-80.4543628], 6);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+				// Your lite-youtube HTML
+	            this._container.innerHTML = `
+	                    <lite-youtube videoid="8ewgDiyL6_k" style="background-image: url('https://i3.ytimg.com/vi/8ewgDiyL6_k/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=8ewgDiyL6_k" class="lty-playbtn" title="Play Video.  Credit: Kolter Homes">
+	                            <span class="lyt-visually-hidden">Credit: Kolter Homes</span>
+	                        </a>
+	            </lite-youtube>
+	            `;
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([27.3004846,-80.4543628]).addTo(map);
 
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-	</script> 
-	<script type="text/javascript" class="init"></script> 
-	<p><a href="https://www.kolterhomes.com/new-homes/port-st-lucie-florida-golf-astor-creek-country-club/gallery/astor-creek-golf-course/">Astor Creek Club - From the ground up</a></p>
-	<p><a href="https://www.cwgolfarch.com/">C.W. Golf Architecture</a></p>
-	<p><a href="https://fescue.github.io/GrayBull/">GrayBull - David Kidd in the Sand Hills</a></p>
-   	<p><a href="https://fescue.github.io/The-Apogee-Club/">Mike Davis: Hanse + Fazio at The Apogee Club</a></p>
-  {% include bodyFooter.html %}
- </BODY>	
+	        marker.bindPopup("<b>Port St. Lucie</b><br>Florida</br>").openPopup();
+	</script>
+	
+   	<p><a href="https://fescue.github.io/Boca-National/">Boca National - Nick Price</a></p>
+	<p><a href="https://fescue.github.io/Golf-India-Aivot-PGA/">Lobb's Initiative with the PGA in India</a></p>
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

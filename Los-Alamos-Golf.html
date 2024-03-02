@@ -14,7 +14,7 @@
 		<div id="map" aria-label="Los Alamos"></div>
 			<div class="content" tabindex="0"  aria-label="Golf">
 				<H1>Los Alamos Golf - Muni Renovation</H1>
-				<p>Addressing deferred maintenance, <a style='font-weight:bold' href='https://www.losalamosnm.us/Parks-and-Recreation/Recreation/Recreation-Facilities-Activities/Golf-Course' target='_blank' rel='nofollow'>Los Alamos County Golf Course</a> is undergoing a renovation plan in 2024 led by Forrest Richardson and Todd Schoeder to improve the entire golf course, including improvements to the cart paths, new greens with redesigned contours, bunkers, driving range and practice area. Richardson and Schoeder will also be looking at the reversal and redesign of holes 7 and 8, which are critical to the safety of Diamond Drive.</p>
+				<p>Addressing deferred maintenance, <a style='font-weight:bold' href='https://www.losalamosnm.us/Parks-and-Recreation/Recreation/Recreation-Facilities-Activities/Golf-Course' target='_blank' rel='nofollow'>Los Alamos County Golf Course</a> is undergoing a renovation plan in 2024 led by Forrest Richardson and Todd Schoeder to improve the entire golf course with a $4 million budget, including improvements to the cart paths, new greens with redesigned contours, bunkers, driving range and practice area. Richardson and Schoeder will also be looking at the reversal and redesign of holes 7 and 8, which are critical to the safety of Diamond Drive.</p>
 				<p>Tee complex strategy and course yardage will be updated to modern standards by spacing out the yardage and provide the same playing experience for golfers of all abilities. Drainage issues on the greens will be addressed and fixing these issues. Forward tees have been neglected and will be made larger with more appropriate yardages.</p>
 				<p>Bunkers on the golf course have not drained well historically and have had maintenance upkeep issues.  They will be completely redone as part of the improvements. The cart path are also in need of repair, with deteriorating gravel, rocks, stone, turf, and native turf. New paved, concrete cart path system will be improved in as many areas as possible.</p>
 				<p>Safety issues with Diamond Drive are present on holes 7 and 8, which currently run alongside the road.  Design changes will address that concern.Driving range improvements have been proposed using a trajectory study. Three different scenarios for the driving range are options for the city council if the group chooses to go in that direction.</p>
@@ -35,6 +35,15 @@
 	            onAdd: function(map) {
 					this._map = map;
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			
+			
+	    	        this._container.innerHTML = `
+	                    <lite-youtube videoid="5oibtgsDDQo" style="background-image: url('https://i3.ytimg.com/vi/5oibtgsDDQo/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=5oibtgsDDQo" class="lty-playbtn" title="Play Video.  Credit: Los Alamos County">
+	                            <span class="lyt-visually-hidden">Credit: Los Alamos County</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
 			
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);

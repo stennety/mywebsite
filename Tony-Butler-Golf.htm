@@ -33,7 +33,15 @@
 	            onAdd: function(map) {
 					this._map = map;
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-			
+
+	    	        this._container.innerHTML = `
+	                    <lite-youtube videoid="vaHQKQu5-Eg" style="background-image: url('https://i3.ytimg.com/vi/vaHQKQu5-Eg/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=vaHQKQu5-Eg" class="lty-playbtn" title="Play Video.  Credit: City of Harlingen">
+	                            <span class="lyt-visually-hidden">Credit: City of Harlingen</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			    
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);
 	                

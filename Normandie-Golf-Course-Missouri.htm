@@ -1,66 +1,83 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <title>Renovation - Tom O'Toole Rebuilds Normandie Golf in St. Louis</title>
   <meta name="description" CONTENT="Renovation Jack Nicklaus Tom O'Toole Rebuild Normandie Golf St. Louis, Missouri">
-  {% include headerSM.html %}
-</head>
-
+  {% include h40.html %}
+</head>			
+		
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Golf"></div>
+			<div class="content" tabindex="0"  aria-label="Manila">
 
-<H1>Golf Renovation - Nicklaus/Tom O'Toole Rebuild Normandie Golf Course in St. Louis</H1> 
+				<H1>Golf Renovation - Nicklaus/Tom O'Toole - Normandie in St. Louis</H1> 
+				<p>The Normandie Golf Course renovation in St. Louis is a project that is being spearheaded by Jack Nicklaus with <a style='font-weight:bold' href='https://www.stlshof.com/tom-otoole/' target='_blank' rel='nofollow'>Tom O'Toole</a> from the USGA.  The Metropolitan Golf Foundation, the philanthropic arm of the <a style='font-weight:bold' href='https://www.metga.org/' target='_blank' rel='nofollow'>Metropolitan Amateur Golf Association</a> owns Normandie Golf Club. The course was acquired from the University of Missouri-St. Louis in 2022 for $1.5 million. The goal of the project is to revitalize the historic golf course with new grassing and the latest in bunker liner technology.</p>
+				<p>The renovation will include a number of changes to the course, including new flat tee boxes with newly sloping, contoured greens.  Updating the irrigation system to HDPE pipe with centralized computer system is another major undertaking in the project.  The renovation was budgeted to cost $15 million and start in September 2023, but postponement of the project will lead to a larger budget for a future build date.</p>
+				<p>The Normandie Golf Course renovation is a significant project that will have a major impact on the St. Louis golf community. The new course will be a valuable asset to the city and Metropolitan Golf Foundation.</p>
 
-<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+			</div>
+	</div>
+	
+	
+	
+    <script>
+            const map = L.map('map').setView([38.698303,-90.319432], 7);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Normandie-Golf-Course-Missouri.json";
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			
+				    this._container.innerHTML = `
+	                    <lite-youtube videoid="F76NaINSVEo" style="background-image: url('https://i3.ytimg.com/vi/F76NaINSVEo/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=F76NaINSVEo" class="lty-playbtn" title="Play Video.  Credit: Metropolitan Amateur Golf Association">
+	                            <span class="lyt-visually-hidden">Credit: Metropolitan Amateur Golf Association</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([38.698303,-90.319432]).addTo(map);
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-	<script type="text/javascript" class="init"></script> 
-    <p><a href="https://normandiegolf.com/">Normandie Golf Course</a></p>
-    <p><a href="https://www.metga.org/nicklaus-and-normandie">Normandie Reimagined with Jack Nicklaus</a></p>
-    <p><a href="https://fescue.github.io/Boca-National/">Nick Price Leads Project in South Florida</a></p>
-  {% include bodyFooter.html %}
- </BODY>	
+	        marker.bindPopup("<b>St. Louis, Missouri</b>").openPopup();
+	</script>
+	
+   	<p><a href="https://fescue.github.io/Panther-National/">Panther National Golf Club</a></p>
+	
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

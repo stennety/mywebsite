@@ -1,0 +1,80 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Collier County - Public Golf - First Tee</title>
+  <meta name="description" CONTENT="Collier County Willow Oak Peter Jacobsen First Tee Public Golf Course Housing Sustainable Tee Time">
+  {% include h.html %}
+</head>			
+		
+<body>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Golden Gate"></div>
+			<div class="content" tabindex="0"  aria-label="Willow Oak">
+				<H1>Collier County - Public Golf - First Tee</H1>
+				<p>Golden Gate is a closed golf course being redeveloped into 25 acres of affordable housing by Collier County. Part of the site is being proposed by Arthrex to serve as repurposed First Tee and 9 hole golf course public facility.  The new 9 hole golf course would be designed by PGA Tour golfer Peter Jacobsen.</p>
+				<p>As part of the plan, the new <a style='font-weight:bold' href='https://www.colliercountyfl.gov/Home/Components/Calendar/Event/44360/115' target='_blank' rel='nofollow'>"Willow Oak 9"</a> golf course would highlight the natural beauty of the existing Willow Oak tree landscape.  The Collier County area lacks opportunity and tee times for public golf.</p>
+				<p>In addition to the golf course, the plan includes a driving range and practice area for introduction to golf by The First Tee.</p>
+				<p>Peter Jacobsen and Jim Hardy founded <a style='font-weight:bold' href='www.jacobsenhardy.com/' target='_blank' rel='nofollow'>Jacobsen Hardy Design</a> and have a long history in golf course design. The team's portfolio includes Moody Gardens Golf Course, which offers a unique tropical golfing experience. The Wanderers Club at Wellington is another gem, known for its meticulously maintained fairways and greens. Brasada and Grays Crossing are also highly regarded, offering stunning views and challenging layouts. Other notable designs include Hammock Bay, Salishan, Moorpark CC, Redstone, Stone Creek, BlackHorse, Cypress Ridge, Creekside, and the prestigious Oregon Golf Club. Each of these courses showcases the duo's commitment to golf harmoniously coexisting with the natural environment.</p>
+			</div>
+	</div>
+
+    <script>
+            const map = L.map('map').setView([26.1841028,-81.6929532], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			
+			
+	    	        this._container.innerHTML = `
+	                    <lite-youtube videoid="h6sd5iDFQSw" style="background-image: url('https://i3.ytimg.com/vi/h6sd5iDFQSw/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=h6sd5iDFQSw" class="lty-playbtn" title="Play Video.  Credit: National Links Trust">
+	                            <span class="lyt-visually-hidden">Credit: National Links Trust/span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([26.1841028,-81.6929532]).addTo(map);
+
+	        marker.bindPopup("<b>Willow Oak 9</b><br>Collier County, Florida</br>").openPopup();
+	</script>
+	
+   	<p><a href="https://fescue.github.io/Rock-Creek-Golf/">NLT's Rock Creek in Washington DC</a></p>
+	
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
+</html>

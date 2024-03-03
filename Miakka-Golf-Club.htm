@@ -1,0 +1,71 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Miakka Golf Club - Florida</title>
+  <meta name="description" CONTENT="Miakka Golf Club Florida Dana Fry Jason Straka Paul Aziger Troon Myakka Green Complex Tees Irrigation Drainage">
+  {% include h.html %}
+</head>			
+		
+<body>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Miakka"></div>
+			<div class="content" tabindex="0"  aria-label="Fry Straka">
+				<H1>Miakka Golf - Florida</H1> 
+				<p>Owner Steve Herrig is building <a style='font-weight:bold' href='https://miakkagc.com' target='_blank' rel='nofollow'>Miakka</a>.  Miakka is a new golf club located in Sarasota County, Florida.  The new golf course is designed by golf course architects Dana Fry and Jason Straka of <a style='font-weight:bold' href='https://frystraka.com/en/' target='_blank' rel='nofollow'>Fry Straka</a> with assistance from PGA Tour player Paul Azinger.  The property will have an 18 hole championship course and a 12 hole short course.</p>
+				<p>The course is situated on a property featuring natural wetlands, rolling hills, and mature oak trees.  The property is exceptional with two miles of frontage along the Myakka River.  The layout takes full advantage of the natural terrain with holes that weave through the wetlands and offer challenging carry shots.  Miakka golf course is designed as an 18-hole championship course measuring approximately 7,700 yards from the back tees.  Stadium and Lazer Zoysia grass will be used on fairways, tees and greens.</p>
+				<p>Miakka is committed to environmental sustainability.  The course was designed with the natural environment in mind by using native grasses and grassing to reduce water usage promoting healthy habitats for local wildlife.  Modern irrigation control and drainage infrastructure help conserve water to prevent runoff.</p>
+				<p>According to county filings, the property spans over 1000 acres.  The site is located on the east side of River Road, north of Clark Road.  The course was approved by the Sarasota County Commission in 2019 and is currently under construction with a 2025 opening.</p>
+				<p>Green Golf Partners(acquired by <a style='font-weight:bold' href='https://www.troon.com/' target='_blank' rel='nofollow'>Troon Golf</a>) is a golf course management and development company involved in the Miakka golf course project.  Green Golf Partners provided management and consulting services for the project working closely with the development team, Dana Fry and Jason Straka.  Longer term, Green Golf Partners will be responsible for managing and operating the course community grounds and operations.</p>	
+			</div>
+	</div>
+	
+    <script>
+            const map = L.map('map').setView([27.1610437,-82.3008635], 7);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([27.1610437,-82.3008635]).addTo(map);
+
+	        marker.bindPopup("<b>Sarasota County, Florida</b>").openPopup();
+	</script>
+    <p><a href="https://fescue.github.io/Kinsale-Golf-Club/">Hanse Wagner's Kinsale in Florida</a></p>
+	
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
+</html>

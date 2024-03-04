@@ -1,60 +1,78 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
-<head>
+ <head> 
 	<title>Rivergrass - New Golf Development - Collier County, Florida</title>
 	<meta name="description" CONTENT="Rivergrass New Golf Course Real Estate Development Collier County Big Cypress Florida">
-	{% include headerSM.html %}
-</head>
-
+  
+  {% include h40.html %}
+</head>			
+		
 <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<H1>Rivergrass - Community Golf in Florida</H1> 
-	<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Golf"></div>
+			<div class="content" tabindex="0"  aria-label="Rivergrass">
+				<H1>Rivergrass - Community Golf in Florida</H1> 
+				<p>The proposed <a style='font-weight:bold' href='https://rivergrass.com/' target='_blank' rel='nofollow'>Rivergrass</a> is a new development project east of Naples, Florida and planning includes an 18 hole golf course.  The County Commission approved the project proposed by Collier Enterprises on June 27, 2023.</p>
+				<p>The project led by Collier Enterprises consists of two new towns named Rivergrass and Bellmar in Big Cypress.  A centrally situated town will link Rivergrass and Bellmar.  This added town will span approximately 544 acres.  Residentially, the Big Cypress area is projected to add 4,432 single-family residences along with multi-family homes.  A <a style='font-weight:bold' href='https://cvportal.colliercountyfl.gov/CityViewWeb/Planning/GetFile/14664263' target='_blank' rel='nofollow'>hallmark of this development</a> is its commitment to sustainability/environmental preservation.  The plan earmarks more than 716 acres, over 46% of the town's total land, to be preserved as open space.  Exceeding county requirements/mandate an additional 12,000 acres are set aside for farming and wildlife habitat.</p>
+				<p>The golf course is in early planning stages.  Golf architect and design features are not publicly announced as of spring 2024.</p>
+			</div>
+	</div>
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-    		const storymap_data =  "https://fescue.github.io/data/Rivergrass-Golf.json";
+    <script>
+            const map = L.map('map').setView([26.2567337,-81.3768206], 7);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
 
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');			
+			
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="_gVJ2w4FdxI" style="background-image: url('https://i3.ytimg.com/vi/_gVJ2w4FdxI/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=_gVJ2w4FdxI" class="lty-playbtn" title="Play Video.  Credit: Fox 4">
+	                            <span class="lyt-visually-hidden">Credit: Fox 4</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
 
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([26.2567337,-81.3768206]).addTo(map);
 
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-	</script> 
-	<script type="text/javascript" class="init"></script> 
-	<p><a href="https://winknews.com/2023/07/20/big-cypress-approval/">Big Cypress</a></p>
+	        marker.bindPopup("<b>Naples, Florida</b>").openPopup();
+	</script>
+    	<p><a href="https://fescue.github.io/The-International/">The International</a></p>
 	<p><a href="https://fescue.github.io/SandGlass/">Tom Doak's SandGlass</a></p>
-   {% include bodyFooter.html %}
- </BODY>	
+	{% include bodyFooter.html %}
+ </body>	
  {% include footer.html %}
 </html>

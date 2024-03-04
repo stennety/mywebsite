@@ -1,91 +1,80 @@
 ---
 
 ---
+<!DOCTYPE html>
 <html lang="en">
- <head>
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7ZF0C1GD"></script>
- <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'G-CE7ZF0C1GD');
-  </script>
-  <!-- Clarity tracking code for https://fescue.github.io --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "h4dgedaqyl");</script>
+ <head> 
   <title>Hope for Renovation at Sandpiper Golf, Santa Barbara, California</title>
   <meta name="description" CONTENT="Tom Doak Renovation Sandpiper Golf Club Santa Barbara, California">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta http-equiv='content-language' content='en-us'>
-  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-  <meta name="msvalidate.01" content="C4EAECFC8175E41187A49DFC313FFC62" />
-  <script src="https://cmp.osano.com/Azqae7Tg5rIXKJsl/a6843304-e87a-485e-aabb-2b21be3ed691/osano.js"></script>
-</head>
-
+  
+  {% include h40.html %}
+</head>			
+		
 <body>
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Tom Doak"></div>
+			<div class="content" tabindex="0"  aria-label="Sandpiper">
+				<H1>Renovation at Sandpiper Golf Club</H1> 
+				<p>Plans for <a style='font-weight:bold' href='https://en.wikipedia.org/wiki/Tom_Doak' target='_blank' rel='nofollow'>Tom Doak</a> to re-design <a style='font-weight:bold' href="https://www.sandpipergolf.com/golf-course/course-tour">Sandpiper Golf Club</a> in Santa Barbara(Goleta), California have been given hope.</p>
+				<p>The property faces the Channel Islands and aging <a style='font-weight:bold' href='https://www.independent.com/2022/01/19/so-long-offshore-platforms/' target='_blank' rel='nofollow'>offshore oil platforms</a> scheduled to be decommissioned.  Sandpiper was designed by <a style='font-weight:bold' href='https://en.wikipedia.org/wiki/William_Francis_Bell' target='_blank' rel='nofollow'>William F. Bell</a> and opened in 1972.  The landscape has the advantage of natural terrain atop seaside cliffs.  A new routing from Tom Doak to integrate the shoreline into its design is promising.  The Bell layout is routed laterally to the clifftop for the majority of the journey with the exception of the downhill par 3 11th hole which plays downhill to a beachside green.</p>
+				<p>The new ideas do not have a construction start date yet.  However, Doak posted to Instagram a photo in early 2021 of the 18th hole with the caption that the pond in front of the green would remain due to an threatened wildlife species.</p>
+				<p>Doak is a golf course architect who has designed many of the most famous courses in the world, including seaside links St. Patrick's in Ireland, Pacific Dunes in Oregon, and Tara Iti in New Zealand.  The renovation could potentially include a number of changes, including changing the course's original routing, removing trees, improving drainage, renovating bunkers and greens.</p>
+				<p>Approvals for permitting may require California Coastal Commission involvement.</p>
+			</div>
+	</div>
+		
+    <script>
+            const map = L.map('map').setView([34.430583,-119.909908], 6);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');			
+			
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="UkrRhaEdubg" style="background-image: url('https://i3.ytimg.com/vi/UkrRhaEdubg/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=UkrRhaEdubg" class="lty-playbtn" title="Play Video.  Credit: SCGA">
+	                            <span class="lyt-visually-hidden">Credit: SCGA</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+				
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
 	
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<H1>Hope for Renovation at Sandpiper Golf, Santa Barbara, California</H1> 
-<link rel="shortcut icon" type="image/png" href="/images/Fairway-Hole-2.png">
-<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script> 
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"> 
-	<div id="storyMap"></div>
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([34.430583,-119.909908]).addTo(map);
 
-	  <script> 
-		"use strict";
-				  
-		// JSON file containing data for the Story Map
-		const storymap_data =  "https://fescue.github.io/data/Sandpiper-Golf-Course.json";
-
-		// Options for Story Map
-		const storymap_options = {
-				  language: "en",
-				  map_type: "osm:standard",
-				  calculate_zoom: false
-				};
-
-				// the Story Map object
-				const storymap = new VCO.StoryMap("storyMap", storymap_data, storymap_options);
-
-				// Leaflet Zoom control
-				const zoomControl = L.control.zoom({ position: "topleft" });
-
-				// Leaflet Full-Screen control
-				const fullscreenControl = new L.Control.Fullscreen({
-				  position: "topleft"
-				});
-
-				// grouping of controls
-				const leafletControlsToAdd = [zoomControl, fullscreenControl];
-
-				// event for when the Story Map is loaded
-				storymap.on("loaded", function() {
-				  // leaflet.js web map object
-				  const leafletMap = storymap.map;
-
-				  // add controls to Leaflet web map
-				  leafletControlsToAdd.forEach(element => leafletMap.addControl(element));
-				});			  
-				  
-			  </script> 
-
-		<script type="text/javascript" class="init"></script> 
-</body>
-  <footer>
-    <p><a href="https://www.sandpipergolf.com/golf-course/course-tour">Sandpiper Course Tour</a></p>
-    <p><a href="https://fescue.github.io/Twin-Bridges-Montana/">Twin Bridges in Montana</a></p>	
-    <p><a href="https://fescue.github.io/Ouli-Farms/">Ouli Farms in Hawaii</a></p>
-	<table style="width:100%">
-		<tr>
-			<th><a href="https://fescue.github.io/">All New Golf Courses</a></th>
-			<th><a href="https://fescue.github.io/2021/">2021 archive</a></th>
-			<th><a href="https://fescue.github.io/2020/">2020 archive</a></th> 
-			<th><a href="https://fescue.github.io/2019/">2019 archive</a></th>
-			<th><a href="https://fescue.github.io/incomplete/">Waiting Room - Permits - NLE</a></th>
-		</tr>
-	</table>
-	<nav>
-   	 <p>Creators and managers of this list make no representations as to its accuracy, completeness, and/or its validity.  Users do so at their own risk.  <a href="https://fescue.github.io/privacy/">Privacy Policy</a></p>
-   	 <p><a href="https://fescue.github.io/Contact-Us/">Contact Us</a></p>
-	</nav>
-</footer>
+	        marker.bindPopup("<b>Cebu, Philippines</b>").openPopup();
+	</script>
+    <p><a href="https://fescue.github.io/Hart-Ranch-Golf/">Hart Ranch Golf</a></p>
+	
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
 </html>
-

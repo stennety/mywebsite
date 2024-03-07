@@ -27,9 +27,9 @@ jobs:
       - name: Run updateSharedBlockBlock
         run: node .github/updateSharedBlockBlock.js
         
-      # post AlgorithmAndDataStructure
+      # .github/updateSortedData.js
       - name: Run updateAlgorithmAndDataStruct
-        run: node .github/updateAlgorithmAndDataStruct.js
+        run: node .github/updateSortedData.js
 
       # comit and push
       - name: Commit and Push Changes

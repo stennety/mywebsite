@@ -63,6 +63,8 @@ function createJSONFromDirectory(folders, outputFileName) {
 try {
     console.log('updateSharedBlockBlock: Start \n');
     createJSONFromDirectory(["AlgorithmAndDataStruct"], "AlgorithmAndDataStruct");
+    createJSONFromDirectory(["Math", "Graphic"], "Knowledge");
+    createJSONFromDirectory(["Collection", "Concept", "Programming", "DevelopmentEnvironment", "Tool"], "Experience");
     console.log('updateSharedBlockBlock: End \n');
 } catch (err) {
     console.error(err);

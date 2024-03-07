@@ -1,0 +1,1027 @@
+[
+  {
+    "Type": "Content",
+    "Name": "Communication",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Communication.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Experience_LatentBug",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Experience_LatentBug.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Habit_Carefully",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Habit_Carefully.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Habit_FocusNow",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Habit_FocusNow.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "HowTo_Communication",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/HowTo_Communication.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "HowTo_TaskAllocation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/HowTo_TaskAllocation.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "HowTo_Work",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/HowTo_Work.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "LegendaryDeveloperWordsCollection",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/LegendaryDeveloperWordsCollection.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "LegendaryDeveloperWordsCollection_JohnCarmack",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/LegendaryDeveloperWordsCollection_JohnCarmack.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Mind_ExpertBeginner",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Mind_ExpertBeginner.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Mind_Knowledge",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Mind_Knowledge.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ProblemSolving",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/ProblemSolving.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Programming_CodeHierarchy",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Collection/Programming_CodeHierarchy.md"
+  },
+  {
+    "Type": "Content",
+    "Name": ".Net",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/.Net.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Abstract",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Abstract.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Agile",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Agile.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "AgileRetrospective",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/AgileRetrospective.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Algorithm",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Algorithm.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Anaconda",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Anaconda.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Bandwidth",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Bandwidth.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Batch",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Batch.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CICD",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/CICD.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CMake",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/CMake.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Camera",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Camera.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Camera_Infrared",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Camera_Infrared.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CellularAutomaton",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/CellularAutomaton.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Chache",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Chache.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Complexity",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Complexity.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Concept_DebugAndException",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Concept_DebugAndException.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DBDesigne",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/DBDesigne.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DataStruct",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/DataStruct.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DevelopmentTool_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/DevelopmentTool_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DevelopmentTool_01_WhyDevelopingDevelopmentTools",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/DevelopmentTool_01_WhyDevelopingDevelopmentTools.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DevelopmentTool_04_HowToAutomation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/DevelopmentTool_04_HowToAutomation.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Digitalization",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Digitalization.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Dll_Marshalling",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Dll_Marshalling.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FrameWork",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/FrameWork.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FuzzyAlgorithm",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/FuzzyAlgorithm.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "GUI",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/GUI.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Geometry",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Geometry.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Handler",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Handler.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Kanban",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Kanban.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Kanban.png",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Kanban.png"
+  },
+  {
+    "Type": "Content",
+    "Name": "KanbanBoard",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/KanbanBoard.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "NVR",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/NVR.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Packet",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Packet.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Pivot",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Pivot.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ProgramSolving",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/ProgramSolving.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "RTSP",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/RTSP.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "RenderPass",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/RenderPass.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Repactoring",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Repactoring.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Scrum",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Scrum.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Segmentation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Segmentation.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "SideProject",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/SideProject.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ThreeJS",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/ThreeJS.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "TroubleShooting",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/TroubleShooting.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Variables",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/Variables.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "WrapperDll",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Concept/WrapperDll.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "ConfigurationManagement"
+  },
+  {
+    "Type": "Title",
+    "Header": "##",
+    "Name": "SVN"
+  },
+  {
+    "Type": "Content",
+    "Name": "blame",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/ConfigurationManagement/SVN/blame.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "blame.png",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/ConfigurationManagement/SVN/blame.png"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Language"
+  },
+  {
+    "Type": "Title",
+    "Header": "##",
+    "Name": "CSharp"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_Activator",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_Activator_CreateInstance",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator_CreateInstance.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_Attribute",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Attribute.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_BoxingUnboxing",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_BoxingUnboxing.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_ExtensionMethod",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_ExtensionMethod.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_HideConstructor",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_HideConstructor.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_IEnumerator",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_IEnumerator.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_IntPtr",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_IntPtr.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_NamedParameter",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_NamedParameter.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_StudySite",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_StudySite.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_StyleCop",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_StyleCop.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "CSharp_using",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_using.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Task",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/Task.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "##",
+    "Name": "Markdown"
+  },
+  {
+    "Type": "Content",
+    "Name": "Markdown",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/Markdown/Markdown.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Markdown_AddDownloadLink",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/Markdown/Markdown_AddDownloadLink.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Markdown_AddImage_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/Markdown/Markdown_AddImage_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Markdown_AddImage_01_GoogleDrive",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/Markdown/Markdown_AddImage_01_GoogleDrive.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ProgrammingLanguage",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/ProgrammingLanguage.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Paradigm"
+  },
+  {
+    "Type": "Content",
+    "Name": "ConcurrencyAndParallel",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ConcurrencyAndParallel.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ConcurrencyProgramming_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ConcurrencyProgramming_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "DataOrientiedProgramming_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/DataOrientiedProgramming_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FunctionalProgramming_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/FunctionalProgramming_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FunctionalProgramming_01_PureFunction",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/FunctionalProgramming_01_PureFunction.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FunctionalProgramming_02_Immutability",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/FunctionalProgramming_02_Immutability.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FunctionalProgramming_03_HighOrderFunction",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/FunctionalProgramming_03_HighOrderFunction.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "FunctionalProgramming_04_LambdaExpression",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/FunctionalProgramming_04_LambdaExpression.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_00.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_01_MyEffort",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_01_MyEffort.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_02_IsAHasA",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_02_IsAHasA.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_03_Dependency",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_03_Dependency.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_04_01_Inheritance",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_04_01_Inheritance.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_04_02_Abstraction",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_04_02_Abstraction.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_04_03_Encapsulation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_04_03_Encapsulation.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_04_04_Polymorphism",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_04_04_Polymorphism.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_05_00_RDD",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_05_00_RDD.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_05_01_Collaboration",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_05_01_Collaboration.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_05_02_Responsibility",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_05_02_Responsibility.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ObjectOrientedProgramming_05_02_Role",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ObjectOrientedProgramming_05_02_Role.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Paradigm",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/Paradigm.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ParallelProgramming_00",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Paradigm/ParallelProgramming_00.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "HOLOLENS"
+  },
+  {
+    "Type": "Content",
+    "Name": "BuildSetting",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/HOLOLENS/BuildSetting.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Unity"
+  },
+  {
+    "Type": "Content",
+    "Name": "ContentSizeSetter",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/ContentSizeSetter.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Controller_FirstPerson_01",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Controller_FirstPerson_01.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "EventHandler",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/EventHandler.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "##",
+    "Name": "Package"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_AssetManagement",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_AssetManagement.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_MeshBacker",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_MeshBacker.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_NaughtyAttributes",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_NaughtyAttributes.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_SplineMesh",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_SplineMesh.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_TestRunner_01",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_TestRunner_01.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_TestRunner_02",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_TestRunner_02.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_TestRunner_03",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_TestRunner_03.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Package_XR",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package/Unity_Package_XR.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Package",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Package.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Profiling",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Profiling.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Render_pipeline",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Render_pipeline.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "SceneSwitch",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/SceneSwitch.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_ArticulationBody",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_ArticulationBody.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_AssemblyDefinition",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_AssemblyDefinition.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Attributes_FormerlySerializedAs",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Attributes_FormerlySerializedAs.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Attributes_SerializeReference",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Attributes_SerializeReference.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Batching",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Batching.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Collision",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Collision.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Collision_01_MergeCollider",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Collision_01_MergeCollider.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_CombinedMesh",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_CombinedMesh.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Compiler_IL2CPP",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Compiler_IL2CPP.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Debug",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Debug.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Editor_Coroutines",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Editor_Coroutines.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Editor_Field",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Editor_Field.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Editor_Gizmo",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Editor_Gizmo.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Inspector",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Inspector.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Joint",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Joint.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Light_BakedLight",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Light_BakedLight.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Light_BakedMode",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Light_BakedMode.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Light_LightMapUV",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Light_LightMapUV.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Light_Mobile",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Light_Mobile.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_MonoBehaviour",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_MonoBehaviour.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Occulusion",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Occulusion.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Prefab_01_Default",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Prefab_01_Default.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Prefab_02_NestedPrefab",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Prefab_02_NestedPrefab.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Prefab_03_PrefabVariants",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Prefab_03_PrefabVariants.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_RigidBody_01_ForceMode",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_RigidBody_01_ForceMode.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Rigidbody",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Rigidbody.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Transform_MoveParent",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Transform_MoveParent.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Transform_MoveParent_MoveTo",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Transform_MoveParent_MoveTo.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_Transform_MoveParent_TransformTo",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_Transform_MoveParent_TransformTo.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_Canvas",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_Canvas.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_Event_01",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_Event_01.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_Layout_01_BasicLayout",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_Layout_01_BasicLayout.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_Layout_02_AutoLayout",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_Layout_02_AutoLayout.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_TMP",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_TMP.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_TMP_01_Tag",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_TMP_01_Tag.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_TMP_02_CustomTag",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_TMP_02_CustomTag.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_TMP_03_Font",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_TMP_03_Font.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UI_TMP_04_FontAsset",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UI_TMP_04_FontAsset.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_Camera",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_Camera.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_Camera_RenderTextureRendering",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_Camera_RenderTextureRendering.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_Camera_Stack",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_Camera_Stack.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_PostProcess",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_PostProcess.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_RenderPass",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_RenderPass.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_RenderingPipeline",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_RenderingPipeline.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_Shader",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_Shader.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_URP_ShaderGraph",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_URP_ShaderGraph.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_UnityMessage_IEnumerator",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_UnityMessage_IEnumerator.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Unity_WebGL",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unity/Unity_WebGL.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Unreal"
+  },
+  {
+    "Type": "Title",
+    "Header": "##",
+    "Name": "Animation"
+  },
+  {
+    "Type": "Content",
+    "Name": "ModuleSkeletalMesh",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unreal/Animation/ModuleSkeletalMesh.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Montage",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unreal/Animation/Montage.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Asset",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unreal/Asset.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "BoneSpaceAndIndicies",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unreal/BoneSpaceAndIndicies.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "USTRUCT",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/Unreal/USTRUCT.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "VR"
+  },
+  {
+    "Type": "Content",
+    "Name": "VRUnrealFullBodyIK",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/DevelopmentEnvironment/VR/VRUnrealFullBodyIK.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "3DP chip",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/3DP chip.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Bing_ChatAI",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Bing_ChatAI.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ChatGPT",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/ChatGPT.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ChatGPT_01_WithGoogleSearch",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/ChatGPT_01_WithGoogleSearch.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ChatGPT_02_SummaryYoutube",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/ChatGPT_02_SummaryYoutube.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ChatGPT_03_WithCoding",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/ChatGPT_03_WithCoding.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Chrome_Naver_English_Dictionary",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Chrome_Naver_English_Dictionary.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Chrome_Shortcuts",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Chrome_Shortcuts.md"
+  },
+  {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "GitHub"
+  },
+  {
+    "Type": "Content",
+    "Name": "GitHub Actions",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/GitHub/GitHub Actions.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "LINER",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/LINER.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "LINER_AI",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/LINER_AI.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Postman",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Postman.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "ProcessExplorer",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/ProcessExplorer.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "VisualStudio_GitHubCopilot",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/VisualStudio_GitHubCopilot.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window_DarkNamer",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window_DarkNamer.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window_DesktopCal",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window_DesktopCal.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window_RemoteDesktop",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window_RemoteDesktop.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window_SnippingTool",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window_SnippingTool.md"
+  },
+  {
+    "Type": "Content",
+    "Name": "Window_Sticky_Notes",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Tool/Window_Sticky_Notes.md"
+  }
+]

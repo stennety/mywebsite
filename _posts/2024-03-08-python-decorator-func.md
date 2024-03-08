@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Giới thiệu về Python Decorator Function
+tags: [python]
 ---
 
 

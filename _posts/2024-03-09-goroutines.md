@@ -38,7 +38,7 @@ Goroutines chạy concurrently bằng việc bắt đầu một method hay funct
 Ở hàm main, `go hello()` start một Goroutine, hàm gọi `hello()` sẽ chạy concurrently với hàm `main()`. Hàm main có default một Goroutine và được gọi là main Goroutine.
 
 Kết quả
-```sheet
+```console
 main function
 
 Program exited.
@@ -73,7 +73,7 @@ func main() {
 
 Kết quả
 
-```sheet
+```console
 Hello world goroutine
 main function
 

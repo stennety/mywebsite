@@ -126,6 +126,8 @@ Hình minh hoạ chương trình trên:
 ![Giải thích Goroutine](https://golangbot.com/content/images/2017/07/Goroutines-explained.png)
 
 
-Notes: Bài viết được lược dịch từ: https://golangbot.com/goroutines/
+Notes: Bài viết được lược dịch từ: 
+
+[https://golangbot.com/goroutines/](https://golangbot.com/goroutines/)
 
 

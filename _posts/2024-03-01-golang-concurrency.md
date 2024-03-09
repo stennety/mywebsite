@@ -34,4 +34,6 @@ Một lưu ý là không phải lúc nào paralelism cũng chạy nhanh hơn. V�
 
 Concurrency trong Go được handle bởi `Gorounties` và `channels`. Chúng ta sẽ tìm hiểu cách sử dụng chúng trong bài tới. 
 
-Notes: Bài viết được lược dịch từ: https://golangbot.com/goroutines/
+Notes: Bài viết được lược dịch từ: 
+
+[https://golangbot.com/goroutines/](https://golangbot.com/goroutines/)

@@ -84,6 +84,46 @@ Lần này hàm `main` sleep 1 giây, call `go hello()` có đủ thời gian đ
 
 Ghi chú: Sử dụng hàm `Sleep()` chỉ là một hack way để hiểu cách Goroutine hoạt động. `Channel` có thể được dùng để giao tiếp với main Goroutine để block main Goroutine cho tới khi hello Goroutine kết thúc. Chúng ta sẽ thảo luận vấn đề này sau.
 
-# 
+## Start multiple Goroutines
+
+Thử một đoạn code sau với nhiều Goroutine hơn
+
+```go
+package main
+
+import (  
+    "fmt"
+    "time"
+)
+
+func numbers() {  
+    for i := 1; i <= 5; i++ {
+        time.Sleep(250 * time.Millisecond)
+        fmt.Printf("%d ", i)
+    }
+}
+func alphabets() {  
+    for i := 'a'; i <= 'e'; i++ {
+        time.Sleep(400 * time.Millisecond)
+        fmt.Printf("%c ", i)
+    }
+}
+func main() {  
+    go numbers()
+    go alphabets()
+    time.Sleep(3000 * time.Millisecond)
+    fmt.Println("main terminated")
+}
+
+```
+Trong đoạn code trên, có 2 Goroutine được start, `number` and `alphabets` Goroutine. The `number` Goroutine, ngủ 250ms sau đó in ra giá trị của biến `i`, sau đó ngủ tiếp và in tiếp .... cho tới khi i = 5. Tương tư cho `alphabets` Goroutine. 
+
+Output của chươnng trình
+```shell
+1 a 2 3 b 4 c 5 d e main terminated
+```
+Hình minh hoạ chương trình trên: 
+
+![Giải thích Goroutine](https://golangbot.com/content/images/2017/07/Goroutines-explained.png)
 
 

@@ -52,17 +52,6 @@
 	    }
 	}
 
-	footer {
-	        width: 100%;
-	        min-height: 100px; /* Adjust based on actual content size */
-	        background-color: #f0f0f0; /* Optional: for better visibility */
-	        position: relative;
-	}
-
-	footer nav {
-	        padding: 20px; /* Provide some padding inside the footer */
-	}
-
 	img {
 	  height: auto;
 	  width: 100%;

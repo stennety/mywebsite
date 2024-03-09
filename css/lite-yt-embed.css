@@ -83,3 +83,14 @@ lite-youtube.lyt-activated > .lty-playbtn {
     white-space: nowrap;
     width: 1px;
   }
+
+ @media (min-width: 1024px) { /* Adjusts for screens wider than 1024px */
+    lite-youtube {
+        max-width: 720px; /* Maximum width for desktop */
+        /* Define height explicitly if necessary, for example: */
+        height: auto; /* Adjusts height automatically based on the aspect ratio */
+    }
+    lite-youtube::after {
+        padding-bottom: calc(100% / (16 / 9)); /* Maintains a 16:9 aspect ratio */
+    }
+ }

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Giới thiệu về Golang Concurrency
+title: Giới thiệu về Concurrency
 tags: [golang, concurrency]
 ---
+Bài việt được lược dịch từ: https://golangbot.com/concurrency/
 
 Trước tiên chúng ta cần phân biệt hai khái niệm dễ gây nhầm lẫn là concurrency và paralled. 
 
@@ -12,7 +13,7 @@ Notes: 2 khái niệm này khi dịch ra tiếng Việt khá là giống nhau v�
 
 Hiểu đơn giản concurrecy là khả năng deal với nhiều tasks cùng một lúc. Ví dụ, một người đang chạy bộ và dây giầy của anh ta bị tuột, người đó dừng lại, buộc dây giầy và tiếp tục chạy bộ. Đó là ví dụ đơn giản của concurency. Người đó có khả năng handle cả việc chạy và buộc dây giày, người đó có thể handle nhiều việc cùng một lúc. 
 
-## Vậy parallelism là gì và sự khác nhau giữa concurrency và parallelism là gì?
+## Vậy parallelism là gì và sự khác nhau giữa concurrency và parallelism
 
 Parallelism có thể hiểu đơn giản là làm nhiều việc cùng một lúc, nghe có vẻ khá giống với concurrency nhưng thực ra chúng rất khác nhau. 
 Quay về ví dụ trước, người chạy bộ đó vừa chạy vừa nghe nhạc trên chiếc iPod của anh ta, trong trường hợp này, việc chạy và việc nghe diễn ra đồng thời, anh ta có khả năng làm nhiều việc một lúc, đó gọi là parallelism. 
@@ -28,4 +29,10 @@ Khi browser đó chạy trên multi-core processer, trong trường hợp này c
 Hình minh hoạ
 
 ![alt text](https://golangbot.com/content/images/2017/06/concurrency-parallelism-copy.png)
+
+Một lưu ý là không phải lúc nào paralelism cũng chạy nhanh hơn. Vì khi chạy parallel các thành phần phải giao tiếp với nhau. Tronng ví dụ trên, khi download file hoàn thành, nó phải giao tiếp với user, hiển thị một popup chẳng hạn, việc đó làm tốn thơi gian hơn so với concurrency.
+
+## Concurrency trong Go
+
+Concurrency trong Go được handle bởi `Gorounties` và `channels`. Chúng ta sẽ tìm hiểu cách sử dụng chúng trong bài tới. 
 

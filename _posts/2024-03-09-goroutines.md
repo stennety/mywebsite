@@ -19,7 +19,7 @@ Goroutinues là function hay method chạy concurrenly với function hay method
 
 Goroutines chạy concurrently bằng việc bắt đầu một method hay function với từ khoá `go`.
 
-  ```golang
+  ```go
   package main
 
   import (
@@ -53,7 +53,7 @@ Chỉ có đoạn text `main function` hiển thị, đoạn text `hello world g
 Bây giờ chúng ta đã hiểu vì sao đoạn text `Hello world goroutine` không được in. Sau khi call `go hello()`, the control ngay lập tức chạy dòng code tiếp theo, in ra `main function` và kết thúc chương trình và `hello` Goroutines không có cơ hội nào được chạy.
 
 Sửa đoạn code trên như sau
-```Go
+```go
 package main
 
 import (  

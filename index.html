@@ -39,36 +39,6 @@
 	<p id="done"></p>
 
 	{% include bodyFooter.html %}
-	
-	<!--
-	<script>
-		// YouTube lite - artificial delay somewhat simulates a script[defer]
-		setTimeout(_ => {
-		  const elem = document.createElement('script');
-		  elem.src = '/js/lite-yt-embed.js';
-		  document.head.append(elem);
-		
-		  document.querySelector('#done').textContent = 'Script complete.'
-		}, 800);
-	</script>
-	-->
-	
-	<!-- bfcache 
-	function beforeUnloadListener(event) {
-	  event.preventDefault();
-	  return event.returnValue = 'Are you sure you want to exit?';
-	};
-	
-	// A function that invokes a callback when the page has unsaved changes.
-	onPageHasUnsavedChanges(() => {
-	  window.addEventListener('beforeunload', beforeUnloadListener);
-	});
-	
-	// A function that invokes a callback when the page's unsaved changes are resolved.
-	onAllChangesSaved(() => {
-	  window.removeEventListener('beforeunload', beforeUnloadListener);
-	});
-	-->
  </BODY>
  {% include footer.html %}
 </html>

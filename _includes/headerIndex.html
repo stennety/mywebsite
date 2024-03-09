@@ -27,9 +27,16 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
 	<style type="text/css" class="init">	
-			div.container { max-width: 1200px ; min-height: 4000px ; }
+			div.container { max-width: 1200px ; min-height: 4000px ; }	
+			#myTable.display.dataTable tbody tr td {
+			    font-size: 11px; /* Existing font size adjustment */
+			    padding-top: 3px; /* Adjust the space above the text as needed */
+			    padding-bottom: 3px; /* Adjust the space below the text as needed */
+			}
+			
 			#myTable.display.dataTable tbody tr {
-			    height: 18px; /* Adjust as needed */
+			    height: auto; /* Allows the row height to adjust based on content and padding */
+			    font-size: 11px;
 			}
 	</style>
     	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

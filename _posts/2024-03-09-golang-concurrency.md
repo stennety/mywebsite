@@ -3,8 +3,6 @@ layout: post
 title: Giới thiệu về Concurrency
 tags: [golang, concurrency]
 ---
-Bài việt được lược dịch từ: https://golangbot.com/concurrency/
-
 Trước tiên chúng ta cần phân biệt hai khái niệm dễ gây nhầm lẫn là concurrency và paralled. 
 
 Notes: 2 khái niệm này khi dịch ra tiếng Việt khá là giống nhau và khó phân biệt nên tốt nhất là sử dụng trực tiếp từ tiếng Anh và không dịch ra tiếng Việt. 
@@ -36,3 +34,4 @@ Một lưu ý là không phải lúc nào paralelism cũng chạy nhanh hơn. V�
 
 Concurrency trong Go được handle bởi `Gorounties` và `channels`. Chúng ta sẽ tìm hiểu cách sử dụng chúng trong bài tới. 
 
+Notes: Bài viết được lược dịch từ: https://golangbot.com/goroutines/

@@ -3,9 +3,6 @@ layout: post
 title: Goroutines
 tags: [golang, concurrency, Goroutines]
 ---
-
-Notes: Bài viết được lược dịch từ: https://golangbot.com/goroutines/
-
 Trong bài trước, chúng ta đã thảo luận về concurency và sự khác biệt giữa concurency và parallelism. Trong bài này chúng ta sẽ nói về cách Go handle concurrency sử dụng `Goroutines`
 
 
@@ -127,5 +124,8 @@ Output của chươnng trình
 Hình minh hoạ chương trình trên: 
 
 ![Giải thích Goroutine](https://golangbot.com/content/images/2017/07/Goroutines-explained.png)
+
+
+Notes: Bài viết được lược dịch từ: https://golangbot.com/goroutines/
 
 

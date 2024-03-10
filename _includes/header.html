@@ -23,10 +23,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="/css/lite-yt-embed.css" />
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.datatables.net/rss.xml">
-	<link defer href="https://cdn.datatables.net/v/dt/dt-2.0.2/fh-4.0.1/r-3.0.0/sp-2.3.0/datatables.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+	<link defer rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+	<link defer rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
+	<link defer rel="stylesheet" type="text/css" href="https://cdn.datatables.net/scroller/2.0.5/css/scroller.dataTables.min.css">
 	<style type="text/css" class="init">	
-			div.container { max-width: 1200px }
+		div.container { max-width: 1200px ; }	
+		#myTable.display.dataTable tbody tr td {
+			font-size: 12px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+		
+		#myTable.display.dataTable tbody tr {
+			height: auto;
+			font-size: 12px;
+		}
+
+		table.dataTable tbody tr.odd, table.dataTable tbody tr.even {
+			background-color: #FFF; /* Set to your preferred background color, #FFF for white */
+		}
+		
+		footer {
+			width: 100%;
+			min-height: 40px; /* Adjust based on actual content size */
+			background-color: #f0f0f0; /* Optional: for better visibility */
+			position: relative;
+		}
+		footer nav {
+			padding: 10px; /* Provide some padding inside the footer */
+		}
+		footer a {
+			min-width: 40px; /* Reserve enough space for text to prevent layout shifts */
+			display: inline-block;
+			text-align: center;
+		}
 	</style>
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script defer src="https://cdn.datatables.net/v/dt/dt-2.0.2/fh-4.0.1/r-3.0.0/sp-2.3.0/datatables.min.js"></script>
+    	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script defer type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+	<script defer type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+	<script defer type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
+	<script defer src="https://cdn.datatables.net/scroller/2.0.5/js/dataTables.scroller.min.js"></script>
 	<script type="text/javascript" class="init"></script>

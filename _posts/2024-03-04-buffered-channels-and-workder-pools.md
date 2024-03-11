@@ -154,8 +154,11 @@ func main() {
 ```
 
 Tại hàm main(), a WaitGroup (WG) được tạo với zero value. WG làm việc như một counter, khi hàm `Add` được gọi, WG counter tăng lên 1 và giảm xuống khi gọi làm `Done`. Hàm `Wait()` sẽ đợi cho tới khi WG counter trở về zero. 
+
 Trong ví dụ trên, chúng ta gọi hàm `Add` 3 lần, WG counter có giá trị 3, đồng thời 3 Goroutine cũng được gọi. Mỗi khi một Goroutine chạy xong, hàm `Done()` được gọi để giảm giá trị của WG counter. Khi hàm `Done()` được gọi 3 lần, WG counter trở về zero và main Goroutine tiếp tục chạy. 
+
 Chú ý là pass con trỏ của biến wg. Nếu khônng phải là con trỏ, mỗi Goroutine sẽ có một bản copy của wg và hàm main() sẽ không được thông báo khi chúng chạy xong.
+
 Output của chương trình:
 ```shell
 started Goroutine  2

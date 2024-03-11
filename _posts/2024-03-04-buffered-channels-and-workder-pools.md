@@ -105,8 +105,65 @@ Trong chương trình trên, channel `ch` có capacity là 2 nhưng được ghi
 
 ## Đóng buffered channels
 
-Vẫn có thể đọc data từ một buffered channel đã đóng, channnel sẽ trả về data có sẵn trong channel mà chưa được đọc. Khi đọc hết, zero value được trả về. 
+Chúng ta có thể đóng một buffered channel bằng cách: 
+```go
+close(ch)
+```
+
+Sau đó, vẫn có thể đọc data từ một buffered channel đã đóng, channnel sẽ trả về data có sẵn trong channel mà chưa được đọc. Khi đọc hết, zero value được trả về. 
 
 ## Length vs Capacity
-Capacity: Số lượng giá trị và channel có thể `hold` và được định nghĩa khi khởi tạo channel
+Capacity: Số lượng giá trị và channel có thể `hold` và được định nghĩa khi khởi tạo channel.
 Length: số lương elementn tại thời điểm hiện tại đang trong channel.
+Hiển thị capacity và length bằng 2 hàm:
+```go
+cap(ch)
+len(ch)
+```
+
+## WaitGroup
+
+Một WaitGroup được sử dụng cho việc đợi một nhóm Goroutine thực thì xong. The control sẽ block cho tới khi tất cả Goroutine kết thúc. Hãy xem ví dụ sau:
+
+```go
+package main
+
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
+func process(i int, wg *sync.WaitGroup) {
+	fmt.Println("started Goroutine ", i)
+	time.Sleep(2 * time.Second)
+	fmt.Printf("Goroutine %d ended\n", i)
+	wg.Done()
+}
+
+func main() {
+	no := 3
+	var wg sync.WaitGroup
+	for i := 0; i < no; i++ {
+		wg.Add(1)
+		go process(i, &wg)
+	}
+	wg.Wait()
+	fmt.Println("All go routines finished executing")
+}
+```
+
+Tại hàm main(), a WaitGroup (WG) được tạo với zero value. WG làm việc như một counter, khi hàm `Add` được gọi, WG counter tăng lên 1 và giảm xuống khi gọi làm `Done`. Hàm `Wait()` sẽ đợi cho tới khi WG counter trở về zero. 
+Trong ví dụ trên, chúng ta gọi hàm `Add` 3 lần, WG counter có giá trị 3, đồng thời 3 Goroutine cũng được gọi. Mỗi khi một Goroutine chạy xong, hàm `Done()` được gọi để giảm giá trị của WG counter. Khi hàm `Done()` được gọi 3 lần, WG counter trở về zero và main Goroutine tiếp tục chạy. 
+Chú ý là pass con trỏ của biến wg. Nếu khônng phải là con trỏ, mỗi Goroutine sẽ có một bản copy của wg và hàm main() sẽ không được thông báo khi chúng chạy xong.
+Output của chương trình:
+```shell
+started Goroutine  2
+started Goroutine  0
+started Goroutine  1
+Goroutine 0 ended
+Goroutine 2 ended
+Goroutine 1 ended
+All go routines finished executing
+```
+Order có thể khác do Goroutine có thể chạy khác nhau. 

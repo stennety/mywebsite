@@ -23,7 +23,8 @@
 	</div>
 
     <script>
-                const map = L.map('map').setView([-23.186019,150.9796487], 8);
+	    
+                const map = L.map('map').setView([-23.1786851,150.7934934], 8);
                 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 30,
                     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -68,7 +69,7 @@
 	        myCustomOverlay.addTo(map);
 	
 	        // Add a marker to the map at the same location as the map center
-	        var marker = L.marker([-23.186019,150.9796487]).addTo(map);
+	        var marker = L.marker([-23.1786851,150.7934934]).addTo(map);
 	        marker.bindPopup("<b>Great Keppel Island</b><br>Australia</br>").openPopup();
   </script>
 	<p><a href="https://fescue.github.io/Le-Paradis-St-Lucia/">Greg Norman - St. Lucia</a></p>

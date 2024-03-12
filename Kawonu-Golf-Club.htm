@@ -1,0 +1,69 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<title>Kawonu Golf Club - Andrew Green - South Carolina</title>
+	<meta name="description" CONTENT="Kawonu Golf Club New Course Andrew Green South Carolina Greenville Private">
+	{% include h.html %}
+</head>
+	
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Andrew Green"></div>
+		<div class="content" tabindex="0"  aria-label="Greenville">
+			<H1>Kawonu Golf Club - Andrew Green - South Carolina</H1>
+			<p><a style='font-weight:bold' href='https://greengolfandturf.com/' target='_blank' rel='nofollow'>Andrew Green</a> will lead the design of Kawonu Golf Club in Greenville, South Carolina.  Anticipated as a new opening in 2027, Green has partnered with <a style='font-weight:bold' href='https://www.linkedin.com/in/scott-ferrell-7a7958b/' target='_blank' rel='nofollow'>Scott Ferrell</a> to design a new golf course on the nearly 300 acre property.  Ferrell is a South Carolina resident who led Gary Player Design for fifteen years as President, travelling to oversee new golf course designs globally.</p>
+			<p>The site is near Highway 418 and Fork Shoals Road.  The golf course will be core golf potentially integrating the Reedy River into the design.</p>
+			<p>Andrew Green's calendar as a highly respected and sought-after golf course restoration/renovation expert remains full of high profile projects at <a style='font-weight:bold' href='https://www.youtube.com/channel/UCd-0wri2ZGmrIOTqD_jGbtg' target='_blank' rel='nofollow'>Interlachen Country Club</a> in Minnesota and Karsten Creek in Oklahoma.</p>
+		</div>
+	</div>
+
+  <script>
+                const map = L.map('map').setView([34.650532,-82.297683], 8);
+                const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 30,
+                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(map);
+
+	        L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+	                this._map = map;
+	                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	                
+
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                    var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([34.650532,-82.297683]).addTo(map);
+	        marker.bindPopup("<b>Kawonu Golf Club</b><br>Greenville, South Carolina</br>").openPopup();
+  </script>
+  <p><a href="https://fescue.github.io/Karsten-Creek/">Andrew Green Renovation at Karsten Creek</a></p>
+  <p><a href="https://fescue.github.io/Vaquero-Club-Golf-Texas/">Andrew Green Renovation at Vaquero</a></p>
+  {% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
+</html>

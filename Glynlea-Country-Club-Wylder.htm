@@ -31,15 +31,6 @@
 	            onAdd: function(map) {
 	                this._map = map;
 	                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-	                
-	                // Your lite-youtube HTML
-	                this._container.innerHTML = `
-	                    <lite-youtube videoid="LRUhjYnG2aY" style="background-image: url('https://i3.ytimg.com/vi/LRUhjYnG2aY/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=LRUhjYnG2aY" class="lty-playbtn" title="Play Video.  Credit: Georgia Outdoors">
-	                            <span class="lyt-visually-hidden">Credit: Georgia Outdoors</span>
-	                        </a>
-	                    </lite-youtube>
-	                `;
 	        
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);

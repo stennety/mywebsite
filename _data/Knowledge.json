@@ -430,18 +430,23 @@
     "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Graphic/ZFighting.md"
   },
   {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Network"
+  },
+  {
     "Type": "Content",
     "Name": "Network",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Network.md"
   },
   {
     "Type": "Content",
     "Name": "Packet",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Packet.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Packet.md"
   },
   {
     "Type": "Content",
     "Name": "Protocol",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Protocol.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Protocol.md"
   }
 ]

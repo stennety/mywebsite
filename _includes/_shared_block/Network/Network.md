@@ -1,12 +1,3 @@
-* Network
-    * Protocol
-    * Container
-    * Packet
-    * CodeSample
-         * HTTP
-         * Socket
-         * WebSocket
-
 네트워크(Network)는 컴퓨터, 서버, 주변 장치, 라우터, 스위치 등과 같은 여러 장치가 서로 연결되어 데이터, 리소스를 공유하고 통신할 수 있게 만다는 시스템을 말합니다. 이러한 연결은 물리적인 케이블, 광섬유, 또는 무선 방식을 통해 이루어질 수 있습니다.
 
 ![image](https://github.com/kbmhansungb/kbmhansungb.github.io/assets/56149613/8e86bd87-83d6-4b9f-bbfd-4e755f2c7bfd)

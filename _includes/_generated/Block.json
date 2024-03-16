@@ -2212,13 +2212,6 @@
     "Path": "_includes/_shared_block/Network/Container/Packet.md/Packet.md"
   },
   {
-    "Name": "Content",
-    "Tag": [
-      "Network"
-    ],
-    "Path": "_includes/_shared_block/Network/Content.md"
-  },
-  {
     "Name": "HTTPCommunication",
     "Tag": [
       "Network",
@@ -2286,6 +2279,13 @@
       "WebSocket"
     ],
     "Path": "_includes/_shared_block/Network/Implement/Handler/WebSocket/WebSocketHandler.cs"
+  },
+  {
+    "Name": "Network",
+    "Tag": [
+      "Network"
+    ],
+    "Path": "_includes/_shared_block/Network/Network.md"
   },
   {
     "Name": "Protocol",

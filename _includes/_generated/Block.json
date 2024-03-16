@@ -2195,23 +2195,6 @@
     "Path": "_includes/_shared_block/Math/Noise/PerlineNoise.md"
   },
   {
-    "Name": "Container",
-    "Tag": [
-      "Network",
-      "Container"
-    ],
-    "Path": "_includes/_shared_block/Network/Container/Container.md"
-  },
-  {
-    "Name": "Packet",
-    "Tag": [
-      "Network",
-      "Container",
-      "Packet.md"
-    ],
-    "Path": "_includes/_shared_block/Network/Container/Packet.md/Packet.md"
-  },
-  {
     "Name": "Network",
     "Tag": [
       "Network"

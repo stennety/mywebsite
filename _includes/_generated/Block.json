@@ -2197,9 +2197,10 @@
   {
     "Name": "Network",
     "Tag": [
+      "Network",
       "Network"
     ],
-    "Path": "_includes/_shared_block/Network/Network.md"
+    "Path": "_includes/_shared_block/Network/Network/Network.md"
   },
   {
     "Name": "Packet",

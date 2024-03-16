@@ -430,9 +430,14 @@
     "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Graphic/ZFighting.md"
   },
   {
+    "Type": "Title",
+    "Header": "#",
+    "Name": "Network"
+  },
+  {
     "Type": "Content",
     "Name": "Network",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Network.md"
   },
   {
     "Type": "Content",

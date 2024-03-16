@@ -442,11 +442,11 @@
   {
     "Type": "Content",
     "Name": "Packet",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Packet.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Packet.md"
   },
   {
     "Type": "Content",
     "Name": "Protocol",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Protocol.md"
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Network/Network/Protocol.md"
   }
 ]

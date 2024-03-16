@@ -2195,105 +2195,25 @@
     "Path": "_includes/_shared_block/Math/Noise/PerlineNoise.md"
   },
   {
-    "Name": "Container",
+    "Name": "Network",
     "Tag": [
-      "Network",
-      "Container"
+      "Network"
     ],
-    "Path": "_includes/_shared_block/Network/Container/Container.md"
+    "Path": "_includes/_shared_block/Network/Network.md"
   },
   {
     "Name": "Packet",
     "Tag": [
-      "Network",
-      "Container",
-      "Packet.md"
-    ],
-    "Path": "_includes/_shared_block/Network/Container/Packet.md/Packet.md"
-  },
-  {
-    "Name": "Content",
-    "Tag": [
       "Network"
     ],
-    "Path": "_includes/_shared_block/Network/Content.md"
-  },
-  {
-    "Name": "HTTPCommunication",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "HTTP"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/HTTP/HTTPCommunication.md"
-  },
-  {
-    "Name": "HttpHandler",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "HTTP"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/HTTP/HttpHandler.cs"
-  },
-  {
-    "Name": "NetworkHandler",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/NetworkHandler.md"
-  },
-  {
-    "Name": "SocketCommunication",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "Socket"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/Socket/SocketCommunication.md"
-  },
-  {
-    "Name": "SocketHandler",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "Socket"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/Socket/SocketHandler.cs"
-  },
-  {
-    "Name": "WebSocketCommunication",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "WebSocket"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/WebSocket/WebSocketCommunication.md"
-  },
-  {
-    "Name": "WebSocketHandler",
-    "Tag": [
-      "Network",
-      "Implement",
-      "Handler",
-      "WebSocket"
-    ],
-    "Path": "_includes/_shared_block/Network/Implement/Handler/WebSocket/WebSocketHandler.cs"
+    "Path": "_includes/_shared_block/Network/Packet.md"
   },
   {
     "Name": "Protocol",
     "Tag": [
-      "Network",
-      "Protocol"
+      "Network"
     ],
-    "Path": "_includes/_shared_block/Network/Protocol/Protocol.md"
+    "Path": "_includes/_shared_block/Network/Protocol.md"
   },
   {
     "Name": "blame",

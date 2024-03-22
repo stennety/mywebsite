@@ -214,7 +214,11 @@
 <url>
   <loc>https://fescue.github.io/Crazy-Mountain-Ranch/</loc>
   <priority>1</priority>
-</url>    
+</url>
+<url>
+  <loc>https://fescue.github.io/Jolshiri-Golf-Club/</loc>
+  <priority>1</priority>
+</url>
 <url>
   <loc>https://fescue.github.io/Yale-Golf-Course/</loc>
   <priority>1</priority>

@@ -92,6 +92,10 @@
   <priority>1</priority>
 </url>    
 <url>
+  <loc>https://fescue.github.io/Shura-Island-Resort/</loc>
+  <priority>1</priority>
+</url>    
+<url>
   <loc>https://fescue.github.io/incomplete/</loc>
   <priority>1</priority>
 </url>

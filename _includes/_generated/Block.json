@@ -2592,14 +2592,6 @@
     "Path": "_includes/_shared_block/Programming/Paradigm/ParallelProgramming_00.md"
   },
   {
-    "Name": "20240123-UseGithubActionForAutomatedDatas",
-    "Tag": [
-      "Project",
-      "BlogAutomation"
-    ],
-    "Path": "_includes/_shared_block/Project/BlogAutomation/20240123-UseGithubActionForAutomatedDatas.md"
-  },
-  {
     "Name": "AutomatingTableOfContentCreation",
     "Tag": [
       "Project",

@@ -2592,20 +2592,20 @@
     "Path": "_includes/_shared_block/Programming/Paradigm/ParallelProgramming_00.md"
   },
   {
-    "Name": "20240123-UseGithubActionForAutomatedDatas",
+    "Name": "AutomatingTableOfContentCreation",
     "Tag": [
       "Project",
       "BlogAutomation"
     ],
-    "Path": "_includes/_shared_block/Project/BlogAutomation/20240123-UseGithubActionForAutomatedDatas.md"
+    "Path": "_includes/_shared_block/Project/BlogAutomation/AutomatingTableOfContentCreation.md"
   },
   {
-    "Name": "20240207-AutomatingTableOfContentCreation",
+    "Name": "UseAIForPost",
     "Tag": [
       "Project",
       "BlogAutomation"
     ],
-    "Path": "_includes/_shared_block/Project/BlogAutomation/20240207-AutomatingTableOfContentCreation.md"
+    "Path": "_includes/_shared_block/Project/BlogAutomation/UseAIForPost.md"
   },
   {
     "Name": "20231001-UnrealBuildAutomation",

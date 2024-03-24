@@ -2608,6 +2608,14 @@
     "Path": "_includes/_shared_block/Project/BlogAutomation/20240207-AutomatingTableOfContentCreation.md"
   },
   {
+    "Name": "UseAIForPost",
+    "Tag": [
+      "Project",
+      "BlogAutomation"
+    ],
+    "Path": "_includes/_shared_block/Project/BlogAutomation/UseAIForPost.md"
+  },
+  {
     "Name": "20231001-UnrealBuildAutomation",
     "Tag": [
       "Project",

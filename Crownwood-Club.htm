@@ -6,7 +6,7 @@
  <head>
 	<title>Crownwood Club - Henrik Stenson's New Golf Club</title>
 	<meta name="description" CONTENT="Crownwood Club Henrik Stenson Christian Lundin EIGCA New Golf Private Sweden">
-	{% include h60.html %}
+	{% include h40.html %}
 </head>
 	
 <body>	
@@ -14,25 +14,35 @@
 		<div id="map" aria-label="Crownwood"></div>
 			<div class="content" tabindex="0"  aria-label="Stenson">
 				<H1>Crownwood Club - New Golf Club in Sweden</H1>
-				<p><a style='font-weight:bold' href='http://www.henrikstensongolfdesign.com/' target='_blank' rel='nofollow'>Henrik Stenson</a> is the lead golf architect behind <a style='font-weight:bold' href='https://crownwood.club/' target='_blank' rel='nofollow'>The Crownwood Club</a>.  Crownwood is a new private members club in the south of Sweden, near Helsingborg.  The club will feature an 18-hole course and an 11-hole course, both designed by Stenson and his partner <a style='font-weight:bold' href='https://www.eigca.org/member/Christian-Lundin' target='_blank' rel='nofollow'>Christian Lundin, EIGCA</a>.  Stenson is a Swedish professional golfer who won The 2016 Open Championship.</p>
-				<p>More than 10 years in the planning from investor Arild Karlsen, the site of Crownwood Club is a 200-acre property with sandy soils ideal for golf and near the coastline.  The team's aim is to create a unique and special golf experience that will outpace the best clubs in Europe.  Amenities will include a full-service clubhouse with gym, spa, and open-office environment for members to work remotely.</p>
+				<p><a style='font-weight:bold' href='http://www.henrikstensongolfdesign.com/' target='_blank' rel='nofollow'>Henrik Stenson</a> is the lead golf architect behind <a style='font-weight:bold' href='https://crownwood.club/' target='_blank' rel='nofollow'>The Crownwood Club</a>.  Crownwood is a new private members club in the south of Sweden, near Helsingborg.  The club will feature a new 18-hole championship golf course and an 11-hole course.  Both courses are designed by Stenson and his partner <a style='font-weight:bold' href='https://www.eigca.org/member/Christian-Lundin' target='_blank' rel='nofollow'>Christian Lundin</a>, EIGCA.  Stenson is a Swedish professional golfer who won The 2016 Open Championship.</p>
+				<p>More than 10 years in the planning from investor Arild Karlsen, the site of Crownwood Club is a 200-acre property with sandy soils ideal for golf and near the coastline.  The team's aim is to create a unique and special golf experience that will outpace the best clubs in Europe.  Amenities planned include a full-service clubhouse with gym, spa, and open-office environment for members to work remotely.</p>
 				<p>Construction of the golf course started in 2023.  Anticipated opening is in 2025.  Stenson and Lundin are working with the GEO Foundation and additional partners to ensure a sustainable, environmental approach to the project.  <a style='font-weight:bold' href='https://allgolfservices.com/' target='_blank' rel='nofollow'>All Golf Services(AGS)</a> is leading the installation of the irrigation system.</p>
 				<p>Christian Lundin is a member of the European Institute of Golf Course Architects(EIGCA).  Lundin has experience previous to his career in golf design as a greenskeeper at Ullna Golf Club north of Stockholm.</p>
 			</div>
 	</div>
 
 	<script>		
-            const map = L.map('map').setView([56.2514183,12.608387], 9);
-            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		const map = L.map('map').setView([56.2514183,12.608387], 9);
+		const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				maxZoom: 30,
 				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 			}).addTo(map);
 
-			L.CustomOverlay = L.Layer.extend({
+		L.CustomOverlay = L.Layer.extend({
 	            onAdd: function(map) {
-					this._map = map;
-					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+			this._map = map;
+			this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+
+	                // Your lite-youtube HTML
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="GFDDGKNLmDs" style="background-image: url('https://i3.ytimg.com/vi/GFDDGKNLmDs/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=GFDDGKNLmDs" class="lty-playbtn" title="Play Video.  Credit: Crownwood Club">
+	                            <span class="lyt-visually-hidden">Credit: Crownwood Club</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
 	        
+			    
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);
 	                
@@ -62,8 +72,8 @@
 	        marker.bindPopup("<b>Crownwood Club</b><br>Sweden</br>").openPopup();
 	</script>
 	<p><a href="https://fescue.github.io/Bounty-Club/">Bounty Club</a></p>
-	<p><a href="https://fescue.github.io/Bohol-Golf/">Freestone Lake</a></p>
-	<p><a href="https://fescue.github.io/Loraloma-Thomas-Ranch-Golf/">Loraloma Thomas Ranch</a></p>
+	<p><a href="https://fescue.github.io/Monte-Rei-South/">Nicklaus' Planned Monte Rei South Course</a></p>
+	<p><a href="https://fescue.github.io/Majarambuz-La-Zagaleta/">Tom Doak's Andalucia - Majarambuz La Zagaleta</a></p>
 	{% include bodyFooter.html %}
  </body>	
  {% include footer.html %}

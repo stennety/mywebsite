@@ -51,5 +51,5 @@ Message를 정리하고 Markdown형식의 설명문으로 답변함
 ## 결론
 커스터마이징된 GPT 설정을 통해, 일정한 양식의 정리된 설명문을 작성할 수 있습니다. 설명문을 작성하기 위한 부담을 줄임으로 다른 보다 중요한 문제에 더욱 집중할 수 있습니다.
 
-### 참고 문헌
+### 참고
 [Open AI, "Prompt engineering"](https://platform.openai.com/docs/guides/prompt-engineering/strategy-test-changes-systematically)

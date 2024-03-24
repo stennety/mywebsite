@@ -7,4 +7,4 @@ tags: Github, Automation
 
 {% include _shared_block/Project/BlogAutomation/AutomatingTableOfContentCreation.md %}
 
-{% include _includes/_shared_block/Project/BlogAutomation/UseAIForPost.md %}
+{% include _shared_block/Project/BlogAutomation/UseAIForPost.md %}

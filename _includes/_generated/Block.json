@@ -2600,12 +2600,12 @@
     "Path": "_includes/_shared_block/Project/BlogAutomation/20240123-UseGithubActionForAutomatedDatas.md"
   },
   {
-    "Name": "20240207-AutomatingTableOfContentCreation",
+    "Name": "AutomatingTableOfContentCreation",
     "Tag": [
       "Project",
       "BlogAutomation"
     ],
-    "Path": "_includes/_shared_block/Project/BlogAutomation/20240207-AutomatingTableOfContentCreation.md"
+    "Path": "_includes/_shared_block/Project/BlogAutomation/AutomatingTableOfContentCreation.md"
   },
   {
     "Name": "UseAIForPost",

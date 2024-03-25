@@ -690,6 +690,13 @@
     "Path": "_includes/_shared_block/Concept/TroubleShooting.md"
   },
   {
+    "Name": "V-Sync",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/V-Sync.md"
+  },
+  {
     "Name": "Variables",
     "Tag": [
       "Concept"

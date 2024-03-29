@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: Tags
 permalink: /tags/
 description: "Posts listed by Tags"
@@ -26,7 +26,7 @@ comments: false
     <h2 id="{{ this_word | slugify | downcase }}">{{ this_word }}</h2>
         <ul>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <li><span class="post-date">{{ post.date | date_to_string }}</span><a class="tag-post-title" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a> </li>
+      <li><span class="post-date">{{ post.date | date_to_string }}</span> <a class="tag-post-title" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a> </li>
     {% endif %}{% endfor %}
         </ul>
     </article><!-- /.hentry -->

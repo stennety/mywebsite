@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concurrency 1 - Giới thiệu về Concurrency
+title: Golang 5 - Concurrency - Giới thiệu về Concurrency
 tags: [golang, concurrency]
 ---
 Trước tiên chúng ta cần phân biệt hai khái niệm dễ gây nhầm lẫn là concurrency và paralled. 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Defer and Error Handling 1 - Defer
+title: Golang 3 - Defer and Error Handling - Defer
 tags: [golang, defer]
 ---
 

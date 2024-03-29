@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concurrency 4 - Buffered Channels and Worker Pools
+title: Golang 8 - Concurrency - Buffered Channels and Worker Pools
 tags: [golang, concurrency, goroutines, channel, buffered channnel, workder pools]
 ---
 

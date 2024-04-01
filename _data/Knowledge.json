@@ -1,5 +1,10 @@
 [
   {
+    "Type": "Content",
+    "Name": "ContinumEquation",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Math/ContinumEquation.md"
+  },
+  {
     "Type": "Title",
     "Header": "#",
     "Name": "Noise"

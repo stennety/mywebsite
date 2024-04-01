@@ -2262,6 +2262,15 @@
     "Path": "_includes/_shared_block/Programming/ConfigurationManagement/SVN/blame.png"
   },
   {
+    "Name": "AssemblyInCSharp",
+    "Tag": [
+      "Programming",
+      "Language",
+      "CSharp"
+    ],
+    "Path": "_includes/_shared_block/Programming/Language/CSharp/AssemblyInCSharp.md"
+  },
+  {
     "Name": "CSharp_Activator",
     "Tag": [
       "Programming",

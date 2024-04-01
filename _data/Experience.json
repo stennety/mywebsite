@@ -326,18 +326,8 @@
   },
   {
     "Type": "Content",
-    "Name": "CSharp_Activator",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator.md"
-  },
-  {
-    "Type": "Content",
-    "Name": "CSharp_Activator_CreateInstance",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator_CreateInstance.md"
-  },
-  {
-    "Type": "Content",
-    "Name": "CSharp_Attribute",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Attribute.md"
+    "Name": "AssemblyInCSharp",
+    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/AssemblyInCSharp.md"
   },
   {
     "Type": "Content",

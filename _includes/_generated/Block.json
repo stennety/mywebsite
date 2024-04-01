@@ -2262,31 +2262,13 @@
     "Path": "_includes/_shared_block/Programming/ConfigurationManagement/SVN/blame.png"
   },
   {
-    "Name": "CSharp_Activator",
+    "Name": "AssemblyInCSharp",
     "Tag": [
       "Programming",
       "Language",
       "CSharp"
     ],
-    "Path": "_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator.md"
-  },
-  {
-    "Name": "CSharp_Activator_CreateInstance",
-    "Tag": [
-      "Programming",
-      "Language",
-      "CSharp"
-    ],
-    "Path": "_includes/_shared_block/Programming/Language/CSharp/CSharp_Activator_CreateInstance.md"
-  },
-  {
-    "Name": "CSharp_Attribute",
-    "Tag": [
-      "Programming",
-      "Language",
-      "CSharp"
-    ],
-    "Path": "_includes/_shared_block/Programming/Language/CSharp/CSharp_Attribute.md"
+    "Path": "_includes/_shared_block/Programming/Language/CSharp/AssemblyInCSharp.md"
   },
   {
     "Name": "CSharp_BoxingUnboxing",

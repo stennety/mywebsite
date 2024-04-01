@@ -331,11 +331,6 @@
   },
   {
     "Type": "Content",
-    "Name": "CSharp_Attribute",
-    "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_Attribute.md"
-  },
-  {
-    "Type": "Content",
     "Name": "CSharp_BoxingUnboxing",
     "Path": "https://github.com/kbmhansungb/kbmhansungb.github.io/blob/master/_includes/_shared_block/Programming/Language/CSharp/CSharp_BoxingUnboxing.md"
   },

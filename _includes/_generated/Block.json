@@ -1,5 +1,13 @@
 [
   {
+    "Name": "NaverStaticMap",
+    "Tag": [
+      "API",
+      "Naver"
+    ],
+    "Path": "_includes/_shared_block/API/Naver/NaverStaticMap.md"
+  },
+  {
     "Name": "AVLTree",
     "Tag": [
       "AlgorithmAndDataStruct",

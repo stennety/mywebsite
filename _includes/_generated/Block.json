@@ -1,13 +1,5 @@
 [
   {
-    "Name": "NaverStaticMap",
-    "Tag": [
-      "API",
-      "Naver"
-    ],
-    "Path": "_includes/_shared_block/API/Naver/NaverStaticMap.md"
-  },
-  {
     "Name": "AVLTree",
     "Tag": [
       "AlgorithmAndDataStruct",
@@ -612,6 +604,13 @@
       "Concept"
     ],
     "Path": "_includes/_shared_block/Concept/KanbanBoard.md"
+  },
+  {
+    "Name": "Map",
+    "Tag": [
+      "Concept"
+    ],
+    "Path": "_includes/_shared_block/Concept/Map.md"
   },
   {
     "Name": "NVR",

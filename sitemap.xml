@@ -8,6 +8,10 @@
     <priority>1</priority>
 </url>
 <url>
+    <loc>https://fescue.github.io/Proposed/</loc>
+    <priority>1</priority>
+</url>
+<url>
     <loc>https://fescue.github.io/2022/</loc>
     <priority>1</priority>
 </url>

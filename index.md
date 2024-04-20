@@ -328,18 +328,18 @@ ii) στο πλαίσιο των Ε.Λ.Π. αποτιμάται στο αποσ�
 - Η [Synaphea](https://synaphea.com) Enterprise Blockchain Solutions
 - Η [norbloc](https://norbloc.com)
 - Η [TaxExperts](https://www.taxexperts.gr) ασχολείται με θέματα φορολογίας κρυπτονομισμάτων
+- Η [ACNT](https://acnt.gr) ασχολείται με θέματα φορολογίας κρυπτονομισμάτων
 - Το [stampd](https://stampd.io)
-- Το [BitforTip](https://www.bitfortip.com)
 - Το [BlockHero](https://blockhero.ai) portfolio tracker
 - Ένα από τα τρία ερευνητικά κέντρα της [IOHK](https://iohk.io/team/) βρίσκεται στην Αθήνα
 - Η [Bcash Greece](https://bcash.gr) φτιάχνει Bitcoin ATMs
-- Η συμβουλευτική [SignedBlock](https://signedblock.com)
 - Η [mytracknet](https://www.mytracknet.com)
 - Η [BLOCK.CO](https://block.co)
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Hellenic Blockchain Hub](http://blockchain.org.gr)
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Cyprus Blockchain Technologies](http://cybt.eu)
+- Άλλες [startups που έλαβαν χρηματοδότηση](https://docs.google.com/spreadsheets/d/1q8H-evgVzzqmrzmRkNA9RSafhd1g80CS1nK5B6Hedl8/edit#gid=0)
 
-Τελευταία ενημέρωση: 2024-03-10
+Τελευταία ενημέρωση: 2024-04-20
 
 <!-- <div class="posts">
   {% for post in site.posts %}

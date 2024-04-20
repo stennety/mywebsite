@@ -70,22 +70,20 @@ Cryptocurrency in Greece is currently only regulated from an AML (Anti Money Lau
 - The [Coinomi multicurrency wallet](https://coinomi.com)
 - The [University of Nicosia free Introduction to Digital Currencies MOOC  and the MSc in Digital Currency](https://digitalcurrency.unic.ac.cy)
 - [norbloc](https://norbloc.com)
-- The [Oceanus Foundation](http://www.oceanus.tech)
 - [TaxExperts](https://www.taxexperts.gr) offers cryptocurrency taxation advice
+- [ACNT](https://acnt.gr) offers cryptocurrency taxation advice
 - [stampd](https://stampd.io)
-- [BitforTip](https://www.bitfortip.com)
-- <strike>CoinLib</strike>
 - The [BlockHero](https://blockhero.ai) portfolio tracker
 - One of [IOHK](https://iohk.io/team/)'s three research centres is in Athens
 - [Bcash Greece](https://bcash.gr) makes Bitcoin ATMs
-- [SignedBlock](https://signedblock.com)
 - [mytracknet](https://www.mytracknet.com)
 - [BLOCK.CO](https://block.co)
 - [Retraced](https://retraced.co/) develop their product in Cyprus
 - The [Hellenic Blockchain Hub](http://blockchain.org.gr) non-profit organization
 - The [Cyprus Blockchain Technologies](http://cybt.eu) non-profit organization
+- Other [funded startups](https://docs.google.com/spreadsheets/d/1q8H-evgVzzqmrzmRkNA9RSafhd1g80CS1nK5B6Hedl8/edit#gid=0)
 
-Last update: 2024-03-10
+Last update: 2024-04-20
 
 <!-- <div class="posts">
   {% for post in site.posts %}

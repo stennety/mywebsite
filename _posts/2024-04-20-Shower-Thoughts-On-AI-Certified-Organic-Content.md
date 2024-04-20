@@ -3,7 +3,7 @@ layout: post
 title: Shower Thoughts on AI - Certified Organic Content
 ---
 
-## Shower Thoughts on AI - Intro
+## Intro
 
 Most of my writing these days is either just for me, or for my job.  When I do write with the intention of posting something in public, I either get stuck in perfectionist limbo, or find other excuses to stop myself from actually sharing anything online.
 

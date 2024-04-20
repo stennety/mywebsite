@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Ola Hungerford is a vocalist, songwriter, and software engineer.  As part of the Personalization team at Nordstrom, she works every day to answer the question: how do you make customers feel like you know what they want or need, without irritating them or creeping them out?
+Ola Hungerford is a vocalist, songwriter, and software engineer.  As a leader in personalized product discovery at Nordstrom, she works every day to answer the question: how do you make customers feel like you know what they want or need, without irritating them or creeping them out?
 
-Ola owns, leads, and executes projects with a strong emphasis on both critical thinking and putting herself in other people’s shoes. [^1]  She acts on the belief that Personalization, just like any customer experience at Nordstrom, requires empathy and good judgment as much as it does technical expertise.  She also believes in using Test and Learn to better understand what matters most to customers, through constant experimentation and Hypothesis-Driven Design.  Over her past few years at Nordstrom she has been a driving force behind expanding and improving Nordstrom's in-house recommendations platform, which now serves personalized product recommendations on multiple channels including Nordstrom.com, the Nordstrom app, and email.
+Ola owns, leads, and executes projects with a strong emphasis on both critical thinking and putting herself in other people’s shoes. [^1]  She acts on the belief that personalization, just like any customer experience at Nordstrom, requires empathy and good judgment as much as it does technical expertise.
 
 Ola comes from a diverse technical background spanning over a decade, including front-end web development, scoring software for professional bowling tournaments, cashless payments, Business Intelligence systems, Enterprise Resource Planning, and Customer Relationship Management systems.  She’s also played a lot of different roles in these areas, including (but not limited to) software developer, IT support person, fitting room attendant [^2], project manager, database developer, Nesquik bunny mascot [^3], and Director of IT.
 
@@ -14,7 +14,7 @@ Ola is an accomplished vocalist, songwriter, studio co-founder and PR/marketing 
 
 
 
-[^1]: She actually spends a lot of time thinking about shoes, because Nordstrom sells a lot of shoes.  In fact, when Ola walks around town her eye is often drawn to people’s shoes more than anything else.  She only owns about five pairs of shoes.
+[^1]: She actually spends a lot of time thinking about shoes, because Nordstrom sells a lot of shoes and she does a lot of running.  Most of her many shoes are trail running shoes.
 
 [^2]: Technically her first job at Nordstrom.
 

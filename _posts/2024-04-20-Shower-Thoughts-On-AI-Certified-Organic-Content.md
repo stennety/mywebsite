@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shower Thoughts on AI - Certified Organic Content
+title: "Certified Organic Content"
 ---
 
 ## Intro

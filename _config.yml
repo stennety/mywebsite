@@ -76,7 +76,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag # Standard SEO stuff
-  - redirect_to # external redirects
+  - jekyll-redirect-from # external redirects
 
 # Include the .well-known directory for verifications
 include: [".well-known"]

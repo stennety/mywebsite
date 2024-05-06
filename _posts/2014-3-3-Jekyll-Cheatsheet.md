@@ -29,19 +29,6 @@ Clean up the site: jekyll clean
 
 Front Matter
 
-
-
-YAML front matter syntax:
-
-
-yaml
-Copy Code
----
-title: My Blog Post
-date: 2023-02-20
-categories: blog
----
-
 Accessing front matter variables in Liquid templates: {{ page.title }}
 
 

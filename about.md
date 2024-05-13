@@ -6,14 +6,29 @@ permalink: /about/
 
 ![local ai is great](/images/ComfyUI_02828_.png "Local ai is awesome!")
 
-I am a software developer in the AI field since 4 years I was using the good-old davinci-002. Text generation as so much usefull things to deliver that I also build my own deep learning rig. Accessible to my little familly it has been a lot of fun !
+**About me**
 
-I want to contribute to develop the open source community and mindset for AI system as big corporations do not share our humble ambitions of freedom and funny things to use without ads and tracking.
+As a seasoned software developer with 4 years of experience in the AI field, I've had the privilege of working with early beta access of openai in 2020 and the impressive Davinci-002. 
+Since then, the possibilities that text generation and other AI applications developed is endless.
 
-### Training and consultancy
+Recently, I took the initiative to build my own deep learning rig.
 
-If you are looking for a training on how to build, install, configure a local AI system for your home or company.I dispense training session and consultancy services to unlock the full potential of a secure AI suite.
+What started as a hobby soon became an exciting venture that brought joy to my family and friends.
 
-### Contact me
+**Open-Source in AI is awesome !**
 
-[boeykard@gmail.com](mailto:boeykard@gmail.com)
+I believe in the power of open-source communities and their potential to drive innovation without being bound by corporate interests. Unlike big corporations, our humble ambitions are rooted in freedom, creativity, and the desire for ad-free and tracking-free experiences.
+
+Contributing to the development of open-source AI systems that put users first is so much fun and rewarding !
+
+### Expert Training & Consultancy
+
+Are you interested in harnessing the power of AI for your home or business?
+
+I offer comprehensive training sessions and consultancy services designed to help you build, install, and configure a secure AI system tailored to your needs.
+
+### Get in Touch
+
+Want to learn more about my work or collaborate on an exciting project? 
+
+Feel free to reach out to me at [boeykard@gmail.com](mailto:boeykard@gmail.com). I look forward to connecting with you!

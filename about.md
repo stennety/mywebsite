@@ -17,12 +17,6 @@ I spent so much time and efforts into it that I feel quite ready to help other d
 I am creating a way to interact with a local AI in the simplest way for a diverse range of tasks.
 Soon enough I'll post some resources on how to build a complete AI-suite that have Text, Images, Video, Voice (TTS, STT), and real-time capabilities.
 
-**Open-Source in AI is awesome !**
-
-I believe in the power of open-source communities and their potential to drive innovation without being bound by corporate interests. Unlike big corporations, our humble ambitions are rooted in freedom, creativity, and the desire for ad-free and tracking-free experiences.
-
-Contributing to the development of open-source AI systems that put users first is so much fun and rewarding !
-
 ### Expert Training & Consultancy
 
 Are you interested in harnessing the power of AI for your home or business?

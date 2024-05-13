@@ -17,14 +17,7 @@ I spent so much time and efforts into it that I feel quite ready to help other d
 I am creating a way to interact with a local AI in the simplest way for a diverse range of tasks.
 Soon enough I'll post some resources on how to build a complete AI-suite that have Text, Images, Video, Voice (TTS, STT), and real-time capabilities.
 
-### Expert Training & Consultancy
-
-Are you interested in harnessing the power of AI for your home or business?
-
-I offer comprehensive training sessions and consultancy services designed to help you build, install, and configure a secure AI system tailored to your needs.
-
 ### Get in Touch
 
-Want to learn more about my work or collaborate on an exciting project? 
-
-Feel free to reach out to me at [boeykard@gmail.com](mailto:boeykard@gmail.com). I look forward to connecting with you!
+If you want to get in touch for a training sessions or consultancy services to help you build, install, and configure a secure AI system tailored to your needs, get in touch.
+Feel free to reach out [boeykard@gmail.com](mailto:boeykard@gmail.com). I look forward to connecting with you!

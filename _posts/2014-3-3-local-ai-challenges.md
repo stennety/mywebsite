@@ -16,14 +16,19 @@ When we integrate AI tools into our workflows, they can become vulnerable to act
 * Intellectual property risks
 * Enhanced social engineering cyberattacks
 
-**Inadequate Security Measures**
+**Inadequate Security Measures for security or experience**
 ------------------------------
 
-While measures like anonymous sessions, encrypted data, no-data-save policies, and end-to-end encrypted communications are crucial, they are insufficient to protect us against malicious uses. For instance:
+While measures like anonymous sessions, encrypted data, no-data-save policies, and end-to-end encrypted communications are crucial, they are insufficient to protect us. There is more than cybersecurity threats to using cloud system and most importantly use them FREELY in the cloud.
+Businesses will try to monetize the service.
 
+We can elaborate on undesirable uses that AI companies could adopt (ads, tracking, training, etc.). But beyond annoying not having a history is, it's also very sad to delete such precious usefull data for an AI because of the trust of third-party. 
+
+Unwanted uses might be for instance
+* No-data-save/No-history policies decrease the value of AI systems for many tasks that require iterations
+* Feed the training of a model
 * Anonymous sessions can be compromised if the data contains personal information
 * Encrypted data can still be vulnerable if the system is compromised
-* No-data-save policies may decrease the value of AI systems for many tasks that require iterations
 
 
 **The Power of Local AI Systems**

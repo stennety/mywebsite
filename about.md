@@ -8,12 +8,13 @@ permalink: /about/
 
 **About me**
 
-As a seasoned software developer with 4 years of experience in the AI field, I've had the privilege of working with early beta access of openai in 2020 and the impressive Davinci-002. 
-Since then, the possibilities that text generation and other AI applications developed is endless.
+I'm in my twenties, and had the privilege of working with early beta access of openai in 2020 and the impressive Davinci-002. 
+Since then, the possibilities that text generation and other AI applications developed became tremendous.
 
-Recently, I took the initiative to build my own deep learning rig.
+Recently, I took the initiative to build my own deep learning rig. I spent so much time and efforts into it that I feel quite ready to help other do the same.
 
-What started as a hobby soon became an exciting venture that brought joy to my family and friends.
+I am creating a way to interact with a local AI in the simplest way for a diversity of tasks.
+Soon enough I'll post some ressources on how to build a complete AI-suite that have Text, Images, Video, Voice (TTS, STT), and real-time capabilities.
 
 **Open-Source in AI is awesome !**
 

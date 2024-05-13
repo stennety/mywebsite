@@ -7,8 +7,6 @@ permalink: /about/
 ![local AI is awesome](/images/ComfyUI_02828_.png "Local ai is awesome!")
 
 In the twenties, working on local-ai systems.
-I've had with early beta access of openai in 2020 and the impressive Davinci-002. 
-Since then, the possibilities that text generation and other AI applications developed became tremendous.
 
 Recently, I took the initiative to build my own Frankenstein deep learning rig that runs Llama3-70B Q6 on a second-hand Dell Poweredge server. A fair amount of 3D print and a little Dremmel to expose server brain to my 4x3090 GPUs.
 

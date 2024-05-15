@@ -1,5 +1,6 @@
+![image](https://rubika.ir/static/images/logos/colorfull/logo02.png)
 ## You can use these for fun
-###By AMIRSIAHCHAL
+
 {"default_api_urls":["https://messengerg2c246.iranlms.ir","https://messengerg2c29.iranlms.ir","https://messengerg2c47.iranlms.ir"],"default_cdn_urls":{"FR":["https://msgcdn102.iranlms.ir/GetFile","https://msgcdn101.iranlms.ir/GetFile"],"PR":["https://msgcdn2.iranlms.ir/GetFile","https://msgcdn6.iranlms.ir/GetFile","https://msgcdn7.iranlms.ir/GetFile"],"PR1":["https://msgcdn1.iranlms.ir/GetFile","https://msgcdn2.iranlms.ir/GetFile"],"PR2":["https://msgcdn3.iranlms.ir/GetFile","https://msgcdn2.iranlms.ir/GetFile"],"PR3":["https://msgcdn4.iranlms.ir/GetFile","https://msgcdn3.iranlms.ir/GetFile"],"PR4":["https://msgcdn4.iranlms.ir/GetFile","https://msgcdn5.iranlms.ir/GetFile"],"PR5":["https://msgcdn6.iranlms.ir/GetFile","https://msgcdn5.iranlms.ir/GetFile"],"PR6":["https://msgcdn7.iranlms.ir/GetFile","https://msgcdn6.iranlms.ir/GetFile"],"PR7":["https://msgcdn1.iranlms.ir/GetFile","https://msgcdn7.iranlms.ir/GetFile"]},"default_sockets":["wss://jsocket5.iranlms.ir:80","wss://nsocket7.iranlms.ir:80","wss://jsocket4.iranlms.ir:80"]
 ,"storages":{“1
 https://messanger.iranlms.ir/GetFile.ashx”,”2

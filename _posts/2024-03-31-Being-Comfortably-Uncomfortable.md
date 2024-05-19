@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Discomfort and Growth
-excerpt: By being deliberate about the level of discomfort we allow in our lives, we manage the costs and benefits. 
-The post touches on the optimal threshold where growth happens, finding motivation for staying uncomfortable, and managing some of the risks of over doing it. 
+title: "Discomfort and Growth"
+excerpt: "By being deliberate about the level of discomfort we allow in our lives, we manage the costs and benefits. 
+The post touches on the optimal threshold where growth happens, finding motivation for staying uncomfortable, and managing some of the risks of over doing it."
 ---
 # Let’s be more comfortably uncomfortable. 
 

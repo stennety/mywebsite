@@ -20,15 +20,15 @@ math: false
 ---
 
 What do you do if you want to code using an (almost) fully featured IDE setup, but
-you're up 40.000ft in the air, without internet, and you don't want to[^dont-want-to] pay for
+you're up 40.000ft in the air, without internet? And you don't want to[^dont-want-to] pay for
 business class? I don't know what _you_ would do, but I can show you what I did.
 
 # A Brief History
 
-This setup started when I searched how to set up VS Code on Android a couple of
-years ago. At the time, I did not find any guides, though today
+The first that I took towards this setup was when tried to set up VS Code on my 
+tablet a couple of years ago. At the time, I did not find any guides, though today
 [they exist](https://www.codewithharry.com/blogpost/install-vs-code-in-android/). Maybe
-they did at the time and I just did not look hard enough. Anyways, I ended up going
+they did at the time, I just did not look hard enough. Whatever the case, I ended up going
 down a very different route and by now I use basically the same setup at work,
 at home, or when travelling. 
 
@@ -49,21 +49,90 @@ among other things.
 # How It's Done - The Essentials
 
 If you read the tl;dr, you saw that there's nothing magical about the setup, just
-a few off the shelf open source products I use together. My hardware is an
-an Android tablet using a bluetooth keyboard for input, but no mouse. The software
-stack rests on the excellent [`termux`](https://termux.dev/en/) app, which
-provides me with a terminal emulator that feels almost like a full linux environment.
+a few off the shelf open source products I use together. My hardware is an an
+Android tablet using a bluetooth keyboard for input. There's no mouse, because I
+barely need one.
+
+## The Terminal - Termux
+
+The software stack rests on the excellent [`termux`](https://termux.dev/en/)
+app, which provides me with a terminal emulator that acts almost like a full linux environment.
 You can download a lot of essential software through its package manager, such
 as compilers, git, but also the editor I use.
 
+## The Editor - Helix
+
 As my code editor I use [`helix`](https://helix-editor.com/), which is a modal, terminal-
 based editor like vim or emacs. In a previous iteration, I used [neovim](https://neovim.io/)
-as my editor, which is also excellent and can make some steps of this setup much easier[^lsps-neovim].
+as my editor, which is also excellent and can make some steps of this setup easier[^lsps-neovim].
 I just switched over to helix as a matter of personal preference. To me, the important
 thing is having an editor that is keyboard-first, because it saves me from using a mouse
-or my fingers on the screen. Helix has great LSP-integration which
+or my fingers on the screen. Also the way that helix or neovim deal with screen
+real estate is great. There is no unneccessary clutter, just the code, which is all
+the more valuable on a limited tablet display[^sidebar]. Helix has great LSP-integration which
 allows it to provide the IDE goodness we've come to expect and love, such as code completion,
 navigation, diagnostics and so on. I'll get back to this in more detail below.
+
+## The Multiplexer - Tmux
+
+The third pillar of my setup is [tmux](https://github.com/tmux/tmux/wiki), which
+is a terminal multiplexer that allows me (among other things) add tabs to my terminal
+or split it into different panes. That is very helpful when coding because helix
+has no built-in support for executing binaries or tests. This might seem like a
+limitation at first, but it has become a feature for me (do one thing well) and
+the integration with tmux is seamless. I usually have two tabs open where
+I use one for editing in helix and the other one for git operations, running my
+binary or test suite. If I need to see code and output together, I open a split and close
+it as soon as I don't need it anymore to save valuable screen real estate.
+
+# Setting it Up
+
+The most important things to get a nice development experience for a particular
+language with helix is to set up the compilers (and/or runtimes) and the language
+servers. The language servers are extra programs that helix can run in the background
+and that give as the IDE stuff such as code completion, navigation, and diagnostics.
+However, you have to install them on your system for helix to be able to find them
+so in the following sections I tell you what I did for C++, Rust, and Python.
+But first, you need to install helix, tmux, and git:
+
+```shell
+$ pkg update
+$ pkg install -y tmux helix git
+```
+
+## C++
+
+To install the necessary compiler toolchains and the language server (clangd),
+use the following command:
+
+```shell
+$ pkg update
+$ pkg install -y clang clangd llvm
+```
+
+You might have to restart termux. To verify that the C++ integration of helix
+works, you can run `hx --health cpp` and you should see that everything (except
+for debug adapters, more on that later) is marked as okay.
+
+## Rust 
+
+First install the rust compiler and toolchain (including cargo), as well as the
+language server using: 
+
+```shell
+$ pkg update
+$ pkg install -y rust rust-analyzer
+```
+
+Now if you check `hx --health rust`, you should see everything (again, except for
+the debug adapter, see below) marked as okay.
+
+## Python
+
+The bare bones python setup is also pretty simple, but I had some trouble installing
+some popular numerics packages, so I'll include those instructions here as well.
+
+
 
 # Nice To Haves
 
@@ -79,3 +148,4 @@ navigation, diagnostics and so on. I'll get back to this in more detail below.
 
 [^dont-want-to]: Let's just pretend that I _don't want_ to pay for business class, not that I _can't_...
 [^lsps-neovim]: For example, if you use the `mason` plugin, downloading an LSP is super easy, barely an inconvenience.
+[^sidebar]: I remember missing the project navigation bar when I switched over from CLion and VsCode to neovim. Two weeks in I couldn't remember why I ever missed it and just appreciated the extra screen real estate. It's hard to imagine, but trust me, there are much better alternatives. Such as having fuzzy file finders pop up on demand, rather than having the project navigation, the menu bar etc. take up so much screen.

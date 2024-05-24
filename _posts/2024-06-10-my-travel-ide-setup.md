@@ -33,12 +33,11 @@ tablet with a bluetooth keyboard.
 
 !!! Insert picture here
 
-As evidenced, my travel setup works from sea level to 40.000ft. I'm pretty sure
-it would work even higher, and if some billionaire wants to take me up to space
-I'm up for it. Anyways, my setup features syntax hightlighting, code completion,
+As evidenced, my travel setup demonstrably works from sea level up to at least 40.000ft.
+I'm pretty sure it would work even higher, and if some billionaire wants to take me up to space
+I'm up for it ;) Anyways, my setup features syntax hightlighting, code completion,
 diagnostics, quick actions, code navigation, and of course compiling and executing my code
-among other things. And yes, this text was also written on that setup on vacation.
-
+among other things. And yes, this text was also written on it during a vacation.
 
 # A Brief History
 
@@ -46,13 +45,13 @@ The first step that I took towards this setup was when tried to set up VS Code o
 tablet a couple of years ago. At the time, I did not find any guides, though today
 [they exist](https://www.codewithharry.com/blogpost/install-vs-code-in-android/). Maybe
 they did at the time and I just didn't look hard enough. Whatever the case may be,
-I ended up going down a very different route and by now I use basically the same
+I ended up going down a very different route, and by now I use basically the same
 setup at work, at home, or when travelling. 
 
 # How It Works
 
-If you read the tl;dr, you saw that there's nothing magical about the setup, just
-a few off the shelf open source products I use together. My hardware is an an
+If you read the tl;dr, you saw that there's nothing magical about my setup, just
+a few off the shelf open source products working together. My hardware is an an
 Android tablet using a bluetooth keyboard for input. There's no mouse, because I
 barely need one.
 
@@ -61,46 +60,55 @@ barely need one.
 The software stack rests on the excellent [`termux`](https://termux.dev/en/)
 app, which provides me with a terminal emulator that acts almost like a full linux environment.
 You can download a lot of essential software through its package manager, such
-as compilers, git, but also the editor I use.
+as compilers, git, and also the editor I use.
 
 ## The Editor - Helix
 
 As my code editor I use [`helix`](https://helix-editor.com/), which is a modal, terminal-
-based editor like vim or emacs. In a previous iteration, I used [neovim](https://neovim.io/)
-as my editor, which is also excellent and can make some steps of this setup easier[^lsps-neovim].
-I just switched over to helix as a matter of personal preference. To me, the important
-thing is having an editor that is keyboard-first, because it saves me from using a mouse
-or my fingers on the screen. Also the way that helix or neovim deal with screen
-real estate is great. There is no unneccessary clutter, just the code, which is all
-the more valuable on a limited tablet display[^sidebar]. Helix has great LSP-integration which
-allows it to provide the IDE goodness we've come to expect and love, such as code completion,
-navigation, diagnostics and so on. I'll get back to this in more detail below.
+based source code editor like vim or emacs. In a previous iteration, I used [neovim](https://neovim.io/),
+which is also excellent and can make some steps of this setup even easier[^lsps-neovim].
+I just switched over to helix as a matter of personal preference.
+
+To me, the important thing is having an editor that is keyboard-first, because
+it saves me from using a mouse or my fingers on the screen. Also the way that
+helix or neovim deal with screen real estate is great. There is no unneccessary clutter,
+just the code, which is all the more valuable on a limited tablet display[^sidebar]. 
+Helix also has great LSP-integration which allows it to provide the IDE goodness 
+we've come to expect and love, such as code completion, navigation, diagnostics and so on.
+I'll get back to this in more detail below.
 
 ## The Multiplexer - Tmux
 
+!!! insert image here
+
 The third pillar of my setup is [tmux](https://github.com/tmux/tmux/wiki), which
-is a terminal multiplexer that allows me (among other things) add tabs to my terminal
-or split it into different panes. That is very helpful when coding because helix
-has no built-in support for executing binaries or tests. This might seem like a
-limitation at first, but it has become a feature for me (do one thing well) and
-the integration with tmux is seamless. I usually have two tabs open where
-I use one for editing in helix and the other one for git operations, running my
-binary or test suite. If I need to see code and output together, I open a split and close
-it as soon as I don't need it anymore to save valuable screen real estate.
+is a terminal multiplexer that allows me (among other things) to add panes to my terminal
+either in "split screen" mode or in different "tabs". That is very helpful when
+coding because helix has no built-in support for executing binaries or tests.
+This might seem like a limitation at first, but it has become a feature for me
+in the spirit of "do one thing well". the integration with tmux is seamless. 
+I usually have two tabs open where I use one for editing in helix and the other
+one for git operations and running my binary or test suite. If I need to see code
+and output together, I open a split and close it as soon as I don't need it
+anymore to save valuable screen real estate. 
+
+Termux, by default, displays some extra keys as a touch keyboard on screen that
+aren't really useful when using a bluetooth keyboard. I suggest to get rid of them as
+described  [here](https://android.stackexchange.com/questions/241180/remove-termuxs-extra-keys).
 
 # Setting It Up
 
-The most important things to get a nice development experience for a particular
-language with helix is to set up the compilers (and/or runtimes) and the language
-servers. The language servers are extra programs that helix can run in the background
-and that give as the IDE stuff such as code completion, navigation, and diagnostics.
-However, you have to install them on your system for helix to be able to find them
-so in the following sections I tell you what I did for C++, Rust, and Python.
-But first, you need to install helix, tmux, and git:
+To get a nice development experience for a particular language with helix, we 
+have to set up the compilers (and/or runtimes) and the language servers for a 
+particular language. The language servers are extra programs that helix can 
+run in the background and that give us the desired IDE functionalities such as code
+completion, navigation, and diagnostics. However, you have to install them on your 
+system for helix to be able to find them, so in the following sections I tell you what 
+I did for C++, Rust, and Python. But first, you need to install helix and tmux:
 
 ```shell
 $ pkg update
-$ pkg install -y tmux helix git
+$ pkg install -y tmux helix
 ```
 
 ## C++

@@ -107,7 +107,7 @@ use the following command:
 
 ```shell
 $ pkg update
-$ pkg install -y clang clangd llvm
+$ pkg install -y clang clangd llvm cmake ninja
 ```
 
 You might have to restart termux. To verify that the C++ integration of helix
@@ -130,19 +130,57 @@ the debug adapter, see below) marked as okay.
 ## Python
 
 The bare bones python setup is also pretty simple, but I had some trouble installing
-some popular numerics packages, so I'll include those instructions here as well.
+popular numerics packages numpy and scipy. It's easy you know how, so I'll link
+to those instructions as well.
 
+```shell
+$ pkg update
+$ pkg install -y python
+```
 
+To install the language server expected by helix we can use `pip`:
 
-# Nice To Haves
+```shell
+$ pip install python-lsp-server
+```
 
-!!! yadm 
+The important thing here is to install `python-lsp-server` and not the similarly
+named `python-language-server`, which cost me an hour of my life to debug. If you
+want to install numpy follow [these instructions](https://github.com/termux/termux-packages/discussions/19126),
+while installing scipy is best done via termux' package manager using
+`pkg install python-scipy`.
 
-# Problems
+# Personalization
 
-!!! mention debugging here
-!!! perf does not run on termux
-!!! arm processor (might be advantage or not)
+These are the essentials of the setup I use and I'll leave it at that for now. One thing
+I like about it, is that it is very personalizeable. Take what you like from it and
+change what you don't like. If you are looking for a way to manage your configuration
+across systems, I can recommend [yadm](https://yadm.io/), which is available as
+a termux package as well.
+
+# Problems and Caveats
+
+While I am very happy with this setup, there are some things that I did not yet
+get to work or that are otherwise worth mentioning here.
+
+Firstly, I did not get debugging working for Rust and C++. Unfortunately,
+helix debugging support so far isn't great anyways, but I could not even get the required
+debug adapter installed on my system (`lldb-vscode`). I'm grateful for hints.
+
+The other things that I dearly miss is `perf`. Termux fors not have it and it
+would be cool to do some performance measurements. I saw peope recommending
+[on reddit](https://www.reddit.com/r/termux/comments/1c333l3/has_someone_gotten_perf_working/)
+to use llvm's profiling instrumentation capabilities, but I did not get it to do
+what I wanted, which was give me page faults and some other `perf stat` metrics.
+Help appreciated.
+
+The last thing that should be mentioned is that Android tablets typically use
+Arm processors. That means if you (or a library that you depend on) use x86 instrinsics,
+they won't work. Depending how you look at it, it can also be pretty cool
+to have easy access to an Arm processor. Most of the time you won't notice anyways.
+
+One problem I never had was performance. Granted, I don't use my travel setup
+for huge projects, but I've not run into performance problems so far.
 
 # Endnotes
 

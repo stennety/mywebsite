@@ -7,7 +7,7 @@ date: 2024-06-10
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'My Low-Cost, Fully Featured, Offline Coding Setup For Travel - Zero to 40.000ft'
+title: 'My Low-Cost, Offline, Powerful IDE Setup for Travelling (Sea Level to 40.000ft)'
 #
 #
 # Make sure this image is correct !!!
@@ -21,20 +21,13 @@ math: false
 
 What do you do if you want to code using an (almost) fully featured IDE setup, but
 you're up 40.000ft in the air, without internet? And you don't want to[^dont-want-to] pay for
-business class? I don't know what _you_ would do, but I can show you what I did.
-
-# A Brief History
-
-The first that I took towards this setup was when tried to set up VS Code on my 
-tablet a couple of years ago. At the time, I did not find any guides, though today
-[they exist](https://www.codewithharry.com/blogpost/install-vs-code-in-android/). Maybe
-they did at the time, I just did not look hard enough. Whatever the case, I ended up going
-down a very different route and by now I use basically the same setup at work,
-at home, or when travelling. 
+business class? I'll show you what I did and I am interested to see what you did
+or would do.
 
 # tl;dr
 
-It's just helix and tmux running on termux on an Android tablet.
+It's just helix, tmux and some lsp servers running on termux on an Android
+tablet with a bluetooth keyboard.
 
 # Overview
 
@@ -44,9 +37,19 @@ As evidenced, my travel setup works from sea level to 40.000ft. I'm pretty sure
 it would work even higher, and if some billionaire wants to take me up to space
 I'm up for it. Anyways, my setup features syntax hightlighting, code completion,
 diagnostics, quick actions, code navigation, and of course compiling and executing my code
-among other things.
+among other things. And yes, this text was also written on that setup on vacation.
 
-# How It's Done - The Essentials
+
+# A Brief History
+
+The first step that I took towards this setup was when tried to set up VS Code on my 
+tablet a couple of years ago. At the time, I did not find any guides, though today
+[they exist](https://www.codewithharry.com/blogpost/install-vs-code-in-android/). Maybe
+they did at the time and I just didn't look hard enough. Whatever the case may be,
+I ended up going down a very different route and by now I use basically the same
+setup at work, at home, or when travelling. 
+
+# How It Works
 
 If you read the tl;dr, you saw that there's nothing magical about the setup, just
 a few off the shelf open source products I use together. My hardware is an an
@@ -85,7 +88,7 @@ I use one for editing in helix and the other one for git operations, running my
 binary or test suite. If I need to see code and output together, I open a split and close
 it as soon as I don't need it anymore to save valuable screen real estate.
 
-# Setting it Up
+# Setting It Up
 
 The most important things to get a nice development experience for a particular
 language with helix is to set up the compilers (and/or runtimes) and the language

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ide android travel tools
+tags: ide android tools helix
 #categories: []
 date: 2024-06-10
 #excerpt: ''
@@ -127,6 +127,23 @@ $ pkg install -y clang clangd llvm cmake ninja
 You might have to restart termux. To verify that the C++ integration of helix
 works, you can run `hx --health cpp` and you should see that everything (except
 for debug adapters, more on that later) is marked as okay.
+
+One thing I always do in my C++ projects, at least for the ones where
+I have the freedom to decide for cmake as a build system, is to add the following lines
+to my top-level `CMakeLists.txt`:
+
+```cmake
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+file(CREATE_LINK
+  "${CMAKE_BINARY_DIR}/compile_commands.json"
+  "${CMAKE_SOURCE_DIR}/compile_commands.json"
+  SYMBOLIC
+)
+```
+
+This makes cmake emit a `compile_commands.json` file that the clangd language
+server can use to parse nontrivial dependencies and project structures. It also
+symlinks it into a directory where clangd will look for it.
 
 ## Rust 
 

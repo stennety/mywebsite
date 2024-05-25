@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: About us
 permalink: /about/
 ---
 
-Some information about you!
+Somos un grupo de alumnos del Ies Monte da Vila que queremos hacer un blog sobre noticias deportivas del momento
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Aqui podras encontrar noticias de los deportes del momento 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[somostulipanes11@gmail.com](mailto:somostulipanes11@gmail.com)

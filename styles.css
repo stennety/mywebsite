@@ -1,15 +1,63 @@
+
 body {
   color: #000;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: rgba(255, 243, 224, 0.3);
 }
 
-.pure-img-responsive {
+h1 {
+  text-align: center;
+}
+
+.main-img {
+  text-align: center;
+  align-items: center;
   max-width: 100%;
   height: auto;
 }
 
-.font-i-want {
-  font-family: "Montserrat", sans-serif;
-  color: #000;
+.content {
+  text-align: center;
 }
 
+.navbar {
+  background-color: #000;
+  color: #177700;
+  height: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  padding: 15.25px;
+  width: 20%;
+  color: #FFF3E0;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px;
+}
+
+.navbar a:hover {
+  background-color: rgba(23, 119, 0, 0.5);
+}
+
+.middle-row {
+  width: 10%;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+a {
+  color: #177700;
+}
+
+.about {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

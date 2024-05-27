@@ -6,7 +6,7 @@ tags: [Thinkering, AI]
 
 As AI services proliferate, companies and individuals are faced with a complex web of providers, microservices, and terms of use. This landscape poses significant risks to security and privacy, making it essential to rethink our approach to AI development and deployment.
 
-**The Hidden Dangers of AI Services**
+**AI Services drawbacks**
 -------------------------------------
 
 When we integrate AI tools into our workflows, they can become vulnerable to activity spying, which can be easily exploited by attackers. The potential malicious uses of private data passed to cloud AI systems are alarming, including:

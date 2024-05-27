@@ -4,20 +4,32 @@ title: Finding an optimal energy use for AI workload hosting
 tags: [AI, local-AI-System, SFF, energy, reduce environnemental impact]
 ---
 
+As AI becomes increasingly pervasive in our daily lives, the energy consumption of these powerful machines is a pressing concern. The rapid growth of AI workloads is driving up electricity demand, contributing to greenhouse gas emissions, and straining our energy infrastructure. In this blog post, we'll explore an idealist system to benefit from heat for winter, cold for summer and numerical workloads for AI hosting.
 
-**Optimizing AI Workload Energy Usage: A Novel Approach Using SFF Inference Machines and Direct Heat Transfer**
-
----
-
-As AI becomes increasingly pervasive in our daily lives, the energy consumption of these powerful machines has become a pressing concern. The rapid growth of AI workloads is driving up electricity demand, contributing to greenhouse gas emissions, and straining our energy infrastructure. In this blog post, we'll explore an innovative approach to optimizing AI workload energy usage by leveraging Self-Fulfilling Feedback (SFF) inference machines and direct heat transfer.
+Here we only consider local build to mitigate rising monopoly in AI world. 
 
 **The Challenge: Energy-Wasteful AI Workloads**
 
-Traditional AI workloads are designed for processing power and accuracy, often neglecting the significant energy required to operate these systems. This wastefulness is exacerbated by the increasing adoption of cloud-based AI services, which rely on massive data centers to process and store vast amounts of information.
+AI chat use from 300WH to 1KWH during inference. It's too much.
 
-**The Solution: SFF Inference Machines**
+How to reduce impact:
+- Reduce > Reduce energy consumption with newer component ($$$)
+- Reuse > Use one system for multiple usage
+- Recycle > Upcycle old servers, PCs (this things get rusty and dusty but still work)
 
-To mitigate this issue, researchers have developed Self-Fulfilling Feedback (SFF) inference machines. These innovative systems can learn from their own energy usage patterns, adapting their computational processes to minimize power consumption while maintaining accuracy.
+**The Solution:  low cost radiator**
+
+What if you could earn money, heat your house in winter, have fresh air in summer and benefit from high-end computer for gaming/video ?
+
+> Heat your house in winter > Rent your system while not in use
+
+> Fresh air in summer > Well.. you could use the heat from the gpus chip to do some magical refrigerant thing ? maybeee ?
+
+> Earn money > Rent your PC will not in use
+
+> High-end computer for gaming > Local low-latency connection to remote desktop ?
+
+> Off-grid AI endpoint on local network
 
 **Direct Heat Transfer: A Game-Changer in AI Energy Efficiency**
 

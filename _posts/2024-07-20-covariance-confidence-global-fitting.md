@@ -19,14 +19,15 @@ comments_id:
 math: true
 ---
 
-This post summarizes what I have learned in the ongoing process on implementing
+This post summarizes what I have learned in the ongoing process of implementing
 functionality to calculate confidence intervals into my nonlinear least squares
-fitting library. My library performs least squares fitting for so called separable
+fitting library. It performs least squares fitting for so called separable
 models using [Variable Projection](/blog/2020/variable-projection-part-1-fundamentals/)
 and also offers [global fitting](/blog/2024/variable-projection-part-2-multiple-right-hand-sides/)
-of multiple right hand sides. Although this article explains confidence interval
-calculations in this context, I have tried to write it in a way that is
-useful for other least squares fitting applications as well.
+of multiple right hand sides. In this article I'll first recap the process of
+calculating confidence intervals for general nonlinear least squares fitting. After
+that I'll apply it to the special case of variable projection with single and
+multiple right hand sides.
 
 # Least Squares Fitting
 
@@ -40,17 +41,37 @@ $$\boldsymbol{p}^\dagger$$, formally:
 
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert_2^2 \label{lsqr-fitting}\tag{1},$$
 
-where $$\boldsymbol{W} \in \mathbb{R}^{N_y \times \N_y}$$ is a diagonal matrix
+where $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a diagonal matrix
 of weights for the elements of the observation vector. !!TODO!! ADD PROBABILISTIC
 DESCRIPTION AND INTERPRETATION OF WEIGHTS AS SIGMAS OF GAUSSIANS (NOT FORMULA
 BUT QUICK SENTENCE!!
 Least squares _fitting_ is just a special case of least squares _minimization_,
 which is:
 
-$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \lVert \boldsymbol{r}(\boldsymbol{p})\right) \rVert_2^2 \label{lsqr-minimization}\tag{2}.$$
+$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2 \label{lsqr-minimization}\tag{2}.$$
 
 For the fitting problem, $$\boldsymbol{r}(\boldsymbol{p})$$ is usually called the
 (vector of) residuals, but in general it can just be any function of $$\boldsymbol{p}$$.
+
+## Bayesian Perspective
+
+We'll now take a step back and quickly recap the fundamentals of least squares 
+fitting from a Bayesian point of view. That will allow us to understand a couple of 
+things about the probability densities involved in the process. We assume that
+for each index $$j$$, the data is normally distributed around the true
+value, which is given by the model $$f_j(\boldsymbol{p})$$. That means the
+conditional probability of observing value $$y_j$$, given the parameters
+$$\boldsymbol{p}$$ is:
+
+$$P(y_j | \boldsymbol{p}) = \frac{1}{\sqrt{2\pi}\sigma_j}\exp\left( -\frac{(y_j-f_j(\boldsymbol{p}))^2}{\sigma^2} \right).$$
+
+Assuming [statistical independence](https://en.m.wikipedia.org/wiki/Independence_(probability_theory)) for the $$y_j$$,
+we can write the probability of observing the vector $$\boldsymbol{y}$$ given $$\boldsymbol{p}$$
+as
+
+$$P(\boldsymbol{y}|\boldsymbol{p}) = \prod_j P(y_j|\boldsymbol{p}) = $$
+
+
 
 ## Covariance of the Parameters
 

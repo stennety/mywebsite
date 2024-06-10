@@ -6,7 +6,7 @@ permalink: /about/
 
 Learning & Documenting my devops journey.
 
-*italic*
+email: shuklasatyam73@gmail.com
 
 
 

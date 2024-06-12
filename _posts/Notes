@@ -1,0 +1,13 @@
+# QUESTION 1 : 
+- on microservices, where multiple services of a single application are running independently on containers on different  servers then how would they communicate with one another?
+
+# Answer -
+In a microservices architecture, where multiple services of a single application run independently on containers across different servers, communication between these services can be facilitated through several approaches like HTTP -
+
+- HTTP/HTTPS Requests: Services communicate with each other using RESTful APIs over HTTP/HTTPS. Each microservice exposes endpoints, and other services can make HTTP requests to these endpoints to exchange data.
+
+# QUESTION 2. 
+- What are Restful APIs?
+# Answer - 
+- RESTful APIs (Representational State Transfer APIs) are a way for applications to communicate over the web. They follow specific rules to make it easy for different systems to understand and interact with each other.
+

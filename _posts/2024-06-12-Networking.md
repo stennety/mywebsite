@@ -56,3 +56,26 @@ HTTP methods : It define the actions to be performed on resources identified by 
 - Application Layer: Provides network services directly to end-user applications, such as email, file transfer, and web browsing (e.g., HTTP, FTP).
 
 
+- STATUS CODES : 
+- when we send a request to a server, we need some way to know whether the request was successful or not. so for that we have status codes.
+
+- 100     -       informational codes
+- 200     -       success code
+- 300     -       Redirecting codes
+- 400     -       client error codes
+- 500     -       server errors
+
+
+
+- COOKIES:
+- These are the unique string which are stored in our browser.
+- They stores user values in the browser.
+
+
+# DNS (DOMAIN NAME SYSTEM):
+
+- Domain names are mapped to the ip address.
+- Whwn we enter (for example google.com) any URL, that uses DNS to find the ip address of googles's server.
+- DNS uses the domain name ( it converrts the URL into the ip address & after that it connects to the server) to connect with the server.
+
+

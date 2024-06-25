@@ -21,15 +21,12 @@ math: true
 
 This post summarizes what I have learned in the ongoing process of implementing
 functionality to calculate confidence intervals into my nonlinear least squares
-fitting library. It performs least squares fitting for so called separable
-models using [Variable Projection](/blog/2020/variable-projection-part-1-fundamentals/)
-and also offers [global fitting](/blog/2024/variable-projection-part-2-multiple-right-hand-sides/)
-of multiple right hand sides. In this article I'll first recap the process of
+fitting library. In this article I'll first recap the process of
 calculating confidence intervals for general nonlinear least squares fitting. After
-that I'll apply it to the special case of variable projection with single and
+that I'll apply it to the special case of variable projection with
 multiple right hand sides.
 
-# Least Squares Fitting
+# Part I: Basics of Least Squares Fitting
 
 Assume we have a vector of observations $$\boldsymbol{y} \in \mathbb{R}^{N_y}$$
 that we want to "fit" with a (also vector valued) function
@@ -42,11 +39,12 @@ $$\boldsymbol{p}^\dagger$$, formally:
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert_2^2 \label{lsqr-fitting}\tag{1},$$
 
 where $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a diagonal matrix
-of weights for the elements of the observation vector. !!TODO!! ADD PROBABILISTIC
-DESCRIPTION AND INTERPRETATION OF WEIGHTS AS SIGMAS OF GAUSSIANS (NOT FORMULA
-BUT QUICK SENTENCE!!
-Least squares _fitting_ is just a special case of least squares _minimization_,
-which is:
+of weights for the elements of the observation vector. Note that in this article
+the weights, due to their position, are also squared. There are multiple --ultimately
+equivalent-- ways of applying the weight matrix that change whether the weights
+should be interpreted as inverse variances or standard deviations. We'll understand
+in the next section. For now, let's note that least squares _fitting_ is just a
+special case of least squares _minimization_, which is:
 
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2 \label{lsqr-minimization}\tag{2}.$$
 
@@ -59,14 +57,19 @@ $$
 
 but in general it can just be any vector valued function of $$\boldsymbol{p}$$.
 
-# A Bayesian Perspective
+For this article we are interpreted in confidence intervals and confidence bands
+of the fit. These are statistical interpretations of the data, which forces us
+to take a statistical perspective on the least squares fitting process.
+
+## A Bayesian Perspective
 
 We'll now take a step back and quickly recap the fundamentals of least squares 
 fitting from a Bayesian point of view. That will allow us to understand a couple of 
-things about the probability densities involved in the process. First, let's
+things about the probability densities involved in the process. Importantly,
+we will also understand what the weights are supposed to signify. First, let's
 recap why we minimize the sum of squares in the first place.
 
-## The Sum of Squares
+### The Sum of Squares
 
 To start, we assume that
 for each index $$j$$, the data is normally distributed around the expected
@@ -82,31 +85,39 @@ as
 
 $$P(\boldsymbol{y}|\boldsymbol{p}) = \prod_j P(y_j|\boldsymbol{p}) \propto \exp(-\frac{1}{2}\lVert\boldsymbol{W}(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p}))\rVert_2^2)=\exp(-\frac{1}{2}\lVert \boldsymbol{r}(\boldsymbol{p})\rVert_2^2), \label{likelihood}\tag{4}$$
 
-with $$\boldsymbol{r}(\boldsymbol{p})$$ as in eq. $$\eqref{residual-vector}$$, provided that we chose the weights as
+with $$\boldsymbol{r}(\boldsymbol{p})$$ as in eq. $$\eqref{residual-vector}$$, provided that we choose the weights as
 
 $$\boldsymbol{W} = \text{diag}(1/\sigma_1, \dots, 1/\sigma_{N_y}), \label{bayes-weights}\tag{5}$$
 
-where $$\sigma_j$$ is the standard deviation of data point $$y_j$$. From a Bayesian
-point of view, we are interested in the posterior distribution that describes
+where $$\sigma_j$$ is the standard deviation of data point $$y_j$$. That means the
+weights must contain at least an estimate of the standard deviation of the
+data at index $$j$$ for the arguments to work. If we just put arbitrary
+numbers in there, the logic is not sound. Note that this implies that
+unweighted least squares could also not be justified by this approach, unless the
+variances off all data points are $$1$$, which is unlikely. But there is a way
+we can salvage this important case. I'll get to it later in this section,
+let's return to the calculations for now.
+
+From a Bayesian point of view, we are interested in the posterior distribution that describes
 the probability density of $$\boldsymbol{p}$$ given our observations $$\boldsymbol{y}$$,
 which is related to the likelihood $$\eqref{likelihood}$$ via Bayes' Theorem:
 
 $$P(\boldsymbol{p}|\boldsymbol{y}) = \frac{P(\boldsymbol{y}|\boldsymbol{p})\cdot P(\boldsymbol{p})}{P(\boldsymbol{y})}.$$
 
-Now we assume a uniform prior[^uniform-prior] distribution $$P(\boldsymbol{p})$$, which let's us write the
+Now we assume a uniform prior[^uniform-prior] distribution $$P(\boldsymbol{p})=\text{const}$$, which let's us write the
 posterior probability as the proportionality:
 
 $$P(\boldsymbol{p}|\boldsymbol{y}) \propto P(\boldsymbol{y}|\boldsymbol{p}), \label{posterior}\tag{6}$$
 
-keeping in mind that the _marginal probability_ does not depend on the parameter
-$$\boldsymbol{p}$$ and will thus only act as a scaling factor. Now it's trivial
+keeping in mind that the _marginal probability_ $$P(\boldsymbol{y})$$ does not depend on the parameter
+$$\boldsymbol{p}$$ and will thus only act as a scaling factor. Now it's trivial[^log-likelihood]
 to show that maximizing the posterior probability with respect to $$\boldsymbol{p}$$
 is equivalent to the minimization $$\eqref{lsqr-fitting}$$, provided we choose
 the weigths as in $$\eqref{bayes-weights}$$. That means least squares fitting arises 
 as maximum likelihood estimation with uniform priors from a Bayesian perspective.
 Now let's understand what that implies for the shape of the posterior probability.
 
-## Gaussian Posteriors and the Covariance Matrix
+### Gaussian Posteriors and the Covariance Matrix
 
 In general, we won't be able to say much about the functional form of the
 posterior probability, which is proportional to $$\eqref{likelihood}$$,
@@ -150,61 +161,61 @@ as
 $$\boldsymbol{H}_g(\boldsymbol{p}) \approx \boldsymbol{J}_r(\boldsymbol{p})^T \boldsymbol{J}_r(\boldsymbol{p}),$$
 
 where $$\boldsymbol{J}_r(\boldsymbol{p})$$ is the Jacobian Matrix of $$\boldsymbol{r}(\boldsymbol{p})$$.
-Often the Jacobian is only denoted by $$\boldsymbol{J}$$, but for this post we'll
-encounter many Jacobians that we have to distinguish, so it pays to be more explicit
+Often the Jacobian is only denoted by a simple $$\boldsymbol{J}$$, but for this post we'll
+encounter many Jacobians that we have to distinguish. Thus, it pays to be more explicit
 with the notation here. For now, this approximation allows us to write the
 covariance matrix $$\boldsymbol{C}_p$$ of the parameters $$\boldsymbol{p}$$ as
 
-$$\boldsymbol{C}_p = \left(!!!!!!!!!!!!!!!!!!!! \right)$$
+$$\boldsymbol{C}_p \approx \left( \boldsymbol{J}_r^T \boldsymbol{J}_r\right)^{-1} = ((\boldsymbol{W}\boldsymbol{J}_f)^T \, \boldsymbol{W}\boldsymbol{J}_f)^{-1}, \label{covariance-matrix} \tag{I.9}$$
 
-!!! see Kaltenbach thesis AND ADD FACTOR of 1/2 everywhere!!! also for Gaussians we need 1/2!!!! 
-!!! then we can actually derive the covariance matrix!!!
+where $$\boldsymbol{J}_f$$ is the Jacobian of $$\boldsymbol{f}(\boldsymbol{p})$$
+and thus $$\boldsymbol{J}_r = \boldsymbol{W}\boldsymbol{J}_f$$.
 
+Note that this is the covariance for weighted least squares, where the weights
+must be related to the standard deviations of the data points as specified above.
 
-## Covariance of the Parameters
+#### Unweighted Least Squares
 
-Once we find a solution $$\boldsymbol{p}^\dagger$$, we know !!!TODO LINK!!
-the stackoverflow comment!!! that the covariance matrix !!TODO LINK!! for the parameters is given as:
+Since the formula above is derived for weighted least squares with the weights
+given as in $$\eqref{bayes-weights}$$, how do we make it work for the unweighted case?
+We cannot simply set $$\boldsymbol{W}= \boldsymbol{I}$$, because that would mean
+the standard deviations of all our data are specified as the value $$1$$, which 
+is usually nonsensical. To make sense from a Bayesian perspective,
+we have to specify a meaningful standard deviation.
 
-$$\boldsymbol{C}_\boldsymbol{p} = \chi^2_r \boldsymbol{J}\{\boldsymbol{r}\}(\boldsymbol{p}^\dagger)^T \, \boldsymbol{J}\{\boldsymbol{r}\}(\boldsymbol{p}^\dagger), \label{cov-p-minimization} \tag{4},$$
+To salvage this, we can assume that the standard deviations for all data points
+are the same $$\sigma_j=\sigma$$, which means that the weights are
 
-where $$\boldsymbol{J}\{\boldsymbol{r}\}(\boldsymbol{p}^\dagger)$$ is the Jacobian
-Matrix !!TODO LINK!! of $$\boldsymbol{r}(\boldsymbol{p})$$ evaluated at
-$$\boldsymbol{p}^\dagger$$. The factor $$\chi^2_r$$ is called the _reduced $$\chi^2$$_
+$$\boldsymbol{W} = \frac{1}{\sigma}\boldsymbol{I}. \label{equal-weights}\tag{I.10}$$
 
-$$\chi^2_r = \frac{\lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2}{N_y-N_p},$$
+Now if we use this in $$\eqref{covariance-matrix}$$ this comes out to
 
-where $$N_y$$ are the number of observations and $$N_p$$ are the number of parameters.
+$$\boldsymbol{C}_p \approx \sigma^2(\boldsymbol{J}_f^T \, \boldsymbol{J}_f)^{-1}, \label{covariance-matrix-unweighted} \tag{I.11},$$
 
-The Jacobian in $$\eqref{cov-p-minimization}$$ is often just written as $$J$$,
-but for this article I have to be a bit more verbose. We'll be dealing
-with all sorts of other Jacobians and it would quickly become confusing, if we
-did not have a clear notation to distinguish between them.
+and [we can estimate](https://www.gnu.org/software/gsl/doc/html/nls.html#covariance-matrix-of-best-fit-parameters)
+the $$\sigma^2$$ as the variance of the residuals around the best fit
 
-For the fitting problem $$\eqref{lsqr-fittin}$$ we have
-$$\boldsymbol{r} = W(\boldsymbol{y} - \boldsymbol{f})$$, which implies
-$$\boldsymbol{J}\{\boldsymbol{r}\} = -\boldsymbol{J}\{f\}$$, so that we can write
+$$\sigma^2 = \frac{\lVert \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}^\dagger)\rVert_2^2}{N_y-N_p} = \frac{\lVert\boldsymbol{r}(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p}. \label{sigma-unweighted}\tag{I.12}$$
 
-$$\boldsymbol{C}_\boldsymbol{p} = \chi^2_r \left(\boldsymbol{W}\boldsymbol{J}\{\boldsymbol{f}\}(\boldsymbol{p}^\dagger)\right)^T \, \boldsymbol{W} \boldsymbol{J}\{\boldsymbol{r}\}(\boldsymbol{p}^\dagger), \label{cov-p-fitting} \tag{5}.$$
+Although the formula $$\eqref{covariance-matrix-unweighted}$$ is sometimes
+used universally, it is only applicable for _unweighted_ least squares fitting.
+Unweighted least squares, from a Bayesian perspective, means we assign equal
+standard deviations to all data points and we use an estimate for the standard
+deviations. There is no such thing as not using standard deviations. If we use
+weighted least squares where we _explicitly_ provide the standard deviations,
+we cannot use $$\eqref{covariance-matrix-unweighted}$$, but we must instead
+use $$\eqref{covariance-matrix}$$. This is also explained in the 
+[corresponding docs](https://www.gnu.org/software/gsl/doc/html/nls.html#covariance-matrix-of-best-fit-parameters)
+in the GNU Scientific Library[^gsl-weights].
 
-The covariance matrix is our key to unlocking some interesting statistics of
-our parameters. For example, the diagonal elements of the matrix contain the
-variance of each parameter.
+# Part II: Application to Variable Projection with Multiple Right Hand Sides
 
-## Confidence Interval of the Best Fit
-!!TODO REMOVE!!
-When considered form a (Bayesian) statistical perspective, least squares fitting
-is the same as maximizing the likelihood[^a-posteriori] (with respect to $$\boldsymbol{p})
-of observing the values $$\boldsymbol{y}$$, assuming that they are Gaussian
-distributed around the model $$\boldsymbol{f}(\boldsymbol{p})$$. As a matter of
-fact, the parameters $$\boldsymbol{p}$$ are also assumed as Gaussian distributed
-around $$\boldsymbol{p}^\dagger$$.
-
- !!IS THAT AN ASSUMPTION OR IS THAT IMPLIED??!!
-
-
+We'll now dive into how to apply the insights above to variable projection
+with multiple right hand sides.
 
 # Endnotes
 [^a-posteriori]: Maximizing the likelihood is the equivalent to maximizing the posterior probability, given uniform priors.
 [^uniform-prior]: Some problems arise when thinking in depth about the meaning of uniform priors. Those don't have a lot of practical importance, but are interesting nonetheless. They are discussed e.g. in Sivia's brilliant [Data Analysis - A Bayesian Tutorial](https://global.oup.com/academic/product/data-analysis-9780198568322https://global.oup.com/academic/product/data-analysis-9780198568322).
 [^approximate-hessian]: See e.g. Nocedal & Wright _Numerical Optimization_, 2nd edition or [this nice thesis](https://kops.uni-konstanz.de/entities/publication/9197ed25-a358-4fd9-943f-1897414eb6df) by Marius Kaltenbach.
+[^log-likelihood]: Maximizing the posterior is the same as minimizing the negative logarithm of the posterior $$L(p)=-\log\,P(p\vert y)$$, which leads us again to the least squares minimization expression at the start of the article.
+[^gsl-weights]: Note that they use a slightly different definition for the weight matrix. The meaning is equivalent, but they don't square the weight matrix with the residual, so that it appears differently in the formulae.

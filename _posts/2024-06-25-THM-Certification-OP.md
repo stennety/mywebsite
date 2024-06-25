@@ -4,10 +4,7 @@ title: TryHackMe Certification of Completion - Offensive Pentesting
 ---
 
 Even after finding a full time job as an embedded software engineer I kept on dedicating my own time to learning more skills.
-
 Thus, I am glad to add to my blog the certificate of completion for the Offensive Pentester path from Try Hack Me! 🚀
-
-
 ![Certificate](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-PDKVAYZIJZ.png)
 
 This course has taught me with hands-on assignments to use industry standard tools and methodologies to find vulnerabilities.

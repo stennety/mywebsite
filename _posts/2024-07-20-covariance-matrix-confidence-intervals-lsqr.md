@@ -7,7 +7,7 @@ date: 2024-07-20
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Least Squares Fitting: Confidence Intervals (not only) for Variable Projection with Multiple Right Hand Sides'
+title: 'Understanding the Covariance Matrix and Confidence Intervals in Nonlinear Least Squares Fitting'
 #
 #
 # Make sure this image is correct !!!
@@ -19,14 +19,14 @@ comments_id:
 math: true
 ---
 
-This post summarizes what I have learned in the ongoing process of implementing
-functionality to calculate confidence intervals into my nonlinear least squares
-fitting library. In this article I'll first recap the process of
-calculating confidence intervals for general nonlinear least squares fitting. After
-that I'll apply it to the special case of variable projection with
-multiple right hand sides.
+This post summarizes what I have learned in the ongoing process of implementing the
+capability to calculate confidence intervals and covariance matrices into my nonlinear least squares
+fitting library. All of the results are known, but it is easy to make subtle mistakes
+by applying formulas that one finds on the internet. This post dives into the
+topic in a way that will make it clear where the formulae of interest come from
+and how to apply them correctly. 
 
-# Part I: Basics of Least Squares Fitting
+# The Basics
 
 Assume we have a vector of observations $$\boldsymbol{y} \in \mathbb{R}^{N_y}$$
 that we want to "fit" with a (also vector valued) function
@@ -39,17 +39,19 @@ $$\boldsymbol{p}^\dagger$$, formally:
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert_2^2 \label{lsqr-fitting}\tag{1},$$
 
 where $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a diagonal matrix
-of weights for the elements of the observation vector. Note that in this article
+of weights for the elements of the observation vector. Note, that in this article
 the weights, due to their position, are also squared. There are multiple --ultimately
-equivalent-- ways of applying the weight matrix that change whether the weights
-should be interpreted as inverse variances or standard deviations. We'll understand
-in the next section. For now, let's note that least squares _fitting_ is just a
+equivalent-- ways of applying the weight matrix. Those change whether the weights
+should be interpreted as inverse variances or standard deviations. I am using this
+way of phrasing the minimization problem, but any way is fine as long as the
+calculations are applied consistently. We'll learn more about the weights in
+the next section. For now, let's note that least squares _fitting_ is just a
 special case of least squares _minimization_, which is:
 
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2 \label{lsqr-minimization}\tag{2}.$$
 
-For the fitting problem, $$\boldsymbol{r}(\boldsymbol{p})$$ is usually called the
-(vector of) residuals, where
+In case of the fitting problem, $$\boldsymbol{r}(\boldsymbol{p})$$ is usually called the
+(weighted) residual vector, where
 
 $$
 \boldsymbol{r}(\boldsymbol{p}) = \boldsymbol{W} (\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})), \label{residual-vector}\tag{3}
@@ -57,23 +59,23 @@ $$
 
 but in general it can just be any vector valued function of $$\boldsymbol{p}$$.
 
-For this article we are interpreted in confidence intervals and confidence bands
-of the fit. These are statistical interpretations of the data, which forces us
-to take a statistical perspective on the least squares fitting process.
+For this article we are interested in statistical measures (such as estimated
+variance) of the best fit parameters. We are further interested in providing
+confidence bands of the best model. To understand how to calculate those, it
+is useful to take a probabilistic approach to least squares fitting.
 
-## A Bayesian Perspective
+# A Bayesian Perspective on Least Squares
 
 We'll now take a step back and quickly recap the fundamentals of least squares 
 fitting from a Bayesian point of view. That will allow us to understand a couple of 
-things about the probability densities involved in the process. Importantly,
+things about the probability densities involved in the process and derive
+the desired properties. Crucially,
 we will also understand what the weights are supposed to signify. First, let's
 recap why we minimize the sum of squares in the first place.
 
-### The Sum of Squares
-
 To start, we assume that
 for each index $$j$$, the data is normally distributed around the expected
-value, which is given by the model $$f_j(\boldsymbol{p})$$. That means the
+value, which is given by the model $$f_j(\boldsymbol{p})$$. Thus, the
 conditional probability of observing value $$y_j$$, given the parameters
 $$\boldsymbol{p}$$ is:
 
@@ -89,13 +91,13 @@ with $$\boldsymbol{r}(\boldsymbol{p})$$ as in eq. $$\eqref{residual-vector}$$, p
 
 $$\boldsymbol{W} = \text{diag}(1/\sigma_1, \dots, 1/\sigma_{N_y}), \label{bayes-weights}\tag{5}$$
 
-where $$\sigma_j$$ is the standard deviation of data point $$y_j$$. That means the
+where $$\sigma_j$$ is the standard deviation of data point $$y_j$$. Thus, the
 weights must contain at least an estimate of the standard deviation of the
 data at index $$j$$ for the arguments to work. If we just put arbitrary
 numbers in there, the logic is not sound. Note that this implies that
-unweighted least squares could also not be justified by this approach, unless the
-variances off all data points are $$1$$, which is unlikely. But there is a way
-we can salvage this important case. I'll get to it later in this section,
+unweighted least squares can also not be justified by this approach, unless the
+variances of all data points are $$1$$, which is unlikely. But there is a way
+we can salvage this important case. I'll get to it later,
 let's return to the calculations for now.
 
 From a Bayesian point of view, we are interested in the posterior distribution that describes
@@ -117,7 +119,15 @@ the weigths as in $$\eqref{bayes-weights}$$. That means least squares fitting ar
 as maximum likelihood estimation with uniform priors from a Bayesian perspective.
 Now let's understand what that implies for the shape of the posterior probability.
 
-### Gaussian Posteriors and the Covariance Matrix
+# The Covariance Matrix for the Best Fit Parameters
+
+We will now derive an approximation for the covariance matrix $$\boldsymbol{C}_{p^\dagger}$$
+of the best fit parameters. This matrix is of interest e.g. because on the diagonal 
+it contains the variances of the elements of the parameter vector. If we know
+those, we can give estimates of probable ranges for the parameters. We can
+also use the covariance matrix to calculate [correlations](https://en.wikipedia.org/wiki/Correlation#Correlation_matrices)
+between the parameters. Let's start by examining the posterior probability
+for the parameters.
 
 In general, we won't be able to say much about the functional form of the
 posterior probability, which is proportional to $$\eqref{likelihood}$$,
@@ -148,7 +158,7 @@ $$
 We can use these results to approximate the posterior probability distribution
 around the best fit parameters:
 
-$$P(\boldsymbol{p}|\boldsymbol{y}) \approx K \cdot \exp\left(\frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger), \label{posterior-p-approximation}\tag{8}\right)$$
+$$P(\boldsymbol{p}|\boldsymbol{y}) \approx K \cdot \exp\left(-\frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger), \label{posterior-p-approximation}\tag{8}\right)$$
 
 where $$K\in\mathbb{R}$$ is a constant of integration that also absorbs the constant
 first term in $$\eqref{taylor-approx-g}$$. It acts as the normalization. This
@@ -164,17 +174,17 @@ where $$\boldsymbol{J}_r(\boldsymbol{p})$$ is the Jacobian Matrix of $$\boldsymb
 Often the Jacobian is only denoted by a simple $$\boldsymbol{J}$$, but for this post we'll
 encounter many Jacobians that we have to distinguish. Thus, it pays to be more explicit
 with the notation here. For now, this approximation allows us to write the
-covariance matrix $$\boldsymbol{C}_p$$ of the parameters $$\boldsymbol{p}$$ as
+covariance matrix $$\boldsymbol{C}_{p^\dagger}$$ of the best fit parameters $$\boldsymbol{p}^\dagger$$ as
 
-$$\boldsymbol{C}_p \approx \left( \boldsymbol{J}_r^T \boldsymbol{J}_r\right)^{-1} = ((\boldsymbol{W}\boldsymbol{J}_f)^T \, \boldsymbol{W}\boldsymbol{J}_f)^{-1}, \label{covariance-matrix} \tag{I.9}$$
+$$\boldsymbol{C}_{p^\dagger} = \boldsymbol{H}_g(\boldsymbol{p}^\dagger) \approx \left( \boldsymbol{J}_r^T (\boldsymbol{p}^\dagger) \boldsymbol{J}_r(\boldsymbol{p}^\dagger)\right)^{-1} = ((\boldsymbol{W}\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^T \, \boldsymbol{W}\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^{-1}, \label{covariance-matrix} \tag{9}$$
 
 where $$\boldsymbol{J}_f$$ is the Jacobian of $$\boldsymbol{f}(\boldsymbol{p})$$
-and thus $$\boldsymbol{J}_r = \boldsymbol{W}\boldsymbol{J}_f$$.
+and thus $$\boldsymbol{J}_r = \boldsymbol{W}\boldsymbol{J}_f$$. 
 
-Note that this is the covariance for weighted least squares, where the weights
+Note that this is the covariance for _weighted least squares_, where the weights
 must be related to the standard deviations of the data points as specified above.
 
-#### Unweighted Least Squares
+## Unweighted Least Squares
 
 Since the formula above is derived for weighted least squares with the weights
 given as in $$\eqref{bayes-weights}$$, how do we make it work for the unweighted case?
@@ -186,16 +196,16 @@ we have to specify a meaningful standard deviation.
 To salvage this, we can assume that the standard deviations for all data points
 are the same $$\sigma_j=\sigma$$, which means that the weights are
 
-$$\boldsymbol{W} = \frac{1}{\sigma}\boldsymbol{I}. \label{equal-weights}\tag{I.10}$$
+$$\boldsymbol{W} = \frac{1}{\sigma}\boldsymbol{I}. \label{equal-weights}\tag{10}$$
 
 Now if we use this in $$\eqref{covariance-matrix}$$ this comes out to
 
-$$\boldsymbol{C}_p \approx \sigma^2(\boldsymbol{J}_f^T \, \boldsymbol{J}_f)^{-1}, \label{covariance-matrix-unweighted} \tag{I.11},$$
+$$\boldsymbol{C}_{p^\dagger} \approx \sigma^2(\boldsymbol{J}_f^T (\boldsymbol{p}^\dagger)\, \boldsymbol{J}_f(\boldsymbol{p}^\dagger))^{-1}, \label{covariance-matrix-unweighted} \tag{11},$$
 
 and [we can estimate](https://www.gnu.org/software/gsl/doc/html/nls.html#covariance-matrix-of-best-fit-parameters)
 the $$\sigma^2$$ as the variance of the residuals around the best fit
 
-$$\sigma^2 = \frac{\lVert \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}^\dagger)\rVert_2^2}{N_y-N_p} = \frac{\lVert\boldsymbol{r}(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p}. \label{sigma-unweighted}\tag{I.12}$$
+$$\sigma^2 = \frac{\lVert \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}^\dagger)\rVert_2^2}{N_y-N_p} = \frac{\lVert\boldsymbol{r}(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p}. \label{sigma-unweighted}\tag{12}$$
 
 Although the formula $$\eqref{covariance-matrix-unweighted}$$ is sometimes
 used universally, it is only applicable for _unweighted_ least squares fitting.
@@ -208,10 +218,73 @@ use $$\eqref{covariance-matrix}$$. This is also explained in the
 [corresponding docs](https://www.gnu.org/software/gsl/doc/html/nls.html#covariance-matrix-of-best-fit-parameters)
 in the GNU Scientific Library[^gsl-weights].
 
-# Part II: Application to Variable Projection with Multiple Right Hand Sides
+# Confidence Bands
 
-We'll now dive into how to apply the insights above to variable projection
-with multiple right hand sides.
+Let's take a step back and look at what we have done above: we have related
+how the uncertainties in $$\boldsymbol{y}$$ [propagate to the uncertainties](https://en.wikipedia.org/wiki/Propagation_of_uncertainty)
+in $$\boldsymbol{p}^\dagger$$. The covariance matrix now allows us to give confidence intervals of the
+parameters via their standard deviations. Now we will do the same thing again,  
+which is learn what the uncertainties in $$\boldsymbol{p}^\dagger$$ tell
+us about the uncertainties of the best-fit solution $$\boldsymbol{f}(\boldsymbol{p})$$.
+The information we are most interested in, are the standard deviations for each
+element $$f_j$$. If we know those, we can give intervals around each $$f_j$$, which
+together make up the confidence band around the best fit solution.
+
+We treat $$\boldsymbol{z}=\boldsymbol{f}(\boldsymbol{p})$$ as a new variable
+and we are interested in the probability distribution of $$\boldsymbol{z}$$,
+which we can obtain from the posterior probability distribution of $$\boldsymbol{p}$$
+by performing a [change of variables](https://en.wikipedia.org/wiki/Probability_density_function#Function_of_random_variables_and_change_of_variables_in_the_probability_density_function),
+where I am following the notation of Sivia and Skilling (Sivia06):
+
+$$
+P(\boldsymbol{z}|\boldsymbol{y}) = P(\boldsymbol{p}=\boldsymbol{f}^{-1}(\boldsymbol{z})|\boldsymbol{y})\cdot \left| \frac{d\boldsymbol p}{d \boldsymbol{z}} \right| \label{change-of-var}\tag{13},
+$$
+
+where the factor on the right hand side is the determinant of the Jacobian of $$\boldsymbol{p}$$
+with respect to $$z$$. To get a grip on this expression we approximate $$\boldsymbol{y}$$
+around the best fit parameters by a first order Taylor series:
+
+$$\boldsymbol{z} = \boldsymbol{f}(\boldsymbol{p}) \approx \boldsymbol{f}(\boldsymbol{p}^\dagger) + \boldsymbol{J}_f(\boldsymbol{p}^\dagger)\,(\boldsymbol{p}-\boldsymbol{p}^\dagger),$$
+
+where $$\boldsymbol{J}_f(\boldsymbol{p}^\dagger)$$ is the Jacobian of $$\boldsymbol{f}(\boldsymbol{p})$$
+evaluated at $$\boldsymbol{p}^\dagger$$. Note, that there is nothing about $$\boldsymbol{p}^\dagger$$
+that would make this approximation particularly well-suited, in contrast to
+the approximation in eq. $$\eqref{taylor-approx-g}$$.
+We just use it because it is analytically convenient. This allows us to write
+
+$$ \boldsymbol{p} = \boldsymbol{f}^{-1}(\boldsymbol{z}) \approx \boldsymbol{J}_f^{-1}(\boldsymbol{p}^\dagger) (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))+\boldsymbol{p}^\dagger$$
+
+If we go ahead and plug
+this approximation and eq. $$\eqref{posterior-p-approximation}$$ into eq. $$\eqref{change-of-var}$$, the determinant becomes
+a constant and we can write:
+
+$$\begin{eqnarray}
+P(\boldsymbol{z}|\boldsymbol{y}) &\approx& K'\cdot \exp\left(-\frac{1}{2} (\boldsymbol{J_f}^{-1}(\boldsymbol{p}^\dagger)(\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger)))^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{J_f}^{-1}(\boldsymbol{p}^\dagger)(\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))) \right) \\
+  &=&  K'\cdot \exp\left(-\frac{1}{2} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))^T\, (\boldsymbol{J_f}^T)^{-1}(\boldsymbol{p}^\dagger)\boldsymbol{H}_g(\boldsymbol{p}^\dagger) \boldsymbol{J_f}^{-1}(\boldsymbol{p}^\dagger)(\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger)) \right) \\
+  &=&  K'\cdot \exp\left(-\frac{1}{2} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))^T\, (\boldsymbol{J_f}^T)^{-1}(\boldsymbol{p}^\dagger) \boldsymbol{C}_{p^\dagger}^{-1} \boldsymbol{J_f}^{-1}(\boldsymbol{p}^\dagger)(\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger)) \right) \\
+  &=&  K'\cdot \exp\left(-\frac{1}{2} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))^T\, (\boldsymbol{J_f}(\boldsymbol{p}^\dagger) \boldsymbol{C}_{p^\dagger} \boldsymbol{J_f}^{T}(\boldsymbol{p}^\dagger))^{-1} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger)) \right) \\
+  &=&  K'\cdot \exp\left(-\frac{1}{2} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger))^T\, \boldsymbol{C}_f^{-1} (\boldsymbol{z}-\boldsymbol{f}(\boldsymbol{p}^\dagger)) \right) ,
+\end{eqnarray}$$
+
+where we have absorbed all constant factors into $$K'$$. We can see that this is
+again a [multivariate normal](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
+with a covariance matrix of $$\boldsymbol{C}_f$$. That means that we can calculate
+the covariance of the model values at the best fit parameters under this approximation
+as:
+
+$$\boldsymbol{C}_f = \boldsymbol{J_f}(\boldsymbol{p}^\dagger) \boldsymbol{C}_{p^\dagger} \boldsymbol{J_f}^{T}(\boldsymbol{p}^\dagger) \label{cov-f}\tag{14}.$$
+
+In essence, we have derived the law of [Propagation of Uncertainty](https://en.wikipedia.org/wiki/Propagation_of_uncertainty),
+for our special case. The well-known formula for propagation of uncertainty
+is also derived under the approximation of linearity of the transformation.
+
+## From Covariance Matrix to Confidence Bands
+
+
+
+
+# References
+(Sivia06) D Sivia & J Skilling: Data Analysis - A Bayesian Tutorial, Oxford University Press, 2nd ed, 2006
 
 # Endnotes
 [^a-posteriori]: Maximizing the likelihood is the equivalent to maximizing the posterior probability, given uniform priors.

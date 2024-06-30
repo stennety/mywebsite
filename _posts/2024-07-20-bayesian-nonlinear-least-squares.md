@@ -165,8 +165,8 @@ first term in $$\eqref{taylor-approx-g}$$. It acts as the normalization. This
 turns out to be the a [multivariate Gaussian distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 with expected value $$\boldsymbol{p}^\dagger$$ and covariance matrix $$\boldsymbol{H}_g^{-1}(\boldsymbol{p}^\dagger)$$.
 
-In least squares fitting, the Hessian of $$g$$ is often approximated[^approximate-hessian]
-as
+In least squares fitting, the Hessian of $$g$$ is often approximated
+as (Noc06, Kal22)
 
 $$\boldsymbol{H}_g(\boldsymbol{p}) \approx \boldsymbol{J}_r(\boldsymbol{p})^T \boldsymbol{J}_r(\boldsymbol{p}),$$
 
@@ -234,7 +234,7 @@ We treat $$\boldsymbol{z}=\boldsymbol{f}(\boldsymbol{p})$$ as a new variable
 and we are interested in the probability distribution of $$\boldsymbol{z}$$,
 which we can obtain from the posterior probability distribution of $$\boldsymbol{p}$$
 by performing a [change of variables](https://en.wikipedia.org/wiki/Probability_density_function#Function_of_random_variables_and_change_of_variables_in_the_probability_density_function),
-where I am following the notation of Sivia and Skilling (Sivia06):
+where I am following the notation of Sivia and Skilling (Siv06):
 
 $$
 P(\boldsymbol{z}|\boldsymbol{y}) = P(\boldsymbol{p}=\boldsymbol{f}^{-1}(\boldsymbol{z})|\boldsymbol{y})\cdot \left| \frac{d\boldsymbol p}{d \boldsymbol{z}} \right| \label{change-of-var}\tag{13},
@@ -274,21 +274,61 @@ as:
 
 $$\boldsymbol{C}_f = \boldsymbol{J_f}(\boldsymbol{p}^\dagger) \boldsymbol{C}_{p^\dagger} \boldsymbol{J_f}^{T}(\boldsymbol{p}^\dagger) \label{cov-f}\tag{14}.$$
 
-In essence, we have derived the law of [Propagation of Uncertainty](https://en.wikipedia.org/wiki/Propagation_of_uncertainty),
-for our special case. The well-known formula for propagation of uncertainty
+In essence, we have derived the law of [Propagation of Uncertainty](https://en.wikipedia.org/wiki/Propagation_of_uncertainty)
+for our special case[^prop-uncertainty]. The well-known formula for propagation of uncertainty
 is also derived under the approximation of linearity of the transformation.
 
 ## From Covariance Matrix to Confidence Bands
 
+So now that we have the covariance matrix, how do we use it to construct
+[confidence bands](https://en.wikipedia.org/wiki/Confidence_and_prediction_bands)
+around our best-fit model? Luckily we already know everything we need.
+
+We have
+approximated the elements of $$\boldsymbol{f}(\boldsymbol{p^\dagger})$$ values as
+normally distributed with a covariance matrix of $$\boldsymbol{C}_f$$. That means
+that the variance for each entry $$f_j$$ of $$\boldsymbol{f}$$ is on index $$j$$
+of the diagonal of $$\boldsymbol{C}_f$$. Let's express this in vector notation:
 
 
+$$(\sigma_{f_1}^2,\dots,\sigma^2_{f_{N_y}})^T = \text{diag} (\boldsymbol{C}_f). \label{variance-vector}\tag{15}$$
+
+It would be numerically wasteful to calculate the whole matrix $$\boldsymbol{C}_f$$
+just to then immediately discard everything except the diagonal elements. There
+is a better way. To see this, we write the Jacobian as a collection using row-vectors:
+
+$$
+\boldsymbol{J}_f(\boldsymbol{p}^\dagger) = \begin{bmatrix}
+- \boldsymbol{j}_1^T -\\
+- \boldsymbol{j}_2^T -\\
+\vdots \\
+- \boldsymbol{j}_n^T -
+\end{bmatrix},
+$$
+
+where $$\boldsymbol{j}_i^T$$ is the $$i$$-th _row_ of the Jacobian of $$\boldsymbol{f}$$ at the
+best fit parameters. Now we can write the variance for each element of $$\boldsymbol{f}$$
+as
+
+$$\sigma_{f_i}^2 = \boldsymbol{j}_i^T \boldsymbol{C}_f \boldsymbol{j}_i, \label{efficient-sigma-f}\tag{16}$$
+
+where, again $$\boldsymbol{j}_i^T$$ is a _row_ vector representing a row of the Jacobian.
+Wolberg arrives at the same formula using a slightly different approach (Wol06, section 2.5).
+Using this way of calculating the variances saves a significant amount of computations
+and should be preferred to calculating the whole matrix product.
 
 # References
-(Sivia06) D Sivia & J Skilling: Data Analysis - A Bayesian Tutorial, Oxford University Press, 2nd ed, 2006
+(Noc06) J Nocedal & SJ Wright: "Numerical Optimization", Springer, 2nd ed, 2006
+
+(Siv06) D Sivia & J Skilling: "Data Analysis - A Bayesian Tutorial", Oxford University Press, 2nd ed, 2006
+
+(Wol06) J Wolberg: "Data Analysis Using the Method of Least Squares", Springer, 2006
+
+(Kal22) M Kaltenbach: "The Levenberg-Marquardt Method and its Implementation in Python", Diploma Thesis, Uni Konstanz, 2022, ([link](http://nbn-resolving.de/urn:nbn:de:bsz:352-2-1ofyba49ud2jr5))
 
 # Endnotes
 [^a-posteriori]: Maximizing the likelihood is the equivalent to maximizing the posterior probability, given uniform priors.
 [^uniform-prior]: Some problems arise when thinking in depth about the meaning of uniform priors. Those don't have a lot of practical importance, but are interesting nonetheless. They are discussed e.g. in Sivia's brilliant [Data Analysis - A Bayesian Tutorial](https://global.oup.com/academic/product/data-analysis-9780198568322https://global.oup.com/academic/product/data-analysis-9780198568322).
-[^approximate-hessian]: See e.g. Nocedal & Wright _Numerical Optimization_, 2nd edition or [this nice thesis](https://kops.uni-konstanz.de/entities/publication/9197ed25-a358-4fd9-943f-1897414eb6df) by Marius Kaltenbach.
 [^log-likelihood]: Maximizing the posterior is the same as minimizing the negative logarithm of the posterior $$L(p)=-\log\,P(p\vert y)$$, which leads us again to the least squares minimization expression at the start of the article.
 [^gsl-weights]: Note that they use a slightly different definition for the weight matrix. The meaning is equivalent, but they don't square the weight matrix with the residual, so that it appears differently in the formulae.
+[^prop-uncertainty]: The formula for propagation of uncertainty is also derived under the approximation of linearity of the transformation.

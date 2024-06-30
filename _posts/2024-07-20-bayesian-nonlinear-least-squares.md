@@ -1,13 +1,13 @@
 ---
 layout: post
-tags: least-squares image-processing algorithm math varpro
+tags: least-squares algorithm math bayesian
 #categories: []
 date: 2024-07-20
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Understanding the Covariance Matrix and Confidence Intervals in Nonlinear Least Squares Fitting'
+title: 'Nonlinear Least Squares Fitting - A Bayesian Tutorial'
 #
 #
 # Make sure this image is correct !!!
@@ -19,59 +19,62 @@ comments_id:
 math: true
 ---
 
-This post summarizes what I have learned in the ongoing process of implementing the
-capability to calculate confidence intervals and covariance matrices into my nonlinear least squares
-fitting library. All of the results are known, but it is easy to make subtle mistakes
-by applying formulas that one finds on the internet. This post dives into the
-topic in a way that will make it clear where the formulae of interest come from
-and how to apply them correctly. 
+This post derives the method of nonlinear least squares fitting with a Bayesian perspective
+from the ground up. We'll learn where the method comes from and dive deep into
+the interpretation of the weights, the statistical analysis of the best fit parameters,
+and confidence intervals of the best-fit itself. None of the information is new,
+when you know how to find it. I've just made it my mission to gather it comprehensively
+in one place, because it's easy to make subtle mistakes when just using formulas
+off the internet and we don't know what they mean.
 
-# The Basics
+# Nonlinear Least Squares Fitting
 
 Assume we have a vector of observations $$\boldsymbol{y} \in \mathbb{R}^{N_y}$$
-that we want to "fit" with a (also vector valued) function
+that we want to "fit" with a _model function_
 $$\boldsymbol{f}(\boldsymbol{p}) \in \mathbb{R}^{N_y}$$ that depends on $$N_p$$
-parameters $$\boldsymbol{p} \in \mathbb{R}^{N_p}$$. Then the process of least
+parameters $$\boldsymbol{p} \in \mathbb{R}^{N_p}$$. Then, the process of least
 squares _fitting_ a function is to find the parameters that minimize the weighted
-difference of the function and the observations. We call those parameters
+squared difference of the function and the observations. We call those parameters
 $$\boldsymbol{p}^\dagger$$, formally:
 
-$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert_2^2 \label{lsqr-fitting}\tag{1},$$
+$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert^2 \label{lsqr-fitting}\tag{1},$$
 
-where $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a diagonal matrix
-of weights for the elements of the observation vector. Note, that in this article
-the weights, due to their position, are also squared. There are multiple --ultimately
-equivalent-- ways of applying the weight matrix. Those change whether the weights
-should be interpreted as inverse variances or standard deviations. I am using this
-way of phrasing the minimization problem, but any way is fine as long as the
-calculations are applied consistently. We'll learn more about the weights in
-the next section. For now, let's note that least squares _fitting_ is just a
-special case of least squares _minimization_, which is:
+where$$\lVert\cdot\rVert$$ is the $$\ell 2$$ norm of a vector and $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a matrix
+of weights. We'll spend much more time on what those weights mean in
+the following sections. For now, let's introduce some helpful abbreviations
+and rewrite the equation above:
 
-$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2 \label{lsqr-minimization}\tag{2}.$$
+$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} g(\boldsymbol{p}) \label{lsqr-fitting-g}\tag{2},$$
 
-In case of the fitting problem, $$\boldsymbol{r}(\boldsymbol{p})$$ is usually called the
-(weighted) residual vector, where
+where $$g$$ is called the _objective function_ of the minimization, which
+we can write in terms of the (weighted) residuals:
 
-$$
-\boldsymbol{r}(\boldsymbol{p}) = \boldsymbol{W} (\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})), \label{residual-vector}\tag{3}
-$$
+$$\begin{eqnarray} 
+g(\boldsymbol{p}) &:=& \frac{1}{2} \boldsymbol{r}_w^T(\boldsymbol{p}) \boldsymbol{r_w}(\boldsymbol{p}), \label{objective-function} \tag{3}\\
+  &=& \frac{1}{2} \boldsymbol{r}^T(\boldsymbol{p}) (\boldsymbol{W}^T \boldsymbol{W}) \boldsymbol{r}(\boldsymbol{p}) \\
+\boldsymbol{r}(\boldsymbol{p}) &:=& \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}) \label{residuals}\tag{4} \\
+\boldsymbol{r}_w(\boldsymbol{p}) &:=& \boldsymbol{W} \boldsymbol{r}(\boldsymbol{p}) \label{weighted-residuals}\tag{5}
+\end{eqnarray}$$
 
-but in general it can just be any vector valued function of $$\boldsymbol{p}$$.
+Note, that the objective function is a quadratic form with the matrix
+$$\boldsymbol{W}^T\boldsymbol{W}$$. Sometimes the objective function
+is written as $$\boldsymbol{r}^T \boldsymbol{W'} \boldsymbol{r}$$ or
+$$\boldsymbol{r}^T \boldsymbol{\Sigma^{-1}} \boldsymbol{r}$$. All forms are equivalent,
+but it does influence how exactly the elements of the weighting matrix appear
+in the later equations and what they mean. One can always transform one representation
+into the other, but important thing is to pick one notation and to
+apply it consistently. Here, we stick with the objective function as
+stated above.
 
-For this article we are interested in statistical measures (such as estimated
-variance) of the best fit parameters. We are further interested in providing
-confidence bands of the best model. To understand how to calculate those, it
-is useful to take a probabilistic approach to least squares fitting.
+For this article we want to answer the following questions: why do we minimize
+the sum of squares? What exactly do the weights represent? What are the statistical
+properties (such as estimated variance) of the best fit parameters? What are the
+confidence bands of the best model after the fit? Let's answer this by building
+nonlinear least squares from the ground up.
 
 # A Bayesian Perspective on Least Squares
 
-We'll now take a step back and quickly recap the fundamentals of least squares 
-fitting from a Bayesian point of view. That will allow us to understand a couple of 
-things about the probability densities involved in the process and derive
-the desired properties. Crucially,
-we will also understand what the weights are supposed to signify. First, let's
-recap why we minimize the sum of squares in the first place.
+!!! TODO
 
 To start, we assume that
 for each index $$j$$, the data is normally distributed around the expected
@@ -85,9 +88,9 @@ Assuming [statistical independence](https://en.m.wikipedia.org/wiki/Independence
 we can write the probability of observing the vector $$\boldsymbol{y}$$ given $$\boldsymbol{p}$$
 as
 
-$$P(\boldsymbol{y}|\boldsymbol{p}) = \prod_j P(y_j|\boldsymbol{p}) \propto \exp(-\frac{1}{2}\lVert\boldsymbol{W}(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p}))\rVert_2^2)=\exp(-\frac{1}{2}\lVert \boldsymbol{r}(\boldsymbol{p})\rVert_2^2), \label{likelihood}\tag{4}$$
+$$P(\boldsymbol{y}|\boldsymbol{p}) = \prod_j P(y_j|\boldsymbol{p}) \propto \exp(-\frac{1}{2}\lVert\boldsymbol{W}(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p}))\rVert^2)=\exp(-\frac{1}{2}\lVert \boldsymbol{r}_w(\boldsymbol{p})\rVert^2), \label{likelihood}\tag{4}$$
 
-with $$\boldsymbol{r}(\boldsymbol{p})$$ as in eq. $$\eqref{residual-vector}$$, provided that we choose the weights as
+with $$\boldsymbol{r}_w(\boldsymbol{p})$$ as in eq. $$\eqref{residual-vector}$$, provided that we choose the weights as
 
 $$\boldsymbol{W} = \text{diag}(1/\sigma_1, \dots, 1/\sigma_{N_y}), \label{bayes-weights}\tag{5}$$
 
@@ -136,14 +139,14 @@ of the best fit parameters $$\boldsymbol{p}^\dagger$$, we can make some
 useful approximations. For ease of notation let's denote the sum of the squared
 residuals as
 
-$$g(\boldsymbol{p}) = \frac{1}{2} \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert_2^2,$$
+$$g(\boldsymbol{p}) = \frac{1}{2} \lVert \boldsymbol{r}_w(\boldsymbol{p}) \rVert^2,$$
 
 where $$g: \mathbb{R}^{N_p} \rightarrow \mathbb{R}$$. Using a Taylor expansion 
 we can write $$g$$ around the best fit parameter $$\boldsymbol{p}^\dagger$$
 as
 
 $$
-g(\boldsymbol{p}) = g(\boldsymbol{p}^\dagger) + \nabla g(\boldsymbol{p}^\dagger) \cdot (\boldsymbol{p}-\boldsymbol{p}^\dagger) + \frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger) + \mathcal{O}(\lVert \boldsymbol{p}-\boldsymbol{p}^\dagger\rVert^3_2)
+g(\boldsymbol{p}) = g(\boldsymbol{p}^\dagger) + \nabla g(\boldsymbol{p}^\dagger) \cdot (\boldsymbol{p}-\boldsymbol{p}^\dagger) + \frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger) + \mathcal{O}(\lVert \boldsymbol{p}-\boldsymbol{p}^\dagger\rVert^3)
 $$
 
 where $$\nabla g(\boldsymbol{p}^\dagger)$$ is the gradient of $$g$$ and $$\boldsymbol{H}_g(\boldsymbol{p}^\dagger)$$
@@ -170,7 +173,7 @@ as (Noc06, Kal22)
 
 $$\boldsymbol{H}_g(\boldsymbol{p}) \approx \boldsymbol{J}_r(\boldsymbol{p})^T \boldsymbol{J}_r(\boldsymbol{p}),$$
 
-where $$\boldsymbol{J}_r(\boldsymbol{p})$$ is the Jacobian Matrix of $$\boldsymbol{r}(\boldsymbol{p})$$.
+where $$\boldsymbol{J}_r(\boldsymbol{p})$$ is the Jacobian Matrix of $$\boldsymbol{r}_w(\boldsymbol{p})$$.
 Often the Jacobian is only denoted by a simple $$\boldsymbol{J}$$, but for this post we'll
 encounter many Jacobians that we have to distinguish. Thus, it pays to be more explicit
 with the notation here. For now, this approximation allows us to write the
@@ -205,7 +208,7 @@ $$\boldsymbol{C}_{p^\dagger} \approx \sigma^2(\boldsymbol{J}_f^T (\boldsymbol{p}
 and [we can estimate](https://www.gnu.org/software/gsl/doc/html/nls.html#covariance-matrix-of-best-fit-parameters)
 the $$\sigma^2$$ as the variance of the residuals around the best fit
 
-$$\sigma^2 = \frac{\lVert \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}^\dagger)\rVert_2^2}{N_y-N_p} = \frac{\lVert\boldsymbol{r}(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p}. \label{sigma-unweighted}\tag{12}$$
+$$\sigma^2 = \frac{\lVert \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p} = \frac{\lVert\boldsymbol{r}_w(\boldsymbol{p}^\dagger)\rVert^2}{N_y-N_p}. \label{sigma-unweighted}\tag{12}$$
 
 Although the formula $$\eqref{covariance-matrix-unweighted}$$ is sometimes
 used universally, it is only applicable for _unweighted_ least squares fitting.

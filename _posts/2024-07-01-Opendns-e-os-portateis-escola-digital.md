@@ -8,7 +8,7 @@ comments: true
 
 # OpenDNS 
 ## Serviço indisponivel em Portugal
-Recentemente o fornecedor de DNS, OpenDNS deixou de estar disponível em Portugal, devido a 2 ordens judiciais para bloqueio de pirataria, no caso português estamos a falar do Artigo 210-G(3) do Código de Direitos de Autor Português.
+Recentemente o fornecedor de DNS, OpenDNS deixou de estar disponível em Portugal e em França, devido a 2 ordens judiciais para bloqueio de pirataria, no caso português estamos a falar do Artigo 210-G(3) do Código de Direitos de Autor Português.
 Podem verificar isso, usando a ferramenta dig, para tentar resolver algum endereço, usando os DNS do OpenDNS, como é o caso do ip 208.67.222.222 .
 O próprio OpenDNS noticiou esta decisão no dia 28 Junho, [podem ver no site oficial](https://support.opendns.com/hc/en-us/articles/27951404269204-OpenDNS-Service-Not-Available-To-Users-In-France-and-Portugal?ref=internet.exchangepoint.tech). 
 

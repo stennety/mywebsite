@@ -50,6 +50,7 @@ Abrir o Painel de Controlo, entrar em Centro de Rede e Partilha (mais uma vez pr
 ![_config.yml]({{ site.baseurl }}/images/opendns/05-dns-setup.png)
 
 Uma vez aberta a janela de Propriedades, basta selecionar a opção Protocolo IPv4, depois Propriedades 
+
 ![_config.yml]({{ site.baseurl }}/images/opendns/06-dns-setup-2.png)
 
 Por fim devem marcar a opção de utilizar a seguinte lista de endereços de servidor DNS e indicar os endereços DNS que pretendem usar, neste exemplo um endereço [Cloudflare - 1.1.1.1](https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/) e outro da [Google - 8.8.8.8](https://developers.google.com/speed/public-dns?hl=pt-br), há bastantes mais opções como a [Quad9 - 9.9.9.9](https://quad9.net/), com opções de filtragem de conteúdo. 

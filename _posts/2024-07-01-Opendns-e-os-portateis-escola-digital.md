@@ -34,13 +34,16 @@ Vão precisar das credenciais de Administrador da máquina.
 ### Serviços
 Primeiro devem abrir os Serviços do Windows, como Administrador e localizar o serviço Umbrella Roaming Client. Devem aproveitar para clicar no botão Stop e depois com o botão do lado direito clicar sobre o serviço e escolher a opção Propriedades.
 ![_config.yml]({{ site.baseurl }}/images/opendns/01-print.png)
+
 Depois de aberta a nova janela de Propriedades, devem modificar o Tipo de Arranque para Desativado e ainda deve clicar em Parar o estado de execução atual, depois devem clicar em Aplicar e por fim em OK.
+
 ![_config.yml]({{ site.baseurl }}/images/opendns/02-print.png)
+
 No final devem ter algo como o que se pode ver na imagem seguinte:
 ![_config.yml]({{ site.baseurl }}/images/opendns/03-print.png)
 
 Para validar, podem tentar pingar algum endereço web, eu como sou da velha guarda, uso sempre o meu destinatário habitual, o [sapo.pt](https://sapo.pt) e já devem conseguir ver que o nome do sapo.pt foi bem resolvido.
-![_config.yml]({{ site.baseurl }}/images/opendns/04-print.png)
+![_config.yml]({{ site.baseurl }}/images/opendns/04-ping.png)
 
 ## Alternativas ao OpenDNS
 Uma vez que estamos a falar de equipamentos para crianças (maioritariamente) e que até dia 28 de Junho 2024 estavam a usar os serviços OpenDNS para resolver endereços e eventualmente bloquear conteúdo menos próprio, se calhar é boa ideia forçar a utilização de DNS de terceiros e não confiar nos DNS dos operadores de telecomunicação, não me levem a mal, mas aqui por casa não confio nos DNS dos operadores, tenho a minha própria instancia de [pi-hole](https://pi-hole.net/) para bloquear conteúdos.
@@ -66,3 +69,6 @@ Nota, aqui neste caso, usei um PC com Windows 10 para exemplificar, que foi o ú
 
 ## Kudos 
 Kudos para a equipa de suporte da Escola Digital que foram rápidos na publicação deste workarround a 30-06-2024.
+
+## Post Edit
+Um outro artigo bastante interessante, sobre este tema, e que segue os passos necessários para desinstalar a aplicação Umbrella, é o link do artigo do [Sérgio Araujo](https://www.sergioaraujo.pt/p/a-opendns-suspendeu-o-servico-em?utm_campaign=post&utm_medium=web), vale a pena passar por lá e ler.

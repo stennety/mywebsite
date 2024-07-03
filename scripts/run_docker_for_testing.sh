@@ -33,10 +33,13 @@ EOL
 
 #RUN bundle install #removed after tge Copy and before the Expose
 
+# destroy it if exists:
+./destroy_container.sh $CONTAINER_NAME
+
 # Construir a imagem Docker
 docker build --platform linux/aarch64  -t $CONTAINER_NAME .
 
-# Executar o contêiner Docker
+# Executar o container Docker
 docker run -d -p 4000:4000 --name $CONTAINER_NAME --restart no $CONTAINER_NAME --platform linux/aarch64
 
 # Informações de teste

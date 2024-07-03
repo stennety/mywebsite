@@ -43,6 +43,7 @@ No final devem ter algo como o que se pode ver na imagem seguinte:
 ![_config.yml]({{ site.baseurl }}/images/opendns/03-print.png)
 
 Para validar, podem tentar pingar algum endereço web, eu como sou da velha guarda, uso sempre o meu destinatário habitual, o [sapo.pt](https://sapo.pt) e já devem conseguir ver que o nome do sapo.pt foi bem resolvido.
+
 ![_config.yml]({{ site.baseurl }}/images/opendns/04-ping.png)
 
 ## Alternativas ao OpenDNS

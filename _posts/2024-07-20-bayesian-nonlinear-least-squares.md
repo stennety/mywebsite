@@ -7,7 +7,7 @@ date: 2024-07-20
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Nonlinear Least Squares Fitting - A Bayesian Tutorial'
+title: 'A Bayesian View on Nonlinear Least Squares Fitting - A Story of Priors'
 #
 #
 # Make sure this image is correct !!!
@@ -19,13 +19,14 @@ comments_id:
 math: true
 ---
 
-This post derives the method of nonlinear least squares fitting with a Bayesian perspective
-from the ground up. We'll learn where the method comes from and dive deep into
-the interpretation of the weights, the statistical analysis of the best fit parameters,
-and confidence intervals of the best-fit itself. None of the information is new,
-when you know how to find it. I've just made it my mission to gather it comprehensively
-in one place, because it's easy to make subtle mistakes when just using formulas
-off the internet and we don't know what they mean.
+This post was triggered by a little piece of unclarity I had concerning
+a certain formula in least squares fitting. So what I decided to do, was to
+derive said formula by deriving the whole nonlinear least squares fitting
+formalism from a Bayesian perspective. What I thought would be a smooth flight
+from A to B turned into a spectacular failure. By now, I have retrieved the flight
+recorder and organized the debris into an article of sorts. I believe there is a
+lot of useful stuff in here even though I ultimately did not achieve what I set
+out to do.
 
 # 1. Nonlinear Least Squares Fitting
 
@@ -37,24 +38,24 @@ squares _fitting_ a function is to find the parameters that minimize the weighte
 squared difference of the function and the observations. We call those parameters
 $$\boldsymbol{p}^\dagger$$, formally:
 
-$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert^2 \label{lsqr-fitting}\tag{1},$$
+$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert^2 \label{lsqr-fitting}\tag{1.1},$$
 
 where$$\lVert\cdot\rVert$$ is the $$\ell 2$$ norm of a vector and $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a matrix
 of weights. We'll spend much more time on what those weights mean in
 the following sections. For now, let's introduce some helpful abbreviations
 and rewrite the equation above:
 
-$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} g(\boldsymbol{p}) \label{lsqr-fitting-g}\tag{2},$$
+$$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} g(\boldsymbol{p}) \label{lsqr-fitting-g}\tag{1.2},$$
 
 where $$g$$ is called the _objective function_ of the minimization, which
 we can write in terms of the (weighted) residuals:
 
 $$\begin{eqnarray} 
-g(\boldsymbol{p}) &:=& \frac{1}{2} \boldsymbol{r}_w^T(\boldsymbol{p}) \boldsymbol{r_w}(\boldsymbol{p}), \label{objective-function} \tag{3}\\
+g(\boldsymbol{p}) &:=& \frac{1}{2} \boldsymbol{r}_w^T(\boldsymbol{p}) \boldsymbol{r_w}(\boldsymbol{p}), \label{objective-function} \tag{1.3}\\
   &=& \frac{1}{2} \boldsymbol{r}^T(\boldsymbol{p}) (\boldsymbol{W}^T \boldsymbol{W}) \boldsymbol{r}(\boldsymbol{p}) \\
   &=& \frac{1}{2} \sum_j (y_j - f_j(\boldsymbol{p}))^2 \\
-\boldsymbol{r}(\boldsymbol{p}) &:=& \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}) \label{residuals}\tag{4} \\
-\boldsymbol{r}_w(\boldsymbol{p}) &:=& \boldsymbol{W} \boldsymbol{r}(\boldsymbol{p}) \label{weighted-residuals}\tag{5}
+\boldsymbol{r}(\boldsymbol{p}) &:=& \boldsymbol{y}-\boldsymbol{f}(\boldsymbol{p}) \label{residuals}\tag{1.4} \\
+\boldsymbol{r}_w(\boldsymbol{p}) &:=& \boldsymbol{W} \boldsymbol{r}(\boldsymbol{p}) \label{weighted-residuals}\tag{1.5}
 \end{eqnarray}$$
 
 Note, that the objective function is a quadratic form with the matrix
@@ -85,67 +86,63 @@ example, on the $$j$$-th position on the diagonal it has the _variance_ $$\sigma
 of the data element at $$j$$. 
 
 For this article, let's make the assumption that the elements
-$$y_j$$ [statistically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)).
-Many of the calculations in this article will be true even if they aren't, but finding 
-out which ones is left as an _exercise to the reader_[^exercise-reader].
+$$y_j$$ are [statistically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory))
+of each other. Some of the calculations in this article will be true even if they
+aren't, but finding  out which ones is left as an _exercise to the reader_[^exercise-reader].
 The statistical independence implies that the covariance matrix is nonzero
 only on the diagonal:
 
-$$\Sigma = \text{diag}(\sigma^2_1,\dots,\sigma^2_{N_y}) \label{covariance-diag}\tag{6}$$
+$$\Sigma = \text{diag}(\sigma^2_1,\dots,\sigma^2_{N_y}) \label{covariance-diag}\tag{2.1}$$
 
 We can further write the likelihood of observing data $$y_j$$ at indec $$j$$, given
 the parameters $$\boldsymbol{p}$$ and the standard deviation $$\sigma_j$$ at $$j$$ as:
 
-$$P(y_j | \boldsymbol{p}, \sigma_j) = \frac{1}{\sqrt{2\pi}\sigma_j}\exp\left( -\frac{1}{2}\frac{(y_j-f_j(\boldsymbol{p}))^2}{\sigma_j^2} \right).\label{likelihood-yi}\tag{7}$$
+$$P(y_j | \boldsymbol{p}, \sigma_j) = \frac{1}{\sqrt{2\pi}\sigma_j}\exp\left( -\frac{1}{2}\frac{(y_j-f_j(\boldsymbol{p}))^2}{\sigma_j^2} \right).\label{likelihood-yi}\tag{2.2}$$
 
 This allows us to write the likelihood of observing the data vector $$\boldsymbol{y}$$
 given the parameters $$\boldsymbol{p}$$ and the set of standard deviations $$\{\sigma_j\}$$ 
 as the product:
 
-$$P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\}) = \prod_j P(y_j|\boldsymbol{p},\sigma_j) \label{likelihood} \tag{8}$$
+$$P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\}) = \prod_j P(y_j|\boldsymbol{p},\sigma_j) \label{likelihood} \tag{2.3}$$
 
 with $$\boldsymbol{r}$$ as in eq. $$\eqref{residuals}$$. From a Bayesian point of view, we are interested
 in the posterior distribution that describes the probability density of $$\boldsymbol{p}$$
 given our observations $$\boldsymbol{y}$$. Bayes Theorem brings us a step closer towards
 this: 
 
-$$P(\boldsymbol{p},\{\sigma_j\}|\boldsymbol{y}) = \frac{P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\})\cdot P(\boldsymbol{p},\{\sigma_j\})}{P(\boldsymbol{y})}.\label{joint-posterior}\tag{9}$$
+$$P(\boldsymbol{p},\{\sigma_j\}|\boldsymbol{y}) = \frac{P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\})\cdot P(\boldsymbol{p},\{\sigma_j\})}{P(\boldsymbol{y})}.\label{joint-posterior}\tag{2.4}$$
 
 This is actually the joint posterior probability for the parameters $$\boldsymbol{p}$$ _and_
-the standard deviations $$\{\sigma_j\}$$. We now use that 
-$$P(\boldsymbol{p},\{\sigma_j\})=P(\{\sigma_j\}\vert\boldsymbol{p})\cdot P(\boldsymbol{p})$$.
-Then we use that $$P(\{\sigma_j\}|\boldsymbol{p}) = \prod_j P(\sigma_j|\boldsymbol{p})$$ due
-to the statistical independence of $$y_j$$. And finally we make one assumption which
-is central to all of the following discussion. We assume a _uniform prior_
-probability of the parameters, formally:
+the standard deviations $$\{\sigma_j\}$$. Now let's make another assumption, which
+is that the standard deviations $$\{\sigma_j\}$$ are also statistically independent.
+This implies
 
-$$P(\boldsymbol{p}) = \text{const.} \label{uniform-prior-p}\tag{10}$$
+$$P(\boldsymbol{p}, \{\sigma_j\}) = \prod_j P(\boldsymbol{p}, \sigma_j),$$
 
-From a Bayesian perspective, this is a naive way of conveying ignorance about
-the values of the parameters [^uniform-prior]<sup>,</sup>[^ignorance].
-This lets us write the joint posterior probability eq. $$\eqref{joint-posterior}$$
-as:
+which, together with eq. $$\eqref{likelihood}$$ allows us to write:
 
-$$P(\boldsymbol{p},\{\sigma_j\}|\boldsymbol{y}) \propto \prod_j P(\boldsymbol{y}|\boldsymbol{p},\sigma_j)\cdot P(\sigma_j|\boldsymbol{p}) \label{joint-posterior-lsqr}\tag{10},$$
+$$P(\boldsymbol{p},\{\sigma_j\}|\boldsymbol{y}) \propto \prod_j P(y_j|\boldsymbol{p},\sigma_j)\cdot P(\boldsymbol{p},\sigma_j), $$
 
 where we have omitted constants that don't depend on the parameters or the standard
 deviations, such as the marginal probability $$P(\boldsymbol{y})$$. Annoyingly,
-this posterior still contains the standard deviations. The cool thing is, that
+this posterior still contains the standard deviations. What's nice is, that
 we can [marginalize out](https://en.wikipedia.org/wiki/Marginal_distribution)
 the dependency on the standard deviations in the posterior by integration:
 
-$$\begin{eqnarray}
-P(\boldsymbol{p}|\boldsymbol{y}) &\propto& \int  \prod_j P(\boldsymbol{y}|\boldsymbol{p},\sigma_j)\cdot P(\{\sigma_j\}|\boldsymbol{p})\text{d}\{\sigma_j\} \\
- &=& \prod_j \int_0^\infty P(\boldsymbol{y}|\boldsymbol{p},\sigma_j)\cdot P(\sigma_j|\boldsymbol{p})\text{d}\sigma_j \label{posterior}\tag{11}
-\end{eqnarray}$$
+$$
+P(\boldsymbol{p}|\boldsymbol{y}) \propto \int  \prod_j P(y_j|\boldsymbol{p},\sigma_j)\cdot P(\boldsymbol{p},\sigma_j) \;\text{d}\{\sigma_j\}\label{posterior}\tag{2.5}, \\
+$$
 
-This is finally the posterior distribution for the parameters that we are looking for.
+where the integral is multidimensinal over all $$\sigma_j$$. This is finally 
+the posterior distribution for the parameters that we are looking for.
 It allows us for example to find the maximum _a posteriori_ estimate for the parameters.
 There is just one problem: to actually find an expression for that, we need to
 solve the integral. And to do that we have to make some assumptions about
-the probability distributions $$P(\sigma_j|\boldsymbol{p})$$. In the next sections,
-we will think through the implications of different assumptions about $$P(\sigma_j|\boldsymbol{p})$$
-and we will relate them to the least squares problem eq. $$\eqref{lsqr-fitting}$$.
+the _prior_ probability distributions $$P(\boldsymbol{p},\sigma_j)$$. 
+
+In the next sections,
+we'll think through the implications of different priors
+and we'll relate them to the least squares problem eq. $$\eqref{lsqr-fitting}$$.
 We'll see how different assumptions end up giving us the same estimate for the best
 parameters, but that there are differences in the associated uncertainties.
 Let's start with the simplest case first.
@@ -153,16 +150,35 @@ Let's start with the simplest case first.
 # 3. Nonlinear Least Squares with Known Standard Deviations
 
 If, for some reason, we _know_ the standard deviations $$\{\sigma_j\}$$, then
-things get very simple. Formally, we can express the probability distributions
-of the standard deviations as delta functions around the known values $$\sigma_j$$.
-This lets us simplify the posterior probability eq. $$\eqref{posterior}$$ to:
+things get very simple. First, let's rewrite the joint prior distribution 
+as 
+
+$$P(\boldsymbol{p}|\boldsymbol{y}) P(\boldsymbol{p},\sigma_j) = P(\boldsymbol{p}|\sigma_j)\,P(\sigma_j) = P(\boldsymbol{p})\,P(\sigma_j).$$
+
+Here, we have used that $$\boldsymbol{p}$$ and $$\sigma_j$$ are statistically
+independent in our case. Since we know all the standard deviations, the
+probability densities $$P(\sigma_j)$$ become delta-functions, such that the
+posterior eq. $$\eqref{posterior}$$ becomes:
+
+$$P(\boldsymbol{p}|\boldsymbol{y}) \propto \prod_j P(y_j|\boldsymbol{p},\sigma_j)\cdot P(\boldsymbol{p}), \tag{3.1}$$
+
+where all the $$\sigma_j$$ are known constants. Now, we assume a uniform (or _flat_) prior
+for the parameters:
+
+$$P(\boldsymbol{p}) = \text{const.} \tag{3.2}$$
+
+From a Bayesian perspective, this is a naive way of conveying ignorance about
+the values of the parameters [^uniform-prior]<sup>,</sup>[^ignorance].
+This lets us write the joint posterior probability eq. $$\eqref{joint-posterior}$$
+as:
 
 $$\begin{eqnarray}
-P(\boldsymbol{p}&|&\boldsymbol{y}) \propto \exp\left(- g(\boldsymbol{p})\right) \label{posterior-known-sigma}\tag{12} \\
-\text{with } &\boldsymbol{W}& = \text{diag}(1/\sigma_1,\dots,1/\sigma_{N_y}) \label{weights-known-sigma}\tag{13}.
+P(\boldsymbol{p}&|&\boldsymbol{y}) \propto \exp\left(- g(\boldsymbol{p})\right) \label{posterior-known-sigma}\tag{3.4} \\
+\text{with } &\boldsymbol{W}& = \text{diag}(1/\sigma_1,\dots,1/\sigma_{N_y}) \label{weights-known-sigma}\tag{3.5}
 \end{eqnarray}$$
 
-Then it is trivial to show that maximizing the posterior distribution is equivalent
+and with $$g(\boldsymbol{p})$$ as in eq. $$\eqref{objective-function}$$.
+It is now trivial to show, that maximizing the posterior distribution is equivalent
 to the least squares problem $$\eqref{lsqr-fitting}$$. It's important to note that
 the weights must be a diagonal matrix as in eq. $$\eqref{weights-known-sigma}$$.
 
@@ -195,13 +211,13 @@ $$\boldsymbol{p}^\dagger$$ minimizes $$g$$, we know that the gradient must vanis
 such that we can approximate $$g$$ up to second order as
 
 $$
-g(\boldsymbol{p}) \approx g(\boldsymbol{p}^\dagger) + \frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger). \label{taylor-approx-g}\tag{7}
+g(\boldsymbol{p}) \approx g(\boldsymbol{p}^\dagger) + \frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger). \label{taylor-approx-g}\tag{3.6}
 $$
 
 We can use these results to approximate the posterior probability distribution
 around the best fit parameters:
 
-$$P(\boldsymbol{p}|\boldsymbol{y}) \approx K \cdot \exp\left(-\frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger), \label{posterior-p-approximation}\tag{8}\right)$$
+$$P(\boldsymbol{p}|\boldsymbol{y}) \approx K \cdot \exp\left(-\frac{1}{2} (\boldsymbol{p}-\boldsymbol{p}^\dagger)^T\, \boldsymbol{H}_g(\boldsymbol{p}^\dagger) (\boldsymbol{p}-\boldsymbol{p}^\dagger), \label{posterior-p-approximation}\tag{3.7}\right)$$
 
 where $$K\in\mathbb{R}$$ is a constant of integration that also absorbs the constant
 first term in $$\eqref{taylor-approx-g}$$. It acts as the normalization. This
@@ -211,7 +227,7 @@ with expected value $$\boldsymbol{p}^\dagger$$ and covariance matrix $$\boldsymb
 In least squares fitting, the Hessian of $$g$$ is often approximated
 as (Noc06, Kal22)
 
-$$\boldsymbol{H}_g(\boldsymbol{p}) \approx \boldsymbol{J}_{r_w}(\boldsymbol{p})^T \boldsymbol{J}_{r_w}(\boldsymbol{p}),$$
+$$\boldsymbol{H}_g(\boldsymbol{p}) \approx \boldsymbol{J}_{r_w}(\boldsymbol{p})^T \boldsymbol{J}_{r_w}(\boldsymbol{p}), \tag{3.8}$$
 
 where $$\boldsymbol{J}_{r_w}(\boldsymbol{p})$$ is the Jacobian Matrix of $$\boldsymbol{r}_w(\boldsymbol{p})$$.
 Often the Jacobian is only denoted by a simple $$\boldsymbol{J}$$, but for this post we'll
@@ -219,15 +235,31 @@ encounter many Jacobians that we have to distinguish. Thus, it pays to be more e
 with the notation here. For now, this approximation allows us to write the
 covariance matrix $$\boldsymbol{C}_{p^\dagger}$$ of the best fit parameters $$\boldsymbol{p}^\dagger$$ as
 
-$$\boldsymbol{C}_{p^\dagger} = \boldsymbol{H}_g(\boldsymbol{p}^\dagger) \approx \left( \boldsymbol{J}_{r_w}^T (\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger)\right)^{-1} = ((\boldsymbol{W}\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^T \, \boldsymbol{W}\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^{-1}, \label{covariance-matrix-known-weights} \tag{9}$$
+$$\boldsymbol{C}_{p^\dagger} = \boldsymbol{H}_g(\boldsymbol{p}^\dagger) \approx \left( \boldsymbol{J}_{r_w}^T (\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger)\right)^{-1} = (\boldsymbol{J}_f^T(\boldsymbol{p}^\dagger) \, \boldsymbol{W}^2\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^{-1}, \label{covariance-matrix-known-weights} \tag{3.9}$$
 
 where $$\boldsymbol{J}_f$$ is the Jacobian of $$\boldsymbol{f}(\boldsymbol{p})$$
-and thus $$\boldsymbol{J}_{r_w} = -\boldsymbol{W}\boldsymbol{J}_f$$. 
-
-Note that this is the covariance for _known standard deviations_, where the weights
+and thus $$\boldsymbol{J}_{r_w} = -\boldsymbol{W}\boldsymbol{J}_f$$. Note, that
+this is the covariance for _known standard deviations_, where the weights
 must be chosen as specified in $$\eqref{weights-known-sigma}$$.
 
-# 4.1 Unknown Standard Deviations: Jeffrey's Prior
+# Nonlinear Least Squares with a Known Relative Scaling
+
+Let's now assume that the standard deviations are unknown, but that we (again,
+_for some reason_) know a relative scaling between them, formally:
+
+$$\sigma_j = w_j \, \sigma, \label{relative-scaling} \tag{4.1} $$
+
+where $$\sigma$$ is unknown, but the relative scaling $$w_j$$ _is_ known. We'll
+see that the naming of $$w_j$$ is not an accident, because if we set
+
+$$\boldsymbol{W} = \text{diag}(w_1,\dots,w_{N_y}) \label{relative-weights-matrix}\tag{4.2}, $$
+
+then we can rewrite the posterior as:
+
+!!! todo matrix and component wise formulation!!!
+
+
+# 4.1 Jeffrey's Prior
 
 Now let's evaluate a case where we don't know anything about the standard
 deviations. All standard deviations might be different and we have no idea
@@ -338,15 +370,17 @@ and should be preferred to calculating the complete matrix product.
 # References
 (Noc06) J Nocedal & SJ Wright: "Numerical Optimization", Springer, 2nd ed, 2006
 
-(Siv06) D Sivia & J Skilling: "Data Analysis - A Bayesian Tutorial", Oxford University Press, 2nd ed, 2006
+(Siv06) D Sivia & J Skilling: "Data Analysis - A Bayesian Tutorial", Oxford University Press, 2<sup>nd</sup> ed, 2006
 
 (Wol06) J Wolberg: "Data Analysis Using the Method of Least Squares", Springer, 2006
+
+(Gel13) A Gelman _et al_: "Bayesian Data Analysis", CRC Press, 3<sup>rd</sup> ed, 2013 ([freely available from the author](http://www.stat.columbia.edu/~gelman/book/))
 
 (Kal22) M Kaltenbach: "The Levenberg-Marquardt Method and its Implementation in Python", Diploma Thesis, Uni Konstanz, 2022, ([link](http://nbn-resolving.de/urn:nbn:de:bsz:352-2-1ofyba49ud2jr5))
 
 # Appendix
 
-## A.1 Relative Standard Deviations: Matchning Frequentist Results
+## A.1 Jeffreys Prior: Calculating the Fisher Information Matrix
 
 !!!!!!!!!!!!!! todo
 

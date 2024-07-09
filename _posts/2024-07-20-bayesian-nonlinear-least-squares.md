@@ -65,8 +65,8 @@ Our ultimate goal here is answer the following questions: why do we minimize
 the sum of squares, as opposed to e.g. the sum of absolutes or 4th powers?
 What exactly do the weights represent? What are the statistical
 properties (such as estimated variance) of the best fit parameters? What are the
-confidence bands of the best model after the fit? We'll try and answer this by building
-nonlinear least squares from the ground up.
+confidence bands (or _credible intervals_ to be more precise) of the best model
+after the fit? We'll try and answer this by building nonlinear least squares from the ground up.
 
 ## 1.1 Helpful Identities
 
@@ -109,10 +109,10 @@ with additive zero mean Gaussian noise.
 $$Y = Y_{true} + N,$$
 
 where the noise is normally distributed $$N \sim \mathcal{N}(0,\sigma)$$. If we
-assume the true value is exact value, we can model its distribution as a delta
-peak and thus the sum of the true value and the noise will follow a normal
+assume the true value is one exact value, we can model its distribution as a delta
+peak. Thus, the sum of the true value and the noise will follow a normal
 distribution centered around the true value. In our case, we don't know the
-true value but we model it by the function $$\boldsymbol{f}(\boldsymbol{p})$$.
+true value, but instead we model it by the function $$\boldsymbol{f}(\boldsymbol{p})$$.
 Thus, if the parameters $$\boldsymbol{p}$$ are given, the likelihood of observing data $$\boldsymbol{y}$$ is
 given as a [multivariate Normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 with mean $$\boldsymbol{f}(\boldsymbol{p})$$ and covariance matrix $$\Sigma \in \mathbb{R}^{N_y\times N_y}$$. 
@@ -129,7 +129,7 @@ only on the diagonal:
 
 $$\Sigma = \text{diag}(\sigma^2_1,\dots,\sigma^2_{N_y}) \label{covariance-diag}\tag{2.1}$$
 
-We can now write the likelihood of observing data $$y_j$$ at indec $$j$$, given
+We can now write the likelihood of observing data $$y_j$$ at index $$j$$, given
 the parameters $$\boldsymbol{p}$$ and the standard deviation $$\sigma_j$$ at $$j$$ as:
 
 $$P(y_j | \boldsymbol{p}, \sigma_j) = \frac{1}{\sqrt{2\pi}\sigma_j}\exp\left( -\frac{1}{2}\frac{(y_j-f_j(\boldsymbol{p}))^2}{\sigma_j^2} \right).\label{likelihood-yi}\tag{2.2}$$
@@ -380,13 +380,17 @@ matrix of the best fit parameters.
 
 ## 4.2 Jeffrey's Prior
 
+[Jeffrey's prior](https://en.wikipedia.org/wiki/Jeffreys_prior) is another commonly
+used prior distribution that conveys gross ignorance about the scale of unknown
+parameters (Gel13, sections 2.8, 3.2).
+
 !!!
 As I mentioned before,
 
 # 5. !!!!!!!!!!! summary section relating lsqr to bayesian coeff via a table or something
 # !!! prefactor sigma-dash and weight matrix for different assumptions
 
-# !!!!!!!!!!!!!!!!!!!!!!6. Confidence Bands
+# 6. Credible Intervals for the Best Fit Model
 
 Let's take a step back and look at what we have done above: we have related
 how the uncertainties in $$\boldsymbol{y}$$ [propagate to the uncertainties](https://en.wikipedia.org/wiki/Propagation_of_uncertainty)
@@ -448,18 +452,16 @@ In essence, we have derived the law of [Propagation of Uncertainty](https://en.w
 for our special case[^prop-uncertainty]. The well-known formula for propagation of uncertainty
 is also derived under the approximation of linearity of the transformation.
 
-## From Covariance Matrix to Confidence Bands
+## From Covariance Matrix to Credible Intervals
 
 So now that we have the covariance matrix, how do we use it to construct
-[confidence bands](https://en.wikipedia.org/wiki/Confidence_and_prediction_bands)
-around our best-fit model? Luckily we already know everything we need.
+[credible intervals](https://en.wikipedia.org/wiki/Credible_interval#Contrasts_with_confidence_interval)
+around the best fit function[^conf-bands]? Luckily we already know everything we need.
 
-We have
-approximated the elements of $$\boldsymbol{f}(\boldsymbol{p^\dagger})$$ values as
+We have approximated the elements of $$\boldsymbol{f}(\boldsymbol{p^\dagger})$$ values as
 normally distributed with a covariance matrix of $$\boldsymbol{C}_f$$. That means
 that the variance for each entry $$f_j$$ of $$\boldsymbol{f}$$ is on index $$j$$
 of the diagonal of $$\boldsymbol{C}_f$$. Let's express this in vector notation:
-
 
 $$(\sigma_{f_1}^2,\dots,\sigma^2_{f_{N_y}})^T = \text{diag} (\boldsymbol{C}_f). \label{variance-vector}\tag{15}$$
 
@@ -485,7 +487,28 @@ $$\sigma_{f_i}^2 = \boldsymbol{j}_i^T \boldsymbol{C}_f \boldsymbol{j}_i, \label{
 where, again $$\boldsymbol{j}_i^T$$ is a _row_ vector representing a row of the Jacobian.
 Wolberg arrives at the same formula using a slightly different approach (Wol06, section 2.5).
 Using this way of calculating the variances saves a significant amount of computations
-and should be preferred to calculating the complete matrix product.
+and should be preferred to calculating the complete matrix product. The credible
+intervals for a given probability can now be obtained using the quantile function
+of the normal distribution. 
+
+!!!!!!!!TODO gaussian quantiles credible band radius
+!!!!!!!!!!!!!!
+
+As a final note to this already very long article, we note that Wolberg gives
+an almost identical expression for the confidence bands around the best fit
+parameters (Wol06, section 2.6). The only difference is that he uses the 
+quantile function of Student's t-distribution instead of the Gaussian quantile
+function, but unfortunately no rationale is provided for that.
+
+# Conclusion
+
+I know article was a _tour de force_ through the method of nonlinear least squares
+fitting from the ground up. I hope that seeing it like this helps others (as it helped
+me) to demystify and understand the method itself, but especially the statistical analysis
+of the parameters and the best fit model. This part is often overlooked. If your usecase
+is not covered by this article, I hope that you'll find the tools here to modify
+the calculations according to your needs. And finally, if you find errors please
+let me know via mail or by commenting below.
 
 # References
 (Noc06) J Nocedal & SJ Wright: "Numerical Optimization", Springer, 2nd ed, 2006
@@ -500,7 +523,43 @@ and should be preferred to calculating the complete matrix product.
 
 # Appendix
 
-## A.1 Jeffreys Prior: Calculating the Fisher Information Matrix
+## A. Calculating the Hessian of $$\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2$$
+
+To derive eq. $$\eqref{hessian-uniform}$$ we need to calculate the Hessian of 
+$$\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2$$. Let's do the calculation
+element wise by repeatedly applying the chain rule. 
+
+$$\begin{eqnarray}
+\boldsymbol{H}\{\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2\}_{kl} &=& \frac{\partial^2}{\partial p_k \partial p_l}\log\lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2 \\
+ &=& \frac{\partial}{\partial p_k} \left(\frac{1}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2} \cdot \frac{\partial}{\partial p_l}\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2\right) \\
+ &=& \frac{\partial}{\partial p_k} \frac{1}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^{2}}\cdot \frac{\partial}{\partial p_l}\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2+\frac{\partial^2}{\partial p_k\partial p_l}\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2 \\ 
+ &=& \frac{\partial}{\partial p_k} \frac{1}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^{2}}\cdot \frac{\partial}{\partial p_l}\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2+ \frac{1}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2}\boldsymbol{H}\{\lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2\}_{kl}\\ 
+\end{eqnarray}$$
+
+We are interested in evaluating the Hessian at an extremum of $$\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2$$,
+which implies that $$\nabla \log\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2=\boldsymbol{0}$$,
+which implies $$\nabla \lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2=\boldsymbol{0}$$,
+which implies $$\frac{\partial}{\partial p_l} \lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2=0$$
+for all indices $$l$$. That makes the first term in the equation vanish, so that
+we can write the hessian of the log transformed sum of squares as:
+
+$$
+\boldsymbol{H}\{\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2\}(\boldsymbol{p}^\dagger) = \frac{1}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2}\boldsymbol{H}\{\lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2\}(\boldsymbol{p}^\dagger)
+$$
+
+We know an approximation for the Hessian of $$\frac{1}{2}\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2$$
+from eq. $$\eqref{hessian-g-approx}$$, so that we can write:
+
+$$
+\boldsymbol{H}\{\log \lVert \boldsymbol{r}(\boldsymbol{p}) \rVert^2\}(\boldsymbol{p}^\dagger) \approx \frac{2}{\lVert\boldsymbol{r}(\boldsymbol{p}) \rVert^2} \boldsymbol{J}_{r_w}^T(\boldsymbol{p}^\dagger)\boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger)
+$$
+
+Now  $$\eqref{hessian-uniform}$$ follows trivially.
+
+## B. Jeffrey's Prior: Calculating the Fisher Information Matrix
+
+To calculate the Fisher information matrix $$\boldsymbol{I}$$, it helps to
+realize that it is made up of distinct blocks.
 
 !!!!!!!!!!!!!! todo
 
@@ -512,3 +571,4 @@ and should be preferred to calculating the complete matrix product.
 [^prop-uncertainty]: The formula for propagation of uncertainty is also derived under the approximation of linearity of the transformation.
 [^exercise-reader]: Finally I have an opportunity to be the one writing it.
 [^ignorance]: Priors conveying ignorance are actually surprisingly tricky. We'll see another one of those that has a vastly different functional form later.
+[^conf-bands]: Credible intervals are not (quite) the same as [confidence bands](https://en.wikipedia.org/wiki/Confidence_and_prediction_bands). The former are a Bayesian concept, while the latter are a frequentist concept. Both serve a conceptually similar purpose.

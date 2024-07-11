@@ -556,10 +556,39 @@ $$
 
 Now  $$\eqref{hessian-uniform}$$ follows trivially.
 
-## B. Jeffrey's Prior: Calculating the Fisher Information Matrix
+## B. Calculating Jeffrey's Prior
 
-To calculate the Fisher information matrix $$\boldsymbol{I}$$, it helps to
-realize that it is made up of distinct blocks.
+To calculate [Jeffrey's prior](https://en.wikipedia.org/wiki/Jeffreys_prior), we
+first have to calculate the Fisher information matrix. For a given likelihood
+$$P(\boldsymbol{y}|\boldsymbol{\theta})$$, where $$\boldsymbol{\theta}$$
+are the parameters, the elements of the [Fisher information matrix](https://en.wikipedia.org/wiki/Fisher_information#Matrix_form)
+$$\boldsymbol{I}(\boldsymbol{\theta}$$ are given as:
+
+$$[\boldsymbol{I}(\boldsymbol{\theta})]_{kl} = E\left[ \left. \left(\frac{\partial}{\partial \theta_k}\log P(\boldsymbol{y}|\boldsymbol{\theta}) \right)\left(\frac{\partial}{\partial \theta_l}\log P(\boldsymbol{y}|\boldsymbol{\theta}) \right) \right| \boldsymbol{\theta}\right],$$
+
+where $$E[ \boldsymbol{\phi}(\boldsymbol{y})\vert\boldsymbol{\theta}]=\int \boldsymbol{\phi}(\boldsymbol{y}) P(\boldsymbol{y}|\boldsymbol{\theta}) \text{d}\boldsymbol{y}$$ denotes the expected value 
+of $$\boldsymbol{\phi}(\boldsymbol{y})$$. Note that this is a volume integral over
+$$\boldsymbol{y}$$, but we won't actually have to calculate it like this in the
+following derivations. For the following sections we'll abbreviate $$E[\boldsymbol{\phi}(\boldsymbol{y})\vert\boldsymbol{\theta}]$$
+as $$E[\boldsymbol{\phi}(\boldsymbol{y})]$$ purely for notational convenience.
+
+In our case, the parameter vector $$\boldsymbol{\theta}$$ consists of the elements 
+of the vector $$\boldsymbol{p}$$ and the single scalar $$\sigma$$:
+
+$$\boldsymbol{\theta} = (\boldsymbol{p}^T,\sigma)^T.$$
+
+That means $$\boldsymbol{\theta}\in \mathbb{R}^{N_p+1}$$, which means the 
+derivative $$\partial/\partial \theta_k = \partial/\partial p_k$$ for $$k=1,\dots,N_p$$ 
+and $$\partial/\partial \theta_{N_p+1} = \partial/\partial \sigma$$. That means
+we can write the Fisher information matrix as a block matrix like so:
+
+$$I(\boldsymbol{p},\sigma) = \left(\begin{matrix} \boldsymbol{I}_{PP}(\boldsymbol{p},\sigma) & \boldsymbol{I}_{P\sigma}(\boldsymbol{p},\sigma) \\
+                           \boldsymbol{I}_{P\sigma}(\boldsymbol{p},\sigma) & I_{\sigma\sigma} \\
+\end{matrix}\right)$$
+                    
+
+
+
 
 !!!!!!!!!!!!!! todo
 

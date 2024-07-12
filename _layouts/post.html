@@ -12,8 +12,10 @@ layout: default
 
   <div class="entry">
     {{ content }}
+    
+    {% include support.html %}
   </div>
-
+    
   <div>
     {% assign page_tags = page.tags | sort %}
     {% for tag in page_tags%}
@@ -31,9 +33,9 @@ layout: default
       {% include comments.html %}
     {% endif %}
 
-    {%if page.math == true %}
-      {% include mathjax.html %}
-    {% endif %}
+  {%if page.math == true %}
+    {% include mathjax.html %}
+  {% endif %}
   </div>
 
 </article>

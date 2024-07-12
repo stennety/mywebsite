@@ -272,7 +272,7 @@ fn do_something<T,U>(t: T, u: U) {
 }
 ```
 
-However, this does not compile becaues the compiler points to `T` and
+However, this does not compile because the compiler points to `T` and
 `U` with the error message _use of generic parameter from outer function_.
 What does that mean? The way [it was explained to me](https://users.rust-lang.org/t/cant-use-type-parameters-of-outer-function-but-only-in-constant-expression/96023)
 is that `const` items exist as if they were global, even if they were defined

@@ -87,4 +87,3 @@ exclude:
 #build theme
 theme: jekyll-dash
 $ bundle
-$ gem install jekyll-dash -v version

@@ -1,1 +1,1 @@
-gem 'jekyll-dash', '~> 1'
+gem 'jekyll-dash', '~> 2'

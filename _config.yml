@@ -1,4 +1,4 @@
-#
+theme: jekyll-dash
 # This file contains configuration flags to customize your site
 #
 
@@ -84,4 +84,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-$ gem install jekyll-dash -v version
+

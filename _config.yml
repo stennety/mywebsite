@@ -84,6 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-#build theme
-theme: jekyll-dash
-$ bundle

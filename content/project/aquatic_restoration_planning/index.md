@@ -10,6 +10,7 @@ Past and current initiatives include fish passage restoration planning for over 
   
 ### Skeena Fish Passage Restoration Planning
 
+  - [Skeena Watershed Fish Passage Restoration Planning 2023](https://www.newgraphenvironment.com/fish_passage_skeena_2023_reporting/)
   - [Skeena Watershed Fish Passage Restoration Planning 2022](https://www.newgraphenvironment.com/fish_passage_skeena_2022_reporting/)
   - [Bulkley Watershed Fish Passage Restoration Planning 2022](https://www.newgraphenvironment.com/fish_passage_bulkley_2022_reporting/)
   - [Bulkley River and Morice River Watershed Groups Fish Passage Restoration Planning 2021](https://www.newgraphenvironment.com/fish_passage_skeena_2021_reporting/)
@@ -31,6 +32,7 @@ Past and current initiatives include fish passage restoration planning for over 
 
 ### Restoring Fish Passage in the Peace Region
   
+  - [Restoring Fish Passage in the Peace Region 2023](https://www.newgraphenvironment.com/fish_passage_peace_2023_reporting/)
   - [Restoring Fish Passage in the Peace Region 2022](https://www.newgraphenvironment.com/fish_passage_peace_2022_reporting/)
   - [Restoring Fish Passage in the Peace Region 2021](https://www.newgraphenvironment.com/fish_passage_parsnip_2021_reporting/)
   - [Parsnip River Watershed – Fish Habitat Confirmations 2019](https://www.newgraphenvironment.com/Parsnip_Fish_Passage/)

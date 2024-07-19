@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Combining my passion for music, coding, animation, and story telling to create beautiful gaming experiences.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Spending most of my time working on my space ship game, which this blog is dedicated to for now.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[joshuaachorn@gmail.com](mailto:joshuaachorn@gmail.com)

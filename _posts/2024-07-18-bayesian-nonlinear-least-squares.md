@@ -153,7 +153,7 @@ This allows us to write the likelihood of observing the data vector $$\boldsymbo
 given the parameters $$\boldsymbol{p}$$ and the set of standard deviations $$\{\sigma_j\}$$ 
 as the product:
 
-$$P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\}) = \prod_j P(y_j|\boldsymbol{p},\sigma_j) \label{likelihood} \tag{2.3}$$
+$$P(\boldsymbol{y}|\boldsymbol{p},\{\sigma_j\}) = \prod_j P(y_j|\boldsymbol{p},\{\sigma_j\}) \label{likelihood} \tag{2.3}$$
 
 From a Bayesian point of view, we are interested
 in the posterior distribution that describes the probability density of $$\boldsymbol{p}$$
@@ -169,7 +169,7 @@ we can [marginalize out](https://en.wikipedia.org/wiki/Marginal_distribution)
 the dependency on the standard deviations in the posterior by integration:
 
 $$
-P(\boldsymbol{p}|\boldsymbol{y}) \propto \int  \left(\prod_j P(y_j|\boldsymbol{p},\sigma_j)\right)\cdot P(\boldsymbol{p},\{\sigma_j\}) \;\text{d}\{\sigma_j\}\label{posterior}\tag{2.5}, \\
+P(\boldsymbol{p}|\boldsymbol{y}) \propto \int  \left(\prod_j P(y_j|\boldsymbol{p},\{\sigma_j\})\right)\cdot P(\boldsymbol{p},\{\sigma_j\}) \;\text{d}\{\sigma_j\}\label{posterior}\tag{2.5}, \\
 $$
 
 where the integral is multidimensinal over all $$\sigma_j$$. This is finally 

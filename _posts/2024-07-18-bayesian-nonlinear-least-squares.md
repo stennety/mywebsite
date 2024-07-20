@@ -11,7 +11,7 @@ title: 'Nonlinear Least Squares Fitting - A Bayesian Tutorial'
 #
 #
 # Make sure this image is correct !!!
-og_image: 
+og_image: least-squares-bayesian.png
 #
 #
 # make sure comments are enabled

@@ -671,7 +671,7 @@ with Bayesian credible intervals, although they serve a similar conceptual purpo
 
 # Conclusion
 
-I know article was a _tour de force_ through the method of nonlinear least squares
+I know this article was a _tour de force_ through the method of nonlinear least squares
 fitting from the ground up. I hope that seeing it like this helps others (as it helped
 me) to demystify and understand the method and especially the statistical analysis
 of the parameters and the best fit model. The latter part is often overlooked. 

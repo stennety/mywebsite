@@ -4,7 +4,7 @@ title: 'The Corona Chronicles, Week 4'
 ---
 Week 4. Overall, I feel like I've gotten into the rhythm of this new way of life. Friends have been setting up more and more video calls in the evenings, which is nice. I've got standing Zoom meetings set up for online board games twice a week, and my coworkers and I have been playing games during lunch.
 
-Got some sweet new masks:
+Got some new masks that my girlfriend's mom made:
 
 ![]({{site.cdn_path}}/2020/04/04/beetles_mask.jpeg)
 
@@ -16,9 +16,9 @@ It was a very productive week overall:
 * Completed the campaign mode in Beat Saber. A very proud achievement.
 * Managed to somehow tweak my wrist playing said Beat Saber game. So I was icing up for a couple days. It's fine now.
 * Upgraded my house twice in Animal Crossing.
-* Bought a GoPro Hero 8. Want to shoot some timelapses of the city during this time.
+* Bought a GoPro Hero 8. I'd like to shoot some timelapses of the city during this time.
 * Bought my parents a Nest Hub Max and helped them set it up so we can video call more easily. 
-* Organized several thousand old photos. Uploaded them to Google so they'll show up on my parents' new 'Hub. Started a shared family album on Google Photos for our extended family.
+* Organized several thousand old photos. Uploaded them to Google so they'll show up on my parents' new Nest Hub. Started a shared family album on Google Photos for our extended family.
 * I ran 19 miles this week. Which is right around where I want to be. The inertia of being inside so much has made it a struggle to drag myself out to the trails.
 
 Also found some new Zoom backgrounds. My favorites so far are this Windows XP one with a submarine in it:

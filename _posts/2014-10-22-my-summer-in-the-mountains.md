@@ -32,14 +32,11 @@ My roommate worked in the sawmill. He decorated his safety helmet "Full Metal Ja
 The wildlife in and around the village was pretty tame.
 
 
-
 Except for the bears.
 
 ![]({{site.cdn_path}}/2014/10/22/19.jpg)
 
 I went on several hikes, trail runs, and multi-day backpacking trips while I was there.
-
-
 
 
 It was an amazing summer. If you're ever interested in visiting the village yourself, or in volunteering, here's their [website](http://www.holdenvillage.org/) and [Facebook page](https://www.facebook.com/HoldenVillage?ref=br_tf).

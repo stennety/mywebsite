@@ -1,7 +1,7 @@
 ---
 published: true
-title: 2023 Europe Cycling Trip with my dad and sister
-excerpt: Cycling trip from Germany to Austria, followed by a week exploring Austria, Slovenia, Italy, and the Netherlands
+title: 2023 Europe Cycling Trip
+excerpt: Cycling trip with my dad and sister along the Danube from Germany to Austria
 ---
 
 In September, we took my dad on his first trip to Europe. We flew into Vienna, spent a couple days exploring, then

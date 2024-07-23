@@ -1,6 +1,6 @@
 ---
 published: true
-title: July 2023 - Weekend in the Wallowas
+title: Wallowas Backpacking, July 2023
 excerpt: A weekend backpacking trip to Ice Lake, in the Wallowas
 ---
 

@@ -5,13 +5,15 @@ permalink: /about/
 published: true
 ---
 
-Hi! I’m David. I’m a backend Java/Kotlin developer at Vevo in Portland, OR.
+Hi! I’m David. I’m a senior backend engineer at Vevo in Portland, OR. We build most of our services in Kotlin,
+so I'm most fluent in that. I also am fairly fluent in Java, Python, and JavaScript. 
+I've been working in tech for a little over 10 years.
 
 ![]({{site.cdn_path}}/2020/03/11/chefchaouen.jpg)
 
 _Above the blue city of Chefchaouen, Morocco, in 2019_
 
-I'm an avid photographer, trail runner, traveler, drone flier, and backpacker.
+Outside of work, I'm an avid photographer, trail runner, traveler, drone flier, and backpacker.
 
 I'm perpetually curious and dig science. You can usually find me reading some kind of 
 sciencey nonfiction book in my downtime, and I've been a longtime listener of the 

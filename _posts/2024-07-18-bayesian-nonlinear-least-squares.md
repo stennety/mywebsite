@@ -3,6 +3,7 @@ layout: post
 tags: least-squares algorithm math bayesian
 #categories: []
 date: 2024-07-18
+last_updated: 2024-07-26
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
@@ -625,7 +626,7 @@ as normally distributed with a covariance matrix of $$\boldsymbol{C}_{f^\dagger}
 that the variance for each entry $$f_j^\dagger$$ of $$\boldsymbol{f}^\dagger$$ is on index $$j$$
 of the diagonal of $$\boldsymbol{C}_{f^\dagger}$$. Let's express this in vector notation:
 
-$$(\sigma_{f_1}^2,\dots,\sigma^2_{f_{N_y}})^T = \text{diag} (\boldsymbol{C}_{f^\dagger}). \label{variance-vector}\tag{6.5}$$
+$$(\sigma_{f_1^\dagger}^2,\dots,\sigma^2_{f_{N_y}^\dagger})^T = \text{diag} (\boldsymbol{C}_{f^\dagger}). \label{variance-vector}\tag{6.5}$$
 
 It would be numerically wasteful to calculate the whole matrix $$\boldsymbol{C}_{f^\dagger}$$
 just to then immediately discard everything except the diagonal elements. There
@@ -644,7 +645,7 @@ where $$\boldsymbol{j}_i^T$$ is the $$i$$-th _row_ of the Jacobian of $$\boldsym
 best fit parameters. Now we can write the variance for each element of $$\boldsymbol{f}$$
 as
 
-$$\sigma_{f_i}^2 = \boldsymbol{j}_i^T \boldsymbol{C}_{f^\dagger} \boldsymbol{j}_i, \label{efficient-sigma-f}\tag{6.6}$$
+$$\sigma_{f_i^\dagger}^2 = \boldsymbol{j}_i^T \boldsymbol{C}_{p^\dagger} \boldsymbol{j}_i, \label{efficient-sigma-f}\tag{6.6}$$
 
 where, again $$\boldsymbol{j}_i^T$$ is a _row_ vector representing a _row_ of the Jacobian.
 Wolberg arrives at the same formula using a slightly different approach (Wol06, section 2.5).
@@ -654,7 +655,7 @@ intervals for a given probability can now be obtained using the quantile functio
 of the normal distribution. So for each element $$f_i^\dagger$$ of the best fit,
 we know that the value falls in the following range with a probability of $$\rho \in (0,1)$$:
 
-$$f_i^\dagger \pm \Phi^{-1}(\rho) \,\sigma_{f_i}  \tag{6.7}$$  
+$$f_i^\dagger \pm \Phi^{-1}(\rho) \,\sigma_{f_i^\dagger}  \tag{6.7}$$  
 
 where $$\Phi^-1$$ is the [quantile function of the normal distribution](https://en.wikipedia.org/wiki/Normal_distribution#Quantile_function).
 Using this, we can calculate this interval for each of the elements of the best fit, which

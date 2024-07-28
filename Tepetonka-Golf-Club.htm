@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>  
+	<title>Tepetonka - Oglivy Cocking Meade</title>
+	<meta name="description" CONTENT="Tepetonka Mark Haugejorde Minnesota New Golf Course Oglivy Cocking Meade Sustainable Destination Club">
+	{% include h.html %}
+</head>
+	
+<body>	
+	<div class="main-container" role="main">
+		<div id="map" aria-label="Tepetonka"></div>
+			<div class="content" tabindex="0" aria-label="Mark Haugejorde">
+				<H1>Tepetonka - Mark Haugejorde's New Golf Course</H1>
+				<p><a style='font-weight:bold' href='https://en.wikipedia.org/wiki/Mark_Haugejorde' target='_blank' rel='nofollow'>Mark Haugejorde</a> has embarked on an exciting new project with the development of Tepetonka in New London, Minnesota. The course is designed to blend modern elements with the natural beauty of its surroundings, ensuring an engaging experience for golfers of all skill levels.</p>
+				<p>The Tepetonka project emphasizes sustainability and environmental stewardship. Haugejorde has collaborated with local environmental experts to minimize disruption to the local flora and fauna. The course features rolling fairways, strategically placed bunkers, and undulating greens that offer a variety of strategic options, making it both challenging and enjoyable.</p>
+				<p>Community involvement has been a cornerstone of the Tepetonka project, with Haugejorde actively seeking input from local residents and stakeholders. This inclusive approach has fostered a sense of ownership and pride among the community, who eagerly anticipate the course's completion. The project is expected to boost the local economy by attracting golf enthusiasts from the region and beyond.</p>
+				<p>As construction progresses, the anticipation for Tepetonka continues to build. Haugejorde's commitment to excellence and innovative design philosophy promise a world-class golfing experience. The course is poised to become a beloved fixture in the Minnesota golf scene, offering a perfect blend of tradition and modernity.</p>
+			</div>
+	</div>
+
+    <script>		
+            const map = L.map('map').setView([45.2976,-94.9425], 8);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 30,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			L.CustomOverlay = L.Layer.extend({
+	            onAdd: function(map) {
+					this._map = map;
+					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+	        
+	                this._container.innerHTML = `
+	                    <lite-youtube videoid="DituBirxj5M" style="background-image: url('https://i3.ytimg.com/vi/DituBirxj5M/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=DituBirxj5M" class="lty-playbtn" title="Play Video. Credit: Tepetonka">
+	                            <span class="lyt-visually-hidden">Credit: Tepetonka</span>
+	                        </a>
+	                    </lite-youtube>
+	                `;
+			
+	                // Add the container to the map
+	                map._panes.overlayPane.appendChild(this._container);
+	                
+	                // Update the position of the overlay on the map
+	                this._update();
+	            },
+	        
+	            onRemove: function(map) {
+	                L.DomUtil.remove(this._container);
+	            },
+	        
+	            _update: function() {
+	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
+	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
+	                
+	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                L.DomUtil.setPosition(this._container, position);
+	            }
+	        });
+	
+	        // Add the custom overlay to the map
+	        var myCustomOverlay = new L.CustomOverlay();
+	        myCustomOverlay.addTo(map);
+	
+	        // Add a marker to the map at the same location as the map center
+	        var marker = L.marker([45.2976,-94.9425]).addTo(map);
+	        marker.bindPopup("<b>Tepetonka</b><br>New London, Minnesota</br>").openPopup();
+	</script>
+    	<p><a href="https://fescue.github.io/Tepetonka-Golf-Club/">Mark Haugejorde - New Golf Course - Tepetonka Golf Club</a></p>
+    	<p><a href="https://fescue.github.io/Vaquero-Club-Golf-Texas/">Andrew Green - Re-Design Vaquero Club</a></p>
+	{% include bodyFooter.html %}
+ </body>	
+ {% include footer.html %}
+</html>

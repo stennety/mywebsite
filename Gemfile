@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-github-metadata', '2.2.0'
   gem 'listen', '3.0.6'
   gem 'activesupport', '4.2.7'
+  gem 'webrick'
 end
 
 gem 'html-proofer'

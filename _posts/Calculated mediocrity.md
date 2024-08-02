@@ -1,4 +1,1 @@
-![mediocre][mediocre]
-
-<!-- Images -->
-[mediocre]: /sites/default/files/calculatedmedicrity.jpeg
+![mediocre](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/calculatedmedicrity.jpeg)

@@ -1,0 +1,1 @@
+Watched 'Accepted' last night. The movie reminded me that I need to buy hobo stab insurance.

@@ -1,0 +1,1 @@
+Happy "We're So Rich That Begging For Food Is Seen As A Leisure Activity" Day!

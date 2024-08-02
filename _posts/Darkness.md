@@ -1,0 +1,1 @@
+I don't understand why white people love tanning. Being dark never did us any good.

@@ -1,0 +1,5 @@
+[The Abolition of Work](http://www.inspiracy.com/black/abolition/abolitionofwork.html) 
+
+> To abolish work requires going at it from two directions, quantitative and qualitative. On the one hand, on the quantitative side, we have to cut down massively on the amount of work being done. At present most work is useless or worse and we should simply get rid of it. On the other hand — and I think this the crux of the matter and the revolutionary new departure — we have to take what useful work remains and transform it into a pleasing variety of game-like and craft-like pastimes, indistinguishable from other pleasurable pastimes except that they happen to yield useful end-products. Surely that shouldn’t make them less enticing to do. Then all the artificial barriers of power and property could come down. Creation could become recreation. And we could all stop being afraid of each other.
+
+There are some very thought provoking ideas in this essay.

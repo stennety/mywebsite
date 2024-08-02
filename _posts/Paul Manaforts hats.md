@@ -1,4 +1,4 @@
-![manaforthats][manaforthats]
+![manaforthats](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/manaforthats.jpeg)
 
-<!-- Images -->
-[manaforthats]: /sites/default/files/manaforthats.jpeg
+
+

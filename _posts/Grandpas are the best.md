@@ -1,4 +1,4 @@
-![grandpa][grandpa]
+![grandpa](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/grandpa.jpg)
 
-<!-- Images -->
-[grandpa]: /sites/default/files/grandpa.jpg
+
+

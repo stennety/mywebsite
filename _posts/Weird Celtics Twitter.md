@@ -26,5 +26,4 @@ On the since departed Kyrie Irving:
 
 > The Ojeleye Factory was a piece of Soviet-style propaganda about [Semi’s] gym, where his pursuit of extreme biceps and triceps as a bench player was to be lionized like they lionized the industrial worker...
 
-![ojeleye][ojeleye] <!-- Images -->
-[ojeleye]: /sites/default/files/ojeleye-factory.jpeg
+![ojeleye](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/ojeleye-factory.jpeg) 

@@ -1,6 +1,5 @@
 [My favorite XKCD line ever](https://xkcd.com/792/): 
 
-![xkcd][xkcd]
+![xkcd](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/xkcd.png)
 
-<!-- Images -->
-[xkcd]: /sites/default/files/xkcd.png
+

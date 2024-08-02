@@ -1,4 +1,4 @@
 My best friend got me this. It is one of my most treasured possessions.
 
-![snitches][snitches] <!-- Images -->
-[snitches]: /sites/default/files/snitches.png
+![snitches](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/snitches.png)
+ 

@@ -7,7 +7,7 @@ Second, I’ve never seen the Dark Knight, but this quote has stuck with me sinc
 
 > You either die a hero, or live long enough to see yourself become the villain.
 
-![herovillain][herovillain]
+![herovillain](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/herovillain.jpeg)
 
 * * *
 [Third](https://www.nytimes.com/2020/04/04/style/larry-david-curb-your-enthusiasm-coronavirus-psa.html), I might not go as far as Larry David, but I will very disappointed in you:
@@ -18,5 +18,4 @@ I also loved the coronavirus PSA he did:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xz82kRwTuUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- Images -->
-[herovillain]: /sites/default/files/herovillain.jpeg
+

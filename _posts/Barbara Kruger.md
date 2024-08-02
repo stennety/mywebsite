@@ -2,11 +2,16 @@ I love Supreme's typography, and then found out that they stole it from Barbara 
 
 Here are a few of my favs of hers:
 
-![krugershop][krugershop] 
+![krugershop](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/krugershop.jpeg) 
+
+![krugershop](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/krugershop.jpeg) 
+
+![krugershop](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/krugershop.jpeg) 
+
+
+
+ 
 
 ![krugerstupid][krugerstupid] 
 
-![krugergirl][krugergirl] <!-- Images -->
-[krugershop]: /sites/default/files/krugershop.jpeg
-[krugerstupid]: /sites/default/files/krugerstupid.jpeg
-[krugergirl]: /sites/default/files/krugergirl.jpeg
+![krugergirl][krugergirl] 

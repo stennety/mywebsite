@@ -1,7 +1,9 @@
 My favorite is accidental racism or things that aren't racist in their home cultures, but are racist in the US:
 
-![gas2][gas2] 
+![gas2](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/gas2.png) 
 
-![gas][gas] <!-- Images -->
-[gas2]: /sites/default/files/gas2.png
-[gas]: /sites/default/files/gas.png
+![gas2](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/gas2.png) 
+
+ 
+
+![gas][gas] 

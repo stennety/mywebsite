@@ -1,4 +1,4 @@
-![pie][pie]
+![pie](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/pie.jpeg)
 
-<!-- Images -->
-[pie]: /sites/default/files/pie.jpeg
+
+

@@ -1,4 +1,4 @@
-![elvaquita][elvaquita]
+![elvaquita](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/vaquito.png)
 
-<!-- Images -->
-[elvaquita]: /sites/default/files/vaquito.png
+
+

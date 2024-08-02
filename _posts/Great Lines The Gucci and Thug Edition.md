@@ -1,6 +1,7 @@
 I love this roast of Drake’s new house:
 
-![drake][drake]
+![drake](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/drake.png)
+
 
 * * *
 [Second](https://www.buzzfeed.com/naomizeichner/young-thug-trapped-major-label-deal?utm_term=.tflvOWV34#.toWQZ4dzJ), telling a story while using the people’s rap names is a thing that should happen more often:
@@ -14,6 +15,4 @@ I love this roast of Drake’s new house:
 > 
 > Rico: Yes, Sir. In my case an accident of birth. But you, Sir, you're a self-made man.
 
- <!-- Images -->
-[drake]: /sites/default/files/drake.png
-[whales]: /sites/default/files/whales.jpeg
+ 

@@ -1,4 +1,3 @@
-![londoncarnaby2][londoncarnaby2]
+![londoncarnaby2](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/London2.jpg)
 
-<!-- Images -->
-[londoncarnaby2]: /sites/default/files/London2.jpg
+

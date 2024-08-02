@@ -1,4 +1,4 @@
-![Riley][Riley]
+![Riley](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/rileyfreeman.jpeg)
 
-<!-- Images -->
-[Riley]: /sites/default/files/rileyfreeman.jpeg
+
+

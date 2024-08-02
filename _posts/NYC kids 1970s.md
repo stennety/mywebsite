@@ -1,5 +1,7 @@
-![nycteen][nycteen]
+![nycteen](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/NYC7.jpg)
 
-![nyckid][nyckid] <!-- Images -->
-[nycteen]: /sites/default/files/NYC7.jpg
-[nyckid]: /sites/default/files/NYC.png
+![nycteen](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/NYC7.jpg) 
+
+
+
+![nyckid][nyckid] 

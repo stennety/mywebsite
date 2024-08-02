@@ -1,4 +1,3 @@
-![nyc1][nyc1]
+![nyc1](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/NYC9.jpg)
 
-<!-- Images -->
-[nyc1]: /sites/default/files/NYC9.jpg
+

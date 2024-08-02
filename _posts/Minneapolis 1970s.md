@@ -1,0 +1,4 @@
+Hitch hikers thumbing a ride. What a different time.
+
+![minny](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/Minny.jpg)
+ 

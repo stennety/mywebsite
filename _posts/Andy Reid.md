@@ -1,4 +1,4 @@
-![andyreid][andyreid]
+![andyreid](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/andyreid.png)
 
-<!-- Images -->
-[andyreid]: /sites/default/files/andyreid.png
+
+

@@ -1,4 +1,4 @@
-![ladodgers][ladodgers]
+![ladodgers](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/ladodgers.jpeg)
 
-<!-- Images -->
-[ladodgers]: /sites/default/files/ladodgers.jpeg
+
+

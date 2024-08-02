@@ -1,4 +1,3 @@
-![beirut1][beirut1]
+![beirut1](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/beirut.png)
 
-<!-- Images -->
-[beirut1]: /sites/default/files/beirut.png
+

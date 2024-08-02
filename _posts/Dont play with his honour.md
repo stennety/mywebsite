@@ -1,4 +1,4 @@
-![slap][slap]
+![slap](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/slap.gif)
 
-<!-- Images -->
-[slap]: /sites/default/files/slap.gif
+
+

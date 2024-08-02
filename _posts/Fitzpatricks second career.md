@@ -1,4 +1,4 @@
-![fitz][fitz]
+![fitz](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/fitz.png)
 
-<!-- Images -->
-[fitz]: /sites/default/files/fitz.png
+
+

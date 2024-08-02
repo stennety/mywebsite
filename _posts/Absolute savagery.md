@@ -1,4 +1,4 @@
-![savage][savage]
+![savage](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/girlgamer.png)
 
-<!-- Images -->
-[savage]: /sites/default/files/girlgamer.png
+
+

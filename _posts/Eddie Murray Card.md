@@ -4,5 +4,4 @@ As the years went on, Eddie's taciturn face was a rebuke for my idiocy. I eventu
 
 Today, it's worth around $18. Ah, the folly of youth.
 
-![eddiemurray][eddiemurray] <!-- Images -->
-[eddiemurray]: /sites/default/files/eddiemurray.jpeg
+![eddiemurray](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/eddiemurray.jpeg) 

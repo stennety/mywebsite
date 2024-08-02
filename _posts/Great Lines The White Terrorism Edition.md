@@ -12,5 +12,4 @@ Second, this is what the police are about:
 ***
 Third, this is the epitome of the privilege of the white terrorists from today:
 
-![podium][podium] <!-- Images -->
-[podium]: /sites/default/files/trump-mob-podium.png
+![podium](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/trump-mob-podium.png) 

@@ -1,5 +1,7 @@
-![mummy1][mummy1]
+![mummy1](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/mummy1.png)
 
-![mummy2][mummy2] <!-- Images -->
-[mummy1]: /sites/default/files/mummy1.png
-[mummy2]: /sites/default/files/mummy2.png
+![mummy1](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/mummy1.png) 
+
+
+
+![mummy2][mummy2] 

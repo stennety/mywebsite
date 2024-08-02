@@ -1,8 +1,12 @@
-![royalsal][royalsal]
+![royalsal](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/royals2015won.jpeg)
+![royalsal](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/royals2015won.jpeg)
+![royalsal](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/royals2015won.jpeg)
+
+
+
+
+
 ![royalsws][royalsws]
 ![royalschamps][royalschamps]
 
-<!-- Images -->
-[royalsal]: /sites/default/files/royals2015won.jpeg
-[royalschamps]: /sites/default/files/royals15.jpeg
-[royalsws]: /sites/default/files/royalsws.jpeg
+

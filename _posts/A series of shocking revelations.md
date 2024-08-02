@@ -1,4 +1,4 @@
-![hardjob][hardjob]
+![hardjob](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/hardjob.jpeg)
 
-<!-- Images -->
-[hardjob]: /sites/default/files/hardjob.jpeg
+
+

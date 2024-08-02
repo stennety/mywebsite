@@ -1,4 +1,4 @@
-![aubergine][aubergine]
+![aubergine](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/aubergine.jpeg)
 
-<!-- Images -->
-[aubergine]: /sites/default/files/aubergine.jpeg
+
+

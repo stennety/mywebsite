@@ -1,0 +1,1 @@
+My nephew is a huge Jags fan. I gave him a Jags hat last Xmas. I told him on Sunday that if Uncle Muneer's Jags bets don't pay out, I will repo the hat and throw it in the trash. Xmas this year will be very interesting at my in-laws' house.

@@ -1,0 +1,1 @@
+<p>#30 on the Detroit Lions is named Dee Virgin. He probably plays against the QB today, David Blough, in practice. So, several times a week, Virgin is trying to get a Blough.</p>

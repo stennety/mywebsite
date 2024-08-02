@@ -1,0 +1,1 @@
+The New Yorker described Robert Mugabe as the Emperor Palpatine Of African politics. Checks out.

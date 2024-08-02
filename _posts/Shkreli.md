@@ -1,4 +1,4 @@
-![shkreli][shkreli]
+![shkreli](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/shkreli.png)
 
-<!-- Images -->
-[shkreli]: /sites/default/files/shkreli.png
+
+

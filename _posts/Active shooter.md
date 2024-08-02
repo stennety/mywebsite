@@ -1,4 +1,4 @@
-![shooter][shooter]
+![shooter](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/shooter.png)
 
-<!-- Images -->
-[shooter]: /sites/default/files/shooter.png
+
+

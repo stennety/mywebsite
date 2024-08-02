@@ -3,12 +3,18 @@ In theory, I should be able to get a vaccine on May 1. I'm getting some some sna
 ---
 
 This is absolutely something I'd do:
-![bigfend][bigfend]
+![bigfend](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/bigfend.jpeg)
 
 ---
 
 Agree:
 
-![commit][commit] <!-- Images -->
-[bigfend]: /sites/default/files/bigfend.jpeg
-[commit]: /sites/default/files/commit.png
+![bigfend](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/bigfend.jpeg) 
+
+
+
+---
+
+Agree:
+
+![commit][commit] 

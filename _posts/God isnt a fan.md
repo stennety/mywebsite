@@ -1,4 +1,4 @@
-![vodka][vodka]
+![vodka](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/VodkaPapaJohns.png)
 
-<!-- Images -->
-[vodka]: /sites/default/files/VodkaPapaJohns.png
+
+

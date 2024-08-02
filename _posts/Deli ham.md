@@ -1,4 +1,4 @@
-![deliham][deliham]
+![deliham](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/ham.jpg)
 
-<!-- Images -->
-[deliham]: /sites/default/files/ham.jpg
+
+

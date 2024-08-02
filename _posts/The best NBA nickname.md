@@ -1,4 +1,4 @@
 I think this is the best sports nickname ever:
 
-![sexland][sexland] <!-- Images -->
-[sexland]: /sites/default/files/sexland.png
+![sexland](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/sexland.png)
+ 

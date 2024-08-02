@@ -1,4 +1,3 @@
-![nycwinter][nycwinter]
+![nycwinter](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/NYC8.jpg)
 
-<!-- Images -->
-[nycwinter]: /sites/default/files/NYC8.jpg
+

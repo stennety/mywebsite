@@ -1,4 +1,4 @@
 This is unsettling.
 
-![god][god] <!-- Images -->
-[god]: /sites/default/files/burgerkinggod.jpeg
+![god](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/burgerkinggod.jpeg)
+ 

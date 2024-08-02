@@ -1,8 +1,7 @@
-![fishtank][fishtank]
+![fishtank](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/Jimmy-Butler-Boombox-Fish-Tank_1.jpeg)
 
 Jalen Rose, about Jimmy Butler's boombox shaped fish tank:</p>
 
 > This is one of those black dreams gone wrong"
 
-<!-- Images -->
-[fishtank]: /sites/default/files/Jimmy-Butler-Boombox-Fish-Tank_1.jpeg
+

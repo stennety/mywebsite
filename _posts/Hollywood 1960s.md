@@ -1,4 +1,3 @@
-![LA1][LA1]
+![LA1](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/LA1.jpg)
 
-<!-- Images -->
-[LA1]: /sites/default/files/LA1.jpg
+

@@ -1,4 +1,4 @@
-![bearclaw][bearclaw]
+![bearclaw](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/bearclaw.png)
 
-<!-- Images -->
-[bearclaw]: /sites/default/files/bearclaw.png
+
+

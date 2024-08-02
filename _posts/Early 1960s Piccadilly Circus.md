@@ -1,4 +1,3 @@
-![piccadilly][piccadilly]
+![piccadilly](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/London3.jpg)
 
-<!-- Images -->
-[piccadilly]: /sites/default/files/London3.jpg
+

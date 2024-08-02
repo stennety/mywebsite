@@ -1,9 +1,13 @@
 Whenever I need to test an artist's skills, I ask them to draw me a salmon eating a bear.
 
-![salmon][salmon] 
+![salmon](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/salmon.jpeg) 
 
 A few years ago, a friend of mine on Twitter drew this for me.
 
-![salmon2][salmon2] <!-- Images -->
-[salmon]: /sites/default/files/salmon.jpeg
-[salmon2]: /sites/default/files/salmon2.png
+![salmon](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/salmon.jpeg) 
+
+ 
+
+A few years ago, a friend of mine on Twitter drew this for me.
+
+![salmon2][salmon2] 

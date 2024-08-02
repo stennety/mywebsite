@@ -1,4 +1,4 @@
-![vcr][vcr]
+![vcr](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/vcr.png)
 
-<!-- Images -->
-[vcr]: /sites/default/files/vcr.png
+
+

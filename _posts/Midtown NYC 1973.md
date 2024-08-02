@@ -1,0 +1,3 @@
+Midtown traffic congestion and jaywalking pedestrians, in April of 1973.
+
+![nycjaywalk](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/NYC2.jpg) 

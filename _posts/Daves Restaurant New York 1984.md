@@ -1,4 +1,4 @@
-![nycdaves][nycdaves]
+![nycdaves](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/nycdaves.jpeg)
 
-<!-- Images -->
-[nycdaves]: /sites/default/files/nycdaves.jpeg
+
+

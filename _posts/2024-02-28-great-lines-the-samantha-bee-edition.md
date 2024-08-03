@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 Samantha Bee is one of the funniest people out there today. You may not agree with her political views, but [her book](https://bookshop.org/books/i-know-i-am-but-what-are-you/9781439142745) is filled with some great lines:
 
 >Who among us didn’t enjoy unwinding with liquor and smokes in the company of unsupervised children?

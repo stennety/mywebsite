@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 ![job](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/madness.png)
 
 

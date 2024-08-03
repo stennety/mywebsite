@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://verysmartbrothas.theroot.com/how-trump-ruined-my-relationship-with-my-white-mother-1797935049), how a black man and his white mother became estranged because of Trump:
 
 > The next day, my mother showed her entire ass. She basically became Trump, in my own house. My mother decided to don that bright-red “Make America Great Again” T-shirt and asked me to take her out to places while she had that shirt on, putting me in a position of having to appear to support Trump’s election. Again, I put my pride to the side. It’s my mother. She _birthed_ me.

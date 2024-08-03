@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 I love this roast of Drake’s new house:
 
 ![drake](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/drake.png)

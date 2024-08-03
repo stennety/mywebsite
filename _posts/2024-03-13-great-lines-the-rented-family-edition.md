@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 By the time you read this, I will have had some eye surgery. So this newsletter may or may not be getting sent to you from a blind man. :)
 
 [First](https://whatever.scalzi.com/2021/05/16/thoughts-on-the-imminent-unmasking/), John Scalzi accurately captures my feelings about people who refuse to wear masks:

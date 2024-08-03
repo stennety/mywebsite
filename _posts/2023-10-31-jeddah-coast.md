@@ -15,3 +15,8 @@
 ![jeddahcoast3][jeddahcoast3] 
 
 ![jeddahcoast4][jeddahcoast4] 
+
+---
+categories: city-pics
+---
+

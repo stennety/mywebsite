@@ -25,3 +25,8 @@
 ![jeddah5][jeddah5] 
 
 ![jeddah6][jeddah6] 
+
+---
+categories: city-pics
+---
+

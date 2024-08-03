@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://www.vanityfair.com/news/2009/04/somali-pirates200904), When you’re taken hostage by Somali pirates, it’s important to focus on the right things:
 
 > It was a small but disconcerting moment for the civilized world—evidence of the anarchy that prevails where nations fail and savagery threatens Canada. Luckily for the French, the bartender, Bertrand Viallet, had filled some thermoses with aperitifs, which helped to ease the trauma.

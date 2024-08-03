@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 Over the past 3 weeks, I've begun venturing back out into the world. It's been odd, but not nearly as jarring as I thought it might be. I feel bad for folks who are having a lot of social anxiety being around people again. If you read this newsletter and are one of those people, call or email me and I will come to you.
 
 On to the show...

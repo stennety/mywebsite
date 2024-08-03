@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://taibbi.substack.com/p/temporary-coronavirus-censorship), Matt Taibbi talks about the politicization of facts:
 
 > We’ve become incapable of talking calmly about possible solutions because we’ve lost the ability to decouple scientific or policy discussions, or simple issues of fact, from a political argument. Reporting on the Covid-19 crisis has become the latest in a line of moral manias with Donald Trump in the middle.

@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 I meant to send the following as the prelude to the newsletter you were sent this past week.
 
 I've decided to find a new job. I saw that my current job was evolving in a way that I would eventually not enjoy the work at all. So I took the affirmative step of finding a new job before I was forced to do so.

@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 With one exchange, my self-identity has been thrown into doubt:
 
 **Steve**: Hate the game, not the player... <br>

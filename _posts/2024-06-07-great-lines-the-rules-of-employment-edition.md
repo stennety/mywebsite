@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 I couldn't pick just one or two of the points in [this post](https://devjac.dev/posts/2021-05-29-my-personal-creed-of-employment.html), so I'm going to repost it.
 
 > * Stay calm. Remember, you can’t become worse off than when you started.

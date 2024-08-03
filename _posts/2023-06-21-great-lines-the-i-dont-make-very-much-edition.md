@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [In 2010, Matt Taibbi went to a Tea Party rally and saw the people who later voted Trump into office](https://www.rollingstone.com/politics/politics-news/the-truth-about-the-tea-party-188228/):
 
 > Scanning the thousands of hopped-up faces in the crowd, I am immediately struck by two things. One is that there isn’t a single black person here. The other is the truly awesome quantity of medical hardware: Seemingly every third person in the place is sucking oxygen from a tank or propping their giant atrophied glutes on motorized wheelchair-scooters. As Palin launches into her Ronald Reagan impression — “Government’s not the solution! Government’s the problem!” — the person sitting next to me leans over and explains.

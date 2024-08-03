@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 Warren G's song "Regulate" has inspired a couple of epic summaries. 
 
 First, this is from [Wikipedia](https://en.wikipedia.org/wiki/Regulate_(song)#Synopsis):

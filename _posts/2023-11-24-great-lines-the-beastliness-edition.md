@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://deadspin.com/how-these-two-white-guys-wound-up-in-this-kendrick-perk-5793919), a couple of fans get close to their idol.
 
 > Perk liked the idea of a digital shrine to his beastliness.

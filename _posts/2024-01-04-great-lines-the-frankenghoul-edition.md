@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 I know someone who thinks the world is controlled by the Deep State. I wish there was a Deep State, because then perhaps we could talk to someone to see how the election will go.
 
 ***

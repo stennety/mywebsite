@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 > Early to bed, early to rise means that the opposite sex doesn't find you attractive.
 
 ****

@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [On plastic toys](https://harpers.org/archive/2007/01/moby-duck/):  
 
 > The loss of fantasy is the price paid for precision.

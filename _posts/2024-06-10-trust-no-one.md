@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [A true gentleman knows his likes](https://www.newyorker.com/magazine/2014/07/28/philby): 
 
 > Sir Stewart Menzies, who, we are told, "rode to hounds, mixed with royalty, never missed a day at Ascot, drank a great deal, and kept his secrets buttoned up behind a small, fierce mustache. He preferred women to men and horses to both.

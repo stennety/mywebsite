@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 Here are some great lines from Paul Feig's book, [Superstud](https://bookshop.org/books/superstud-or-how-i-became-a-24-year-old-virgin/9781400051755):
 
 > What just a few minutes earlier had been my closest friend and comforter was now revealed to have been the serpent in the Garden of Eden.

@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://www.sbnation.com/2014/9/29/6850763/gordon-ramsay-kitchen-nightmares-mill-street-bistro-joe-nagy), writing about Gordon Ramsay eviscerating a pretentious douche is very satisfying:
 
 > It is brought about because Joe will not stop making elk quesadillas, a dish Gordon told him time and again, with no room for confusion, is a terrible dish that should be taken off the menu. At the outset, Joe was supposed to be the helpless man tied to the railroad tracks, waiting for Gordon to save him. Instead, he is the train itself. He is fixed upon the track, knowing no other option but to make the same crummy food for miles and miles.

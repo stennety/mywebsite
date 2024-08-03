@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 These are some great lines from Roger Ebert's book, I Hated, Hated, Hated This Movie:
 
 > In which we determine how werewolves are made, how they are killed, and how they spread their wolfiness.

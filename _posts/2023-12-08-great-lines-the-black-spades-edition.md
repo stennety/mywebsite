@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 #### [How to Play Black Spades, Part 1](https://www.theroot.com/how-to-play-black-spades-part-1-1842460153)
 
 > First of all, spades is not a game, it is a skills contest that requires complex permutative calculations while winning a “game” only requires luck. Old black men who carry pocket knives do not play games.

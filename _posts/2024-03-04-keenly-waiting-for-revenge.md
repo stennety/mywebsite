@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 From the book [Dynastic, Bombastic, Fantastic: Reggie, Rollie, Catfish, and Charlie Finley's Swingin' A's](https://bookshop.org/books/dynastic-bombastic-fantastic-reggie-rollie-catfish-and-charlie-finley-s-swingin-a-s/9781328570079), this great story about outfielder Billy North:
 
 > In a May 18 game against the Royals at the Coliseum, however, he let slip his bat on a swing against reliever Doug Bird, the lumber sailing harmlessly between the mound and third base. While going to retrieve it, however, North took an unexpected right turn and pounced upon the unsuspecting pitcher, peppering him with as many punches as he could before being tackled away by players from both teams. The only guy in the building who wasn't confused as hell was the guy swinging his fists.

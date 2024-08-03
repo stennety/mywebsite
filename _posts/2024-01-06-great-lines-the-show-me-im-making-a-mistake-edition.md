@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 I have a mixed relationship with what people would call self-help. I think most of it is bogus nonsense. But there are some people who make sense. The point here is that there aren't any absolutes. There is usually at least a modicum of value in most things.
 
 [First](https://bookshop.org/books/tools-of-titans-the-tactics-routines-and-habits-of-billionaires-icons-and-world-class-performers/9781328683786), a quote about failing to achieve goals. This goes with my feelings when I hear some version of "They're so smart, if they'd only apply themselves." To me, those are the stupidest people: you possess the ability but don't have the drive:

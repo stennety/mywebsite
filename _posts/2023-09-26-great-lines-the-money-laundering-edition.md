@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://deadspin.com/the-legend-of-black-superman-billy-ray-bates-flying-h-5564268), if you’re an athlete who doesn’t want to be sober, go from being a small fish in a big pond to a colossal fish in a microscopic pond:
 
 > After watching his new import drink enough liquor to knock out a horse, Manotoc followed Bates into the street and saw the American pick up the back end of a car by its bumper and do a set of curls with it. He's wild, Manotoc thought, but he's strong.

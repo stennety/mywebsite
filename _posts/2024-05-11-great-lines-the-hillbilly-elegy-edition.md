@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 J.D. Vance is now one of the people he talks about it in this book. People say that it was plain to anyone that he would make his current heel turn into a die-hard Trumper. For me, this raises a larger question: if someone turns out to be a terrible person, can you still enjoy the art that they made? I don't actively listen to R. Kelly or Michael Jackson anymore, but I won't change the song if they come on. At the end of the day, I don't have the answer. If you have thoughts, please reply to this email.
 
 Anyways, the following quotes are from J.D. Vance's book, [Hillbilly Elegy](https://bookshop.org/books/hillbilly-elegy-a-memoir-of-a-family-and-culture-in-crisis/9780062300553).

@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [Fred Davis, Attorney at Law: The Courtroom Transcripts](https://www.washingtonian.com/2012/06/29/fred-davis-attorney-at-law-the-courtroom-transcripts/):
 
 **Chaka cross-examination of Davis on April 10, 2012**

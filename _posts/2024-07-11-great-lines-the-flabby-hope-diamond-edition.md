@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://vault.si.com/vault/2007/09/10/hiding-in-plain-sight), former University of Miami football coach Randy Shannon:
 
 > “I've got two choices," he says. "I can sit back and say everything's against me, I'm going in the tank. Or I can accept the hand that's been dealt me and move forward. I never think about why? or why me? I never second-guess it. I forget about what happened three seconds ago. People ask me what I did last night. I can't remember. They think I'm joking. Every second you think about the past is a second when you can't think about the future, about controlling what you can control. That gives other people an opportunity to control your life. You control your life. You have to control the world. You can never let it control you.”

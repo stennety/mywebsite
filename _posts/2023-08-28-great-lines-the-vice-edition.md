@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://slate.com/news-and-politics/2020/05/toilet-flush-supreme-court-livestream.html), from reader Rachel, an important avenue of inquiry at the highest court in the land:
 
 > This one, small act of human waste expulsion brought with it mystery, intrigue, and what was almost certainly a pooping Supreme Court justice.

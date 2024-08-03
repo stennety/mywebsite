@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [First](https://www.gq.com/story/trump-supporters-gop-campaign-iowa), Drew Magary went to a Trump rally back in 2016\. His base hasn’t changed much since then:
 
 > “I know the greatest negotiators in the world,” he said. “Now some of these people are horrible human beings. You wouldn’t have them to dinner. They’re vicious. They’re crude. They’re unhappy. They treat everybody badly. Who cares? I want them negotiating against China. Think of Carl Icahn, a friend of mine. He’d be great. I’d say, ‘Carl, take China’.”

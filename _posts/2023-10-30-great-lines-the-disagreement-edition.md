@@ -1,3 +1,7 @@
+---
+categories: great-lines
+---
+
 [From Shane Parrish](https://www.farnamstreetblog.com/2016/06/the-four-tools-of-discipline/):
 
 > …The first thing we usually do when someone disagrees with us is that we just assume they are ignorant. You know, they don’t have access to the same information we do and when we generously share that information with them, they are going to see the light and come on over to our team.

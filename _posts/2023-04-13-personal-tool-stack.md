@@ -1,3 +1,8 @@
+---
+author: "John Smith"
+layout: "page"
+---
+
 <h2>Archiving</h2>
 
 <ol>

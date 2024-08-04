@@ -1,1 +1,0 @@
-St. Patrick's Day is 4/20 for alcoholics.

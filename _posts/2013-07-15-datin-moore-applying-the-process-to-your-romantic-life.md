@@ -1,5 +1,6 @@
 ---
-categories: 
+categories: funny
+title: Datin' Moore 
 ---
 
 <p>Hi Dayton,</p>

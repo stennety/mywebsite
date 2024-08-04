@@ -1,5 +1,6 @@
 ---
 categories: parentification
+published: false
 ---
 
 I finally put something into words that I hadn't been able to before. My Mom and Dad were able to opt out of their responsibilities as parents for months or even years at a time.

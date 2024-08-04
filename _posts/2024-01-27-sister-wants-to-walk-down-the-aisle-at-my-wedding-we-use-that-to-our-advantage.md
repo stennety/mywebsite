@@ -2,10 +2,6 @@
 categories: reddit,  parents
 ---
 
----
-categories: ,  animals,  history, religion, racism,  funny, absurdist,  memes, animals, humor,  indepth, organize, schemes, history, covid, music,  uplifting,  women, dataviz,  bad people,  gambling,  picture, culture,  jokes, thinking, picture,  retro, video, work,  ideas, reddit, life, travel,  metafilter, politics, lawschool, reference, great lines, ethnography, relationships,  thinking, uplifting,  parents,  wisdom,  kids, memes, awesome,  art,  betting, sex, rich, sports, women, baseball, jokes,  humor, parentification, stories, games, entertainment, football,  newsletter,  facts,  politics, law,  extremists,  video, stupid, food,  stories,  entertainment, liveblogs,  names, personal,  stupid, current events, cities, metafilter, art, funny,  religion, internet,  liveblogs,  advice,  great lines, wisdom, conspiracy, extremists,  music,  current events, bad people, trolling,  sports,  popculture,  covid,  awesome
----
-
 Here I am, writing this long tale in my honeymoon, but it does feel cathartic to finally type it out, and my husband is more excited about this than the resort drinks, lol Anyway, this is a throwaway because I don't have a reddit account and my husband, the reddit fanatic, said he doesn't want this associated with his main. As to why the reddit guy isn't the one writing this, it's because he said "since it's my family, I should be the one with the honor of posting the story", but he is looking over my shoulder to help out.
 
 I'm not a lawyer so I don't know if this works but: I do not give permission for this to be reposted anywhere else

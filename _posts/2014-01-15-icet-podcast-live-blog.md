@@ -4,7 +4,7 @@ title: Ice-T Podcast Quotes
 ---
 
 
-<p>Ice on"The Hunger Games": If they can hunt so good, why don't they just hunt food?</p>
+<p>Ice on "The Hunger Games": If they can hunt so good, why don't they just hunt food?</p>
 
 <p>Ice on Brad Pitt: If your man don't like Brad Pitt, he's just a bitch.</p>
 

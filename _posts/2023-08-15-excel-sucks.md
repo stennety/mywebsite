@@ -1,5 +1,6 @@
 ---
 categories: stories
+published: false
 ---
 
 Back in late 2014, I made a huge error at work. I was sorting records In Excel and messed up the filtering. It caused mail to go to the wrong addresses, addressed to other clients. Then, in early 2015, I was asked to provide a file to a communications person to give to a client who wanted to know how many addresses were outdated. I made the mistake of providing both the old and new addresses. She gave them the file with only the old addresses.

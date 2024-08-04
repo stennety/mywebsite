@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: No PTO for you
 ---
 
 When I worked for a small company, all the mothers would take tons of time off when school was off or their kids had something going on. The work we did required us to be in the office. So, on the days the mothers took off, the rest of us had to pick up the slack.

@@ -1,5 +1,6 @@
 ---
 categories: sports,  great lines
+title: KC vs. St. Louis
 ---
 
 

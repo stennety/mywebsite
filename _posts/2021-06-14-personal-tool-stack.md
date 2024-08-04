@@ -1,8 +1,5 @@
 ---
 categories: 
----
-
----
 author: "John Smith"
 layout: "page"
 ---

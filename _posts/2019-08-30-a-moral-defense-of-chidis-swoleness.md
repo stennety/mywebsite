@@ -2,9 +2,6 @@
 categories: entertainment,  awesome
 ---
 
----
-categories: great-lines
----
 
 [A moral defense of Chidi's swoleness](https://sa33779.wixsite.com/shawnadler/writings):
 

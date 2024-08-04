@@ -2,9 +2,6 @@
 categories: thinking
 ---
 
----
-categories: great-lines
----
 
 <p><a href="https://dailystoic.com/curse-opinion-everything/" target="_blank">The Curse of Having an Opinion About Everything</a></p>
 

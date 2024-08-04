@@ -2,9 +2,6 @@
 categories: politics
 ---
 
----
-categories: great-lines
----
 
 [Gen. Mark Milley Delivers Powerful Defense of Studying Critical Race Theory](https://www.rollingstone.com/politics/politics-news/mark-milley-critical-race-theory-congress-1188508/):
 

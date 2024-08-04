@@ -2,9 +2,6 @@
 categories: funny,  picture
 ---
 
----
-categories: great-lines
----
 
 I was alleged to have written this. Believe me, I'd claim it if I had.
 

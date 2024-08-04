@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 From Joe Sheehan's baseball newsletter:
 

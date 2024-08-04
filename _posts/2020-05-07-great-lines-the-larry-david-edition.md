@@ -2,9 +2,6 @@
 categories: great lines,  video,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://www.vanityfair.com/news/2009/04/somali-pirates200904), When you’re taken hostage by Somali pirates, it’s important to focus on the right things:
 

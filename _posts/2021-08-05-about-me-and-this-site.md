@@ -2,9 +2,6 @@
 categories: 
 ---
 
----
-categories: great-lines
----
 
 Do you post on Facebook, Instagram or Twitter? If so, then you're creating content for those sites. For free. They make ad dollars while you get validation via likes. [This link](<https://www.alwaysownyourplatform.com/>) says it a lot better than I can.
 

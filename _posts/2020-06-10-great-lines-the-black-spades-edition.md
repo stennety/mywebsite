@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 #### [How to Play Black Spades, Part 1](https://www.theroot.com/how-to-play-black-spades-part-1-1842460153)
 

@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://www.gq.com/story/trump-supporters-gop-campaign-iowa), Drew Magary went to a Trump rally back in 2016\. His base hasn’t changed much since then:
 

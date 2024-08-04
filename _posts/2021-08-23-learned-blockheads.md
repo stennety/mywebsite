@@ -2,9 +2,6 @@
 categories: great lines,  memes
 ---
 
----
-categories: great-lines
----
 
 ![ben](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/ben.jpeg)
 

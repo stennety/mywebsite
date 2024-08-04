@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://taibbi.substack.com/p/temporary-coronavirus-censorship), Matt Taibbi talks about the politicization of facts:
 

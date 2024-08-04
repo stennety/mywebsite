@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 From the "Call Chelsea Peretti" podcast:
 

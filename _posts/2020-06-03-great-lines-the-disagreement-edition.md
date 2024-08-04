@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [From Shane Parrish](https://www.farnamstreetblog.com/2016/06/the-four-tools-of-discipline/):
 

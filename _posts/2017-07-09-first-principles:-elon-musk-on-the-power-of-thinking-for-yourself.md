@@ -1,6 +1,3 @@
----
-categories: great-lines
----
 
 [First Principles: Elon Musk on the Power of Thinking for Yourself](https://jamesclear.com/first-principles):
 

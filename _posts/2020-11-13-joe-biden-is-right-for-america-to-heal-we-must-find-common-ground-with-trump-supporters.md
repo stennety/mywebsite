@@ -2,9 +2,6 @@
 categories: politics,  great lines
 ---
 
----
-categories: great-lines
----
 
 [Joe Biden Is Right: For America to Heal, We Must Find Common Ground With Trump Supporters](https://www.theroot.com/joe-biden-is-right-for-america-to-heal-we-must-find-c-1845619808):
 

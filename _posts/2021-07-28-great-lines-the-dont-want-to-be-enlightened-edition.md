@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 I'm worried that we've got an impassable gulf between the Trump faction and the rest of America. In times like this, I read history and it shows that there were times in the past when were similarly divided. America made it through. But can we keep on repeating history? I don't know.
 

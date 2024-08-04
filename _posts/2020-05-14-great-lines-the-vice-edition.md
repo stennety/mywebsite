@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://slate.com/news-and-politics/2020/05/toilet-flush-supreme-court-livestream.html), from reader Rachel, an important avenue of inquiry at the highest court in the land:
 

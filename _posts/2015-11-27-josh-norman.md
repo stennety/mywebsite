@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [Panthers CB Josh Norman: 'Went Dark Knight' after Dez Bryant disrespect](https://www.espn.com/nfl/story/_/id/14233577/josh-norman-carolina-panthers-says-dez-bryant-dallas-cowboys-disrespected-him)
 

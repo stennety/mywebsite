@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 This week, I present an excerpt from a book called _[Anti-vaxxers: How to Challenge a Misinformed Movement](https://mitpress.mit.edu/books/anti-vaxxers)_. I’ve often wrestled with a person I know from law school who can’t distinguish between scientific/medical facts and legal facts. This is a good summation of the difference:
 

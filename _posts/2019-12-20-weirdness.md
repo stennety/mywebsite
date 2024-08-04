@@ -2,9 +2,6 @@
 categories: wisdom
 ---
 
----
-categories: great-lines
----
 
 This quote by Andy Warhol has always resonated with me as a way to explain my youth:
 

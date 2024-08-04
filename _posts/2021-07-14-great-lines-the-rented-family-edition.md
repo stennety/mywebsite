@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 By the time you read this, I will have had some eye surgery. So this newsletter may or may not be getting sent to you from a blind man. :)
 

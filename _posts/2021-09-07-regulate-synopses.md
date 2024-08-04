@@ -2,9 +2,6 @@
 categories: music,  entertainment
 ---
 
----
-categories: great-lines
----
 
 Warren G's song "Regulate" has inspired a couple of epic summaries. 
 

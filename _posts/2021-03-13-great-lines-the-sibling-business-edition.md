@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 Since this past October, I’ve been in a state of constant anxiety. First it was the election. Then it was the terrorist attack on January 6\. Then, it was the impeachment. But, I realize now that there’s no sense in me worrying about these things. I can’t control them. It also helps to have an actual human being as president, instead of the sentient Youtube comments section we’ve had to endure over the past 4 years.
 

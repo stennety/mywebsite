@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 From Filip Bondy's [book about the Pine Tar Game:](https://bookshop.org/books/the-pine-tar-game-the-kansas-city-royals-the-new-york-yankees-and-baseball-s-most-absurd-and-entertaining-controversy/9781476777184) 
 

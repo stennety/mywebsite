@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 I have a mixed relationship with what people would call self-help. I think most of it is bogus nonsense. But there are some people who make sense. The point here is that there aren't any absolutes. There is usually at least a modicum of value in most things.
 

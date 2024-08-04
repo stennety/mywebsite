@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 One good thing about the pandemic: there is no longer a social obligation to hug people. I've never been a big hugger, but have grown to tolerate it. No more! I'm finally going to shake off the yoke of the Hug Industrial Complex after all these years.
 

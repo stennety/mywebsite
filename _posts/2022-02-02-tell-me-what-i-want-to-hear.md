@@ -2,9 +2,6 @@
 categories: great lines,  facts
 ---
 
----
-categories: great-lines
----
 
 Great quote from Reddit:
 

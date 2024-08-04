@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [MLB Shootaround (the Horn): The Most Intriguing Second-Half Story Lines](https://grantland.com/the-triangle/mlb-shootaround-intriguing-second-half-story-lines/)
 

@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [Black Friday is a sad, apocalyptic wallet safari. You'll thank yourself for staying home](https://www.theguardian.com/commentisfree/2014/nov/27/black-friday-at-home-sales-problem):
 

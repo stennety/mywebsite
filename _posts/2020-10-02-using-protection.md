@@ -2,9 +2,6 @@
 categories: jokes
 ---
 
----
-categories: great-lines
----
 
 I told my friend that my favorite cologne in college was Drakkar Noir. 
 

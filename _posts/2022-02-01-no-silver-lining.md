@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 A quote by Krusty the Clown from the Simpsons episode, "[Bart the Fink](https://simpsons.fandom.com/wiki/Bart_the_Fink/Quotes)":
 

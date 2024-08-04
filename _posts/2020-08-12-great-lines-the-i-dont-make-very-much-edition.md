@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [In 2010, Matt Taibbi went to a Tea Party rally and saw the people who later voted Trump into office](https://www.rollingstone.com/politics/politics-news/the-truth-about-the-tea-party-188228/):
 

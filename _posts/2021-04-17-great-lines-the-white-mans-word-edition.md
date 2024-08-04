@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 I recently read Dave Parker's new autobiography, *Cobra*. There are tons of good stories in the book, but this one about what happened after a black player was unfairly fined by the league was my favorite:
 

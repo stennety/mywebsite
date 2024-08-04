@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Michael Lewis always does a great job of finding [stories](https://archive.vanityfair.com/article/2017/12/made-in-the-usda) about blowhards who get exposed in public:
 

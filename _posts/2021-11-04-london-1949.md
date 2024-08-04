@@ -6,7 +6,3 @@ categories: cities
 
 
 
----
-categories: city-pics
----
-

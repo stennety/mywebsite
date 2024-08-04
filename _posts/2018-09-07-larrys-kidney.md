@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Here are some great lines from the book, [<Larry's Kidney: Being the True Story of How I Found Myself in China with My Black Sheep Cousin and His Mail-Order Bride, Skirting the Law to Get Him a Transplant--and Save His Life>](https://bookshop.org/books/larry-s-kidney-being-the-true-story-of-how-i-found-myself-in-china-with-my-black-sheep-cousin-and-his-mail-order-bride-skirting-the/9780061708718) by Daniel Asa Rose:
 

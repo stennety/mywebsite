@@ -2,9 +2,6 @@
 categories: funny
 ---
 
----
-categories: great-lines
----
 
 [Report: Majority Of Newspapers Now Purchased By Kidnappers To Prove Date](https://www.theonion.com/report-majority-of-newspapers-now-purchased-by-kidnapp-1819571085):
 

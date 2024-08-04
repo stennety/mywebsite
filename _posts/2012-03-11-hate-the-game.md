@@ -2,9 +2,6 @@
 categories: jokes
 ---
 
----
-categories: great-lines
----
 
 With one exchange, my self-identity has been thrown into doubt:
 

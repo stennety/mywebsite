@@ -30,7 +30,3 @@ categories: cities
 
 ![jeddah6][jeddah6] 
 
----
-categories: city-pics
----
-

@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [On plastic toys](https://harpers.org/archive/2007/01/moby-duck/):  
 

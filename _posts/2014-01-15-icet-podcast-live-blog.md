@@ -2,9 +2,6 @@
 categories: liveblogs
 ---
 
----
-categories: great-lines
----
 
 <p>Ice on"The Hunger Games": If they can hunt so good, why don't they just hunt food?</p>
 

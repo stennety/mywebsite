@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://www.sbnation.com/2014/9/29/6850763/gordon-ramsay-kitchen-nightmares-mill-street-bistro-joe-nagy), writing about Gordon Ramsay eviscerating a pretentious douche is very satisfying:
 

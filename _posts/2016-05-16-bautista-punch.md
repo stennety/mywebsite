@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 ![odor](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/odor.jpeg)
  

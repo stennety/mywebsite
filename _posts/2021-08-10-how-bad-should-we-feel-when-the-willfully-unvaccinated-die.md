@@ -2,9 +2,6 @@
 categories: covid
 ---
 
----
-categories: great-lines
----
 
 [How Bad Should We Feel When the Willfully Unvaccinated Die?](https://whatever.scalzi.com/2021/08/09/how-bad-should-we-feel-when-the-willfully-unvaccinated-die/):
 

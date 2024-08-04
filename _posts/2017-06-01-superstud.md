@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Here are some great lines from Paul Feig's book, [Superstud](https://bookshop.org/books/superstud-or-how-i-became-a-24-year-old-virgin/9781400051755):
 

@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Here are some great lines from the book [Unplugged by Joe Barrett](https://bookshop.org/books/unplugged-9781684334926/9781684334926):
 

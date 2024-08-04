@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 My favorite quote from Volltaire is from [Candide](https://www.owleyes.org/text/candide/read/chapter-xxv-visit-lord-pococurante#root-218765-14):
 

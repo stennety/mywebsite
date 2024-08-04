@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 From the book [Dynastic, Bombastic, Fantastic: Reggie, Rollie, Catfish, and Charlie Finley's Swingin' A's](https://bookshop.org/books/dynastic-bombastic-fantastic-reggie-rollie-catfish-and-charlie-finley-s-swingin-a-s/9781328570079), this great story about outfielder Billy North:
 

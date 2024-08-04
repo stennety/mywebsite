@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://www.theroot.com/the-caucasians-guide-to-thanksgiving-part-2-the-menu-1820676919), some important distinctions between dressing and stuffing at Thanksgiving:
 

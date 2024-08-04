@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 Our brains are ravaged by a constant barrage of information. We aren’t meant to be in a state of such constant and persistent stimulation. I’ve really gotten into Cal Newport over the past few years. I highly recommend reading his books. He talks about the need for people to focus so they can do deep, meaningful work.
 

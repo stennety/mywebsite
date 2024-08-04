@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 First, from the ever wise [Meditations by Marcus Aurelius](https://bookshop.org/books/meditations-a-new-translation-7be5ded9-87a9-4056-af72-d6c917125a29/9780812968255). I've linked to the translation I think is the best.
 

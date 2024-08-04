@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 <p>I love Mike Birbiglia's comedy. <a href="https://www.simonandschuster.com/books/Sleepwalk-with-Me/Mike-Birbiglia/9781439158005">His book</a>&nbsp;had gems like the following:</p>
 

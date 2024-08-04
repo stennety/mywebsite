@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [My favorite XKCD line ever](https://xkcd.com/792/): 
 

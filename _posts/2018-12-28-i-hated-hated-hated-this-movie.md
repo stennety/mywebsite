@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 These are some great lines from Roger Ebert's book, I Hated, Hated, Hated This Movie:
 

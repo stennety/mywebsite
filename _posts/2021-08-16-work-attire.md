@@ -2,9 +2,6 @@
 categories: great lines,  memes
 ---
 
----
-categories: great-lines
----
 
 ![lizlemon](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/lizlemon.jpeg)
 

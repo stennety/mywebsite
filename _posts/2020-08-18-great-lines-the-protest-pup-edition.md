@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 I really appreciate the fact that we’re getting more aware of the racist core of our society. But, we must be careful to not let ourselves become as terrible as those we oppose. There are some good quotes about the so-called liberal media below.
 

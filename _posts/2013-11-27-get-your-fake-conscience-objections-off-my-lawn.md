@@ -2,9 +2,6 @@
 categories: religion
 ---
 
----
-categories: great-lines
----
 
 [This article](https://flowerhorne.com/2013/11/26/get-your-fake-conscience-objections-off-my-lawn/) articulates my opinion of corporations claiming religious conscience better than I ever could:
 

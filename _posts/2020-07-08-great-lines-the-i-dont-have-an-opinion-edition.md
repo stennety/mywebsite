@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://verysmartbrothas.theroot.com/how-trump-ruined-my-relationship-with-my-white-mother-1797935049), how a black man and his white mother became estranged because of Trump:
 

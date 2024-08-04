@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Roger Ebert was always at his best when he didn't like a movie, like [1980's *Spit on Your Grave*](https://www.rogerebert.com/reviews/i-spit-on-your-grave-1980): 
 

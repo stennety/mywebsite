@@ -20,7 +20,3 @@ categories: cities
 
 ![jeddahcoast4][jeddahcoast4] 
 
----
-categories: city-pics
----
-

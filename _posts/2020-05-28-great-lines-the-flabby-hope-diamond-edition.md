@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://vault.si.com/vault/2007/09/10/hiding-in-plain-sight), former University of Miami football coach Randy Shannon:
 

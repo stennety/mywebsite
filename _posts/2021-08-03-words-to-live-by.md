@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Coach Finstock from the movie Teen Wolf said the following wise words:
 

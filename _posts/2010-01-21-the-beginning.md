@@ -2,9 +2,6 @@
 categories: funny
 ---
 
----
-categories: great-lines
----
 
 Truer words were never spoken:
 

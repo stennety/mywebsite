@@ -2,9 +2,6 @@
 categories: politics
 ---
 
----
-categories: great-lines
----
 
 <p><a href="https://medium.com/@SeanBlanda/the-other-side-is-not-dumb-2670c1294063" target="_blank">The “Other Side” Is Not Dumb</a>:</p>
 

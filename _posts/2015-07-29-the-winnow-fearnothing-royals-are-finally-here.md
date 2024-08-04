@@ -2,9 +2,6 @@
 categories: great lines,  sports
 ---
 
----
-categories: great-lines
----
 
 I love this quote from [Grant Brisbee's article](https://www.sbnation.com/2015/7/29/9062795/royals-deadline-zobrist-cueto) about this team:
 

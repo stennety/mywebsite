@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [This](https://www.nooctothorpe.com/blog/2021/6/4/hey-so-i-think-i-fucking-hate-the-internet) is a very accurate reflection of my feelings about the Internet at large: 
 

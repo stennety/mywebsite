@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 An interesting read about abolishing work ([link)](http://www.inspiracy.com/black/abolition/abolitionofwork.html):
 

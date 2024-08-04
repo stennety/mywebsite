@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 <p>From Eric Barker's book, <a href="https://bookshop.org/books/barking-up-the-wrong-tree-the-surprising-science-behind-why-everything-you-know-about-success-is-mostly-wrong/9780062416049">Barking Up the Wrong Tree</a>:</p>
 

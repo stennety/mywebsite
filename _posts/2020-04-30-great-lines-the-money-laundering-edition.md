@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://deadspin.com/the-legend-of-black-superman-billy-ray-bates-flying-h-5564268), if you’re an athlete who doesn’t want to be sober, go from being a small fish in a big pond to a colossal fish in a microscopic pond:
 

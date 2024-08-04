@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [A true gentleman knows his likes](https://www.newyorker.com/magazine/2014/07/28/philby): 
 

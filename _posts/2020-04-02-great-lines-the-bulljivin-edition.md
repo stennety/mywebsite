@@ -2,9 +2,6 @@
 categories: great lines,  video,  newsletter
 ---
 
----
-categories: great-lines
----
 
 It’s been hard to focus enough to read anything, so I bring you some podcast episodes that you can listen to:
 

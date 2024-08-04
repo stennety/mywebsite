@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 From the TV show Justified, the great Raylan Givens:
 

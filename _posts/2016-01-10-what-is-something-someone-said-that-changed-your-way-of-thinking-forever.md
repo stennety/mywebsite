@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 Some [great lines](https://www.reddit.com/r/AskReddit/comments/406d65/what_is_something_someone_said_that_changed_your/) from a Reddit thread:
 

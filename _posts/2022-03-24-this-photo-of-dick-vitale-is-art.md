@@ -2,9 +2,6 @@
 categories: picture,  great lines
 ---
 
----
-categories: great-lines
----
 
 This is almost the whole article's text, but it's too good not to share:
 

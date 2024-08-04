@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 [First](https://www.nytimes.com/2003/12/21/magazine/the-way-we-live-now-12-21-03-encounter-the-loophole-artist.html), a lawyer for the superrich who both exploits the tax code to save his clients money and sounds the alarm when a loophole feels too outrageous:
 

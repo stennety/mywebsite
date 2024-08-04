@@ -2,9 +2,6 @@
 categories: great lines
 ---
 
----
-categories: great-lines
----
 
 [who's on judge mathis today? #194](https://bitchesgottaeat.substack.com/p/whos-on-judge-mathis-today-194):
 

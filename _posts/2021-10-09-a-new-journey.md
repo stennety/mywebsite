@@ -2,9 +2,6 @@
 categories: work
 ---
 
----
-categories: great-lines
----
 
 I meant to send the following as the prelude to the newsletter you were sent this past week.
 

@@ -2,9 +2,6 @@
 categories: great lines,  newsletter
 ---
 
----
-categories: great-lines
----
 
 In theory, I should be able to get a vaccine on May 1. I'm getting some some snacks, a lawn chair and a power bank. Me and my pal Steve might even tailgate at the line.
 

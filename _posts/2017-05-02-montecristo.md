@@ -1,4 +1,7 @@
-# Count of Monte Cristo
+---
+categories: books
+title: The Count of Monte Cristo
+---
 
 I’m stealing this idea from James Clear. I want to begin reviewing books so that I can actually remember what I liked about them and any insights they provided to me.
 

@@ -1,7 +1,6 @@
 ---
-categories: 
-author: "John Smith"
-layout: "page"
+categories: personal
+published: false
 ---
 
 <h2>Archiving</h2>

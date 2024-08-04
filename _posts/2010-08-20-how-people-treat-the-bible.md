@@ -1,4 +1,0 @@
----
-categories: great lines
----
-

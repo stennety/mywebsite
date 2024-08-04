@@ -1,5 +1,6 @@
 ---
-categories: great lines
+categories: great-lines
+title: Money ain't scared
 ---
 
 

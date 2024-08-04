@@ -2,7 +2,4 @@
 categories: memes
 ---
 
-![fathersday][fathersday]
-
-<!-- Images -->
-[fathersday]: /sites/default/files/bestdadjpg
+![fathersday](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/bestdadjpg)

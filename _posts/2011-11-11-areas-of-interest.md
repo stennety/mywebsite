@@ -1,3 +1,8 @@
+---
+categories: personal
+published: false
+---
+
 *   Ramanujan
 *   Aroostook War
 *   Joan Pujol Garcia

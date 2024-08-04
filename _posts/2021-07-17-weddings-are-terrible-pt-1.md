@@ -1,5 +1,6 @@
 ---
-categories: bad people
+categories: bad-people
+title: Weddings are terrible, part 1
 ---
 
 <p><a href="https://www.reddit.com/r/weddingshaming/comments/itnewu/bigger_cash_gift_better_dinner/">Bigger cash gift = better dinner?</a></p>

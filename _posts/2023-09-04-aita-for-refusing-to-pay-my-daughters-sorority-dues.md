@@ -1,3 +1,7 @@
+---
+categories: stories
+---
+
 So my daughter is in a sorority, which I 100% supported. My wife and I paid for her dues and supported her when when she asked if we would be okay with it. Unfortunately, last week I found out something very upsetting. My daughter was trying to enroll for classes but had holds on her account with prevented her from doing so.
 
 She called the university to get everything sorted out. When I asked her what happened she told me her sorority was in hot water for underaged drinking and they all had to take an online course about alcohol and student conduct on campus. When I asked why she didn’t tell me this before she told me she was too embarrassed to. I don’t know why (call it intuition I guess) but I didn’t believe her. I decided to do some research on my own and stumbled across an article written by her schools newspaper about a halloween party thrown by her sorority and their brother frat.

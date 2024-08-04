@@ -1,1 +1,0 @@
-I will be traveling by plane in November. Looking forward to being "randomly selected" at the airport, just like every other time I fly.

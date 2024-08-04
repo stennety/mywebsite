@@ -1,0 +1,7 @@
+---
+categories: work
+---
+
+[This startup is using AI to give workers a “productivity score”](https://www.technologyreview.com/2020/06/04/1002671/startup-ai-workers-productivity-score-bias-machine-learning-business-covid/)
+
+Great, yet another way for our employers to look over our shoulders. There's a company near here who tracks the number of keystrokes an employee enters per hour. I would live in a cardboard box on the street before working for that type of company.

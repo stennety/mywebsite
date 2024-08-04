@@ -1,1 +1,0 @@
-Jessicca said that our cat Betty is like Lassie, but entirely self serving. Hilarious.

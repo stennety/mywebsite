@@ -1,5 +1,6 @@
 ---
 categories: memes
+title: The nights aren't just for sleeping
 ---
 
 I sent this to my guys' group chat when there was talk of a couple of them sleeping with the same woman. I was the one who initiated that talk.

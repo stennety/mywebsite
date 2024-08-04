@@ -1,5 +1,6 @@
 ---
 categories: thinking
+title: Steel manning 
 ---
 
 <a href="https://themerelyreal.wordpress.com/2012/12/07/steelmanning/" style="text-decoration:none;" target="_blank" >Knocking Down a Steel Man: How to Argue Better</a>:

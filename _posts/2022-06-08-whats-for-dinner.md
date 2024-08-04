@@ -1,6 +1,7 @@
 ---
 categories: stories
 published: false
+title: What's for dinner?
 ---
 
 This happened when I was 15. I'm in my 40s now.

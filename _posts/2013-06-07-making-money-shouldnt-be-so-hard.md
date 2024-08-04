@@ -1,5 +1,6 @@
 ---
 categories: law,  stories
+title: Making money shouldn't be so hard
 ---
 
 <p>An elderly woman called in about a website she had "bought". A nice man called her approximately two months earlier and said that for only $10,000, his company would sell her a website that would make her money. After the money was sent to the nice man, he mysteriously stopped taking the woman's calls.</p>

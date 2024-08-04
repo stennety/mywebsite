@@ -1,5 +1,6 @@
 ---
 categories: picture,  names
+title: Chinchilla , Boris  Chinchilla
 ---
 
 ![chinchilla](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/danny-tartabull-wanted-poster.png)

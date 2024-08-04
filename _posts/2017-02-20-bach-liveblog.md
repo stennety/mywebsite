@@ -1,5 +1,6 @@
 ---
-categories: entertainment,  liveblogs
+categories: entertainment,  liveblogs, tv
+title: Vanessa From The Bachelor, Canada's Foremost Thespian
 ---
 
 I am very angry about Vanessa [deceiving us](https://www.barstoolsports.com/blog/720853/vanessa-from-the-bachelor-has-a-full-imdb-page-and-my-heart-is-broken) while stealing our hearts. Time for some Vanessa Facts.

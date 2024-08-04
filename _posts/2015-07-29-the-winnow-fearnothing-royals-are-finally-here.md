@@ -1,5 +1,6 @@
 ---
 categories: great lines,  sports
+title: The win-now, fear-nothing Royals are finally here
 ---
 
 

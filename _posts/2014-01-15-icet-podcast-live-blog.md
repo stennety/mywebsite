@@ -1,5 +1,6 @@
 ---
-categories: liveblogs
+categories: great-lines
+title: Ice-T Podcast Quotes
 ---
 
 

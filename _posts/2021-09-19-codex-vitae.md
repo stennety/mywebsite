@@ -1,5 +1,6 @@
 ---
 categories: personal
+published: false
 ---
 
 <h1>Codex Vitae</h1>

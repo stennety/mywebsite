@@ -1,5 +1,6 @@
 ---
 categories: funny
+title: The purpose of newspapers
 ---
 
 

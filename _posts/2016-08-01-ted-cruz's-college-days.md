@@ -1,3 +1,8 @@
+---
+categories: politics
+title: I Love It When We're Cruzin' Together
+---
+
 Ted Cruz is a very odd duck. I don't think I've run across someone so universally disliked, yet so successful at getting into positions of power.  
 
 [Here's What Happens When You Try and Track Down a Ted Cruz College Rumor](http://theslot.jezebel.com/heres-what-happens-when-you-try-and-track-down-a-ted-cr-1752337625?utm_source=recirculation&utm_medium=recirculation&utm_campaign=fridayPM): Ted decided to call a woman's mother a whore. The rest of this article is like watching a car wreck in the slowest of motions.  

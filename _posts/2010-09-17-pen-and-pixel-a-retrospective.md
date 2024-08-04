@@ -1,8 +1,0 @@
----
-categories: music,art,metafilter
-title: Pen & Pixel: A Retrospective
----
-
-[Pen and Pixel](http://www.penandpixel.com/) are well known for the outlandish covers [they created](http://www.abcdrduson.com/interviews/feature-vo.php?id=197) for Southern rap labels Rap-A-Lot and No Limit. It's been about 12 years since their [heyday](http://www.youtube.com/watch?v=ryUuPKvqWzg), so people are now [looking](http://best.complex.com/lists/Complexs-50-Favorite-Moments-In-Photoshop-History/pen-and-pixel-album-covers#2) [back](http://gooddoctorzeus.blogspot.com/2008/04/pen-pixel-retrospect.html) [at](http://msjacks.wordpress.com/2010/05/19/pen-pixel-the-aesthetic-of-an-era/) [the](http://msjacks.wordpress.com/2010/05/21/pen-pixel-tackling-themes-of-omnipotence-and-the-supernatural/) [artistry](http://msjacks.wordpress.com/2010/05/20/pen-pixel-very-literal/) [present](http://msjacks.wordpress.com/2010/05/23/pen-pixel-a-hand-in-superstardom/) [under the surface](http://msjacks.wordpress.com/2010/05/25/storytelling-pen-pixel-style/) [of these](http://msjacks.wordpress.com/2010/05/27/pen-pixel-massive-understatements-life-lessons-and-missed-opportunities/) [covers](http://msjacks.wordpress.com/2010/06/06/pen-pixel-greatest-hits/).
-
-There is a comprehensive database of these covers [here](http://ffm713.skyrock.com/), so you can pick your own favorites.

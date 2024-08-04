@@ -1,5 +1,6 @@
 ---
 categories: law,  stories
+title: People who tell the truth aren't a protected class
 ---
 
 <p>A woman called in about being discriminated against at work because she was African American. She said that her manager was not giving her the same hours as all the other employees. I sent her a questionnaire to fill out to get more detail about the case. About a week later, I got the paperwork back and called her. She sent in a work schedule as part of her packet.</p>

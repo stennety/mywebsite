@@ -1,5 +1,6 @@
 ---
 categories: ethnography,  metafilter
+title: Rosa Lee's Story
 ---
 
 In 1994, [Leon](http://en.wikipedia.org/wiki/Leon_Dash) [Dash](http://www.media.illinois.edu/faculty/dash.html), while still at the Washington Post, wrote a [Pulitzer winning series](http://www.washingtonpost.com/wp-srv/local/longterm/library/rosalee/backgrnd.htm) of articles about a woman named Rosa Lee Cunningham.

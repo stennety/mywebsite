@@ -1,5 +1,6 @@
 ---
 categories: thinking
+title: Decision Making
 ---
 
 Decision making is a multi-faceted subject. It goes beyond just deciding yes or no. As the resources below will show you, there are a number of ways to make decisions optimally.
@@ -25,8 +26,6 @@ A niche area of decision theory is optimal stopping. Optimal stopping is meant t
 * [How I used mathematics to choose my next apartment](https://davidwees.com/content/how-i-used-mathematics-choose-my-next-apartment/)
 * If you have interest in the math, you can read [this article](https://rs.io/the-secretary-problem-explained-dating/).
 * [Algorithms to Live By](https://bookshop.org/books/algorithms-to-live-by-the-computer-science-of-human-decisions/9781250118363) is a great book that shows how you can use optimal stopping and other mathematical theories in your life.
-
-
 
 ### Cognitive Biases
 No one is perfectly rational. By recognizing your cognitive biases, you can counteract the hidden impairments to making good decisions.

@@ -1,5 +1,6 @@
 ---
 categories: thinking
+title: Why Do People Believe In Conspiracy Theories?
 ---
 
 Following the [hierarchy of evidence](https://en.wikipedia.org/wiki/Hierarchy_of_evidence), the sections here are organized from the strongest to the weakest evidence: '

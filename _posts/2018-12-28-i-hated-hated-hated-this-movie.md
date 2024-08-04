@@ -1,5 +1,6 @@
 ---
-categories: great lines
+categories: great-lines
+title: Roger Ebert's movie critiques
 ---
 
 

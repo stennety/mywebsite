@@ -8,6 +8,6 @@ I'm always a fan of anti-police dogs.
 
 The picture captions are the best:
 
-Loukanikos earned a reputation as a fearless protester
+> Loukanikos earned a reputation as a fearless protester
 
-Loukanikos is always the leader of the pack on the front line between protesters and police in Greece
+> Loukanikos is always the leader of the pack on the front line between protesters and police in Greece

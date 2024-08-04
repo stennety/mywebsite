@@ -12,5 +12,5 @@ published: false
 *   Leo Major
 *   Nobuo Fujita
 *   Mansa MusaI
-*   nca khipu
+*   Inca khipu
 

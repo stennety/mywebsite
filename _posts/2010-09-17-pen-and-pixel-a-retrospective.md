@@ -1,6 +1,5 @@
-
 ---
-categories: music,  art,  metafilter
+categories: music, art, metafilter
 title: Pen & Pixel: A Retrospective
 ---
 

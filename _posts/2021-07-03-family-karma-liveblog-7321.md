@@ -1,5 +1,6 @@
 ---
-categories: 
+categories: tv
+title: Family Karma Liveblog, 7-3-21
 ---
 
 * Is this Cuban egg ritual cultural appropriation.

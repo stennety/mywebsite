@@ -1,5 +1,6 @@
 ---
 categories: sports
+title: NBA tough guys
 ---
 
 NBA tough guys have a storied and colorful history.

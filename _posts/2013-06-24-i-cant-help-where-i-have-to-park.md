@@ -1,5 +1,6 @@
 ---
 categories: law,  stories
+title: I can't help where I have to park!
 ---
 
 <p>A man called in to complain about his car being damaged. He was working at a building where people had to pay for parking. So, this man decided to park in a side street to avoid the fees.</p>

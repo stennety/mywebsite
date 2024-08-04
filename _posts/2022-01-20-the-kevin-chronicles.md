@@ -1,5 +1,5 @@
 ---
-categories: 
+categories: badpeople, reddit
 ---
 
 This guy went to grad school with me. He was OK for the first few years I knew him, but then began listening to conspiracy theorists like Alex Jones. This made the worst aspects of his personality come out.

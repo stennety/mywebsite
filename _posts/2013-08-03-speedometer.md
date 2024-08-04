@@ -2,6 +2,6 @@
 categories: jokes
 ---
 
-<p><img alt="" height="612" src="/sites/default/files/boob.jpeg" width="612" /></p>
+![boob](https://raw.githubusercontent.com/muneer78/muneer78.github.io/master/images/boob.jpeg)
 
 <p>My speedometer says "BOOB".</p>

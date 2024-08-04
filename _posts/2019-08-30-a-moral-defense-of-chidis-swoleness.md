@@ -1,5 +1,6 @@
 ---
-categories: entertainment,  awesome
+categories: entertainment, awesome
+title: Swole Chidi
 ---
 
 

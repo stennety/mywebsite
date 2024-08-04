@@ -1,5 +1,6 @@
 ---
 categories: trolling
+title:  Maybe they're just terrible people
 ---
 
 I'm fascinated by trolls, mainly because a former friend became one. It's interesting to read about the darkness that resides within these people.

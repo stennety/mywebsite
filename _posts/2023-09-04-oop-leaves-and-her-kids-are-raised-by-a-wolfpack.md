@@ -3,6 +3,7 @@ categories: stories
 title: OOP leaves and her kids are raised by a wolfpack
 ---
 
+<blockquote> 
 This is a [tale](https://www.reddit.com/r/BestofRedditorUpdates/comments/15bfxew/oop_leaves_and_her_kids_are_raised_by_a_wolfpack/) of a woman who left her kids for 7 years:
 
 [Original post](https://www.reddit.com/r/AmItheAsshole/comments/ptb8vb/deleted_by_user/)
@@ -28,3 +29,4 @@ Those kids were raised by a wolfpack. When this pathetic waste of oxygen abandon
 One of our other friends is a lawyer, he helped him gaining custody and advised him though the process. OP's parents are rich and they always offer money to help. On the advise of our lawyer friend he always refuses. That way they can't use that in any future custody battle. He didn't even let them introduce themselves as their grandparents, so they can't claim a relationship.
 
 Their dad is doing well now, those kids don't want for anything. Every Sunday night, he hosts us to watch football and hang out with the kids. His daughter delights in serving everyone "wheat juice." Their so much better of without this witch.
+</blockquote>

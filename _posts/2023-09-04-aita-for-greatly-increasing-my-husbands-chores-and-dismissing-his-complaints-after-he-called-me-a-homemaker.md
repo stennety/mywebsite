@@ -5,6 +5,7 @@ title: AITA for greatly increasing my husband's chores and dismissing his compla
 <blockquote>
 EDIT: I have been reading through your comments for hours. Sorry if my replies dried up, today has been emotionally hard; but I promise I read and pondered every thoughtful comment you shared with me. Thank you!
 
+
 I have come to the conclusion that I was right to stand up for myself when John repeatedly belittled my work and achievements, and I think we all agree that his attitude reeked of machismo. A lot of very kind people have told me I am not the asshole, thank you, but I am now convinced I was an asshole as well. For years, I felt like our relationship was somewhat unequal, but I was choosing to overlook the flaws because of a myriad of reasons. I let frustrations and resentment build up and explode, and while I think John acted very poorly in the first place, I overreacted in self-righteous rage. I treated John very poorly in return. Isn't that how wars start? Petty disagreements and skirmishes, mounting anger on both sides until both fighters believe that they are righteous.
 
 I had been stewing in anger for days, and that is horribly unhealthy. And that anger is years of bottled feelings spilling up over something not worth that sort of reaction. I will sit John down tonight and have a long talk. I will show him this thread and we will decide how we want to proceed. The people that we are now are so different from the people we were when we got married and we started dating.

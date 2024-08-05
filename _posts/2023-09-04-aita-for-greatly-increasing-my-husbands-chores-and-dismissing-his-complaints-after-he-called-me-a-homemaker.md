@@ -2,7 +2,7 @@
 categories: stories
 title: AITA for greatly increasing my husband's chores and dismissing his complaints after he called me a homemaker?
 ---
-
+<blockquote>
 EDIT: I have been reading through your comments for hours. Sorry if my replies dried up, today has been emotionally hard; but I promise I read and pondered every thoughtful comment you shared with me. Thank you!
 
 I have come to the conclusion that I was right to stand up for myself when John repeatedly belittled my work and achievements, and I think we all agree that his attitude reeked of machismo. A lot of very kind people have told me I am not the asshole, thank you, but I am now convinced I was an asshole as well. For years, I felt like our relationship was somewhat unequal, but I was choosing to overlook the flaws because of a myriad of reasons. I let frustrations and resentment build up and explode, and while I think John acted very poorly in the first place, I overreacted in self-righteous rage. I treated John very poorly in return. Isn't that how wars start? Petty disagreements and skirmishes, mounting anger on both sides until both fighters believe that they are righteous.
@@ -22,3 +22,4 @@ I exploded. We had the biggest screaming match in our lives, with him calling hi
 Monday, I gave him a list of chores to do, about 2-3 hours of chores daily. He constantly complains, and I just reply with "Quit your job." I spent years doing ALL the chores on top of my job, but he whines at the prospect of doing just half. Tuesday night, he told me he refused to do the chores and I couldn't force him. I shouted him down into submission, telling him that I spent our entire common life picking up the ball that he keeps dropping, and that his choice to work an unskilled job for pocket change does not preclude him from helping me, the breadwinner, keep this household in shape. Yesterday, I locked up his PS5 in our safe and changed the combination.
 
 This is not in my nature - I am usually polite and soft spoken, and I feel like an asshole when he see him looking like a sad puppy and whining that he is tired. But I just... snapped. I feel like I don't have a choice: If I let John do nothing and consider himself the breadwinner who deserves to come home to a clean house and warm meal through no effort of his own, I would lock myself into a life of servitude. Am I an AH?
+</blockquote>

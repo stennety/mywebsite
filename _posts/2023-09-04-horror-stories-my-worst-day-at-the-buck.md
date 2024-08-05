@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: "Horror Stories: My Worst Day at the 'Buck"
 ---
 
 It was a hot summer day in Southern California, I was ten minutes shy of finishing my shift at Starbucks and was super excited about my afternoon plans to see my boyfriend, who lived several hours away and was home for the first time in months. It had been a pleasant morning up until that point, lots of nice regulars, easy traffic, good co-workers, and I was feeling prettay, prettay, prettay good. I'd brought a cute outfit to change into and spent time fussing on my hair that morning, making sure I'd look good when he arrived to pick me up. It was dead at that point, so the manager taking over told me to wrap up early and head out.

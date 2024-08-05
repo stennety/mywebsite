@@ -1,7 +1,7 @@
 ---
 categories: stories
 ---
-
+<blockquote>
 _(I work with a pair of identical twins for the overstock night shift. They know I’m atheist, so they’ve made it their business to preach their religion at me non-stop.)_
 
 **Twin #1:** “So, [my name], you think about what we said on Tuesday?”
@@ -61,3 +61,4 @@ _(Twin #2 gets a call on his cell phone and answers it. He turns away from his b
 **Me:** “Wait, wait, wait. Are you guys listening to each other here?”
 
 **Both Twins:** “What do you mean?”
+</blockquote>

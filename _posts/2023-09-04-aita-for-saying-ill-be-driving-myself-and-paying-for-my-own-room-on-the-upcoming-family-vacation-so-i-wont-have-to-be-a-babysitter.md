@@ -5,6 +5,7 @@ title: AITA for saying I'll be driving myself and paying for my own room on the 
 
 This is an [inspiring tale](https://www.reddit.com/r/BestofRedditorUpdates/comments/14z6ro7/aita_for_saying_ill_be_driving_myself_and_paying/) of a man standing up to his toxic family:
 
+<blockquote>
 I 23m was repeatedly stuck playing the part of helper and babysitter on family outings. I had to move out of my parents' house because I kept being forced to help watch my three nephews. Last year we took a family vacation in summer to the coast. I rode along with my parents, and they paid for my hotel room. Only, I had to share that room with three rowdy boys because my sister and her husband wanted a room to themselves. I was promised time to do my own things on the vacation. But instead I ended up having to help with these kids. I complained to everyone about it, and was reminded I was there for free. And then we pretty much just did only one thing I wanted to do. Which was tour an art gallery. I like doing this whenever I'm at the coast. But the kids find it boring.
 
 This year my parents have a beach trip planned for June. And they assumed I'd be riding along the same way as last year. But I refused. I said I'd be driving myself, and paying for my own hotel stay to have my own room. My parents were shocked, and tried to remind me of the cost. I said it was no worry. I've got a good job and a decent running car. I can more than afford it. That's when the "Buts" started. I stated the previously listed things as why I'll be driving myself and paying for myself. I want to be able to enjoy this vacation as an adult, and not be treated like a child like last year.
@@ -97,3 +98,4 @@ My parents and I had a long talk, in which they have apologized. And for the mom
 Aside from those things, my brother in law did admit that he was angry with me too. But didn't step in when I needed him. So we've agreed that this was all just a very bad situation that needs to be ended. So we're just gonna let it rest in peace from here on out.
 
 Lastly, these posts have gotten me a gilfriend. The girl I like had a feeling it was me after she read them, and was just waiting for me to say something. And we'll be going on our first date tonight. So I thank everybody here for their immense support. I really needed it.
+</blockquote>

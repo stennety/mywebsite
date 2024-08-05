@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: AITA for refusing to pay my daughter’s sorority dues?
 ---
 
 So my daughter is in a sorority, which I 100% supported. My wife and I paid for her dues and supported her when when she asked if we would be okay with it. Unfortunately, last week I found out something very upsetting. My daughter was trying to enroll for classes but had holds on her account with prevented her from doing so.

@@ -1,7 +1,9 @@
 ---
 categories: stories
+title: AITA for being upfront and telling my parents that I am putting them in a home?
 ---
 
+<blockquote>
 My family is from South Asia but we live in the States. My parents loved my older brother and tolerated me. They expected me to just stay home and take care of them and my brother.
 
 That wasn't for me. I got a partial scholarship to a state school and GTFO. I worked the four years of my undergrad and was fortunate enough to get a full scholarship for my after degree. So I graduated university with only a small debt and two degrees.
@@ -27,3 +29,4 @@ My brother contacted me and said that I was making the family look bad by not ta
 So was I too harsh? And does that make me an asshole?
 
 I should probably add that they didn't approve of me marrying a person not from their culture and religion. So they didn't contribute to our wedding even though they did attend.
+</blockquote>

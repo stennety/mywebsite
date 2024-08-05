@@ -1,8 +1,8 @@
 ---
-categories: stories
+categories: stories, reddit
 title: AITA for refusing to pay my daughter’s sorority dues?
 ---
-
+<blockquote>
 So my daughter is in a sorority, which I 100% supported. My wife and I paid for her dues and supported her when when she asked if we would be okay with it. Unfortunately, last week I found out something very upsetting. My daughter was trying to enroll for classes but had holds on her account with prevented her from doing so.
 
 She called the university to get everything sorted out. When I asked her what happened she told me her sorority was in hot water for underaged drinking and they all had to take an online course about alcohol and student conduct on campus. When I asked why she didn’t tell me this before she told me she was too embarrassed to. I don’t know why (call it intuition I guess) but I didn’t believe her. I decided to do some research on my own and stumbled across an article written by her schools newspaper about a halloween party thrown by her sorority and their brother frat.
@@ -16,3 +16,4 @@ She has one last payment due this semester and she doesn’t have the money to p
 EDIT1: Since everyone’s asking I guess I should state what the costume/theming was. The theme was “Pimps and hoes” (and those parties never go well.) And my daughter got box braids as well as an extremely deep tan, she’s extremely pale and while she does use spray tans I’ve never seen her this dark before. Think going from this to this. To me it was obviously emulating and making fun of black people which is extremely gross. I raised her better than that and I don’t know why she thought it would be okay.
 
 EDIT2: I figured I would clear up some other misconceptions. First, my daughter didn’t have to take an alcohol class, she made that up. In reality she had to take a class pertaining to racial sensitivity/diversity and take a quiz afterwards. This course took her an hour tops. There was also a community service aspect but that was cancelled because school let out early. She was not the only student in an offensive costume, in the photo that was posted in the newspaper there were two other students in blackface as well. I do have to thank you all for your support and advice.
+</blockquote>

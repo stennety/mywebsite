@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: AITA for greatly increasing my husband's chores and dismissing his complaints after he called me a homemaker?
 ---
 
 EDIT: I have been reading through your comments for hours. Sorry if my replies dried up, today has been emotionally hard; but I promise I read and pondered every thoughtful comment you shared with me. Thank you!

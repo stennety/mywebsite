@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: OOP leaves and her kids are raised by a wolfpack
 ---
 
 This is a [tale](https://www.reddit.com/r/BestofRedditorUpdates/comments/15bfxew/oop_leaves_and_her_kids_are_raised_by_a_wolfpack/) of a woman who left her kids for 7 years:

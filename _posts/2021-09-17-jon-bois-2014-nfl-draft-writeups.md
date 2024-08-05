@@ -1,5 +1,6 @@
 ---
 categories: funny,  sports
+title: Jon Bois' 2014 NFL draft writeups
 ---
 
 I love Jon Bois' [writing](https://www.sbnation.com/2014/4/22/5639940/jon-and-spencers-nfl-draft-scouting-reports):

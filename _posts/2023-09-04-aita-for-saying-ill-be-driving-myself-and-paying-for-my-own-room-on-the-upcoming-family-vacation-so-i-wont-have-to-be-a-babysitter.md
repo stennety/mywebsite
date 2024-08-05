@@ -1,5 +1,6 @@
 ---
 categories: stories
+title: AITA for saying I'll be driving myself and paying for my own room on the upcoming family vacation so I won't have to be a babysitter?
 ---
 
 This is an [inspiring tale](https://www.reddit.com/r/BestofRedditorUpdates/comments/14z6ro7/aita_for_saying_ill_be_driving_myself_and_paying/) of a man standing up to his toxic family:

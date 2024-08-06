@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 categories: great lines,  newsletter
+=======
+categories: great-lines, newsletter
+>>>>>>> master
 title: "Great Lines: The White Man's Word Edition"
 ---
 

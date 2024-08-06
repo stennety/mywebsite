@@ -1,3 +1,8 @@
+---
+categories: great-lines
+title: "Great Lines: The Being Different Edition"
+---
+
 [On books that put forth a grand theory of everything](https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve):
 
 > A good principle to remember is that if a book appears to be about everything, it’s probably not really about anything.

@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines
+title: "Great Lines: Another Twitter Edition"
 ---
 
 

@@ -1,5 +1,6 @@
 ---
-categories: great lines
+categories: great-lines
+title: "Great Lines: The Show Me I'm Making a Mistake Edition"
 ---
 
 

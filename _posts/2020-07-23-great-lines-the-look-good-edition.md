@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines, newsletter
+title: "Great Lines: The Look Good Edition"
 ---
 
 [First](https://www.gq.com/story/your-morning-shot-deion-sanders), a great quote from Deion Sanders:

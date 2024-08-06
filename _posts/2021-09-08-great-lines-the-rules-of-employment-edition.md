@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter,  wisdom
+categories: great-lines, newsletter, wisdom
+title: "Great Lines: The Rules of Employment Edition"
 ---
 
 

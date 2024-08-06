@@ -1,5 +1,6 @@
 ---
 categories: great lines,  newsletter
+title: "Great Lines: The White Man's Word Edition"
 ---
 
 

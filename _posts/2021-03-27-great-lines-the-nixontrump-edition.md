@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines
+title: "Great Lines: The Nixon/Trump Edition"
 ---
 
 I’ve recently been watching a lot of the original “Head of the Class” series on HBO Max.  This type of nostalgia has been very prevalent in my life recently.

@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines
+title: "Great Lines: The Beastliness Edition"
 ---
 
 
@@ -13,7 +14,7 @@ categories: great lines,  newsletter
 
 > Who has time for grace right now? Who has time for grace or patience when the world has been blown to shit? All through the pandemic, I’ve seen ads and billboards and yard signs saying that we Americans are in this together, and that it’s on us to beat back the coronavirus and come out the other side stronger than ever. Why is it always on us? Why is it never on THEM? Why aren’t the people who let this virus rip apart bodies and fortunes taking responsibility for their negligence?
 > 
-> I’ll tell you why: Because they want you to be survivors on their terms and their terms only. They want you to suck up what’s happened, then carry on as if it never did. They’re counting on it, both personally and financially. You are their human capital stock. They’d like things to go back to exactly the way they were, and they want to create the illusion that this would be a happy development. Imagine the gall it takes to don a Minnesota smile and appoint yourself shepherd to a generation you just bilked and left for dead.
+> I’ll tell you why Because: they want you to be survivors on their terms and their terms only. They want you to suck up what’s happened, then carry on as if it never did. They’re counting on it, both personally and financially. You are their human capital stock. They’d like things to go back to exactly the way they were, and they want to create the illusion that this would be a happy development. Imagine the gall it takes to don a Minnesota smile and appoint yourself shepherd to a generation you just bilked and left for dead.
 
 ***
 

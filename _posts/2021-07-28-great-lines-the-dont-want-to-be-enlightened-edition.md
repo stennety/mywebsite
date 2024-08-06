@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines, newsletter
+title: "Great Lines: The Don't Want To Be Enlightened Edition"
 ---
 
 

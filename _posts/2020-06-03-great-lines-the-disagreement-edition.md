@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines
+title: "Great Lines: The Disagreement Edition"
 ---
 
 
@@ -11,7 +12,7 @@ categories: great lines,  newsletter
 > 
 > And when that doesn’t work. When it turns out that people have all the same facts that we do and they are pretty smart we move onto a third assumption. They know the truth and they are deliberately distorting it for their own malevolent purposes.
 > 
-> So this is a catastrophe: our attachment to our own rightness. It prevents us from preventing mistakes when we need to and causes us to treat each other terribly.”
+> So this is a catastrophe our: attachment to our own rightness. It prevents us from preventing mistakes when we need to and causes us to treat each other terribly.”
 
 ***
 

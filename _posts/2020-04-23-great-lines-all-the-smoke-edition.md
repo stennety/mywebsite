@@ -1,5 +1,6 @@
 ---
-categories: great lines,  video,  newsletter
+categories: great-lines, video, newsletter
+title: "Great Lines: All the Smoke Edition"
 ---
 
 

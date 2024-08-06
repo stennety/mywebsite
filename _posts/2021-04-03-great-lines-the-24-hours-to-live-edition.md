@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines, newsletter
+title: "Great Lines: The 24 Hours To Live Edition"
 ---
 
 I had an ethical conundrum a few weeks back. I saw that I could go to a small town in the southern part of the state and get vaccinated. After thinking about it, I decided to wait my turn here at home. It ultimately seemed unethical to me to take a dose from someone else in that community.

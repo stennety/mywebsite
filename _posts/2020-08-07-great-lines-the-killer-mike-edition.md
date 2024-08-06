@@ -1,5 +1,6 @@
 ---
-categories: great lines,  newsletter
+categories: great-lines, newsletter
+title: "Great Lines: The Killer Mike Edition"
 ---
 
 

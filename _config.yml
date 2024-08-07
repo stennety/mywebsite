@@ -6,7 +6,7 @@
 name: Simon Bäumer - Blog
 
 # Short bio or description (displayed in the header)
-description: Random Blog
+description: It might be helpful
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/9550466?s=460&u=855b96f002b10077c78dc7687f0a7c3b4fa9b427&v=4
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: simonbaeumer
   instagram:
-  linkedin:
+  linkedin: simon-b%C3%A4umer-a61042177/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: simonbaeumer.github.io
+url: s-baeumer.de
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

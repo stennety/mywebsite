@@ -3,7 +3,7 @@ layout: post
 tags: least-squares algorithm math bayesian
 #categories: []
 date: 2024-07-18
-last_updated: 2024-07-26
+last_updated: 2024-08-19
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
@@ -653,9 +653,9 @@ Using this way of calculating the variances saves a significant amount of comput
 and should be preferred to calculating the complete matrix product. The credible
 intervals for a given probability can now be obtained using the quantile function
 of the normal distribution. So for each element $$f_i^\dagger$$ of the best fit,
-we know that the value falls in the following range with a probability of $$\rho \in (0,1)$$:
+we know that the value is in the following range with a probability of $$\rho \in (0,1)$$:
 
-$$f_i^\dagger \pm \Phi^{-1}(\rho) \,\sigma_{f_i^\dagger}  \tag{6.7}$$  
+$$f_i^\dagger \pm \Phi^{-1}\left(\frac{\rho+1}{2}\right) \cdot \sigma_{f_i^\dagger}  \tag{6.7}$$  
 
 where $$\Phi^-1$$ is the [quantile function of the normal distribution](https://en.wikipedia.org/wiki/Normal_distribution#Quantile_function).
 Using this, we can calculate this interval for each of the elements of the best fit, which

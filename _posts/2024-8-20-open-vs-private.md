@@ -33,3 +33,7 @@ AI artist are making about anything by hand and very advanced technics that surp
 
 *risunobushi openart.ai with ComfyUI
 Here, an AI workflow that enable to cast light on a scene
+
+In the following, a project call LaVague that enable to control a web browser automatically with an AI backend
+
+![AI control web browser](https://github.com/lavague-ai/LaVague/raw/main/docs/assets/demo_agent_hf.gif "LaVague demo for browser")

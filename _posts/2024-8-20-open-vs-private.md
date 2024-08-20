@@ -1,14 +1,15 @@
 ---
 layout: post
-title: AI models in the wild, Open vs Private
-tags: [AI, local-AI-System, open-source]
+title: The Battle of AI Models: Open-Source vs Proprietary
+tags: [AI, LLMs, Open-Source, Innovation]
 ---
 
-![open vs private](/images/open_vs_private_llm_20240418.png "this is the way")
+![Comparison of open-source and proprietary AI models](/images/open_vs_private_llm_20240418.png "The race for AI supremacy")
 
-As shown in the above graph we see that companies needs to speed-up innovations to compete with open advances.
+In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
 
+![Meta's Llama 3 vs other open-source models](/images/meta_llama31_vs_open.png "The open-source revolution continues")
 
-![open with open](/images/meta_llama31_vs_open.png "A few moments later...")
+Meta, the tech giant is behind the remarkable Llama series of language models.
 
-Meta, the creator of the (awesome) LLAMA models (lastly, Llama 3) are paving the way for better models with less memory footprint and energy cost.
+By championing these efficient, open-source models, Meta is blazing a trail towards more accessible and sustainable AI technologies. This approach not only democratizes access to cutting-edge AI but also addresses crucial concerns about the environmental impact of large language models. As the AI landscape continues to evolve, the interplay between open-source and proprietary models will undoubtedly shape the future of this transformative technology.

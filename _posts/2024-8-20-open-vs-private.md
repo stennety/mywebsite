@@ -3,6 +3,7 @@ layout: post
 title: The Battle of AI Models, Open-Source vs Proprietary
 tags: [AI, LLMs, Open-Source, Innovation]
 ---
+
 In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
 
 **Landscape**

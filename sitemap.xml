@@ -4,6 +4,10 @@
     <priority>1</priority>
 </url>
 <url>
+    <loc>https://fescue.github.io/Lazy-J/</loc>
+    <priority>1</priority>
+</url>
+<url>
     <loc>https://fescue.github.io/2024/</loc>
     <priority>1</priority>
 </url>

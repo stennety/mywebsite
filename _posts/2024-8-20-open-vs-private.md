@@ -22,3 +22,8 @@ By championing these efficient, open-source models, Meta is blazing a trail towa
 ![The needs for open-source models](/images/benefits_opensource_llm.png "Why open source ?")
 
 Highlights of the benefits of open-source LLMs for enterprises, focusing on cost-effectiveness, data ownership, avoiding vendor lock-in, security, and customization.
+
+
+![Technical AI artist influencer are leading product innovations](/images/open_driven_innovations.png "Technical AI artist influencer")
+
+AI artist are making about anything by hand and very advanced technics that surpass by a giant leap any proprietary solutions

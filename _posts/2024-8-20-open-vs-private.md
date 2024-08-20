@@ -15,3 +15,7 @@ Meta, the tech giant is behind the remarkable Llama series of language models.
 
 As seen above, the community came up with a newer version of llama3.1 with an edge.
 By championing these efficient, open-source models, Meta is blazing a trail towards more accessible and sustainable AI technologies. This approach not only democratizes access to cutting-edge AI but also addresses crucial concerns about the environmental impact of large language models. As the AI landscape continues to evolve, the interplay between open-source and proprietary models will undoubtedly shape the future of this transformative technology.
+
+![The needs for open-source models](/images/benefits_opensource_llm.png "Why open source ?")
+
+Highlights of the benefits of open-source LLMs for enterprises, focusing on cost-effectiveness, data ownership, avoiding vendor lock-in, security, and customization.

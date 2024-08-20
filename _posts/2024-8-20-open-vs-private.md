@@ -32,3 +32,4 @@ AI artist are making about anything by hand and very advanced technics that surp
 ![Technical AI artist influencer are leading product innovations](https://cdn.openart.ai/workflow_thumbnails/WACvQIFeIBBMDfy1tKuQ/webp_jA4zfMTx_1722253497692_raw.webp "Technical AI artist influencer")
 
 *risunobushi openart.ai with ComfyUI
+Here, an AI workflow that enable to cast light on a scene

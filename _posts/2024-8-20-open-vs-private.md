@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Battle of AI Models: Open-Source vs Proprietary
+title: The Battle of AI Models, Open-Source vs Proprietary
 tags: [AI, LLMs, Open-Source, Innovation]
 ---
 

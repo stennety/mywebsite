@@ -5,7 +5,10 @@ tags: [AI, LLMs, Open-Source, Innovation]
 ---
 In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
 
-![Open-source and proprietary AI models](/images/open_vs_private_llm_20240418.png "The race for AI")
+**Landscape**
+-------------------------------------
+
+![Open-source and proprietary AI models](/images/open_source_vs_private_llm_20240418.png "The race for AI")
 
 In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
 

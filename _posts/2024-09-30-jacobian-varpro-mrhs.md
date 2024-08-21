@@ -22,7 +22,8 @@ math: true
 !!!TODO INTRO
 
 
-$$
-\boldsymbol{C}_{p^\dagger} = \left(\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1}
-$$
+$$\begin{eqnarray}
+\boldsymbol{C}_{p^\dagger} &=& \left(\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1} \label{cp-jrw}\tag{xx}\\
+ &=& \left(\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1} \label{cp-jf}\tag{xx}\\
+\end{eqnarray}$$
 

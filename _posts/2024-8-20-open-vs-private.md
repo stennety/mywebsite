@@ -16,15 +16,14 @@ In the rapidly evolving landscape of artificial intelligence, a fascinating tren
 
 In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
 
-Github stars generally reflect the reach and popularity of a project to its audience. The open-source projects Whisper, ComfyUI, OpenWeb-UI, and OLLama have a relatively smaller number of Github stars compared to many closed-source projects.
-While the trend of increasing popularity and adoption has been observed for many open-source projects in recent years, the number of Github stars for closed-source projects appears to be stabilizing.
+Github stars generally reflect the reach and popularity of a project to its audience. The open-source projects Whisper, ComfyUI, OpenWeb-UI, and OLLama have a relatively smaller number of Github stars compared to many closed-source projects at first but keep on growing with an impressive trend.
+The number of Github stars for closed-source projects appears to be stabilizing after a while as the interest of the community.
 
 Meta, the tech giant is behind the remarkable Llama series of language models.
 
 ![Meta's Llama 3 vs other open-source models](/images/meta_llama31_vs_open.png "The open-source revolution continues")
 
-As seen above, the community came up with a newer version of llama3.1 with an edge.
-By championing these efficient, open-source models, Meta is blazing a trail towards more accessible and sustainable AI technologies. This approach not only democratizes access to cutting-edge AI but also addresses crucial concerns about the environmental impact of large language models. As the AI landscape continues to evolve, the interplay between open-source and proprietary models will undoubtedly shape the future of this transformative technology.
+As seen above, the community came up with a newer version of llama3.1 with an edge... after.. 1 month.
 
 ![The needs for open-source models](/images/benefits_opensource_llm.png "Why open source ?")
 

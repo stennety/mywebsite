@@ -19,7 +19,10 @@ comments_id:
 math: true
 ---
 
-!!!TODO INTO
+!!!TODO INTRO
 
 
+$$
+\boldsymbol{C}_{p^\dagger} = \left(\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1}
+$$
 

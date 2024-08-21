@@ -457,7 +457,7 @@ depends on our choice of prior. We have also calculated the covariance matrices
 for the best fit parameters $$\boldsymbol{p}^\dagger$$, which also depend on our
 choice of prior. However, all of them can be generalized as
 
-$$\boldsymbol{C}_{p^\dagger} \approx \hat{\sigma}^2 \, (\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger))^{-1} = \hat{\sigma}^2 \, (\boldsymbol{J}_f^T(\boldsymbol{p}^\dagger) \; \boldsymbol{W}^T\boldsymbol{W} \;\boldsymbol{J}_f(\boldsymbol{p}^\dagger)) , \label{cov-sigmat-hat}\tag{5.3}$$
+$$\boldsymbol{C}_{p^\dagger} \approx \hat{\sigma}^2 \, (\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger))^{-1} = \hat{\sigma}^2 \, (\boldsymbol{J}_f^T(\boldsymbol{p}^\dagger) \; \boldsymbol{W}^T\boldsymbol{W} \;\boldsymbol{J}_f(\boldsymbol{p}^\dagger))^{-1} , \label{cov-sigmat-hat}\tag{5.3}$$
 
 with a scalar $$\hat{\sigma}^2 \in \mathbb{R}$$ depending on our choice of prior. As before,
 $$\boldsymbol{J}_{r_w}$$ is the Jacobian of $$\boldsymbol{r}_w$$ and

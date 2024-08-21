@@ -11,7 +11,13 @@ In the rapidly evolving landscape of artificial intelligence, a fascinating tren
 
 ![Open-source and proprietary AI models](/images/open_source_vs_private_llm_20240418.png "The race for AI")
 
+
+![Open-source wins](/images/star-history-2024821_opensource_repo.png "Open wins")
+
 In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
+
+Github stars generally reflect the reach and popularity of a project to its audience. The open-source projects Whisper, ComfyUI, OpenWeb-UI, and OLLama have a relatively smaller number of Github stars compared to many closed-source projects.
+While the trend of increasing popularity and adoption has been observed for many open-source projects in recent years, the number of Github stars for closed-source projects appears to be stabilizing.
 
 Meta, the tech giant is behind the remarkable Llama series of language models.
 

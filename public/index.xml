@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shaked Delarea</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Shaked Delarea</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Shaked Delarea</copyright>
+    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChipWhisperer Nano - Fault injection on an external target</title>
+      <link>http://localhost:1313/posts/blog-4/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/blog-4/</guid>
+      <description>In order to use a different target than the one attached to the board, we are required to de-solder the two jumpers (one for the GLITCH, the other for the MEASURE)&#xA;From the datasheet itself of the target as it is connected to the CWNANO main board&#xA;NAE-CW1101-04_CWNANOSCH.pdf&#xA;The datasheet can tell us what’s on the other side of the jumpers:&#xA;The upper circuit is the one responsible for the crowbar’s glitching.</description>
+    </item>
+    <item>
+      <title>CVE-2020-29557 Writeup</title>
+      <link>http://localhost:1313/posts/blog-3/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/blog-3/</guid>
+      <description>To get started, we want to get access to the device&amp;rsquo;s firmware. To do so, a simple google search will lead to DLink-Russia&amp;rsquo;s website which opens a small database of firmwares of their devices ready for user to use to update the firmware of their own devices.&#xA;Since my own router is the &amp;ldquo;simple&amp;rdquo; DIR-825&#xA;~/De/programming2/dlink-retest  binwalk ./fw.bin  ✔ DECIMAL HEXADECIMAL DESCRIPTION -------------------------------------------------------------------------------- 14360 0x3818 LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 7335952 bytes 2293760 0x230000 Squashfs filesystem, little endian, version 4.</description>
+    </item>
+    <item>
+      <title>HackTheBox (HTB) Oldbridge pwn challenge writeup </title>
+      <link>http://localhost:1313/posts/blog-2/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/blog-2/</guid>
+      <description>Oldbridge is a retired PWN challenge from Hack The Box. Here&amp;rsquo;s how I solved it:&#xA;Binary Analysis We get a binary copy of the program that runs on the server so we can run it locally and test it. In this challenge I use Docker to setup the local server for easy debug and testing.&#xA;Like previous challenges, I like to start with a binary examination on program&amp;hellip; see what it does and where is the exploit.</description>
+    </item>
+    <item>
+      <title>HackTheBox (HTB) Ropme pwn challenge writeup</title>
+      <link>http://localhost:1313/posts/blog-1/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/blog-1/</guid>
+      <description>Binary Analysis First of all, I try to find the main function of the binary and then try to find a vulnerability that I can exploit. We see a rather simple main.&#xA;shaked@shaked-ubuntu:~/programming2/challenges/hack_the_box/ropme$ file ropme ropme: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e30ea7fd405c5104fd0d97dc464c513b05005fdb, not stripped The binary only has one main function and this is it:&#xA;gdb-peda$ disas main Dump of assembler code for function main: 0x0000000000400626 &amp;lt;+0&amp;gt;:&#x9;push rbp 0x0000000000400627 &amp;lt;+1&amp;gt;:&#x9;mov rbp,rsp 0x000000000040062a &amp;lt;+4&amp;gt;:&#x9;sub rsp,0x50 0x000000000040062e &amp;lt;+8&amp;gt;:&#x9;mov DWORD PTR [rbp-0x44],edi 0x0000000000400631 &amp;lt;+11&amp;gt;:&#x9;mov QWORD PTR [rbp-0x50],rsi 0x0000000000400635 &amp;lt;+15&amp;gt;:&#x9;mov edi,0x4006f8 0x000000000040063a &amp;lt;+20&amp;gt;:&#x9;call 0x4004e0 &amp;lt;puts@plt&amp;gt; 0x000000000040063f &amp;lt;+25&amp;gt;:&#x9;mov rax,QWORD PTR [rip+0x200a0a] # 0x601050 &amp;lt;stdout@@GLIBC_2.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>My name is Shaked Delarea and I&amp;rsquo;m a Cyber Security Researcher.&#xA;In late 2020 I joined Argus Cyber Security as an embedded security researcher which I mostly performed security audit and penetration test on car ECUs. I gave a talk about one of my researches in Black Hat Asia 2022.&#xA;Between 2018-2020 I was doing hardware security research on embedded devices in Ben Gurion University at the Hardware Implementation Lab of Dr.</description>
+    </item>
+  </channel>
+</rss>

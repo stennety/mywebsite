@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Shaked Delarea'
+theme = 'm10c'
+copyright = "&copy; Shaked Delarea"
+
+
+[params]
+user = "shaked"
+published = false
+readingTime = false
+hostname = "shaked.delarea.cloud"
+description = 'Security Researcher'
+author = "Shaked Delarea AUTHOR"
+avatar = "desk.jpg"
+
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/gohugoio"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/gohugoio"
+  [[params.social]]
+    icon = "linkedin"
+    name = "Email"
+    url = "mailto:shaqedelarea@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -100

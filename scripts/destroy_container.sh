@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# Diretório a ser verificado e removido
+DIR="/tmp/site-helder"
+
+# Verificar se o diretório existe
+if [ -d "$DIR" ]; then
+  echo "Folder '$DIR' exists. Removing it..."
+
+  # Remover o diretório e todos os arquivos dentro dele
+  rm -rf "$DIR"
+
+  echo "A pasta '$DIR' foi removida com sucesso."
+else
+  echo "A pasta '$DIR' não existe. Nada a remover."
+fi
+
 # Nome padrão do contêiner Docker
 DEFAULT_CONTAINER_NAME="nome-do-container-padrao"
 

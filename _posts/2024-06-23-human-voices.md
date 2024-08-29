@@ -19,7 +19,7 @@ I can't share any real examples from my job, but here's examples of the results 
 
 Source: [https://www.youtube.com/watch?v=kc_Jq42Og7Q](https://www.youtube.com/watch?v=kc_Jq42Og7Q)
 
-(Video was transcribed with Tactiq's free transcript generator: [https://tactiq.io/tools/youtube-transcript](https://tactiq.io/tools/youtube-transcrip), and no other pre-processing was done.)
+(Video was transcribed with Tactiq's free transcript generator: [https://tactiq.io/tools/youtube-transcript](https://tactiq.io/tools/youtube-transcript), and no other pre-processing was done.)
 
 
 ## Full prompt:

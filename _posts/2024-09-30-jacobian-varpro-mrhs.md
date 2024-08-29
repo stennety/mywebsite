@@ -27,7 +27,7 @@ $$\begin{eqnarray}
  &=& \left(\boldsymbol{J}^T_{r_w}(\boldsymbol{p}^\dagger) \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1} \label{cp-jf}\tag{xx}\\
 \end{eqnarray}$$
 
-TODO 
+# VarPro Minimization: Recap and Rewrite
 
 In the [previous article](/blog/2024/variable-projection-part-2-multiple-right-hand-sides/)
 in our VarPro series on this blog, we saw that we can express Variable Projection
@@ -46,12 +46,12 @@ $$\boldsymbol{f}_1,\dots,\boldsymbol{f}_{N_s} \in \mathbb{R}^{N_y}$$,
 respectively. Each function can be written in matrix form as a linear combination
 of nonlinear functions like so:
 
-$$\boldsymbol{f}_j(\boldsymbol{\alpha},\boldsymbol{c}_j) = \boldsymbol{\Phi}(\boldsymbol{\alpha})\, \boldsymbol{c}_j,$$
+$$\boldsymbol{f}_k(\boldsymbol{\alpha},\boldsymbol{c}_k) = \boldsymbol{\Phi}(\boldsymbol{\alpha})\, \boldsymbol{c}_k,$$
 
 where $$\boldsymbol{\Phi}(\boldsymbol{\alpha}) \in \mathbb{R}^{N_y \times N_c}$$
-is the matrix of the $$N_c$$ nonlinear basis functions and $$\boldsymbol{c}_j \in \mathbb{R}^{N_c}$$
+is the matrix of the $$N_c$$ nonlinear basis functions and $$\boldsymbol{c}_k \in \mathbb{R}^{N_c}$$
 are the *linear coefficients*, which can vary with $$j$$, and $$\boldsymbol{\alpha} \in \mathbb{R}^{N_\alpha}$$
-are the *nonlinear parameters* of the problem, which are shared across all $$j$$.
+are the *nonlinear parameters* of the problem, which are shared across all $$k$$.
 This latter aspect is where the term _global fitting_ comes from. Now, let's
 start writing the least squares fitting problem into vector form. We begin by
 introducing a global parameter vector $$\boldsymbol{p}$$ bundling all the linear and
@@ -67,12 +67,12 @@ $$\boldsymbol{p}=\left[
 \right] \in \mathbb{R}^{N_s\cdot N_c + N_\alpha}
 $$
 
-Then, we write the weighted residual of the $$j$$-th dataset as
+Then, we write the weighted residual of the $$k$$-th dataset as
 
-$$\boldsymbol{r}_{w,j}(\boldsymbol{p}) = \boldsymbol{W} (\boldsymbol{y}_j - \boldsymbol{f}_j(\boldsymbol{p})),$$
+$$\boldsymbol{r}_{w,k}(\boldsymbol{p}) = \boldsymbol{W} (\boldsymbol{y}_n - \boldsymbol{f}_k(\boldsymbol{p})),$$
 
 where the weight matrix $$\boldsymbol{W}\in \mathbb{R}^{N_y\times N_y}$$ is
-shared across all $$j$$. Now we introduce two more concatenated vectors
+shared across all $$k$$. Now we introduce two more concatenated vectors
 for the dataset, for the function values, and for the weighted residuals,
 respectively:
 
@@ -135,3 +135,38 @@ taken in said article. This is true from an implementation perspective, but math
 both lead to the same minimization problem. Thus, the following calculations will
 be true regardless how the residuals are actually calculated.
 
+# Calculating the Jacobian
+
+The first step in calculating the covariance matrix is to calculate the Jacobian
+matrix $$\boldsymbol{J}_{r_w}$$ of the weighted residuals. First, we express it
+in terms of the Jacobian matrix $$\boldsymbol{J}_{f}$$ of $$\boldsymbol{f}$$:
+
+$$\boldsymbol{J}_{r_w}(\boldsymbol{p}) := \frac{\partial \boldsymbol{r}_w}{\partial \boldsymbol{p}} (\boldsymbol{p})= -\widetilde{\boldsymbol{W}}\boldsymbol{J}_{f}(\boldsymbol{p}),$$
+
+where we can write $$\boldsymbol{J}_f$$ as
+
+$$
+\boldsymbol{J}_f(\boldsymbol{p}) := 
+\frac{\partial \boldsymbol{f}}{\partial \boldsymbol{p}}(\boldsymbol{p}) =
+\left[
+\begin{matrix}
+\boldsymbol{J}_{f_1} (\boldsymbol{p})\\
+\vdots \\
+\boldsymbol{J}_{f_{N_s}} (\boldsymbol{p})\\
+\end{matrix}
+\right],
+$$
+
+where $$\boldsymbol{J}_{f_k}= \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{p}}$$
+is the Jacobian of $$\boldsymbol{f}_k$$. Since the parameter vector $$\boldsymbol{p}$$ is
+written as in !!!TODO REFERENCE!!!, we can write the Jacobian of $$\boldsymbol{f}_k$$
+as
+
+$$
+\boldsymbol{J}_{f_k} (\boldsymbol{p})= \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{p}}(\boldsymbol{p}) =
+\left[\begin{matrix}
+\frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{c_1}} (\boldsymbol{p})& \dots & \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{c_k}} (\boldsymbol{p})& \dots & \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{c_{N_s}}} (\boldsymbol{p})& \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{\alpha}}(\boldsymbol{p})\\
+\end{matrix}\right].
+$$
+
+There are two parts to this expression that we need to look at separately.!!!!!!!!TODO

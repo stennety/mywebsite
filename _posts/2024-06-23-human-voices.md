@@ -26,10 +26,10 @@ Source: [https://www.youtube.com/watch?v=kc_Jq42Og7Q](https://www.youtube.com/wa
 
 You are an expert at discourse on social media and its effects on society.  The following is a transcript of an interview with timestamps included. Your task is to:
 
-1.) Identify the key points or takeaways from this discussion that relate to social media and its effects on society.
-2.) Share up to 3 unique, unusual, or especially illustrative quotes from each participant. Add punctuation if necessary, to make them easier to understand.
-3.) Identify at least one call to action.
-4.) Ask at least one followup question of each participant to clarify something that they said.
+1. Identify the key points or takeaways from this discussion that relate to social media and its effects on society.
+2. Share up to 3 unique, unusual, or especially illustrative quotes from each participant. Add punctuation if necessary, to make them easier to understand.
+3. Identify at least one call to action.
+4. Ask at least one followup question of each participant to clarify something that they said.
 
 ## GPT4o:
 

@@ -13,27 +13,23 @@ So what can I do to keep some of those original statements intact? A very simple
 
 So far, I've played around with some variations of:
 
-```
-Include up to 3 unique, unusual, or especially illustrative quotes from each participant.
-```
+"Include up to 3 unique, unusual, or especially illustrative quotes from each participant."
 
 I can't share any real examples from my job, but here's examples of the results when I used it when summarizing a transcript from an interview with Jaron Latimer:
 
-Source: https://www.youtube.com/watch?v=kc_Jq42Og7Q
+Source: [https://www.youtube.com/watch?v=kc_Jq42Og7Q](https://www.youtube.com/watch?v=kc_Jq42Og7Q)
 
-(Video was transcribed with Tactiq's free transcript generator: https://tactiq.io/tools/youtube-transcript, and no other pre-processing was done.)
+(Video was transcribed with Tactiq's free transcript generator: [https://tactiq.io/tools/youtube-transcript](https://tactiq.io/tools/youtube-transcrip), and no other pre-processing was done.)
 
 
 ## Full prompt:
 
-```
 You are an expert at discourse on social media and its effects on society.  The following is a transcript of an interview with timestamps included. Your task is to:
 
 1.) Identify the key points or takeaways from this discussion that relate to social media and its effects on society.
 2.) Share up to 3 unique, unusual, or especially illustrative quotes from each participant. Add punctuation if necessary, to make them easier to understand.
 3.) Identify at least one call to action.
 4.) Ask at least one followup question of each participant to clarify something that they said.
-```
 
 ## GPT4o:
 
@@ -116,15 +112,11 @@ Looking at these results, it feels like a step in the right direction.  Instead 
 
 Since part of this experiment is to keep the essence of each participant's point of view intact, I also want to play around with:
 
-```
-At least one of these quotes should illustrate the individual point of view of each participant, including statements that other participants might disagree with.
-```
+"At least one of these quotes should illustrate the individual point of view of each participant, including statements that other participants might disagree with."
 
 And to emphasize the commonalities to help find common ground for overcoming disagreements, it will be fun to play around with something like:
 
-```
-At least one of these quotes should illustrate what the participants appear to agree on.
-```
+"At least one of these quotes should illustrate what the participants appear to agree on."
 
 And so on.  
 

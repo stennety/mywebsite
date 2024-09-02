@@ -169,4 +169,99 @@ $$
 \end{matrix}\right].
 $$
 
-There are two parts to this expression that we need to look at separately.!!!!!!!!TODO
+There are two pieces to this expression that we need to look at separately. 
+Firstly, there is $$\frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{c_j}}$$,
+which we simplify to
+
+$$\frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{c_j}}(\boldsymbol{p}) =
+\left\{
+\begin{matrix}
+\boldsymbol{\Phi}(\boldsymbol{\alpha}) & ,\; j = k \\
+\boldsymbol{0}_{N_y \times N_c} & ,\; j \ne k .\\
+\end{matrix}
+\right.$$
+
+Next, there is the expression $$\frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{\alpha}}$$.
+There is a way to write this expression in tensor form, but keeping it in matrix
+notation comes easier to me. So let's do that and call it $$\boldsymbol{B}_k$$.
+
+$$
+\boldsymbol{B}_k (\boldsymbol{\alpha})
+:= \frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{\alpha}} (\boldsymbol{\alpha})
+= \left[
+\begin{matrix}
+\frac{\partial \boldsymbol{\Phi}(\boldsymbol{\alpha})}{\partial \alpha_1} \boldsymbol{c}_k & \dots &
+\frac{\partial \boldsymbol{\Phi}(\boldsymbol{\alpha})}{\partial \alpha_{N_\alpha}} \boldsymbol{c}_k
+\end{matrix}
+\right]
+\in \mathbb{R}^{N_y \times N_\alpha}
+$$
+
+TODO !!!! TEXT
+
+$$
+\frac{\partial \boldsymbol{f}_k}{\partial \boldsymbol{p}}(\boldsymbol{p}) =
+\left[\begin{matrix}
+\underbrace{\boldsymbol{0}_{N_y \times N_c}}_{\text{block } 1} & \dots & \boldsymbol{0}_{N_y \times N_c} 
+& \underbrace{\boldsymbol{\Phi}(\boldsymbol{\alpha})}_{\text{block } k} &
+\boldsymbol{0}_{N_y \times N_c} & \dots & \underbrace{\boldsymbol{0}_{N_y \times N_c}}_{\text{block } N_s}& 
+\underbrace{\boldsymbol{B}_k(\boldsymbol{\alpha})}_{\text{block } N_s+1} 
+\end{matrix}\right].
+$$
+
+TODO
+
+$$
+\boldsymbol{J}_f(\boldsymbol{p}) = \frac{\partial \boldsymbol{f}}{\partial \boldsymbol{p}}(\boldsymbol{p}) =
+\left[\begin{matrix}
+\underbrace{
+\begin{matrix}
+\boldsymbol{\Phi}(\boldsymbol{\alpha}) & &  \\
+ & \ddots & & \\
+ & & \boldsymbol{\Phi}(\boldsymbol{\alpha}) \\
+\end{matrix}
+}_{N_s \times N_s \text{ blocks}}
+&
+\begin{matrix}
+\boldsymbol{B}_1(\boldsymbol{\alpha}) \\
+\vdots \\
+\boldsymbol{B}_{N_s}(\boldsymbol{\alpha}) \\
+\end{matrix}
+\end{matrix}\right] 
+$$
+
+TODO!!!!
+
+$$
+\boldsymbol{J}_{r_w}(\boldsymbol{p}) = \widetilde{\boldsymbol{W}} \boldsymbol{J}_{f}(\boldsymbol{p}) =
+\left[\begin{matrix}
+\boldsymbol{W}\boldsymbol{\Phi}(\boldsymbol{\alpha}) & & &\boldsymbol{W} \boldsymbol{B}_1(\boldsymbol{\alpha})  \\
+ & \ddots & &  \vdots \\
+ & &\boldsymbol{W} \boldsymbol{\Phi}(\boldsymbol{\alpha}) &\boldsymbol{W} \boldsymbol{B}_{N_s}(\boldsymbol{\alpha}) 
+\end{matrix}\right]
+$$
+
+For downstream calculations, it's helpful to rewrite this expression by introducing the
+block diagonal matrix $$\boldsymbol{A}(\boldsymbol{\alpha})$$ and the block
+matrix $$\boldsymbol{B}(\boldsymbol{\alpha})$$ as
+
+$$\begin{eqnarray}
+\boldsymbol{J}_{r_w}(\boldsymbol{p}) &=& \left[ 
+\begin{matrix}
+\boldsymbol{A}(\boldsymbol{\alpha}) & \boldsymbol{B}(\boldsymbol{\alpha})
+\end{matrix}
+ \right],  \\
+\\
+\boldsymbol{A}(\boldsymbol{\alpha}) &:=&
+\left[\begin{matrix}
+\boldsymbol{W}\boldsymbol{\Phi}(\boldsymbol{\alpha}) & &  \\
+ & \ddots & \\
+ & &\boldsymbol{W} \boldsymbol{\Phi}(\boldsymbol{\alpha}) 
+\end{matrix}\right],\;
+\boldsymbol{B}(\boldsymbol{\alpha}) :=
+\left[\begin{matrix}
+\boldsymbol{W} \boldsymbol{B}_1(\boldsymbol{\alpha})  \\
+\vdots  \\
+\boldsymbol{W} \boldsymbol{B}_{N_s}(\boldsymbol{\alpha}) 
+\end{matrix}\right]
+\end{eqnarray}$$

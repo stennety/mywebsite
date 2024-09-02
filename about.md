@@ -9,4 +9,4 @@ Computer Engineering Student from Buenos Aires, Argentina.
 
 ### Contact me
 
-[email@domain.com](mailto:francolau03@gmail.com)
+[francolau03@gmail.com](mailto:francolau03@gmail.com)

@@ -15,6 +15,13 @@
   mainpage: "Main_Page"
   discord: "c4F2rRc"
 - member:
+  id: "cyberflixwiki"
+  name: "Cyberflix Wiki"
+  description: "Cyberflix Wiki is all about CyberFlix Incorporated, a computer game company founded in 1993, who created several interactive story-telling games including Titanic: Adventure Out of Time and Dust: A Tale of the Wired West."
+  logo: "/images/logos/cyberflix.png"
+  url: "https://cyberflix.wiki.gg/wiki/Cyberflix_Wiki"
+  mainpage: "Main_Page"
+- member:
   id: "falloutwiki"
   name: "Independent Fallout Wiki"
   description: "The Independent Fallout Wiki is the Wasteland's One Stop Shop for Fallout Games, Community Events, News, and Mods! The site was founded on April 8, 2022 and entered early access on Great War Day, October 23, 2022. It officially launched to the public on December 31, 2022."

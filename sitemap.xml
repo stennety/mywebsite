@@ -44,6 +44,10 @@
     <priority>1</priority>
 </url>
 <url>
+    <loc>https://fescue.github.io/Legacy-Club-Emerald-Bay/</loc>
+    <priority>1</priority>
+</url>
+<url>
   <loc>https://fescue.github.io/iMap/</loc>
   <priority>1</priority>
 </url>

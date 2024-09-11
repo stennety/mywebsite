@@ -19,11 +19,12 @@ comments_id:
 math: true
 ---
 
-!!!TODO INTRO
+In this article, I explore how to efficiently calculate the covariance matrix
+of the best fit parameters for global fitting problems that use the
+variable projection algorithm. It's a very niche topic, but I do need it for
+my open source library so I might as well write it down.
 
-
-
-# VarPro Minimization: Recap and Rewrite
+# VarPro Minimization: Recap
 
 In the [previous article](/blog/2024/variable-projection-part-2-multiple-right-hand-sides/)
 in our VarPro series on this blog, we saw that we can express Variable Projection
@@ -282,7 +283,7 @@ we know that we can write the covariance matrix $$\boldsymbol{C}_{p^\dagger}$$ o
 the best fit parameters $$\boldsymbol{p}$$ as 
 
 $$
-\boldsymbol{C}_{p^\dagger} = \hat{\sigma} \left(\boldsymbol{J}^T_{r_w} \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1} \in \mathbb{R}^{N_p \times N_p} \label{cp-jrw}\tag{xx},
+\boldsymbol{C}_{p^\dagger} = \hat{\sigma} \left(\boldsymbol{J}^T_{r_w} \boldsymbol{J}_{r_w}(\boldsymbol{p}^\dagger) \right)^{-1} \in \mathbb{R}^{N_p \times N_p} \label{cov-jrw}\tag{xx},
 $$
 
 where $$\hat{\sigma}$$ is a scalar that depends on our prior assumptions. Let's
@@ -326,10 +327,10 @@ to help us express the inverse. It's Schur complement with respect to it's upper
 left block is defined as:
 
 $$
-\boldsymbol{S}(\boldsymbol{\alpha}) := \boldsymbol{B}^T \boldsymbol{B}(\boldsymbol{\alpha}^\dagger) -\boldsymbol{B}^T \boldsymbol{A}  (\boldsymbol{A}^T \boldsymbol{A})^{-1}\boldsymbol{A}^T \boldsymbol{B}(\boldsymbol{\alpha}^\dagger). \label{schur}\tag{xx}
+\boldsymbol{S}(\boldsymbol{\alpha}) := \boldsymbol{B}^T \boldsymbol{B}(\boldsymbol{\alpha}^\dagger) -\boldsymbol{B}^T \boldsymbol{A}  (\boldsymbol{A}^T \boldsymbol{A})^{-1}\boldsymbol{A}^T \boldsymbol{B}(\boldsymbol{\alpha}^\dagger) \in \mathbb{R}^{N_\alpha \times N_\alpha}. \label{schur}\tag{xx}
 $$
 
-This needs the inverse to $$(\boldsymbol{A}^T \boldsymbol{A})$$ to exist[^inverse]. Since
+where the inverse to $$(\boldsymbol{A}^T \boldsymbol{A})$$ must exist[^inverse]<sup>,</sup>[^existence]. Since
 $$(\boldsymbol{A}^T \boldsymbol{A})$$ is a block diagonal matrix containing
 $$(\boldsymbol{W \Phi})^T \boldsymbol{W \Phi} (\boldsymbol{\alpha}^\dagger)$$ 
 on the diagonal, it's actually very simple to give it's inverse:
@@ -350,16 +351,53 @@ rather than billions. This allows us to simplify the expression for the Schur
 complement considerably. After a bit of calculating, we come up with:
 
 $$
-\boldsymbol{S}(\boldsymbol{\alpha}) := \sum_{k=1}^{N_s}(W\boldsymbol{B}_{k})^T W\boldsymbol{B}_{k}(\boldsymbol{\alpha}^\dagger) + ((\boldsymbol{W \Phi})^T \boldsymbol{W B}_k)^T ((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1} (\boldsymbol{W \Phi})^T \boldsymbol{W B}_k)(\boldsymbol{\alpha}^\dagger). \label{schur-sum}\tag{xx}
+\boldsymbol{S}(\boldsymbol{\alpha}^\dagger) := \sum_{k=1}^{N_s}(W\boldsymbol{B}_{k})^T W\boldsymbol{B}_{k}(\boldsymbol{\alpha}^\dagger) + ((\boldsymbol{W \Phi})^T \boldsymbol{W B}_k)^T ((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1} (\boldsymbol{W \Phi})^T \boldsymbol{W B}_k)(\boldsymbol{\alpha}^\dagger). \label{schur-sum}\tag{xx}
 $$
 
 Well, it might not look like a simplification at first, but remember it's essentially a 
 sum of pretty small $$N_\alpha \times N_\alpha$$ matrices. Also the inverse
 of $$((\boldsymbol{W \Phi})^{-1}\boldsymbol{W \Phi})$$ does not change with $$k$$
 and can be pre-calculated. Further, note that the matrix product on the right
-hand side has the structure $$\boldsymbol{X}^T \boldsymbol{YX}$$.
+hand side has the structure $$\boldsymbol{X}^T \boldsymbol{YX}$$. Note also that
+for our case $$\boldsymbol{S}(\boldsymbol{\alpha}^\dagger)  = \boldsymbol{S}^T(\boldsymbol{\alpha}^\dagger)$$,
+i.e. the Schur complement is symmetric.
 
+Using its Schur complement, we can give an 
+[expression for the inverse](https://en.wikipedia.org/wiki/Schur_complement#Properties)
+of $$\boldsymbol{J}_{r_w}^T\boldsymbol{J}_{r_w}$$ in a block diagonal form:
 
+$$
+(\boldsymbol{J}_{r_w}^T\boldsymbol{J}_{r_w})^{-1}(\boldsymbol{p}^\dagger) =
+\left[
+\begin{matrix}
+(\boldsymbol{A}^T \boldsymbol{A})^{-1}(\boldsymbol{\alpha}^\dagger) + \boldsymbol{G}\boldsymbol{S}^{-1}\boldsymbol{G^T}(\boldsymbol{\alpha}^\dagger) & -\boldsymbol{G S}^{-1}(\boldsymbol{\alpha}^\dagger) \\
+- (\boldsymbol{G S}^{-1}(\boldsymbol{\alpha}^\dagger))^T & \boldsymbol{S}^{-1}(\boldsymbol{\alpha}^\dagger) \label{jtj-inv-schur} \tag{xx}\\
+\end{matrix}
+\right],
+$$
+
+where we have introduced the matrix $$\boldsymbol{G}$$ as
+
+$$
+\boldsymbol{G}(\boldsymbol{\alpha}^\dagger) 
+=(\boldsymbol{A}^T \boldsymbol{A})^{-1} \boldsymbol{A}^T \boldsymbol{B} (\boldsymbol{\alpha}^\dagger)
+=\left[
+\begin{matrix}
+((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1}(\boldsymbol{W \Phi})^T \boldsymbol{WB}_1(\boldsymbol{\alpha}^\dagger) \\
+\vdots \\
+((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1}(\boldsymbol{W \Phi})^T \boldsymbol{WB}_{N_s}(\boldsymbol{\alpha}^\dagger) \label{g-def}\tag{xx} \\
+\end{matrix}
+\right]
+$$
+
+The neat thing about calculating the inverse of $$\boldsymbol{J}_{r_w}^T\boldsymbol{J}_{r_w}$$
+via eq. $$\eqref{jtj-inv-schur}$$ is, that we only have to calculate the inverse
+of relatively small matrices: $$\boldsymbol{S}^{-1}$$ is pretty small and so is
+$$((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1}$$, which we can use to build
+the inverse of $$\boldsymbol{A}^T\boldsymbol{A}$$. This, in turn, gives us a
+numerically efficient (and probably more stable) way of calculating the
+covariance matrix using eq. $$\eqref{cov-jrw}$$.
 
 # Endnotes
 [^inverse]: One can see in the expressions below, that this inverse exists if $$\boldsymbol{W \Phi}(\boldsymbol{\alpha}^\dagger)$$ has linear independent columns. That means the base functions (at the best fit parameters) must be linearly independent, which should be the case for a correcly chosen set of basefunctions for VarPro.
+[^existence]: Note that $$(\boldsymbol{A}^T\boldsymbol{A})^{-1}$$ existing is necessary but not sufficient for the existence of $$(\boldsymbol{J}_{r_w}^T\boldsymbol{J}_{r_w})^{-1}$$. We assume the latter also exists, because we need it to calculate the covariance matrix.

@@ -4,7 +4,7 @@ title: Secure AI Systems
 tags: [Thinkering, AI]
 ---
 
-As AI services proliferate, companies and individuals are faced with a complex web of providers, microservices, and terms of use. This landscape poses significant risks to security and privacy, making it essential to rethink our approach to AI development and deployment.
+As AI services proliferate, companies and individuals are faced with an increasing complexity of providers, microservices, and terms of use. This landscape poses significant risks to security and privacy, making it essential to rethink our approach to AI development and deployment.
 
 **AI Services drawbacks**
 -------------------------------------

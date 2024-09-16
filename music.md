@@ -69,7 +69,7 @@ A list of my favorite music channels on Youtube, in no particular order:
 * SomaFM in San Francisco has some of my favorite internet radio stations, especially [Drone Zone](https://somafm.com/dronezone/){:target="_blank"}
 * [Star's End](https://www.starsend.org/){:target="_blank"}: originating from WXPN, one of the longest running radio programs of Ambient/Space music in the world.
 * [NTS Radio](https://www.nts.live/){:target="_blank"}
-* When I was in high school I spent a summer near Bologna and found so much good music through [Radio Città], sometimes I still tune in!  Not all music, more like part NPR and part music.
+* When I was in high school I spent a summer near Bologna and found so much good music through [Radio Città Fujiko](https://www.radiocittafujiko.it/){:target="_blank"}, sometimes I still tune in!  Not all music, more like part NPR and part music.
 * And of course last but not least, [KEXP](https://www.kexp.org/){:target="_blank"}
 
 

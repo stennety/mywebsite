@@ -27,7 +27,7 @@ Cock & Swan is the main music project that me and Johnny have worked on together
 
 One of my favorite things to do is edit existing footage to our music:
 
-* [Cock & Swan x TZECHAR - Taken Apart](https://www.youtube.com/watch?v=IsJXyzoiReM) {:target="_blank"}
+* [Cock & Swan x TZECHAR - Taken Apart](https://www.youtube.com/watch?v=IsJXyzoiReM){:target="_blank"}
 * [Cock & Swan - What Was Life? (EP Version)](https://www.youtube.com/watch?v=P2gJtfhH_aI){:target="_blank"}
 * [Cock & Swan - Crown Of Milk](https://www.youtube.com/watch?v=bHSuTvUmKsE){:target="_blank"}
 * [Cock & Swan - Animal Totem (Chants Remix)](https://www.youtube.com/watch?v=5_ToiVcV35k){:target="_blank"}

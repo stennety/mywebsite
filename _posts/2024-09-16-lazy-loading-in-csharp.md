@@ -1,7 +1,7 @@
 # Lazy Loading in C# (and not only)
 
 ## Introduction
-_Lazy loading_ is a technique used to dealy the execution of code for later on. There are a couple of reasons as to why you'd want to do that, and we'll enumerate some:
+_Lazy loading_ is a technique used to delay the execution of code for later on. There are a couple of reasons as to why you'd want to do that, and we'll enumerate some:
 
 - Speed – the best code, is also the fastest code, the most secure and most maintainable, that is to say which means _no code at all_. However, for obvious reasons, we do need at times to write code, but while we can't avoid writing it, we could delay or even, _possibly_, completely avoid _executing_ it.
 - Memory footprint – RAM memory is still important, avoiding loading a heavy object does not just result in speed, but also in a more efficient system memory-wise.
@@ -12,7 +12,7 @@ While the theory sounds great, there still remains the question how do you actua
 
 
 ###  Singletons 
-First, when it comes the the [_singleton pattern_](https://en.wikipedia.org/wiki/Singleton_pattern), objects (if we're talking in a _OOP_ context, but this goes for other paradigms as well) are often _statically_ allocated. This affects us even more, as static objects, often get initialized early on. For example in `.NET Framework`  _static_ fields get initialized before the non-static constructor of the class is called. This is also the case for other platforms, like `Java`. Here an `if` check is usually employed for _lazy loading_:
+First, when it comes the the [_singleton pattern_](https://en.wikipedia.org/wiki/Singleton_pattern), objects (if we're talking in an _OOP_ context, but this goes for other paradigms as well) are often _statically_ allocated. This affects us even more, as static objects, often get initialized early on. For example in `.NET Framework`  _static_ fields get initialized before the non-static constructor of the class is called. This is also the case for other platforms, like `Java`. Here an `if` check is usually employed for _lazy loading_:
 
 ```C#
    class Singleton 

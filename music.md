@@ -18,6 +18,8 @@ Cock & Swan is the main music project that me and Johnny have worked on together
 
 #### Studio Performances & Other Music Videos
 
+My favorite kind of 'live' performance to do is in our recording studio.  A couple of the videos below are examples of this.  They are all directed, recorded and produced by both Johnny and very special musical/artistic guests and friends.
+
 * [Cock & Swan - Rabbit's Dream (Live Version](https://www.youtube.com/watch?v=G_33Wg-8Kt0){:target="_blank"}
 * [Cock & Swan - PERG (Honing) (Live Version)](https://www.youtube.com/watch?v=v0R178RFlxE){:target="_blank"}
 * [Cock & Swan - Animal Totem (JOFT) (Mono Version)](https://www.youtube.com/watch?v=pXsV4NdwJ2U){:target="_blank"}
@@ -25,7 +27,7 @@ Cock & Swan is the main music project that me and Johnny have worked on together
 
 #### Music Videos I've Edited
 
-One of my favorite things to do is edit existing footage to our music:
+One of my other favorite things to do is edit existing footage to our music.  Aeon Flux, John Carpenter movies, and Vash the Stampede have all made an appearance.
 
 * [Cock & Swan x TZECHAR - Taken Apart](https://www.youtube.com/watch?v=IsJXyzoiReM){:target="_blank"}
 * [Cock & Swan - What Was Life? (EP Version)](https://www.youtube.com/watch?v=P2gJtfhH_aI){:target="_blank"}

@@ -3,7 +3,7 @@
 ## Introduction
 _Lazy loading_ is a technique used to delay the execution of code for later on. There are a couple of reasons as to why you'd want to do that, and we'll enumerate some:
 
-- Speed – the best code, is also the fastest code, the most secure and most maintainable, that is to say which means _no code at all_. However, for obvious reasons, we do need at times to write code, but while we can't avoid writing it, we could delay or even, _possibly_, completely avoid _executing_ it.
+- Speed – the best code, is also the fastest code, the most secure and most maintainable… namely _no code at all_. However, for obvious reasons, we do need at times to write code, but while we can't avoid writing it, we could delay or even, _possibly_, completely avoid _executing_ it.
 - Memory footprint – RAM is still important, avoiding loading a heavy object does not just result in increased speed, but also in a more efficient system, memory-wise.
 
 ## Hands-on

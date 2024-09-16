@@ -9,6 +9,8 @@ One of the common pieces of feedback that stands out from earlier in my career i
 
 But when people ask you to speak up more, they aren't asking you to just arbitrarily voice opinions.  There are enough opinions.  What people usually need is more people asking good questions.
 
+<!--more-->
+
 One of the best parts about asking questions is that you don't have to know anything about the topic at hand.  In fact, you're putting yourself in a position of someone who doesn't know the answer, whether you actually think you do or not.
 
 There is a reason why when reviewing a production incident, you ask five whys.  It gets you closer and closer to the real problems you need to solve, to prevent similar issues to happening again.

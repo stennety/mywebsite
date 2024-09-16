@@ -11,6 +11,8 @@ There's also the risk that even the best summaries start to all blend together. 
 
 So what can I do to keep some of those original statements intact? A very simple first experiment is to ask the model to include some quotes alongside the condensed version.  
 
+<!--more-->
+
 So far, I've played around with some variations of:
 
 "Include up to 3 unique, unusual, or especially illustrative quotes from each participant."

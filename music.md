@@ -4,8 +4,6 @@ title: Ola's Music Directory
 permalink: /music/
 ---
 
-# Ola's Music Directory
-
 An abridged listing of music I am either involved in making, or listen to a lot.
 
 ## Dandelion Gold

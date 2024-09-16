@@ -20,7 +20,7 @@ Cock & Swan is the main music project that me and Johnny have worked on together
 
 * [Cock & Swan - Rabbit's Dream (Live Version](https://www.youtube.com/watch?v=G_33Wg-8Kt0){:target="_blank"}
 * [Cock & Swan - PERG (Honing) (Live Version)](https://www.youtube.com/watch?v=v0R178RFlxE){:target="_blank"}
-* [Cock & Swan - nimal Totem (JOFT) (Mono Version))](https://www.youtube.com/watch?v=pXsV4NdwJ2U){:target="_blank"}
+* [Cock & Swan - Animal Totem (JOFT) (Mono Version))](https://www.youtube.com/watch?v=pXsV4NdwJ2U){:target="_blank"}
 * [Cock & Swan - Melt Down (WUND)](https://www.youtube.com/watch?v=zvtilgCrdug){:target="_blank"}
 
 #### Music Videos I've Edited

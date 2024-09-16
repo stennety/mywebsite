@@ -8,7 +8,7 @@ An abridged listing of music I am either involved in making, or listen to a lot.
 
 ## Dandelion Gold
 
-Dandelion Gold is the recording and music production studio where me and my husband Johnny Goss have created and recorded a lot of music over the years.  The links below are just a small slice.  There is a lot more you can [here](https://www.dandeliongold.com/work).
+Dandelion Gold is the recording and music production studio where me and my husband Johnny Goss have created and recorded a lot of music over the years.  The links below are just a small slice.  There is a lot more you can [here](https://www.dandeliongold.com/work){:target="_blank"}.
 
 Some highlights from me and Johnny:
 

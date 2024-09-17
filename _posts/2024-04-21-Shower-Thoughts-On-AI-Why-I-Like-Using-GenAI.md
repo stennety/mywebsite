@@ -3,8 +3,6 @@ layout: post
 title: Focused, Helpful Robots
 ---
 
-## Focused, Helpful Robots
-
 One thing I like about using tools like ChatGPT or Claude for guiding my personal research is the simplicity and mental quiet of the interface.  They also have a sincerely helpful attitude that can be equally rare when you go to ask for help online. The feeling I get from using them brings me back to watching "Star Trek: The Next Generation" as a kid.  That was a future I wanted to live in.  Not only was there all that stuff about Earth becoming a utopia - you could just say "Computer" and a helpful voice would always respond, that wasn't just trying to get you to buy more stuff on Amazon.
 
 <!--more-->

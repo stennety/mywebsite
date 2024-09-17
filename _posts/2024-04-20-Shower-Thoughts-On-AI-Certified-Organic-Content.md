@@ -3,8 +3,6 @@ layout: post
 title: "Certified Organic Content"
 ---
 
-## "Certified Organic Content"
-
 The practice of adding disclaimers to AI-generated content is one way to make sure that people know that it might be misleading, or totally wrong.  In other words, the creator knows that a model's effectiveness is expected to vary, so they encourage the human seeing it to be more skeptical than usual and maybe cut it some extra slack.  However, since both AI and misinformation are both so increasingly embedded in our digital experiences, it could make more sense in the future to call out when content is 100% 'organic' or reviewed by a human expert.
 
 <!--more-->

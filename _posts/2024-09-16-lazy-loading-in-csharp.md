@@ -65,7 +65,7 @@ From the get go, our solution needs to address any possible type, not just `Bar`
    public class Lazy<T> { … }
 ```
 
-Second, we'd need to know all about how _exactly_ to create this `bar` object, and yet, not _delay_ the process… This sounds like a _producer_ – a method that produces such and object, encorporates the _how_ – and a _callback_ (or  _higher-order function_), a method passed as argument, to be called when needed. This is exactly what we need! In `.NET` the `Func<T>` type is a _function_ type that takes no parameters and returns a `T`. We can use is as such:
+Second, we'd need to know all about how _exactly_ to create this `bar` object, and yet, _delay_ the process… This sounds like a _producer_ – a method that produces such and object, encorporates the _how_ – and a _callback_ (or  _higher-order function_), a method passed as argument, to be called when needed. This is exactly what we need! In `.NET` the `Func<T>` type is a _function_ type that takes no parameters and returns a `T`. We can use is as such:
 
 ```C#
    public class Lazy<T> 

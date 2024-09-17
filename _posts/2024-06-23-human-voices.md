@@ -5,13 +5,13 @@ title: In Their Own Words
 
 It feels like ages ago now - the pre-meeting-transcript-summary days.  Being able to condense an hour of recorded conversation into an organized list of bullet points still feels like a magic trick.
 
+<!--more-->
+
 Something I've thought about recently is that its not always *what* was said, it was the way it was said, that leads to some a-ha moment. Or I might have missed it completely the first time around, because I was looking at a cool bird outside or making the mistake of multi-tasking.
 
 There's also the risk that even the best summaries start to all blend together.  If something starts to feel too 'automated,' my brain has a harder time latching onto it as important.  This is probably a side effect of learning to filter out automated noise vs human signals that I should actually pay attention to.  
 
 So what can I do to keep some of those original statements intact? A very simple first experiment is to ask the model to include some quotes alongside the condensed version.  
-
-<!--more-->
 
 So far, I've played around with some variations of:
 

@@ -5,11 +5,11 @@ title: Speaking Up
 
 One of the common pieces of feedback that stands out from earlier in my career is to speak up more in meetings.  Sometimes people straight up said it.  Other times, it was implied by other more vaguely worded feedback related to fuzzier concepts like scope of influence.
 
+<!--more-->
+
 "Speaking up more" was challenging advice for me to follow.  Sometimes it still is.  I am the type of extremely introverted person who prefers to observe and analyze the situation for a while before voicing an opinion, like an owl hiding and watching from a hole in a tree, where hopefully nobody will notice me until I'm ready to emerge.
 
 But when people ask you to speak up more, they aren't asking you to just arbitrarily voice opinions.  There are enough opinions.  What people usually need is more people asking good questions.
-
-<!--more-->
 
 One of the best parts about asking questions is that you don't have to know anything about the topic at hand.  In fact, you're putting yourself in a position of someone who doesn't know the answer, whether you actually think you do or not.
 

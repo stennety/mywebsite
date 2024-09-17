@@ -39,7 +39,7 @@ Notice, the more moder `.NET` platform actually uses lazy loading by default. St
 
 ## Instance fields
 
-The more interesting and common use case is when we'd like to delay the initialization of an _instance_ field. For this, both frameworks (`.NET` and `.NET Framwork`) come with build-in support, namely: `Lazy<T>`, a generic class which can wrap objects of any type and delay their initialization. We'll explore a simple implementation of such an idea, and see how we can achieve this in pretty much any programming language.
+The more interesting and common use case is when we'd like to delay the initialization of an _instance_ field. For this, both frameworks (`.NET` and `.NET Framework`) come with build-in support, namely: `Lazy<T>`, a generic class which can wrap objects of any type and delay their initialization. We'll explore a simple implementation of such an idea, and see how we can achieve this in pretty much any programming language.
 
 Frist imagine the scenario of two classes:
 ```C# 

@@ -5,6 +5,8 @@ title: Is Claude Getting Worse?
 
 According to some, there is a conspiracy brewing at Anthropic.  Their models mysteriously got dumber lately, and they refuse to answer to it.  All kinds of anecdotes and explanations are popping up on the ClaudeAI subreddit, including from people who appear to know a lot about how these models work.  This drama intensified after someone from the company dropped in to assert that they hadn't noticed any widespread issues that would result in a global degradation.  Everyone loves a good conspiracy, so as the "X-Files" music started playing in my head, I reflected back on my recent experiences with Claude to find some evidence that I was being lied to.
 
+<!--more-->
+
 For the past month I've been making extensive use of the Projects feaure on Claude.ai.  The main project I keep coming back to is a React app which involves around 10 different components.  All of it was born from Claude 3.5 Sonnet.
 
 Over that time, I've reiterated through all the stages of delight and frustration that is common for anyone using these kinds of tools.  I swooned when I told Claude that I wanted my app to 'look like LCARS from Star Trek: The Next Generation' and it immediately figured out a decent version of this, using an efficient set of CSS classes from Tailwind.  I had originally imagined that GenAI models would spit out the kind of horrific code that you would find if you used a WYSIWYG editor back in the day and dared to look at the raw html.  This is not the case.  Claude is clean, considerate, and as always incredibly helpful in suggesting improvements.

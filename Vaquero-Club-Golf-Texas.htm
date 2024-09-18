@@ -22,19 +22,19 @@
 				</div>
 	</div>
 	
-
 	<script>		
 		const map = L.map('map').setView([32.9646319,-97.1946605], 9);
-		const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 30,
-				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-			}).addTo(map);
+                const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 30,
+                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(map);
 
-		L.CustomOverlay = L.Layer.extend({
+	        L.CustomOverlay = L.Layer.extend({
 	            onAdd: function(map) {
-			this._map = map;
-			this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
-		    
+	                this._map = map;
+	                this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
+
+	        
 	                // Add the container to the map
 	                map._panes.overlayPane.appendChild(this._container);
 	                
@@ -50,7 +50,7 @@
 	                // Position the layer. This example assumes a fixed position, but you can use map latlng to position dynamically
 	                // var position = this._map.latLngToLayerPoint(this._latlng || this._map.getCenter());
 	                
-	                var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
+	                    var position = this._map.containerPointToLayerPoint([10, 10]); // Adjust the position as needed
 	                L.DomUtil.setPosition(this._container, position);
 	            }
 	        });
@@ -58,8 +58,8 @@
 	        // Add the custom overlay to the map
 	        var myCustomOverlay = new L.CustomOverlay();
 	        myCustomOverlay.addTo(map);
-	
-	        // Add a marker to the map at the same location as the map center
+			
+		// Add a marker to the map at the same location as the map center
 	        var marker = L.marker([32.9646319,-97.1946605]).addTo(map);
 	        marker.bindPopup("<b>Vaquero Club</b><br>Westlake, Texas</br>").openPopup();
 	</script>

@@ -1,3 +1,13 @@
+---
+layout: post
+title: Lazy Loading in C# (and not only)
+subtitle:
+category: dev
+tags: [development, dotnet, C#]
+author: Stoian Dan
+author_email: dan.stoian@haufe.com
+header-img: "https://upload.wikimedia.org/wikipedia/commons/a/a9/British_club_scene.jpg"
+---
 # Lazy Loading in C# (and not only)
 
 ## Introduction

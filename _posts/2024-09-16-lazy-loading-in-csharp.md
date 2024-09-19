@@ -8,7 +8,6 @@ author: Stoian Dan
 author_email: dan.stoian@haufe.com
 header-img: "images/lazy-loading-in-csharp/British_club_scene.jpg"
 ---
-# Lazy Loading in C# (and not only)
 
 ## Introduction
 _Lazy loading_ is a technique used to delay the execution of code for later on. There are a couple of reasons as to why you'd want to do that, and we'll enumerate some:

@@ -3,7 +3,7 @@ layout: post
 title: Lazy Loading in C# (and not only)
 subtitle:
 category: dev
-tags: [dotnet, development, csharp]
+tags: [dotnet, development]
 author: Stoian Dan
 author_email: dan.stoian@haufe.com
 header-img: "images/lazy-loading-in-csharp/British_club_scene.jpg"

@@ -3,12 +3,11 @@ layout: post
 title: Lazy Loading in C# (and not only)
 subtitle:
 category: dev
-tags: [development, dotnet, C#]
+tags: [dotnet, development]
 author: Stoian Dan
 author_email: dan.stoian@haufe.com
-header-img: "https://upload.wikimedia.org/wikipedia/commons/a/a9/British_club_scene.jpg"
+header-img: "images/lazy-loading-in-csharp/British_club_scene.jpg"
 ---
-# Lazy Loading in C# (and not only)
 
 ## Introduction
 _Lazy loading_ is a technique used to delay the execution of code for later on. There are a couple of reasons as to why you'd want to do that, and we'll enumerate some:
@@ -24,7 +23,7 @@ While the theory sounds great, there still remains the question of how do you ac
 ###  Singletons 
 First, when it comes the the [_singleton pattern_](https://en.wikipedia.org/wiki/Singleton_pattern), objects (if we're talking in an _OOP_ context, but this goes for other paradigms as well) are often _statically_ allocated. This affects us even more, as static code, often get initialized early on. For example in `.NET Framework`  _static_ fields get initialized before the constructor of the class is called. This is also the case for other platforms, like `Java`. Here an `if` check is usually employed for _lazy loading_:
 
-```C#
+```csharp
    class Singleton 
    {
       private static Singleton _instance = null; // redundant, for explicity
@@ -52,15 +51,15 @@ Notice, the more moder `.NET` platform actually uses lazy loading by default. St
 The more interesting and common use case is when we'd like to delay the initialization of an _instance_ field. For this, both frameworks (`.NET` and `.NET Framework`) come with build-in support, namely: `Lazy<T>`, a generic class which can wrap objects of any type and delay their initialization. We'll explore a simple implementation of such an idea, and see how we can achieve this in pretty much any programming language.
 
 Frist imagine the scenario of two classes:
-```C# 
+```csharp
 public class Foo { ... }
 ``` 
 and 
-```C#
+```csharp
 public class Bar { ... }
 ```
 with a _composition_ relationship of type:
-```C#
+```csharp
 public class Foo 
 {
    Bar bar = new();
@@ -71,7 +70,7 @@ Our goal is to delay the initialization of the field `bar` in any `Foo` instance
 
 From the get go, our solution needs to address any possible type, not just `Bar`. This is why _generics_ are needed. So our solution begins to look as such:
 
-```C#
+```csharp
    public class Lazy<T> { … }
 ```
 
@@ -79,7 +78,7 @@ Second, we'd need to know all about how _exactly_ to create this `bar` object, a
 
 We can use is as such:
 
-```C#
+```csharp
    public class Lazy<T> 
     {
         private Func<T> _generator;
@@ -92,7 +91,7 @@ We can use is as such:
 All that we're providing to the constructor of the `Lazy` class is a function, that describes how to return a `T`, and whenever we want to actually return that `T`, we just call `Load`.
 
 Let's see this in action:
-```C#
+```csharp
 public class Foo 
 {
    // old code: Bar bar = new();
@@ -103,7 +102,7 @@ public class Foo
 
 This looks great! Now, whenever we want our instance, we can just call `Load` on `bar_lazy`, but the beauty of warping things in a function is that, even if our `Bar` constructor required parameters, this would be fixed with just a small adjustment:
 
-```C#
+```csharp
 public class Foo 
 {
     //ctor injection, provide `lazy_bar` as a dependency
@@ -111,7 +110,7 @@ public class Foo
     ...
 }
 ```
-```C#
+```csharp
 // calling code
 lazy_bar = new Lazy<Bar> (() => new Bar(name, age, other_param))
 new Foo(lazy_bar);

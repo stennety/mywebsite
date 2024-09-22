@@ -7,7 +7,7 @@ date: 2024-09-30
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'The Jacobian for Variable Projection with Multiple Right Hand Sides'
+title: 'The Covariance Matrix for Variable Projection with Multiple Right Hand Sides'
 #
 #
 # Make sure this image is correct !!!

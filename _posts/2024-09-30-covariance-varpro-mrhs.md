@@ -31,7 +31,8 @@ In the [previous article](/blog/2024/variable-projection-part-2-multiple-right-h
 in our VarPro series on this blog, we saw that we can express Variable Projection
 with multiple right hand sides using either a more matrix oriented approach or a more
 vector oriented approach. Both approaches are equivalent. But this time, it is 
-the vector oriented approach that makes it a bit easier to tackle our problem.
+the vector oriented approach that makes it a bit easier for me to tackle the 
+problem at hand.
 
 I'll very briefly restate the fundamentals of global fitting multiple right hand sides.
 If you haven't read the [previous article](/blog/2024/variable-projection-part-2-multiple-right-hand-sides/),
@@ -132,7 +133,7 @@ following calculations will be true regardless how the residuals are actually ca
 
 # Jacobian of the Residuals
 
-The first step in calculating the covariance matrix is to calculate the Jacobian
+The first step when calculating the covariance matrix is to calculate the Jacobian
 matrix $$\boldsymbol{J}_{r_w}$$ of the weighted residuals. First, we express it
 in terms of the Jacobian matrix $$\boldsymbol{J}_{f}$$ of $$\boldsymbol{f}$$:
 
@@ -197,7 +198,7 @@ $$
 $$
 
 Plugging eqns. $$\eqref{dfk-dcj}$$ and $$\eqref{bk-def}$$ into $$\eqref{jfk-mat}$$
-gives us a block diagnal matrix with $$N_s+1$$ blocks. It's last block is the matrix
+gives us a block diagnal matrix with $$N_s+1$$ blocks. Its last block is the matrix
 $$\boldsymbol{B}_k$$, while all the other blocks are of size $$N_y \times N_c$$.
 The block at index $$k$$ is $$\boldsymbol{\Phi}(\boldsymbol{\alpha})$$ and all the
 other blocks are zero-matrices of the same size. In matrix notation this
@@ -237,8 +238,7 @@ $$
 $$
 
 where the blocks that are left blank are zeros of appropriate size. Finally,
-this gives us the Jacobian of $$\boldsymbol{r}_w$$, that we need to calculate
-the covariance matrix:
+this gives us the Jacobian of $$\boldsymbol{r}_w$$ using eq. $$\eqref{j-rw-def}$$:
 
 $$
 \boldsymbol{J}_{r_w}(\boldsymbol{p}) = - \widetilde{\boldsymbol{W}} \boldsymbol{J}_{f}(\boldsymbol{p}) =
@@ -322,7 +322,8 @@ in eq. $$\eqref{cov-jrw}$$. But keep in mind that it's an $$N_p \times N_p$$ mat
 where $$N_p = N_s \cdot N_c + N_\alpha$$.
 That's not a big deal if we only have a tiny number of right hand sides and 
 linear coefficients. If, however, the number of linear coefficients $$N_c$$
-gets even moderately large, say $$\mathcal{O}(10)$$, and / or the number of right hand sides $$N_s$$ gets large, 
+gets even moderately large, say $$\mathcal{O}(10)$$, and / or the
+number of right hand sides $$N_s$$ becomes huge, 
 say $$\mathcal{O}(10^5)$$, then this matrix quickly reaches billions or even
 trillions of elements. That's why it makes sense to exploit the special structure
 of the matrix a bit more to help calculate its inverse.
@@ -339,7 +340,7 @@ $$
 where the inverse to $$(\boldsymbol{A}^T \boldsymbol{A})$$ must exist[^inverse]<sup>,</sup>[^existence]. Since
 $$(\boldsymbol{A}^T \boldsymbol{A})$$ is a block diagonal matrix containing
 $$(\boldsymbol{W \Phi})^T \boldsymbol{W \Phi} (\boldsymbol{\alpha}^\dagger)$$ 
-on the diagonal, it's actually very simple to give it's inverse:
+on the diagonal, it's actually very simple to invert:
 
 $$
 (\boldsymbol{A}^T \boldsymbol{A})^{-1}(\boldsymbol{\alpha}) =
@@ -404,8 +405,9 @@ $$((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1}$$, which we can use to buil
 the inverse of $$\boldsymbol{A}^T\boldsymbol{A}$$. This, in turn, gives us a
 numerically efficient (and probably more stable) way of calculating the
 covariance matrix using eq. $$\eqref{cov-jrw}$$. There might be even further
-simplifications that we can exploit, but I'll leave it at that for now.
+simplifications that we can exploit, but I'll leave it at that for now[^pseudoinverse].
 
 # Endnotes
 [^inverse]: One can see in the expressions below, that this inverse exists if $$\boldsymbol{W \Phi}(\boldsymbol{\alpha}^\dagger)$$ has linear independent columns. That means the base functions (at the best fit parameters) must be linearly independent, which should be the case for a correcly chosen set of basefunctions for VarPro.
 [^existence]: Note that $$(\boldsymbol{A}^T\boldsymbol{A})^{-1}$$ existing is necessary but not sufficient for the existence of $$(\boldsymbol{J}_{r_w}^T\boldsymbol{J}_{r_w})^{-1}$$. We assume the latter also exists, because we need it to calculate the covariance matrix.
+[^pseudoinverse]: Note, for example that some expressions involve $$((\boldsymbol{W \Phi})^T \boldsymbol{W \Phi})^{-1}(\boldsymbol{W \Phi})^T$$, which is the pseudoinverse of $$\boldsymbol{W \Phi}$$. We can use SVD or QR decompositions to obtain the solutions rather than calculating the peudoinverse itself.

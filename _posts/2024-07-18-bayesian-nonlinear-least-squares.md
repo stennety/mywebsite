@@ -46,7 +46,7 @@ $$\boldsymbol{p}^\dagger$$, formally:
 
 $$ \boldsymbol{p}^\dagger = \arg\min_{\boldsymbol{p}} \frac{1}{2} \lVert W \left(\boldsymbol{y} - \boldsymbol{f}(\boldsymbol{p})\right) \rVert^2 \label{lsqr-fitting}\tag{1.1},$$
 
-where $$\lVert\cdot\rVert$$ is the $$\ell 2$$ norm of a vector and $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a matrix
+where $$\lVert\cdot\rVert$$ is the $$\ell_2$$ norm of a vector and $$\boldsymbol{W} \in \mathbb{R}^{N_y \times N_y}$$ is a matrix
 of weights. We'll spend much more time on what those weights mean in
 the following sections. For now, let's introduce some helpful abbreviations
 and rewrite the equation above:

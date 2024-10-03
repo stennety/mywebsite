@@ -13,6 +13,18 @@ In this post we will explore a simulation of a possible attack that I have spott
 - [pywsus](https://github.com/GoSecure/pywsus)
 - [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) or any Microsoft signed executable
 
+# Detection
+```
+PS > reg query HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate /v WUServer
+  [...output...] http://wsusserver.domain.internal
+PS > reg query HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU /v UseWUServer
+  UseWUServer    REG_DWORD    0x1
+```
+
+If we get http (and NOT https) in the first output and 0x1 in the second, it means the system is vulnerable and we note down the domain name of the WSUS server.
+
+This attack uses the fact that http requests are not authenticated. We also should be wary of people possibly sniffing DNS queries if they own the network as often the domain names for the WSUS servers are fairly recognizeable and could leak the targeted domain to spoof later on (finding out the domain name without access to the machine).
+
 # Setup
 To perform this attack I will use a Kali machine with the following packages installed from `apt`: `isc-dhcp-server` and `dnsmasq` (technically dnsmasq also has a DHCP server) and the git clone'd pywsus
 The target machine is a Windows 10 machine. We normally are only given a AD User without access to the machine's administration.

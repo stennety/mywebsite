@@ -45,6 +45,11 @@ INTERFACESv4="eth1"
 INTERFACESv6=""
 ```
 
+```
+sudo ifconfig eth1 192.168.222.1/24
+sudo systemctl restart isc-dhcp-server.service
+```
+
 ## dns
 We modify `/etc/dnsmasq.conf` as follows:
 
@@ -56,3 +61,14 @@ bind-interfaces
 
 address=/wsusserver.domain.internal/192.168.222.1
 ```
+
+
+```
+sudo ifconfig eth1 192.168.222.1/24
+sudo systemctl restart dnsmasq
+```
+
+----
+
+Now we verify that the Windows box, once connected to the same network (might require to disable and re-enable the interface) automatically gets an IP address and sets the DNS to our attacker box. This is important because changing the DNS settings or any adapter's settings requires admin privileges.
+

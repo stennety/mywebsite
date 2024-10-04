@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploiting WSUS misconfiguration to priviledge escalate on companies Windows computers
+title: Exploiting WSUS misconfiguration to priviledge escalate controlling DHCP
 ---
 
 In this post we will explore a simulation of a possible attack that I have spotted in the wild. Given that by company policy I am not allowed to alter the original PCs, this will be a simulated environment using VMs recreated as loyally as possible to the original golden image.
@@ -17,6 +17,7 @@ In this post we will explore a simulation of a possible attack that I have spott
 ```
 PS > reg query HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate /v WUServer
   [...output...] http://wsusserver.domain.internal
+
 PS > reg query HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU /v UseWUServer
   UseWUServer    REG_DWORD    0x1
 ```
@@ -83,4 +84,8 @@ sudo systemctl restart dnsmasq
 ----
 
 Now we verify that the Windows box, once connected to the same network (might require to disable and re-enable the interface) automatically gets an IP address and sets the DNS to our attacker box. This is important because changing the DNS settings or any adapter's settings requires admin privileges.
+
+Opening a Powershell (or cmd) and running `ping wsusserver.domain.internal` should yield the IP of our attacker machine. If this is all correct we can proceed with the attack
+
+# Attack
 

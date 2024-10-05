@@ -61,7 +61,7 @@ As a table view of different aspects:
 
 When in doubt, I think that RISEN is a good default strategy since it's well suited towards breaking down a more boilerplate task, which is a more typical scenario for using this type of tool in the first place.  It encourages me to be more structured in my thinking about the task, which can also make it more easily repeatable in the future.  My goal in thinking through these different strategies is to find ways to make this all more built-in to my daily routines, rather than it being such a big switch from my typical approaches.
 
-If you like flowcharts as much as I do, you can also refer to this Mermaid chart that Claude created.  Warning, it might just confuse you more.
+If you like flowcharts as much as I do, you can also refer to this Mermaid chart that Claude created.  Warning, it might just confuse you more.  (Note: if this chart doesn't render correctly on my blog, you might need to view it [here](https://github.com/olaservo/olaservo.github.io/blob/master/_posts/2024-10-05-roses-vs-risen.md#how-they-differ) instead.)
 
 ```mermaid
 graph TD

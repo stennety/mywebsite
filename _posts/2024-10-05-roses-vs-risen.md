@@ -44,6 +44,8 @@ The main deciding factors when deciding one strategy or the other are:
 
 As a table view of different aspects:
 
+(Note: if this table doesn't render correctly on my blog, you might need to view it [here](https://github.com/olaservo/olaservo.github.io/blob/master/_posts/2024-10-05-roses-vs-risen.md#how-they-differ) instead.)
+
 | Aspect | ROSES | RISEN |
 |--------|-------|-------|
 | **Focus** | Scenario and context-oriented | Task and goal-oriented |

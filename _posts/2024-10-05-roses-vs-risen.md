@@ -3,7 +3,7 @@ layout: post
 title: ROSES vs RISEN and "Goals" vs "Objectives"
 ---
 
-While learning how to use GenAI for coding projects, I've run into a few different prompting frameworks that can help to organize my thinking and make my instructions more consistent.  ROSES and RISEN are two strategies that seem similar on the surface, so I wanted to dig into the differences between them.
+While learning how to use GenAI for coding projects, I've run into a few different prompting frameworks that help to organize my thinking and make my instructions more consistent.  ROSES and RISEN are two strategies that seem similar on the surface, so I wanted to dig into the differences between them.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ RISEN:
 
 ## What they have in common
 
-Any prompting strategy should include defining a 'role' or 'persona', and that's what the R stands for in both of these acronyms.  This part influences the model's output through both contextual framing and behavioral priming.  At first, one point that Claude brought up when explaining this was that the "role" "Activates relevant knowledge domains within the model's training data."  I found this statement misleading since to me, it implies that the model is somehow looking up its answers from the original data, and I know that this isn't the case.
+Any prompting strategy should include defining a 'role' or 'persona', and that's what the 'R' stands for in both of these acronyms.  This part influences the model's output through both contextual framing and behavioral priming.  At first, one point that Claude brought up when explaining this concept was that the role "Activates relevant knowledge domains within the model's training data."  I found this statement misleading since it implies that the model is somehow looking up its answers from the original data, and I know that this isn't the case.
 
 Claude then clarified that "LLMs do not access their original training data in real-time during inference" and that "the model's "knowledge" is encoded in its parameters, not stored as retrievable data."  So the role is more like a way to "steer the model's attention and generation process towards certain types of outputs."  We have to remember that this is a statistical process, not a person with a never-ending library of facts and figures.  I think this is one of the hardest things to remember when conversing with LLMs:  as a friend of mine said recently, "it's not Super Google."
 
@@ -59,7 +59,7 @@ As a table view of different aspects:
 | **Learning Curve** | Steeper; requires skill in scenario crafting | Gentler; more straightforward to construct |
 | **Adaptability** | Highly adaptable to various complex situations | More rigid, best for well-defined tasks |
 
-When in doubt, I think that RISEN is a good default strategy since it's well suited towards breaking down a more boilerplate task, which is a more typical scenario for using this type of tool in the first place.  It encourages me to be more structured in your thinking about the task, which can also make it more easily repeatable in the future.  My goal in thinking through these different strategies is to find ways to make this all more built-in to my daily routines, rather than it being such a big switch from my typical approaches.
+When in doubt, I think that RISEN is a good default strategy since it's well suited towards breaking down a more boilerplate task, which is a more typical scenario for using this type of tool in the first place.  It encourages me to be more structured in my thinking about the task, which can also make it more easily repeatable in the future.  My goal in thinking through these different strategies is to find ways to make this all more built-in to my daily routines, rather than it being such a big switch from my typical approaches.
 
 If you like flowcharts as much as I do, you can also refer to this Mermaid chart that Claude created.  Warning, it might just confuse you more.
 
@@ -92,4 +92,4 @@ Tools used to help research this post:
 
 * Local Flask app I built to allow me to converse with Claude 3.5 Sonnet using boto3 + AWS Bedrock (which is basically a wrapper for Anthropic APIs)
 * Local instance of [ChatCraft](https://chatcraft.org/) pointing to the local Flask endpoint
-* My full exported chat session related to this post can be found in the `sauce` folder in my [blog GitHub repo](https://github.com/olaservo/olaservo.github.io).
+* My full exported chat session related to this post can be found in the `sauce` folder in my [blog GitHub repo](https://github.com/olaservo/olaservo.github.io/blob/master/sauce/roses_vs_risen_10_05_24.md).

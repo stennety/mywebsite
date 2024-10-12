@@ -22,6 +22,15 @@
   url: "https://cyberflix.wiki.gg/wiki/Cyberflix_Wiki"
   mainpage: "Main_Page"
 - member:
+  id: "dacw"
+  name: "Dune: Awakening Community Wiki"
+  description: "The Dune: Awakening Community Wiki is the community knowledge base for everything to do with Funcom's latest and boldest MMO Survival game, set on the sands of Arrakis in Frank Herbert's DUNE, in collaboration with from the publishers of Denis Villeneuve's latest movies, Legendary."
+  logo: "/images/logos/duneawakeningcommunitywiki.png"
+  url: "https://awakening.wiki/"
+  mainpage: ""
+  discord: "K6xgpKqMTj"
+  age: 18+
+- member:
   id: "falloutwiki"
   name: "Independent Fallout Wiki"
   description: "The Independent Fallout Wiki is the Wasteland's One Stop Shop for Fallout Games, Community Events, News, and Mods! The site was founded on April 8, 2022 and entered early access on Great War Day, October 23, 2022. It officially launched to the public on December 31, 2022."

@@ -37,3 +37,9 @@ A cereja no topo do bolo seria um relatório *post mortem* detalhado do ataque/i
 Para já o [CNCS.PT](https://www.cncs.gov.pt/?persona=it) encontra-se a acompanhar o caso da AMA, tendo já tornado público que a AMA foi vítima de um ataque de *ransomware*, numa nota enviada à comunicação social, como várias fontes dão conta, como é o caso deste artigo do [DN](https://www.dn.pt/2232145776/ama-alvo-de-ciberataque-e-centro-nacional-de-ciberseguranca-esta-a-prestar-apoio/). Outras fontes da área de Segurança Informática, também paratilham a mesma informação como é o caso da [itsecurity.pt](https://www.itsecurity.pt/news/news/cncs-confirma-incidente-de-ransomware-nas-infraestruturas-da-ama) e da [security magazine](https://www.securitymagazine.pt/2024/10/10/cncs-acompanha-incidente-de-ransomware-notificado-pela-ama/).
 
 
+> [!WARNING] 
+> ## Atualização 
+> Na segunda-feira 2024-10-14 ao final do dia, segundo a própria AMA, a maior parte dos serviços já se encontravam disponíveis.
+> Pode-se ler como mais detalhe os serviços já recuperados na página da AMA dedicada a este incidente de [indisponibilidade](https://indisponibilidade.ama.gov.pt/).
+> Para já não há mais detalhes oficiais sobre o que se passou, apenas sabemos que a AMA terá sido vítima de um ataque de *ransomware*, *hugops* para quem está "no terreno" a recuperar os serviços.
+

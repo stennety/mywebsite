@@ -4,7 +4,9 @@ title: Recent Innovations in AI Interfaces: OpenWebUI, Ollama, ComfyUI, Hugging 
 tags: [AI, LLMs, Open-Source, Innovation, Interfaces]
 ---
 
-As AI continues to evolve, platforms that simplify its usage and enhance its accessibility are increasingly in demand. In this post, we explore some of the most exciting recent developments in AI interfaces, focusing on OpenWebUI, Ollama, ComfyUI, Hugging Face, Lavague.ai, Perplexity.ai, and Wisemap.ai.
+
+**Cool open source projects**
+-------------------------------------
 
 
 ## OpenWebUI

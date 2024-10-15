@@ -4,6 +4,7 @@ title: Update on open source AI Interfaces
 tags: [AI, LLMs, Open-Source, Innovation, Interfaces]
 ---
 
+October 2024 update on recent development about open soruce AI interfaces for AI chatbot conversation, iamges generation, tooling, etc.
 
 **Cool open source projects**
 -------------------------------------

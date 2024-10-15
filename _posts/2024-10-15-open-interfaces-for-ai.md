@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recent Innovations in AI Interfaces: OpenWebUI, Ollama, ComfyUI, Hugging Face, Lavague.ai, Perplexity.ai, and Wisemap.ai
+title: Update on open source AI Interfaces
 tags: [AI, LLMs, Open-Source, Innovation, Interfaces]
 ---
 

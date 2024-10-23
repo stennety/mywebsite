@@ -29,10 +29,6 @@ Read more about Ollama’s integration with OpenWebUI [here](https://openwebui.c
 
 Learn more about ComfyUI on their [official page](https://github.com/comfyanonymous/ComfyUI).
 
-## Hugging Face (AI Hub)
-**Hugging Face** is a company that remains a key platform for AI development, hosting thousands of models and datasets. It provides developers easy access to pre-trained models and API tools, simplifying the integration of AI into various applications. Hugging Face's emphasis on interoperability has made it a go-to resource for AI innovation, powering projects across domains like natural language processing, image recognition, and more.
-
-Explore Hugging Face models [here](https://huggingface.co/models).
 
 ## Lavague.ai
 **Lavague.ai** is developing advanced **large action models** for automating interactions with web browsers using Selenium (Python). This allows users to automate complex web tasks such as data extraction and classification. Though still in its early stages, Lavague.ai promises to bring browser-based AI automation to industries where efficiency and precision are paramount.
@@ -40,8 +36,12 @@ Explore Hugging Face models [here](https://huggingface.co/models).
 Explore their [website](https://www.lavague.ai/).
 
 
-**Noteworthy Projects from startups**
+**Noteworthy Projects from companies**
 -------------------------------------
+## Hugging Face (AI Hub)
+**Hugging Face** is a company that remains a key platform for AI development, hosting thousands of models and datasets. It provides developers easy access to pre-trained models and API tools, simplifying the integration of AI into various applications. Hugging Face's emphasis on interoperability has made it a go-to resource for AI innovation, powering projects across domains like natural language processing, image recognition, and more.
+
+Explore Hugging Face models [here](https://huggingface.co/models).
 
 ## Perplexity.ai
 **Perplexity.ai** is an AI-powered question-answering platform that draws on real-time web data to deliver highly accurate answers. It combines conversational AI with a robust knowledge base, making it a popular tool for users who need interactive, real-time AI search functionality.

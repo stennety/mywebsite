@@ -11,6 +11,7 @@ This update covers the latest advancements in open-source AI interfaces for chat
 **Noteworthy Open Source Projects**
 -------------------------------------
 
+
 ## OpenWebUI
 **OpenWebUI** is a user-friendly interface designed to simplify the management and deployment of large language models (LLMs). It integrates smoothly with popular APIs such as **OpenAI** and **Ollama**, offering versatile local AI deployment options. Key features include document interaction via **Retrieval Augmented Generation (RAG)**, integrated image generation through **ComfyUI**, and hands-free video calls. OpenWebUI is ideal for users seeking an all-in-one AI platform, complete with web search capabilities and Markdown/LaTeX support, making it useful for both technical and non-technical audiences.
 
@@ -38,6 +39,10 @@ Explore Hugging Face models [here](https://huggingface.co/models).
 
 Explore their [website](https://www.lavague.ai/).
 
+
+**Noteworthy Projects from startups**
+-------------------------------------
+
 ## Perplexity.ai
 **Perplexity.ai** is an AI-powered question-answering platform that draws on real-time web data to deliver highly accurate answers. It combines conversational AI with a robust knowledge base, making it a popular tool for users who need interactive, real-time AI search functionality.
 
@@ -45,6 +50,17 @@ Visit [Perplexity.ai](https://perplexity.ai).
 
 ## Wisemap.ai
 **Wisemap.ai** is an innovative tool designed for AI-assisted knowledge mapping. It helps users organize and visualize information efficiently, making it especially useful for researchers, educators, and teams working with complex datasets. By structuring knowledge with AI, Wisemap.ai offers a dynamic approach to understanding and managing information.
-
 Check out [Wisemap](https://wisemap.ai).
 ![Wisemap of Wisemap](/images/wisemapwisemap.png "Auto-generated Wisemap")
+
+## Meshy AI - 3D model generator (expensive ++)
+
+Meshy.ai is a 3D model generator that utilizes advanced AI algorithms to transform text or images into fully textured 3D models. Its backend is driven by machine learning models designed to interpret input prompts and create detailed models with various customization options.
+
+Check out [Meshy](https://www.meshy.ai/discover?tab=downloads).
+
+Looking for the wisemap ? [MeshyWisemap](https://wisemap.ai/m/aaAj/).
+
+![Meshy 3d models](/images/meshyai.png "Meshy capture")
+![Wisemap of Meshy](/images/meshyai.png "Auto-generated Wisemap")
+

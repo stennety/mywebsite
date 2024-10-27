@@ -5,7 +5,7 @@ date: 2018-11-11 12:00:00 +0000
 comments: true
 categories: Open Source
 ---
-![Red Hat headquarters](https://www.balfourbeattyus.com/Balfour-dev.allata.com/media/content-media/Our%20Work/ProjectImages/Raleigh_RedHatHQ_Gallery6-1280X582.png?ext=.png){: .center-image }
+![Red Hat headquarters](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Rainy_Downtown_Raleigh_Cityscape_%28198587163%29.jpeg/1016px-Rainy_Downtown_Raleigh_Cityscape_%28198587163%29.jpeg){: .center-image }
 $34 billion! That's what Big Blue (IBM) recently put forward to acquire the world's most prominent open source company, Red Hat. What a massive vote of confidence for the free and open source software (FOSS) development model! As a long time FOSS advocate, I'm going to be really mature about all this...and...blow a huge raspberry at all the detractors who have, for years, dismissed the movement as a 'fad' that allegedly delivers poor quality, insecure and legally dubious products. You all were so wrong; frankly, the modern pervasiveness of open source technology even surprises me at times!
 
 I'm going to stick my neck out with a prediction: over the next decade, technology companies that don't invest in building collaborative communities around their products, will become a rarity. This is not about tacking on cool buzzwords whilst otherwise carrying on as usual. It's about survival. Nokia found this out the hard way, when it was effectively wiped out by increasingly tough competition from Apple and Google Android smartphones---both driven by a solid OS, built on strong FOSS foundations.

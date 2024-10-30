@@ -11,20 +11,19 @@
 		
 <body>
 	<div class="main-container" role="main">
-		<div id="map" aria-label="Golf"></div>
-			<div class="content" tabindex="0"  aria-label="Manila">
-
-				<H1>Golf Renovation - Nicklaus/Tom O'Toole - Normandie in St. Louis</H1> 
-				<p>The Normandie Golf Course renovation in St. Louis is a project that is being spearheaded by Jack Nicklaus with <a style='font-weight:bold' href='https://www.stlshof.com/tom-otoole/' target='_blank' rel='nofollow'>Tom O'Toole</a> from the USGA.  The Metropolitan Golf Foundation, the philanthropic arm of the <a style='font-weight:bold' href='https://www.metga.org/' target='_blank' rel='nofollow'>Metropolitan Amateur Golf Association</a> owns Normandie Golf Club. The course was acquired from the University of Missouri-St. Louis in 2022 for $1.5 million. The goal of the project is to revitalize the historic golf course with new grassing and the latest in bunker liner technology.</p>
-				<p>The renovation will include a number of changes to the course, including new flat tee boxes with newly sloping, contoured greens.  Updating the irrigation system to HDPE pipe with centralized computer system is another major undertaking in the project.  The renovation was budgeted to cost $15 million and start in September 2023, but postponement of the project will lead to a larger budget for a future build date.</p>
-				<p>The Normandie Golf Course renovation is a significant project that will have a major impact on the St. Louis golf community. The new course will be a valuable asset to the city and Metropolitan Golf Foundation.</p>
-
-			</div>
-	</div>
+	 <div id="map" aria-label="Golf"></div>
+		<div class="content" tabindex="0"  aria-label="Manila">
+			<H1>Golf Renovation - Nicklaus/Tom O'Toole - Normandie in St. Louis</H1> 
+			<p>The Normandie Golf Course renovation in St. Louis is a project that is being spearheaded by Jack Nicklaus with <a style='font-weight:bold' href='https://www.stlshof.com/tom-otoole/' target='_blank' rel='nofollow'>Tom O'Toole</a> from the USGA.  The Metropolitan Golf Foundation, the philanthropic arm of the <a style='font-weight:bold' href='https://www.metga.org/' target='_blank' rel='nofollow'>Metropolitan Amateur Golf Association</a> owns Normandie Golf Club. The course was acquired from the University of Missouri-St. Louis in 2022 for $1.5 million. The goal of the project is to revitalize the historic golf course with new grassing and the latest in bunker liner technology.</p>
+			<p>The renovation will include a number of changes to the course, including new flat tee boxes with newly sloping, contoured greens.  Updating the irrigation system to HDPE pipe with centralized computer system is another major undertaking in the project.  The renovation was budgeted to cost $15 million and has started construction as of October 2024.</p>
+			<p>Design updates will re-route the golf course with new greens and new tees.  A new irrigation system is also part of the course upgrade.</p>
+			<p>The Normandie Golf Course renovation is a significant project that will increase the back tee yardage of the course to 7,007 yards and have a major impact on the St. Louis golf community. The new course will be a valuable asset to the city and Metropolitan Golf Foundation.  There is anticipation for the site to be used in national amateur and regional golf tournaments.</p>
+		</div>
+	 </div>
 	
 	
 	
-    <script>
+	 <script>
             const map = L.map('map').setView([38.698303,-90.319432], 6);
             const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				maxZoom: 30,
@@ -37,9 +36,9 @@
 					this._container = L.DomUtil.create('div', 'leaflet-custom-overlay');
 			
 				    this._container.innerHTML = `
-	                    <lite-youtube videoid="F76NaINSVEo" style="background-image: url('https://i3.ytimg.com/vi/F76NaINSVEo/hqdefault.jpg');">
-	                        <a href="https://youtube.com/watch?v=F76NaINSVEo" class="lty-playbtn" title="Play Video.  Credit: Metropolitan Amateur Golf Association">
-	                            <span class="lyt-visually-hidden">Credit: Metropolitan Amateur Golf Association</span>
+	                    <lite-youtube videoid="b2m9YavK0bA" style="background-image: url('https://i3.ytimg.com/vi/b2m9YavK0bA/hqdefault.jpg');">
+	                        <a href="https://youtube.com/watch?v=b2m9YavK0bA" class="lty-playbtn" title="Play Video.  Credit: Crossroads College Prep CurrentNewz">
+	                            <span class="lyt-visually-hidden">Credit: Crossroads College Prep CurrentNewz</span>
 	                        </a>
 	                    </lite-youtube>
 	                `;
@@ -75,6 +74,8 @@
 	        marker.bindPopup("<b>St. Louis, Missouri</b>").openPopup();
 	</script>
 	
+   	<p><a href="https://fescue.github.io/Midland-County-Municipal-Golf-Course/">Midland County Muni in Texas</a></p>
+   	<p><a href="https://fescue.github.io/Lazy-J/">Lazy J in South Dakota</a></p>
    	<p><a href="https://fescue.github.io/Panther-National/">Panther National Golf Club</a></p>
 	
 	{% include bodyFooter.html %}

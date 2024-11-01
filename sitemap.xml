@@ -32,6 +32,14 @@
     <priority>1</priority>
 </url>    
 <url>
+    <loc>https://fescue.github.io/Old-Shores/</loc>
+    <priority>1</priority>
+</url>
+<url>
+    <loc>https://fescue.github.io/Wild-Spring-Dunes/</loc>
+    <priority>1</priority>
+</url>    
+<url>
     <loc>https://fescue.github.io/2023/</loc>
     <priority>1</priority>
 </url>

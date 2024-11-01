@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: ndbhamvani
   instagram:
-  linkedin: <%= ENV['LINKEDIN'] %>
+  linkedin: nitin-bhamvani-312720159
   pinterest: nitbuntu
   rss:
   twitter:

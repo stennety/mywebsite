@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Learning about GenAI and creativity"
-excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling AI to experiment with this emerging technology."
+title: "Inspiration to Experimentation: My First GenAI Project in NYC"
+excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling AI."
+image: "/assets/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
+
 ---
-
-Learning about GenAI and creativity
-===
-
 I moved to New York last month. An exciting empty page - soon filled with too many bullet points of things to do... One has stuck with me: how can I capture this very specific moment? I started messing with different generative AI tools, and in this post I wanted to share some of the process and pain points. I'm more tech than creative, but would love to hear any suggestions!
 
 ## The Idea
@@ -32,12 +30,12 @@ Talking through and writing down my thoughts this way helped a lot.
 ## Music & Lyrics
 I used [Udio](https://www.udio.com/home) for a 30s snippet.
 
-Getting the spirit of the song right took a few tries. Some experiments were fun, but very far from what I intended; for example, this French-sounding song was lovely but not quite right:  
-[Listen on Udio](https://www.udio.com/songs/7LKtzrHMMWx9c2c6UE2hbP)  
+Some experiments were fun, far from what I intended. For example, this was very French, not very Sting:  
+
 <iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
 
 Once I got a song that seemed to match the structure and themes I wanted, I edited the lyrics with ChatGPT. That process helped me a lot.  
-[Final Song on Udio](https://www.udio.com/songs/s2VLZbpyZyK7ZcMyUeNBBz)  
+
 <iframe src="https://www.udio.com/embed/s2VLZbpyZyK7ZcMyUeNBBz?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
 
 ## Generating Some Images

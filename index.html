@@ -8,6 +8,12 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+      {% if post.image %}
+      <div class="post-image">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      </div>
+      {% endif %}
+
       <div class="entry">
         {{ post.excerpt }}
       </div>

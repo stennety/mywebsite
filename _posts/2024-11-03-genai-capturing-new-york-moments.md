@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inspiration to Experimentation: My First GenAI Project in NYC"
+title: "Testing GenAI to capture a NYC Moment"
 excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling AI."
 image: "/assets/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
 
@@ -30,24 +30,14 @@ Talking through and writing down my thoughts this way helped a lot.
 ## Music & Lyrics
 I used [Udio](https://www.udio.com/home) for a 30s snippet.
 
-Some experiments were fun, far from what I intended. For example, this was very French, not very Sting:  
-
-<iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
-
-Once I got a song that seemed to match the structure and themes I wanted, I edited the lyrics with ChatGPT. That process helped me a lot.  
+I iterated on structure and theme without worrying about lyrics (1), before directly editing the text with ChatGPT. Focusing on one area at a time helped me feel like I was making smaller and easier decisions at every step.
 
 <iframe src="https://www.udio.com/embed/s2VLZbpyZyK7ZcMyUeNBBz?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
 
-## Generating Some Images
-I had high hopes for Runway on the image generation side, though it took me a while to realize I was going down some dead-ends creatively.
+## Base Images
+I had high hopes for Runway on the image generation side. I stopped when I realized I was going down creative dead-ends. (2)
 
-A lot of terrible eyes and probably overloading the query with semantics.  
-*Prompt example*:  
-> “Medium-full shot of a cyclist singing while riding through an autumn street in New Jersey. The cyclist is dressed in casual, comfortable clothing, captured in a realistic, cinematic style. The person should appear detailed and expressive, with a focus on natural movements and facial expression while singing. The background is minimalist, with just a few fall leaves scattered and soft, natural light illuminating the scene. The Statue of Liberty is visible in the distance, but the emphasis is on the cyclist's realism, personality, and connection to the moment.”
-
-![biker image]
-
-After a long break, I tried Kling AI (klingai.com). Support for reference images and a [detailed guide](https://docs.qingque.cn/d/home/eZQCtOj9fX_6cUjT_0yuk-yrL) made a huge difference.
+After a break, I started over with [Kling AI](https://klingai.com). I'd missed the UX for reference images in Runway, and Kling's [detailed prompting guide](https://docs.qingque.cn/d/home/eZQCtOj9fX_6cUjT_0yuk-yrL) made a huge difference.
 
 ![hat image]
 
@@ -60,3 +50,13 @@ The final product is:
 
 ## Thanks
 Thanks to everyone who’s been so welcoming to my husband and me in New York.
+
+(1) Emphasis matters: This was very French, not very Sting:  
+<iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
+
+
+(2) Creative dead-ends: Something about prompts like this one really didn't work. 
+*Prompt example*:  
+> “Medium-full shot of a cyclist singing while riding through an autumn street in New Jersey. The cyclist is dressed in casual, comfortable clothing, captured in a realistic, cinematic style. The person should appear detailed and expressive, with a focus on natural movements and facial expression while singing. The background is minimalist, with just a few fall leaves scattered and soft, natural light illuminating the scene. The Statue of Liberty is visible in the distance, but the emphasis is on the cyclist's realism, personality, and connection to the moment.”
+
+![Biker result](/images/genai-nyc-runway-biker.png)

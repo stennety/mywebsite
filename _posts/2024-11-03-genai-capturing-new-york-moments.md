@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing GenAI to capture a NYC Moment"
-excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling AI."
+excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling."
 image: "/assets/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
 
 ---
@@ -52,11 +52,12 @@ The final product is:
 Thanks to everyone who’s been so welcoming to my husband and me in New York.
 
 (1) Emphasis matters: This was very French, not very Sting:  
+> "a song about a frenchman in new jersey, in the style of an englishman in new york, with reference to meeting Tree at stonewall, friends visiting or welcoming us, wicked musical, ferry from hoboken"
+
 <iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
 
 
 (2) Creative dead-ends: Something about prompts like this one really didn't work. 
-*Prompt example*:  
 > “Medium-full shot of a cyclist singing while riding through an autumn street in New Jersey. The cyclist is dressed in casual, comfortable clothing, captured in a realistic, cinematic style. The person should appear detailed and expressive, with a focus on natural movements and facial expression while singing. The background is minimalist, with just a few fall leaves scattered and soft, natural light illuminating the scene. The Statue of Liberty is visible in the distance, but the emphasis is on the cyclist's realism, personality, and connection to the moment.”
 
-![Biker result](/images/genai-nyc-runway-biker.png)
+![Biker result](/images/genai-nyc-runway-biker.jpg)

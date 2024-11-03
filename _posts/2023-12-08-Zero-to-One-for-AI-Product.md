@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Zero to One for AI Product
+image: "/images/zero-to-one-video-fault-tolerant-UX-screenshot.png"
 ---
-
-![Presentation Video - screenshot](/images/zero-to-one-video-fault-tolerant-UX-screenshot.png)
 
 Recording from Guest Speaker presentation at [CIS 580A2 - AI/ML Product Management](https://www.online.colostate.edu/courses/CIS/CIS580A2.dot), Colorado State University.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Testing GenAI to capture a NYC Moment"
 excerpt: "Exploring generative AI tools to capture moments in NYC - my first creative project using Runway, Udio, and Kling."
-image: "/assets/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
+image: "/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
 
 ---
 I moved to New York last month. An exciting empty page - soon filled with too many bullet points of things to do... One has stuck with me: how can I capture this very specific moment? I started messing with different generative AI tools, and in this post I wanted to share some of the process and pain points. I'm more tech than creative, but would love to hear any suggestions!

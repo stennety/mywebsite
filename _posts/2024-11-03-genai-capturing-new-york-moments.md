@@ -32,7 +32,9 @@ I used [Udio](https://www.udio.com/home) for a 30s snippet.
 
 I iterated on structure and theme without worrying about lyrics (1), before directly editing the text with ChatGPT. Focusing on one area at a time helped me feel like I was making smaller and easier decisions at every step.
 
+<div class="responsive-iframe">
 <iframe src="https://www.udio.com/embed/s2VLZbpyZyK7ZcMyUeNBBz?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
+</div>
 
 ## Base Images
 I had high hopes for Runway on the image generation side. I stopped when I realized I was going down creative dead-ends. (2)
@@ -54,7 +56,9 @@ Thanks to everyone who’s been so welcoming to my husband and me in New York.
 (1) Emphasis matters: This was very French, not very Sting:  
 > "a song about a frenchman in new jersey, in the style of an englishman in new york, with reference to meeting Tree at stonewall, friends visiting or welcoming us, wicked musical, ferry from hoboken"
 
+<div class="responsive-iframe">
 <iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
+</div>
 
 
 (2) Creative dead-ends: Something about prompts like this one really didn't work. 

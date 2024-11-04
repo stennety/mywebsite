@@ -33,7 +33,12 @@ I used [Udio](https://www.udio.com/home) for a 30s snippet.
 I iterated on structure and theme without worrying about lyrics (1), before directly editing the text with ChatGPT. Focusing on one area at a time helped me feel like I was making smaller and easier decisions at every step.
 
 <div class="responsive-iframe">
-<iframe src="https://www.udio.com/embed/s2VLZbpyZyK7ZcMyUeNBBz?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
+<iframe 
+  src="https://www.udio.com/embed/s2VLZbpyZyK7ZcMyUeNBBz?embedVariant=default" 
+  style="width:700px; height:228px; border-radius:12px;"
+  sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"
+  loading="lazy"
+></iframe>
 </div>
 
 ## Base Images
@@ -64,7 +69,11 @@ _Thanks to everyone who’s been so welcoming to my husband and me in the USA. I
 > "a song about a frenchman in new jersey, in the style of an englishman in new york, with reference to meeting Tree at stonewall, friends visiting or welcoming us, wicked musical, ferry from hoboken"
 
 <div class="responsive-iframe">
-<iframe src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"></iframe>
+<iframe 
+src="https://www.udio.com/embed/7LKtzrHMMWx9c2c6UE2hbP?embedVariant=default" style="width:700px; height:228px; border-radius:12px;"
+sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"
+loading="lazy"
+></iframe>
 </div>
 
 

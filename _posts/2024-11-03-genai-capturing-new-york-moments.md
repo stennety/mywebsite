@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing GenAI to capture a Moment"
+title: "Testing GenAI to capture a moment"
 excerpt: "Exploring generative AI tools to capture moments in NYC and New Jersey - my first creative project using Runway, Udio, and Kling."
 image: "/images/genai-nyc-runway_statue_of_liberty_waterfront.jpg"
 
@@ -47,7 +47,7 @@ After a break, I started over with [Kling AI](https://klingai.com). I'd missed t
 Lip sync was actually the least creative. It feels like animation will either mostly succeed, or very obviously fail. (3)
 
 <video controls width="100%">
-  <source src="{{ '//videos/genai-nyc-runway-lipsync.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/videos/genai-nyc-runway-lipsync.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -75,12 +75,12 @@ _Thanks to everyone who’s been so welcoming to my husband and me in the USA. I
 
 (3) Side-on created a mouth on the nose:
 <video controls width="100%">
-  <source src="{{ '//videos/genai-nyc-lipsync-fail.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/videos/genai-nyc-lipsync-fail.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 (4) Animating a walk cycle created blinks, rain, but some odd waves instead of any body movement:
 <video controls width="100%">
-  <source src="{{ '//videos/genai-nyc-animation-fail.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/videos/genai-nyc-animation-fail.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>

@@ -85,13 +85,17 @@ loading="lazy"
 ![Suprisingly bad result of a biker](/images/genai-nyc-runway-biker.jpg)
 
 (3) Side-on created a mouth on the nose:
-<video controls width="100%">
-  <source src="{{ '/videos/genai-nyc-lipsync-fail.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-container">
+  <video controls>
+    <source src="{{ '/videos/genai-nyc-lipsync-fail.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 (4) Animating a walk cycle created blinks, rain, but some odd waves instead of any body movement:
-<video controls width="100%">
-  <source src="{{ '/videos/genai-nyc-animation-fail.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-container">
+  <video controls>
+    <source src="{{ '/videos/genai-nyc-animation-fail.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

@@ -10,7 +10,7 @@ I moved to New York last month. An exciting empty page - soon filled with too ma
 ## Idea
 I stumbled on inspiration in our first week. My husband and I visited the Stonewall Inn, where Tree, [an activist](<https://punchdrink.com/articles/tree-sequoia-is-the-spirit-of-stonewall-inn-bar-nyc/)>), shared history and gossip. 
 
-It brought back teenage memories of listening to *An Englishman in New York*. There’s something of a hero in characters like [Quentin Crisp](https://en.wikipedia.org/wiki/Quentin_Crisp). 
+It brought back teenage memories of listening to *[An Englishman in New York](https://www.youtube.com/watch?v=d27gTrPPAyk)*. There’s something of a hero in characters like [Quentin Crisp](https://en.wikipedia.org/wiki/Quentin_Crisp). 
 
 What if he'd been a Frenchman in Hoboken?
 

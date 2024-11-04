@@ -291,6 +291,20 @@ iframe {
   border: 0;
 }
 
+/* Responsive video container */
+.video-container {
+  position: relative;
+  max-width: 100%;
+  max-height: 500px; /* Adjust this value as needed */
+  margin: 20px 0;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Should match container */
+  object-fit: contain;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

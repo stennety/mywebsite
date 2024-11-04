@@ -51,10 +51,12 @@ After a break, I started over with [Kling AI](https://klingai.com). I'd missed t
 ## Animation
 Lip sync was actually the least creative. It feels like animation will either mostly succeed, or very obviously fail. (3)
 
-<video controls width="100%">
-  <source src="{{ '/videos/genai-nyc-runway-lipsync.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-container">
+  <video controls>
+    <source src="{{ '/videos/genai-nyc-runway-lipsync.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## Conclusion
 "Done is better than perfect". Even though I wasn’t 100% satisfied with any specific step in the process, and I had a bunch of other ideas I wanted to try, I stopped here. (4)

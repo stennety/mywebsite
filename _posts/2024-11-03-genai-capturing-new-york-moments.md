@@ -43,15 +43,22 @@ After a break, I started over with [Kling AI](https://klingai.com). I'd missed t
 
 ![good result of a pedestrian](/images/genai-nyc-kling-walker.png)
 
-## Lip-Sync
-"Done is better than perfect," so even though I wasn’t 100% satisfied with any step in the process, I pushed through to the lip-sync stage. This was actually the step with the least creative effort—it feels like this will either work or it won’t. It really didn’t work the first time, probably because I started with a side-on image.
+## Animation
+Lip sync was actually the least creative. It feels like animation will either mostly succeed, or very obviously fail. (3)
 
-The final product is:
+<video controls width="100%">
+  <source src="{{ '//videos/genai-nyc-runway-lipsync.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Conclusion
+"Done is better than perfect". Even though I wasn’t 100% satisfied with any specific step in the process, and I had a bunch of other ideas I wanted to try, I stopped here. (4)
+
+I think AI today can get you 80% of the way there. And in the revenge of the [pareto principle](https://en.wikipedia.org/wiki/Pareto_principle), sometimes it feels like there's still 80% of the work left to do.
 
 ---
 
-## Thanks
-Thanks to everyone who’s been so welcoming to my husband and me in New York.
+_Thanks to everyone who’s been so welcoming to my husband and me in the USA. It's been a magical month._
 
 (1) Emphasis matters: This was very French, not very Sting:  
 > "a song about a frenchman in new jersey, in the style of an englishman in new york, with reference to meeting Tree at stonewall, friends visiting or welcoming us, wicked musical, ferry from hoboken"
@@ -65,3 +72,15 @@ Thanks to everyone who’s been so welcoming to my husband and me in New York.
 > “Medium-full shot of a cyclist singing while riding through an autumn street in New Jersey. The cyclist is dressed in casual, comfortable clothing, captured in a realistic, cinematic style. The person should appear detailed and expressive, with a focus on natural movements and facial expression while singing. The background is minimalist, with just a few fall leaves scattered and soft, natural light illuminating the scene. The Statue of Liberty is visible in the distance, but the emphasis is on the cyclist's realism, personality, and connection to the moment.”
 
 ![Suprisingly bad result of a biker](/images/genai-nyc-runway-biker.jpg)
+
+(3) Side-on created a mouth on the nose:
+<video controls width="100%">
+  <source src="{{ '//videos/genai-nyc-lipsync-fail.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+(4) Animating a walk cycle created blinks, rain, but some odd waves instead of any body movement:
+<video controls width="100%">
+  <source src="{{ '//videos/genai-nyc-animation-fail.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

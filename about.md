@@ -12,9 +12,6 @@ We are dedicated to strengthening connections between alumni at home and abroad,
 为方便以后开展工作，请填写校友信息
 * [北美各地校友信息表](https://forms.gle/P6eS3z7aTnbo9ESJ7)
 
-### Contact Us
-[cdqz_alumni@googlegroups.com](mailto:cdqz_alumni@googlegroups.com)
-
 ### Donation
 * 经费目前主要用于网站域名维护，税务，活动等支出。
 * [目前已捐助的资金情况](https://docs.google.com/spreadsheets/d/1knkfbOSkbzpgHtOgweLKCoEyUcdekEdP5K1O3zqDEpE/edit?usp=sharing)
@@ -25,3 +22,6 @@ We are dedicated to strengthening connections between alumni at home and abroad,
 ### Contribution to Homepage
 网站是基于Github Pages的，感兴趣的可以帮忙参与维护
 [cdqz-school.github.io](https://github.com/cdqz-school/cdqz-school.github.io)
+
+### Contact Us
+[cdqz_alumni@googlegroups.com](mailto:cdqz_alumni@googlegroups.com)

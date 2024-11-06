@@ -15,9 +15,11 @@ We are dedicated to strengthening connections between alumni at home and abroad,
 ### Donation
 * 经费目前主要用于网站域名维护，税务，活动等支出。
 * [目前已捐助的资金情况](https://docs.google.com/spreadsheets/d/1knkfbOSkbzpgHtOgweLKCoEyUcdekEdP5K1O3zqDEpE/edit?usp=sharing)
-* 账户: Zelle: cdqz_alumni@googlegroups.com
+* 账户:
+  * Zelle: cdqz_alumni@googlegroups.com
+  * 各大公司的捐款系统正在接入当中
 * 捐助后请填这个表格我们好对账: [七中校友会捐款信息](https://forms.gle/4fQ1uPxKLmj6hhWY8)
-* 各大公司的捐款系统正在接入当中
+
   
 ### Contribution to Homepage
 网站是基于Github Pages的，感兴趣的可以帮忙参与维护

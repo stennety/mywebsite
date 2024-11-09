@@ -1,0 +1,40 @@
+/* Style the table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+/* Style the table header */
+.styled-table th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Style the table rows */
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+.styled-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Zebra striping effect for table rows */
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the table borders */
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+}

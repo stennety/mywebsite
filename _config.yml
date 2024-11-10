@@ -6,10 +6,10 @@
 name: fr123k
 
 # Short bio or description (displayed in the header)
-description: Passionate Site Reliabilitye Engineer 
+description: Passionate Platform Engineer 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/56318800?s=400&u=5b24023e4341d1cbc5a63cedcb997861dbbb1430&v=4
+avatar: https://avatars.githubusercontent.com/u/126682769?v=4
 
 #
 # Flags below are optional
@@ -21,14 +21,15 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: fr123k
+  github: fr12k
+  github2: fr123k
   instagram:
   linkedin: frank-ittermann
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: channel/UC6aIW1bePhJMj-rsnPdYFzA
+  # youtube: channel/UC6aIW1bePhJMj-rsnPdYFzA
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 

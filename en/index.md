@@ -83,7 +83,7 @@ Cryptocurrency in Greece is currently only regulated from an AML (Anti Money Lau
 - The [Cyprus Blockchain Technologies](http://cybt.eu) non-profit organization
 - Other [funded startups](https://docs.google.com/spreadsheets/d/1q8H-evgVzzqmrzmRkNA9RSafhd1g80CS1nK5B6Hedl8/edit#gid=0)
 
-Last update: 2024-04-20
+Last update: 2024-11-11
 
 <!-- <div class="posts">
   {% for post in site.posts %}

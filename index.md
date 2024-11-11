@@ -339,7 +339,7 @@ ii) στο πλαίσιο των Ε.Λ.Π. αποτιμάται στο αποσ�
 - Ο Μη-Κερδοσκοπικός Οργανισμός [Cyprus Blockchain Technologies](http://cybt.eu)
 - Άλλες [startups που έλαβαν χρηματοδότηση](https://docs.google.com/spreadsheets/d/1q8H-evgVzzqmrzmRkNA9RSafhd1g80CS1nK5B6Hedl8/edit#gid=0)
 
-Τελευταία ενημέρωση: 2024-04-20
+Τελευταία ενημέρωση: 2024-11-11
 
 <!-- <div class="posts">
   {% for post in site.posts %}

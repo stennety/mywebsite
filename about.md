@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Soy administrador de sistemas con más de 6 años de experiencia en el sector. Apasionado de la tecnología y del autoaprendizaje continuo. Me considero una persona en constante desarrollo.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:carretasperuleromiguel@gmail.com)

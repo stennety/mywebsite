@@ -8,7 +8,7 @@ If you're reading this, chances are you're planning to build a local AI system w
 
 CPU-ONLY build will work and will be cheap. but also 10x slower, it is **not intended to be usable for productivity**.
 
-**Lowest Carbon Footprint: A Key Consideration**
+**Lower your Carbon Footprint**
 ---------------------------------------------
 
 When building an AI system, it's essential to consider the environmental impact of your setup. The power consumption of this system will be around 80-120WH when idle and 1KWH on  heavy-load with 4 GPUs.
@@ -20,7 +20,7 @@ Here are some tips to minimize your carbon footprint:
 * **Nvidia eco performance mode**: Reduce to ~15W the idle power consumption per card.
 
 
-**Your Use Case: Local AI ChatGPT and Image Generation**
+**Local AI ChatGPT and Image Generation**
 ---------------------------------------------------------
 
 If you're looking to build a local AI system for chatGPT-like functionality and image generation, we recommend the following open-source tools:
@@ -32,7 +32,10 @@ If you're looking to build a local AI system for chatGPT-like functionality and 
 **How Many GPUs Do You Need?**
 -----------------------------
 
-The number of GPUs required depends on your specific use case and desired performance. Here are some guidelines:
+The number of GPUs required depends on your specific use case and desired performance. 
+Generally you want one application running on only one GPU which size is tailored to it. Otherwise you will be constantly loading new data into the VRAM. That will not work for a concurrent use unless you use a GPU workload orchestrator.
+
+Here are some guidelines:
 
 * **Same quality as GPT4**: 2 RTX 3090 or more
 * **Same quality as GPT3.5**: 1 RTX 3090 or more

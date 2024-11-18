@@ -4,7 +4,7 @@ title: Open vs Proprietary
 tags: [AI, Open-Source]
 ---
 
-MCompanies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives.
+Companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives.
 
 ## August 2024 - Open-source and proprietary AI models
 

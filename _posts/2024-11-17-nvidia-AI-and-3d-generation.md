@@ -10,7 +10,7 @@ New release for 3D mesh generation. A LLM used as the main building block for 3D
 
 "LLaMA-Mesh unifies text and 3D mesh in a unified format by representing the numerical values of vertex coordinates and face definitions of a 3D mesh as plain text. Our model is trained using text and 3D mesh data in an end-to-end manner. Therefore, our model can generate both text and 3D meshes in a unified model". nv-tlabs/LLaMA-Mesh 
 
-More details about Llammesh can be found on its [GitHub page] (https://github.com/nv-tlabs/LLaMA-Mesh).
+More details about Llammesh can be found on its [GitHub page](https://github.com/nv-tlabs/LLaMA-Mesh).
 
 Meshy.ai is a 3D mesh AI model generator that uses advanced AI algorithms to transform text or images into fully textured 3D models. Although it's the most advanced model, it can't generate a plane, but it excels at 'organic' shapes.
 

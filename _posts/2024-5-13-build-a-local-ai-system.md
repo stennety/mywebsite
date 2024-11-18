@@ -6,7 +6,7 @@ tags: [AI, local-AI-System, hardware]
 
 If you're reading this, chances are you're planning to build a local AI system with a single RTX 4090. But before you dive in, let me share some valuable insights that can help you save a significant amount of money while achieving your goals.
 
-CPU-ONLY build will work and will be cheap. but also 10x slower, it is not intended to be usable for productivity.
+CPU-ONLY build will work and will be cheap. but also 10x slower, it is **not intended to be usable for productivity**.
 
 **Lowest Carbon Footprint: A Key Consideration**
 ---------------------------------------------
@@ -15,18 +15,10 @@ When building an AI system, it's essential to consider the environmental impact 
 
 Here are some tips to minimize your carbon footprint:
 
-* **Second-hand is the way to go**: Avoid buying brand-new components like RTX 4090, which can be expensive and contribute to e-waste.
-* **Low energy consumption CPU**: Opt for CPUs that consume less power while still providing excellent performance.
-* **Low idle power consumption**: Choose components that consume minimal power when not in use.
-* **Big fans**: Ensure your system has sufficient cooling to prevent overheating, which can lead to increased energy consumption.
+* **Second-hand**: Avoid buying brand-new components like RTX 4090, which can be expensive and contribute to e-waste, consider second-hand at first if possible, especially for graphic cards.
+* **Low energy consumption CPU**: Opt for CPUs that consume less power while still providing excellent performance (AMD).
+* **Nvidia eco performance mode**: Reduce to ~15W the idle power consumption per card.
 
-**Optimal Build for Low Carbon Footprint**
------------------------------------------
-
-Based on our research, here's an optimal build for a low-carbon-footprint AI system:
-
-* **AMD CPU**: Known for their low energy consumption, AMD CPUs are an excellent choice.
-* **Open enclosure**: Open enclosures provide better ventilation, reducing the need for high-powered fans.
 
 **Your Use Case: Local AI ChatGPT and Image Generation**
 ---------------------------------------------------------
@@ -78,11 +70,7 @@ Some provider such as Runpod or VastAI offers you to rent your GPU to other to e
 Before investing in a high-end AI system, consider the following:
 
 * You may not know what services will run on your server in the future
-* You need to get the hands in the dirt to really understand your requirements
-* Scalability is key.
+* You need to experiments some time until the requirements are clear enough
+* Start small to tune and mature your use case
 
-So, start with a cost-effective option and scale up as needed. A great starting point is to acquire an old workstation (not older than 2016) that supports AVX/AVX2 instructions in its CPU. The Poweredge R7xxx series is an excellent choice for power users. You can find second-hand options for around $100.
-
-By following these guidelines, you'll be able to build a highly available local AI system that's both cost-effective and environmentally friendly.
-
-If you want more inforamtion or assistance in your build you can telegram https://t.me/+_G7A01Ue45FhMGE0
+If you want assistance in your build you can telegram https://t.me/+_G7A01Ue45FhMGE0

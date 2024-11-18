@@ -4,7 +4,7 @@ title: Secure AI Systems
 tags: [Thinkering, AI]
 ---
 
-As AI services proliferate, companies and individuals are faced with an increasing complexity of providers, microservices, and terms of use. This landscape poses significant risks to security and privacy, making it essential to rethink our approach to AI development and deployment.
+As AI services proliferate, companies and individuals are faced with an increasing complexity of providers, microservices, and terms of use. 
 
 **AI Services drawbacks**
 -------------------------------------
@@ -50,10 +50,7 @@ While the benefits of local AI systems are clear, their development requires fin
 --------------
 
 The development of secure AI systems is a pressing concern that requires immediate attention.
-
 By promoting local AI systems, we can create a more resilient and secure ecosystem that benefits individuals, organizations, and communities alike.
-
-Our approach to AI deployment requires a careful analysis to our needs in order to put the security and privacy at the forefront of these new systems.
 
 **Sources:**
 

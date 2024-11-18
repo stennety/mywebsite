@@ -8,8 +8,7 @@ In the rapidly evolving landscape of artificial intelligence, a fascinating tren
 
 ## August 2024 - Open-source and proprietary AI models
 
-**Landscape**
--------------------------------------
+## Landscape
 
 ![Open-source and proprietary AI models](/images/open_source_vs_private_llm_20240418.png "The race for AI")
 
@@ -22,8 +21,7 @@ Github stars generally reflect the reach and popularity of a project to its audi
 
 The number of Github stars for closed-source projects appears to be stabilizing after a while as the interest of the community.
 
-**Good shot, Meta ! (y)**
----------------------------------------------
+## Good shot, Meta ! (y)
 
 Meta, the tech giant is behind the remarkable Llama series of language models.
 
@@ -35,8 +33,7 @@ As seen above, the community came up with a newer version of llama3.1 with an ed
 
 Highlights of the benefits of open-source LLMs for enterprises, focusing on cost-effectiveness, data ownership, avoiding vendor lock-in, security, and customization.
 
-**Art creation reimagined, tools for artist**
----------------------------------------------
+## Art creation reimagined, tools for artist
 
 ![Technical AI artist influencer are leading product innovations](/images/open_driven_innovations.png "Technical AI artist influencer")
 

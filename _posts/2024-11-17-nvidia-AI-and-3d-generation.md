@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nvidia new AI is a fine tune LLM for 3D genration
+title: New 3D mesh AI is a fine tune LLM for 3D generation
 tags: [AI, LLMs, Open-Source, Innovation, Interfaces]
 ---
 

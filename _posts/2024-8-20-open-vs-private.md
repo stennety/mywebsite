@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Open-Source vs Proprietary
-tags: [AI, LLMs, Open-Source, Innovation]
+tags: [AI, LLMs, Open-Source]
 ---
 
-In the rapidly evolving landscape of artificial intelligence, a fascinating trend has emerged. As illustrated in the graph above, companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives. This competitive pressure is driving an unprecedented acceleration in AI innovation across the board.
+Companies developing proprietary AI models are finding themselves in a constant sprint to keep pace with the rapid advancements in open-source alternatives.
 
 ## August 2024 - Open-source and proprietary AI models
 
@@ -45,3 +45,4 @@ Here, an AI workflow that enable to cast light on a scene
 In the following, a project call LaVague that enable to control a web browser automatically with an AI backend
 
 ![AI control web browser](https://github.com/lavague-ai/LaVague/raw/main/docs/assets/demo_agent_hf.gif "LaVague demo for browser")
+

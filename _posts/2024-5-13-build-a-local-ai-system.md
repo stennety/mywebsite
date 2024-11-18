@@ -75,5 +75,3 @@ Before investing in a high-end AI system, consider the following:
 * You may not know what services will run on your server in the future
 * You need to experiments some time until the requirements are clear enough
 * Start small to tune and mature your use case
-
-If you want assistance in your build you can telegram https://t.me/+_G7A01Ue45FhMGE0

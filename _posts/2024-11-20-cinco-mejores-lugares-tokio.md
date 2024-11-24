@@ -2,7 +2,7 @@
 layout: post
 title: "Los 5 Mejores Lugares de Tokio"
 date: 2024-11-20
-image: "/images/tokio.jpg"
+image: "/images/tokyo.jpg"
 excerpt: "Explora los cinco destinos más increíbles de Tokio que no te puedes perder."
 ---
 

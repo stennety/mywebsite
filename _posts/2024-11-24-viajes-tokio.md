@@ -5,7 +5,6 @@ date: 2024-11-24
 categories: viajes tokio
 image: "/images/Tokio.jpg" 
 ---
-![tokio]({{ site.baseurl }}/images/Tokio.jpg)
 
 Tokio es una ciudad llena de contrastes, donde lo moderno se encuentra con lo tradicional, y la tecnología coexiste con la historia. En este post, te contaré sobre los **5 mejores lugares** que no puedes dejar de visitar en esta vibrante ciudad.
 

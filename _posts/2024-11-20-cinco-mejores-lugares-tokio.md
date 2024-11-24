@@ -6,7 +6,6 @@ image: "/images/tokyo.jpg"
 excerpt: "Explora los cinco destinos más increíbles de Tokio que no te puedes perder."
 ---
 
-# Los 5 Mejores Lugares de Tokio
 
 Tokio, la capital de Japón, es un destino que combina tradición y modernidad de una manera fascinante. Aquí tienes una lista de los cinco lugares más imperdibles para explorar durante tu visita.
 

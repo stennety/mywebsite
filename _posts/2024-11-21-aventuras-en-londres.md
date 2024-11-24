@@ -6,8 +6,6 @@ image: "/images/londres.jpg"
 excerpt: "Descubre los lugares más emblemáticos y experiencias únicas en Londres."
 ---
 
-# Aventuras en Londres
-
 Londres, la vibrante capital de Inglaterra, es una ciudad que combina historia, cultura y modernidad. En esta entrada, te comparto mis lugares favoritos y las experiencias imperdibles que hacen de Londres un destino único.
 
 ---

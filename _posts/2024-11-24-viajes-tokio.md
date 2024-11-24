@@ -10,7 +10,7 @@ image: "/images/tokio.jpg"
 
 Tokio es una ciudad llena de contrastes, donde lo moderno se encuentra con lo tradicional, y la tecnología coexiste con la historia. En este post, te contaré sobre los **5 mejores lugares** que no puedes dejar de visitar en esta vibrante ciudad.
 
-![tokio](imagenes/tokyo.jpg)
+![tokio](imagenes/Tokyo.jpg)
 
 ## 1. **Templo Senso-ji** (Asakusa)
 

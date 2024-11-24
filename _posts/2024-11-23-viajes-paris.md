@@ -5,7 +5,6 @@ date: 2024-11-23
 categories: viajes 
 ---
 ![paris]({{ site.baseurl }}/images/paris.jpg)
-# Mi Viaje a París
 
 El día que llegué a **París**, la ciudad de la luz, me sentí como en un sueño. Desde el momento en que vi la Torre Eiffel desde el avión, supe que esta sería una de las experiencias más emocionantes de mi vida.
 

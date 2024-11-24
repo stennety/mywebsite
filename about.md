@@ -3,7 +3,6 @@ layout: page
 title: 
 permalink: /about/
 ---
-# Acerca de Mí
 
 ¡Hola! Soy [Tu Nombre], un amante de los viajes y las aventuras. Desde joven, siempre he soñado con explorar el mundo, conocer nuevas culturas y compartir mis experiencias con otros. Este blog es el lugar donde puedo contar mis historias, mostrar los lugares que visito y compartir consejos útiles para otros viajeros.
 

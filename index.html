@@ -12,22 +12,24 @@ layout: default
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Inicio</a></li>
-            </ul>
-        </nav>
+        
     </header>
 
     <main>
-        <!-- Sección donde aparecerán las entradas del blog -->
         <div class="posts">
             {% for post in site.posts %}
                 <article class="post">
                     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+                    <!-- Asegúrate de tener una imagen en tu post para mostrarla -->
+                    {% if post.image %}
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                    {% endif %}
+
                     <div class="entry">
                         {{ post.excerpt }}
                     </div>
+
                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
                 </article>
             {% endfor %}

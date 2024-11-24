@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Explorando la ciudad de la luz"
 date: 2024-11-23
 categories: viajes 
 ---

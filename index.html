@@ -12,47 +12,29 @@ layout: default
 </head>
 <body>
     <header>
+        <h1>Bienvenido a Mi Blog de Viajes</h1>
     </header>
 
     <main>
         <div class="posts">
-        <article class="post">
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            {% for post in site.posts %}
+                <article class="post">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-            <!-- Asegúrate de tener una imagen en tu post para mostrarla -->
-            {% if post.image %}
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-            {% endif %}
+                    {% if post.image %}
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                    {% endif %}
 
-            <div class="entry">
-                {{ post.excerpt }}
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
-        </article>
-        <article class="post">
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-            <!-- Asegúrate de tener una imagen en tu post para mostrarla -->
-            {% if post.image %}
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-            {% endif %}
-
-            <div class="entry">
-                {{ post.excerpt }}
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
-        </article>
-</div>
-
+                    <p>{{ post.excerpt }}</p>
+                    <a href="{{ post.url }}" class="read-more">Leer más</a>
+                </article>
+            {% endfor %}
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2024 Mi Blog de Viajes. Todos los derechos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ""
-date: 2024-11-24
-categories: viajes paris
+title: "Explorando la ciudad de la luz"
+date: 2024-11-23
+categories: viajes 
 ---
 ![paris]({{ site.baseurl }}/images/paris.jpg)
 # Mi Viaje a París

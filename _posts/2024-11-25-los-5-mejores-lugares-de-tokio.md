@@ -3,6 +3,7 @@ layout: post
 title: "Los 5 Mejores Lugares para Visitar en Tokio"
 date: 2024-11-25
 categories: viajes tokio
+image: "/images/tokio.jpg" 
 ---
 
 # Los 5 Mejores Lugares para Visitar en Tokio

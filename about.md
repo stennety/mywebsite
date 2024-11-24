@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de 
+title: 
 permalink: /about/
 ---
 
@@ -18,6 +18,3 @@ A lo largo de los años, he tenido la oportunidad de visitar varios países y ci
 - **Tokio**: Una ciudad vibrante, donde lo antiguo y lo moderno se encuentran.
 - **Barcelona**: Las increíbles obras de Gaudí y la playa siempre me han cautivado.
 
-### Contact me
-
-[mariainmaculada.estallo057@comunidadunir.net](mailto:mariainmaculada.estallo057@comunidadunir.net)

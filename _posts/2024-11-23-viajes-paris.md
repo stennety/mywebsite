@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Viaje a París"
+title: ""
 date: 2024-11-24
 categories: viajes paris
 ---

@@ -1,16 +1,13 @@
 ---
 layout: post
-title: ""
+title: "Los 5 Mejores Lugares para Visitar en Tokio"
 date: 2024-11-24
 categories: viajes tokio
-image: "/images/tokio.jpg" 
+image: "/images/Tokio.jpg" 
 ---
-
-# Los 5 Mejores Lugares para Visitar en Tokio
+![tokio]({{ site.baseurl }}/images/Tokio.jpg)
 
 Tokio es una ciudad llena de contrastes, donde lo moderno se encuentra con lo tradicional, y la tecnología coexiste con la historia. En este post, te contaré sobre los **5 mejores lugares** que no puedes dejar de visitar en esta vibrante ciudad.
-
-![tokio]({{ site.baseurl }}/images/Tokio.jpg)
 
 ## 1. **Templo Senso-ji** (Asakusa)
 

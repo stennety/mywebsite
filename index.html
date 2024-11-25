@@ -2,17 +2,39 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Viajes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Blog de Viajes</h1>
+    </header>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <main>
+        <div class="posts">
+            {% for post in site.posts %}
+                <article class="post">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+                    {% if post.image %}
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                    {% endif %}
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+                    <p>{{ post.excerpt }}</p>
+                    <a href="{{ post.url }}" class="read-more">Leer más</a>
+                </article>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog de Viajes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+

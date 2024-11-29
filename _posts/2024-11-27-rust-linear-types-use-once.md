@@ -168,8 +168,8 @@ where
 Calling any of these functions will still consume the instance of `UseOnce<T>`,
 but the functions only expose access to the inner value by shared or mutable
 reference, respectively. The borrow checker prohibits simply passing the reference
-to the outside. Note that we have used the infamous `Pin` in the `consume_mut`
-function to express that the inner value must not be moved out of this reference[^unsafe]
+to the outside. Note, that we have used the infamous `Pin` in the `consume_mut`
+function to express that the inner value must not be moved out of this reference[^unsafe].
 
 Thirdly, as was [pointed out](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=02cc5096672900f10fb190595c6361ff)
 by `u/SkiFire13` in the [original reddit thread](https://www.reddit.com/r/rust/comments/1gzmwcb/undroppable_types/),

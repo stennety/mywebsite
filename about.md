@@ -4,7 +4,6 @@ title: About
 permalink: /about
 ---
 
-## About  
 A seasoned software engineering leader with over 18 years of experience in designing, developing, and delivering robust solutions across diverse domains and global teams. Renowned for leading and mentoring offshore teams across multiple countries, including India, Israel, Romania, and the United States, fostering collaboration and delivering high-impact results.  
 
 ### Key Areas of Expertise:  

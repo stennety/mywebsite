@@ -4,22 +4,40 @@ title: About
 permalink: /about
 ---
 
-A software engineering leader with over 18 years experience in the following areas:
+## About  
+A seasoned software engineering leader with over 18 years of experience in designing, developing, and delivering robust solutions across diverse domains and global teams. Renowned for leading and mentoring offshore teams across multiple countries, including India, Israel, Romania, and the United States, fostering collaboration and delivering high-impact results.  
 
-1. A software architect team leader, currently leading teams in Bangalore India, Iasi Romania and San Jose, CA.
-2. Database tooling -- developed software that works across databases for use by database administrators that simplifies database management. [Embarcadero Technologies now Idera](https://www.idera.com)
-3. Media metadata distribution - developed software that creates and manages media playlists, their distribution and monitoring at customer sites.
-4. Metadata and distribution of data related to electronic program guide for the leader in personal video recorder (PVR) company [TiVo Corp](http://www.tivo.com).
-5. Cloud infrastructure as a service (IaaS) expert - worked extensively with AWS cloud platform, managing heterogeneous deployments to on-premise and cloud.
-   1. S3
-   2. EC2
-   3. Cloud Formation
-   4. ElasticBeanStalk
-   5. DynamoDB
-   6. ElastiCache
-   7. CloudWatch
-   8. Kinesis
-   9. Lambda and Step Functions
-6. Leading Java Enterprise engineer managing huge server farms running Java hosted sites using Spring Framework, Apache, Nginx, NodeJs, Docker containers.
-7. Relational and NOSQL database enthusiast with knowledge in SQL design and tuning with experience in Oracle, SQL Server, AWS Dynamo, MySQL, MongoDB
-8. Interested in data insights using graph relationships with help from Neo4j graph database.
+### Key Areas of Expertise:  
+
+- **Database Tooling**  
+  Developed enterprise-grade solutions for database administrators, simplifying database management across platforms. Contributed to tools at Embarcadero Technologies (now Idera) used by professionals worldwide.  
+
+- **Media Metadata Distribution**  
+  Engineered software to create, distribute, and monitor media playlists at scale, powering critical workflows for leading media companies.  
+
+- **Electronic Program Guide (EPG) Management**  
+  Designed and managed data distribution systems for the leader in personal video recording (PVR) technology, TiVo Corp., ensuring seamless metadata delivery and integration.  
+
+- **Cloud Infrastructure as a Service (IaaS)**  
+  Extensive hands-on experience with AWS cloud platforms, managing complex hybrid deployments spanning on-premise and cloud environments. Proficient in:  
+  - S3, EC2, DynamoDB, ElastiCache  
+  - CloudFormation, Elastic Beanstalk  
+  - Kinesis, Lambda, Step Functions  
+  - CloudWatch, AWS MSK (Managed Streaming for Kafka)  
+
+- **Enterprise Application Development**  
+  Expert in Java Enterprise ecosystems, leading large-scale server deployments using the Spring Framework. Skilled in leveraging Docker, Apache, Nginx, and Node.js for resilient and scalable architectures.  
+
+- **Batch Processing & Data Pipelines**  
+  Extensive experience in designing and implementing batch processing workflows using **Spring Batch**, enabling robust data processing pipelines.  
+
+- **REST & GraphQL Web Services**  
+  Expertise in designing and developing scalable web services with **REST** and **GraphQL**, ensuring high performance, flexibility, and developer-friendly APIs.  
+
+- **Database Enthusiast**  
+  Deep expertise in relational and NoSQL databases, with hands-on experience in:  
+  - Oracle, SQL Server, MySQL, MongoDB  
+  - AWS DynamoDB, Neo4j (Graph DB)  
+
+- **Data Insights & Graph Relationships**  
+  Passionate about uncovering data insights and exploring graph relationships using Neo4j, enabling advanced analytics and innovative solutions.

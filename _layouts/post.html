@@ -14,14 +14,16 @@ layout: default
                alt="Banner Image" style="max-width: 170px; height: auto; margin-right: 20px;">
       </a>
       
-      <!-- Right: Date Information -->
       <div style="text-align: right;">
           Posted {{ page.date | date: "%Y-%m-%d" }} 
-          {% if page.last_updated %}
-              <div>Last Updated {{ page.last_updated | date: "%Y-%m-%d" }}</div>
-          {% endif %}
       </div>
   </div>
+
+  {% if page.last_updated %}
+      <div class="date" style="text-align: right;">
+          Last Updated {{ page.last_updated | date: "%Y-%m-%d" }}
+      </div>
+  {% endif %}
 
   <div class="entry">
     {{ content }}

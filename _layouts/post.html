@@ -6,14 +6,24 @@ layout: default
   <h1 class="page-title">{{ page.title | markdownify }}</h1>
   
 
-  <div class="date">
-    Posted {{ page.date | date: "%Y-%m-%d" }} {%if page.last_updated %}, Last Updated {{page.last_updated | last_updated: "Y%-%m-%d"}} {% endif %}
+  <div class="date" style="display: flex; align-items: center; justify-content: space-between;">
+      <!-- Left: Banner Image -->
+      <a href="https://example.com" target="_blank" title="Buy me a coffee :)">
+          <img src="https://raw.githubusercontent.com/geo-ant/user-content/refs/heads/main/ko-fi-support-blue.svg" 
+               alt="Banner Image" style="max-width: 150px; height: auto; margin-right: 20px;">
+      </a>
+      
+      <!-- Right: Date Information -->
+      <div style="text-align: right;">
+          Posted {{ page.date | date: "%Y-%m-%d" }} 
+          {% if page.last_updated %}
+              , Last Updated {{ page.last_updated | date: "%Y-%m-%d" }}
+          {% endif %}
+      </div>
   </div>
 
   <div class="entry">
     {{ content }}
-    
-    {% include support.html %}
   </div>
     
   <div>

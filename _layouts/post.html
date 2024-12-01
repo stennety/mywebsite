@@ -6,18 +6,19 @@ layout: default
   <h1 class="page-title">{{ page.title | markdownify }}</h1>
   
 
-  <div class="date" style="display: flex; align-items: center; justify-content: space-between;">
+  <!-- the support banner-->
+  <div class="date" style="display: flex; align-items: flex-start; justify-content: space-between;">
       <!-- Left: Banner Image -->
-      <a href="https://example.com" target="_blank" title="Buy me a coffee :)">
+      <a href="https://ko-fi.com/geoant" target="_blank" title="Buy me a coffee :)">
           <img src="https://raw.githubusercontent.com/geo-ant/user-content/refs/heads/main/ko-fi-support-blue.svg" 
-               alt="Banner Image" style="max-width: 150px; height: auto; margin-right: 20px;">
+               alt="Banner Image" style="max-width: 170px; height: auto; margin-right: 20px;">
       </a>
       
       <!-- Right: Date Information -->
       <div style="text-align: right;">
           Posted {{ page.date | date: "%Y-%m-%d" }} 
           {% if page.last_updated %}
-              , Last Updated {{ page.last_updated | date: "%Y-%m-%d" }}
+              <div>Last Updated {{ page.last_updated | date: "%Y-%m-%d" }}</div>
           {% endif %}
       </div>
   </div>

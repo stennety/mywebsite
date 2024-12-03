@@ -31,12 +31,6 @@ title: 捐赠支持
         <h2>捐赠方式</h2>
         <div class="methods-grid">
             <div class="method-card">
-                <h3>Zelle</h3>
-                <p>账号：cdqz_alumni@googlegroups.com</p>
-                <p class="note">请在备注中注明"校友会捐赠"</p>
-            </div>
-            
-            <div class="method-card">
                 <h3>公司捐款系统</h3>
                 <p>各大公司的捐款系统正在接入当中</p>
                 <p class="note">敬请期待</p>

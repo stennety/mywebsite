@@ -20,10 +20,6 @@ Clearly explain the purpose and context of your merge request. Describe what pro
 #### 2.1 Make use of the MR description
 Think about your reviewers when creating an MR. Consider adding contextual descriptions to your MR. For example, when fixing an API, paste the request and response to your MR to provide visual evidence that your code has addressed the underlying issue. This is a great way to confirm that you have tested your code changes.
 
-**Examples:**
-- `ORDERS-863 Updated CheckoutResult to return FAILED on Cart in an ABANDONED state (!275) · Merge requests · Chegg / Learning Services / Commerce / ECOM / sox / checkout-service · GitLab`
-- GraphQL MRs: [Example Merge Request](https://gitlab.com/chegginc/learning-services/devx/graphql/gdg-apollo-workbench/-/merge_requests/489)
-
 ### 3. Create Small, Focused Merge Requests
 Break down your changes into smaller, logical units of work. This makes it easier for reviewers to understand and provide feedback. It also allows for better tracking of changes and helps identify specific issues if they arise.
 
@@ -37,7 +33,7 @@ Consider creating Jira Subtasks for your stories so that MR is created against t
 Sometimes reviewers may recommend a code change that may require refactoring. If the refactoring will affect many files, consider creating a separate MR to tackle the refactoring first, so that your original MR is focused on the business changes and not the refactoring.
 
 ### 4. Review Your Code
-Before submitting a merge request, take the time to review your code. This self-review process helps catch any obvious mistakes or issues and ensures that your changes meet the project's standards. It also shows your commitment to delivering high-quality code.
+Before submitting a merge request, take the time to review your code. This self-review process helps with catching any obvious mistakes or issues and ensures that your changes meet the project's standards. It also shows your commitment to delivering high-quality code.
 
 ### 5. Test Locally Before Submitting
 Before creating a merge request, thoroughly test your changes locally to catch any obvious issues. This helps reduce the burden on reviewers and ensures that the merge request is of high quality.
@@ -46,7 +42,7 @@ Before creating a merge request, thoroughly test your changes locally to catch a
 Include relevant test cases to verify the correctness of your changes. This demonstrates that you've considered different scenarios and helps maintain the overall code quality.
 
 #### 5.2 Update Existing Test Cases
-Run a full build before raising your MR. Existing well-written test cases should fail. If existing test cases do not fail as a result of the new code changes, then you need to update the existing test cases appropriately.
+Run a full build before raising your MR. Existing well-written test cases may fail if your new code modified existing behavior. If existing test cases do not fail as a result of the new code changes, then you need to update the existing test cases appropriately.
 
 #### 5.3 Create New Test Cases
 Where possible, create new test cases for new functionality. Or better yet, inspect the Code Coverage metrics and add any relevant test cases.
@@ -70,7 +66,7 @@ GitLab provides various collaboration features, such as inline commenting and di
 Follow the established coding style guidelines of the project. Consistency in code formatting helps improve readability and ensures that the codebase remains cohesive.
 
 #### 7.1 Be Consistent in Your Coding
-Follow a specific style and stick with it and do not use different styles. For example, we recommend that you import the Assert class statically; however, if you choose to be more verbose, then stick with this pattern. Consider following through with existing project patterns.
+Follow a specific style and stick with it and do not use different styles. For example, we recommend that you import the `org.assertj.core.api.Assert` class statically; however, if you choose to be more verbose, then stick with this pattern. Consider following existing project patterns.
 
 ### 8. Consider the Impact on Other Modules
 When making changes, consider the potential impact on other modules or components of the system. Document any necessary modifications or dependencies in your merge request, ensuring that other developers are aware of any related changes they need to make.
@@ -85,13 +81,8 @@ In order to avoid impacting other modules, add integration tests against the dep
 GitLab allows you to create merge request templates that include predefined sections for description, tasks, testing, and other relevant information. Utilize these templates to provide consistent and structured information in your merge requests, making it easier for reviewers to understand and evaluate your changes.
 
 #### 9.1 Use the Commitizen Tool
-Commitizen is a release management tool designed for teams and it uses conventional commits. If you are working on one of the Chegg Boots libraries, you will need to follow the conventional commits. More than likely, the Commitizen tool is used to auto-manage the release version for the project.
+[Commitizen](https://commitizen.github.io/cz-cli/) is a release management tool designed for teams and it uses conventional commits. Follow the conventional commits as they are great for auto-managing the release version for the project.
 
-For reference:
-
-Commitizen Documentation
-Creating Spring BOOT Projects in GitLab
-Versioning Common CICD Template Scripts
 ### 10. You Are Your Own Advocate
 As the owner of your MR, it should be in your best interest to ensure that you get the true benefits of code review, like consistent design & implementation, confidence of stakeholders, teaching & sharing knowledge, etc.
 

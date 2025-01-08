@@ -20,7 +20,7 @@ Anthropic implementation: https://www.anthropic.com/research/swe-bench-sonnet
 
 "It's about building the right system for your needs. Start with simple prompts, optimize them with comprehensive evaluation, and add multi-step agentic systems only when simpler solutions fall short." (https://www.anthropic.com/research/building-effective-agents)
 
-# Video creation is rising fast
+# Video creation is rising fast, 3D is coming
 
 https://trends.google.com/trends/explore?date=today%205-y&q=ai%20video%20generation,ai%20image%20generation,ai%203d%20generation&hl=en-GB
 

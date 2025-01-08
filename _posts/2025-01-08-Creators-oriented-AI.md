@@ -12,8 +12,6 @@ Comfyui is hard to master, but will stay the most used tool for AI related creat
 
 If you already know Comfyui and want deeper information from the creator itself, check out this interview https://www.youtube.com/watch?v=Hc31HotThA0.
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=Hc31HotThA0" frameborder="0" allowfullscreen></iframe>
-
 ## December 2024: Anthropic on building agents
 
 "Over the past year, we've worked with dozens of teams building large language model (LLM) agents across industries. Consistently, the most successful implementations weren't using complex frameworks or specialized libraries. Instead, they were building with simple, composable patterns." (https://www.anthropic.com/research/building-effective-agents)

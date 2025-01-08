@@ -20,7 +20,7 @@ Anthropic implementation: https://www.anthropic.com/research/swe-bench-sonnet
 
 "It's about building the right system for your needs. Start with simple prompts, optimize them with comprehensive evaluation, and add multi-step agentic systems only when simpler solutions fall short." (https://www.anthropic.com/research/building-effective-agents)
 
-![Anthrpic building agent](/images/anthropic_svebench_agent.png "SVE bench prompting")
+![Anthropic building agent](/images/anthropic_svebench_agent.png "SVE bench prompting")
 
 # Video creation is rising fast, 3D is coming
 

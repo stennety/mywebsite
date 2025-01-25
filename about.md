@@ -64,17 +64,3 @@ title: 关于我们
         </div>
     </div>
 </section>
-
-<section class="contact-section">
-    <h2>联系我们</h2>
-    <div class="contact-content">
-        <p>如果您想了解更多信息或加入我们，请通过以下方式联系：</p>
-        <ul class="contact-list">
-            <li>📧 邮箱：cdqz_alumni@googlegroups.com</li>
-            <li>📱 微信群：请通过邮件联系获取加群方式</li>
-        </ul>
-        <div class="join-cta">
-            <a href="/join" class="cta-button">加入校友会</a>
-        </div>
-    </div>
-</section>

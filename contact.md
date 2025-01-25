@@ -52,7 +52,7 @@ title: 加入我们
     <div class="contact-grid">
         <div class="contact-card">
             <h3>📧 电子邮件</h3>
-            <p>发送邮件至：<a href="mailto:cdqz_alumni@googlegroups.com">cdqz_alumni@googlegroups.com</a></p>
+            <p>发送邮件至：<a href="mailto:cdqz_alumni_committee@googlegroups.com">cdqz_alumni_committee@googlegroups.com</a></p>
             <p class="note">请在邮件中包含以下信息：</p>
             <ul>
                 <li>姓名</li>

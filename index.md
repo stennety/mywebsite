@@ -70,8 +70,8 @@ title: Home
                 
                 <div class="contact-card">
                     <h3>💬 微信群</h3>
-                    <p>通过邮件联系我们获取加群方式</p>
-                    <p class="note">我们会在24小时内回复您的邮件，请注意查收</p>
+                    <p><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写入会申请表</a></p>
+                    <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">
                         <p><strong>常见问题：</strong></p>
                         <ul>

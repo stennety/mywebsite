@@ -57,7 +57,7 @@ title: Home
             <div class="join-grid">
                 <div class="contact-card">
                     <div class="container">
-                        <h3><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写校友信息</a></h3>
+                        <h3><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">请填写校友登记表</a></h3>
                     </div>
                     <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">

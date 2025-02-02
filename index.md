@@ -56,7 +56,9 @@ title: Home
         <div class="join-content">
             <div class="join-grid">
                 <div class="contact-card">
-                    <p><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写校友信息</a></p>
+                    <div class="container">
+                        <h3><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写校友信息</a></h3>
+                    </div>
                     <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">
                         <p><strong>常见问题：</strong></p>

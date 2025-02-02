@@ -53,7 +53,7 @@ title: Home
 <section id="join" class="join-section">
     <div class="container">
         <h2>加入我们</h2>
-        <h2><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">请填写校友登记表</a></h2>
+        <h3><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">请填写校友登记表</a></h3>
         <div class="join-content">
             <div class="join-grid">
                 <div class="contact-card">

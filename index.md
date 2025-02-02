@@ -53,12 +53,10 @@ title: Home
 <section id="join" class="join-section">
     <div class="container">
         <h2>加入我们</h2>
+        <h2><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">请填写校友登记表</a></h2>
         <div class="join-content">
             <div class="join-grid">
                 <div class="contact-card">
-                    <div class="container">
-                        <h3><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">请填写校友登记表</a></h3>
-                    </div>
                     <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">
                         <p><strong>常见问题：</strong></p>

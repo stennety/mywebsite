@@ -56,21 +56,7 @@ title: Home
         <div class="join-content">
             <div class="join-grid">
                 <div class="contact-card">
-                    <h3>📧 电子邮件</h3>
-                    <p>发送邮件至：<a href="mailto:cdqz_alumni_admins@googlegroups.com">cdqz_alumni_admins@googlegroups.com</a></p>
-                    <p class="note">请在邮件中包含以下信息：</p>
-                    <ul>
-                        <li>姓名</li>
-                        <li>毕业年份</li>
-                        <li>目前所在城市</li>
-                        <li>职业/专业</li>
-                        <li>简单自我介绍</li>
-                    </ul>
-                </div>
-                
-                <div class="contact-card">
-                    <h3>💬 微信群</h3>
-                    <p><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写入会申请表</a></p>
+                    <p><a href="https://forms.gle/6FrMWwHEKqK4EcJn9" target="_blank">填写校友信息</a></p>
                     <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">
                         <p><strong>常见问题：</strong></p>

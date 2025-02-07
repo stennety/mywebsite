@@ -56,7 +56,7 @@ title: Home
         <div class="join-content">
             <div class="join-grid">
                 <div class="contact-card">
-                    <p class="note">我们会在24小时内通过微信或邮件联系您，请注意查收</p>
+                    <p class="note">我们会尽快通过微信或邮件联系您，请注意查收</p>
                     <div class="faq-mini">
                         <p><strong>常见问题：</strong></p>
                         <ul>

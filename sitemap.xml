@@ -16,6 +16,13 @@
     <priority>1</priority>
 </url>
 <url>
+    <loc>https://fescue.github.io/Scott-Schreiner-Golf-Muni/</loc>
+    <image:image>
+      <image:loc>https://fescue.github.io/images/Scott-Schreiner-Municipal-Golf-Course-Masterplan.png</image:loc>
+    </image:image>
+    <priority>1</priority>
+</url>
+<url>
     <loc>https://fescue.github.io/Battle-Run-Golf-Course/</loc>
     <image:image>
       <image:loc>https://fescue.github.io/images/Olsson-Battle-Run.png</image:loc>

@@ -8,7 +8,7 @@ Passionate about quality, innovation and sustainability.
 
 ### More Information
 
-Originally trained in the field of Architecture, I've dabbled in e-commerce, VR/AR and currently working in the field of software quality as Quality Engineer at a leading financial services organisation.
+Originally trained in the field of Architecture, I've dabbled in e-commerce, VR/AR and currently working as a Senior Quality Engineer at a leading financial services organisation.
 
 ### Contact me
 If you'd like to contact me: <script type="text/javascript">

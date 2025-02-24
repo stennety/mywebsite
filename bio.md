@@ -3,25 +3,11 @@ layout: page
 title: Bio
 permalink: /bio/
 ---
-:metal: Hello, I'm Neil. I design & build data systems at [Scarlette AI](https://www.scarletteai.com). I also write
- about my experiences wtih [applied statistics](https://medium.com/@neil.chandarana18) & [data systems](https://www.neilchandarana.com/).
+:metal: I'm Neil. Software engineer and sometimes writer of my thoughts on things I find interesting.
 
-Currently, I'm working on [WhatPrinted?](https://www.whatprinted.com), a realtime analytics dashboard to people 
-trade a collection of interest rate derivatives called [swaptions](https://en.wikipedia.org/wiki/Swaption). 
-
-In the past, I started a mini deliveroo - a [food delivery platform](https://www.instagram.com/feed.bucks/) in my local area. 
-And before that, was an interest rate derivatives trader at Barclays Investment Bank. All the while, developing my own [programming projects](https://github.com/93tilinfinity). 
-
-I particularly enjoy trying to improve the quality of life using code and self-experimentation. 
-For example, using heart rate data from Garmin and power data from Wattbike to attempt going from beginner cyclist to a 300 Watt FTP. 
-I got to 272 Watt FTP. Partially documented [here](https://towardsdatascience.com/machine-learning-cycling-300w-ftp-part-1-2abb04b30036).
-
-Some quick facts:
-* :uk::india: I'm [British Indian](https://en.wikipedia.org/wiki/British_Indians) and based in London, UK.
-* :mortar_board: I went to the University of Warwick. My masters was about approximating integrals using [Markov Chain Monte Carlo](https://www.youtube.com/watch?v=12eZWG0Z5gY) techniques.
-* [Reminiscences of a Stock Operator](https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf) made me decide to become a trader.
-* I first made something from nothing using code on the trading floor. Soon after, I left trading. I'm convinced programming
-is the closest thing we have to magic.
-* Unsupervised learning and one-shot learning excites me. I like the idea of discovering core principles. I love the idea of doing it with good form.
-* I like building cool companies with cool people. If you'd like to work together [DM me](https://www.twitter.com/HikeTyson).
-* My most popular article: [Yield curve building in python](https://towardsdatascience.com/yield-curve-building-in-python-8d7974a6e7e3)
+Quick facts:
+* Did almost every role as [Healthtech-1](https://www.healthtech-1.uk)'s founding engineer. Over 1 million patients were registered at 1,000+ NHS GP surgeries using the software in 2 and a half years. I spent a lot of time on fullstack features, built a few algorithms, database management, hiring, cyber security, and the rest.
+* Started a [mini deliveroo](https://www.instagram.com/feed.bucks/) in my local town during Covid using Shopify, Facebook ads and a lot of cold calling.
+* Occasionally enjoy writing articles like [this](https://towardsdatascience.com/yield-curve-building-in-python-8d7974a6e7e3) or [that](https://towardsdatascience.com/machine-learning-cycling-300w-ftp-part-1-2abb04b30036).
+* [Reminiscences of a Stock Operator](https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf) made me decide to become a derivatives trader. Did it for 4 years and then left to write software full time.
+* :mortar_board: Got a degree in Maths at the University of Warwick ages ago and used to know about approximating integrals using [Markov Chain Monte Carlo](https://www.youtube.com/watch?v=12eZWG0Z5gY).

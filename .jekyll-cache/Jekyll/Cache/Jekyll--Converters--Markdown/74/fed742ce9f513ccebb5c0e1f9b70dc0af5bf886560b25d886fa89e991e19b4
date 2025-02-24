@@ -1,8 +1,0 @@
-I"<p>Neil’s notes:</p>
-<ul>
-  <li>Queues can’t escape overload, the database is the bottleneck</li>
-  <li>Spread the write load horizontally across multiple machines (sharding)</li>
-  <li>Sharding requires significant day 1 work</li>
-  <li>Re-sharding cost is very real</li>
-</ul>
-:ET

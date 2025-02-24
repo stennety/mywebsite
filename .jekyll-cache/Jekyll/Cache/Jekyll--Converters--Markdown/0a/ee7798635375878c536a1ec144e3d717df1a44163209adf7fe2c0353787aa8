@@ -1,7 +1,0 @@
-I"”<p>Neilâ€™s notes:</p>
-<ul>
-  <li>Hitting the database directly is bad</li>
-  <li>Adding a queue helps</li>
-  <li>Batching updates helps</li>
-</ul>
-:ET

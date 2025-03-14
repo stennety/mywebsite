@@ -8,5 +8,3 @@ This is a test.
 This is a test of math
 
 $$ a = e^x $$
-
-This is inline $a = e^x $

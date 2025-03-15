@@ -7,7 +7,7 @@ title: Home
     <h1>成都七中北美校友会</h1>
     <p>让每一位七中人在北美都能找到归属感</p>
     <a href="#join" class="cta-button">加入我们</a>
-    <a href="http://lu.ma/cdqz" class="cta-button">活动日历x</a>
+    <a href="http://lu.ma/cdqz" class="cta-button">活动日历</a>
 
 </section>
 

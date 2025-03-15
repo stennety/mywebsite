@@ -20,6 +20,7 @@ title: Home
         <img src="/assets/images/events.svg" alt="Events Icon">
         <h3>活动聚会</h3>
         <p>定期组织线上线下活动，重温校园情谊</p>
+        <p><a href="http://lu.ma/cdqz">查看活动日历</a></p>
     </div>
     
     <div class="feature-card">

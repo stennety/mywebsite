@@ -31,6 +31,27 @@ title: Home
     </div>
 </div>
 
+
+<section class="recent-posts">
+    <div class="container">
+        <h2>校友活动</h2>
+        <div class="posts-grid">
+            <iframe
+              src="https://lu.ma/embed/calendar/cal-T6Ukwd9haQqyPCA/events"
+              frameborder="0"
+              style="border: 1px solid #bfcbda88; border-radius: 4px;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+        </div>
+        <div class="view-all">
+            <a href="http://lu.ma/cdqz" class="cta-button-secondary">查看所有活动</a>
+        </div>
+    </div>
+</section>
+
+
 <section class="recent-posts">
     <div class="container">
         <h2>最新博文</h2>

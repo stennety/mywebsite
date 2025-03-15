@@ -48,7 +48,7 @@ title: Home
             ></iframe>
         </div>
         <div class="view-all">
-            <a href="http://lu.ma/cdqz" class="cta-button-secondary">查看所有活动</a>
+            <a href="http://lu.ma/cdqz" class="cta-button-secondary">查看所有活动，订阅日历</a>
         </div>
     </div>
 </section>

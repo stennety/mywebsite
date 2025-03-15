@@ -7,6 +7,8 @@ title: Home
     <h1>成都七中北美校友会</h1>
     <p>让每一位七中人在北美都能找到归属感</p>
     <a href="#join" class="cta-button">加入我们</a>
+    <a href="http://lu.ma/cdqz" class="cta-button">活动日历x</a>
+
 </section>
 
 <div class="features">
@@ -18,9 +20,8 @@ title: Home
     
     <div class="feature-card">
         <img src="/assets/images/events.svg" alt="Events Icon">
-        <h3>活动聚会</h3>
+        <h3><a href="http://lu.ma/cdqz">活动聚会</a></h3>
         <p>定期组织线上线下活动，重温校园情谊</p>
-        <p><a href="http://lu.ma/cdqz">查看活动日历</a></p>
     </div>
     
     <div class="feature-card">

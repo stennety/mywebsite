@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- <meta name='viewport' content='width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scale=no'>-->
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
   <title>Data Dashboard</title>
   <!-- ApexCharts JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.44.0/apexcharts.min.js"></script>
@@ -19,7 +19,8 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-
+    
+    
     .container {
       max-width: 100%;
       margin: 0 auto;
@@ -194,11 +195,6 @@
       .chart-block, .table-block {
         width: 460px;
       }
-      .dashboard {
-	      flex-direction: column;
-	      justify-content: center;
-	      align-items: center;
-      }
     }
 
     @media (max-width: 768px) {
@@ -218,52 +214,6 @@
 <body>
   <div class="container">
     <div class="dashboard">
-      <!-- Chart Block 1: Treemap -->
-      <div class="chart-block">
-        <div class="chart-description">
-          <h3>공정별 불량률</h3>
-          <p>가장 문제가 높은 공정은 <span id="red">코팅 공정, 포장 공정</span>입니다.<br>
-            ㅤ</p>
-        </div>
-        <div id="treemap-chart"></div>
-      </div>
-      
-      <!-- Chart Block 2: Gradient Line -->
-      <div class="chart-block">
-        <div class="chart-description">
-          <h3>코팅 공정 문제 발생률 추이</h3>
-          <p>날짜별 <span id="black">코팅 공정의 문제 발생 추이</span>는 <span id="red">증가</span>하고 있으며,<br>
-            지속적으로 증가할 것으로 예상됩니다.</p>
-        </div>
-        <div id="gradient-line-chart"></div>
-      </div>
-      
-      <!-- Chart Block 3: Basic Bar -->
-      <div class="chart-block">
-        <div class="chart-description">
-          <div class="card-head">
-            <h3>코팅 공정 문제 종류와 순위</h3>
-            <div class="annotation">불량률(%)</div>
-          </div>
-          <p>최근 7일간 코팅 공정에서 발생한 문제는 총 9개이며, 가장 높은 문제<br>
-            TOP3는 <span id=yellow>코팅 불균일 문제, 점착성 문제, 코팅 박리</span> 입니다.</p>
-        </div>
-        <div id="basic-bar-chart"></div>
-      </div>
-      
-      <!-- Chart Block 4: Simple Bubble -->
-      <div class="chart-block">
-        <div class="chart-description">
-          <div class="card-head">
-            <h3>코팅 공정 불량 설비 비율</h3>
-            <div class="annotation"><span id=blue>●</span> 정상 <span id=green>●</span> 적정 <span id=yellow>●</span> 미세불량 <span id=red>●</span> 불량</div>
-          </div>
-          <p>코팅 불균일 문제에서 불량률이 높은 설비는 <span id=red>드라이어, 혼합기, 두께<br>
-            측정</span>이며, <span id=black>4~6번 라인</span>에서 불량률이 높습니다.</p>
-        </div>
-        <div id="simple-bubble-chart"></div>
-      </div>
-
       <!-- Block 5: Tables with Tabs -->
       <div class="table-block">
         <div class="table-description">
@@ -391,7 +341,7 @@
             </tbody>
           </table>
         </div>
-
+        
         <!-- Table 2 -->
         <div id="table2" class="table-content">
           <table>
@@ -503,6 +453,48 @@
             </tbody>
           </table>
         </div>
+      </div>
+      <!-- Chart Block 4: Simple Bubble -->
+      <div class="chart-block">
+        <div class="chart-description">
+          <div class="card-head">
+            <h3>코팅 공정 불량 설비 비율</h3>
+            <div class="annotation"><span id=blue>●</span> 정상 <span id=green>●</span> 적정 <span id=yellow>●</span> 미세불량 <span id=red>●</span> 불량</div>
+          </div>
+          <p>코팅 불균일 문제에서 불량률이 높은 설비는 <span id=red>드라이어, 혼합기, 두께<br>
+            측정</span>이며, <span id=black>4~6번 라인</span>에서 불량률이 높습니다.</p>
+        </div>
+        <div id="simple-bubble-chart"></div>
+      </div>
+      <!-- Chart Block 3: Basic Bar -->
+      <div class="chart-block">
+        <div class="chart-description">
+          <div class="card-head">
+            <h3>코팅 공정 문제 종류와 순위</h3>
+            <div class="annotation">불량률(%)</div>
+          </div>
+          <p>최근 7일간 코팅 공정에서 발생한 문제는 총 9개이며, 가장 높은 문제<br>
+            TOP 3는 <span id=yellow>코팅 불균일 문제, 점착성 문제, 코팅 박리</span> 입니다.</p>
+        </div>
+        <div id="basic-bar-chart"></div>
+      </div>
+      <!-- Chart Block 2: Gradient Line -->
+      <div class="chart-block">
+        <div class="chart-description">
+          <h3>코팅 공정 문제 발생률 추이</h3>
+          <p>날짜별 <span id="black">코팅 공정의 문제 발생 추이</span>는 <span id="red">증가</span>하고 있으며,<br>
+            지속적으로 증가할 것으로 예상됩니다.</p>
+        </div>
+        <div id="gradient-line-chart"></div>
+      </div>
+      <!-- Chart Block 1: Treemap -->
+      <div class="chart-block">
+        <div class="chart-description">
+          <h3>공정별 불량률</h3>
+          <p>가장 문제가 높은 공정은 <span id="red">코팅 공정, 포장 공정</span>입니다.<br>
+            ㅤ</p>
+        </div>
+        <div id="treemap-chart"></div>
       </div>
     </div>
   </div>
@@ -881,23 +873,12 @@
       else if (window.innerWidth <= 1024) {
         scale = 0.9;
       }
-      const isiPhone = /iPhone|iPad|iPod/i.test(navigator.userAgent);
-    
 
       document.querySelector('body').style.zoom = scale;
-      //if (isiPhone) {
-        document.querySelectorAll('*').forEach(element => {
-          const computedStyle = window.getComputedStyle(element);
-          const fontSize = parseFloat(computedStyle.fontSize);
-
-          if (!isNaN(fontSize)) {
-            const newFontSize = fontSize * scale + 'px';
-            element.style.fontSize = newFontSize;
-          }
-        });
-      //}
     }
-    //adjustScale();
+  //  adjustScale();
+
+//    window.addEventListener('resize', adjustScale);
 function setViewport() {
       let scale = 1;
       if (window.innerWidth <= 980) {
@@ -914,8 +895,6 @@ function setViewport() {
     document.head.appendChild(meta); // ✅ <head>에 추가
 }
 	setViewport();
-    // window.addEventListener('resize', setViewport);
-    //window.addEventListener('resize', adjustScale);
     // 기본 화면 크기 80%로 설정
     // document.body.style.zoom = "80%";
   </script>

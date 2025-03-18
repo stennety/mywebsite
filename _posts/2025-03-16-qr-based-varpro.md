@@ -3,6 +3,7 @@ layout: post
 tags: least-squares algorithm varpro
 #categories: []
 date: 2025-03-16
+last_updated:
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
@@ -231,6 +232,13 @@ with $$\boldsymbol{\Phi}^\dagger$$ as in $$\eqref{phi-dagger}$$. There is a
 typo in the Kaufmann paper for the final form of this equation, which
 leaves out the preceding minus ($$-$$). The previous formulae in (Kau75), and the derivation
 in (Bae23) show that this is an oversight.
+
+## A Note on Implementation
+
+While the formulas are enough to implement the algorithm, it makes sense to spell
+out how to implement this.
+
+!!!!!!!!!!!!!!!!!!! TODO add note on implementation !!!!!!!!!!!!
 
 # Conclusion
 

@@ -273,7 +273,7 @@ $$\boldsymbol{\alpha}$$. When using linear algebra libraries to calculate the
 QR decomposition, this solution can typically be obtained without having to
 create the pseudoinverse ourselves.
 
-Since we can get $$\boldsymbol{\hat{C}}$$ from the linear algebra backend we're
+Since we can get $$\boldsymbol{\hat{C}}$$ from the linear algebra backend, which we're
 (probably) using, we should also consider whether it's cheaper to calculate
 $$R_{WLS}$$ using $$\eqref{weighted-diff}$$ or using $$\eqref{functional-q}$$.
 This likely depends on the details of the linear algebra backend.

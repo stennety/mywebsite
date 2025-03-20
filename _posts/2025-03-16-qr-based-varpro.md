@@ -21,7 +21,7 @@ math: true
 ---
 
 This article continues the series on Variable Projection and
-explains how rewrite the problem using QR decomposition, rather than the more
+explains how to rewrite the problem using QR decomposition, rather than the more
 computationally expensive singular value decomposition (SVD).
 
 # Context

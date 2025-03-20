@@ -3,7 +3,7 @@ layout: post
 tags: least-squares algorithm varpro
 #categories: []
 date: 2025-03-16
-last_updated: 2025-03-18
+last_updated: 2025-03-20
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:

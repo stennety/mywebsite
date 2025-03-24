@@ -23,17 +23,23 @@ memory - 存放输入的prompt信息
 state - 状态： idle, running, finished, error
 
 重要的方法： 
-1. async def run(...) 
----> check status --> update moemory --> 启动 async loop： for each steps in steps, call self.step() 
-2. async def step 需要子类override的方法
-3. is_stuck 检查是否陷入stuck
-4. handle stuck - Handle stuck state by adding a prompt to change strategy 需要进一步的研究。。。
+async def run(...) 
+---> check status --> update moemory --> 启动 async loop： for each steps in steps, call self.step()
+
+async def step:  需要子类override的方法
+
+is_stuck: 检查是否陷入stuck
+
+handle_stuck - Handle stuck state by adding a prompt to change strategy 需要进一步的研究。。。
 
 ## ReActAgent 继承BaseAgent + ABC
 
 重要的方法： 
+
 think() - abstract方法，处理当前状态，决定下一步 action， 需要子类重载
+
 act （） - abstract方法，执行 action，需要子类重载
+
 step （） - 非抽象方法，模板方法调用 think 来决定是否执行动作，然后 call self.act
 
 ## ToolCallAgent 继承 ReActAgent
@@ -51,6 +57,7 @@ execute_tool/_handle_special_tool - helper 函数执行 tool 调用
 
 属性：
 available_tools - BrowserUser, Terminate
+
 方法：
 get_browser_state - 从 browser-use 工具获取状态
 think -
@@ -61,9 +68,10 @@ think -
 ## ManusAgent继承BrowserAgent 
 属性：
 available_tools - PythonExecute, BrowserTool, StrReplaceEditor, Teminate
+
 方法： 
--- think 
--- act 
+-- think :  检查最后3条在memory的browser activity，构建next prompt， call 父类的think
+
   
   
 

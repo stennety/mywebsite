@@ -36,3 +36,4 @@ Step 18:
 Models that do not support large probability are small models that you use in silicon
 ~~~~
 
+切换模型为支持 function call的"Qwen/QwQ-32B" （参考: https://github.com/mannaandpoem/OpenManus/discussions/707 )

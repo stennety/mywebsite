@@ -17,24 +17,14 @@ step 1: 调用 browser-use 进行 Google 搜索： 'Japan itinerary April 15-23 
 
 step 2: 调用 brower-use 进行 google 搜索： "special proposal locations in Japan“ 解析第一个结果 （todo: how to decide 2nd keyword for google search)
 
+
+
 调用 browser-use， action=‘extract_content', 'goal': 'extract the list of best place to propose in Janpan from the curent page'
 结果失败：6 retry: 
 "OpenAI API error: Error code: 400 - {'code': 20015, 'message': 'Value error, The `required` option for tool_choice is not yet supported" 
  
 raised bad request error
-(todo: why failed and what's its impact?）
-
-step 3:  调用 browser-use with Tool arguments: {"action":"extract_content","goal":"best places to propose in Japan"} 
-结果失败： retry 6 times:
-
-Error code 400:  required` option for tool_choice is not yet supported.
-
-step 4:  调用 browser-use with Tool arguments: {"action":"scroll_down"}
-结果： Ok, scroolled down by 1100 pixels
-
-step 5:  调用 browser-use with Tool arguments: {"action":"extract_content","goal":"Extract the list of best places to propose in Japan from the page"}
-结果： fail with 6 retries,  Error code: 400 - {'code': 20015, 'message': 'Value error, The `required` option for tool_choice is not yet supported.', 'data': None}
-...
+原因： api.siliconflow.cn/v1 不支持 tool_choice=‘required’
 
 重复错误直到 LLM返回 429 rate limits ... 
 
@@ -42,7 +32,7 @@ Step 18:
  Agent detected stuck state. Added prompt:         Observed duplicate responses. Consider new strategies and avoid repeating ineffective paths already attempted.
 
 ~~~~
-发现了类似错误： https://github.com/mannaandpoem/OpenManus/issues/899
+有人问了类似错误： https://github.com/mannaandpoem/OpenManus/issues/899
 Models that do not support large probability are small models that you use in silicon
-
+~~~~
 

@@ -31,3 +31,7 @@ Fasten your ai coding game
 Be aware that models are different, in quality, attention to user intent and responses 'style'. For coding, this is a critical part as the response quality will directly influence your code quality for the better or the worse.
 
 ![python average size](../images/averagepythonsize.png)
+
+Andrej Karpath thoughts on vibe coding
+<blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">There&#39;s a new kind of coding I call &quot;vibe coding&quot;, where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It&#39;s possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1886192184808149383?ref_src=twsrc%5Etfw">February 2, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -11,9 +11,6 @@ What new in AI generated video editing ?
 <iframe width="100%" height="350" src="https://youtu.be/Xa9Sg-j62xY"></iframe>
 
 
-In recent developments, reinforcement learning post-training is emerging as an effective and cost-efficient approach to enhancing Large Language Model (LLM) capabilities. Concurrently, significant discussions have arisen around diffusion models, which reportedly accelerate inference speeds by an order of magnitude.
-
-> [**A diffusion-based 'small' coding LLM 10x faster in token generation than transformer-based LLMs (1000 tok/s on H100)**](https://www.reddit.com/r/LocalLLaMA/comments/1izoyxk/a_diffusion_based_small_coding_llm_that_is_10x/) by [u/Comfortable-Rock-498](https://www.reddit.com/user/Comfortable-Rock-498/) on [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/).
 
 ---
 
@@ -24,6 +21,10 @@ In recent developments, reinforcement learning post-training is emerging as an e
 Since July 2024, **Ollama** has rapidly developed into a compelling backend solution for AI model deployment. While **vllm** remains popular in batch inference scenarios, Ollama distinguishes itself by natively supporting GGUF model formats, enabling versatile single-inference capabilities across various AI modalities (LLMs, Vision Models, VLMs, VLAs).
 
 ![Ollama Performance Comparison](/images/ollamaspeed.png "Ollama Performance Comparison")
+
+In recent developments, reinforcement learning post-training is emerging as an effective and cost-efficient approach to enhancing Large Language Model (LLM) capabilities. Concurrently, significant discussions have arisen around diffusion models, which reportedly accelerate inference speeds by an order of magnitude.
+
+> [**A diffusion-based 'small' coding LLM 10x faster in token generation than transformer-based LLMs (1000 tok/s on H100)**](https://www.reddit.com/r/LocalLLaMA/comments/1izoyxk/a_diffusion_based_small_coding_llm_that_is_10x/) by [u/Comfortable-Rock-498](https://www.reddit.com/user/Comfortable-Rock-498/) on [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/).
 
 ---
 

@@ -4,7 +4,19 @@ title: "March 2025 AI Review"
 tags: [AI, LLM, Open-Source]
 ---
 
-What new in AI generated video editing ?
+AI as a General-purpose technology to understand what is going on
+
+General-purpose technologies (GPTs) are technologies that can affect an entire economy (usually at a national or global level).GPTs have the potential to drastically alter societies through their impact on pre-existing economic and social structures. The archetypal examples of GPTs are the steam engine, electricity, and information technology.
+
+They define a transforming GPT according to the four criteria listed below:
+
+    is a single, recognisable generic technology
+    initially has much scope for improvement but comes to be widely used across the economy
+    has many different uses
+    creates many spillover effects
+
+
+Cool AI generated videos:
 
 <iframe width="100%" height="350" src="https://packaged-media.redd.it/1fjjrjf8ip8e1/pb/m2-res_640p.mp4?m=DASHPlaylist.mpd&v=1&e=1743015600&s=1cdd9b402bb27aae2dc6a541effc955661865f81"></iframe>
 
@@ -18,7 +30,7 @@ What new in AI generated video editing ?
 
 DAPO: An Open-Source LLM Reinforcement Learning System at Scale
 
-    Inference scaling empowers LLMs with unprecedented reasoning ability, with reinforcement learning as the core technique to elicit complex reasoning. However, key technical details of state-of-the-art reasoning LLMs are concealed (such as in OpenAI o1 blog and DeepSeek R1 technical report), thus the community still struggles to reproduce their RL training results. We propose the Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO) algorithm, and fully open-source a state-of-the-art large-scale RL system that achieves 50 points on AIME 2024 using Qwen2.5-32B base model. Unlike previous works that withhold training details, we introduce four key techniques of our algorithm that make large-scale LLM RL a success. In addition, we open-source our training code, which is built on the verl framework, along with a carefully curated and processed dataset. These components of our open-source system enhance reproducibility and support future research in large-scale LLM RL. 
+Inference scaling empowers LLMs with unprecedented reasoning ability, with reinforcement learning as the core technique to elicit complex reasoning. However, key technical details of state-of-the-art reasoning LLMs are concealed (such as in OpenAI o1 blog and DeepSeek R1 technical report), thus the community still struggles to reproduce their RL training results. We propose the Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO) algorithm, and fully open-source a state-of-the-art large-scale RL system that achieves 50 points on AIME 2024 using Qwen2.5-32B base model. Unlike previous works that withhold training details, we introduce four key techniques of our algorithm that make large-scale LLM RL a success. In addition, we open-source our training code, which is built on the verl framework, along with a carefully curated and processed dataset. These components of our open-source system enhance reproducibility and support future research in large-scale LLM RL. 
 
 https://arxiv.org/pdf/2503.14476
 
@@ -27,7 +39,7 @@ https://arxiv.org/pdf/2503.14476
 
 Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation
 
-    Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior. 
+Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior. 
 
 https://arxiv.org/pdf/2503.11926
 
@@ -80,3 +92,4 @@ Model choice affects code quality. Attention to user intent, response style, and
 - [**Diffusion-Based Small Coding LLMs (Detailed Discussion)**](https://www.reddit.com/r/LocalLLaMA/comments/1izoyxk/a_diffusion_based_small_coding_llm_that_is_10x/)
 - [**SmolDocLing 256M VLM for Document Understanding**](https://www.reddit.com/r/LocalLLaMA/comments/1je4eka/smoldocling_256m_vlm_for_document_understanding/)
 - [**Project Completed with 100% AI-Generated Code**](https://www.reddit.com/r/ClaudeAI/comments/1jj2ucr/i_completed_a_project_with_100_aigenerated_code/)
+- [**General Purpose Technology**](https://en.wikipedia.org/wiki/General-purpose_technology/)

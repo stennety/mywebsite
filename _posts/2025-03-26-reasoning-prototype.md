@@ -10,8 +10,6 @@ What new in AI generated video editing ?
 
 <iframe width="100%" height="350" src="https://youtu.be/Xa9Sg-j62xY"></iframe>
 
-
-
 ---
 
 ## March 2025: AI Project Highlights
@@ -54,7 +52,7 @@ Model choice affects code quality. Attention to user intent, response style, and
 
 ### ComfyUI Integration with Unreal Engine
 
-> [**Unreal Engine & ComfyUI Workflow**](https://www.reddit.com/r/comfyui/comments/1jfiakn/unreal_engine_comfyui_workflow/) by [u/Plenty_Big4560](https://www.reddit.com/user/Plenty_Big4560/) on [ComfyUI](https://www.reddit.com/r/comfyui/).
+- [**ComfyUI Unreal Engine Workflow (Discussion)**](https://www.reddit.com/r/comfyui/comments/1jfiakn/unreal_engine_comfyui_workflow/)
 
 ---
 
@@ -64,5 +62,4 @@ Model choice affects code quality. Attention to user intent, response style, and
 - [**New Research: LLMs Could Think in Human-like Ways**](https://www.reddit.com/r/LocalLLaMA/comments/1inch7r/a_new_paper_demonstrates_that_llms_could_think_in/)
 - [**Diffusion-Based Small Coding LLMs (Detailed Discussion)**](https://www.reddit.com/r/LocalLLaMA/comments/1izoyxk/a_diffusion_based_small_coding_llm_that_is_10x/)
 - [**SmolDocLing 256M VLM for Document Understanding**](https://www.reddit.com/r/LocalLLaMA/comments/1je4eka/smoldocling_256m_vlm_for_document_understanding/)
-- [**ComfyUI Unreal Engine Workflow (Discussion)**](https://www.reddit.com/r/comfyui/comments/1jfiakn/unreal_engine_comfyui_workflow/)
 - [**Project Completed with 100% AI-Generated Code**](https://www.reddit.com/r/ClaudeAI/comments/1jj2ucr/i_completed_a_project_with_100_aigenerated_code/)

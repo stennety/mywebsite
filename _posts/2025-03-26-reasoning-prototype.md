@@ -35,3 +35,13 @@ Be aware that models are different, in quality, attention to user intent and res
 Andrej Karpath thoughts on vibe coding
 <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">There&#39;s a new kind of coding I call &quot;vibe coding&quot;, where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It&#39;s possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1886192184808149383?ref_src=twsrc%5Etfw">February 2, 2025</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ComfyUI to unreal engine game (!check-your-wireframe!)
+
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-created="2025-03-26T16:11:18Z">
+<a href="https://www.reddit.com/r/comfyui/comments/1jfiakn/unreal_engine_comfyui_workflow/">Unreal Engine &amp; ComfyUI workflow</a><br> by
+<a href="https://www.reddit.com/user/Plenty_Big4560/">u/Plenty_Big4560</a> in
+<a href="https://www.reddit.com/r/comfyui/">comfyui</a>
+</blockquote>
+<script async src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>

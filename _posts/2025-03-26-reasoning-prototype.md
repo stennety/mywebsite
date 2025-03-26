@@ -26,7 +26,7 @@ Since July 2024, **Ollama** has rapidly developed into a compelling backend solu
 
 ### Chat3D: Next-Gen 3D Model Generation
 
-[**Chat3D**](https://chat3d.ai/), based in Lyon, France, delivers cutting-edge text-to-3D and image-to-3D model generation capabilities. Definitely worth exploring for anyone interested in state-of-the-art 3D content creation.
+[**Chat3D**](https://chat3d.ai/), based in Lyon, France, delivers cutting-edge text-to-3D and image-to-3D model generation capabilities.
 
 ---
 
@@ -34,15 +34,13 @@ Since July 2024, **Ollama** has rapidly developed into a compelling backend solu
 
 [**Fasten your AI coding workflow**](https://www.reddit.com/r/ClaudeAI/comments/1jj2ucr/i_completed_a_project_with_100_aigenerated_code/): An insightful experience shared on Reddit highlights a project executed entirely using AI-generated code, demonstrating the transformative impact of AI coding assistants.
 
-However, it's crucial to acknowledge that model choice profoundly affects coding quality. Attention to user intent, response style, and accuracy directly correlates with code quality—positively or negatively.
+Model choice affects code quality. Attention to user intent, response style, and accuracy can create a big mess quickly.
 
 ![Python Code Size Metrics](../images/averagepythonsize.png)
 
 ---
 
 ### Vibe Coding by Andrej Karpathy
-
-Andrej Karpathy recently introduced an engaging concept called **"vibe coding"**:
 
 > There's a new kind of coding I call "vibe coding," where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g., Cursor Composer with Sonnet) are getting too good. Also, I just talk to Composer with SuperWhisper...
 
@@ -51,8 +49,6 @@ Andrej Karpathy recently introduced an engaging concept called **"vibe coding"**
 ---
 
 ### ComfyUI Integration with Unreal Engine
-
-An innovative integration between **ComfyUI** and **Unreal Engine** demonstrates an exciting workflow for creators in the gaming and real-time visualization domains.
 
 > [**Unreal Engine & ComfyUI Workflow**](https://www.reddit.com/r/comfyui/comments/1jfiakn/unreal_engine_comfyui_workflow/) by [u/Plenty_Big4560](https://www.reddit.com/user/Plenty_Big4560/) on [ComfyUI](https://www.reddit.com/r/comfyui/).
 

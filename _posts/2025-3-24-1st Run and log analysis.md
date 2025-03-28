@@ -37,3 +37,31 @@ Models that do not support large probability are small models that you use in si
 ~~~~
 
 切换模型为支持 function call的"Qwen/QwQ-32B" （参考: https://github.com/mannaandpoem/OpenManus/discussions/707 )
+
+
+## Debug 分析： 
+
+base.py - run: 读取任务， 并执行步骤最大20 steps
+
+input: I need a 7-day Japan itinerary for April 15-23 from Seattle ...
+
+step 1: 
+ReActAgent -> step():
+self.think() -> Manus.think -> BrowserAgent.think() ->  ToolCallAgent.think() 
+       
+检查browser-use 状态并启动
+prompt =: '\nBased on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.\n'
+       
+next_prompt = : '\nWhat should I do next to achieve my goal?\n\nWhen you see [Current state starts here], focus on the following:\n- Current URL and page title\n- Available tabs\n- Interactive elements and their indices\n- Content above or below the viewport (if indicated)\n- Any action results or errors\n\nFor browser interactions:\n- To navigate: browser_use with action="go_to_url", url="..."\n- To click: browser_use with action="click_element", index=N\n- To type: browser_use with action="input_text", index=N, text="..."\n- To extract: browser_use with action="extract_content", goal="..."\n- To scroll: browser_use with action="scroll_down" or "scroll_up"\n\nConsider both what\'s visible and what might be beyond the current viewport.\nBe methodical - remember your progress and what you\'ve learned so far.\n'
+
+生成提示词，然后调用 llm： 
+[Message(role='user', content="I need a 7-day Japan itinerary for April 15-23 from Seattle, with a $2500-5000 budget for my fiancée and me. We love historical sites, hidden gems, and Japanese culture (kendo, tea ceremonies, Zen meditation). We want to see Nara's deer and explore cities on foot. I plan to propose during this trip and need a special location recommendation. Please provide a detailed itinerary and a simple HTML travel handbook with maps, attraction descriptions, essential Japanese phrases, and travel tips we can reference throughout our journey.", tool_calls=None, name=None, tool_call_id=None, base64_image=None), 
+
+Message(role='user', content='\nWhat should I do next to achieve my goal?\n\nWhen you see [Current state starts here], focus on the following:\n- Current URL and page title\n- Available tabs\n- Interactive elements and their indices\n- Content above or below the viewport (if indicated)\n- Any action results or errors\n\nFor browser interactions:\n- To navigate: browser_use with action="go_to_url", url="..."\n- To click: browser_use with action="click_element", index=N\n- To type: browser_use with action="input_text", index=N, text="..."\n- To extract: browser_use with action="extract_content", goal="..."\n- To scroll: browser_use with action="scroll_down" or "scroll_up"\n\nConsider both what\'s visible and what might be beyond the current viewport.\nBe methodical - remember your progress and what you\'ve learned so far.\n', tool_calls=None, name=None, tool_call_id=None, base64_image=None)]
+
+响应 （very slow in deubg mode...): 
+
+
+       
+  self.act() - TooCallAgent.act() -> execute_tool (name='str_replace_editor')
+       

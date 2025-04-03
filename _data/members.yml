@@ -129,6 +129,7 @@
   url: "https://raymanpc.com/wiki/en/"
   mainpage: "Main_Page"
   twitter: "RaymanPC"
+  discord: "9rZ2GCwZbP"
 - member:
   id: "sagawiki"
   name: "SaGa Wiki"
@@ -169,7 +170,7 @@
   logo: "/images/logos/tcoaalwiki.jpg"
   url: "https://coffin.wiki/"
   mainpage: "Main_Page"
-  discord: "XyW8vJRjSX"
+  discord: "S84qsjQf9e"
   age: 18+
 - member:
   id: "tomclancywiki"

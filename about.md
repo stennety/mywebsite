@@ -55,4 +55,6 @@ There’s something deeply fulfilling about navigating both mind and body throug
 Feel free to reach out if you want to collaborate or chat:
 r.n.j@hotmail.com
 
+You can view or download my CV [rsekaii.github.io/cv].
+
 ---

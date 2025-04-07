@@ -4,17 +4,31 @@
   {%- include head.html -%}
 
   <body>
+  {%- include header.html -%}
 
-    {%- include header.html -%}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper" style="display: flex; gap: 40px;">
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <!-- Main Content -->
+      <div style="flex: 3;">
         {{ content }}
       </div>
-    </main>
 
-    {%- include footer.html -%}
+      <!-- Sidebar -->
+      <aside style="flex: 1; position: sticky; top: 100px;">
+        <h3>Posts</h3>
+        <ul>
+          {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
 
-  </body>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+</body>
+
 
 </html>

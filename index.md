@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 # Rames Nagib AlJneibi - رامس نجيب الجنيبي

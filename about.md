@@ -33,6 +33,13 @@ I believe that robust mathematical thinking is a superpower in today’s world �
 - Senior Production Planning Engineer – ADNOC Gas (2022-2024)
 - Process Engineer – ADNOC Refining (2019-2021)
 
+## Academic Journey
+
+While working full-time in a demanding technical and strategic role, I pursued my Master’s in Mathematics — and later began a second Master’s in Machine Learning. Despite the load of being a Full-Time student and Full-time Employee, I maintained strong academic performance while receiving promotions and high evaluations at work. That period tested and shaped my discipline, mental resilience, and passion for growth.
+
+It was during this time that I realized my ability to thrive at the intersection of theory and application — and it continues to fuel my vision for impactful, cross-disciplinary work.
+
+
 ## Personal Notes
 
 I’ve always loved helping others learn — whether as an older sibling, classroom tutor, or mentor — and I enjoy breaking down complex ideas into simple, digestible insights.

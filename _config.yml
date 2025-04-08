@@ -40,14 +40,17 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 
+
+theme: jekyll-theme-midnight
+
 # theme: minima
-remote_theme: jekyll/minima
-minima:
-  skin: auto
+# remote_theme: jekyll/minima
+#minima:
+#  skin: auto
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+ # - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

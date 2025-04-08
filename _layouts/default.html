@@ -22,9 +22,12 @@
 
 <!-- Right Sidebar (Posts) -->
 <aside style="flex: 1.2; position: sticky; top: 100px;">
-  <h3 style="margin-bottom: 15px;">Academic Pursuit</h3>
+  <h3 style="margin-bottom: 10px;">Academic Pursuit</h3>
+  <p style="margin-top: 0; font-size: 0.85em; color: #555;">
+    Posts exploring theoretical and technical topics from my academic pursuit.
+  </p>
   <ul style="list-style: none; padding-left: 0;">
-    {% assign academic_posts = site.posts | where_exp:"post", "post.path contains '/academic/'" %}
+    {% assign academic_posts = site.posts | where_exp: "post", "post.path contains '/academic/'" %}
     {% for post in academic_posts %}
       <li style="margin-bottom: 10px;">
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -32,9 +35,12 @@
     {% endfor %}
   </ul>
 
-  <h3 style="margin-top: 40px; margin-bottom: 15px;">Personal Projects</h3>
+  <h3 style="margin-bottom: 10px; margin-top: 30px;">Personal Projects</h3>
+  <p style="margin-top: 0; font-size: 0.85em; color: #555;">
+    Personal attempts to apply what I learn to real-world challenges.
+  </p>
   <ul style="list-style: none; padding-left: 0;">
-    {% assign personal_posts = site.posts | where_exp:"post", "post.path contains '/personal/'" %}
+    {% assign personal_posts = site.posts | where_exp: "post", "post.path contains '/personal/'" %}
     {% for post in personal_posts %}
       <li style="margin-bottom: 10px;">
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -42,6 +48,7 @@
     {% endfor %}
   </ul>
 </aside>
+
 
 
     </div>

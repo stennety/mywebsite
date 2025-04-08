@@ -27,7 +27,7 @@ My broader ambition is to contribute to the development of rigorous, real-world 
 
 I believe that robust mathematical thinking is a superpower in today’s world — and I’m working toward becoming a **pioneer in data-driven decision-making** for energy and industrial systems. My goal is to lead impactful, intelligent solutions in one of the most critical sectors for global development.
 
-## Professional Highlights
+## Professional History
 
 - Senior Specialist – Gas Master Planning (Energy Sector) (2024-current)
 - Senior Production Planning Engineer – ADNOC Gas (2022-2024)

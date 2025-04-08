@@ -4,26 +4,27 @@
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-@media screen and (max-width: 768px) {
-  .page-content {
-    display: flex;
+  "minima/initialize";@media screen and (max-width: 768px) {
+  .page-content .wrapper {
     flex-direction: column !important;
   }
 
+  .page-content aside,
   .page-content > div {
     width: 100% !important;
+    padding: 0 !important;
     margin-bottom: 1.5rem;
+    position: static !important;
   }
 
   .page-content img {
-    max-width: 120px;
+    max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto;
   }
 
-  .btn, .cv-button {
+  .page-content .btn, .cv-button {
     display: block;
     margin: 1rem auto;
   }

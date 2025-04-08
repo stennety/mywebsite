@@ -7,15 +7,15 @@
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">
-    <div class="wrapper" style="display: flex; gap: 40px;">
+    <div class="wrapper" style="display: flex; gap: 40px; max-width: 1200px; margin: 0 auto;">
 
       <!-- Main Content -->
-      <div style="flex: 3;">
+      <div style="flex: 2.5;">
         {{ content }}
       </div>
 
       <!-- Sidebar -->
-      <aside style="flex: 1; position: sticky; top: 100px;">
+      <aside style="flex: 1.2; position: sticky; top: 100px; padding-left: 10px;">
         <h3>Posts</h3>
         <ul>
           {% for post in site.posts %}
@@ -29,6 +29,5 @@
 
   {%- include footer.html -%}
 </body>
-
 
 </html>

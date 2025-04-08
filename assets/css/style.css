@@ -6,34 +6,31 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 @media screen and (max-width: 768px) {
-  .home-container, .main-content-wrapper {
+  .page-content {
+    display: flex;
     flex-direction: column !important;
-    display: flex !important;
   }
 
-  .profile-image {
-    margin: 0 auto;
-    max-width: 120px;
-  }
-
-  .sidebar, .contact-info {
-    text-align: center;
+  .page-content > div {
     width: 100% !important;
     margin-bottom: 1.5rem;
   }
 
-  .main-content {
-    width: 100% !important;
-    padding: 1rem;
-  }
-
-  .cv-button {
-    margin: 0 auto;
-    display: block;
-  }
-
-  img {
-    max-width: 100%;
+  .page-content img {
+    max-width: 120px;
     height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+
+  .btn, .cv-button {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 4px solid #aaa;
   }
 }

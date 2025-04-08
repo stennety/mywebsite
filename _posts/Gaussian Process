@@ -189,7 +189,7 @@ $$
 - \( \sigma^2 \): overall scale (variance)  
 - \( l \): how quickly the function varies
 
-![lengthscale impact]({{ "/assets/images/lengthscale-covariance.png" | relative_url }})
+![lengthscale impact]({{ "/images/lengthscale-covariance.png" | relative_url }})
 
 ---
 
@@ -220,8 +220,8 @@ model.optimize()
 **Comparison of high vs low noise:**
 
 <div style="display: flex; gap: 1rem;">
-  <img src="{{ '/assets/images/highvar.png' | relative_url }}" alt="High noise" width="45%">
-  <img src="{{ '/assets/images/lowvar.png' | relative_url }}" alt="Low noise" width="45%">
+  <img src="{{ '/images/highvar.png' | relative_url }}" alt="High noise" width="45%">
+  <img src="{{ '/images/lowvar.png' | relative_url }}" alt="Low noise" width="45%">
 </div>
 
 ---
@@ -230,13 +230,13 @@ model.optimize()
 
 ### Complex function:
 
-![Complex function]({{ "/assets/images/complexK.png" | relative_url }})
+![Complex function]({{ "/images/complexK.png" | relative_url }})
 
 ### Oversmoothing:
 
-![Oversmooth]({{ "/assets/images/RBF2.png" | relative_url }})
+![Oversmooth]({{ "/images/RBF2.png" | relative_url }})
 
 ### Oscillation:
 
-![Oscillating]({{ "/assets/images/RBF1.png" | relative_url }})
+![Oscillating]({{ "/images/RBF1.png" | relative_url }})
 

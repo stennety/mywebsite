@@ -9,8 +9,11 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper" style="display: flex; gap: 40px; max-width: 1200px; margin: 0 auto;">
 
-      <!-- Left Sidebar (for future use) -->
-      <aside style="flex: 0.8;"></aside>
+      <!-- Left Sidebar (Contact Info) -->
+      <aside style="flex: 0.8; position: sticky; top: 100px;">
+        {% include contact.html %}
+      </aside>
+
 
       <!-- Main Content -->
       <div style="flex: 2.5; padding-left: 10px; padding-right: 10px;">

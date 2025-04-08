@@ -40,12 +40,10 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 
-
-
-theme: minima
+# theme: minima
 remote_theme: jekyll/minima
 minima:
-skin: auto
+  skin: auto
 
 plugins:
   - jekyll-feed

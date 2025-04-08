@@ -103,13 +103,3 @@ P(\text{Unemployment\%} \mid do(\text{Fed Fund Rate}))
 This will help visualize the shift in unemployment distribution resulting from monetary policy intervention.
 
 ---
-
-## References & Inspiration
-
-- [Understanding Business Cycles — CFA Institute](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2025/understanding-business-cycles)  
-- [FRED Economic Data](https://fred.stlouisfed.org/)  
-- [Causal Inference Resources](https://www.cambridge.org/core/books/causal-inference-in-statistics/)
-
----
-
-> *This project reflects an independent exploration into the intersection of causal inference and macroeconomic policy.*

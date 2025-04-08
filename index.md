@@ -49,12 +49,3 @@ My love for adventure and challenge extends beyond the academic realm. I’m int
 There’s something deeply fulfilling about navigating both mind and body through effort and discomfort — and coming out stronger on the other side.
 
 
-
-## Contact
-
-Feel free to reach out if you want to collaborate or chat:
-r.n.j@hotmail.com
-
-You can view or download my CV [here](cv.pdf).
-
----

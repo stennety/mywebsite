@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Predicting Feed Stream Yields in Gas Processing Plants Using Machine Learning"
-date: 2025-04-09
+title: "Prediction of Feed Stream Yields in a Gas Processing Plant"
+date: 2025-04-08
 math: true
 ---
+
 
 ## Introduction
 

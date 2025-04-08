@@ -17,7 +17,6 @@ Gas processing plants process and treat natural gas and its byproducts. They fac
 
 - Developed ML models (linear regression, random forest, and neural networks) to predict feed yields.
 - Applied these models to address real-world production planning challenges.
-- Introduced the use of Local Outlier Factor (LOF) for cleaning noisy industrial data.
 - Used correlation analysis and neural networks to extract nonlinear relationships between feeds and products.
 
 ---

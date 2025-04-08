@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conformal Prediction — Uncertainty Quantification in Practice"
+title: "Conformal Prediction "
 date: 2025-04-08
 math: true
 ---

@@ -6,14 +6,6 @@ math: true
 ---
 
 
-Here is some inline math: $a^2 + b^2 = c^2$
-
-Here is display math:
-
-$$
-\int_0^1 x^2 dx = \frac{1}{3}
-$$
-
 
 ## Introduction
 

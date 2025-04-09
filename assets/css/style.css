@@ -4,17 +4,42 @@
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";@media screen and (max-width: 768px) {
-  .page-content .wrapper {
+  "minima/initialize";
+
+/* Mobile-only adjustments */
+@media screen and (max-width: 768px) {
+  .layout-wrapper {
     flex-direction: column !important;
   }
 
-  .page-content aside,
-  .page-content > div {
+  .sidebar,
+  .main-content,
+  .right-sidebar {
     width: 100% !important;
     padding: 0 !important;
     margin-bottom: 1.5rem;
     position: static !important;
+  }
+
+  /* Collapse sidebar labels, keep icons only */
+  .sidebar .label {
+    display: none !important;
+  }
+
+  /* Hide main content if it's a post page (mobile only) */
+  body.post-page .main-content,
+  body.post-page .right-sidebar {
+    display: block;
+  }
+
+  body.post-page .post-list-container {
+    display: none;
+  }
+
+  /* Hide main content and post sidebar if not on post page (i.e. homepage) */
+  body:not(.post-page) .main-content,
+  body:not(.post-page) .right-sidebar {
+    display: none;
   }
 
   .page-content img {
@@ -24,7 +49,8 @@
     margin: 0 auto;
   }
 
-  .page-content .btn, .cv-button {
+  .btn,
+  .cv-button {
     display: block;
     margin: 1rem auto;
   }

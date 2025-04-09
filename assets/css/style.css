@@ -4,27 +4,58 @@
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";@media screen and (max-width: 768px) {
-  .page-content .wrapper {
+  "minima/initialize";
+
+/* Mobile-only layout */
+@media screen and (max-width: 768px) {
+  .layout-wrapper {
     flex-direction: column !important;
   }
 
-  .page-content aside,
-  .page-content > div {
+  .sidebar,
+  .main-content,
+  .right-sidebar {
     width: 100% !important;
     padding: 0 !important;
     margin-bottom: 1.5rem;
     position: static !important;
   }
 
-  .page-content img {
+  /* Collapse sidebar to icons only */
+  .sidebar .label {
+    display: none !important;
+  }
+
+  /* Mobile: Hide post list on post pages, show just "Home" */
+  body.post-page .right-sidebar > h3,
+  body.post-page .right-sidebar > p,
+  body.post-page .right-sidebar > ul:not(.mobile-only-home-button) {
+    display: none;
+  }
+
+  .mobile-only-home-button {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Hide home button on desktop */
+  @media screen and (min-width: 769px) {
+    .mobile-only-home-button {
+      display: none !important;
+    }
+  }
+
+  img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
   }
 
-  .page-content .btn, .cv-button {
+  .btn,
+  .cv-button {
     display: block;
     margin: 1rem auto;
   }

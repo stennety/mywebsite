@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-<!-- ✅ DESKTOP VERSION -->
-<div class="homepage-desktop">
-{% raw %}
+<!-- ✅ DESKTOP: default content — do NOT wrap -->
 
 # Rames Nagib AlJneibi - رامس نجيب الجنيبي
 
@@ -51,22 +49,18 @@ My love for adventure and challenge extends beyond the academic realm. I’m int
 
 There’s something deeply fulfilling about navigating both mind and body through effort and discomfort — and coming out stronger on the other side.
 
-{% endraw %}
-</div>
 
-<!-- ✅ MOBILE VERSION -->
-<div class="homepage-mobile">
-{% raw %}
 
-# Rames Nagib AlJneibi - رامس نجيب الجنيبي
+<!-- ✅ MOBILE ONLY: hidden on desktop -->
+<div class="homepage-mobile-only">
+  <h1>Rames AlJneibi - رامس الجنيبي</h1>
+#
 
-Welcome to my personal academic blog and portfolio — where I explore theoretical topics and their real-world application.
+Welcome to the mobile version of my personal academic blog and portfolio — where I explore theoretical topics and their real-world application.
 
-<ul>
-  <li><a href="/aboutme">About Me</a></li>
-  <li><a href="/personal">Personal Projects</a></li>
-  <li><a href="/academic">Academic Posts</a></li>
-</ul>
-
-{% endraw %}
+  <ul>
+    <li><a href="/aboutme">About Me</a></li>
+    <li><a href="/personal">Personal Projects</a></li>
+    <li><a href="/academic">Academic Posts</a></li>
+  </ul>
 </div>

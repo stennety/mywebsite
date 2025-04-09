@@ -5,8 +5,7 @@ title: Home
 
 <!-- ✅ DESKTOP VERSION -->
 <div class="homepage-desktop">
-
-<!-- 👇 Paste your full existing homepage content here -->
+{% raw %}
 
 # Rames Nagib AlJneibi - رامس نجيب الجنيبي
 
@@ -24,7 +23,6 @@ My academic and professional interests lie at the intersection of:
 - **Energy Systems Planning & Gas Infrastructure**  
 - **Stochastic PDEs and Mathematical Modeling**
 
-
 I’m currently focusing my Master’s thesis on **Conformal Prediction and Uncertainty Quantification**, while also exploring the intersection of **Numerical Methods for PDEs** and **Machine Learning**.  
 
 My broader ambition is to contribute to the development of rigorous, real-world **mathematical models of physical systems**, bridging theory and application in meaningful ways.
@@ -35,16 +33,15 @@ I believe that robust mathematical thinking is a superpower in today’s world �
 
 ## Professional History
 
-- Senior Specialist – Gas Master Planning (Energy Sector) (2024-current)
-- Senior Production Planning Engineer – ADNOC Gas (2022-2024)
-- Process Engineer – ADNOC Refining (2019-2021)
+- Senior Specialist – Gas Master Planning (Energy Sector) (2024–current)
+- Senior Production Planning Engineer – ADNOC Gas (2022–2024)
+- Process Engineer – ADNOC Refining (2019–2021)
 
 ## Academic Journey
 
 While working full-time in a demanding technical and strategic role, I pursued my Master’s in Mathematics — and later began a second Master’s in Machine Learning. Despite the load of being a Full-Time student and Full-time Employee, I maintained strong academic performance while receiving promotions and high evaluations at work. That period tested and shaped my discipline, mental resilience, and passion for growth.
 
 It was during this time that I realized my ability to thrive at the intersection of theory and application — and it continues to fuel my vision for impactful, cross-disciplinary work.
-
 
 ## Personal Notes
 
@@ -54,24 +51,22 @@ My love for adventure and challenge extends beyond the academic realm. I’m int
 
 There’s something deeply fulfilling about navigating both mind and body through effort and discomfort — and coming out stronger on the other side.
 
-
-
-
-<!-- END existing homepage content -->
-
+{% endraw %}
 </div>
 
 <!-- ✅ MOBILE VERSION -->
 <div class="homepage-mobile">
-  
-  <p>
-  # Rames Nagib AlJneibi - رامس نجيب الجنيبي
+{% raw %}
 
-Welcome to my personal academic blog and portfolio. Where I explore interesting theoritical topics, and thier application.   
-  </p>
-  <ul>
-    <li><a href="/aboutme">About Me</a></li>
-    <li><a href="/personal">Personal Projects</a></li>
-    <li><a href="/academic">Academic Posts</a></li>
-  </ul>
+# Rames Nagib AlJneibi - رامس نجيب الجنيبي
+
+Welcome to my personal academic blog and portfolio — where I explore theoretical topics and their real-world application.
+
+<ul>
+  <li><a href="/aboutme">About Me</a></li>
+  <li><a href="/personal">Personal Projects</a></li>
+  <li><a href="/academic">Academic Posts</a></li>
+</ul>
+
+{% endraw %}
 </div>

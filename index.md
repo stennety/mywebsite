@@ -7,7 +7,6 @@ title: Home
 <div class="homepage-desktop">
 
 <!-- 👇 Paste your full existing homepage content here -->
-<p>
 
 # Rames Nagib AlJneibi - رامس نجيب الجنيبي
 
@@ -57,7 +56,7 @@ There’s something deeply fulfilling about navigating both mind and body throug
 
 
 
-</p>
+
 <!-- END existing homepage content -->
 
 </div>

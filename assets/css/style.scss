@@ -57,7 +57,7 @@
     padding: 6px 10px;
     z-index: 1000;
     font-size: 1.2rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .mobile-home-button a {
@@ -92,7 +92,7 @@
   }
 }
 
-/* Hide/show homepage sections based on screen size */
+/* 🏠 Desktop vs. Mobile Homepage Sections */
 .homepage-desktop {
   display: block;
 }

@@ -12,17 +12,21 @@
     </div>
 
     <main class="page-content" aria-label="Content">
-      <div class="layout-wrapper" style="display: flex; gap: 40px; max-width: 1200px; margin: 0 auto; flex-wrap: wrap;">
+      <div class="layout-wrapper" style="display: flex; gap: 40px; max-width: 1200px; margin: 0 auto;">
 
         <!-- Left Sidebar (Contact Info) -->
-        <aside class="sidebar-left" style="flex: 0.8; position: sticky; top: 100px;">
+        <aside class="sidebar" style="flex: 0.8; position: sticky; top: 100px;">
           {% include contact.html %}
         </aside>
 
-        <!-- Right Sidebar (Posts) -->
-        <aside class="sidebar-right" style="flex: 1.2; position: sticky; top: 100px; order: 1;">
+        <!-- Main Content -->
+        <div class="main-content" style="flex: 2.5; padding-left: 10px; padding-right: 10px;">
+          {{ content }}
+        </div>
 
-          <!-- ✅ Mobile-only About Me post -->
+        <!-- Right Sidebar (Posts) -->
+        <aside class="right-sidebar" style="flex: 1.2; position: sticky; top: 100px;">
+          <!-- Mobile-only About Me post -->
           <ul class="aboutme-mobile-only" style="list-style: none; padding-left: 0; margin-top: 30px;">
             {% for post in site.posts %}
               {% if post.path contains 'aboutme' %}
@@ -59,11 +63,6 @@
             {% endfor %}
           </ul>
         </aside>
-
-        <!-- Main Content -->
-        <div class="main-content" style="flex: 2.5; padding-left: 10px; padding-right: 10px; order: 2;">
-          {{ content }}
-        </div>
 
       </div>
     </main>

@@ -6,7 +6,7 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-/* Mobile-only adjustments */
+/* Mobile-only layout */
 @media screen and (max-width: 768px) {
   .layout-wrapper {
     flex-direction: column !important;
@@ -21,28 +21,33 @@
     position: static !important;
   }
 
-  /* Collapse sidebar labels, keep icons only */
+  /* Collapse sidebar to icons only */
   .sidebar .label {
     display: none !important;
   }
 
-  /* Hide main content if it's a post page (mobile only) */
-  body.post-page .main-content,
-  body.post-page .right-sidebar {
+  /* Mobile: Hide post list on post pages, show just "Home" */
+  body.post-page .right-sidebar > h3,
+  body.post-page .right-sidebar > p,
+  body.post-page .right-sidebar > ul:not(.mobile-only-home-button) {
+    display: none;
+  }
+
+  .mobile-only-home-button {
     display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
   }
 
-  body.post-page .post-list-container {
-    display: none;
+  /* Hide home button on desktop */
+  @media screen and (min-width: 769px) {
+    .mobile-only-home-button {
+      display: none !important;
+    }
   }
 
-  /* Hide main content and post sidebar if not on post page (i.e. homepage) */
-  body:not(.post-page) .main-content,
-  body:not(.post-page) .right-sidebar {
-    display: none;
-  }
-
-  .page-content img {
+  img {
     max-width: 100%;
     height: auto;
     display: block;

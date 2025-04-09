@@ -22,6 +22,19 @@
     position: static !important;
   }
 
+  /* ⬇️ Reorder elements on mobile */
+  .sidebar-right {
+    order: 1 !important;
+  }
+
+  .main-content {
+    order: 2 !important;
+  }
+
+  .sidebar-left {
+    order: 3 !important;
+  }
+
   /* Sidebar: show icons only */
   .sidebar .label {
     display: none !important;
@@ -83,35 +96,7 @@
     padding-left: 1rem;
     border-left: 4px solid #aaa;
   }
-}
 
-/* 🖥️ Hide About Me post on desktop */
-@media screen and (min-width: 769px) {
-  .aboutme-mobile-only {
-    display: none !important;
-  }
-}
-
-/* 🏠 Desktop vs. Mobile Homepage Sections */
-.homepage-desktop {
-  display: block;
-}
-
-.homepage-mobile {
-  display: none;
-}
-/* Show desktop-only blocks only on larger screens */
-.desktop-only {
-  display: block;
-}
-
-@media screen and (max-width: 768px) {
-  .desktop-only {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .homepage-desktop {
     display: none;
   }
@@ -119,4 +104,27 @@
   .homepage-mobile {
     display: block;
   }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+/* 🖥️ Desktop-only styles */
+@media screen and (min-width: 769px) {
+  .aboutme-mobile-only {
+    display: none !important;
+  }
+}
+
+.homepage-desktop {
+  display: block;
+}
+
+.homepage-mobile {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
 }

@@ -108,6 +108,13 @@
   .desktop-only {
     display: none;
   }
+
+  /* ✅ Unstick sidebars on mobile */
+  .sidebar-left,
+  .sidebar-right {
+    position: static !important;
+    top: auto !important;
+  }
 }
 
 /* 🖥️ Desktop-only styles */

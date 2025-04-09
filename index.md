@@ -3,6 +3,20 @@ layout: default
 title: Home
 ---
 
+<div class="homepage-mobile-only">
+  <h1>Rames AlJneibi - رامس الجنيبي</h1>
+#
+
+Welcome to the mobile version of my personal academic blog and portfolio, where I explore theoretical ideas and bring them to life through real-world applications.
+
+  <ul>
+    <li><a href="/2025/04/08/aboutme.html">About Me</a></li>
+    <li><a href="/personal">Personal Projects</a></li>
+    <li><a href="/academic">Academic Posts</a></li>
+  </ul>
+</div>
+
+<div id="desktop-home">
 <!-- ✅ DESKTOP: default content — do NOT wrap -->
 
 # Rames Nagib AlJneibi - رامس نجيب الجنيبي
@@ -50,17 +64,10 @@ My love for adventure and challenge extends beyond the academic realm. I’m int
 There’s something deeply fulfilling about navigating both mind and body through effort and discomfort — and coming out stronger on the other side.
 
 
-
-<!-- ✅ MOBILE ONLY: hidden on desktop -->
-<div class="homepage-mobile-only">
-  <h1>Rames AlJneibi - رامس الجنيبي</h1>
-#
-
-Welcome to the mobile version of my personal academic blog and portfolio, where I explore theoretical ideas and bring them to life through real-world applications.
-
-  <ul>
-    <li><a href="/2025/04/08/aboutme.html">About Me</a></li>
-    <li><a href="/personal">Personal Projects</a></li>
-    <li><a href="/academic">Academic Posts</a></li>
-  </ul>
 </div>
+
+<script>
+  const isMobile = window.innerWidth < 769;
+  document.getElementById("mobile-home").style.display = isMobile ? "block" : "none";
+  document.getElementById("desktop-home").style.display = isMobile ? "none" : "block";
+</script>

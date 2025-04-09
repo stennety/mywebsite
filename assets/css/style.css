@@ -41,6 +41,11 @@
     margin-bottom: 8px;
   }
 
+  /* About Me post - show only on mobile */
+  .aboutme-mobile-only {
+    display: block;
+  }
+
   /* Mobile Home Button (top-left corner) */
   .mobile-home-button {
     position: fixed;
@@ -77,5 +82,12 @@
     margin-left: 0;
     padding-left: 1rem;
     border-left: 4px solid #aaa;
+  }
+}
+
+/* 🖥️ Hide About Me post on desktop */
+@media screen and (min-width: 769px) {
+  .aboutme-mobile-only {
+    display: none !important;
   }
 }

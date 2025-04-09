@@ -59,7 +59,7 @@ There’s something deeply fulfilling about navigating both mind and body throug
 Welcome to the mobile version of my personal academic blog and portfolio — where I explore theoretical topics and their real-world application.
 
   <ul>
-    <li><a href="/aboutme">About Me</a></li>
+    <li><a href="/2025/04/08/aboutme.html">About Me</a></li>
     <li><a href="/personal">Personal Projects</a></li>
     <li><a href="/academic">Academic Posts</a></li>
   </ul>

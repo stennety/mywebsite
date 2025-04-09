@@ -56,7 +56,7 @@ There’s something deeply fulfilling about navigating both mind and body throug
   <h1>Rames AlJneibi - رامس الجنيبي</h1>
 #
 
-Welcome to the mobile version of my personal academic blog and portfolio — where I explore theoretical topics and their real-world application.
+Welcome to the mobile version of my personal academic blog and portfolio, where I explore theoretical ideas and bring them to life through real-world applications.
 
   <ul>
     <li><a href="/2025/04/08/aboutme.html">About Me</a></li>

@@ -100,6 +100,16 @@
 .homepage-mobile {
   display: none;
 }
+/* Show desktop-only blocks only on larger screens */
+.desktop-only {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .homepage-desktop {

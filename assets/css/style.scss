@@ -22,19 +22,6 @@
     position: static !important;
   }
 
-  /* ⬇️ Reorder elements on mobile */
-  .sidebar-right {
-    order: 1 !important;
-  }
-
-  .main-content {
-    order: 2 !important;
-  }
-
-  .sidebar-left {
-    order: 3 !important;
-  }
-
   /* Sidebar: show icons only */
   .sidebar .label {
     display: none !important;
@@ -70,7 +57,7 @@
     padding: 6px 10px;
     z-index: 1000;
     font-size: 1.2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
   .mobile-home-button a {
@@ -96,42 +83,11 @@
     padding-left: 1rem;
     border-left: 4px solid #aaa;
   }
-
-  .homepage-desktop {
-    display: none;
-  }
-
-  .homepage-mobile {
-    display: block;
-  }
-
-  .desktop-only {
-    display: none;
-  }
-
-  /* ✅ Unstick sidebars on mobile */
-  .sidebar-left,
-  .sidebar-right {
-    position: static !important;
-    top: auto !important;
-  }
 }
 
-/* 🖥️ Desktop-only styles */
+/* 🖥️ Hide About Me post on desktop */
 @media screen and (min-width: 769px) {
   .aboutme-mobile-only {
     display: none !important;
   }
-}
-
-.homepage-desktop {
-  display: block;
-}
-
-.homepage-mobile {
-  display: none;
-}
-
-.desktop-only {
-  display: block;
 }

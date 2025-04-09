@@ -26,16 +26,20 @@
 
         <!-- Right Sidebar (Posts) -->
         <aside class="right-sidebar" style="flex: 1.2; position: sticky; top: 100px;">
-          <!-- Mobile-only About Me post -->
-          <ul style="list-style: none; padding-left: 0; margin-top: 0;">
-            {% for post in site.posts %}
-              {% if post.path contains 'aboutme' %}
-                <li style="margin-bottom: 10px;">
-                  <a href="{{ post.url }}">{{ post.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+        
+          <!-- 🔽 Mobile-only About Me post -->
+          <div class="aboutme-mobile-only">
+            <ul style="list-style: none; padding-left: 0; margin-top: 0;">
+              {% for post in site.posts %}
+                {% if post.path contains 'aboutme' %}
+                  <li style="margin-bottom: 10px;">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+
 
 
           <h3 style="margin-bottom: 10px;">Academic Pursuit</h3>

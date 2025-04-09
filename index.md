@@ -9,6 +9,7 @@ Welcome to my personal academic blog and portfolio — where I explore theoretic
 
 <!-- 🔽 This section will show ONLY on desktop -->
 <div class="desktop-only">
+{% capture desktop_markdown %}
   
 I’m currently pursuing a Master’s in Machine Learning and preparing for a PhD in Applied Mathematics. I’m passionate about uncovering deep structures in data and mathematics and applying them to real-world systems.
 

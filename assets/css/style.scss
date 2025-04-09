@@ -91,3 +91,22 @@
     display: none !important;
   }
 }
+
+/* Hide/show homepage sections based on screen size */
+.homepage-desktop {
+  display: block;
+}
+
+.homepage-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .homepage-desktop {
+    display: none;
+  }
+
+  .homepage-mobile {
+    display: block;
+  }
+}

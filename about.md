@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Welcome to the Green Cloud Computing Blog. We will be updating our thoughts and progress here as we continue to work on Green Cloud!
 
-### More Information
+We hope you enjoy reading about the progress we make and want to join us!
 
-A place to include any other types of information that you'd like to include about yourself.
+### Contact Us
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[hello@greencloudcomputing.io](mailto:hello@greencloudcomputing.io)

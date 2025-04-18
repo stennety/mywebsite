@@ -24,9 +24,6 @@
 </url>  
 <url>
     <loc>https://fescue.github.io/Scott-Schreiner-Golf-Muni/</loc>
-    <image:image>
-      <image:loc>https://fescue.github.io/images/Scott-Schreiner-Municipal-Golf-Course-Masterplan.png</image:loc>
-    </image:image>
     <priority>1</priority>
 </url>
 <url>
@@ -35,12 +32,6 @@
 </url>
 <url>
     <loc>https://fescue.github.io/Battle-Run-Golf-Course/</loc>
-    <image:image>
-      <image:loc>https://fescue.github.io/images/Olsson-Battle-Run.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://fescue.github.io/images/Battle-Run-Golf-98-A-St.png</image:loc>
-    </image:image>
     <priority>1</priority>
 </url>
 <url>
@@ -153,12 +144,6 @@
 </url>
 <url>
   <loc>https://fescue.github.io/Dhoho-Golf-Club/</loc>
-  <image:image>
-      <image:loc>https://fescue.github.io/images/Dhoho-Golf-Club-Indonesia-Hole-14.jpeg</image:loc>
-  </image:image>
-  <image:image>
-      <image:loc>https://fescue.github.io/images/Dhoho-Golf-Club-Indonesia-Hole-17.jpeg</image:loc>
-  </image:image>
   <priority>1</priority>
 </url>   
 <url>
@@ -343,9 +328,6 @@
 </url>
 <url>
   <loc>https://fescue.github.io/Houston-Lakeside-Country-Club/</loc>
-  <image:image>
-      <image:loc>https://fescue.github.io/images/Blasi-Lakeside-Routing.png</image:loc>
-  </image:image>
   <priority>1</priority>
 </url>   
 <url>
@@ -598,9 +580,6 @@
 </url>
 <url>
   <loc>https://fescue.github.io/Trout-National/</loc>
-  <image:image>
-      <image:loc>https://fescue.github.io/images/TGR-Design-Trout-National.png</image:loc>
-  </image:image>
   <priority>1</priority>
 </url>
 <url>
@@ -724,10 +703,7 @@
   <priority>1</priority>
 </url>
 <url>
-  <loc>https://fescue.github.io/Whisper-Windridge-Golf/</loc>
-  <image:image>
-      <image:loc>https://fescue.github.io/images/Beddo-Kerrville.png</image:loc>
-  </image:image>   
+  <loc>https://fescue.github.io/Whisper-Windridge-Golf/</loc> 
   <priority>1</priority>
 </url>
 <url>

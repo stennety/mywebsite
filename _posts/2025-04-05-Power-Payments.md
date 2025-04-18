@@ -67,5 +67,3 @@ By harnessing this residual compute power, GreenCloud can transform everyday ele
 ## 🌱 Sustainable and Rewarding
 
 This is about **distributed, carbon-free computing**. Your unused device time becomes part of our global network, helping researchers, creators, and developers — all without spinning up a giant data center.
-
-And we reward you for it!

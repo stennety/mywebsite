@@ -1,51 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-    {% include meta.html %}
+  {%- include head.html -%}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <body class="{% if page.layout == 'post' %}post-page{% endif %}">
+    {%- include header.html -%}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- Mobile Home Button -->
+    <div class="mobile-home-button">
+      <a href="/" title="Home">🏠</a>
+    </div>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+    <main class="page-content" aria-label="Content">
+      <div class="layout-wrapper" style="display: flex; gap: 40px; max-width: 1200px; margin: 0 auto;">
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <!-- Left Sidebar (Contact Info) -->
+        <aside class="sidebar" style="flex: 0.8; position: sticky; top: 100px;">
+          {% include contact.html %}
+        </aside>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+        <!-- Main Content -->
+        <div class="main-content" style="flex: 2.5; padding-left: 10px; padding-right: 10px;">
+          {{ content }}
+        </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+        <!-- Right Sidebar (Posts) -->
+        <aside class="right-sidebar" style="flex: 1.2; position: sticky; top: 100px;">
+          <!-- Mobile-only About Me post -->
+          <ul class="aboutme-mobile-only" style="list-style: none; padding-left: 0; margin-top: 30px;">
+            {% for post in site.posts %}
+              {% if post.path contains 'aboutme' %}
+                <li style="margin-bottom: 10px;">
+                  <a href="{{ post.url }}">👤 {{ post.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+          <h3 style="margin-bottom: 10px;">Academic Pursuit</h3>
+          <p style="margin-top: 0; font-size: 0.85em; color: #555;">
+            Posts exploring theoretical and technical topics from my academic pursuit.
+          </p>
+          <ul class="post-list" style="list-style: none; padding-left: 0;">
+            {% assign academic_posts = site.posts | where_exp: "post", "post.path contains '/academic/'" %}
+            {% for post in academic_posts %}
+              <li style="margin-bottom: 10px;">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <h3 style="margin-bottom: 10px; margin-top: 30px;">Personal Projects</h3>
+          <p style="margin-top: 0; font-size: 0.85em; color: #555;">
+            Personal attempts to apply what I learn to real-world challenges.
+          </p>
+          <ul class="post-list" style="list-style: none; padding-left: 0;">
+            {% assign personal_posts = site.posts | where_exp: "post", "post.path contains '/personal/'" %}
+            {% for post in personal_posts %}
+              <li style="margin-bottom: 10px;">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </aside>
+
       </div>
-    </div>
+    </main>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+    {%- include footer.html -%}
   </body>
+
 </html>

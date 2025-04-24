@@ -16,22 +16,13 @@ L’OSINT ou « Open Source Intelligence » signifie en français « Renseigneme
 
 Cette méthode de croisement des informations lorsque'elle est utilisée par des automatismes, peut fournir une information rapide de bonne qualité. Elle ne peut pas remplacer le travail humain lors d'enjeux important. Inforamtions manquantes, inexactes, biaisées, fausses, etc. Il est donc important de garder à l'esprit que l'IA ne remplace pas le travail humain mais peut l'assister dans ses recherches.
 
+La fonctionnalité de recherche avancée de ChatGPT permet de rechercher des informations sur le web et d'extraire des données pertinentes à partir de pages visitées. Cela peut être particulièrement utile pour les chercheurs, les journalistes et toute personne ayant besoin d'accéder à des informations fiables et à jour.
+Cette fonctionnalité est également disponible dans d'autres projets open-source comme OpenWebUI.
+
 ## Papers and materials
 
 https://euroeval.com/extras/radial_plotter/ This tool can be used to compare individual models across each task in the benchmark, using a so-called radial plot.
-![Python Code Size Metrics](images/radial-plot-20250423.png)
-
-AI as a General-purpose technology to understand what is going on
-
-General-purpose technologies (GPTs) are technologies that can affect an entire economy (usually at a national or global level).GPTs have the potential to drastically alter societies through their impact on pre-existing economic and social structures. The archetypal examples of GPTs are the steam engine, electricity, and information technology.
-
-They define a transforming GPT according to the four criteria listed below:
-
-    is a single, recognisable generic technology
-    initially has much scope for improvement but comes to be widely used across the economy
-    has many different uses
-    creates many spillover effects
-
+![European Language Benchmark LLM](images/radial-plot-20250423.png)
 
 ## News AI Generated Videos now runs on 6GB GPU (30 seconds of processing time for 10s video)
 
@@ -52,27 +43,15 @@ They define a transforming GPT according to the four criteria listed below:
 
 Programme de la Journée Deep Learning pour la Science 2025
 
-. Les intervenant·e·s sont des expert·e·s provenant de disciplines variées – par exemple en physique, biologie, médecine, sciences sociales, etc. – qui viendront partager leurs travaux de recherche mettant en œuvre l’intelligence artificielle dans ces domaines​
-dataia.eu
-.
+Les intervenant·e·s sont des expert·e·s provenant de disciplines variées – par exemple en physique, biologie, médecine, sciences sociales, etc. – qui viendront partager leurs travaux de recherche mettant en œuvre l’intelligence artificielle dans ces domaines​
 
-    On peut s’attendre à des exemples concrets tels que l’usage de réseaux de neurones pour l’analyse de données en physique (par ex. en astrophysique ou en science des matériaux), ou en biologie (analyse d’images microscopiques, génomique…), ainsi qu’en médecine (imagerie médicale, diagnostic assisté par IA) et en sciences sociales (analyse de textes juridiques, données socio-économiques, etc.).
+On peut s’attendre à des exemples concrets tels que l’usage de réseaux de neurones pour l’analyse de données en physique (par ex. en astrophysique ou en science des matériaux), ou en biologie (analyse d’images microscopiques, génomique…), ainsi qu’en médecine (imagerie médicale, diagnostic assisté par IA) et en sciences sociales (analyse de textes juridiques, données socio-économiques, etc.).
 
-    Exemples : lors de l’édition précédente (JDLS 2024), des sujets allant de la jurimétrie avec des Large Language Models pour quantifier des décisions de justice​
-    jdls-2024.sciencesconf.org
-    , à l’analyse multimodale de données scientifiques en astrophysique​
-    jdls-2024.sciencesconf.org
-    , ont été présentés. Ceci illustre le type de thématiques qui seront abordées en 2025, mettant en lumière des cas d’usage variés du deep learning dans la recherche scientifique.
-
-Chaque partenaire joue un rôle de soutien spécifique. Par exemple, les réseaux DevLOG et RESINFO contribuent à l’animation de la communauté des informaticiens et ingénieurs mobilisés sur l’IA (formations, échanges techniques)​
-. Les instituts 3IA (MIAI, ANITI) apportent leur expertise scientifique et leur écosystème de recherche en intelligence artificielle. Des organismes comme GENCI ou l’IDRIS fournissent l’infrastructure de calcul haute performance indispensable aux projets de deep learning scientifique. Enfin, l’initiative FIDLE elle-même – soutenue par le CNRS, l’UGA et le projet EFELIA – assure la vulgarisation et la formation en deep learning pour la communauté scientifique, ce qui s’inscrit dans la continuité de cette journée​
-.
+Exemples : lors de l’édition précédente (JDLS 2024), des sujets allant de la jurimétrie avec des Large Language Models pour quantifier des décisions de justice​, à l’analyse multimodale de données scientifiques en astrophysique, ont été présentés.
 
 Ainsi, la Journée Deep Learning pour la Science 2025 bénéficie d’un large soutien institutionnel, garantissant la gratuité de l’événement et la richesse des échanges interdisciplinaires autour de l’IA pour la recherche. Les contributions de ces partenaires renforcent l’objectif de la JDLS : favoriser le partage d’expériences et la diffusion des méthodes d’intelligence artificielle dans tous les domaines de la science​
 jdls-2025.sciencesconf.org
-.
 
-https://chatgpt.com/share/68091223-5358-800f-a64f-c4d579622dad
 ---
 
 ## Additional Resources and Discussions

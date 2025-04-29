@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zero to One for AI Product
+title: Talk: 0-to-1 for AI Product
 image: "/images/zero-to-one-video-fault-tolerant-UX-screenshot.png"
 ---
 

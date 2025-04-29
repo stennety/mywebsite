@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chronicles of Product in AI 
+title: Why write about building products in AI?
 excerpt: These posts are a chronicle of my journey in AI Product management. Here's some background.
 ---
 

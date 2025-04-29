@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Discomfort and Growth"
-excerpt: "The post touches on being deliberate about the discomfort in our lives. What's the optimal threshold where growth happens? How to find motivation for staying uncomfortable? Any advice on managing the risks of over doing it?"
+title: "Reflections on Discomfort and Growth"
+excerpt: "Let's be deliberate about the discomfort in our lives. What's the optimal threshold for discomfort that sustainably fuels growth? How to find motivation for staying uncomfortable? And how should we manage the risks of over doing it?"
 ---
 Being uncomfortable is such a common occurrence for me - it’s natural when I’m working on ambitious goals, or when I’m feeling impostor syndrome. It’s hard to know when to push, how much to push, and when to stop pushing myself. 
 

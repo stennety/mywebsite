@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning from Learning directly from Large Models (a hackathon project)
+title: Learning from Learning directly from Large Models (a technical exploration)
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
 ---
 

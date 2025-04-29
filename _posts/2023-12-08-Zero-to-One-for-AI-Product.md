@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 0-to-1 for AI Product (a presentation)
+title: 0-to-1 for AI Products (a presentation)
 image: "/images/zero-to-one-video-fault-tolerant-UX-screenshot.png"
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Learning from Learning directly from Large Models (a technical exploration)
+title: Learning directly from Large Models (a technical exploration)
 excerpt: This is surprisingly quick, and speed of experimentation is magical. A practical look at our hackathon project.
+image: "/images/learning-from-llms-generated-image.jpg"
 ---
 
 At Captur, we get asked questions like "how well can your phone detect that you're wearing a helmet" - a lot (1). We don't have access to representative data, so it's hard to assess the key product risks.

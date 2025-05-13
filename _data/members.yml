@@ -130,6 +130,14 @@
   mainpage: "Main_Page"
   twitter: "RaymanPC"
 - member:
+  id: "saintsrowwiki"
+  name: "Saints Row Wiki"
+  description: "Saints Row Wiki is the largest, most comprehensive player-made information archive about the Saints Row video game series, with Mission Guides, Secrets, Maps and more!"
+  logo: "/images/logos/saintsrow.png"
+  url: "https://saintsrow.wiki/"
+  mainpage: "Saints_Row_Wiki"
+  twitter: "saintsrowwiki"
+- member:
   id: "sagawiki"
   name: "SaGa Wiki"
   description: "The SaGa Wiki is a wiki project about the SaGa series of video games, such as SaGa Frontier, Romancing SaGa, and SaGa Scarlet Grace: Ambitions. The project strives to create a full information database on the series."

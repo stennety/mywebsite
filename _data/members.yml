@@ -53,6 +53,14 @@
   twitter: "MediEvilWiki"
   instagram: "MediEvilWiki"
 - member:
+  id: "harvesterwiki"
+  name: "Harvester Wiki"
+  description: "Harvester Wiki is the largest, most comprehensive source of Harvester information!"
+  logo: "/images/logos/HarvesterWiki.png"
+  url: "https://harvester.telepedia.net/"
+  mainpage: "Harvester_Wiki"
+  age: 18+
+- member:
   id: "hollowknightwiki"
   name: "Hollow Knight Wiki"
   description: "Hollow Knight Wiki is an independent encyclopedia about the Hollow Knight series of games. It was forked from the FANDOM Hollow Knight Wiki on October 31, 2023."
@@ -138,6 +146,7 @@
   url: "https://saintsrow.wiki/"
   mainpage: "Saints_Row_Wiki"
   twitter: "saintsrowwiki"
+  age: 18+
 - member:
   id: "sagawiki"
   name: "SaGa Wiki"

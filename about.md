@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey there!
+My name is Laila and I'm currently a PhD student in Computer Engineering. I am interested in machine learning, computer vision and pattern recognition. 
+In this blog, I'm documenting some projects I'm working on and writing articles related to my interests in Arabic and English.
 
-### More Information
+السلام عليكم
+اسمي ليلى طالبة دكتوراه في هندسة الحاسب، مهتمة بالمواضيع المتعلقة بتعلم الآلة، الرؤية باستخدام الحاسب والتعرف على الأنماط. أنشر في هذه المدونة بعض الدروس والمقالات وأكتب عن بعض المشاريع التي أعمل بها باللغة العربية أو الإنجليزية.
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)

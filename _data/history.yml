@@ -74,6 +74,7 @@
   date: "May 13, 2025"
   description: "Saints Row Wiki joins the GWN as a member."
   url: "https://gamingwikinetwork.org/saintsrowwiki"
-- event: "May 21, 2025"
+- event: 
+  date: "May 21, 2025"
   description: "Harvester Wiki joins the GWN as a member."
   url: "https://gamingwikinetwork.org/harvesterwiki"

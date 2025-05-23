@@ -6,14 +6,6 @@
   url: "https://arthurwiki.com/"
   mainpage: "Arthur_Wiki"
 - affiliate:
-  id: "wimpykidwiki"
-  name: "Diary of a Wimpy Kid Wiki"
-  description: "The Diary of a Wimpy Kid Wiki covers the Wimpy Kid series of comedy realistic fiction graphic novels, written by American cartoonist and online game designer Jeff Kinney."
-  logo: "/images/logos/WimpyKidWiki.png"
-  url: "https://wimpykidwiki.com/"
-  mainpage: "Diary_of_a_Wimpy_Kid_Wiki"
-  discord: "2A57jGF"
-- affiliate:
   id: "parappaparty"
   name: "PaRappa.party"
   description: "Parappa.party is a fansite inspired by the creative aesthetics and ethos of Web 1.0 and dedicated to everything related to the video game franchise PaRappa the Rapper. It first went live in September 2022, and its been growing ever

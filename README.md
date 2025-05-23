@@ -1,4 +1,4 @@
-﻿# Perfil Profesional de Carlos Carbajal
+# Perfil Profesional de Carlos Carbajal
 
 Profesional con formación superior en Agronomía, Maestría en la Especialidad de Ingeniería
 de Recursos Hídricos y Diplomados en Sistemas de Información Geográfica (SIG) y en Gestión
@@ -10,4 +10,6 @@ Teledetección y Tecnologías de Información y Comunicación (TICs) en general.
 experiencia en el desarrollo de soluciones tecnológicas que involucran el conocimiento de
 software SIG y lenguajes de programación como Python, R y Julia 
 
+## Author
 
+Carlos Carbajal

@@ -33,7 +33,7 @@
 - member:
   id: "falloutwiki"
   name: "Independent Fallout Wiki"
-  description: "The Independent Fallout Wiki is the Wasteland's One Stop Shop for Fallout Games, Community Events, News, and Mods! The site was founded on April 8, 2022 and entered early access on Great War Day, October 23, 2022. It officially launched to the public on December 31, 2022."
+  description: "The Independent Fallout Wiki is a fan-owned project focused on maintaining the most comprehensive, user-friendly encyclopedia about all aspects of the Fallout franchise, including the games, television series, community, and mods!"
   logo: "/images/logos/fallout.png"
   url: "https://fallout.wiki/"
   mainpage: "Fallout_Wiki"

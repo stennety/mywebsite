@@ -21,7 +21,7 @@ The prototype for this class is:
 com.google.common.base.Optional<T>
 {% endhighlight %}
 
-Where "T" is a [generic](http://www.david-merrick.com/2014/10/21/java-generics/) representing the type of instance that can be contained.
+Where "T" is a [generic](http://www.davidmerrick.me/2014/10/21/java-generics/) representing the type of instance that can be contained.
 
 This class represents an immutable object that may contain a non-null reference to another object. An instance of this class either contains a non-null reference to an object, or is set to Optional.absent(). It never is null.
 

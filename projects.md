@@ -29,7 +29,7 @@ Alexa skill that fetches the latest tweets from [@PDXAlerts](https://twitter.com
 
 ## 2017
 
-[Trump Report](https://tr.david-merrick.com/)
+[Trump Report](https://tr.davidmerrick.me/)
 
 Performs sentiment analysis and classification of Trump Tweets using IBM Watson APIs.
 
@@ -41,7 +41,7 @@ Webapp for training and testing a Naive Bayes classifier on a set of text.
 
 > Tech Used: ReactJS, Gulp, Socket.io, Express, and Redux.
 
-[Alexa-TriMet](https://www.david-merrick.com/2017/04/26/alexa-skill-for-trimet-arrivals/)
+[Alexa-TriMet](https://www.davidmerrick.me/2017/04/26/alexa-skill-for-trimet-arrivals/)
 
 Alexa skill that fetches the latest arrivals for TriMet buses and trains in Portland.
 
@@ -77,7 +77,7 @@ with randomized data. Used Google Analytics to track the number of survey submis
 
 > Tech Used: NodeJS, Chrome extension API.
 
-[Resin.io bandwidth monitor](https://www.david-merrick.com/2017/04/17/monitoring-your-internet-speed-with-resin-io-and-datadog/)
+[Resin.io bandwidth monitor](https://www.davidmerrick.me/2017/04/17/monitoring-your-internet-speed-with-resin-io-and-datadog/)
 
 App that periodically records home Internet upload and download speeds and records the metrics to DataDog.
 
@@ -85,7 +85,7 @@ App that periodically records home Internet upload and download speeds and recor
 
 ## 2016
 
-[GeoTagged images Heatmap generator](https://www.david-merrick.com/2016/10/30/how-to-generate-heatmaps-from-geotagged-images/)
+[GeoTagged images Heatmap generator](https://www.davidmerrick.me/2016/10/30/how-to-generate-heatmaps-from-geotagged-images/)
 
 Dockerized NodeJS app which generates a heatmap given a set of geotagged images.
 Uses the Google Maps API.
@@ -94,7 +94,7 @@ Uses the Google Maps API.
 
 Prank Chrome extension that flips web pages upside down.
 
-[Raspberry Pi Kubernetes Cluster](https://www.david-merrick.com/2016/02/16/building-a-raspberry-pi-powered-kubernetes-cluster/)
+[Raspberry Pi Kubernetes Cluster](https://www.davidmerrick.me/2016/02/16/building-a-raspberry-pi-powered-kubernetes-cluster/)
 
 I built a Raspberry Pi-powered Kubernetes cluster based on HypriotOS.
 

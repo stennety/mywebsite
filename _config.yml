@@ -3,7 +3,7 @@ minimal_mistakes_skin: "dark"
 
 author:
   name   : "David Merrick"
-  avatar : "https://assets.david-merrick.com/img/avatar.jpeg"
+  avatar : "https://assets.davidmerrick.me/img/avatar.jpeg"
   bio    : "Software Engineer, Portland, OR"
   github: davidmerrick
   stackoverflow: 2057706/davidmerrick
@@ -36,9 +36,9 @@ defaults:
 title: David Merrick
 title_separator: \|
 description: Portland, OR
-url: https://www.david-merrick.com
+url: https://www.davidmerrick.me
 permalink: /:year/:month/:day/:title/
-cdn_path: https://assets.david-merrick.com
+cdn_path: https://assets.davidmerrick.me
 
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks

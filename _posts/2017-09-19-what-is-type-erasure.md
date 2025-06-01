@@ -85,7 +85,7 @@ As far as I've been able to gather, type erasure is not used in any languages ot
 
 # Alternatives to type erasure
 
-Are there alternatives to type erasure? Yes, reification is an alternative. I wrote about reification in [this post](https://www.david-merrick.com/2015/07/19/reification-vs-erasure-in-java-collections/).
+Are there alternatives to type erasure? Yes, reification is an alternative. I wrote about reification in [this post](https://www.davidmerrick.me/2015/07/19/reification-vs-erasure-in-java-collections/).
 
 Essentially,
 

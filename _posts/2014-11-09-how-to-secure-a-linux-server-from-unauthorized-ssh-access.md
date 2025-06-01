@@ -3,7 +3,7 @@
 published: true
 title: How to secure a Linux server from unauthorized SSH access
 ---
-I've been doing a lot with [reverse SSH tunnels](https://www.david-merrick.com/2014/10/19/creating-an-ad-hoc-vpn-on-osx-using-reverse-ssh-tunnels-and-launch-daemons/) for remote support lately, and wanted to make sure that my VPS was locked down. Here are the steps I took to make that happen.
+I've been doing a lot with [reverse SSH tunnels](https://www.davidmerrick.me/2014/10/19/creating-an-ad-hoc-vpn-on-osx-using-reverse-ssh-tunnels-and-launch-daemons/) for remote support lately, and wanted to make sure that my VPS was locked down. Here are the steps I took to make that happen.
 
 ## 1\. Disable root login.
 
@@ -19,7 +19,7 @@ As a rule, you should always execute tasks with the lowest required privilege le
 
 This protects you from brute-force password attacks.
 
-Follow [my guide](http://www.david-merrick.com/2014/11/09/how-to-setup-ssh-key-based-authentication/) to configure SSH keys on your client.
+Follow [my guide](http://www.davidmerrick.me/2014/11/09/how-to-setup-ssh-key-based-authentication/) to configure SSH keys on your client.
 
 In /etc/ssh/sshd_config:
 

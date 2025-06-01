@@ -87,4 +87,4 @@ This was the easiest day because it was all downhill over familiar terrain. The 
 
 We had packed up camp and left Cloudy around 7, so we easily made it back to the village by lunchtime.
 
-For more information on this hike, see the [Washington Trail Association](http://www.wta.org/go-hiking/hikes/image-lake) guide. Looking for advice on backpacking gear? I wrote [this](http://www.david-merrick.com/2014/08/13/must-have-gear-for-the-outdoorsy-geek/) recently.
+For more information on this hike, see the [Washington Trail Association](http://www.wta.org/go-hiking/hikes/image-lake) guide. Looking for advice on backpacking gear? I wrote [this](http://www.davidmerrick.me/2014/08/13/must-have-gear-for-the-outdoorsy-geek/) recently.

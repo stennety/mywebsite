@@ -24,7 +24,7 @@ First, I set up an S3 bucket to host my site. AWS has [excellent documentation](
 
 Next, I configured an IAM role to allow access to this bucket. Just create a user and grant them the "AmazonS3FullAccess" role.
 
-Next, I built out a [Travis CI](https://travis-ci.org/) pipeline to deploy my site on commits. Here is my [Travis YML file](https://github.com/davidmerrick/david-merrick.com/blob/master/.travis.yml) for that. Travis CI securely injects the S3 credentials and bucket name during builds. I added Slack notifications for failed builds as well.
+Next, I built out a [Travis CI](https://travis-ci.org/) pipeline to deploy my site on commits. Here is my [Travis YML file](https://github.com/davidmerrick/davidmerrick.me/blob/master/.travis.yml) for that. Travis CI securely injects the S3 credentials and bucket name during builds. I added Slack notifications for failed builds as well.
 
 ## Restricting access to the bucket
 

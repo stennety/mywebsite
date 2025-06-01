@@ -13,7 +13,7 @@ Here's how I put this together:
 
 ## 1. Deploy a publicly-accessible Sonos API server with Resin.io
 
-I wrote up a separate post on how to do this [here](https://www.david-merrick.com/2017/05/16/setting-up-node-sonos-api/).
+I wrote up a separate post on how to do this [here](https://www.davidmerrick.me/2017/05/16/setting-up-node-sonos-api/).
 
 ## 2. Create an AWS Lambda function
 

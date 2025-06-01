@@ -19,7 +19,7 @@ For 3 reasons:
 
 1. Google provides developers the capacity for creating 8 applications on their platform. Each of these has a quota for free bandwidth that tops out at 1gb up and 1gb down per day. This is far more than most site owners will ever use (and if you need more, you can purchase boatloads more from Google on the cheap), for free!
 2. A proxy app called mirrorrr was written a couple of years ago that is perfect for tweaking into a reverse proxy. Once uploaded to Google Apps, it will load from Google's CDN by default.
-3. The icing on the cake is that Google allows you to map any app to your own domain. So instead of "david-cdn.appspot.com," my CDN runs on "cdn.david-merrick.com"  (On top of other things, this makes it appear as though my network and site are much larger and more legit!).
+3. The icing on the cake is that Google allows you to map any app to your own domain. So instead of "david-cdn.appspot.com," my CDN runs on "cdn.davidmerrick.me"  (On top of other things, this makes it appear as though my network and site are much larger and more legit!).
 
 ## How do we do this?
 
@@ -71,6 +71,6 @@ add_filter('script_loader_src','filter_cdn_elements');
 add_filter('theme_root_uri','filter_cdn_elements');
 {% endhighlight %}
 
-3\. Optional: To map the CDN to your own domain, follow [these instructions](http://www.google.com/support/a/bin/answer.py?hl=en-in&answer=61057) (If you look at my source HTML, I have mine mapped to "cdn.david-merrick.com").
+3\. Optional: To map the CDN to your own domain, follow [these instructions](http://www.google.com/support/a/bin/answer.py?hl=en-in&answer=61057) (If you look at my source HTML, I have mine mapped to "cdn.davidmerrick.me").
 
 And you're done! If you have any questions, comments, tips, etc., leave them below! _Note: I realize that this script doesn't load images._ Once I figure out how to hack the WordPress API a little better to add that feature, I will add it to this post.

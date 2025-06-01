@@ -26,6 +26,6 @@ A list of companies and places with interesting name origins.
 
 # Software
 
-- [Nagios](https://www.david-merrick.com/2017/07/07/why-is-nagios-called-nagios/) is a recursive acronym for "Nagios Ain't Gonna Insist On Sainthood."
+- [Nagios](https://www.davidmerrick.me/2017/07/07/why-is-nagios-called-nagios/) is a recursive acronym for "Nagios Ain't Gonna Insist On Sainthood."
 - [Hamcrest](https://en.wikipedia.org/wiki/Hamcrest) is a Java testing library the name of which is an anagram of "matchers."
 

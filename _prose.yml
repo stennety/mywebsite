@@ -1,7 +1,7 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'https://www.david-merrick.com'
-  relativeLinks: 'https://www.david-merrick.com/links.jsonp'
+  siteurl: 'https://www.davidmerrick.me'
+  relativeLinks: 'https://www.davidmerrick.me/links.jsonp'
   media: 'media'
   ignore:
     - index.md

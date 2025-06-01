@@ -130,7 +130,7 @@ As mentioned earlier, I'm looking forward to the voice control Home Assistant is
 
 ## Node-RED
 
-[Node-RED](https://nodered.org/) is a visual programming tool reminiscent of [Yahoo Pipes](https://www.david-merrick.com/2010/06/19/remixing-the-web-part-2-using-yahoo-pipes/) (RIP Yahoo Pipes 🪦). 
+[Node-RED](https://nodered.org/) is a visual programming tool reminiscent of [Yahoo Pipes](https://www.davidmerrick.me/2010/06/19/remixing-the-web-part-2-using-yahoo-pipes/) (RIP Yahoo Pipes 🪦). 
 I tried installing it on the Pi I use for Home Assistant, but it keeps crashing. I'd like to transition off the Pi to a more powerful computer (thinking something Intel NUC-based) and migrate my automations to Node-RED. 
 
 ## Security System

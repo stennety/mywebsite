@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: |
-  CloudFormation templates for plumbing david-merrick.com.
+  CloudFormation templates for plumbing davidmerrick.me.
   Includes bucket and CloudFront distribution.
 Parameters:
   Referer:
@@ -9,7 +9,7 @@ Parameters:
   DomainName:
     Description: Website domain name, without www
     Type: String
-    Default: 'david-merrick.com'
+    Default: 'davidmerrick.me'
 Resources:
   WebsiteBucket:
     Type: 'AWS::S3::Bucket'

@@ -1,6 +1,6 @@
 My personal website, built with [Jekyll](https://jekyllrb.com/).
 
-https://www.david-merrick.com
+https://www.davidmerrick.me
 
 # Running locally
 

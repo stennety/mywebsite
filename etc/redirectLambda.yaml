@@ -42,7 +42,7 @@ Resources:
               }
 
               var miduri = request.uri.replace(/(\/[\w\-_]+)$/, '$1/');
-              var newuri = "https://www.david-merrick.com" + miduri + params;
+              var newuri = "https://www.davidmerrick.me" + miduri + params;
 
               const response = {
                   status: '301',

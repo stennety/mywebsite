@@ -1,0 +1,90 @@
+name: Daily AI News
+
+on:
+  schedule:
+    # Run daily at 18:00 UTC
+    - cron: '0 18 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  fetch-ai-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Fetch AI News from Langdock API
+      id: fetch-news
+      run: |
+        # Get current date for filename
+        CURRENT_DATE=$(date +'%Y-%m-%d')
+        
+        # Make API request to Langdock
+        RESPONSE=$(curl -s -X POST "https://api.langdock.com/v1/assistants/chat" \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer ${{ vars.LANGDOCK_API_KEY }}" \
+          -d '{
+            "assistant": "Aktuelle News",
+            "variables": {
+              "Zeitraum": "Heute",
+              "Thema": "KI",
+              "Ausgabeformat": "Markdown"
+            }
+          }')
+        
+        # Extract the content from the API response
+        # Assuming the API returns JSON with a 'content' or 'message' field
+        CONTENT=$(echo "$RESPONSE" | jq -r '.content // .message // .text // .')
+        
+        # Extract title from the first heading in the markdown content
+        TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 ]//g' | tr ' ' '-' | sed 's/--*/-/g' | sed 's/-$//')
+        
+        # If no title found, use a default
+        if [ -z "$TITLE" ]; then
+          TITLE="ki-news-${CURRENT_DATE}"
+        fi
+        
+        # Limit title length to avoid filename issues
+        TITLE=$(echo "$TITLE" | cut -c1-50)
+        
+        # Create filename
+        FILENAME="${CURRENT_DATE}-${TITLE}.md"
+        
+        # Extract readable title for frontmatter (from first heading or generate one)
+        READABLE_TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//')
+        if [ -z "$READABLE_TITLE" ]; then
+          READABLE_TITLE="KI News vom $(date +'%d.%m.%Y')"
+        fi
+        
+        # Create the post file with frontmatter
+        cat > "_posts/${FILENAME}" << EOF
+        ---
+        layout: post
+        title: ${READABLE_TITLE}
+        ---
+        
+        ${CONTENT}
+        EOF
+        
+        echo "Created post: _posts/${FILENAME}"
+        echo "filename=${FILENAME}" >> $GITHUB_OUTPUT
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add _posts/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Add daily AI news post: ${{ steps.fetch-news.outputs.filename }}"
+          git push
+        fi 

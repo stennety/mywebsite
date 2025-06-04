@@ -7,9 +7,16 @@ async function main() {
   const prompt = `Erstelle eine Nachrichtenzusammenfassung für Zeitraum: ${process.env.PERIOD}, Thema: ${process.env.TOPIC}, Ausgabeformat: ${process.env.FORMAT}, Sprache: ${process.env.LANGUAGE}. Füge nach dem ersten Absatz ein Tag '<!--more-->' ein.`;
   console.log('Prompt:', prompt);
 
+  // Define date as today in YYYY-MM-DD
+  const now = new Date();
+  const pad = n => n.toString().padStart(2, '0');
+  const date = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+
+  const debugFilePath = `.github/debug/${date}-ki-news.json`;
+
   let result = null;
-  if (fs.existsSync('debug.json')) {
-    result = JSON.parse(fs.readFileSync('debug.json', 'utf8')).result;
+  if (fs.existsSync(debugFilePath)) {
+    result = JSON.parse(fs.readFileSync(debugFilePath, 'utf8')).result;
   } else {
     // Fetch news from Langdock API
     console.log('Fetching news from Langdock API...');
@@ -31,8 +38,12 @@ async function main() {
         }
       }
     );
-    console.log('API RESPONSE:', JSON.stringify(response.data, null, 2));
-    // fs.writeFileSync('debug.json', JSON.stringify(response.data, null, 2), 'utf8');
+    const responseContent = JSON.stringify(response.data, null, 2);
+    console.log('API RESPONSE:', responseContent);
+
+    // Write response to debug file
+    fs.writeFileSync(debugFilePath, responseContent, 'utf8');
+
     result = response.data.result;
   }
 
@@ -46,12 +57,7 @@ async function main() {
   }
   console.log('Assistant content:', assistantContent);
 
-  // Define date as today in YYYY-MM-DD
-  const now = new Date();
-  const pad = n => n.toString().padStart(2, '0');
-
   // Create filename
-  const date = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
   const filename = `${date}-ki-news.md`;
   const postPath = path.join('_posts', filename);
 

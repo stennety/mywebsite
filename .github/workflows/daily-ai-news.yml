@@ -37,6 +37,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git add .github/debug/
         git add _posts/
         
         # Check if there are changes to commit

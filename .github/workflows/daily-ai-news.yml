@@ -28,20 +28,19 @@ jobs:
         # Make API request to Langdock
         RESPONSE=$(curl -s -X POST "https://api.langdock.com/v1/assistants/chat" \
           -H "Content-Type: application/json" \
-          -H "Authorization: Bearer ${{ vars.LANGDOCK_API_KEY }}" \
+          -H "Authorization: Bearer ${{ secrets.LANGDOCK_API_KEY }}" \
           -d '{
-            "assistant": "Aktuelle News",
-            "variables": {
-              "Zeitraum": "Heute",
-              "Thema": "KI",
-              "Ausgabeformat": "Markdown",
-              "Sprache": "English"
-            }
+            "assistantId": "{{vars.ASSISTANT_ID}}",
+            "messages": [
+              {
+                "role": "user",
+                "content": "Erstelle eine Nachrichtenzusammenfassung für Zeitraum: Heute, Thema: KI, Ausgabeformat: Markdown, Sprache: English"
+              }
+            ]
           }')
         
         # Extract the content from the API response
-        # Assuming the API returns JSON with a 'content' or 'message' field
-        CONTENT=$(echo "$RESPONSE" | jq -r '.content // .message // .text // .')
+        CONTENT=$(echo "$RESPONSE" | jq -r '.requests[] | select(.role == "assistant") | .content')
         
         # Extract title from the first heading in the markdown content
         TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 ]//g' | tr ' ' '-' | sed 's/--*/-/g' | sed 's/-$//')

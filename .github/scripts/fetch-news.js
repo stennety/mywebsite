@@ -57,6 +57,17 @@ async function main() {
   }
   console.log('Assistant content:', assistantContent);
 
+  // Extract the title from the assistant content
+  let title = assistantContent.split('\n')[0].replace('# ', '');
+  if (!title) {
+    title = `AI News from ${pad(now.getDate())}.${pad(now.getMonth() + 1)}.${now.getFullYear()}`;
+  }
+  console.log('Title:', title);
+
+  // Extract the content from the assistant content
+  const content = assistantContent.split('\n').slice(1).join('\n').trim();
+  console.log('Content:', content);
+
   // Create filename
   const filename = `${date}-ki-news.md`;
   const postPath = path.join('_posts', filename);
@@ -64,7 +75,7 @@ async function main() {
   // Write markdown file with frontmatter
   const fileContent = `---
 layout: post
-title: KI News from ${pad(now.getDate())}.${pad(now.getMonth() + 1)}.${now.getFullYear()}
+title: ${title}
 tag: AI
 ---
 (This is an AI generated news post.)

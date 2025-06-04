@@ -19,6 +19,9 @@ jobs:
       with:
         node-version: '18'
         
+    - name: Install dependencies
+      run: npm install
+        
     - name: Fetch AI News from Langdock API
       id: fetch-news
       run: node .github/scripts/fetch-news.js

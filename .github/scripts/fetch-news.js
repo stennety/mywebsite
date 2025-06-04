@@ -78,7 +78,7 @@ layout: post
 title: ${title}
 tag: AI
 ---
-(This is an AI generated news post.)
+*This article is completely AI generated.*
 
 ${content}
 `;

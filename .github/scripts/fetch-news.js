@@ -80,7 +80,7 @@ tag: AI
 ---
 (This is an AI generated news post.)
 
-${assistantContent}
+${content}
 `;
 
   fs.writeFileSync(postPath, fileContent, 'utf8');

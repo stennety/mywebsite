@@ -38,6 +38,9 @@ jobs:
               }
             ]
           }')
+
+        # Debug the API response
+        echo "API RESPONSE: $RESPONSE"
         
         # Extract the content from the API response
         CONTENT=$(echo "$RESPONSE" | jq -r '.requests[] | select(.role == "assistant") | .content')

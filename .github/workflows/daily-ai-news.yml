@@ -26,7 +26,7 @@ jobs:
         CURRENT_DATE=$(date +'%Y-%m-%d')
         
         # Make API request to Langdock
-        RESPONSE=$(curl -s -X POST "https://api.langdock.com/v1/assistants/chat" \
+        RESPONSE=$(curl -s -X POST "https://api.langdock.com/assistant/v1/chat/completions" \
           -H "Content-Type: application/json" \
           -H "Authorization: Bearer ${{ secrets.LANGDOCK_API_KEY }}" \
           -d '{
@@ -41,7 +41,7 @@ jobs:
 
         # Debug the API response
         echo "API RESPONSE: $RESPONSE"
-        
+
         # Extract the content from the API response
         CONTENT=$(echo "$RESPONSE" | jq -r '.requests[] | select(.role == "assistant") | .content')
         

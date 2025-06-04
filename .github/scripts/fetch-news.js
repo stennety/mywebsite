@@ -4,11 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 async function main() {
-  const prompt = `
-    Create a news post with the variables Zeitraum: ${process.env.PERIOD}, Thema: ${process.env.TOPIC}, Sprache: ${process.env.LANGUAGE}. 
-    Add <!--more--> between the first and second paragraph.
-    The output format should be markdown, but without the backticks around the content.
-  `.trim();
+  const prompt = `Create a news post with the variables Zeitraum: ${process.env.PERIOD}, Thema: ${process.env.TOPIC}, Sprache: ${process.env.LANGUAGE}. Add <!--more--> between the first and second paragraph. The output format should be markdown, but without the backticks around the content.`;
   console.log('Prompt:', prompt);
 
   // Define date as today in YYYY-MM-DD

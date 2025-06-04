@@ -34,7 +34,8 @@ jobs:
             "variables": {
               "Zeitraum": "Heute",
               "Thema": "KI",
-              "Ausgabeformat": "Markdown"
+              "Ausgabeformat": "Markdown",
+              "Sprache": "English"
             }
           }')
         
@@ -68,7 +69,8 @@ jobs:
         layout: post
         title: ${READABLE_TITLE}
         ---
-        
+        (This is an AI generated news post.)
+
         ${CONTENT}
         EOF
         

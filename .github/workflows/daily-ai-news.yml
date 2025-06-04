@@ -68,6 +68,7 @@ jobs:
         ---
         layout: post
         title: ${READABLE_TITLE}
+        tag: AI
         ---
         (This is an AI generated news post.)
 

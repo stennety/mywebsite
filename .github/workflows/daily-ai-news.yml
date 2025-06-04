@@ -30,7 +30,7 @@ jobs:
           -H "Content-Type: application/json" \
           -H "Authorization: Bearer ${{ secrets.LANGDOCK_API_KEY }}" \
           -d '{
-            "assistantId": "{{vars.ASSISTANT_ID}}",
+            "assistantId": "${{ vars.ASSISTANT_ID }}",
             "messages": [
               {
                 "role": "user",

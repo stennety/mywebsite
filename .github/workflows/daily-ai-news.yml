@@ -43,7 +43,7 @@ jobs:
         echo "API RESPONSE: $RESPONSE"
 
         # Extract the content from the API response
-        CONTENT=$(echo "$RESPONSE" | jq -r '.requests[] | select(.role == "assistant") | .content')
+        CONTENT=$(echo "$RESPONSE" | jq -r '.result[] | select(.role == "assistant") | .content')
         
         # Extract title from the first heading in the markdown content
         TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 ]//g' | tr ' ' '-' | sed 's/--*/-/g' | sed 's/-$//')

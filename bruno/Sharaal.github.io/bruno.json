@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Sharaal.github.io",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

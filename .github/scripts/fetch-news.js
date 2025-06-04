@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 async function main() {
-  const prompt = `Erstelle eine Nachrichtenzusammenfassung für Zeitraum: ${process.env.PERIOD}, Thema: ${process.env.TOPIC}, Ausgabeformat: ${process.env.FORMAT}, Sprache: ${process.env.LANGUAGE}`;
+  const prompt = `Erstelle eine Nachrichtenzusammenfassung für Zeitraum: ${process.env.PERIOD}, Thema: ${process.env.TOPIC}, Ausgabeformat: ${process.env.FORMAT}, Sprache: ${process.env.LANGUAGE}. Füge nach dem ersten Absatz ein Tag '<!--more-->' ein.`;
   console.log('Prompt:', prompt);
 
   let result = null;

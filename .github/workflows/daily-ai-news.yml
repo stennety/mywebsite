@@ -21,65 +21,15 @@ jobs:
         
     - name: Fetch AI News from Langdock API
       id: fetch-news
-      run: |
-        # Get current date for filename
-        CURRENT_DATE=$(date +'%Y-%m-%d')
-        
-        # Make API request to Langdock
-        RESPONSE=$(curl -s -X POST "https://api.langdock.com/assistant/v1/chat/completions" \
-          -H "Content-Type: application/json" \
-          -H "Authorization: Bearer ${{ secrets.LANGDOCK_API_KEY }}" \
-          -d '{
-            "assistantId": "${{ vars.ASSISTANT_ID }}",
-            "messages": [
-              {
-                "role": "user",
-                "content": "Erstelle eine Nachrichtenzusammenfassung für Zeitraum: Heute, Thema: KI, Ausgabeformat: Markdown, Sprache: English"
-              }
-            ]
-          }')
+      run: node .github/scripts/fetch-news.js
+      env:
+        ASSISTANT_ID: ${{ vars.ASSISTANT_ID }}
+        FORMAT: "Markdown"
+        LANGDOCK_API_KEY: ${{ secrets.LANGDOCK_API_KEY }}
+        LANGUAGE: "English"
+        PERIOD: "Heute"
+        TOPIC: "KI"
 
-        # Debug the API response
-        echo "API RESPONSE: $RESPONSE"
-
-        # Extract the content from the API response
-        CONTENT=$(echo "$RESPONSE" | jq -r '.result | map(select(.role == "assistant")) | last | .content')
-        
-        # Extract title from the first heading in the markdown content
-        TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 ]//g' | tr ' ' '-' | sed 's/--*/-/g' | sed 's/-$//')
-        
-        # If no title found, use a default
-        if [ -z "$TITLE" ]; then
-          TITLE="ki-news-${CURRENT_DATE}"
-        fi
-        
-        # Limit title length to avoid filename issues
-        TITLE=$(echo "$TITLE" | cut -c1-50)
-        
-        # Create filename
-        FILENAME="${CURRENT_DATE}-${TITLE}.md"
-        
-        # Extract readable title for frontmatter (from first heading or generate one)
-        READABLE_TITLE=$(echo "$CONTENT" | grep -m1 '^#' | sed 's/^#* *//')
-        if [ -z "$READABLE_TITLE" ]; then
-          READABLE_TITLE="KI News vom $(date +'%d.%m.%Y')"
-        fi
-        
-        # Create the post file with frontmatter
-        cat > "_posts/${FILENAME}" << EOF
-        ---
-        layout: post
-        title: ${READABLE_TITLE}
-        tag: AI
-        ---
-        (This is an AI generated news post.)
-
-        ${CONTENT}
-        EOF
-        
-        echo "Created post: _posts/${FILENAME}"
-        echo "filename=${FILENAME}" >> $GITHUB_OUTPUT
-        
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"

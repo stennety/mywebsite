@@ -1,6 +1,6 @@
 title: Gishan's Notes
 description: CSE undergraduate notes and learning resources.
-baseurl: "" # Do not change for user/organization site
+baseurl: "" 
 url: "https://gishanchamith.github.io"
 
 theme: minima
@@ -11,7 +11,7 @@ plugins:
 
 author:
   name: "Gishan Chamith"
-  email: "gishan@gishanchamith.com.lk"
+  email: "your-email@example.com"
 
 permalink: /:title/
 

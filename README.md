@@ -18,7 +18,7 @@ This site has CloudFormation templates for deployment to AWS. Its infrastructure
 To create the AWS resources from the template, do the following.
 
 ```bash
-export AWS_PROFILE=personal
+export AWS_PROFILE=cloudformation
 export AWS_REGION=us-east-1
 ```
 

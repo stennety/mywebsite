@@ -17,14 +17,19 @@ This site has CloudFormation templates for deployment to AWS. Its infrastructure
 
 To create the AWS resources from the template, do the following.
 
+```bash
+export AWS_PROFILE=personal
+export AWS_REGION=us-east-1
+```
+
 Package the templates:
-`aws cloudformation package --template-file etc/root.yaml --output-template packaged.yaml --s3-bucket merrick-cf-templates-east`
+`aws cloudformation package --template-file etc/root.yaml --output-template packaged.yaml --s3-bucket io.github.davidmerrick.davidmerrickme.cloudformation`
 
 Deploy the templates:
 
 _Note: Make sure to customize the parameter values_
 
-`aws cloudformation deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --parameter-overrides Referer=myReferer --stack-name davidmerrickdotcom`
+`aws cloudformation deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --parameter-overrides Referer=myReferer --stack-name davidmerrickdotme`
 
 # Gotchas
 - Lambda@Edge doesn't allow env vars, so gotta hardcode that domain name.

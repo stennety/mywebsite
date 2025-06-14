@@ -28,3 +28,4 @@ The workflow:
 Langdock API Challenges:
 * Web search is needed, so it was needed to use a temporary langdock assistent instead of the chat API
 * The response is always AI generated text. Its not possible to fetch directly a valid JSON object. The prompt can say "give me a JSON object", but the AI mostly add e.g. explanation text or backtick blocks. So I request just a list each title starting with "- " and parse it on my own
+* AI adding also to the articles some boilerplate text, which needs to be removed manually

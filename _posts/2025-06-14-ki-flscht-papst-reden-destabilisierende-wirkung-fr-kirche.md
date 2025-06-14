@@ -17,6 +17,3 @@ Die katholische Kirche sieht sich mit einer neuen Herausforderung konfrontiert: 
 - [BR24: KI fälscht Papst-Reden](https://www.br.de/nachrichten/kultur/ki-faelscht-reden-von-papst-leo-xiv-destabilisierende-wirkung-fuer-kirche,Unj4x00)
 - [Katholisch.de: KI-gefälschte Predigten](https://www.katholisch.de/artikel/62258-ki-gefaelschte-predigten-von-papst-leo-xiv-fluten-das-internet)
 - [Domradio: Deepfakes von Papst Leo XIV.](https://www.domradio.de/artikel/ki-gefaelschte-predigten-von-papst-leo-xiv-fluten-das-internet)
-
-
-Falls du Anpassungen oder Ergänzungen möchtest, lass es mich wissen!

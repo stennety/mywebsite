@@ -6,7 +6,7 @@ export async function langdock(date, prompt, slugifiedTitle) {
     const filePath = path.join('.github/debug', `${date}${slugifiedTitle ? `-${slugifiedTitle}` : ''}.json`);
 
     if (fs.existsSync(filePath)) {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        return JSON.parse(fs.readFileSync(filePath, 'utf8')).response;
     }
 
     const response = await axios.post(
@@ -39,6 +39,15 @@ export async function langdock(date, prompt, slugifiedTitle) {
         }
     );
 
-    fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2), 'utf8');
+    const fileData = {
+        request: {
+            timestamp: new Date().toISOString(),
+            prompt,
+            model: 'gpt-4o',
+            temperature: 0.3,
+        },
+        response: response.data,
+    };
+    fs.writeFileSync(filePath, JSON.stringify(fileData, null, 2), 'utf8');
     return response.data;
 }

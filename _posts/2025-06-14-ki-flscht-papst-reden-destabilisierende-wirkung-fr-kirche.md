@@ -5,9 +5,6 @@ tag: KI
 ---
 *This article is completely AI generated.*
 
-Hier ist der Artikel basierend auf den aktuellen Informationen:
-
-
 Millionenfach geklickt und für echt gehalten: Gefälschte Predigten von Papst Leo XIV. verbreiten sich rasant auf Plattformen wie YouTube und TikTok. Die täuschend echt wirkenden Videos, die mit Hilfe von Künstlicher Intelligenz (KI) erstellt wurden, imitieren nicht nur die Stimme des Papstes, sondern auch seinen Sprachstil und theologische Wendungen. Besonders brisant: Einige dieser Deepfakes enthalten apokalyptische Botschaften, die Gläubige verunsichern und die Glaubwürdigkeit der Kirche gefährden könnten. Ein spanischsprachiges TikTok-Video, in dem der Papst angeblich über die Rolle von Frauen spricht, erreichte beispielsweise 9,6 Millionen Aufrufe – weit mehr als die offiziellen Kanäle des Vatikans.
 
 <!--more-->

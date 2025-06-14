@@ -1,4 +1,4 @@
-import axios from 'axios';
+import { langdock } from './langdock.js';
 
 export async function fetchNewTitles(ignoreTitles = []) {
     const prompt = `
@@ -15,6 +15,6 @@ export async function fetchNewTitles(ignoreTitles = []) {
     const response = await langdock(prompt);
 
     console.log(JSON.stringify(response, null, 2));
-    
+
     return [];
 }

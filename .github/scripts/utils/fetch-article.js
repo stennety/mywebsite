@@ -1,4 +1,4 @@
-import axios from 'axios';
+import { langdock } from './langdock.js';
 
 export async function fetchArticle({ readableTitle, slugifiedTitle }) {
     const prompt = `

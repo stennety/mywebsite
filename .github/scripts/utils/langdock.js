@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import axios from 'axios';
 
 export async function langdock(prompt, { slugifiedTitle } = {}) {

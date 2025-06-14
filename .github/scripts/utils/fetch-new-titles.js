@@ -6,8 +6,14 @@ export async function fetchNewTitles(date, ignoreTitles = []) {
 
         Beachte dabei aber nur Neuigkeiten der letzten 7 Tage und nur die 3 wichtigsten Neuigkeiten.
 
-        Gib als Antwort ein gültiges JSON Array zurück ohne zusätzlichen Text, Erklärungen oder ${'```json ```'} Block. Jedes Element im JSON Array soll dabei folgendes Format haben:
-        { "readableTitle": "Ein lesbarer Titel", "slugifiedTitle": "ein-slugified-titel" }
+        Formatiere die Antwort EXAKT in diesem Markdown-Format:
+        - Titel 1
+        - Titel 2
+        - Titel 3
+
+        Wichtig:
+        - Jede Zeile beginnt mit "- " (Bindestrich + Leerzeichen)
+        - Ein Titel pro Zeile
 
         Ignoriere aber dabei folgende bereits bekannte Neuigkeiten: ${ignoreTitles.join(', ')}
     `;

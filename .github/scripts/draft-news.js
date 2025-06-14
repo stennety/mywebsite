@@ -7,10 +7,10 @@ import { writeDraftFile } from './utils/write-draft.js';
 async function main() {
   const existingTitles = await getExistingTitles();
   const newTitles = await fetchNewTitles(existingTitles);
-  for (const { date, readableTitle, slugifiedTitle } of newTitles) {
+  /*for (const { date, readableTitle, slugifiedTitle } of newTitles) {
     const content = await fetchArticle(title);
     await writeDraftFile({ date, readableTitle, slugifiedTitle }, content);
-  }
+  }*/
 }
 
 main().catch(err => {

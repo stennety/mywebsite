@@ -26,10 +26,32 @@
 </style>
 
 <script>
+// Initialize checkbox state from localStorage
+document.addEventListener('DOMContentLoaded', function() {
+  const checkbox = document.getElementById('hideAiContent');
+  if (checkbox) {
+    const savedState = localStorage.getItem('hideAiContent');
+    const hideAi = savedState === 'true';
+    checkbox.checked = hideAi;
+    if (hideAi) {
+      toggleAiContent(); // Apply the true state immediately
+    }
+  }
+});
+
 function toggleAiContent() {
-  const hideAi = document.getElementById('hideAiContent').checked;
-  const aiPosts = document.querySelectorAll('.post-list li.ai-generated');
+  const checkbox = document.getElementById('hideAiContent');
+  if (!checkbox) return;
   
+  const hideAi = checkbox.checked;
+  // Save or remove state from localStorage
+  if (hideAi) {
+    localStorage.setItem('hideAiContent', 'true');
+  } else {
+    localStorage.removeItem('hideAiContent');
+  }
+  
+  const aiPosts = document.querySelectorAll('.post-list li.ai-generated');
   aiPosts.forEach(post => {
     post.style.display = hideAi ? 'none' : 'block';
   });

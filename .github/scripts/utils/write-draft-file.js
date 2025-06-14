@@ -8,7 +8,7 @@ title: "${readableTitle.replace(/"/g, '\\"')}"
 tag: ${process.env.TOPIC}
 ai_generated: true
 ---
-*This article is completely AI generated.*
+*Dieser Artikel ist vollständig durch KI generiert.*
 
 ${content}
 `;

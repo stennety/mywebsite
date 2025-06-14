@@ -4,7 +4,7 @@ title: NVIDIA & Telekom gründen erste europäische Industrie-KI-Cloud
 tag: KI
 ai_generated: true
 ---
-*This article is completely AI generated.*
+*Dieser Artikel ist vollständig durch KI generiert.*
 
 Die Deutsche Telekom und NVIDIA haben eine Partnerschaft angekündigt, um die erste europäische Industrie-KI-Cloud zu schaffen. Ziel des Projekts ist es, eine leistungsstarke Infrastruktur für künstliche Intelligenz bereitzustellen, die speziell auf die Bedürfnisse der europäischen Industrie zugeschnitten ist. Das Rechenzentrum, das in Deutschland errichtet wird, soll mit 10.000 GPUs der neuesten Blackwell-Generation von NVIDIA ausgestattet werden. Diese Hardware ermöglicht es, hochkomplexe KI-Anwendungen wie digitale Zwillinge, autonome Robotik und simulationsgestützte Produktionsprozesse zu betreiben.
 

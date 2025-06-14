@@ -40,7 +40,5 @@ export async function langdock(date, prompt, slugifiedTitle) {
     );
 
     fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2), 'utf8');
-    process.exit(0);
-
-    return '';
+    return response.data;
 }

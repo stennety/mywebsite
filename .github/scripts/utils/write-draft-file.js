@@ -1,3 +1,6 @@
+import fs from 'fs';
+import path from 'path';
+
 export async function writeDraftFile(date, readableTitle, slugifiedTitle, content) {
     const fileContent = `---
 layout: post

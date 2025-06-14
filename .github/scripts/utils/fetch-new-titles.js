@@ -23,6 +23,6 @@ export async function fetchNewTitles(date, ignoreTitles = []) {
         .split('\n')
         .map(line => line.trim())
         .filter(line => line.startsWith('- '))
-        .map(line => line.substring(2).trim())
+        .map(line => line.substring(2).replace(/【.*】/, '').trim())
         .filter(line => line.length > 0);
 }

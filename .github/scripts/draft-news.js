@@ -10,9 +10,12 @@ async function main() {
 
   const existingTitles = await getExistingTitles();
   const newTitles = await fetchNewTitles(date, existingTitles);
+  console.log('newTitles', newTitles);
   for (const newTitle of newTitles) {
     const readableTitle = newTitle;
     const slugifiedTitle = readableTitle.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9-]/g, '');
+    console.log('readableTitle', readableTitle);
+    console.log('slugifiedTitle', slugifiedTitle);
     const content = await fetchArticle(date, readableTitle, slugifiedTitle);
     await writeDraftFile(date, readableTitle, slugifiedTitle, content);
   }

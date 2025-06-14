@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function langdock(prompt, { slugifiedTitle }) {
+export async function langdock(prompt, { slugifiedTitle } = {}) {
     const now = new Date();
     const id = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}${slugifiedTitle ? `-${slugifiedTitle}` : ''}`;  // Format: "YYYY-MM-DD-slugifiedTitle"
 

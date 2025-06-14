@@ -2,15 +2,18 @@
 import { getExistingTitles } from './utils/get-existing-titles.js';
 import { fetchNewTitles } from './utils/fetch-new-titles.js';
 import { fetchArticle } from './utils/fetch-article.js';
-import { writeDraftFile } from './utils/write-draft.js';
+import { writeDraftFile } from './utils/write-draft-file.js';
 
 async function main() {
+  const now = new Date();
+  const date = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+
   const existingTitles = await getExistingTitles();
-  const newTitles = await fetchNewTitles(existingTitles);
-  /*for (const { date, readableTitle, slugifiedTitle } of newTitles) {
-    const content = await fetchArticle(title);
-    await writeDraftFile({ date, readableTitle, slugifiedTitle }, content);
-  }*/
+  const newTitles = await fetchNewTitles(date, existingTitles);
+  for (const { readableTitle, slugifiedTitle } of newTitles) {
+    const content = await fetchArticle(date, title);
+    await writeDraftFile(date, { readableTitle, slugifiedTitle }, content);
+  }
 }
 
 main().catch(err => {

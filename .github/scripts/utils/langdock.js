@@ -2,12 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 
-export async function langdock(prompt, { slugifiedTitle } = {}) {
-    const now = new Date();
-    const id = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}${slugifiedTitle ? `-${slugifiedTitle}` : ''}`;  // Format: "YYYY-MM-DD-slugifiedTitle"
+export async function langdock(date, prompt, { slugifiedTitle } = {}) {
+    const filePath = path.join('.github/debug', `${date}${slugifiedTitle ? `-${slugifiedTitle}` : ''}.json`);
 
-    if (fs.existsSync(path.join('.github/debug', `${id}.json`))) {
-        return JSON.parse(fs.readFileSync(path.join('.github/debug', `${id}.json`), 'utf8'));
+    if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
     }
 
     const response = await axios.post(
@@ -29,7 +28,7 @@ export async function langdock(prompt, { slugifiedTitle } = {}) {
         },
     );
 
-    fs.writeFileSync(path.join('.github/debug', `${id}.json`), JSON.stringify(response.data, null, 2), 'utf8');
+    fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2), 'utf8');
 
     return '';
 }

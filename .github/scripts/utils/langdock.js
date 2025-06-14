@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 
-export async function langdock(date, prompt, { slugifiedTitle } = {}) {
+export async function langdock(date, prompt, slugifiedTitle) {
     const filePath = path.join('.github/debug', `${date}${slugifiedTitle ? `-${slugifiedTitle}` : ''}.json`);
 
     if (fs.existsSync(filePath)) {

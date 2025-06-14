@@ -17,10 +17,11 @@ export async function fetchNewTitles(date, ignoreTitles = []) {
 
         Ignoriere aber dabei folgende bereits bekannte Neuigkeiten: ${ignoreTitles.join(', ')}
     `;
-
     const response = await langdock(date, prompt);
-
-    console.log(JSON.stringify(response, null, 2));
-
-    return [];
+    return response.choices[0].message.content.trim()
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line.startsWith('- '))
+        .map(line => line.substring(2).trim())
+        .filter(line => line.length > 0);
 }

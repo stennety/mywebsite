@@ -1,4 +1,4 @@
-export async function writeDraftFile({ date, readableTitle, slugifiedTitle }, content) {
+export async function writeDraftFile(date, readableTitle, slugifiedTitle, content) {
     const fileContent = `---
 layout: post
 title: ${readableTitle}

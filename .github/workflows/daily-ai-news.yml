@@ -22,15 +22,11 @@ jobs:
     - name: Install dependencies
       run: npm install
         
-    - name: Fetch AI News from Langdock API
-      id: fetch-news
-      run: node .github/scripts/fetch-news.js
+    - name: Draft Daily AI News
+      id: draft-news
+      run: node .github/scripts/draft-news.js
       env:
-        ASSISTANT_ID: ${{ vars.ASSISTANT_ID }}
-        FORMAT: "Markdown"
         LANGDOCK_API_KEY: ${{ secrets.LANGDOCK_API_KEY }}
-        LANGUAGE: "English"
-        PERIOD: "Heute"
         TOPIC: "KI"
 
     - name: Commit and push changes
@@ -38,12 +34,12 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .github/debug/
-        git add _posts/
+        git add _drafts/
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Add daily AI news post: ${{ steps.fetch-news.outputs.filename }}"
+          git commit -m "Add daily AI news drafts"
           git push
         fi 

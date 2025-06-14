@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
-  fetch-ai-news:
+  daily-ai-news:
     runs-on: ubuntu-latest
     
     steps:

@@ -18,7 +18,8 @@ export async function fetchNewTitles(date, ignoreTitles = []) {
         Ignoriere aber dabei folgende bereits bekannte Neuigkeiten: ${ignoreTitles.join(', ')}
     `;
     const response = await langdock(date, prompt);
-    return response.choices[0].message.content.trim()
+    const content = response.result[response.result.length - 1].content;
+    return content
         .split('\n')
         .map(line => line.trim())
         .filter(line => line.startsWith('- '))

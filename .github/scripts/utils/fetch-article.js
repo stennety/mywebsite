@@ -7,11 +7,5 @@ export async function fetchArticle(date, readableTitle, slugifiedTitle) {
         Verwende dabei nur Informationen der letzten 7 Tage, sodass der Artikel nur die aktuellen Neuigkeiten zu dem Thema enthält.
     `;
     const response = await langdock(date, prompt, slugifiedTitle);
-
-    console.log(JSON.stringify(response, null, 2));
-
-    process.exit(0);
-
-    // return response.choices[0].message.content;
-    return '';
+    return response.result[response.result.length - 1].content;
 }

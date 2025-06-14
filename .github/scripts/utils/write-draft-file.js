@@ -6,6 +6,7 @@ export async function writeDraftFile(date, readableTitle, slugifiedTitle, conten
 layout: post
 title: "${readableTitle.replace(/"/g, '\\"')}"
 tag: ${process.env.TOPIC}
+ai_generated: true
 ---
 *This article is completely AI generated.*
 

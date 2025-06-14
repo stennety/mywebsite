@@ -2,6 +2,7 @@
 layout: post
 title: "KI fälscht Papst-Reden: \"Destabilisierende Wirkung\" für Kirche"
 tag: KI
+ai_generated: true
 ---
 *This article is completely AI generated.*
 

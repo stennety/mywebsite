@@ -2,6 +2,7 @@
 layout: post
 title: "Copilot Vision: Jetzt schaut Microsofts KI auf deinen Bildschirm"
 tag: KI
+ai_generated: true
 ---
 *This article is completely AI generated.*
 

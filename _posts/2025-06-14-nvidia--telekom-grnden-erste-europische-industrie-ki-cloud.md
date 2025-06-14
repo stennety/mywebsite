@@ -2,6 +2,7 @@
 layout: post
 title: NVIDIA & Telekom gründen erste europäische Industrie-KI-Cloud
 tag: KI
+ai_generated: true
 ---
 *This article is completely AI generated.*
 

@@ -1,5 +1,37 @@
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {% if site.ai_generated_filter %}
+    <div class="ai-filter">
+      <label>
+        <input type="checkbox" id="hideAiContent" onchange="toggleAiContent()">
+        Hide AI generated content
+      </label>
+    </div>
+    {% endif %}
   </div>
 </header>
+
+<style>
+.ai-filter {
+  float: right;
+  margin-top: 10px;
+}
+.ai-filter label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+function toggleAiContent() {
+  const hideAi = document.getElementById('hideAiContent').checked;
+  const aiPosts = document.querySelectorAll('.post-list li.ai-generated');
+  
+  aiPosts.forEach(post => {
+    post.style.display = hideAi ? 'none' : 'block';
+  });
+}
+</script>

@@ -10,22 +10,33 @@ export async function langdock(date, prompt, slugifiedTitle) {
     }
 
     const response = await axios.post(
-        'https://api.langdock.com/openai/eu/v1/chat/completions',
+        'https://api.langdock.com/assistant/v1/chat/completions', 
         {
-            model: 'gpt-4o',
+            // Temporärer Assistant mit Web-Suche
+            assistant: {
+                name: 'News Assistant',
+                instructions: '',
+                temperature: 0.3,
+                model: 'gpt-4o',
+                capabilities: {
+                    webSearch: true, // Aktiviert Web-Suche
+                    dataAnalyst: false,
+                    imageGeneration: false
+                }
+            },
             messages: [
                 {
                     role: 'user',
-                    content: prompt,
-                },
-            ],
-        },
+                    content: prompt
+                }
+            ]
+        }, 
         {
             headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.LANGDOCK_API_KEY}`,
-            },
-        },
+            'Authorization': `Bearer ${process.env.LANGDOCK_API_KEY}`,
+            'Content-Type': 'application/json'
+            }
+        }
     );
 
     fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2), 'utf8');

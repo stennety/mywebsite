@@ -16,13 +16,5 @@ export async function fetchNewTitles(date, ignoreTitles = []) {
 
     console.log(JSON.stringify(response, null, 2));
 
-    const titles = response.choices[0].message.content;
-    try {
-        console.log(JSON.parse(titles));
-    } catch (error) {
-        console.error('Error parsing JSON:', error);
-        return [];
-    }
-
     return [];
 }

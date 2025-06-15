@@ -1,4 +1,5 @@
 ---
+language: de
 layout: post
 title: "Copilot Vision: Jetzt schaut Microsofts KI auf deinen Bildschirm"
 tag: KI

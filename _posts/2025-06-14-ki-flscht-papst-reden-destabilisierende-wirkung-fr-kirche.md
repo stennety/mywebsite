@@ -1,4 +1,5 @@
 ---
+language: de
 layout: post
 title: "KI fälscht Papst-Reden: \"Destabilisierende Wirkung\" für Kirche"
 tag: KI

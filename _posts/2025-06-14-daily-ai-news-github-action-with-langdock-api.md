@@ -1,4 +1,5 @@
 ---
+language: de
 layout: post
 title: "Daily AI News GitHub Action With Langdock API"
 ---

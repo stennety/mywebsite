@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: |
   CloudFormation templates for plumbing davidmerrick.me.
-  Includes bucket and CloudFront distribution.
+  Includes CloudFront distribution.
 Parameters:
   Referer:
     Description: Secret referer string for restricting access to the buckets
@@ -10,14 +10,13 @@ Parameters:
     Description: Website domain name, without www
     Type: String
     Default: 'davidmerrick.me'
+  WebsiteBucketName:
+    Type: String
+    Default: 'davidmerrick.me'
+  WebsiteBucketArn:
+    Type: String
+    Default: 'arn:aws:s3:::davidmerrick.me'
 Resources:
-  WebsiteBucket:
-    Type: 'AWS::S3::Bucket'
-    Properties:
-      BucketName: !Ref 'DomainName'
-      WebsiteConfiguration:
-        IndexDocument: 'index.html'
-        ErrorDocument: 'error.html'
   Route53:
     Type: 'AWS::CloudFormation::Stack'
     Properties:
@@ -29,14 +28,14 @@ Resources:
   ReadPolicy:
     Type: 'AWS::S3::BucketPolicy'
     Properties:
-      Bucket: !Ref 'WebsiteBucket'
+      Bucket: !Ref 'WebsiteBucketArn'
       PolicyDocument:
         Version: 2012-10-17
         Statement:
           - Sid: CloudFrontOrigin
             Action: 's3:GetObject'
             Effect: Allow
-            Resource: !Sub 'arn:aws:s3:::${WebsiteBucket}/*'
+            Resource: !Sub '${WebsiteBucketArn}/*'
             Principal: '*'
             Condition:
               StringEquals:
@@ -55,13 +54,13 @@ Resources:
     Type: 'AWS::CloudFront::CloudFrontOriginAccessIdentity'
     Properties:
       CloudFrontOriginAccessIdentityConfig:
-        Comment: !Ref 'WebsiteBucket'
+        Comment: !Ref 'WebsiteBucketArn'
   CloudFrontDistribution:
     Type: 'AWS::CloudFormation::Stack'
     Properties:
       TemplateURL: 'wwwDistro.yaml'
       Parameters:
-        BucketUri: !Sub '${WebsiteBucket}.s3-website.us-east-1.amazonaws.com'
+        BucketUri: !Sub '${WebsiteBucketName}.s3-website.us-east-1.amazonaws.com'
         CertArn: !Ref 'WwwCertificate'
         DomainName: !Ref 'DomainName'
         OAI: !Ref 'CloudFrontOriginAccessIdentity'

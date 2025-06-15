@@ -28,7 +28,7 @@ Resources:
   ReadPolicy:
     Type: 'AWS::S3::BucketPolicy'
     Properties:
-      Bucket: !Ref 'WebsiteBucketArn'
+      Bucket: !Ref 'WebsiteBucketName'
       PolicyDocument:
         Version: 2012-10-17
         Statement:

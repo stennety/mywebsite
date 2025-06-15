@@ -39,6 +39,8 @@ _Note: Make sure to customize the parameter values_
 
 `aws cloudformation deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --parameter-overrides Referer=myReferer --stack-name davidmerrickdotme`
 
+Make SURE to update the cloudfront distribution id in the Github workflows.
+
 # Gotchas
 - You need to manually create the S3 bucket which is annoying.
 - Lambda@Edge doesn't allow env vars, so we've got to hardcode the domain name.

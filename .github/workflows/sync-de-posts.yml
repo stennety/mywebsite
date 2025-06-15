@@ -1,12 +1,16 @@
-name: Sync all de posts to sharaal/de repository
+name: "Sync 'de' posts"
 
 on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
-  postsSync:
+  sync-de-posts:
     runs-on: ubuntu-latest
-
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
     - name: Sync German posts to sharaal/de repository
       run: |
         # Clone the target repository

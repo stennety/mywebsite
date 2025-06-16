@@ -2,6 +2,7 @@
 layout: post
 title: "Meta AI leakt intime Chats: Skandal um Privatsphäre!"
 tag: KI
+tts: assets/tts/2025-06-16-meta-ai-leakt-intime-chats-skandal-um-privatsphre.mp3
 ai_generated: true
 ---
 *Dieser Artikel ist vollständig durch KI generiert.*

@@ -23,6 +23,9 @@ layout: default
           </a>
         </h3>
         {% if site.show_excerpts %}
+          {% if post.tts %}
+            <audio src="{{ post.tts | relative_url }}" controls></audio>
+          {% endif %}
           {{ post.excerpt }}
         {% endif %}
       </li>

@@ -61,11 +61,11 @@ We create a new app in Heroku and deploy the proxy.
 If we don't have own domains for the apps, we are finished now, we can request the app by "/sharaal".
 
 Otherwise we add the domain "www.sharaal.de" in the settings:
-![App Domain Setting](/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/app-domain-setting.png)
+![App Domain Setting](/assets/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/app-domain-setting.png)
 
 Configure the domain "sharaal.de" to redirect to "www.sharaal.de" and add a CNAME entry targeting the DNS name of our proxy app "www.sharaal.de.herokudns.com":
-![Hosting Redirect](/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/hosting-redirect.png)
-![Hosting CNAME](/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/hosting-cname.png)
+![Hosting Redirect](/assets/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/hosting-redirect.png)
+![Hosting CNAME](/assets/images/2017-5-23-if-heroku-free-is-to-small-and-hobby-to-large/hosting-cname.png)
 Why not add the CNAME entry to the domain? Because all traffic will be redirected by a CNAME entry, not only http requests, also e-mails if we want to use the domain also for them.
 
 ## Summary
@@ -76,4 +76,4 @@ If we done all right we have now different still standalone runnable and located
 * [maxdome-rssfeeds.de](http://maxdome-rssfeeds.de) - [http://github.com/sharaal/maxdome-rssfeeds](http://github.com/sharaal/maxdome-rssfeeds)
 
 The complete workflow in a diagramm:
-![Complete Workflow](/images/2017-05-23-if-heroku-free-is-to-small-and-hobby-to-large/complete-workflow.png)
+![Complete Workflow](/assets/images/2017-05-23-if-heroku-free-is-to-small-and-hobby-to-large/complete-workflow.png)

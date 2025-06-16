@@ -15,7 +15,7 @@ Die Produktion des Spots markiert einen Wendepunkt in der Werbebranche. Statt ei
 Die Debatte um KI in der Werbung ist damit neu entfacht. Experten warnen vor einer möglichen „synthetischen Medienwelt“, in der Zuschauer nicht mehr zwischen realen und generierten Inhalten unterscheiden können. Gleichzeitig sehen viele in der Technologie eine Chance, kreative Prozesse zu demokratisieren und neue Formen des Storytellings zu ermöglichen. Kalshi hat mit seinem Spot nicht nur für Aufmerksamkeit gesorgt, sondern auch eine Diskussion über die Zukunft der Werbung angestoßen – eine Zukunft, in der KI eine zentrale Rolle spielen könnte.
 
 ### Quellen
-- [All-AI.de: NBA Final Werbung mit KI „VEO“ erstellt](https://www.all-ai.de/news/top-news24/nba-werbung-finale-ki)【2-0】
-- [Business Punk: Kalshi zeigt: KI ersetzt TV-Spots – für 2.000 Dollar](https://www.business-punk.com/brand/ki-statt-tv-produktion-kalshi-veo-spot/)【2-2】
-- [Futurezone: Kurioser KI-generierter Werbespot bei NBA Finals ausgestrahlt](https://futurezone.at/digital-life/ki-generierter-werbespot-nba-finals-kalshi-pj-accetturo/403050050)【2-3】
-- [The Verge: Here’s the $2,000 fully AI-generated ad that aired during the NBA Finals](https://www.theverge.com/news/686474/kalshi-ai-generated-ad-nba-finals-google-veo-3)【2-6】
+- [All-AI.de: NBA Final Werbung mit KI „VEO“ erstellt](https://www.all-ai.de/news/top-news24/nba-werbung-finale-ki)
+- [Business Punk: Kalshi zeigt: KI ersetzt TV-Spots – für 2.000 Dollar](https://www.business-punk.com/brand/ki-statt-tv-produktion-kalshi-veo-spot/)
+- [Futurezone: Kurioser KI-generierter Werbespot bei NBA Finals ausgestrahlt](https://futurezone.at/digital-life/ki-generierter-werbespot-nba-finals-kalshi-pj-accetturo/403050050)
+- [The Verge: Here’s the $2,000 fully AI-generated ad that aired during the NBA Finals](https://www.theverge.com/news/686474/kalshi-ai-generated-ad-nba-finals-google-veo-3)

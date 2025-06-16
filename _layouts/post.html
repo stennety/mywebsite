@@ -16,10 +16,6 @@ layout: default
     </em></p>
     {% endif %}
 
-    {% if page.tts %}
-      <audio src="{{ page.tts | relative_url }}" controls></audio>
-    {% endif %}
-
     <div class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {% assign pdate = page.date | date_to_xmlschema %}
@@ -45,6 +41,10 @@ layout: default
       </div>
       {%- endif %}
     </div>
+
+    {% if page.tts %}
+      <audio src="{{ page.tts | relative_url }}" controls></audio>
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -8,6 +8,5 @@ export async function fetchArticle(date, readableTitle, slugifiedTitle) {
         Füge am Ende des Artikels einen Absatz mit den verlinkten Quellen hinzu.
     `;
     const response = await langdock(date, prompt, slugifiedTitle);
-    const content = response.result[response.result.length - 1].content;
-    return content.replace(/```markdown/, '').replace(/```/, '').trim();
+    return response.result[response.result.length - 1].content;
 }

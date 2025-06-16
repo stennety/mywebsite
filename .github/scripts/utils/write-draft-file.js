@@ -3,13 +3,12 @@ import path from 'path';
 
 export async function writeDraftFile(date, readableTitle, slugifiedTitle, content) {
     const fileContent = `---
+language: de
 layout: post
 title: "${readableTitle.replace(/"/g, '\\"')}"
 tag: ${process.env.TOPIC}
 ai_generated: true
 ---
-*Dieser Artikel ist vollständig durch KI generiert.*
-
 ${content}
 `;
     const fileName = `${date}-${slugifiedTitle}.md`;

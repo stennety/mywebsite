@@ -5,10 +5,11 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "node -r dotenv-safe/config .github/scripts/fetch-news.js"
+    "start": "node -r dotenv-safe/config .github/scripts/ai-draft-news.js"
   },
   "dependencies": {
     "axios": "^1.9.0",
+    "glob": "^11.0.3",
     "gray-matter": "^4.0.3"
   },
   "devDependencies": {

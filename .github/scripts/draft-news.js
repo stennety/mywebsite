@@ -9,7 +9,7 @@ function sanitizeAIText(text) {
     .replace(/```markdown/, '')
     .replace(/```/, '')
     .replace(/[„“]/g, '"')
-    .replace(/【.*】/g, '')
+    .replace(/【.*?】/g, '')
     .trim();
 }
 

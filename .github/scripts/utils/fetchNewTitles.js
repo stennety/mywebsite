@@ -1,5 +1,5 @@
 import { langdock } from './langdock.js';
-import { fetchNewTitles as fetchNewTitlesPromptTemplate } from '../../../config/prompt-templates/fetchNewTitles.js';
+import { fetchNewTitles as fetchNewTitlesPromptTemplate } from '../../config/prompt-templates/fetchNewTitles.js';
 
 export async function fetchNewTitles(date, existingTitles) {
     const debugFilePath = `.github/debug/${date}/${date}.json`;

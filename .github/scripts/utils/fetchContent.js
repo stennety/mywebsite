@@ -1,5 +1,5 @@
 import { langdock } from './langdock.js';
-import { fetchContent as fetchContentPromptTemplate } from '../../../config/prompt-templates/fetchContent.js';
+import { fetchContent as fetchContentPromptTemplate } from '../../config/prompt-templates/fetchContent.js';
 
 export async function fetchContent(date, sanitizedTitle, slugifiedTitle) {
     const debugFilePath = `.github/debug/${date}/${slugifiedTitle}.json`;

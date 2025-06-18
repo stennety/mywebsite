@@ -1,0 +1,3 @@
+- Amazon plant Stellenabbau durch KI-gestützte Automatisierung
+- Elon Musks Neuralink erhält Zulassung für Gehirnimplantate
+- OpenAI startet Angriff auf Apple mit neuer KI-Strategie

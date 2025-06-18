@@ -4,6 +4,7 @@ layout: post
 title: "Daily AI News GitHub Action With Langdock API"
 tts: assets/tts/2025-06-14-daily-ai-news-github-action-with-langdock-api.mp3
 ---
+
 Ich wollte etwas Produktives mit der Langdock-API in einem GitHub-Action-Workflow machen. Da ich mich für Neuigkeiten rund um KI interessiere, habe ich beides einfach verbunden, um KI-generierte Artikel für meinen Blog erstellen zu lassen.
 
 <!--more-->

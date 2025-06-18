@@ -5,6 +5,7 @@ title: "Amazon plant Stellenabbau durch KI-gestützte Automatisierung"
 tag: KI
 ai_generated: true
 ---
+
 Amazon hat angekündigt, dass der verstärkte Einsatz von Künstlicher Intelligenz (KI) in den kommenden Jahren zu einem Stellenabbau führen wird. Laut CEO Andy Jassy wird die Automatisierung durch sogenannte KI-Agenten, die eigenständig Aufgaben wie Datenanalyse, Softwareentwicklung und Übersetzungen übernehmen können, die Effizienz des Unternehmens erheblich steigern. Dies betrifft vor allem Büroarbeitsplätze, da viele der bisherigen Aufgaben durch KI effizienter erledigt werden können. Jassy betonte jedoch, dass es schwierig sei, die langfristigen Auswirkungen auf die Gesamtmitarbeiterzahl vorherzusagen.
 
 <!--more-->

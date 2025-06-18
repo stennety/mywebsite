@@ -5,6 +5,7 @@ title: "Studie entlarvt KI-Medizin als Prüfungsprofi, aber Alltagsversager"
 tag: KI
 ai_generated: true
 ---
+
 Große Sprachmodelle wie GPT-4 haben in den letzten Jahren beeindruckende Fortschritte in der Medizin erzielt. Eine aktuelle Studie der Universität Oxford zeigt jedoch, dass diese KI-Systeme zwar in Prüfungen glänzen, aber im Alltag oft scheitern. Während GPT-4 in kontrollierten Tests nahezu alle Krankheitsbilder korrekt diagnostizierte, sank die Erfolgsquote bei echten Patienteninteraktionen drastisch. Nur ein Drittel der Diagnosen war korrekt, während menschliche Ärzte in einigen Fällen sogar bessere Ergebnisse erzielten.
 
 <!--more-->

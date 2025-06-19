@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Common Database Design Standards
+layout: "post"
+title: "Common Database Design Standards"
 ---
 
 There are some common database design standards which are often seen:
@@ -8,6 +8,7 @@ There are some common database design standards which are often seen:
 * `created_at` and `updated_at` timestamp columns with the timestamps of the creation and last update
 
 Some of them are easy to solve, but others are not trivial. So I will have a look at all and provide go to solutions with [knex.js migrations](https://knexjs.org/#Migrations) and PostgreSQL.
+
 <!--more-->
 
 ## `id` column

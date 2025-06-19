@@ -1,9 +1,10 @@
 ---
-layout: post
-title: One logo to rule them all
+layout: "post"
+title: "One logo to rule them all"
 ---
 
 Logos are needed in different formats and sizes: Apple touch icons, favicon and much more. And maybe they are needed in several projects.
+
 <!--more-->
 
 Wouldn't it be nice only store the logo one time at one place, all the projects use them and resize it to the needed formats and sizes?

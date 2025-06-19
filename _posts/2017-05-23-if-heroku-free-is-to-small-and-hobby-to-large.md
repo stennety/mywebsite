@@ -1,9 +1,10 @@
 ---
-layout: post
-title: If Heroku free is to small and hobby to large
+layout: "post"
+title: "If Heroku free is to small and hobby to large"
 ---
 
 Sometimes apps should neither sleep nor use free dyno hours. Sometimes apps doesn't get many requests to need the performance of a hobby dyno.
+
 <!--more-->
 
 What if it would be possible many of these apps could combined run on a single hobby dyno?

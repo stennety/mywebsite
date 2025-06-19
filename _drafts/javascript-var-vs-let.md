@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Context in JavaScript closures
+layout: "post"
+title: "Context in JavaScript closures"
 ---
 
 `var` is function scope, `let` is block scope. Thats what most of us know, but what does it mean?

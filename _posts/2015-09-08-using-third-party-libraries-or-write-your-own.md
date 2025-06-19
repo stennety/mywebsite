@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Using third party libraries or write your own
+layout: "post"
+title: "Using third party libraries or write your own"
 ---
 
 Using third party libraries or not is a hard decision for beginners. The advantages are not immediately visible in the first time and its so much faster to just start with exactly what you need.
+
 <!--more-->
 
 ## The progress of the first project

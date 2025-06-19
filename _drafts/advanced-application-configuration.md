@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Advanced Application Configuration
+layout: "post"
+title: "Advanced Application Configuration"
 ---
 
 In the past I described how basic application configuration can be done in different ways (see [Split configuration and code](/2015/08/17/split-configuration-and-code.html)). Environment variables are nowdays the way to go, but they also have some constrains. I will describe them and show some additional concepts which can't/shouldn't replace environment variables completely, but can complement them if needed.
+
 <!--more-->
 
 ## The constrains of environment variables

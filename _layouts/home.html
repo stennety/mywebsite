@@ -33,7 +33,14 @@ layout: default
           </em></p>
           {% endif %}
           {% if post.tts %}
-            <audio src="{{ post.tts | relative_url }}" controls></audio>
+            <audio src="{{ post.tts.url | relative_url }}" controls></audio>
+            {% if post.tts.duration and post.tts.size %}
+              {% if post.language == "de" %}
+              <p>Dauer: {{ post.tts.duration }} | Größe: {{ post.tts.size }}</p>
+              {% else %}
+              <p>Duration: {{ post.tts.duration }} | Size: {{ post.tts.size }}</p>
+              {% endif %}
+            {% endif %}
           {% endif %}
           {{ post.excerpt }}
         {% endif %}

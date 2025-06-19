@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Context in JavaScript closures
+layout: "post"
+title: "Context in JavaScript closures"
 ---
 
 Closures are functions which use variables from the surrounded context. Using them without think about can result in unpredictable side effects:

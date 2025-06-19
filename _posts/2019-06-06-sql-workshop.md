@@ -1,11 +1,12 @@
 ---
-layout: post
-title: SQL Workshop
+layout: "post"
+title: "SQL Workshop"
 ---
 
 Because of security issues I did a very small SQL workshop in my company focused on SQL Injections.
 
 So I explain them what they are, what the issues are and how to ensure not having any issues with them. Also some more topics in a rough walkthrough like proper database design and some best practices.
+
 <!--more-->
 
 ## SQL Injection

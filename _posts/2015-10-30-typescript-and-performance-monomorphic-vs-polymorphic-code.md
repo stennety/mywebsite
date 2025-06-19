@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: "post"
 title: "TypeScript and Performance: Monomorphic vs Polymorphic Code"
 ---
 
 In one of my latest tech talks I said "TypeScript can increase the performance of the application". There comes the question "How can this works, TypeScript gets transpiled into normal JavaScript". Thats true, but using TypeScript helps to write better performing JavaScript.
+
 <!--more-->
 
 ## Hidden classes and inline cache

@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Write async code in JavaScript
+layout: "post"
+title: "Write async code in JavaScript"
 ---
 
 In a past article I described the [async behavior in JavaScript](/2018/01/25/async-behavior-in-javascript.html). To write async code there are a lot of different options and every few months it switches to another. That results in every new project use another, or even worse every part of one project.
+
 <!--more-->
 
 So I give here a small overview over the different options with their pros and cons.

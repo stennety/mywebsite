@@ -1,12 +1,13 @@
 ---
-layout: post
-title: Knex vs alternatives
+layout: "post"
+title: "Knex vs alternatives"
 ---
 
 Working in code with a relational database can be done in different abstraction forms from writing SQL queries over using a query builder to completely abstract the type of the database by using an ORM.
 But it's not only querying a database, also migration scripts needs to be defined and managed.
 
 So let's have a critical look at [knex](https://knexjs.org/), where is it worth to use, where not and what are the alternatives.
+
 <!--more-->
 
 ## Migrations

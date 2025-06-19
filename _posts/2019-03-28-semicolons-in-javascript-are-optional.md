@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Semicolons in JavaScript are optional?
+layout: "post"
+title: "Semicolons in JavaScript are optional?"
 ---
 
 I won't make a suggestion for this nearly religion discussion using or omitting semicolons in JavaScript. But I experienced they are not always optional and omitting them can result in errors. So I will describe these scenarios and the workarounds.
+
 <!--more-->
 
 ## Error scenarios

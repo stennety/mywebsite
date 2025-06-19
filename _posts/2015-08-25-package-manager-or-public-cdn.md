@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Package manager or public CDN
+layout: "post"
+title: "Package manager or public CDN"
 ---
 
 There are many approaches to load third party JavaScript and CSS files. I will describe two of them and a solution to combine both to have most of the advantages.
+
 <!--more-->
 
 ## Package Manager

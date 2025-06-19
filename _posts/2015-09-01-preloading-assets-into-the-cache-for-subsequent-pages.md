@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Preloading assets into the cache for subsequent pages
+layout: "post"
+title: "Preloading assets into the cache for subsequent pages"
 ---
 
 In some scenarios (e.g. having a landing page with the login to the client) the assets needed for subsequent pages are known, can preloaded into the cache and speeds up their first page view.
+
 <!--more-->
 
 ## Load assets without executing

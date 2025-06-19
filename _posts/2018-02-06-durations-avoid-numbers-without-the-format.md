@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Durations - Avoid numbers without the format
+layout: "post"
+title: "Durations - Avoid numbers without the format"
 ---
 
 Durations are easy to understand. They are the timespan between two timestamps. But they are hard to manage, because different APIs need different formats: milliseconds? seconds? Also they should be human readable.
+
 <!--more-->
 
 ## Formats

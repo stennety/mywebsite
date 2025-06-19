@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Application structure in Node.js
+layout: "post"
+title: "Application structure in Node.js"
 ---
 
 In Node.js one of the most used library for web applications is `express`. The most disadvantage of that library: It doesn't define the structure of an application.
+
 <!--more-->
 
 ## `express`

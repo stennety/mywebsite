@@ -1,13 +1,14 @@
 https://gist.github.com/Sharaal/742b0537035720dba7bc85b6bc7854c5
 
 ---
-layout: post
-title: Write a tagged template literal function for SQL
+layout: "post"
+title: "Write a tagged template literal function for SQL"
 ---
 
 After I searched for alternatives to [knex](https://knexjs.org/) and discover the new feature of the [tagged template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates) and an example usage of them for sql queries in [slonik](https://www.npmjs.com/package/slonik), I wanted to understand the usability of them by writing an own tagged template literal function.
 
 This came with a few unexpected stumbling blocks but at the end it resulted in the [sql-pg](https://www.npmjs.com/package/sql-pg) library only for this responsibility which also solves problems [slonik](https://www.npmjs.com/package/slonik) has and can be used together with [`pg`](https://www.npmjs.com/package/pg).
+
 <!--more-->
 
 ## The first draft how tagged template literal functions work

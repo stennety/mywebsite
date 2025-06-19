@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Node.js clustering in multi CPU environments
+layout: "post"
+title: "Node.js clustering in multi CPU environments"
 ---
 
 Node.js is single threaded. To use the capacity of multi CPU environments clustering is needed. There are solutions already available, so just have a quick look at one of them.
+
 <!--more-->
 
 `throng` is the name of the package, accepts a function to initialize an instance and options, in the following example it requires the `app.js`. The first important option is the amount of instances. For Heroku use the environment variable `WEB_CONCURRENCY` contains of amount of CPUs or total ram / ram per instance. For other environments the fallback is the amount of CPUs. The second important option is the lifetime of each instance.

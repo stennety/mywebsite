@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Yarn, the better NPM?
+layout: "post"
+title: "Yarn, the better NPM?"
 ---
 
 Yarn is a new package manager for JavaScript which can be used as substitute of NPM developed by Facebook and Google. I tried it out and want to share my first experiences with it which are not already presented at their homepage.
+
 <!--more-->
 
 Positives:

@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Open Graph Tags for Facebook
+layout: "post"
+title: "Open Graph Tags for Facebook"
 ---
 
 Facebook has the feature to show a summary of a webpage by writing the URL into a post. I will describe which information Facebook use and how its possible to change them.
+
 <!--more-->
 
 ## Facebook standard behavior

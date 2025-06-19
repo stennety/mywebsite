@@ -1,8 +1,8 @@
 ---
-language: de
-layout: post
+language: "de"
+layout: "post"
 title: "OpenAI startet Angriff auf Apple mit neuer KI-Strategie"
-tag: KI
+tag: "KI"
 ai_generated: true
 ---
 

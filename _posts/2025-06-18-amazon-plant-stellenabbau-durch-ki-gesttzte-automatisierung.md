@@ -1,8 +1,8 @@
 ---
-language: de
-layout: post
+language: "de"
+layout: "post"
 title: "Amazon plant Stellenabbau durch KI-gestützte Automatisierung"
-tag: KI
+tag: "KI"
 ai_generated: true
 ---
 

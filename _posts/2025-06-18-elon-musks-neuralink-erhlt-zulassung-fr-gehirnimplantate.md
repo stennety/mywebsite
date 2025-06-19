@@ -1,8 +1,8 @@
 ---
-language: de
-layout: post
+language: "de"
+layout: "post"
 title: "Elon Musks Neuralink erhält Zulassung für Gehirnimplantate"
-tag: KI
+tag: "KI"
 ai_generated: true
 ---
 

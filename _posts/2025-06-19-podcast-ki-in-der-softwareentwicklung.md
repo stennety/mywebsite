@@ -12,7 +12,7 @@ Auch wenn ich selbst nicht oft Podcasts höre, finde ich die Möglichkeit spanne
 
 Hier also mein erstes Experiment – viel Spaß damit!
 
-<!-- more -->
+<!--more-->
 
 ## Zur Ergänzung das Transkript zum Podcast
 

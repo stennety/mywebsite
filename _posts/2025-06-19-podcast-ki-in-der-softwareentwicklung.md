@@ -15,6 +15,8 @@ Auch wenn ich selbst nicht oft Podcasts höre, finde ich die Möglichkeit spanne
 
 Hier also mein erstes Experiment – viel Spaß damit!
 
+<!-- more -->
+
 ## Zur Ergänzung das Transkript zum Podcast
 
 **Susi:** Herzlich willkommen zu unserem Podcast über KI in der Softwareentwicklung. Heute sprechen wir über eine Initiative, die sich gezielt mit der Frage beschäftigt, wie KI in der Softwareentwicklung effizient und qualitativ hochwertig eingesetzt werden kann.

@@ -6,7 +6,6 @@ tag: "KI"
 tts: 
     url: "assets/tts/2025-06-19-podcast-ki-in-der-softwareentwicklung.wav"
     size: "18,4 MB"
-    duration: "6:24 Minuten"
 ---
 
 Ich wollte mich etwas intensiver mit ElevenLabs beschäftigen und die Podcast-Funktion anhand eines praktischen Beispiels ausprobieren. Dafür habe ich ein Interview-Skript von GPT-4o erstellen lassen, das Informationen zu unserer Initiative "KI in der Softwareentwicklung" enthält – einem Projekt, das ich in meiner Firma leite.

@@ -34,7 +34,7 @@ layout: default
           {% endif %}
           {% if post.tts %}
             <audio src="{{ post.tts.url | relative_url }}" controls></audio>
-            {% if post.tts.size %}
+            {% if post.tts.size > 1 %}
               {% if post.language == "de" %}
               <p>Größe: {{ post.tts.size }}</p>
               {% else %}

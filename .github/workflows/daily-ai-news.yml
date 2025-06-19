@@ -24,7 +24,7 @@ jobs:
         
     - name: Draft Daily AI News
       id: draft-news
-      run: node .github/scripts/draft-news.js
+      run: node .github/scripts/ai-draft-news.js
       env:
         LANGDOCK_API_KEY: ${{ secrets.LANGDOCK_API_KEY }}
         TOPIC: "KI"

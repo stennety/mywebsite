@@ -3,8 +3,7 @@ language: "de"
 layout: "post"
 title: "EU AI Act: Verbot von KI-Systemen mit \"unannehmbarem Risiko\""
 tag: "KI"
-tts: 
-    url: "assets/tts/2025-06-17-eu-ai-act-verbot-von-ki-systemen-mit-unannehmbarem-risiko.mp3"
+tts: "assets/tts/2025-06-17-eu-ai-act-verbot-von-ki-systemen-mit-unannehmbarem-risiko.mp3"
 ai_generated: true
 ---
 

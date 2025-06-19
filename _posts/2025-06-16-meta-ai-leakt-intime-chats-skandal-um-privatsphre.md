@@ -3,8 +3,7 @@ language: "de"
 layout: "post"
 title: "Meta AI leakt intime Chats: Skandal um Privatsphäre!"
 tag: "KI"
-tts: 
-    url: "assets/tts/2025-06-16-meta-ai-leakt-intime-chats-skandal-um-privatsphre.mp3"
+tts: "assets/tts/2025-06-16-meta-ai-leakt-intime-chats-skandal-um-privatsphre.mp3"
 ai_generated: true
 ---
 

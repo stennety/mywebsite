@@ -43,14 +43,7 @@ layout: default
     {% endif %}
 
     {% if page.tts %}
-      <audio src="{{ page.tts.url | relative_url }}" controls></audio>
-      {% if page.tts.size %}
-        {% if page.language == "de" %}
-        <p>Größe: {{ page.tts.size }}</p>
-        {% else %}
-        <p>Size: {{ page.tts.size }}</p>
-        {% endif %}
-      {% endif %}
+      <audio src="{{ page.tts | relative_url }}" controls></audio>
     {% endif %}
   </header>
 

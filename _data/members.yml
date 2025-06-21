@@ -98,14 +98,6 @@
   twitter: "theFFWiki"
   age: 18+
 - member:
-  id: "galaxypedia"
-  name: "Galaxypedia"
-  description: "The Galaxypedia is a place where everything related to the Roblox game Galaxy is documented. Things like ships, ship data, turrets, guides, events, incidents, and much more are all documented there. The Galaxypedia is the successor to the Galaxy Wiki. The Galaxypedia uses data supplied by the game itself to stay up-to-date."
-  logo: "/images/logos/galaxypedia.png"
-  url: "https://wiki.galaxy.casa/"
-  mainpage: "Main_Page"
-  discord: "aGQjgZVYX2"
-- member:
   id: "mamiyawiki"
   name: "Mamiya Wiki"
   description: "Mamiya Wiki is a very small fan-hosted wiki for the visual novel Mamiya: A Shared Illusion of the World's End. The wiki, in its current form, was founded on April 16, 2023."

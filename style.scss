@@ -77,6 +77,10 @@ a {
   }
 }
 
+small {
+  font-size: small;	
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
@@ -96,6 +100,16 @@ ol ul, ul ol, ul ul, ol ol {
 
 ul ul, ol ul {
   list-style-type: circle;
+}
+
+table {
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  vertical-align: middle;
+  padding: 15px;
 }
 
 em, i {
@@ -140,6 +154,16 @@ img {
 
 .clearfix:after {
     clear: both;
+}
+
+//
+// Pagination
+//
+
+.pagination {
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 15px;  
 }
 
 /*********************/
@@ -211,7 +235,9 @@ img {
 }
 
 nav {
-  float: right;
+  text-align: center;
+  clear: both;
+  padding-top: 15px;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;

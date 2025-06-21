@@ -124,6 +124,22 @@ img {
   max-width: 100%;
 }
 
+.button {
+  background-color: #ef4e63;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a:hover.button, a:active.button {
+  color: white;
+  text-decoration: underline;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

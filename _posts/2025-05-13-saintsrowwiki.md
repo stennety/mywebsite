@@ -9,4 +9,4 @@ Please join us in welcoming the **Saints Row Wiki** as our newest member!
 
 **Saints Row Wiki** is the largest, most comprehensive player-made information archive about the Saints Row video game series, with Mission Guides, Secrets, Maps and more!
 
-Check out the wiki at [https://saintsrow.wiki](https://saintsrow.wiki/)!
+Check out the wiki at [https://saintsrow.wiki](https://gamingwikinetwork.org/warn/saintsrowwiki)!

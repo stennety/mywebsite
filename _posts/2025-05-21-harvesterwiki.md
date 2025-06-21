@@ -9,4 +9,4 @@ Please welcome our newest member, the **Harvester Wiki**!
 
 **Harvester Wiki** is the largest, most comprehensive source of Harvester information!
 
-Check out the wiki at [https://harvester.telepedia.net/](https://harvester.telepedia.net/)!
+Check out the wiki at [https://harvester.telepedia.net/](https://gamingwikinetwork.org/warn/harvesterwiki)!

@@ -11,4 +11,4 @@ We are pleased to welcome **Mamiya Wiki** as our latest member!
 
 The wiki, in its current form, was founded on April 16, 2023.
 
-Check out the Mamiya Wiki at [https://mamiyawiki.com/](https://mamiyawiki.com/)!
+Check out the Mamiya Wiki at [https://mamiyawiki.com/](https://gamingwikinetwork.org/warn/mamiyawiki)!

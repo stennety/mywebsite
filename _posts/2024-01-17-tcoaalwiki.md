@@ -9,4 +9,4 @@ We are pleased to welcome **The Coffin of Andy and LeyLey Wiki** as the latest w
 
 **The Coffin of Andy and LeyLey Wiki** is a wiki about the game of the same name by Kit9 Studio. It is a very new wiki, operating only since December 31, 2023.
 
-Check out the wiki at [https://coffin.wiki](https://coffin.wiki)!
+Check out the wiki at [https://coffin.wiki](https://gamingwikinetwork.org/warn/tcoaalwiki)!

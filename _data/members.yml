@@ -3,9 +3,10 @@
   name: "Conker Wiki"
   description: "Conker Wiki is a wiki covering the Conker series of games. Since April 2019, Conker Wiki has been hosted by Grifkuba."
   logo: "/images/logos/conker.png"
-  url: "https://conkerwiki.com/"
+  url: "https://gamingwikinetwork.org/warn/conkerwiki"
   mainpage: "Main_Page"
   discord: "s7fyT4E"
+  age: 17+
 - member:
   id: "crashbandicootwiki"
   name: "Crash Bandicoot Wiki"
@@ -26,7 +27,7 @@
   name: "Dune: Awakening Community Wiki"
   description: "The Dune: Awakening Community Wiki is the community knowledge base for everything to do with Funcom's latest and boldest MMO Survival game, set on the sands of Arrakis in Frank Herbert's DUNE, in collaboration with from the publishers of Denis Villeneuve's latest movies, Legendary."
   logo: "/images/logos/duneawakeningcommunitywiki.png"
-  url: "https://awakening.wiki/"
+  url: "https://gamingwikinetwork.org/warn/dacw"
   mainpage: ""
   discord: "K6xgpKqMTj"
   age: 18+
@@ -35,7 +36,7 @@
   name: "Independent Fallout Wiki"
   description: "The Independent Fallout Wiki is a fan-owned project focused on maintaining the most comprehensive, user-friendly encyclopedia about all aspects of the Fallout franchise, including the games, television series, community, and mods!"
   logo: "/images/logos/fallout.png"
-  url: "https://fallout.wiki/"
+  url: "https://gamingwikinetwork.org/warn/falloutwiki"
   mainpage: "Fallout_Wiki"
   discord: "falloutwiki"
   twitter: "thefalloutwiki"
@@ -57,7 +58,7 @@
   name: "Harvester Wiki"
   description: "Harvester Wiki is the largest, most comprehensive source of Harvester information!"
   logo: "/images/logos/HarvesterWiki.png"
-  url: "https://harvester.telepedia.net/"
+  url: "https://gamingwikinetwork.org/warn/harvesterwiki"
   mainpage: "Harvester_Wiki"
   age: 18+
 - member:
@@ -92,7 +93,7 @@
   name: "Final Fantasy Wiki"
   description: "Final Fantasy Wiki is an independent wiki covering Final Fantasy and related franchises. It was founded in January 2020 by members of the Square Enix Independent Wiki Alliance, as they did not have a representative wiki for Final Fantasy, the flagship franchise of Square Enix. The wiki utilizes a format that is derived from both the Kingdom Hearts Wiki and the Super Mario Wiki."
   logo: "/images/logos/finalfantasy.png"
-  url: "https://finalfantasywiki.com/"
+  url: "https://gamingwikinetwork.org/warn/finalfantasywiki"
   mainpage: "Main_Page"
   discord: "PBDCHYq"
   twitter: "theFFWiki"
@@ -102,25 +103,28 @@
   name: "Mamiya Wiki"
   description: "Mamiya Wiki is a very small fan-hosted wiki for the visual novel Mamiya: A Shared Illusion of the World's End. The wiki, in its current form, was founded on April 16, 2023."
   logo: "/images/logos/mamiyawikilogo.png"
-  url: "https://mamiyawiki.com/"
+  url: "https://gamingwikinetwork.org/warn/mamiyawiki"
   mainpage: "Main_Page"
   discord: "tNYTQpMd4h"
+  age: 17+
 - member:
   id: "oldworldblueswiki"
   name: "Old World Blues Wiki"
   description: "Old World Blues Wiki is about Old World Blues, a mod for the Paradox grand strategy game Hearts of Iron IV. The mod is set in the world of the Fallout video game series, featuring aspects from both the mainline games, the spin-offs, as well as fan-made expansions on regions and locations, to create a thematic exploration of post-nuclear ethics in a war-torn wasteland."
   logo: "/images/logos/OldWorldBlues.png"
-  url: "https://oldworldblues.wiki.gg/"
+  url: "https://gamingwikinetwork.org/warn/oldworldblueswiki"
   mainpage: "Old_World_Blues_—_HOI4_total_conversion_mod_Wiki"
   discord: "owb"
+  age: 18+
 - member:
   id: "rarewiki"
   name: "Rare Wiki"
   description: "Rare Wiki is a wiki dedicated to covering Rare Ltd. and their franchises (except for Banjo-Kazooie and Conker, as in-depth coverage of these two franchises can be found at Jiggywikki and Conker Wiki respectively)."
   logo: "/images/logos/rare.png"
-  url: "https://rarewiki.com/"
+  url: "https://gamingwikinetwork.org/warn/rarewiki"
   mainpage: "Main_Page"
   discord: "WdP7aXN"
+  age: 17+
 - member:
   id: "raywiki"
   name: "RayWiki"
@@ -135,7 +139,7 @@
   name: "Saints Row Wiki"
   description: "Saints Row Wiki is the largest, most comprehensive player-made information archive about the Saints Row video game series, with Mission Guides, Secrets, Maps and more!"
   logo: "/images/logos/saintsrow.png"
-  url: "https://saintsrow.wiki/"
+  url: "https://gamingwikinetwork.org/warn/saintsrowwiki"
   mainpage: "Saints_Row_Wiki"
   twitter: "saintsrowwiki"
   age: 18+
@@ -177,7 +181,7 @@
   name: "The Coffin of Andy and Leyley Wiki"
   description: "The Coffin of Andy and Leyley Wiki covers the hit game by Kit9Studio since December 31, 2023."
   logo: "/images/logos/tcoaalwiki.jpg"
-  url: "https://coffin.wiki/"
+  url: "https://gamingwikinetwork.org/warn/tcoaalwiki"
   mainpage: "Main_Page"
   discord: "S84qsjQf9e"
   age: 18+
@@ -186,7 +190,7 @@
   name: "Tom Clancy Wiki"
   description: "The Tom Clancy Wiki is a collaborative encyclopedia dedicated to Tom Clancy's franchises. The Tom Clancy franchise is a 40-year old expansive franchise founded by Tom Clancy, telling several unique sagas through books, video games, and films, as well as a TV show."
   logo: "/images/logos/tomclancywiki.png"
-  url: "https://tomclancy.wiki.gg/"
+  url: "https://gamingwikinetwork.org/warn/tomclancywiki"
   mainpage: "Tom_Clancy_Wiki"
   discord: "6JFzHSk8Zj"
   age: 18+

@@ -11,6 +11,10 @@
   <priority>1</priority>
 </url>
 <url>
+    <loc>https://fescue.github.io/NLE/</loc>
+    <priority>1</priority>
+</url>
+<url>
     <loc>https://fescue.github.io/Lazy-J/</loc>
     <priority>1</priority>
 </url>

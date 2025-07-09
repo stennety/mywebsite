@@ -22,7 +22,7 @@
 		</div>
 
 	<script>
-            const map = L.map('map').setView([45.5427433,-112.3388206], 9);
+            const map = L.map('map').setView([45.5438277,-112.3710139], 9);
             const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				maxZoom: 30,
 				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -58,7 +58,7 @@
 	        myCustomOverlay.addTo(map);
 	
 	        // Add a marker to the map at the same location as the map center
-	        var marker = L.marker([45.5427433,-112.3388206]).addTo(map);
+	        var marker = L.marker([45.5438277,-112.3710139]).addTo(map);
 
 	        marker.bindPopup("<b>Twin Bridges, Montana</b>").openPopup();
 	</script>

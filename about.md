@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Product strategist by day, AI tinkerer by night — powered by coffee and curiosity.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I use this blog to share and archive my thoughts on product management, AI, and building great products.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email](mailto:srinivas.tennety@gmail.com)
